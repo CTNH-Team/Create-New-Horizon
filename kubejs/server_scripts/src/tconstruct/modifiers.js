@@ -44,7 +44,7 @@ EntityEvents.hurt((event) => {
 PlayerEvents.loggedIn(event => {
     const player = event.player;
     if (!player.persistentData.contains('shield_cooldown')) {
-        player.persistentData.putInt('shield_cooldown', 120);
+        player.persistentData.putInt('shield_cooldown', 600);
     }
 });
 PlayerEvents.tick(event => {
@@ -57,27 +57,47 @@ PlayerEvents.tick(event => {
     }
 });
 EntityEvents.hurt((event) => {
-    let entity = event.entity; // 受伤实体
-    // 检查受伤实体是否为玩家
+    let entity = event.entity;
     if (entity && entity.isPlayer()) {
         let player = entity;
-        let handSlots = player.getHandSlots(); // 获取玩家手中的物品槽位（主手和副手）
-        let mainHandItem = null;
-
-        // 获取主手物品（通常是第一个槽位）
-        let iterator = handSlots.iterator();
-        if (iterator.hasNext())
-            mainHandItem = iterator.next(); // 主手物品是第一个槽位
-
-        if (mainHandItem && mainHandItem.hasTag('tconstruct:modifiable')) { // 检查主手物品是否为匠魂工具
-            let modifiers = mainHandItem.getNbt().getAsString(); // 获取工具的NBT
+        let totalLevel = 0;
+        
+        let mainHandItem = player.getMainHandItem();
+        if (mainHandItem && !mainHandItem.isEmpty() && mainHandItem.hasTag('tconstruct:modifiable')) {
+            let modifiers = mainHandItem.getNbt().getAsString();
             if (matchModifiers(modifiers, "fortification")) {
-                let lvl = getModifierLevel(modifiers, "fortification");
-                let world = player.level; // 获取实体所在的世界
-                if (player.persistentData.getInt('shield_cooldown') <= 0) {
-                    world.runCommandSilent(`/twilightforest shield @s set ${lvl}`);
-                    player.persistentData.putInt('shield_cooldown', 100 * (1 - 0.05 * lvl));
+                totalLevel += getModifierLevel(modifiers, "fortification");
+            }
+        }
+        
+        let offHandItem = player.getOffhandItem();
+        if (offHandItem && !offHandItem.isEmpty() && offHandItem.hasTag('tconstruct:modifiable')) {
+            let modifiers = offHandItem.getNbt().getAsString();
+            if (matchModifiers(modifiers, "fortification")) {
+                totalLevel += getModifierLevel(modifiers, "fortification");
+            }
+        }
+        
+        let armorSlots = player.getArmorSlots();
+        let armorIterator = armorSlots.iterator();
+        while (armorIterator.hasNext()) {
+            let armorItem = armorIterator.next();
+            if (armorItem && !armorItem.isEmpty() && armorItem.hasTag('tconstruct:modifiable')) {
+                let modifiers = armorItem.getNbt().getAsString();
+                if (matchModifiers(modifiers, "fortification")) {
+                    totalLevel += getModifierLevel(modifiers, "fortification");
                 }
+            }
+        }
+        
+        if (totalLevel > 0) {
+            let world = player.level;
+            if (player.persistentData.getInt('shield_cooldown') <= 0) {
+                let calculatedCooldown = 100 * (1 - 0.05 * totalLevel);
+                let finalCooldown = Math.max(400, calculatedCooldown);
+                
+                world.runCommandSilent(`/twilightforest shield @s set ${totalLevel}`);
+                player.persistentData.putInt('shield_cooldown', finalCooldown);
             }
         }
     }

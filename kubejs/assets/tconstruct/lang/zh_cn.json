@@ -6,6 +6,6 @@
     "material.gtceu.snow_steel.flavor": "用粑粑做的工具挺恶心的，不是吗？",
     "modifier.kubejs.fortification": "§e巫妖护盾",
     "modifier.kubejs.fortification.flavor": "§e你是巫妖王，那我是谁？",
-    "modifier.kubejs.fortification.description": "§e到攻击根据等级生成护盾，效果与护盾权杖无异(护甲上的该属性无效,每一级增加一层护盾并减少少许冷却)"
+    "modifier.kubejs.fortification.description": "§e到攻击根据等级生成护盾，效果与护盾权杖无异(每一级增加一层护盾并减少少许冷却)"
     
 }
