@@ -1646,7 +1646,7 @@ hash = "4b0543408c2d2a22e4816078a15b64d2e6a03676156b9fad0bd819653207612f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08AF6857D150C353.snbt"
-hash = "978257b5d25fa586b60333d48dae326f2da27074fd2183d2b3ce75f93a8a48ca"
+hash = "85a31fbe34ec62317a9a666c15e1708677402b7fd69836544a2787dffc589f65"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09F33579334F2607.snbt"
@@ -1694,7 +1694,7 @@ hash = "142f5e3d8f5140fb7bae17ebb903fff28db96a9f72cd9a3d99edc508da11693d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4408EF6F9E2E1624.snbt"
-hash = "7ec092f876b3f2b17a7ccef557a66ed6e2ba072aa45952a233455145cd7210c0"
+hash = "a3f588d95f819b426031297c8990eb0eaa1257444904befb6e67bc70b1cded8c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/449FB885B9E16D50.snbt"
@@ -1726,7 +1726,7 @@ hash = "832b50ae7f54139bd0ee6af328b41919b520201b69b3b586bfbea630934a5c21"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/681E3140690307AA.snbt"
-hash = "3fc658ec5456a0198da55fa211930a5483ab04e59ae8d1cfa304c19f816916f3"
+hash = "b6b6efa66b805914e8c034effb262e1b31cff5d9f07d45c65ca9320139355cdd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/71282A84EFB2E6DD.snbt"
@@ -4566,7 +4566,7 @@ hash = "69711a287e300e21c1babd996f25c57347879ce8f50915bd0210dd90c30e6344"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/zh_cn.json"
-hash = "00dc45d8d3ac4c8b56d31413aad504779597a53c57ebceeeb52c8435eb499132"
+hash = "8d32ea4237b1a35bbae3a192fcbb52db24f28102064a87a4a712af6b91c0724e"
 
 [[files]]
 file = "kubejs/assets/gtceu/textures/block/machines/inscriber/overlay_front.png"
@@ -4650,7 +4650,7 @@ hash = "27e8bd5e850b5a395dd7337f197b71a36eb1668dcfac180ffa97b6630a48962d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "f18706e0edb5fa18c334adc657d59d1252e4619677505ecc78cefe228cc838c3"
+hash = "770bdafb31c562a5929e382c1bd29d02f68af7265fd584aa5a075362ee0b5d09"
 
 [[files]]
 file = "kubejs/assets/kubejs/ponder/assembly_line.nbt"
@@ -11545,12 +11545,32 @@ file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consuma
 hash = "81cda57774100d4a705c54b79479d9c88b306aea768ddc2828f32ca9b265f880"
 
 [[files]]
+file = "kubejs/data/gregtech/blaze_burner_fuel/bio_diesel.json"
+hash = "091758ebb7063e3d8b889910d2650f69b39c251170a5513845cd133b13cb5873"
+
+[[files]]
+file = "kubejs/data/gregtech/blaze_burner_fuel/creosote.json"
+hash = "66822bd6de2df80673deac8f2c2e6647510a3252225b6e974608e7866f4af0e4"
+
+[[files]]
+file = "kubejs/data/gregtech/blaze_burner_fuel/diesel.json"
+hash = "08b8def83d24f9423406a084d2495bb78085740cb4758aa74e36fb7300031fb4"
+
+[[files]]
+file = "kubejs/data/gregtech/blaze_burner_fuel/etane_boosted_diesel.json"
+hash = "be527ede23090e7d35f5249350ef33f6917ea5b00c9a5b9dfedb26be2e26616c"
+
+[[files]]
 file = "kubejs/data/gregtech/blaze_burner_fuel/ethanol.json"
 hash = "4bce10e51bca21237008fb1544856cdfb973623385c4ecaa18e9f48c5a0a61f5"
 
 [[files]]
 file = "kubejs/data/gregtech/blaze_burner_fuel/high_octane_gasoline.json"
-hash = "bf5a438ba2e142b7b207dc1f2e74813cf1cb8e632efefe7db8845e6c0983d3ad"
+hash = "9938109d7f32dedfc056bc3bf6a13f57c9c4ab228b4dc5be1d3e67c8ce5caa1f"
+
+[[files]]
+file = "kubejs/data/gregtech/blaze_burner_fuel/light_fuel.json"
+hash = "7f1e911568bb294eec868717687f792373b1262cebd987e2eb2b7637fde87d5e"
 
 [[files]]
 file = "kubejs/data/gregtech/blaze_burner_fuel/oil.json"
@@ -11558,7 +11578,7 @@ hash = "ade5ffaa4e82a3d0171924e15630d1e6f4670b10e983003cb4172460b1506d20"
 
 [[files]]
 file = "kubejs/data/gregtech/blaze_burner_fuel/raw_bio_diesel.json"
-hash = "9941fe1d3591de1f21cc44a749897528f3b2cb2f62aca6bf0bae8d183601bdf5"
+hash = "389b2bb98a886c7901450efbe59d35636be17e70eb69839b0b3b6b9aec1292df"
 
 [[files]]
 file = "kubejs/data/gregtech/blaze_burner_fuel/seed_oil.json"
@@ -16706,7 +16726,7 @@ hash = "5a513929af4c273898f0d32f0d9d67c59b32dcb76ecda3b90d2b4b967b181d02"
 
 [[files]]
 file = "kubejs/server_scripts/src/cement.js"
-hash = "4715f3e8389feb6ce89881f158d812f7c04d586cd327bb2b9536847405215c9a"
+hash = "cb8ec9109a6ca3bdc4c3f25730b183dca8e05868c58613c5c9b5a1d7ad79a549"
 
 [[files]]
 file = "kubejs/server_scripts/src/crafttable.js"
@@ -16722,11 +16742,11 @@ hash = "8731501899379d62219dad28378e7c8d98d36f94fb3c1380180bd2af756480e0"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/create.js"
-hash = "d872403132153755d4078433ea856a08e2bb1aeb14f44418eb439a2b766ce808"
+hash = "6fc54cee35f255621b3e0b2b82babc9f38961a20e49351533c48cfac1d866bf7"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/createFallen.js"
-hash = "349760178364992c7cbee359d0cdb0d4c102010c035db6968fb69a9588fe6ef0"
+hash = "b5a0391bf8b16f1606bd435ef163b3d78f6bad710dd41379c9e381ba8e232ad1"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/dieselgenerator.js"
@@ -16734,7 +16754,7 @@ hash = "ec3b23d7ef25bfcc5fbd937f4258234297e8382061ecb3c16df7ce3a459b2a7b"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/metallurgy.js"
-hash = "763bdb9dc3104be8c724e04a1e0c1182fa4b6b89d525c3056cf0766da784b24d"
+hash = "ac54aa1e4ae0d3450f3d5d7bfd49d6f54dc453156a00507e46883d276b1a3ccf"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/oreexcavation.js"
@@ -16882,7 +16902,7 @@ hash = "14ad068878557c89c9cca941d5172da65f53351d574d7d8f431e77ffa1f2753d"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "606529bd76c880d8503fd29b48189937f3d5c767dd492dfc29437ba0dd1903fb"
+hash = "fc19699bf6c0ea2a062f839bc2ccd82421643af2d6ee3d7227d0915dbca0f7d6"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtmthings.js"
@@ -16926,7 +16946,7 @@ hash = "71462d20e8676fbc4504fd1e207ece54016c312d8a83d8fceb412f4b083c7163"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "4ac52a4b39f89fb5eab1e3f5132803a8dd268af4c266cfce0a769b2e4b7e32da"
+hash = "49e3a77d09fd56903e1652178daabef8c3c66d1d2640d89e86e9c6487b40394b"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedbackpacks.js"
@@ -16966,7 +16986,7 @@ hash = "0d743d269cdaa16c03c49291368db43a2f490f8b18837c544cc383e1ec2f998a"
 
 [[files]]
 file = "kubejs/server_scripts/src/util/recipes.js"
-hash = "89248b72cd3d3c484956bc56ce21a81fef067f3e8dc92ceb265a2759bc9e041b"
+hash = "625c73c7ad688a743d099a857505748902ed0d3138d6bf6e0739dd9314f8442f"
 
 [[files]]
 file = "kubejs/server_scripts/src/util/tconmodify.js"
@@ -16982,7 +17002,7 @@ hash = "d48a9033c9f49e9a6e54a93d636b5c83d4a6e31397816ece3ce4c3dc00fad2be"
 
 [[files]]
 file = "kubejs/startup_scripts/src/GT/GTmaterials.js"
-hash = "b45ce0710f9f61ee67cfef5bf1934710d36778d0233479d19035a3daf3348ff4"
+hash = "470cd0399a82374175eff7db00f3863f136e36ecf2a4a94491c00074106e2935"
 
 [[files]]
 file = "kubejs/startup_scripts/src/GT/GTrecipetypes.js"
@@ -17449,7 +17469,7 @@ metafile = true
 
 [[files]]
 file = "mods/event-wrapper.pw.toml"
-hash = "df3afc8bdfa71a016f6bf496fbc9cb78110f0c073766b1159fd381c61b555dc6"
+hash = "1004333faaea1092c29a6585dcba89e29e018eaad6a53608ff55e72f2f67e7ee"
 metafile = true
 
 [[files]]
@@ -17474,7 +17494,7 @@ metafile = true
 
 [[files]]
 file = "mods/extrabotany-reburn.pw.toml"
-hash = "994499f31fa6b01d0989f1dcbc356c3323a825a0faa8b68661a5ff4c831eb1fe"
+hash = "6ba25dff62063a886148ac993e190b82dbdbf9658b671383ad2503e42b84cad1"
 metafile = true
 
 [[files]]
@@ -17988,8 +18008,9 @@ hash = "4367bd8efc0b71c573a174f6e40b0aaf41afb57e2b9e39ba71539cd0799470a2"
 metafile = true
 
 [[files]]
-file = "mods/rechiseled.toml"
+file = "mods/rechiseled.pw.toml"
 hash = "715b5a18f4649156617c8868045f24d76a98f14cd46395da35799b164728ba01"
+metafile = true
 
 [[files]]
 file = "mods/rehooked.pw.toml"
