@@ -29,7 +29,10 @@ EntityEvents.hurt((event) => {
                 let lvl = getModifierLevel(modifiers, "snowcity");
                 let chance = lvl * 10; // 概率为等级*10
                 if (Utils.getRandom().nextInt(100) < chance) { // 以chance%的概率执行
-                    world.runCommandSilent(`/summon minecraft:item ${x} ${y} ${z} {Item:{id:"minecraft:gold",Count:1b}}`);
+                    world.runCommandSilent(`/summon minecraft:item ${x} ${y} ${z} {Item:{id:"minecraft:gold_ingot",Count:1b}}`);
+                }
+                if (Utils.getRandom().nextInt(1000) < chance) { // 以chance%的概率执行
+                    world.runCommandSilent(`/summon minecraft:item ${x} ${y} ${z} {Item:{id:"minecraft:gold_block",Count:1b}}`);
                 }
                 
             }
