@@ -17,7 +17,7 @@ ServerEvents.highPriorityData((event) => {
             .maille()
             .shieldCore()
             .setTraits((builder) => {
-                builder.addTrait("tconstruct:head", "kubejs:gaping", 1)
+                builder.addTrait("tconstruct:head", "kubejs:snowcity", 1)
                     .addTrait("tconstruct:armor", "kubejs:fortification", 1)
                     .addTrait("tconstruct:shield_core", "kubejs:fortification", 2)
             })

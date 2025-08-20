@@ -18,7 +18,7 @@ EntityEvents.hurt((event) => {
         if (mainHandItem.hasTag('tconstruct:modifiable')) {// 检查主手物品是否为匠魂工具
             let modifiers = mainHandItem.getNbt().getAsString(); // 获取工具的NBT
             // 检查NBT中是否包含 "kubejs:add_drop"
-            if (matchModifiers(modifiers, "gaping")) {
+            if (matchModifiers(modifiers, "snowcity")) {
                 let random = Utils.getRandom();
                 let offsetx = random.nextInt(-1, 2)
                 let offsety = random.nextInt(-1, 2)
@@ -26,7 +26,7 @@ EntityEvents.hurt((event) => {
                 let x = entity.x + offsetx; // 实体 X 坐标
                 let y = entity.y + 1; // 实体 Y 坐标上方 1 格
                 let z = entity.z + offsety; // 实体 Z 坐标
-                let lvl = getModifierLevel(modifiers, "gaping");
+                let lvl = getModifierLevel(modifiers, "snowcity");
                 let chance = lvl * 10; // 概率为等级*10
                 if (Utils.getRandom().nextInt(100) < chance) { // 以chance%的概率执行
                     world.runCommandSilent(`/summon minecraft:item ${x} ${y} ${z} {Item:{id:"minecraft:gold",Count:1b}}`);
