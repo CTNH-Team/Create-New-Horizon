@@ -29,9 +29,7 @@ EntityEvents.hurt((event) => {
                 let lvl = getModifierLevel(modifiers, "gaping");
                 let chance = lvl * 10; // 概率为等级*10
                 if (Utils.getRandom().nextInt(100) < chance) { // 以chance%的概率执行
-                    world.runCommandSilent(`/summon minecraft:item ${x} ${y} ${z} {Item:{id:"ctnhcore:animal_excreta",Count:1b}}`);
-                    world.runCommandSilent(`/effect give @s minecraft:nausea 10 1`);
-                    world.runCommandSilent(`/effect give @e[type=${entity.type}] minecraft:slowness 5 3`);
+                    world.runCommandSilent(`/summon minecraft:item ${x} ${y} ${z} {Item:{id:"minecraft:gold",Count:1b}}`);
                 }
                 
             }

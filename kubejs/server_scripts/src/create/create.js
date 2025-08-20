@@ -185,7 +185,6 @@ ServerEvents.recipes(event => {
         event.recipes.create.compacting(`gtceu:${i}_plate`, `2x #forge:ingots/${i}`)
     }
     event.recipes.create.compacting('gtceu:diamond_plate', '2x minecraft:diamond')
-    event.recipes.create.compacting('gtceu:snow_steel_ingot', '64x ctnhcore:animal_excreta')
     event.recipes.create.compacting('gtceu:emerald_plate', '2x minecraft:emerald')
     event.recipes.create.compacting('gtceu:nether_quartz_plate', '2x minecraft:quartz')
     event.recipes.create.compacting('gtceu:lapis_plate', '2x minecraft:lapis_lazuli')

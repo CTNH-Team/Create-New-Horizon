@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "snowstructures:galaxy_rail",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 40,
+        "separation": 20,
+        "salt": 42578351
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "galaxyrail": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                    "location": {
+                        "structure": "snowstructures:galaxy_rail"
+                        }
+                    }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "item": "minecraft:apple"
+         },
+         "title": {
+             "translate": "银河铁道..."
+         },
+         "description": {
+             "translate": "You...You...AOh...You know me..."
+         },
+         "frame": "task",    
+         "announce_to_chat": true,      
+         "hidden": false,    
+         "show_toast": true    
+    },
+    "parent": "snowstructures:begining",
+    "requirements": [  
+        ["galaxyrail"]
+    ],
+    "rewards": {   
+        "function": "snowstructures:galaxy_rail"
+    }
+}
