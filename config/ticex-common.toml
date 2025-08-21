@@ -1,9 +1,4 @@
 
-#RFFurnace Settings
-[rf_furnace]
-	#MAX Rate Capacity(RF/t)
-	rateCapacity = 100000
-
 [avaritia]
 	#Probability of a neutron pile is dropped by condensing modifier
 	condensingDropProbability = 0.003
@@ -15,11 +10,6 @@
 [apotheosis]
 	#Maximum level of enchantments granted by override
 	overrideLevelLimit = 255
-
-["cc:tweaked"]
-	#
-	#CAUTION: Setting the value to "true" may BREAK the game balance and your world!
-	provideProperties = false
 
 #Provided by AddonAPI:
 #Other Mod Compat Options
@@ -38,4 +28,19 @@
 	"Create Compat" = true
 	"TaCz Compat" = true
 	"Curios API Compat" = true
+
+#General
+[general]
+	#Using ticex-more-config.toml(If true, it will override your datapack!)
+	useMoreConfig = true
+	#MAX Rate Capacity of RF Furnace(RF/t)
+	rateCapacity = 100000
+
+[curios]
+	#Ticks remaining on the gauntlet after a gauntlet shot hits
+	gantletRemainTicks = 40
+	#Blacklist of entities that do not drop the glove.
+	gloveDropBlacklist = ["minecraft:armor_stand", "dummmmmmy:target_dummy"]
+	#Use gloveDropBlacklist as whitelist
+	gloveDropBlacklistAsWhitelist = false
 
