@@ -164,7 +164,7 @@ ServerEvents.recipes(event => {
     ctnh.assembler('ctnhcore:photon_press_cond_block')
         .itemOutputs('ctnhcore:photon_press_cond_block')
         .itemInputs('gtceu:neutron_reflector')
-        .itemInputs('gtnn:plate_radiation_protection')
+        .itemInputs('ctnhcore:plate_radiation_protection')
         .itemInputs('gtceu:dense_cadmium_sulfide_plate')
         .itemInputs('kubejs:measurement_pv_cell')
         .inputFluids('gtceu:sunnarium 576')

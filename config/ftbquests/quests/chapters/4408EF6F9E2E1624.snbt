@@ -28,6 +28,7 @@
 			]
 			id: "6DB370790E927958"
 			size: 1.75d
+			subtitle: "可以敲锻铁"
 			tasks: [{
 				id: "38BEFB810C42496A"
 				item: "create:mechanical_press"
@@ -64,6 +65,7 @@
 		}
 		{
 			dependencies: ["5E5F4837CC1F047A"]
+			description: ["最好用的应力源"]
 			id: "5697D10ED6CE81C6"
 			rewards: [{
 				count: 8
@@ -77,8 +79,8 @@
 				item: "create:windmill_bearing"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.0d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7E591C0E7278D12F"]
@@ -95,11 +97,12 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6D9003172EF921C9"]
 			id: "543DF835C9FE39CC"
+			subtitle: "第一步"
 			tasks: [{
 				id: "30F4E261C4972ACC"
 				item: "create:basin"
@@ -141,7 +144,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["5E5F4837CC1F047A"]
+			dependencies: [
+				"5E5F4837CC1F047A"
+				"2A633C681F979398"
+			]
 			id: "700219157D99E263"
 			rewards: [{
 				count: 32
@@ -157,7 +163,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 5.25d
+			y: 6.125d
 		}
 		{
 			dependencies: ["700219157D99E263"]
@@ -180,25 +186,28 @@
 				item: "create:portable_storage_interface"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["4CDCD4A5CB57415D"]
-			id: "53B3B59D47455ACE"
-			tasks: [
-				{
-					count: 16L
-					id: "7EDD66D9685F95D3"
-					item: "gtceu:bronze_ingot"
-					type: "item"
-				}
-				{
-					id: "686DC8D9F9A8B49E"
-					item: "gtceu:bronze_bucket"
-					type: "item"
-				}
+			dependencies: [
+				"4CDCD4A5CB57415D"
+				"3509D7B8E361DF68"
 			]
+			id: "53B3B59D47455ACE"
+			rewards: [{
+				count: 64
+				id: "3F9247114746E91A"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				count: 16L
+				id: "7EDD66D9685F95D3"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 9.0d
 		}
@@ -215,21 +224,17 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["4CDCD4A5CB57415D"]
-			id: "2B430B944944D2C1"
-			tasks: [
-				{
-					count: 16L
-					id: "1CC18E3E3383CD44"
-					item: "gtceu:brass_ingot"
-					type: "item"
-				}
-				{
-					id: "4F818EE1086D2543"
-					item: "gtceu:brass_bucket"
-					type: "item"
-				}
+			dependencies: [
+				"4CDCD4A5CB57415D"
+				"3509D7B8E361DF68"
 			]
+			id: "2B430B944944D2C1"
+			tasks: [{
+				count: 16L
+				id: "1CC18E3E3383CD44"
+				item: "gtceu:brass_ingot"
+				type: "item"
+			}]
 			x: -7.0d
 			y: 9.0d
 		}
@@ -254,8 +259,8 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.0d
+			x: -3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2460426DE77EF0F4"]
@@ -301,6 +306,7 @@
 		{
 			dependencies: ["25CADEFA5DCB0244"]
 			id: "125F3CADBBD2441A"
+			subtitle: "看看煤炭吧，但是你有树场的话木炭也不错？"
 			tasks: [{
 				id: "63644489206A8ECA"
 				item: "minecraft:charcoal"
@@ -312,6 +318,7 @@
 		{
 			dependencies: ["25CADEFA5DCB0244"]
 			id: "6FDDD78D3F1CD965"
+			subtitle: "前期最好的固体燃料"
 			tasks: [{
 				id: "4CB81B2B2117E68E"
 				item: "gtceu:coke_gem"
@@ -323,13 +330,14 @@
 		{
 			dependencies: ["25CADEFA5DCB0244"]
 			id: "2A633C681F979398"
+			subtitle: "前期最好的液体燃料，建议存多点"
 			tasks: [{
 				id: "29F469C28E82D4A2"
 				item: "gtceu:creosote_bucket"
 				type: "item"
 			}]
 			x: 0.5d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2A633C681F979398"]
@@ -341,7 +349,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2460426DE77EF0F4"]
@@ -351,6 +359,7 @@
 				item: "create:empty_blaze_burner"
 				type: "item"
 			}]
+			subtitle: "拿它右键烈焰人"
 			tasks: [{
 				id: "2DC908B8278B74CD"
 				item: "create:empty_blaze_burner"
@@ -377,6 +386,7 @@
 		{
 			dependencies: ["7E591C0E7278D12F"]
 			id: "4ABB43D13EBB512D"
+			subtitle: "不需要动力的产水"
 			tasks: [
 				{
 					id: "178BF7B8042CF8C5"
@@ -402,12 +412,13 @@
 				}
 			]
 			x: 3.5d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
 				"700219157D99E263"
 				"5CC765087238C3A3"
+				"7E16AD4CB7F6CDE6"
 			]
 			id: "7C9B89066D34939E"
 			tasks: [{
@@ -420,6 +431,12 @@
 		}
 		{
 			id: "5CC765087238C3A3"
+			rewards: [{
+				count: 128
+				id: "4D3EF1EFEC73E679"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest31.subtitle}"
 			tasks: [{
 				id: "1CEC62A509B7D392"
@@ -431,8 +448,10 @@
 		}
 		{
 			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest32.description1}"]
-			icon: "minecraft:blaze_rod"
+			icon: "tconstruct:blaze_head"
 			id: "29EDBE0D432B1D62"
+			shape: "square"
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest32.subtitle}"
 			tasks: [
 				{
@@ -453,7 +472,9 @@
 		}
 		{
 			dependencies: ["28D6FA3341B59AA4"]
+			description: ["建议不看,因为它很快就没用了"]
 			id: "1454540D8B7CCBF4"
+			subtitle: "对的，大机器需要我"
 			tasks: [{
 				id: "2E4145AB5AAD7F40"
 				item: "gtceu:potin_gear"
@@ -466,12 +487,13 @@
 			dependencies: ["5BA86B01337A91D5"]
 			id: "6D9003172EF921C9"
 			rewards: [{
-				count: 16
+				count: 64
 				id: "6947235FD465275D"
 				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
-			size: 1.0d
+			shape: "circle"
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest34.subtitle}"
 			tasks: [{
 				id: "2432B1FD7CD5EFE3"
@@ -483,6 +505,7 @@
 		}
 		{
 			dependencies: ["25CADEFA5DCB0244"]
+			description: ["需要橡胶树"]
 			id: "0829FFD7D670E5DE"
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest35.subtitle}"
 			tasks: [{
@@ -504,7 +527,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -532,7 +555,7 @@
 				item: "gtceu:bronze_plate"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: 9.0d
 		}
 		{
@@ -542,16 +565,18 @@
 			]
 			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest44.description1}"]
 			id: "3C308B7405CFD88F"
+			size: 1.5d
 			tasks: [{
 				id: "63F4DD43F5FA3FB7"
 				item: "gtceu:bronze_brick_casing"
 				type: "item"
 			}]
-			x: 0.0d
+			title: "格雷蒸汽的起点"
+			x: 0.5d
 			y: 9.0d
 		}
 		{
-			dependencies: ["3CEE67AB21E05293"]
+			dependencies: ["3C308B7405CFD88F"]
 			id: "4BCCA322FC238071"
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest45.subtitle}"
 			tasks: [{
@@ -559,7 +584,7 @@
 				item: "gtceu:lp_steam_solid_boiler"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 10.5d
 		}
 		{
@@ -571,7 +596,7 @@
 				item: "gtceu:lp_steam_liquid_boiler"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 10.5d
 		}
 		{
@@ -584,7 +609,7 @@
 				item: "gtceu:lp_steam_solar_boiler"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -0.5d
 			y: 10.5d
 		}
 		{
@@ -595,7 +620,7 @@
 				item: "gtceu:lp_steam_extractor"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: 14.0d
 		}
 		{
@@ -661,6 +686,7 @@
 		{
 			dependencies: ["57B6D6BFE7577AFA"]
 			id: "4202B676480913ED"
+			subtitle: "神之手！"
 			tasks: [{
 				id: "1853003D8D148DE4"
 				item: "create:deployer"
@@ -683,6 +709,7 @@
 		{
 			dependencies: ["39C2B774D392AA8F"]
 			id: "3CEE67AB21E05293"
+			subtitle: "野外有砖矿脉吗？"
 			tasks: [{
 				id: "0CE0AD27512BAFBB"
 				item: "minecraft:bricks"
@@ -694,11 +721,13 @@
 		{
 			id: "39C2B774D392AA8F"
 			rewards: [{
-				count: 8
+				count: 64
 				id: "79A360C211F446EE"
 				item: "minecraft:brick"
 				type: "item"
 			}]
+			size: 1.5d
+			subtitle: "挖空所有黏土，垄断所有人的科技！"
 			tasks: [
 				{
 					id: "54C66582F6EC803D"
@@ -712,7 +741,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest57.title}"
-			x: 4.5d
+			x: 5.0d
 			y: 9.0d
 		}
 		{
@@ -723,7 +752,7 @@
 				item: "gtceu:lp_steam_alloy_smelter"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 1.5d
 			y: 14.0d
 		}
 		{
@@ -735,7 +764,7 @@
 				item: "gtceu:lp_steam_macerator"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 2.5d
 			y: 14.0d
 		}
 		{
@@ -790,6 +819,7 @@
 				"106DC15191737D98"
 			]
 			id: "156B500126054BC2"
+			subtitle: "需要润滑油"
 			tasks: [{
 				id: "12FCB62B90907890"
 				item: "createoreexcavation:drilling_machine"
@@ -848,18 +878,6 @@
 			}]
 			x: -10.0d
 			y: 17.0d
-		}
-		{
-			dependencies: ["7F03124574238455"]
-			id: "04069333A19D2DB3"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest69.subtitle}"
-			tasks: [{
-				id: "76453F78807F1CDB"
-				item: "tconstruct:seared_melter"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 11.0d
 		}
 		{
 			dependencies: ["106DC15191737D98"]
@@ -963,6 +981,7 @@
 		{
 			dependencies: ["106DC15191737D98"]
 			id: "2D25ECAC3AC7C22C"
+			subtitle: "神"
 			tasks: [{
 				id: "5CE1B7D9315320A8"
 				item: "create:encased_fan"
@@ -974,6 +993,7 @@
 		{
 			dependencies: ["3AE55A55A5EBBA5A"]
 			id: "44EDCCEAD0112C8C"
+			subtitle: "可以拿来整绿宝石（逃课筛选机）"
 			tasks: [{
 				id: "07995972E46CC2CF"
 				item: {
@@ -1017,7 +1037,7 @@
 				item: "gtceu:lp_steam_compressor"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 14.0d
 		}
 		{
@@ -1056,7 +1076,7 @@
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest79.title}"
 			x: -11.5d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -1075,15 +1095,16 @@
 			y: 18.5d
 		}
 		{
-			dependencies: ["1CCE6AFED399CADF"]
+			dependencies: ["3AB5FDB74D7FA100"]
 			id: "6F4DA29DA86EAFCD"
+			subtitle: "恭喜你，离LV更进一步"
 			tasks: [{
 				id: "11D46D61E3278B77"
 				item: "gtceu:rubber_ingot"
 				type: "item"
 			}]
 			x: -14.0d
-			y: 15.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["1BDD550BE6C77C28"]
@@ -1094,30 +1115,31 @@
 				type: "item"
 			}]
 			x: -17.0d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["37BD0BB07046E310"]
 			id: "00172F657F4BAB7A"
-			tasks: [
-				{
-					id: "63AE0E4AF99B81FE"
-					item: "gtceu:primitive_blast_furnace"
-					type: "item"
-				}
-				{
-					count: 32L
-					id: "57967D330805BEBE"
-					item: "gtceu:firebricks"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "0BFCC8682306A9C6"
+				item: "gtceu:firebricks"
+				type: "item"
+			}]
+			subtitle: "送你点！"
+			tasks: [{
+				count: 32L
+				id: "57967D330805BEBE"
+				item: "gtceu:firebricks"
+				type: "item"
+			}]
 			x: -17.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6FDDD78D3F1CD965"]
 			id: "5A0A0CEC3053CC8E"
+			subtitle: "碳刷需要它,钢也需要"
 			tasks: [{
 				id: "311C45CE21038447"
 				item: "gtceu:coke_dust"
@@ -1127,35 +1149,30 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["00172F657F4BAB7A"]
+			dependencies: ["105D45F86A0B3A55"]
 			id: "1162E347E7C00175"
 			shape: "gear"
 			size: 2.5d
+			subtitle: "大炼钢时代"
 			tasks: [{
 				id: "6436E6490E808D9A"
 				item: "gtceu:steel_ingot"
 				type: "item"
 			}]
-			x: -17.0d
-			y: 12.0d
+			x: -16.988095238095234d
+			y: 13.666666666666671d
 		}
 		{
 			dependencies: ["5E5F4837CC1F047A"]
 			id: "713CA44106751CCA"
-			tasks: [
-				{
-					id: "5D1BAF9CE51E4E1A"
-					item: "createmetallurgy:mechanical_belt_grinder"
-					type: "item"
-				}
-				{
-					id: "0C7935C9EFEC7860"
-					item: "vintageimprovements:belt_grinder"
-					type: "item"
-				}
-			]
-			x: -7.5d
-			y: 1.0d
+			subtitle: "解放双手，不是吗？"
+			tasks: [{
+				id: "5D1BAF9CE51E4E1A"
+				item: "createmetallurgy:mechanical_belt_grinder"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
 		}
 		{
 			id: "563D74DC666F2A57"
@@ -1172,6 +1189,7 @@
 			dependencies: ["5E5F4837CC1F047A"]
 			id: "6A9845F85704E2D4"
 			size: 1.75d
+			subtitle: "节省你的材料，还有工具！"
 			tasks: [{
 				id: "1F36789281D83E9C"
 				item: "vintageimprovements:spring_coiling_machine"
@@ -1181,10 +1199,7 @@
 			y: 0.875d
 		}
 		{
-			dependencies: [
-				"06C3AF2D5D8F694A"
-				"1454540D8B7CCBF4"
-			]
+			dependencies: ["06C3AF2D5D8F694A"]
 			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest89.description1}"]
 			id: "2BCE6D5336CADE73"
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest89.subtitle}"
@@ -1199,28 +1214,31 @@
 		{
 			dependencies: ["06C3AF2D5D8F694A"]
 			id: "01CC0041CF5F9033"
+			subtitle: "橡胶树叶可以1：1变成树脂"
 			tasks: [{
 				id: "7B6EF3315A316D5F"
 				item: "vintageimprovements:vibrating_table"
 				type: "item"
 			}]
 			x: -15.5d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6CDD36A3C742B7F2"]
 			id: "5B9EBE5F72944F67"
+			subtitle: "代替你的螺丝刀和锉刀"
 			tasks: [{
 				id: "38330AE664405CCF"
 				item: "vintageimprovements:lathe"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -8.5d
 			y: 12.5d
 		}
 		{
 			dependencies: ["06C3AF2D5D8F694A"]
 			id: "1BDD550BE6C77C28"
+			subtitle: "压缩耐火砖"
 			tasks: [{
 				id: "0C354596F30588B4"
 				item: "vintageimprovements:vacuum_chamber"
@@ -1230,23 +1248,13 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["53172FDEC289671A"]
-			id: "2601533658029CE8"
-			tasks: [{
-				id: "2F675F714AF56F2D"
-				item: "gtceu:bronze_small_fluid_pipe"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 15.5d
-		}
-		{
 			dependencies: [
 				"6A9845F85704E2D4"
 				"5E5F4837CC1F047A"
 			]
 			dependency_requirement: "one_completed"
 			id: "06C3AF2D5D8F694A"
+			subtitle: "如果你觉得卷簧机麻烦，手搓也可以"
 			tasks: [{
 				id: "06DC5E54CC23C978"
 				item: "gtceu:iron_spring"
@@ -1290,19 +1298,9 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["5B9EBE5F72944F67"]
-			id: "53172FDEC289671A"
-			tasks: [{
-				id: "2A57A8B1C9D6AC6F"
-				item: "vintageimprovements:curving_press"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 14.0d
-		}
-		{
 			dependencies: ["01CC0041CF5F9033"]
 			id: "497999198D773D40"
+			subtitle: "当然你可以砍树，但我更希望你做上面那个机器"
 			tasks: [{
 				id: "13D66DE408F1EA39"
 				item: "gtceu:sticky_resin"
@@ -1313,18 +1311,7 @@
 		}
 		{
 			dependencies: ["1CE1218562D7323C"]
-			id: "31EF6EC8AE9E82E9"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest99.subtitle}"
-			tasks: [{
-				id: "72787FCF0A5BF942"
-				item: "gtceu:hp_steam_macerator"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 15.5d
-		}
-		{
-			dependencies: ["1CE1218562D7323C"]
+			description: ["没人会做它的钢质版本吧？(指小机器版)"]
 			id: "52FCEA9E4B5D2E7E"
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest100.subtitle}"
 			tasks: [{
@@ -1332,19 +1319,7 @@
 				item: "gtceu:steam_grinder"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 15.5d
-		}
-		{
-			dependencies: ["51CF4432B8957152"]
-			id: "33FD35C631AF3430"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest101.subtitle}"
-			tasks: [{
-				id: "6CDC0EC02E408CA7"
-				item: "gtceu:steam_foundry"
-				type: "item"
-			}]
-			x: 3.0d
+			x: 2.5d
 			y: 15.5d
 		}
 		{
@@ -1355,7 +1330,7 @@
 				item: "gtceu:hp_steam_alloy_smelter"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 1.5d
 			y: 15.5d
 		}
 		{
@@ -1366,31 +1341,8 @@
 				item: "gtceu:hp_steam_compressor"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.5d
 			y: 15.5d
-		}
-		{
-			dependencies: ["3D8EB8D17BDB05C3"]
-			id: "5D6E62A853031740"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest104.subtitle}"
-			tasks: [{
-				id: "70D181C487E4F4BB"
-				item: "gtceu:steam_pressor"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 15.5d
-		}
-		{
-			dependencies: ["6971EC4F31A1F469"]
-			id: "7864AD2B4541E53C"
-			tasks: [{
-				id: "5079D539F2B60474"
-				item: "gtceu:hp_steam_liquid_boiler"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 10.5d
 		}
 		{
 			dependencies: ["7256DB5E60516156"]
@@ -1400,33 +1352,12 @@
 				item: "gtceu:hp_steam_extractor"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 15.5d
-		}
-		{
-			dependencies: ["4BCCA322FC238071"]
-			id: "7E91BBFDF577B69F"
-			tasks: [{
-				id: "1114A71EEE6780C2"
-				item: "gtceu:hp_steam_solid_boiler"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 10.5d
-		}
-		{
-			dependencies: ["36ABEA2C247D3E71"]
-			id: "7709BE728B7F61F6"
-			tasks: [{
-				id: "40EA5A7755A9A445"
-				item: "gtceu:hp_steam_furnace"
-				type: "item"
-			}]
-			x: 0.0d
+			x: -1.5d
 			y: 15.5d
 		}
 		{
 			dependencies: ["36ABEA2C247D3E71"]
+			description: ["没人会做它的钢质版本吧？(指小机器的升级版)"]
 			id: "717155F612FC68E2"
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest109.subtitle}"
 			tasks: [{
@@ -1434,7 +1365,7 @@
 				item: "gtceu:steam_oven"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 15.5d
 		}
 		{
@@ -1447,12 +1378,16 @@
 				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest110.task_+3764549539789757932.title}"
 				type: "checkmark"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: 12.5d
 		}
 		{
-			dependencies: ["49B597AA5C08DC1E"]
+			dependencies: [
+				"49B597AA5C08DC1E"
+				"2A0DB69B5E67D674"
+			]
 			id: "351809CC7F8F9D7B"
+			subtitle: "去找毒化洞穴的晶体硫，或者离心地狱岩粉"
 			tasks: [{
 				id: "2A5F413D7ECC1951"
 				item: "kubejs:rubber_powder"
@@ -1463,32 +1398,24 @@
 		}
 		{
 			id: "3509D7B8E361DF68"
+			rewards: [{
+				id: "1CEE828A028C1F67"
+				item: "tconstruct:ingot_cast"
+				type: "item"
+			}]
+			subtitle: "将液体固化,或是制作模具"
 			tasks: [{
 				id: "309762CDFF82C6E6"
 				item: "tconstruct:seared_table"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 13.0d
+			x: -5.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
-				"3509D7B8E361DF68"
-				"3AB5FDB74D7FA100"
-			]
-			id: "1CCE6AFED399CADF"
-			tasks: [{
-				id: "1419B44977CA9077"
-				item: "gtceu:rubber_block"
-				type: "item"
-			}]
-			x: -14.0d
-			y: 13.0d
-		}
-		{
-			dependencies: [
-				"04069333A19D2DB3"
 				"351809CC7F8F9D7B"
+				"7F03124574238455"
 			]
 			id: "3AB5FDB74D7FA100"
 			optional: true
@@ -1510,26 +1437,23 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["62EF732FB4F858C8"]
-			id: "127BA4CAA4894852"
-			tasks: [{
-				id: "56C1DB6692D77C65"
-				item: "gtceu:hp_steam_solar_boiler"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 10.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
-				"3035A92235772F73"
-				"1477D22EEBD4B677"
+				"3AB5FDB74D7FA100"
+				"00172F657F4BAB7A"
+				"41D41ED992083C68"
 			]
-			description: ["记得按W查看用法"]
+			description: ["记得按W查看用法,最小是2*1*2，最大是5*256*5，记得下方放烈焰人燃烧室。"]
 			id: "105D45F86A0B3A55"
+			rewards: [{
+				count: 19
+				id: "1D10295310EE5017"
+				item: "createmetallurgy:industrial_crucible"
+				type: "item"
+			}]
+			size: 2.0d
 			subtitle: "这玩意，熟悉的感觉"
 			tasks: [
 				{
@@ -1544,23 +1468,34 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: 20.0d
+			title: "炼钢坩埚，何时来的！？"
+			x: -17.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["6CDD36A3C742B7F2"]
 			hide_until_deps_complete: false
 			id: "7F03124574238455"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest68.subtitle}"
-			tasks: [{
-				id: "1B1B036A4CC04483"
-				item: "tconstruct:seared_heater"
-				type: "item"
-			}]
-			x: -11.75d
-			y: 11.0d
+			size: 2.0d
+			subtitle: "获取橡胶，或是开始你的匠魂之旅"
+			tasks: [
+				{
+					id: "1B1B036A4CC04483"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "19D89EF6BB76DD9E"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+			]
+			title: "匠魂的开始"
+			x: -12.41666666666665d
+			y: 11.047619047619044d
 		}
 		{
+			dependencies: ["5E5F4837CC1F047A"]
 			id: "4CDCD4A5CB57415D"
 			tasks: [
 				{
@@ -1587,6 +1522,136 @@
 			title: "冶金学"
 			x: -5.5d
 			y: 7.0d
+		}
+		{
+			id: "7E16AD4CB7F6CDE6"
+			rewards: [{
+				count: 64
+				id: "2A57831AAA10ACA4"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			subtitle: "玫瑰石英需要它"
+			tasks: [{
+				id: "43A1B3E5A1DBDF40"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 7.0d
+		}
+		{
+			id: "789BB6304FC5B584"
+			rewards: [{
+				count: 64
+				id: "19501FA92690579D"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			subtitle: "无限水的忠实拥护者"
+			tasks: [{
+				id: "586FCED7C02EE5D7"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"37C84B86D958F123"
+				"445E080E7655B3B1"
+			]
+			dependency_requirement: "one_completed"
+			id: "41D41ED992083C68"
+			subtitle: "毕竟炼钢需要更好的料"
+			tasks: [{
+				id: "3C2DAFC2C873DAF8"
+				item: "ctnhcore:refined_iron_ingot"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["00172F657F4BAB7A"]
+			id: "37C84B86D958F123"
+			subtitle: "更好的获得铁方坯的手段，不过要钢"
+			tasks: [{
+				id: "49BF6627F311BAC2"
+				item: "ctnhcore:sintering_kiln"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5F7EAD64388EBAD2"]
+			id: "445E080E7655B3B1"
+			subtitle: "待处理的钢粉"
+			tasks: [{
+				id: "483C5389C8D0A271"
+				item: "gtceu:steel_precursor_dust"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["525ACD2BD801E168"]
+			id: "5F7EAD64388EBAD2"
+			rewards: [{
+				count: 16
+				id: "19595AC152F76C36"
+				item: "gtceu:wrought_iron_dust"
+				type: "item"
+			}]
+			subtitle: "下一步是什么呢？炼钢！"
+			tasks: [{
+				id: "02D9926E69D97D76"
+				item: "gtceu:wrought_iron_dust"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 5.0d
+		}
+		{
+			icon: "gtceu:wrought_iron_ingot"
+			id: "525ACD2BD801E168"
+			rewards: [{
+				count: 16
+				id: "36EF81ECAE407D67"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "锻铁锭再也不是由粒变锭了！"
+			tasks: [
+				{
+					id: "1416E8E3A9EF85CC"
+					item: "gtceu:hot_high_temp_wrought_precursor_ingot"
+					type: "item"
+				}
+				{
+					id: "00A53FF05AB61960"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+			]
+			title: "关于锻铁锭"
+			x: -21.5d
+			y: 2.5d
+		}
+		{
+			id: "7F952CB3B0AF44C0"
+			subtitle: "其实EIO的管道也挺好的"
+			tasks: [{
+				id: "6AD63D8CCB3D0022"
+				item: "enderio:fluid_conduit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
 		}
 	]
 	title: "{ftbquests.chapter.4408EF6F9E2E1624.title}"

@@ -121,7 +121,7 @@ Ponder.registry(event=>{
 
 //中子活化器
 Ponder.registry(event=>{
-    event.create('gtnn:neutron_activator')
+    event.create('ctnhcore:neutron_activator')
     .scene("neutron_activator_building",
         "How to build a gregtech multiblock",
         "kubejs:neutron_activator",

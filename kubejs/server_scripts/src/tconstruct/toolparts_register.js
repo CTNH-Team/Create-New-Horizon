@@ -1,5 +1,5 @@
 ServerEvents.highPriorityData((event) => {
-    //雪城肛
+    //雪城钢
     addTConMaterial(event, "gtceu:snow_steel", (builder) => {
         builder.visibility(2, false) // 这里也可以用.tier(tier: number)方法和.hidden(hidden: boolean)方法, .visibility(tier: number, hidden: boolean)方法只是把这俩给合并了
             .craftable(false)
@@ -17,8 +17,9 @@ ServerEvents.highPriorityData((event) => {
             .maille()
             .shieldCore()
             .setTraits((builder) => {
-                builder.addTrait("tconstruct:head", "kubejs:gaping", 1)
-                    .addTrait("tconstruct:shield_core", "kubejs:fortification", 3)
+                builder.addTrait("tconstruct:head", "kubejs:snowcity", 1)
+                    .addTrait("tconstruct:armor", "kubejs:fortification", 1)
+                    .addTrait("tconstruct:shield_core", "kubejs:fortification", 2)
             })
     })
 })

@@ -1,0 +1,6 @@
+{
+    "fluid": "gtceu:light_fuel",
+    "burnTime": 35,
+    "superHeat": false,
+    "amountConsumedPerTick": 1
+}

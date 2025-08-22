@@ -455,7 +455,7 @@
 			dependencies: ["1B4FFE71B4C66E14"]
 			icon: "minecraft:iron_ingot"
 			id: "5BA86B01337A91D5"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest13.subtitle}"
+			subtitle: "初期你最需要的东西"
 			tasks: [
 				{
 					count: 16L

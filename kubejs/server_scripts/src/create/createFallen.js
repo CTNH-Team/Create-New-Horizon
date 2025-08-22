@@ -399,5 +399,6 @@ ServerEvents.recipes(event => {
  //Melting -> Diamond into 200mb Molten Gold in 90 ticks with Heated condition.
  //这个是橡胶的相关配方
     ServerEvents.recipes(event =>{
-	event.recipes.create.mixing('kubejs:rubber_powder', ['gtceu:sulfur_dust','3x gtceu:raw_rubber_dust']).heated()
+      event.recipes.create.mixing('kubejs:rubber_powder', ['gtceu:sulfur_dust', '3x gtceu:raw_rubber_dust']).heated()
+      event.recipes.create.mixing('kubejs:rubber_powder', ['alexscaves:sulfur_dust', '3x gtceu:raw_rubber_dust']).heated()
 	})

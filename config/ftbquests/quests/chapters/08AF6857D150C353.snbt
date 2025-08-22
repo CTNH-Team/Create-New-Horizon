@@ -18,8 +18,15 @@
 			icon: "ctpp:steel_mechanism"
 			icon_scale: 1.3d
 			id: "7D76859D3E40A235"
+			rewards: [{
+				count: 64
+				id: "5539C16B29EF2828"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "钢铁时代的证明"
 			tasks: [{
 				id: "1D632714EC01F7A6"
 				item: "ctpp:steel_mechanism"
@@ -444,11 +451,9 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"712E77CB55012649"
-				"2D138FB6F66ED4D5"
-			]
+			dependencies: ["2D138FB6F66ED4D5"]
 			id: "4A20A744ACDB0ABF"
+			subtitle: "很多种子都能变成种子油"
 			tasks: [{
 				id: "27A801A962148FFC"
 				item: "gtceu:seed_oil_bucket"
@@ -467,24 +472,6 @@
 			}]
 			x: -4.0d
 			y: 0.0d
-		}
-		{
-			id: "712E77CB55012649"
-			tasks: [{
-				id: "0DDAD40EFABDDB77"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:seeds"
-					}
-				}
-				title: "{ftbquests.chapter.08AF6857D150C353.quest35.task_+998343428217363319.title}"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.08AF6857D150C353.quest35.title}"
-			x: 0.0d
-			y: -2.5d
 		}
 		{
 			id: "10E9DB3C92C8B969"
@@ -571,7 +558,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["41E48BCAEAD9D47E"]
+			dependencies: [
+				"41E48BCAEAD9D47E"
+				"2D9F762371DEDF70"
+			]
 			id: "54A0B48F51F12647"
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest56.subtitle}"
 			tasks: [{
@@ -580,7 +570,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 7.5d
+			y: 3.0d
 		}
 		{
 			id: "23FD399F5B59DA53"
@@ -626,17 +616,23 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
 				"2CB9C64B6AD4B61B"
 				"0B8D27D4FAA175B9"
-				"2866385471094DB9"
+				"3AFD46E811ED67AD"
 			]
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.08AF6857D150C353.quest68.description1}"]
 			id: "41E48BCAEAD9D47E"
+			rewards: [{
+				count: 16
+				id: "52CA0458C327CBF5"
+				item: "kubejs:general_circuit_lv"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest68.subtitle}"
 			tasks: [{
 				id: "4642660A4797E594"
@@ -681,6 +677,7 @@
 		{
 			dependencies: ["67EA5AED4C89F28E"]
 			id: "4B90C12A9AD3F488"
+			subtitle: "用手抡锤，或是用机器"
 			tasks: [{
 				id: "1407C9F660BC9038"
 				item: "gtceu:copper_foil"
@@ -688,20 +685,6 @@
 			}]
 			x: -4.5d
 			y: 4.5d
-		}
-		{
-			dependencies: [
-				"2D9F762371DEDF70"
-				"3AFD46E811ED67AD"
-			]
-			id: "2866385471094DB9"
-			tasks: [{
-				id: "1494ABEC12B465FD"
-				item: "gtceu:lv_1a_energy_converter"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 3.0d
 		}
 		{
 			description: [
@@ -742,7 +725,7 @@
 				item: "gtceu:bronze_large_boiler"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -3.0d
 			y: 3.0d
 		}
 		{

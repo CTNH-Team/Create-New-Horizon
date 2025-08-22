@@ -507,7 +507,7 @@
 			}]
 			tasks: [{
 				id: "2BE1E172B3A6B318"
-				item: "gtnn:t2_chip"
+				item: "ctnhcore:t2_chip"
 				type: "item"
 			}]
 			x: 2.0d
@@ -524,7 +524,7 @@
 			}]
 			tasks: [{
 				id: "039101F617832C52"
-				item: "gtnn:heavy_ingot_t2"
+				item: "ctnhcore:heavy_ingot_t2"
 				type: "item"
 			}]
 			x: 2.0d
@@ -944,7 +944,7 @@
 			id: "702514667DE21D74"
 			tasks: [{
 				id: "32DE4A687636EFC6"
-				item: "gtnn:orange_metal_catalyst"
+				item: "ctnhcore:orange_metal_catalyst"
 				type: "item"
 			}]
 			x: -11.5d

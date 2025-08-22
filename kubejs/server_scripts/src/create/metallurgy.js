@@ -263,4 +263,14 @@ ServerEvents.recipes(event => {
         ]).transitionalItem(transitional)
         .loops(2)
 })
-
+// 工业坩埚
+ServerEvents.recipes(event => {
+    bulkMetallurgy(
+        event,
+        'ctnhcore:refined_iron_ingot',
+        ['gtceu:steel', 1152],
+        3600,
+        25,
+        50
+    )
+})

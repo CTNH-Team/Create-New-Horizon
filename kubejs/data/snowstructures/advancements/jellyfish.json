@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "jellyfish": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                    "location": {
+                        "structure": "snowstructures:jellyfish"
+                        }
+                    }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "item": "minecraft:apple"
+         },
+         "title": {
+             "translate": "Jellyfish..."
+         },
+         "description": {
+             "translate": "遥远的深水中摇荡的你，无比希望能够再次相见。在漫长夏日的早晨醒来，一直到迈出脚步的那时..."
+         },
+         "frame": "task",    
+         "announce_to_chat": true,      
+         "hidden": false,    
+         "show_toast": true    
+    },
+    "parent": "snowstructures:begining",
+    "requirements": [  
+        ["jellyfish"]
+    ],
+    "rewards": {   
+        "function": "snowstructures:jellyfish"
+    }
+}

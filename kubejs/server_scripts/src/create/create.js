@@ -185,7 +185,6 @@ ServerEvents.recipes(event => {
         event.recipes.create.compacting(`gtceu:${i}_plate`, `2x #forge:ingots/${i}`)
     }
     event.recipes.create.compacting('gtceu:diamond_plate', '2x minecraft:diamond')
-    event.recipes.create.compacting('gtceu:snow_steel_ingot', '64x ctnhcore:animal_excreta')
     event.recipes.create.compacting('gtceu:emerald_plate', '2x minecraft:emerald')
     event.recipes.create.compacting('gtceu:nether_quartz_plate', '2x minecraft:quartz')
     event.recipes.create.compacting('gtceu:lapis_plate', '2x minecraft:lapis_lazuli')
@@ -195,6 +194,8 @@ ServerEvents.recipes(event => {
     event.recipes.create.pressing('gtceu:gold_ring', 'gtceu:gold_rod')
     event.recipes.create.pressing('gtceu:iron_ring', 'gtceu:iron_rod')
     event.recipes.create.pressing('gtceu:copper_ring', 'gtceu:copper_rod')
+    event.recipes.create.pressing('gtceu:wrought_iron_ingot', 'gtceu:hot_high_temp_wrought_precursor_ingot')
+    event.recipes.create.compacting('ctnhcore:refined_iron_ingot', ['8x gtceu:steel_precursor_dust'])
         /*Ingredient.of("#forge:ingots").itemIds.forEach((id) =>{
           id
         })*/
@@ -216,6 +217,7 @@ ServerEvents.recipes(event => {
         event.recipes.create.mixing('2x gtceu:treated_wood_planks', [Fluid.of('gtceu:creosote', 250), '2x #minecraft:planks'])
         event.recipes.create.mixing('gtceu:red_alloy_dust', ['4x minecraft:redstone', '1x gtceu:copper_dust']).heated()
         event.recipes.create.mixing(['gtceu:andesite_alloy_dust', Item.of('gtceu:andesite_alloy_dust').withChance(0.3)], ['gtceu:andesite_dust', 'gtceu:iron_dust'])
+        event.recipes.create.mixing('8x gtceu:steel_precursor_dust', ['8x gtceu:wrought_iron_dust', '3x gtceu:coke_dust']).heated()
     })
     //组装
 ServerEvents.recipes(event => { //红色合金线缆
@@ -334,7 +336,7 @@ ServerEvents.recipes(event => {
         ], 'gtceu:steel_firebox_casing', [
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:steel_block']),
             event.recipes.createDeploying(transitional, [transitional, 'ctnhcore:advanced_coke_oven']),
-            event.recipes.createDeploying(transitional, [transitional, 'gtceu:primitive_blast_furnace']),
+            event.recipes.createDeploying(transitional, [transitional, 'gtceu:firebricks']),
             event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:creosote', 1000)])
         ]).transitionalItem(transitional)
         .loops(1)
@@ -461,7 +463,7 @@ ServerEvents.recipes(event => {
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:firebrick']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:firebrick']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:gypsum_dust']),
-            event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:concrete', 250)])
+            event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:cement', 250)])
         ]).transitionalItem(transitional)
         .loops(2)
     event.remove({ output: 'gtceu:firebricks' })

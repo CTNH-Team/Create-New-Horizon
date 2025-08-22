@@ -1021,13 +1021,13 @@
 			id: "693BE7D773A7C37F"
 			rewards: [{
 				id: "1B9E3FB53BFAF390"
-				item: "gtnn:neutron_source"
+				item: "ctnhcore:neutron_source"
 				type: "item"
 			}]
 			subtitle: "送你一个中子源，希望你喜欢"
 			tasks: [{
 				id: "59FAAB8A64E3688E"
-				item: "gtnn:quark_core"
+				item: "ctnhcore:quark_core"
 				type: "item"
 			}]
 			x: -16.0d
@@ -1038,7 +1038,7 @@
 			id: "02DD2E6EEDC15505"
 			tasks: [{
 				id: "2FEF84CF7734F746"
-				item: "gtnn:neutron_activator"
+				item: "ctnhcore:neutron_activator"
 				type: "item"
 			}]
 			x: -16.0d
@@ -1062,12 +1062,12 @@
 			tasks: [
 				{
 					id: "2F549A3160DFFE55"
-					item: "gtnn:iv_neutron_accelerator"
+					item: "ctnhcore:iv_neutron_accelerator"
 					type: "item"
 				}
 				{
 					id: "214524255D8A822B"
-					item: "gtnn:neutron_sensor"
+					item: "ctnhcore:neutron_sensor"
 					type: "item"
 				}
 				{
@@ -1190,7 +1190,7 @@
 			subtitle: "建议使用富集硅岩"
 			tasks: [{
 				id: "6A3C9CBDF6140DB7"
-				item: "gtnn:luv_naquadah_reactor"
+				item: "ctnhcore:luv_naquadah_reactor"
 				type: "item"
 			}]
 			title: "来试试硅岩发电吧"

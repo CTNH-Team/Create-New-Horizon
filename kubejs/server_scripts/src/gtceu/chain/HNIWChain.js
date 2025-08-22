@@ -281,13 +281,13 @@ ServerEvents.recipes(event => {
           .inputFluids(Fluid.of('gtceu:hydrogen', 8000))
           .outputFluids(Fluid.of('gtceu:toluene', 4000))
           .outputFluids(Fluid.of('gtceu:oxygen', 4000))
-          .notConsumable('gtnn:palladium_on_carbon_catalyst')
+          .notConsumable('ctnhcore:palladium_on_carbon_catalyst')
           .notConsumableFluid(Fluid.of('gtceu:ethylbenzene', 1000))
           .notConsumableFluid(Fluid.of('gtceu:hydrobromic_acid', 1000))
           //.notConsumable(Fluid.of('gtceu:dimethylformamide',1000))
           .EUt(30720)
           .duration(100)
-          .addCondition($GTNNRecipes.setPlantCasing(6))
+          .addCondition($CTNHRecipes.setPlantCasing(6))
 
      //2H3BO3 + B -> B2O3
      ctnh.dehydrator('boron_oxide')

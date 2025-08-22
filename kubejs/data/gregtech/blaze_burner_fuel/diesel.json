@@ -1,0 +1,6 @@
+{
+    "fluid": "gtceu:diesel",
+    "burnTime": 125,
+    "superHeat": false,
+    "amountConsumedPerTick": 1
+}

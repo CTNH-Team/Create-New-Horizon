@@ -50,3 +50,6 @@ natives-*/
 /Changelog
 /tlm_custom_pack/
 /packwiz_tutorial.md
+!/mods/CTNH*
+!/mods/ctpp*
+!/mods/ctnhbio*

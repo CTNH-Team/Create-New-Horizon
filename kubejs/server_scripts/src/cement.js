@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
     // 压缩黏土配方
     event.remove({'output': 'gtceu:compressed_clay'});
     event.shaped(
-        '3x gtceu:compressed_clay',
+        '8x gtceu:compressed_clay',
         [
             'CCC',
             'CMC',
@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
     // 红砖块配方
     event.remove({'output': 'minecraft:bricks'})
     event.shaped(
-        'minecraft:bricks',
+        '2x minecraft:bricks',
         [
             'BBB',
             'BCB',
@@ -55,24 +55,11 @@ ServerEvents.recipes(event => {
             'C': 'gtceu:cement_bucket'
         }
     ).replaceIngredient('gtceu:cement_bucket', 'minecraft:bucket')
-    
-    event.shaped(
-        '2x minecraft:bricks',
-        [
-            'AC ',
-            'BBB',
-            'BBB'
-        ],
-        {   'A': '#forge:tools/spades',
-            'B': 'minecraft:brick',
-            'C': 'gtceu:cement_bucket'
-        }    
-    ).replaceIngredient('gtceu:cement_bucket', 'minecraft:bucket')    
     
     // 焦炉砖块配方
     event.remove({'output': 'gtceu:coke_oven_bricks'})
     event.shaped(
-        'gtceu:coke_oven_bricks',
+        '2x gtceu:coke_oven_bricks',
         [
             'BBB',
             'BCB',
@@ -82,19 +69,6 @@ ServerEvents.recipes(event => {
             'B': 'gtceu:coke_oven_brick',
             'C': 'gtceu:cement_bucket'
         }
-    ).replaceIngredient('gtceu:cement_bucket', 'minecraft:bucket')
-    
-    event.shaped(
-        '2x gtceu:coke_oven_bricks',
-        [
-            'AC ',
-            'BBB',
-            'BBB'
-        ],
-        {   'A': '#forge:tools/spades',
-            'B': 'gtceu:coke_oven_brick',
-            'C': 'gtceu:cement_bucket'
-        }    
     ).replaceIngredient('gtceu:cement_bucket', 'minecraft:bucket')
     
     // 耐火粘土粉配方
@@ -112,27 +86,13 @@ ServerEvents.recipes(event => {
     // 耐火粘土砖块配方
     event.remove({ output: 'gtceu:firebricks' })
     event.shaped(
-        'gtceu:firebricks',
+        '2x gtceu:firebricks',
         [
             'BBB',
             'BCB',
             'BBB'
         ],
         {
-            'B': 'gtceu:firebrick',
-            'C': 'gtceu:cement_bucket'
-        }
-    ).replaceIngredient('gtceu:cement_bucket', 'minecraft:bucket')
-
-    event.shaped(
-        '2x gtceu:firebricks',
-        [
-            'AC ',
-            'BBB',
-            'BBB'
-        ],
-        {
-            'A': '#forge:tools/spades',
             'B': 'gtceu:firebrick',
             'C': 'gtceu:cement_bucket'
         }
@@ -151,5 +111,16 @@ ServerEvents.recipes(event => {
             Fluid.of("gtceu:hydrochloric_acid", 500),
             Fluid.of("minecraft:water", 500),
         ]
+    )
+    event.shaped(
+        '1x gtceu:wrought_iron_ingot',
+        [
+            'A',
+            'B'
+        ],
+        {
+            'A': '#forge:tools/hammers',
+            'B': 'gtceu:hot_high_temp_wrought_precursor_ingot',
+        }
     )
 })

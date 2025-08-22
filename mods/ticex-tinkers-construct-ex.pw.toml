@@ -1,12 +1,12 @@
 name = "ticex"
-filename = "ticex-mc1.20.1-0.3.2.4.jar"
+filename = "ticex-mc1.20.1-0.4.1-all.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5ae039a6cf52711052b063a6b0d329be1ea26a57"
-url = "https://mediafilez.forgecdn.net/files/6794/248/ticex-mc1.20.1-0.3.2.4.jar"
+hash = "e4f2ad6888c0273cdb1e4f21c3ccf603625915b8"
+url = "https://mediafilez.forgecdn.net/files/6888/591/ticex-mc1.20.1-0.4.1-all.jar"
 
 [update.curseforge]
-file-id = 6794248
+file-id = 6888591
 project-id = 1242469
