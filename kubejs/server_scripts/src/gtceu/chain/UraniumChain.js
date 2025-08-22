@@ -181,7 +181,7 @@ ServerEvents.recipes(event => {
         .outputFluids(Fluid.of('gtceu:uranium_refinement_waste_solution', 1000))
         .outputFluids(Fluid.of('gtceu:thorium_nitrate_solution', 1000))
         .EUt(7680).duration(864)
-        .addCondition($GTNNRecipes.setPlantCasing(5))
+        .addCondition($CTNHRecipes.setPlantCasing(5))
 
     ctnh.chemical_reactor('uranium_hexafluoride')
         .itemInputs('3x gtceu:uranium_dioxide_dust')

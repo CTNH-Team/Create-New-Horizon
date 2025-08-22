@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     let ctnh = event.recipes.gtceu
     ctnh.assembly_line('ctnhcore:advanced_bio_reactor_casing')
         .itemOutputs('7x ctnhcore:advanced_bio_reactor_casing')
-        .itemInputs('7x gtnn:plate_radiation_protection')
+        .itemInputs('7x ctnhcore:plate_radiation_protection')
         .itemInputs('56x gtceu:hastelloy_x_frame')
         .itemInputs('7x gtceu:dense_radiation_sight_alloy_x_plate')
         .itemInputs('2x #gtceu:circuits/uv')

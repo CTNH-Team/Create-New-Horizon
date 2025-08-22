@@ -26,6 +26,11 @@
 		#设为 true 来禁用盖亚的缴械技能
 		#Set true to disable Gaia's disarm
 		disableGaiaDisarm = false
+		#盖亚三生成时不检查的ModID或者物品
+		#示例：minecraft, sophisticatedbackpacks:backpack
+		#Items or ModIDs that gaia ignore to check when spawn
+		#e.g. minecraft, sophisticatedbackpacks:backpack
+		gaiaSpawnUnCheckList = ["minecraft", "botania", "extrabotany"]
 
 	[server.fakePlayer]
 		#假玩家ID（用于权限配置）

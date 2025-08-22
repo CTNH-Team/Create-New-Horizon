@@ -81,7 +81,7 @@
 			id: "0BEC16413DB8A078"
 			tasks: [{
 				id: "2295B0FBC44A28AF"
-				item: "gtnn:t3_chip"
+				item: "ctnhcore:t3_chip"
 				type: "item"
 			}]
 			x: 3.5d
@@ -98,7 +98,7 @@
 			}]
 			tasks: [{
 				id: "3213CA97CED11B43"
-				item: "gtnn:heavy_ingot_t3"
+				item: "ctnhcore:heavy_ingot_t3"
 				type: "item"
 			}]
 			x: 3.5d
@@ -808,7 +808,7 @@
 			subtitle: "你需要LUV组装机"
 			tasks: [{
 				id: "12773E325CB750EF"
-				item: "gtnn:quark_core"
+				item: "ctnhcore:quark_core"
 				type: "item"
 			}]
 			x: 2.5d
