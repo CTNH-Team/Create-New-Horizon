@@ -6,7 +6,7 @@ Ponder.tags((event) => {
     "Ponders on Industrial/Magic Multiblocks in Part of CTNH.", // 你设定的 PonderTag 的介绍
     [
       "gtceu:assembly_line", 
-      "gtnn:neutron_activator", 
+      "ctnhcore:neutron_activator", 
       "mythicbotany:central_rune_holder", 
       "gtceu:coke_oven"
     ] // **可选参数** 你设定的 PonderTag 的关联词条, 只有一个时也能不用 [ ]

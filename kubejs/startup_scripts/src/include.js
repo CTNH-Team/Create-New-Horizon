@@ -13,4 +13,6 @@ const $ItemStack = Java.loadClass("net.minecraft.world.item.ItemStack")
 const $Entity = Java.loadClass("net.minecraft.world.entity.Entity")
 const $HellForgeMachine = Java.loadClass("io.github.cpearl0.ctnhcore.common.machine.multiblock.magic.HellForgeMachine")
 
+const $CTNHRecipes = Java.loadClass("io.github.cpearl0.ctnhcore.registry.CTNHRecipes")
+
 const $ArrayList = Java.loadClass("java.util.ArrayList")

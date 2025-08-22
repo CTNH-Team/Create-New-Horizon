@@ -289,7 +289,7 @@
 			subtitle: "更好的发电机，记得烧硅岩基燃料，其他基燃料非常弱"
 			tasks: [{
 				id: "5DE0B367ED3325C4"
-				item: "gtnn:large_naquadah_reactor"
+				item: "ctnhcore:large_naquadah_reactor"
 				type: "item"
 			}]
 			x: -11.0d
