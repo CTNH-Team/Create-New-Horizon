@@ -7374,7 +7374,7 @@ hash = "e2d42cda4ac609e82e064cb38d1bc34c6323e95a01a7a3c173259825a12d5d16"
 
 [[files]]
 file = "kubejs/assets/tconstruct/lang/zh_cn.json"
-hash = "3c5f15173e31ec7caea46c8562595b053131d0128c8acd890e8a8d928ad44da7"
+hash = "84b7cd3bc154467d2459c0a756f0abf23c2927afd68a9ac4af06def4ddf5a9d1"
 
 [[files]]
 file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/boots/maille_broken_gtceu_snow_steel.png"
@@ -14385,6 +14385,14 @@ file = "kubejs/data/snowstructures/advancements/begining.json"
 hash = "7d9c98e0993cf8cfc9a3d66b04dd7d8014f187e497743cfab4c852dcccb8eb66"
 
 [[files]]
+file = "kubejs/data/snowstructures/advancements/galaxy_rail.json"
+hash = "5ff87074aa873b5d771fb9b472738cdf02e0781a6dc005f53ed9d027bd55c882"
+
+[[files]]
+file = "kubejs/data/snowstructures/advancements/jellyfish.json"
+hash = "b46c3bb6d68b21d51b465f5f165860b1f7df6ab07a53cb19be78c63a5f00d6af"
+
+[[files]]
 file = "kubejs/data/snowstructures/advancements/lost_base.json"
 hash = "40bb3592ba96787216882762b1f46647af7f3befe9170f9f088ef39e6d5d60f6"
 
@@ -14409,28 +14417,44 @@ file = "kubejs/data/snowstructures/functions/begining.mcfunction"
 hash = "1a81824b68516fb0bcb79cb863a3a08bfb34b3181cabe779bc8663cc634cf466"
 
 [[files]]
+file = "kubejs/data/snowstructures/functions/galaxy_rail.mcfunction"
+hash = "c07ad657f53e9aaa0a237270a580f50c71203d378c62f01dd4f5918b87b960ec"
+
+[[files]]
+file = "kubejs/data/snowstructures/functions/jellyfish.mcfunction"
+hash = "3a998fc0c78d1269b6a9c3a5a3db94e368fb54c76b47b9dbe3b58179e6218874"
+
+[[files]]
 file = "kubejs/data/snowstructures/functions/lost_base.mcfunction"
-hash = "ae20686d3ff0b6d572978dc17aec987e166ea9b62540c2950329b9375858d401"
+hash = "4d5658f5655fe142e1a23d6989ee33a2de5314451e4d5264325343b438060121"
 
 [[files]]
 file = "kubejs/data/snowstructures/functions/lost_missile.mcfunction"
-hash = "bdd1e6959ea9cd2e058656c5053efaf02b92a76fcc9520bb0ff82e4a8deb9756"
+hash = "515b1038c987e6a535753ae994a9570a97e1d3a9aaa44105563ec57a170b6159"
 
 [[files]]
 file = "kubejs/data/snowstructures/functions/lost_nether_base.mcfunction"
-hash = "b5b993014a73ed51ac172b0d4e51a91b421d450c3bcea1ec7b0c512eb8074378"
+hash = "8952e3c7c3944ab7bf20a2d9c760bd621fa144f6f3921c72ea11659ccb5199b0"
 
 [[files]]
 file = "kubejs/data/snowstructures/functions/lost_satellite.mcfunction"
-hash = "9a01efda530a1d1a2db5494265fc92c145b181db0fd578e5bd11a7b043227d21"
+hash = "d51a493110d277ae440c5f089df36500d0a5c83f88cec047a3926a257a602567"
 
 [[files]]
 file = "kubejs/data/snowstructures/functions/villagers.mcfunction"
-hash = "193411905de72a64f664f1f307a97bc2d4caa26f532d7b110e8fb670b70ffc1b"
+hash = "502a3eb8414e17fbf73bae9124dc335c51d1e69feebc1420b68bec2415ae0108"
+
+[[files]]
+file = "kubejs/data/snowstructures/structures/biome_specifics/beach/jellyfish.nbt"
+hash = "8fb508f48f6809b5dc31ccbb28a23822469f20a9d08c455a0211c60384f816dd"
 
 [[files]]
 file = "kubejs/data/snowstructures/structures/biome_specifics/nether_wastes/lost_nether_base.nbt"
 hash = "0b78c567a4f0e64b69155b5869321a93d94bbd3f292cb0e49347cb6b9b0d78f4"
+
+[[files]]
+file = "kubejs/data/snowstructures/structures/biome_specifics/orbit/galaxy_rail.nbt"
+hash = "9c18dc6cb8dd68c75d4fd7961318b08c6f741ac0262a85f92250060930f1ff49"
 
 [[files]]
 file = "kubejs/data/snowstructures/structures/biome_specifics/plains/lost_base.nbt"
@@ -14443,6 +14467,14 @@ hash = "8b28f93fbaa13803934b563206398e3394f6b82344692e87ed9c9d37308ece44"
 [[files]]
 file = "kubejs/data/snowstructures/structures/biome_specifics/plains/lost_satellite.nbt"
 hash = "18174be794875ef413a2abd4f7bbfc1abd484fff3e28de7ede72707aff97d982"
+
+[[files]]
+file = "kubejs/data/snowstructures/tags/worldgen/biome/has_structure/galaxy_rail.json"
+hash = "630685d942b621947fbabef2185600624104e74d617954a47df7db97fdfe2950"
+
+[[files]]
+file = "kubejs/data/snowstructures/tags/worldgen/biome/has_structure/jellyfish.json"
+hash = "4b84c9780a29a67e2733b437114547aef40a2ad0b11354b9d712281d81506543"
 
 [[files]]
 file = "kubejs/data/snowstructures/tags/worldgen/biome/has_structure/lost_base.json"
@@ -14461,6 +14493,14 @@ file = "kubejs/data/snowstructures/tags/worldgen/biome/has_structure/lost_satell
 hash = "9fafd8c30c68ae7a4e2cc1a351e79d197532986050167f4f5f49088c602d3b39"
 
 [[files]]
+file = "kubejs/data/snowstructures/tags/worldgen/structure/galaxy_rail.json"
+hash = "5592d55eaaba9d6128d73b008af74519acbe6a034cded2c3c648fec58ab7f70d"
+
+[[files]]
+file = "kubejs/data/snowstructures/tags/worldgen/structure/jellyfish.json"
+hash = "14bde3df2733b7fb5e28ce79c04022c57026bf68c431d8cfa80ea8344e921b5c"
+
+[[files]]
 file = "kubejs/data/snowstructures/tags/worldgen/structure/lost_base.json"
 hash = "300b1cad451a12e6ab37786c7574b3296fdf7ec5aaab5ee3f1857475df5f8627"
 
@@ -14475,6 +14515,14 @@ hash = "1d201abd52188c2603d5b999f85f2e3f8bffc8260285ae6b59c090ddf0106af4"
 [[files]]
 file = "kubejs/data/snowstructures/tags/worldgen/structure/lost_satellite.json"
 hash = "c7bd43172adbe8be803d7c9409916139387a205af119953d5dd617b4ec4ed22b"
+
+[[files]]
+file = "kubejs/data/snowstructures/worldgen/structure/galaxy_rail.json"
+hash = "928bcaac7c83301fba34958ff497b911698842a6a6423d707be47e0e19e85ec1"
+
+[[files]]
+file = "kubejs/data/snowstructures/worldgen/structure/jellyfish.json"
+hash = "030a4a9710c141c262cb3fdf3f8add0ae3b490e472cff55fdf9eeba5429bcc7b"
 
 [[files]]
 file = "kubejs/data/snowstructures/worldgen/structure/lost_base.json"
@@ -14493,6 +14541,14 @@ file = "kubejs/data/snowstructures/worldgen/structure/lost_satellite.json"
 hash = "cdd6c2313a68aef27376e17283ff11d3bdf26a9c1d43ae24ba8159e716245298"
 
 [[files]]
+file = "kubejs/data/snowstructures/worldgen/structure_set/galaxy_rail.json"
+hash = "6f42fe1a83a6ebdd9b0755e4d6695593d1640de3b2de577ea9ba301f9e5f3a0d"
+
+[[files]]
+file = "kubejs/data/snowstructures/worldgen/structure_set/jellyfish.json"
+hash = "6ff7c001d285224bc33571dd02144c681f266041fc7bb54ae83e913df9115703"
+
+[[files]]
 file = "kubejs/data/snowstructures/worldgen/structure_set/lost_base.json"
 hash = "710ac1c15c127c01cfb253d6dcdef188681038d230865c43043682e09c7909fe"
 
@@ -14509,8 +14565,16 @@ file = "kubejs/data/snowstructures/worldgen/structure_set/lost_satellite.json"
 hash = "d10c2e2e9e68f5d3891b20bbc05b9f8f2268c5d2843ee533cea2bf0adfe65c45"
 
 [[files]]
+file = "kubejs/data/snowstructures/worldgen/template_pool/biome_specifics/beach/jellyfish.json"
+hash = "2a1cdba87e80934f22a712316f12ba374329167bdc4e086e5e00855a2026d776"
+
+[[files]]
 file = "kubejs/data/snowstructures/worldgen/template_pool/biome_specifics/nether_wastes/lost_nether_base.json"
 hash = "31b97e3f11f1fa9d558671a5c22bdf9f7cd5e5f076c2fd460df4aa61584b1e08"
+
+[[files]]
+file = "kubejs/data/snowstructures/worldgen/template_pool/biome_specifics/orbit/galaxy_rail.json"
+hash = "2c8ec875e8e62d56fca48e980a17e7dd17dbf423db8f64c9d573688d29823595"
 
 [[files]]
 file = "kubejs/data/snowstructures/worldgen/template_pool/biome_specifics/plains/lost_base.json"
@@ -16742,7 +16806,7 @@ hash = "8731501899379d62219dad28378e7c8d98d36f94fb3c1380180bd2af756480e0"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/create.js"
-hash = "6fc54cee35f255621b3e0b2b82babc9f38961a20e49351533c48cfac1d866bf7"
+hash = "6f77bffcfc8796657cf28b6ba7242d73d0696b4b27ff5b0f00cfa5f15c485316"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/createFallen.js"
@@ -16966,7 +17030,7 @@ hash = "a10f26d4427f1c544b214762cfae3fe1fd3e8cf068d1d6b970f79557ed0b77fc"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/modifiers.js"
-hash = "07f4b4066ef81d692cce0ffad4ec31726aa99a1502bdc63e58747ac26d3ca49b"
+hash = "3015c8f0fac91e3e34d46c18bc5de529818b6a3d1cfc699ac184c7ff3c98c9d6"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/remove_tinkers_repices.js"
@@ -16978,7 +17042,7 @@ hash = "d375e3a5d0830e67bb0b9fa66debadea1bfffb1ae9cb8cd1a623ca338cb5152a"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/toolparts_register.js"
-hash = "0c4d4d0ea8dd5e1db0e9e8c16106f120b11bdd1d594f01f970cdc7a4e789a448"
+hash = "650e3887e7c22192395e256a9be20e71eb0fbf969ac7db72c5248832f0185532"
 
 [[files]]
 file = "kubejs/server_scripts/src/util/TConMaterialGenerator.js"
@@ -17046,7 +17110,7 @@ hash = "a7490de0e75dbf0138753a75d1380aa466b42a63fa7163dd7d182fe4cd05aaed"
 
 [[files]]
 file = "kubejs/startup_scripts/src/tconstruct_modifiers_register.js"
-hash = "0fce68d3f4aa4305d98b777df9311da3d7e3d9657862d796016270baa06b980e"
+hash = "f4d8faf208b6f55f2899b44010856ccad1b9893c864d02d5717506791d80474c"
 
 [[files]]
 file = "kubejs/startup_scripts/src/test.js"
@@ -18039,7 +18103,7 @@ metafile = true
 
 [[files]]
 file = "mods/sakura-tinker.pw.toml"
-hash = "0d4284f4e956c9238ce52cd35f576eef99184d8c228827348e944b1b28e74a42"
+hash = "aadf9f5f5358bf862577b1a0f95bbe27d7adbe50438174ed976b76ad5b331341"
 metafile = true
 
 [[files]]

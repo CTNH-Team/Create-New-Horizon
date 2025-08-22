@@ -1,12 +1,12 @@
 name = "sakuratinker"
-filename = "sakuratinker-1.3.2.2.jar"
+filename = "sakuratinker-1.3.7.jars"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8761132f5f7b61b604c4e54a17538b70ea429d2a"
-url = "https://edge.forgecdn.net/files/6793/949/sakuratinker-1.3.2.2.jar"
+hash = "d4cedc84074647a743d4b58ece90a291b3c0edbd"
+url = "https://edge.forgecdn.net/files/6914/252/sakuratinker-1.3.7.jar"
 
 [update.curseforge]
-file-id = 6793949
+file-id = 6914252
 project-id = 1217345
