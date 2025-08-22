@@ -155,6 +155,9 @@ ServerEvents.recipes(event => {
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_powered_rail",
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_activator_rail",
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_detector_rail",
+        "gtceu:electric_blast_furnace/blast_high_temp_wrought_precursor",
+        "gtceu:electric_blast_furnace/blast_high_temp_wrought_precursor_gas",
+        "gtceu:vacuum_freezer/cool_hot_high_temp_wrought_precursor_ingot",
         "tconstruct:smeltery/melting/metal/iron/ingot_1",
         "tconstruct:smeltery/melting/metal/gold/powered_rail",
         "tconstruct:smeltery/melting/metal/iron/nugget_3",
@@ -165,7 +168,19 @@ ServerEvents.recipes(event => {
         "tconstruct:smeltery/scorched/alloyer",
         "tconstruct:tables/cast_chest",
         "sophisticatedstorage:controller",
-        "sophisticatedstorage:void_upgrade"
+        "sophisticatedstorage:void_upgrade",
+        "vintageimprovements:grinder_polishing/rose_quartz",
+        "vintageimprovements:craft/belt_grinder",
+        "vintageimprovements:craft/grinder_belt",
+        "create:pressing/juperium_ingot",
+        "create:pressing/saturlyte_ingot",
+        "create:pressing/radium_ingot",
+        "create:pressing/electrolyte_ingot",
+        "create:pressing/plutonium_ingot",
+        "create:pressing/neptunium_ingot",
+        "create:pressing/uranium_ingot",
+        "gtceu:shaped/bronze_primitive_blast_furnace",
+        "gtceu:smelting/wrought_iron_nugget"
 
     ])
     remove_recipes_output(event, [

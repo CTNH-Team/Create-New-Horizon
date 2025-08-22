@@ -198,7 +198,7 @@
 			}]
 			tasks: [{
 				id: "512BF405101980E3"
-				item: "gtnn:heavy_plate_t1"
+				item: "ctnhcore:heavy_plate_t1"
 				type: "item"
 			}]
 			x: 5.0d
@@ -219,7 +219,7 @@
 			subtitle: "似乎需要来自天域的天文数据"
 			tasks: [{
 				id: "1DAA2AAE86D784F1"
-				item: "gtnn:t1_chip"
+				item: "ctnhcore:t1_chip"
 				type: "item"
 			}]
 			x: 7.5d
@@ -268,7 +268,7 @@
 			id: "67553CBF5BACA32D"
 			tasks: [{
 				id: "26702E655DA734BF"
-				item: "gtnn:heavy_ingot_t1"
+				item: "ctnhcore:heavy_ingot_t1"
 				type: "item"
 			}]
 			x: 2.5d

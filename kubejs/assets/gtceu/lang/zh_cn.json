@@ -502,5 +502,7 @@
     "material.gtceu.alkaline_complex_ore_slurry": "碱性复合矿液",
     "material.gtceu.alkaline_slag": "碱液滤渣",
     "material.gtceu.strontium_chloride": "氯化锶",
-    "material.gtceu.perrhenic_acid": "高铼酸"
+    "material.gtceu.perrhenic_acid": "高铼酸",
+    "material.gtceu.steel_precursor": "预制钢",
+    "material.gtceu.high_temp_wrought_precursor": "预处理锻铁"
 }

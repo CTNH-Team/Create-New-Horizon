@@ -224,7 +224,7 @@
 			id: "3095F206B9060B06"
 			tasks: [{
 				id: "22339B8ED87E4BE1"
-				item: "gtnn:ev_rocket_engine"
+				item: "ctnhcore:ev_rocket_engine"
 				type: "item"
 			}]
 			x: 6.0d
@@ -234,7 +234,7 @@
 			id: "4071A5059EDE9C0B"
 			tasks: [{
 				id: "2D37AAD5450ED924"
-				item: "gtnn:iv_rocket_engine"
+				item: "ctnhcore:iv_rocket_engine"
 				type: "item"
 			}]
 			x: 6.0d
@@ -244,7 +244,7 @@
 			id: "0DF5120026A61AB9"
 			tasks: [{
 				id: "183DE8019D88E6BC"
-				item: "gtnn:luv_rocket_engine"
+				item: "ctnhcore:luv_rocket_engine"
 				type: "item"
 			}]
 			x: 6.0d
@@ -255,7 +255,7 @@
 			subtitle: "这是什么神经病玩意x2"
 			tasks: [{
 				id: "6559C6AF806AF26E"
-				item: "gtnn:iv_naquadah_reactor"
+				item: "ctnhcore:iv_naquadah_reactor"
 				type: "item"
 			}]
 			x: 8.0d
@@ -266,7 +266,7 @@
 			subtitle: "推荐使用富集硅岩发电"
 			tasks: [{
 				id: "253CF47EA78058F3"
-				item: "gtnn:luv_naquadah_reactor"
+				item: "ctnhcore:luv_naquadah_reactor"
 				type: "item"
 			}]
 			x: 8.0d
@@ -277,7 +277,7 @@
 			subtitle: "这一步富集硅岩开始不太行了，试试超能"
 			tasks: [{
 				id: "7DE01BAF8C645A63"
-				item: "gtnn:zpm_naquadah_reactor"
+				item: "ctnhcore:zpm_naquadah_reactor"
 				type: "item"
 			}]
 			x: 8.0d
@@ -288,7 +288,7 @@
 			subtitle: "推荐使用底下的硅岩堆发电"
 			tasks: [{
 				id: "32BFB382EA697960"
-				item: "gtnn:uv_naquadah_reactor"
+				item: "ctnhcore:uv_naquadah_reactor"
 				type: "item"
 			}]
 			x: 8.0d
@@ -298,7 +298,7 @@
 			id: "11A0E2B79648F8A8"
 			tasks: [{
 				id: "29F805ADF527DEFE"
-				item: "gtnn:large_naquadah_reactor"
+				item: "ctnhcore:large_naquadah_reactor"
 				type: "item"
 			}]
 			x: 8.0d
@@ -440,7 +440,7 @@
 			subtitle: "这是什么神经病玩意"
 			tasks: [{
 				id: "5285D731555F76E0"
-				item: "gtnn:ev_naquadah_reactor"
+				item: "ctnhcore:ev_naquadah_reactor"
 				type: "item"
 			}]
 			x: 8.0d

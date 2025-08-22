@@ -1,0 +1,6 @@
+{
+    "fluid": "gtceu:cetane_boosted_diesel",
+    "burnTime": 200,
+    "superHeat": false,
+    "amountConsumedPerTick": 1
+}

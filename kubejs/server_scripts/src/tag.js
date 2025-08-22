@@ -79,3 +79,26 @@ ServerEvents.tags("entity_type", event => {
             event.add("ars_nouveau:jar_release_blacklist", boss)
     })
 })
+
+ServerEvents.tags('block', event => {
+  const suffixes = [
+    "input_hatch",
+    "output_hatch",
+    "input_bus",
+    "output_bus",
+    "laser_target",
+    "laser_source",
+    "transmitter_hatch",
+    "receiver_hatch",
+    "maintenance_hatch",
+    "parallel_hatch",
+    "import_bus",
+    "export_bus"
+  ]
+
+  // 构造正则表达式，例如 .*(input_hatch|output_hatch|...)
+  const regex = new RegExp(`.*(${suffixes.join("|")})$`)
+
+  // 添加符合正则的所有物品到标签
+  event.add('forge:hatch', regex)
+})

@@ -230,7 +230,7 @@
 			id: "07BB6832A71B2804"
 			tasks: [{
 				id: "3C59B9CA1FFC283C"
-				item: "gtnn:exxonmobil_chemical_plant"
+				item: "ctnhcore:exxonmobil_chemical_plant"
 				type: "item"
 			}]
 			x: -4.5d

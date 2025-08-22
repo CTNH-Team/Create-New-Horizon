@@ -1,11 +1,11 @@
 {
-    "modifier.kubejs.gaping": "通便",
-    "modifier.kubejs.gaping.flavor": "Yue~",
-    "modifier.kubejs.gaping.description": "使用此工具攻击生物时有几率掉落动物粪便，但是生物会虚脱，而你会被臭晕",
+    "modifier.kubejs.snowcity": "雪城",
+    "modifier.kubejs.snowcity.flavor": "Snow_city~",
+    "modifier.kubejs.snowcity.description": "CTNH打金服！",
     "material.gtceu.snow_steel": "雪城钢",
-    "material.gtceu.snow_steel.flavor": "用粑粑做的工具挺恶心的，不是吗？",
+    "material.gtceu.snow_steel.flavor": "愿Snow_city护佑你。",
     "modifier.kubejs.fortification": "§e巫妖护盾",
     "modifier.kubejs.fortification.flavor": "§e你是巫妖王，那我是谁？",
-    "modifier.kubejs.fortification.description": "§e到攻击根据等级生成护盾，效果与护盾权杖无异(护甲上的该属性无效,每一级增加一层护盾并减少少许冷却)"
+    "modifier.kubejs.fortification.description": "§e到攻击根据等级生成护盾，效果与护盾权杖无异(每一级增加一层护盾并减少少许冷却)"
     
 }

@@ -91,4 +91,8 @@ ItemEvents.tooltip(event => {
     event.add(['gtceu:item_tag_filter', 'gtceu:fluid_tag_filter'], Text.red("非语句 [!] 不可用"))
     event.add('gtceu:nightvision_goggles', '§7用Gregtech的 [Armor Mode Switch] 键开启.')
     event.add(['gtceu:lp_steam_macerator', 'gtceu:hp_steam_macerator', 'gtceu:steam_grinder', 'gtceu:lv_macerator', 'gtceu:mv_macerator', 'ctpp:smashing_factory'], '§4研磨副产物只能通过HV及以上的电压获得！')
+    event.addAdvanced('tconstruct:crafting_station', (item, advanced,text) => {
+        text.add(1, '§4请不要将工作站连接到任何带有堆叠升级的容器中.')
+        text.add(2, '§4此举动不会吞物品，但会导致工作站无法识别到大多出堆叠大于64的物品.')
+    })
 })

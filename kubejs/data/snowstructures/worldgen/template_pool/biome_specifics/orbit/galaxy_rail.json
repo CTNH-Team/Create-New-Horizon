@@ -1,0 +1,15 @@
+{
+    "name": "snowstructures:biome_specifics/orbit",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "snowstructures:biome_specifics/orbit/galaxy_rail",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

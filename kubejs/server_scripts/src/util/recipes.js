@@ -223,3 +223,81 @@ function tconstruct_casting_all(event, item) {
         event.recipes.tconstruct.casting_table(`gtceu:${item}_block`, Fluid.of(`gtceu:${item}`, 1256),"kubejs:graphite_block_mold", false, 810)
     }
 }
+
+/**
+ * @param { Internal.RecipesEventJS } event 
+ * @param { string } input - 输入物品（单个物品或标签）
+ * @param { [string, number] } outputFluid - 输出流体 [ID, 数量]
+ * @param { number } time - 处理时间
+ * @param { number } minHeat - 最小热量
+ * @param { number } maxHeat - 最大热量
+ */
+function bulkMetallurgy(event, input, outputFluid, time, minHeat, maxHeat) {
+    // 构建配方对象
+    const recipe = {
+        "type": "createmetallurgy:bulk_melting",
+        "ingredients": [
+            input.startsWith('#') 
+                ? { "tag": input.slice(1) } 
+                : { "item": input }
+        ],
+        "minHeatRequirement": minHeat,
+        "maxHeatRequirement": maxHeat,
+        "processingTime": time,
+        "results": [{
+            "fluid": outputFluid[0],
+            "amount": outputFluid[1]
+        }]
+    };
+
+    // 如果是标签输入，添加条件检查
+    if (input.startsWith('#')) {
+        recipe.conditions = [{
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": input.slice(1)
+            }
+        }];
+    }
+
+    // 注册配方
+    event.custom(recipe);
+}
+
+/**
+ * @param { Internal.RecipesEventJS } event 
+ * @param { number } entity - 熔炼生物id
+ * @param { number } damage - 熔炼伤害
+ * @param { [string, number] } input - 输入流体[ID, 数量]
+ * @param { [string, number] } outputFluid - 输出流体 [ID, 数量]
+ * @param { number } minHeat - 最小热量
+ * @param { number } maxHeat - 最大热量
+ */
+function entity_melting(event, entity, damage, input, outputFluid , minHeat, maxHeat) {
+
+    // 构建配方对象
+    const recipe = {
+        "type": "createmetallurgy:entity_melting",
+        "entity": {
+            "type": entity,
+            "damage": damage
+        },
+        "ingredients": [
+            {
+               "fluid": input[0],
+               "amount": input[1],
+               "nbt": {}
+            }
+        ],
+        "minHeatRequirement": minHeat,
+        "maxHeatRequirement": maxHeat,
+        "results": [{
+            "fluid": outputFluid[0],
+            "amount": outputFluid[1]
+        }]
+    };
+
+    // 注册配方
+    event.custom(recipe);
+}

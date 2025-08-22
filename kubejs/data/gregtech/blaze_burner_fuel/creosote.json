@@ -1,0 +1,6 @@
+{
+    "fluid": "gtceu:creosote",
+    "burnTime": 30,
+    "superHeat": false,
+    "amountConsumedPerTick": 1
+}
