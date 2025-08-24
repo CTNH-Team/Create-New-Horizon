@@ -3,10 +3,11 @@ filename = "scg-ctnh.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/6199/284/scg-ctnh.jar"
 hash-format = "sha1"
 hash = "500371de321c62070506502b9b926757670dd4c2"
-url = "https://edge.forgecdn.net/files/6199/284/scg-ctnh.jar"
 
+[update]
 [update.curseforge]
 file-id = 6199284
 project-id = 1201609

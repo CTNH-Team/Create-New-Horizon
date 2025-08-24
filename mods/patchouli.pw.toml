@@ -3,10 +3,11 @@ filename = "Patchouli-1.20.1-84-FORGE.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/4966/125/Patchouli-1.20.1-84-FORGE.jar"
 hash-format = "sha1"
 hash = "b6b7267f3669c10c167d5d375d0274d40e3eb756"
-url = "https://edge.forgecdn.net/files/4966/125/Patchouli-1.20.1-84-FORGE.jar"
 
+[update]
 [update.curseforge]
 file-id = 4966125
 project-id = 306770

@@ -1,3 +1,4 @@
+const $CTNHRecipes = Java.loadClass("io.github.cpearl0.ctnhcore.registry.CTNHRecipes")
 ServerEvents.recipes(event => {
     let ctnh = event.recipes.gtceu
         //基岩主线

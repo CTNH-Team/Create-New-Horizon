@@ -3,10 +3,11 @@ filename = "kubejs-forge-2001.6.5-build.16.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/5853/326/kubejs-forge-2001.6.5-build.16.jar"
 hash-format = "sha1"
 hash = "93fcf0eacc5dc08a4f719eaaed1dc93f0dc80f66"
-url = "https://edge.forgecdn.net/files/5853/326/kubejs-forge-2001.6.5-build.16.jar"
 
+[update]
 [update.curseforge]
 file-id = 5853326
 project-id = 238086

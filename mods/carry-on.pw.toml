@@ -3,10 +3,11 @@ filename = "carryon-forge-1.20.1-2.1.2.7.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/4882/500/carryon-forge-1.20.1-2.1.2.7.jar"
 hash-format = "sha1"
 hash = "9999714ca3dd2f2401f0396ca44f3b27c3784c4f"
-url = "https://edge.forgecdn.net/files/4882/500/carryon-forge-1.20.1-2.1.2.7.jar"
 
+[update]
 [update.curseforge]
 file-id = 4882500
 project-id = 274259

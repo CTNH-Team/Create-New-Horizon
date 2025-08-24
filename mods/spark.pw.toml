@@ -3,10 +3,11 @@ filename = "spark-1.10.53-forge.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/4738/952/spark-1.10.53-forge.jar"
 hash-format = "sha1"
 hash = "231fb325368c0660954f47bfb03493f5246fa4d1"
-url = "https://edge.forgecdn.net/files/4738/952/spark-1.10.53-forge.jar"
 
+[update]
 [update.curseforge]
 file-id = 4738952
 project-id = 361579

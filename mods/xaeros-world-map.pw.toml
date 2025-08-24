@@ -3,10 +3,11 @@ filename = "XaerosWorldMap_1.39.0_Forge_1.20.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/5658/224/XaerosWorldMap_1.39.0_Forge_1.20.jar"
 hash-format = "sha1"
 hash = "33704b6dd2ee6fbf1da0cffcf2001bf7f1c3dea4"
-url = "https://edge.forgecdn.net/files/5658/224/XaerosWorldMap_1.39.0_Forge_1.20.jar"
 
+[update]
 [update.curseforge]
 file-id = 5658224
 project-id = 317780

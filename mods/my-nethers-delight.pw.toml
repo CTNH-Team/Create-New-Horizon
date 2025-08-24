@@ -3,10 +3,11 @@ filename = "MyNethersDelight-1.20.1-0.1.7.5.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/5673/085/MyNethersDelight-1.20.1-0.1.7.5.jar"
 hash-format = "sha1"
 hash = "1686341313529a17b9187955f241c70d9d307c33"
-url = "https://edge.forgecdn.net/files/5673/085/MyNethersDelight-1.20.1-0.1.7.5.jar"
 
+[update]
 [update.curseforge]
 file-id = 5673085
 project-id = 1003673

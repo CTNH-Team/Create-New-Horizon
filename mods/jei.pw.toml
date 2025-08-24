@@ -3,10 +3,11 @@ filename = "jei-1.20.1-forge-15.20.0.106.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/6075/247/jei-1.20.1-forge-15.20.0.106.jar"
 hash-format = "sha1"
 hash = "77928d15d797663846cba44de8f79e4e4c5fdbb7"
-url = "https://edge.forgecdn.net/files/6075/247/jei-1.20.1-forge-15.20.0.106.jar"
 
+[update]
 [update.curseforge]
 file-id = 6075247
 project-id = 238222

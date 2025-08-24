@@ -3,10 +3,11 @@ filename = "ftb-library-forge-2001.2.5.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/5874/882/ftb-library-forge-2001.2.5.jar"
 hash-format = "sha1"
 hash = "de2018dd1a1a5de3437ff6b1ecb4ad5fe8899007"
-url = "https://edge.forgecdn.net/files/5874/882/ftb-library-forge-2001.2.5.jar"
 
+[update]
 [update.curseforge]
 file-id = 5874882
 project-id = 404465

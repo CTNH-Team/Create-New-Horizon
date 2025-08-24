@@ -3,10 +3,11 @@ filename = "TerraBlender-forge-1.20.1-3.0.1.7.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/5378/180/TerraBlender-forge-1.20.1-3.0.1.7.jar"
 hash-format = "sha1"
 hash = "afbb7536bdd5e723688c1eaa38df398fe15d0b18"
-url = "https://edge.forgecdn.net/files/5378/180/TerraBlender-forge-1.20.1-3.0.1.7.jar"
 
+[update]
 [update.curseforge]
 file-id = 5378180
 project-id = 563928

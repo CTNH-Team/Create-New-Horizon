@@ -3,10 +3,11 @@ filename = "ImmediatelyFast-Forge-1.3.2+1.20.4.jar"
 side = "client"
 
 [download]
+url = "https://edge.forgecdn.net/files/5894/645/ImmediatelyFast-Forge-1.3.2+1.20.4.jar"
 hash-format = "sha1"
 hash = "2e43a4db04253ebac32f7eaf92ab40ea8e4a1457"
-url = "https://edge.forgecdn.net/files/5894/645/ImmediatelyFast-Forge-1.3.2+1.20.4.jar"
 
+[update]
 [update.curseforge]
 file-id = 5894645
 project-id = 686911

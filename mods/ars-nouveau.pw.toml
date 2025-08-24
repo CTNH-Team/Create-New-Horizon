@@ -3,10 +3,11 @@ filename = "ars_nouveau-1.20.1-4.12.6-all.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/5894/609/ars_nouveau-1.20.1-4.12.6-all.jar"
 hash-format = "sha1"
 hash = "7b67a645814dc4c9673f29bcb6f25cbe9544c826"
-url = "https://edge.forgecdn.net/files/5894/609/ars_nouveau-1.20.1-4.12.6-all.jar"
 
+[update]
 [update.curseforge]
 file-id = 5894609
 project-id = 401955

@@ -3,10 +3,11 @@ filename = "EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar"
 side = "client"
 
 [download]
+url = "https://edge.forgecdn.net/files/5855/251/EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar"
 hash-format = "sha1"
 hash = "7cb8e1242d058c9800e1f3f886930647de7f44e1"
-url = "https://edge.forgecdn.net/files/5855/251/EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar"
 
+[update]
 [update.curseforge]
 file-id = 5855251
 project-id = 250419

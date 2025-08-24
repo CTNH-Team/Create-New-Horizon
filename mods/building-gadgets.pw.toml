@@ -3,10 +3,11 @@ filename = "buildinggadgets2-1.0.7.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/5144/161/buildinggadgets2-1.0.7.jar"
 hash-format = "sha1"
 hash = "466c8cf2a45d878a224a77525b254b044aba3bd2"
-url = "https://edge.forgecdn.net/files/5144/161/buildinggadgets2-1.0.7.jar"
 
+[update]
 [update.curseforge]
 file-id = 5144161
 project-id = 298187
