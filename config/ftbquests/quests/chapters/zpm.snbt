@@ -11,13 +11,19 @@
 			id: "4F2B606F0BCDD83B"
 			linked_quest: "4F8A3B3DFEE2B87E"
 			x: -4.0d
-			y: 11.0d
+			y: 5.5d
 		}
 		{
 			id: "5099BCB60DB36815"
 			linked_quest: "2C5AAAE7171632CA"
 			x: 0.0d
-			y: 5.0d
+			y: 3.5d
+		}
+		{
+			id: "7B5E8515958F337F"
+			linked_quest: "65E0B77C49C4F584"
+			x: 0.5d
+			y: 10.0d
 		}
 	]
 	quests: [
@@ -31,87 +37,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["355ACD2C8F4E6257"]
-			id: "096536DBC775459A"
-			tasks: [{
-				id: "704A9D951A6436C1"
-				item: "gtceu:zpm_electric_motor"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["096536DBC775459A"]
-			id: "66C9EDCA565E819B"
-			tasks: [{
-				id: "5B0CA8DC41776963"
-				item: "gtceu:zpm_electric_pump"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["096536DBC775459A"]
-			id: "532AB794FC5A7C9C"
-			tasks: [{
-				id: "073358A2FB418E50"
-				item: "gtceu:zpm_conveyor_module"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["096536DBC775459A"]
-			id: "3CC41314A358DB84"
-			tasks: [{
-				id: "49CF8CD3FBBD04A3"
-				item: "gtceu:zpm_electric_piston"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 6.5d
-		}
-		{
-			dependencies: [
-				"096536DBC775459A"
-				"3CC41314A358DB84"
-			]
-			id: "1E8C4B75F7D0AB9D"
-			tasks: [{
-				id: "4BD9ED692DE3C9F3"
-				item: "gtceu:zpm_robot_arm"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["096536DBC775459A"]
-			id: "6942CE21E9C18B0E"
-			tasks: [{
-				id: "7555A825EDDE6BA2"
-				item: "gtceu:zpm_emitter"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["096536DBC775459A"]
-			id: "2138D71942009D22"
-			tasks: [{
-				id: "0E10E65308DA2F46"
-				item: "gtceu:zpm_sensor"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 5.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -126,7 +52,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["355ACD2C8F4E6257"]
@@ -153,7 +79,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4F8A3B3DFEE2B87E"]
@@ -164,7 +90,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 9.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -180,7 +106,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7F0C67AE534020B1"]
@@ -191,7 +117,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7D4DBB785B16A377"]
@@ -202,7 +128,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0B162359CC259A9F"]
@@ -214,7 +140,7 @@
 			}]
 			title: "{ftbquests.chapter.zpm.quest16.title}"
 			x: 4.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["173C1ED446EF4D39"]
@@ -225,7 +151,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["173C1ED446EF4D39"]
@@ -237,7 +163,7 @@
 			}]
 			title: "{ftbquests.chapter.zpm.quest18.title}"
 			x: 6.0d
-			y: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["173C1ED446EF4D39"]
@@ -249,7 +175,7 @@
 			}]
 			title: "{ftbquests.chapter.zpm.quest19.title}"
 			x: 6.0d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["173C1ED446EF4D39"]
@@ -260,7 +186,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["173C1ED446EF4D39"]
@@ -274,7 +200,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5B882B9AFD650138"]
@@ -293,43 +219,32 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["64AB6462326CB9DA"]
-			id: "409E5680BE7920CF"
-			tasks: [{
-				id: "31D0076E2FC2BCBB"
-				item: "gtceu:wetware_printed_circuit_board"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"589DEEA6662898A5"
-				"409E5680BE7920CF"
-			]
+			dependencies: ["749B5293C2B313D2"]
 			id: "2C168D2C6B55CD10"
 			tasks: [{
 				id: "320D875EA878EC9E"
 				item: "gtceu:neuro_processing_unit"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -6.5d
+			x: -7.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["2C168D2C6B55CD10"]
+			dependencies: [
+				"2C168D2C6B55CD10"
+				"1CCBE7B71BB782FD"
+			]
 			id: "13756D7E0FDA4B9E"
 			tasks: [{
 				id: "1DC8CF70ABDD3B4A"
 				item: "gtceu:wetware_processor"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -6.5d
+			x: -4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["13756D7E0FDA4B9E"]
@@ -339,19 +254,22 @@
 				item: "gtceu:wetware_processor_assembly"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -4.5d
+			x: -2.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["22FA4C6A1ADEC7AC"]
+			dependencies: [
+				"22FA4C6A1ADEC7AC"
+				"65E0B77C49C4F584"
+			]
 			id: "762DC8899FC95277"
 			tasks: [{
 				id: "33D36925813D7106"
 				item: "gtceu:wetware_processor_computer"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -2.0d
+			x: 0.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["762DC8899FC95277"]
@@ -362,8 +280,8 @@
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -2.0d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			id: "724B4D5BE66CEEEA"
@@ -436,7 +354,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			id: "3C00023A573AA56E"
@@ -446,7 +364,7 @@
 				type: "checkmark"
 			}]
 			x: 4.0d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["52156F99511B7A7E"]
@@ -564,7 +482,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2BB03484D6971028"]
@@ -1009,7 +927,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0FE50A78729EF06F"]
@@ -1081,7 +999,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5B882B9AFD650138"]
@@ -1111,7 +1029,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["46922EE3F296BDCF"]
@@ -1125,7 +1043,7 @@
 			}]
 			title: "在燃油的终末"
 			x: -8.0d
-			y: 6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5B882B9AFD650138"]
@@ -1145,7 +1063,17 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "749B5293C2B313D2"
+			tasks: [{
+				id: "058D8A09C5864DAA"
+				item: "ctnhbio:wetware_printed_circuit_board"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 8.0d
 		}
 	]
 	title: "{ftbquests.chapter.zpm.title}"

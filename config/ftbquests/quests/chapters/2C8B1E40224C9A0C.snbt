@@ -534,8 +534,13 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["63135DB9ECF07650"]
+			dependencies: [
+				"63135DB9ECF07650"
+				"50800D463AF3C2EB"
+			]
+			dependency_requirement: "one_completed"
 			id: "08090475481678F3"
+			subtitle: "武神女王战利品宝箱中有几率出现"
 			tasks: [{
 				id: "19F40957F1D74006"
 				item: "ctnhcore:program_rocket_core_1"

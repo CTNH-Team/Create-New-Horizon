@@ -21,7 +21,7 @@ bulkPressing = false
 bulkCutting = false
 #.
 #Allow supported potions to be brewed by a Mechanical Mixer + Basin.
-allowBrewingInMixer = true
+allowBrewingInMixer = false
 #.
 #Allow any shapeless crafting recipes to be processed by a Mechanical Mixer + Basin.
 allowShapelessInMixer = true
