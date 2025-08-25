@@ -41,7 +41,14 @@ WorldgenEvents.remove(event => {
     props.blocks = "mythicbotany:dragonstone_ore"
     props.blocks = "mythicbotany:gold_ore"
     props.blocks = "create:ochrum"
-	props.blocks = "createmetallurgy:wolframite_ore"
+	  props.blocks = "createmetallurgy:wolframite_ore"
+    props.blocks = "sakuratinker:eezo_ore"
+	  props.blocks = "sakuratinker:terracryst_ore"
+	  props.blocks = "sakuratinker:terracryst_ore_deepslate"
+	  props.blocks = "sakuratinker:prometheum_ore"
+	  props.blocks = "sakuratinker:prometheum_ore_deepslate"
+	  props.blocks = "sakuratinker:orichalcum_ore"
+	  props.blocks = "sakuratinker:orichalcum_ore_deepslate"
   })
   event.removeFeatureById("raw_generation", [
     "ad_astra:moon_iron_ore",
@@ -70,7 +77,17 @@ WorldgenEvents.remove(event => {
     "ad_astra:mars_diamond_ore",
     "ad_astra:mars_ice_shard_ore",
     "ad_astra:mars_iron_ore",
-    "ad_astra:mars_ostrum_ore"])
+    "ad_astra:mars_ostrum_ore"
+  ])
+  event.removeFeatureById("underground_decoration", [
+    "sakuratinker:eezo_ore",
+	  "sakuratinker:terracryst_ore",
+	  "sakuratinker:terracryst_ore_deepslate",
+	  "sakuratinker:prometheum_ore",
+	  "sakuratinker:prometheum_ore_deepslate",
+	  "sakuratinker:orichalcum_ore",
+	  "sakuratinker:orichalcum_ore_deepslate"
+  ])
 })
 
 
