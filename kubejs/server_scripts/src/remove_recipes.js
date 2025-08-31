@@ -231,7 +231,10 @@ ServerEvents.recipes(event => {
         'botania:lens_magnet',
         /vintageimprovements:(.*)_sheet/,
         /vintageimprovements:(.*)_rod/,
-        /vintageimprovements:(.*)_wire/
+        /vintageimprovements:(.*)_wire/,
+        /gtceu:high_temp_wrought_precursor_(.*)/,
+        'gtceu:small_high_temp_wrought_precursor_dust',
+        'gtceu:tiny_high_temp_wrought_precursor_dust'
     ])
     remove_recipes_input(event, [
         "thermal:constantan_ingot",
