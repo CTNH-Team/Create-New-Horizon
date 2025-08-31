@@ -945,14 +945,25 @@
 		{
 			dependencies: ["5BA86B01337A91D5"]
 			id: "0509C060962EF04C"
-			subtitle: "用铁粒烧制得到"
+			subtitle: "用铁锭烧制得到"
 			tasks: [{
 				id: "6AE261E7034F3EA3"
-				item: "gtceu:wrought_iron_nugget"
+				item: "gtceu:hot_high_temp_wrought_precursor_ingot"
 				type: "item"
 			}]
 			x: -4.5d
 			y: 15.0d
+		}
+		{
+			dependencies: ["0509C060962EF04C"]
+			id: "5D0FF90EEF5735EF"
+			tasks: [{
+				id: "2AE57F0B6B7B2D16"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 17.0d
 		}
 	]
 	title: "{ftbquests.chapter.681E3140690307AA.title}"
