@@ -147,14 +147,6 @@ ServerEvents.recipes(event => {
         .itemOutputs('10x gtceu:sodium_nitrate_dust')
         .duration(150).EUt(120)
 
-    // NaNO3 + H2O -> NaOH + HNO3
-    ctnh.chemical_reactor('sodium_hydroxide_dust')
-        .itemInputs('5x gtceu:sodium_nitrate_dust')
-        .itemOutputs('3x gtceu:sodium_hydroxide_dust')
-        .inputFluids(Fluid.of('minecraft:water', 1000))
-        .outputFluids(Fluid.of('gtceu:nitric_acid', 1000))
-        .duration(100).EUt(120)
-
     // UO2 + C -> U + CO2
     ctnh.electric_blast_furnace('uranium_dust')
         .itemInputs('gtceu:uranium_dioxide_dust')
