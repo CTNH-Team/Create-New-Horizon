@@ -1120,7 +1120,7 @@ ServerEvents.recipes(event => {
         ], {
             A: 'gtceu:copper_spring',
             B: '#gtceu:circuits/lv',
-            C: 'gtceu:steam_alloy_furnace',
+            C: 'gtceu:hp_steam_alloy_smelter',
             D: 'gtceu:firebricks',
         })
 

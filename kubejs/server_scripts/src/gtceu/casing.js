@@ -80,13 +80,13 @@ ServerEvents.recipes(event => {
     "ADA",
     "ACA"
   ], {
-    A: 'gtceu:hsss_plate',
+    A: 'gtceu:hsse_plate',
     B: '#forge:tools/hammers',
     C: '#forge:tools/wrenches',
     D: 'gtceu:tungsten_carbide_frame'
   })
   ctnh.assembler('gtceu:sturdy_machine_casing')
-    .itemInputs(['6x gtceu:hsss_plate', 'gtceu:tungsten_carbide_frame'])
+    .itemInputs(['6x gtceu:hsse_plate', 'gtceu:tungsten_carbide_frame'])
     .circuit(6)
     .itemOutputs('2x gtceu:sturdy_machine_casing')
     .EUt(16)
