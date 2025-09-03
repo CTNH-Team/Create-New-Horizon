@@ -218,6 +218,7 @@ ServerEvents.recipes(event => {
         event.recipes.create.mixing('gtceu:red_alloy_dust', ['4x minecraft:redstone', '1x gtceu:copper_dust']).heated()
         event.recipes.create.mixing(['gtceu:andesite_alloy_dust', Item.of('gtceu:andesite_alloy_dust').withChance(0.3)], ['gtceu:andesite_dust', 'gtceu:iron_dust'])
         event.recipes.create.mixing('8x gtceu:steel_precursor_dust', ['8x gtceu:wrought_iron_dust', '3x gtceu:coke_dust']).heated()
+        event.recipes.create.mixing('8x gtceu:steel_precursor_dust', ['8x gtceu:wrought_iron_dust', '6x #forge:dusts/charcoal']).heated()
        event.recipes.create.mixing('3x gtceu:bronze_dust', ['3x gtceu:copper_dust', 'gtceu:tin_dust']).heated()
     })
     //组装

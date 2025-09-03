@@ -542,7 +542,7 @@ ServerEvents.recipes(event => {
         ], {
             A: "gtceu:lv_conveyor_module",
             B: "#gtceu:circuits/lv",
-            C: "gtceu:primitive_blast_furnace",
+            C: "minecraft:blast_furnace",
             D: "gtceu:firebricks"
         })
     event.shaped(
@@ -1646,6 +1646,15 @@ ServerEvents.recipes(event => {
         ], {
             A: 'bloodmagic:dungeon_brick1'
         })
+    event.shaped(
+        Item.of('ad_astra:iron_plating', 64), [
+            "AAA",
+            "A A",
+            "AAA"
+        ], {
+            A: '#forge:plates/iron'
+        })
+        
     event.shapeless("ad_astra:space_helmet", "ad_astra:space_helmet")
     event.shapeless("ad_astra:space_suit", "ad_astra:space_suit")
     event.shapeless("ad_astra:space_pants", "ad_astra:space_pants")

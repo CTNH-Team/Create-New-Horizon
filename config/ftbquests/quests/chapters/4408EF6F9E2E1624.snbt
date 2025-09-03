@@ -918,14 +918,14 @@
 			dependencies: ["105D45F86A0B3A55"]
 			id: "1162E347E7C00175"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "什么年代了，还在用传统土高炉"
 			tasks: [{
 				id: "6436E6490E808D9A"
 				item: "gtceu:steel_ingot"
 				type: "item"
 			}]
-			x: -21.0d
+			x: -15.0d
 			y: 7.5d
 		}
 		{
@@ -1468,7 +1468,7 @@
 				item: "minecraft:compass"
 				type: "item"
 			}]
-			x: -16.5d
+			x: -19.5d
 			y: 7.5d
 		}
 		{
@@ -1479,7 +1479,7 @@
 				item: "gtceu:magnetic_iron_bolt"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -21.0d
 			y: 7.5d
 		}
 	]

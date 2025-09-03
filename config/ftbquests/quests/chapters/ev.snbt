@@ -1574,6 +1574,19 @@
 			x: 0.0d
 			y: 6.5d
 		}
+		{
+			id: "5871572C3F0A1CAB"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.hv.quest121.subtitle}"
+			tasks: [{
+				id: "3E72DDEEAD18B789"
+				item: "ctnhcore:dimensional_gas_collection_chamber"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
 	]
 	title: "{ftbquests.chapter.ev.title}"
 }

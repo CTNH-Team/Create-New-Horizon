@@ -1301,20 +1301,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["36968F23015BC87A"]
-			id: "5871572C3F0A1CAB"
-			shape: "gear"
-			size: 2.0d
-			subtitle: "{ftbquests.chapter.hv.quest121.subtitle}"
-			tasks: [{
-				id: "3E72DDEEAD18B789"
-				item: "ctnhcore:dimensional_gas_collection_chamber"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 0.0d
-		}
-		{
 			id: "1AEEB36389F68A28"
 			tasks: [{
 				id: "58460F9F5142F7EC"

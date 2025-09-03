@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
         vintageimprovements.coiling(`gtceu:${i}_spring`, [`gtceu:long_${i}_rod`])
         vintageimprovements.coiling(`gtceu:small_${i}_spring`, [`gtceu:${i}_rod`])
     }
-    let ingot1 = ['iron', 'gold','steel','copper','silver','bronze']//不同的金属箔
+    let ingot1 = ['gold','steel','copper','silver','bronze']//不同的金属箔
         for (let i of ingot1) {
         event.recipes.vintageimprovementsHammering(Item.of(`3x gtceu:${i}_foil`),`#forge:plates/${i}`,3)
     }

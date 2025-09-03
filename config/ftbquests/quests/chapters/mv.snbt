@@ -461,7 +461,7 @@
 				type: "item"
 			}]
 			x: 2.452380952380956d
-			y: -6.047619047619044d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4C152AA55BCD6945"]
@@ -518,7 +518,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			id: "61F3A1C4B771E811"
@@ -535,7 +535,6 @@
 			dependencies: ["1FBD86C0CF681427"]
 			hide_dependency_lines: true
 			id: "1A760D451E9D23B0"
-			subtitle: "{ftbquests.chapter.mv.quest35.subtitle}"
 			tasks: [{
 				id: "71D1D2D5063F35CB"
 				item: "gtceu:mv_mixer"
@@ -543,7 +542,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1FBD86C0CF681427"]
@@ -701,7 +700,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -821,7 +820,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			id: "0B406575E6CDCC2D"
@@ -831,7 +830,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
