@@ -191,8 +191,10 @@ ServerEvents.recipes(event => {
         //湿件研究站
         'gtceu:research_station/1x_gtceu_wetware_processor_assembly',
         'gtceu:research_station/1x_gtceu_wetware_processor_computer',
-        //
-        'ad_astra:iron_plating'
+        //铁板方块
+        'ad_astra:iron_plating',
+        //压肉块
+        'biofactory:compacting/flesh_block_from_flesh_bits'
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",

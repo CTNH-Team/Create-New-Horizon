@@ -28,31 +28,7 @@ ServerEvents.recipes(event => {
         recipe.set('duration', newduration / 3)
     })
 })
-GTCEuServerEvents.oreVeins(event => {
-    event.add("kubejs:tinkers_vein", vein => {
-        //矿脉生成前准备
-        vein.weight(20) // [*]//权重，愈大生成概率越高
-        vein.clusterSize(20) // [*]//矿脉大小，与单个矿脉内矿物数量相关
-        vein.density(0.3) // [*]//密度
-        vein.discardChanceOnAirExposure(0) //
-        // 定义在哪里生成
-        vein.layer("deepslate") // [*]//替换方块类型
-        vein.dimensions("minecraft:overworld") //限制维度
-        vein.biomes("#minecraft:is_overworld") //限制生物群系
-        // 定义高度范围
-        vein.heightRangeUniform(-20, 20) //高度
-        // 配置矿脉矿物类型
-       vein.layeredVeinGenerator(generator => generator
-        .buildLayerPattern(pattern => pattern
-            //weight:矿物权重
-            .layer(l => l.weight(1).block(() => Block.getBlock('sakuratinker:eezo_ore')).size(1, 1))
-            .layer(l => l.weight(2).state(() => Block.getBlock('sakuratinker:terracryst_ore').defaultBlockState()).size(1, 2))
-            .layer(l => l.weight(3).state(() => Block.getBlock('sakuratinker:prometheum_ore').defaultBlockState()).size(2, 3))
-            .layer(l => l.weight(3).state(() => Block.getBlock('sakuratinker:orichalcum_ore').defaultBlockState()).size(4, 6))
-            )
-        )
-    })
-})
+
 ServerEvents.recipes(event => {
     // event.recipes.gtceu.create_mixer("rose_quartz")
     //     .itemInputs("minecraft:quartz", "4x minecraft:redstone")
