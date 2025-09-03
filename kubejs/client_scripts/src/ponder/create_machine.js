@@ -352,3 +352,98 @@ Ponder.registry(event=>{
             scene.world.replaceBlocks([8, 10, 0, 7, 7, 0], kinetic_output, true)
         })
 })
+//碳刷
+Ponder.registry(event=>{
+    event.create([
+        'create_new_age:carbon_brushes',
+        'create_new_age:generator_coil'
+        ])
+    .scene("carbon_brushes",
+        "Magneto generated electricity",
+        "kubejs:carbon_brushes",
+        (scene,util)=>{
+            var magnet1= util.select.fromTo(4, 5, 1, 2, 5, 8)
+            var magnet2= util.select.fromTo(4, 1, 1, 2, 1, 8)
+            var magnet3= util.select.fromTo(1, 4, 1, 1, 2, 8)
+            var magnet4= util.select.fromTo(5, 2, 1, 5, 4, 8)
+
+            scene.idle(10)
+            scene.world.showSection([0, 0, 0, 6, 0, 8],"north")
+
+            scene.idle(10)
+
+            scene.world.showSection([3, 3, 0],"north")
+            scene.world.modifyBlockEntityNBT([3, 3, 0, 3, 3, 9], nbt => { nbt.Speed = 16 });
+            scene.world.replaceBlocks(magnet1, 'create_new_age:magnetite_block', false)
+            scene.world.replaceBlocks(magnet2, 'create_new_age:magnetite_block', false)
+            scene.world.replaceBlocks(magnet3, 'create_new_age:magnetite_block', false)
+            scene.world.replaceBlocks(magnet4, 'create_new_age:magnetite_block', false)
+            scene.text(60,"This is carbon brushes.It can convert kinetic energy into electrical energy.",[3.5, 3.5, 0]).attachKeyFrame()
+
+            scene.idle(70)
+
+            scene.world.showSection([3, 3, 1, 3, 3.5, 1],"north")
+            scene.idle(10)
+            scene.text(60,"To provide sufficient kinetic energy, you need generator coils.",[2.5, 3.5, 1]).attachKeyFrame()
+
+            scene.idle(70)
+
+            scene.world.showSection([3, 5, 1],"north")
+            scene.idle(10)
+            scene.text(60,"Just having a generator coil is not enough to generate energy, you also need to install magnets around the coil.",[3, 5.5, 2]).attachKeyFrame()
+
+            scene.idle(70)
+
+            scene.world.showSection([3, 4, 0],"down")
+            scene.world.showSection([2, 3, 0],"east")
+            scene.idle(10)
+            scene.text(60,"Place containers or cables to export energy",[3, 3.5, 1]).attachKeyFrame()
+
+            scene.idle(70)
+
+            scene.text(60,"A generator coil can be accelerated by up to 12 magnets",[2, 5.5, 1]).attachKeyFrame()
+            scene.idle(10)
+            scene.world.showSection([1, 5, 1, 5, 1, 1],"north")
+
+            scene.idle(70)
+
+            scene.text(60,"One carbon brush can receive the kinetic energy of 8 generator coils").attachKeyFrame()
+            scene.idle(10)
+            scene.world.showSection([1, 5, 2, 5, 1, 9],"north")
+
+            scene.idle(70)
+
+            scene.text(60,"As the number of magnets increases, the stress consumption of the coil will also increase",[2, 5.5, 1]).attachKeyFrame()
+
+            scene.idle(60)
+
+            scene.text(60,"the rotational speed is also a major contributor to the increase in stress consumption",[3.5, 3.5, 0]).attachKeyFrame()
+            scene.idle(10)
+            scene.world.modifyBlockEntityNBT([3, 3, 0, 3, 3, 8], nbt => { nbt.Speed = 256 })
+
+            scene.idle(70)
+
+            scene.text(100,"Similarly, The grade of the magnet will also increase stress consumption.").attachKeyFrame()
+            scene.idle(20)
+            scene.world.replaceBlocks(magnet1, 'create_new_age:redstone_magnet', true)
+            scene.world.replaceBlocks(magnet2, 'create_new_age:redstone_magnet', true)
+            scene.world.replaceBlocks(magnet3, 'create_new_age:redstone_magnet', true)
+            scene.world.replaceBlocks(magnet4, 'create_new_age:redstone_magnet', true)
+            scene.idle(20)
+            scene.world.replaceBlocks(magnet1, 'create_new_age:layered_magnet', true)
+            scene.world.replaceBlocks(magnet2, 'create_new_age:layered_magnet', true)
+            scene.world.replaceBlocks(magnet3, 'create_new_age:layered_magnet', true)
+            scene.world.replaceBlocks(magnet4, 'create_new_age:layered_magnet', true)
+            scene.idle(20)
+            scene.world.replaceBlocks(magnet1, 'create_new_age:fluxuated_magnetite', true)
+            scene.world.replaceBlocks(magnet2, 'create_new_age:fluxuated_magnetite', true)
+            scene.world.replaceBlocks(magnet3, 'create_new_age:fluxuated_magnetite', true)
+            scene.world.replaceBlocks(magnet4, 'create_new_age:fluxuated_magnetite', true)
+            scene.idle(20)
+            scene.world.replaceBlocks(magnet1, 'create_new_age:netherite_magnet', true)
+            scene.world.replaceBlocks(magnet2, 'create_new_age:netherite_magnet', true)
+            scene.world.replaceBlocks(magnet3, 'create_new_age:netherite_magnet', true)
+            scene.world.replaceBlocks(magnet4, 'create_new_age:netherite_magnet', true)
+
+        })
+})
