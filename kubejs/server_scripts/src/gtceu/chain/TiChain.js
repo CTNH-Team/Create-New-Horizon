@@ -38,20 +38,5 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(150)
         .blastFurnaceTemp(2200)
-    //氯化铝电解
-    ctnh.electrolyzer("aluminium_process1s")
-        .itemInputs('4x gtceu:aluminium_chloride_dust')
-        .itemOutputs('gtceu:aluminium_dust')
-        .outputFluids("gtceu:chlorine 3000")
-        .EUt(96)
-        .duration(40)
-
-
-
-
-
-
-
-
 
 })
