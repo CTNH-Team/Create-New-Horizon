@@ -25,20 +25,13 @@ ServerEvents.recipes(event => {
     //铌钽铁矿氧化处理
     ctnh.chemical_reactor("niobium_tantalite")
         .itemInputs("8x gtceu:chromium_trioxide_dust")
-        .inputFluids(Fluid.of("gtceu:ammonium_hydroxide", 8000))
+        .inputFluids(Fluid.of("gtceu:ammonia_monohydrate", 8000))
         .inputFluids(Fluid.of("gtceu:tantalite_fluorine", 4000))
         .itemOutputs("24x gtceu:potassium_hydroxide_dust","2x gtceu:chromium_dust")
         .outputFluids(Fluid.of('gtceu:ammonium_fluoride', 8000))
         .outputFluids(Fluid.of("gtceu:niobium_tantalite", 8000))
         .EUt(480)
         .duration(360)
-    //一水合氨合成
-    ctnh.chemical_reactor("ammonium_hydroxide")
-        .inputFluids(Fluid.of("gtceu:ammonia", 1000))
-        .inputFluids(Fluid.of("minecraft:water", 1000))
-        .outputFluids(Fluid.of("gtceu:ammonium_hydroxide",1000))
-        .EUt(24)
-        .duration(80)
     //铌钽氧化物分离
     ctnh.centrifuge("tantalite_oxide_dust")
         .inputFluids(Fluid.of("gtceu:niobium_tantalite", 2000))

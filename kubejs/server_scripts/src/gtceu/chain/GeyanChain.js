@@ -148,7 +148,7 @@ ServerEvents.recipes(event => {
     ctnh.large_chemical_reactor("radioactive_particles")
         .circuit(1)
         .itemInputs('gtceu:enrich_radioactive_waste_dust')
-        .inputFluids("gtceu:ammonium_hydroxide 1000")
+        .inputFluids("gtceu:ammonia_monohydrate 1000")
         .outputFluids('gtceu:radioactive_ion_solution 2000')
         .EUt(114514)
         .duration(20)

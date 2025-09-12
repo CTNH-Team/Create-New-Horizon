@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
         //提高了中子素配方的产率
     event.remove({ id: "gtceu:fusion_reactor/americium_and_naquadria_to_neutronium_plasma" })
     ctnh.fusion_reactor('americium_and_naquadria_to_neutronium_plasma')
-        .outputFluids('gtceu:neutronium256')
+        .outputFluids('gtceu:neutronium 256')
         .inputFluids('gtceu:naquadria_solution 256')
         .inputFluids('gtceu:americium 256')
         .fusionStartEU(600000000)

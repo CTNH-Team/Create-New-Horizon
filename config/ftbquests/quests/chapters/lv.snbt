@@ -379,7 +379,7 @@
 				"0F227314EC7719F8"
 				"1F7CA0731CCA907A"
 			]
-			description: ["{ftbquests.chapter.lv.quest20.description1}"]
+			description: ["前往下界或是各种矿石处理来获得成吨的氧化铝，这样你就可以拥有很多的铝粉了"]
 			id: "27BD70B6974D0C78"
 			subtitle: "{ftbquests.chapter.lv.quest20.subtitle}"
 			tasks: [{
@@ -391,7 +391,7 @@
 			y: 0.5d
 		}
 		{
-			description: ["{ftbquests.chapter.lv.quest21.description1}"]
+			description: ["需要使用熔融六氟偏铝酸钠来溶解氧化铝，这可以使氧化铝中的Al离子可以被电离出来，大大降低了电解能耗"]
 			id: "0F227314EC7719F8"
 			subtitle: "{ftbquests.chapter.lv.quest21.subtitle}"
 			tasks: [{
@@ -417,9 +417,15 @@
 		}
 		{
 			dependencies: ["3F2A5A509F9DF84B"]
-			description: ["{ftbquests.chapter.lv.quest23.description1}"]
+			description: ["你可以自己挖冰晶石，这是最优解。当然，你也可以用氧化铝与其它物质反应来得到六氟偏铝酸钠"]
 			id: "1F7CA0731CCA907A"
-			subtitle: "{ftbquests.chapter.lv.quest23.subtitle}"
+			rewards: [{
+				count: 64
+				id: "4220D0C44B917310"
+				item: "gtceu:cryolite_dust"
+				type: "item"
+			}]
+			subtitle: "通过提取机来得到熔融六氟偏铝酸钠，帮助你电解氧化铝"
 			tasks: [{
 				id: "0EE186D66FCC7F58"
 				item: "gtceu:cryolite_dust"
@@ -672,7 +678,7 @@
 		{
 			description: [""]
 			id: "471F881828CFF6A6"
-			subtitle: "试试辉钴出砷"
+			subtitle: "通过使用辉钴矿粉在高炉里的煅烧，可以获得三氧化二砷（砒霜）"
 			tasks: [{
 				id: "058016E76E3EEE36"
 				item: "gtceu:arsenic_dust"

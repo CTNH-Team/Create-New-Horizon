@@ -147,7 +147,6 @@ ServerEvents.recipes(event => {
         "gtceu:electrolyzer/decomposition_electrolyzing_palladium_sulfide",
         "gtceu:electrolyzer/decomposition_electrolyzing_ruthenium_amalgam",
         "gtceu:electrolyzer/decomposition_electrolyzing_osmium_iron_spinel",
-        "gtceu:mixer/neutronium_mixture",
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_rail",
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_powered_rail",
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_activator_rail",
