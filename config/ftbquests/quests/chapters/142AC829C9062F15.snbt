@@ -917,6 +917,19 @@
 			x: 9.0d
 			y: 12.5d
 		}
+		{
+			dependencies: ["1696CCDC1C982D16"]
+			description: ["放入带有“抽筋剥骨”附魔的武器即可自动产出血肉掠夺战利品。（赶紧用，以后说不定会削）"]
+			id: "70646FDE3BB4425C"
+			subtitle: "真正的轮椅"
+			tasks: [{
+				id: "314C7C36795D14E3"
+				item: "ctnhcore:slaughter_house"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
 	]
 	title: "血肉重铸"
 }

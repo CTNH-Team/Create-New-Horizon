@@ -577,18 +577,6 @@
 			y: 20.5d
 		}
 		{
-			dependencies: ["484BB98965D48FBF"]
-			id: "7B7EDEDB4D48C01C"
-			tasks: [{
-				id: "14479A88DC623552"
-				item: "gtceu:agn_fuel_active_plasma_bucket"
-				type: "item"
-			}]
-			title: "还没做"
-			x: 16.5d
-			y: 20.5d
-		}
-		{
 			dependencies: [
 				"6205780525A93130"
 				"57B52F859023B1C5"

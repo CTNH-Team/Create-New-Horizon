@@ -436,6 +436,12 @@
 			]
 			description: ["    你需要将转换器将FE转换为EU以供格雷机器使用"]
 			id: "54A490510D5FBA04"
+			rewards: [{
+				count: 32
+				id: "5E5DD8CED10318A7"
+				item: "gtceu:conductive_alloy_double_wire"
+				type: "item"
+			}]
 			subtitle: "虽然发的不是EU"
 			tasks: [{
 				id: "29E3903D7F9732A1"

@@ -26,7 +26,7 @@
 			id: "359E958586D6232F"
 			linked_quest: "2C6FBF2A814BB60D"
 			x: 11.0d
-			y: 0.0d
+			y: 0.5d
 		}
 	]
 	quests: [
@@ -359,21 +359,14 @@
 			dependency_requirement: "one_completed"
 			icon: "minecraft:end_portal_frame"
 			id: "5A55D491F0E9F389"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1939DA6E776D1004"
-					table_id: 5863108397808417557L
-					type: "random"
-				}
-				{
-					command: "/gamephase add @p end"
-					elevate_perms: true
-					id: "345886DE08824767"
-					title: "进入末地的权限"
-					type: "command"
-				}
-			]
+			optional: true
+			rewards: [{
+				command: "/gamephase add @p end"
+				elevate_perms: true
+				id: "345886DE08824767"
+				title: "进入末地的权限"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			subtitle: "只需要完成一个前置任务就可以做这个任务"
@@ -616,6 +609,7 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["4DCA7E4E57817E0A"]
 			icon: "aether:aether_portal_frame"
 			id: "415AF3F977F4C3F9"
