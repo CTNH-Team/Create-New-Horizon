@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-
+    let ctnh = event.recipes.gtceu
     ctnh.assembler('ctnhcore:mana_generator_turbine_tier3')
         .itemInputs('ctnhcore:mana_generator_turbine_tier2')
         .itemInputs('kubejs:general_circuit_luv')

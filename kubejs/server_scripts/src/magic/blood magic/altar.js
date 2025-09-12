@@ -290,19 +290,7 @@ ServerEvents.recipes(event => {
         },
         "upgradeLevel": 5
     })
-    event.custom({
-        "type": "bloodmagic:altar",
-        "altarSyphon": 40000,
-        "consumptionRate": 1000,
-        "drainRate": 150,
-        "input": {
-            "item": 'gtceu:micro_processor_computer'
-        },
-        "output": {
-            "item": 'kubejs:blooded_micro_processor_mainframe'
-        },
-        "upgradeLevel": 4
-    })
+
     event.custom({
         "type": "bloodmagic:altar",
         "altarSyphon": 5000,
