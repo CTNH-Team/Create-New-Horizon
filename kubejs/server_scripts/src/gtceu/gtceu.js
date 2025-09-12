@@ -351,7 +351,7 @@ ServerEvents.recipes(event => {
         .duration(200)
         .EUt(7280)
     event.recipes.gtceu.mana_reactor('pixie_dust')
-        .itemInputs('2x botania:mana_pearl')
+        .itemInputs('1x botania:mana_pearl')
         .notConsumable('kubejs:elf_catalyst')
         .inputFluids(Fluid.of("gtceu:mana", 500))
         .itemOutputs('botania:pixie_dust')
@@ -2783,8 +2783,8 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:wrought_iron_ingot')
         .EUt(8)
         .duration(100)
-    //原版熔炉配方
+        //原版熔炉配方
     event.smelting('gtceu:hot_high_temp_wrought_precursor_ingot', 'minecraft:iron_ingot')
-        .cookingTime(400)  
-        .xp(1.4);       
+        .cookingTime(400)
+        .xp(1.4);
 });

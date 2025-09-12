@@ -28,6 +28,11 @@ ServerEvents.recipes(event => {
     event.remove({ id: "sophisticatedbackpacks:stack_upgrade_omega_tier" })
     event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_ammonium_chloride" })
     event.remove({ id: "gtceu:assembler/mar_casing" })
+        //移除超净配方
+    event.remove({ id: "gtceu:arc_furnace/arc_cleaning_maintenance_hatch" })
+    event.remove({ id: "gtceu:macerator/macerate_cleaning_maintenance_hatch" })
+    event.remove({ id: "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_cleaning_maintenance_hatch" })
+        //强碱某些配方
     ctnh.assembler("gtceu:assembler/mar_casing")
         .itemInputs('6x ctnhcore:plate_radiation_protection')
         .itemInputs('gtceu:zpm_field_generator')

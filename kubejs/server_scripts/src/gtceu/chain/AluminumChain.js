@@ -325,6 +325,7 @@ ServerEvents.recipes(event => {
         //六氟铝酸钠回收
     event.recipes.gtceu.electrolyzer('cryolite_electrolyzer')
         .itemInputs('10x gtceu:cryolite_dust')
+        .circuit(1)
         .itemOutputs('6x gtceu:sodium_fluoride_dust')
         .itemOutputs('4x gtceu:aluminium_trifluoride_dust')
         .EUt(120)
