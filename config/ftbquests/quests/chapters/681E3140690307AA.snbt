@@ -686,24 +686,22 @@
 			icon: "biomancy:primordial_core"
 			id: "2AC892D111A8FA83"
 			rewards: [{
-				id: "113FD53ADC0B15C2"
+				id: "3E2FCBC05DB451DE"
 				item: {
 					Count: 1
 					id: "ctnhbio:damascus_steel_boning_knife"
 					tag: {
-						DisallowContainerItem: 0b
 						Enchantments: [{
-							id: "minecraft:looting"
-							lvl: 3s
+							id: "biomancy:despoil"
+							lvl: 3
 						}]
 						GT.Behaviours: { }
 						GT.Tool: {
 							AttackDamage: 8.0f
 							AttackSpeed: -1.9000001f
 							Damage: 0
-							MaxDamage: 1023
+							MaxDamage: 1024
 						}
-						HideFlags: 2
 					}
 				}
 				type: "item"

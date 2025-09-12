@@ -1034,23 +1034,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["2D30354CDA91122C"]
-			id: "5421945223C45651"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3AD6DBB71C80D60A"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			tasks: [{
-				id: "1767BC1C07B81A81"
-				item: "ctnhcore:meteor_capturer"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 12.5d
-		}
-		{
 			dependencies: ["69C0EA16863038E7"]
 			description: ["{ftbquests.chapter.iv.quest70.description1}"]
 			id: "27EC2E4B61A056E0"
@@ -1495,7 +1478,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 4.5d
+			y: 6.5d
 		}
 		{
 			id: "048E6F0643F91E9C"
@@ -1511,7 +1494,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 6.5d
+			y: 8.5d
 		}
 		{
 			id: "7C0C6B00A4AA43B5"
@@ -1527,7 +1510,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -1654,16 +1637,6 @@
 			y: 2.5d
 		}
 		{
-			id: "350ED47A651E9298"
-			tasks: [{
-				id: "706418CF350C03A8"
-				title: "{ftbquests.chapter.iv.quest111.task_+8098625308146271144.title}"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: 6.5d
-		}
-		{
 			dependencies: ["1B08CB9E24BDF006"]
 			id: "43A67D7528B8D846"
 			rewards: [{
@@ -1695,7 +1668,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 10.5d
+			y: 12.5d
 		}
 		{
 			description: [

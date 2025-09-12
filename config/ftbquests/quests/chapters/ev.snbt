@@ -559,7 +559,7 @@
 				}
 			]
 			x: 4.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["39C4AFD7B0736FD6"]
@@ -578,7 +578,7 @@
 			}]
 			title: "{ftbquests.chapter.ev.quest51.title}"
 			x: 6.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			id: "659495FD6AB169E3"
