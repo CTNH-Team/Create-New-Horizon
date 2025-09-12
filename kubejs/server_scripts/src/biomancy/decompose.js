@@ -136,8 +136,12 @@ function preprocessRecipeData(recipe, recipeId) {
         if (!ingredient) return null;
 
         // 处理输入
-        let input = ingredient.get("item") || ingredient.get("tag");
-        if (!input) return null;
+        let input = null;
+        if (ingredient.get("item")) {
+            input = ingredient.get("item").getAsString();
+        } else if (ingredient.get("tag")) {
+            input = `#${ingredient.get("tag").getAsString()}`;
+        }
 
         // 处理输出
         let results = json.get("results");
@@ -150,13 +154,30 @@ function preprocessRecipeData(recipe, recipeId) {
             if (!item) continue;
 
             let countRange = result.get("countRange");
+            let processedRange = null;
+            
+            if (countRange) {
+                let type = countRange.get("type").getAsString();
+                if (type === "constant") {
+                    // 处理constant类型
+                    let value = countRange.get("value").getAsNumber();
+                    processedRange = {
+                        min: value,
+                        max: value
+                    };
+                } else if (type === "uniform") {
+                    // 处理uniform类型
+                    processedRange = {
+                        min: Math.max(countRange.get("min").getAsNumber() || 1, 1),
+                        max: Math.max(countRange.get("max").getAsNumber() || 1, 1)
+                    };
+                }
+            }
+
             outputs.push({
                 item: item,
                 count: result.get("count") || 1,
-                countRange: countRange ? {
-                    min: Math.max(countRange.get("min") || 1, 1),
-                    max: Math.max(countRange.get("max") || 1, 1)
-                } : null
+                countRange: processedRange
             });
         }
 

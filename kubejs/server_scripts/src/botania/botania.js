@@ -591,6 +591,14 @@ ServerEvents.recipes(event => {
         }
     })
 
+    //瓶装末地空气
+    event.recipes.gtceu.canner('minecraft:ender_air_bottle')
+        .itemInputs('minecraft:glass_bottle')
+        .inputFluids(Fluid.of('gtceu:ender_air', 250))
+        .itemOutputs('botania:ender_air_bottle')
+        .duration(20)
+        .EUt(8)
+
     //custom
     runic_altar(event, ['minecraft:kelp', '#minecraft:boats', 'minecraft:sugar_cane', 'minecraft:fishing_rod', 'minecraft:lily_pad', 'ars_nouveau:blue_archwood_log'], "2x botania:rune_water", 6000)
     runic_altar(event, ['gtceu:andesite_alloy_ingot', 'gtceu:calcite_dust', 'minecraft:sandstone', 'minecraft:clay_ball', 'alexscaves:limestone', 'ars_nouveau:green_archwood_log'], "2x botania:rune_earth", 6000)

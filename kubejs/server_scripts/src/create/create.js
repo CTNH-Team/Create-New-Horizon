@@ -210,7 +210,7 @@ ServerEvents.recipes(event => {
         event.recipes.create.mixing('8x extendedcrafting:luminessence', ['4x minecraft:glowstone_dust', 'minecraft:gunpowder', 'minecraft:redstone']).heated()
         event.recipes.create.mixing('16x extendedcrafting:crystaltine_ingot', ['4x extendedcrafting:luminessence_block', 'gtceu:quantum_star', 'minecraft:netherite_ingot']).heated()
         event.recipes.create.mixing('create:rose_quartz', ['minecraft:quartz', '4x minecraft:redstone']).heated()
-        event.recipes.create.mixing('create:rose_quartz', ['2x biomesoplenty:rose_quartz_chunk', 'minecraft:redstone']).heated()
+        event.recipes.create.mixing('create:rose_quartz', ['2x biomesoplenty:rose_quartz_chunk', Fluid.of('minecraft:water', 100)])
         event.recipes.create.mixing(Fluid.of('gtceu:concrete', /** @type {number} */ 1000), ['gtceu:stone_dust', 'gtceu:quartz_sand_dust', 'gtceu:clay_dust', '2x gtceu:calcite_dust', Fluid.of('minecraft:water', 1000)]).heated()
         event.recipes.create.mixing('2x gtceu:andesite_alloy_dust', [Fluid.of('gtceu:iron', 144), '2x gtceu:andesite_dust'])
         event.recipes.create.mixing('gtceu:stem_cells', [Fluid.of('gtceu:simple_growth_medium', 144), '4x ctnhcore:animal_excreta'])
@@ -219,7 +219,12 @@ ServerEvents.recipes(event => {
         event.recipes.create.mixing(['gtceu:andesite_alloy_dust', Item.of('gtceu:andesite_alloy_dust').withChance(0.3)], ['gtceu:andesite_dust', 'gtceu:iron_dust'])
         event.recipes.create.mixing('8x gtceu:steel_precursor_dust', ['8x gtceu:wrought_iron_dust', '3x gtceu:coke_dust']).heated()
         event.recipes.create.mixing('8x gtceu:steel_precursor_dust', ['8x gtceu:wrought_iron_dust', '6x #forge:dusts/charcoal']).heated()
-       event.recipes.create.mixing('3x gtceu:bronze_dust', ['3x gtceu:copper_dust', 'gtceu:tin_dust']).heated()
+        event.recipes.create.mixing('3x gtceu:bronze_dust', ['3x gtceu:copper_dust', 'gtceu:tin_dust']).heated()
+
+        //alex 磁铁
+        event.recipes.create.mixing('2x alexscaves:scarlet_neodymium_ingot', ["alexscaves:raw_scarlet_neodymium", "minecraft:iron_ingot"])
+        event.recipes.create.mixing('2x alexscaves:azure_neodymium_ingot', ["alexscaves:raw_azure_neodymium", "minecraft:iron_ingot"])
+
     })
     //组装
 ServerEvents.recipes(event => { //红色合金线缆

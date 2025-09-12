@@ -504,5 +504,7 @@
     "material.gtceu.strontium_chloride": "氯化锶",
     "material.gtceu.perrhenic_acid": "高铼酸",
     "material.gtceu.steel_precursor": "预制钢",
-    "material.gtceu.high_temp_wrought_precursor": "预处理锻铁"
+    "material.gtceu.high_temp_wrought_precursor": "预处理锻铁",
+    "gtceu.recipe.cleanroom.display_name": "§e超净间§r",
+    "gtceu.recipe.cleanroom_sterile.display_name": "§d无菌超净间§r"
 }
