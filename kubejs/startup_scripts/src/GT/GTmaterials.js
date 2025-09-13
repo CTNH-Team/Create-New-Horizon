@@ -1643,6 +1643,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .iconSet(GTMaterialIconSet.METALLIC)
         .color(0x8C7853)
         .blastTemp(7200 , 'high', GTValues.VA[GTValues.UHV], 2500)
+    event.create("perrhenic_acid")
+        .liquid()
+        .color(0x654aaa)
 
 })
 
@@ -1714,4 +1717,5 @@ StartupEvents.postInit(event => {
     setFormula("strontium_chloride", "SrCl2")
     setFormula("oracle", "THANKS_FOR_YOUR_PLAYING")
     setFormula("advanced_mana_steel", "MAGIC+")
+    setFormula("perrhenic_acid", "HReO4")
 })

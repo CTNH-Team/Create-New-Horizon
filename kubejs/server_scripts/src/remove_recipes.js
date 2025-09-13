@@ -104,6 +104,7 @@ ServerEvents.recipes(event => {
         "gtceu:assembler/bamboo_stairs",
         "gtceu:assembler/crimson_stairs",
         "gtceu:assembler/warped_stairs",
+        "gtceu:extractor/extract_ammonium_chloride_dust",
         "enderio:void_chassis",
         "hostilenetworks:sim_chamber",
         "hostilenetworks:loot_fabricator",
@@ -357,4 +358,5 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:gas_turbine/benzene" })
     event.remove({ id: "gtceu:gas_turbine/nitrobenzene" })
     event.remove({ id: "gtceu:electric_blast_furnace/iro2" })
+    event.remove({ id: "gtceu:large_chemical_reactor/hydrogen_peroxide" })
 })
