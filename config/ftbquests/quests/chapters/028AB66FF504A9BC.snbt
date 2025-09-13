@@ -9,37 +9,26 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["144A09EC75B60D68"]
+			dependencies: ["03CF3E3907C153E0"]
 			id: "633A8CA9F2CAFBB0"
 			tasks: [{
 				id: "21A13DBF3A59A052"
 				item: "gtceu:primitive_pump"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 0.0d
+			x: -5.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["144A09EC75B60D68"]
+			dependencies: ["03CF3E3907C153E0"]
 			id: "3AAAA8A7DD762F73"
 			tasks: [{
 				id: "7388631F0A002F7C"
 				item: "gtceu:coke_oven"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["144A09EC75B60D68"]
-			id: "2ED184EBECD67C23"
-			tasks: [{
-				id: "33CC064F9511EF13"
-				item: "gtceu:primitive_blast_furnace"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 0.0d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1B7439F730B988EF"]
@@ -53,28 +42,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["144A09EC75B60D68"]
-			id: "2D7E7F0FC6E871A5"
-			tasks: [{
-				id: "1568CC2D8F1BB306"
-				item: "gtceu:steam_grinder"
-				type: "item"
-			}]
-			x: -9.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["144A09EC75B60D68"]
-			id: "32DEFCAAD5F6F98F"
-			tasks: [{
-				id: "600934D70632664D"
-				item: "gtceu:steam_oven"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["1B7439F730B988EF"]
 			id: "0D046F778BBF92DF"
 			tasks: [{
@@ -84,16 +51,6 @@
 			}]
 			x: 1.5d
 			y: 1.0d
-		}
-		{
-			id: "144A09EC75B60D68"
-			tasks: [{
-				id: "0341C2EDA12C3D1A"
-				title: "{ftbquests.chapter.028AB66FF504A9BC.quest12.task_+234682981467045146.title}"
-				type: "checkmark"
-			}]
-			x: -7.0d
-			y: -2.0d
 		}
 		{
 			dependencies: ["1B7439F730B988EF"]
@@ -128,26 +85,26 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["144A09EC75B60D68"]
+			dependencies: ["03CF3E3907C153E0"]
 			id: "370C6D93067B1646"
 			tasks: [{
 				id: "3824B47839242078"
 				item: "gtceu:wooden_multiblock_tank"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 4.0d
+			x: -8.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["370C6D93067B1646"]
+			dependencies: ["03CF3E3907C153E0"]
 			id: "46E3032B6F4C2D3C"
 			tasks: [{
 				id: "7B0531380E9DD457"
 				item: "gtceu:steel_multiblock_tank"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 5.0d
+			x: -8.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1B7439F730B988EF"]
@@ -172,16 +129,15 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["144A09EC75B60D68"]
+			dependencies: ["03CF3E3907C153E0"]
 			id: "6A45C4808C875299"
-			subtitle: "{ftbquests.chapter.028AB66FF504A9BC.quest20.subtitle}"
 			tasks: [{
 				id: "4E659FB98E288D81"
 				item: "gtceu:charcoal_pile_igniter"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -4.0d
+			x: -5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["03CF3E3907C153E0"]
@@ -192,8 +148,8 @@
 				item: "ctnhcore:meadow"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 0.0d
+			x: -7.0d
+			y: 0.5d
 		}
 		{
 			id: "03CF3E3907C153E0"
@@ -202,8 +158,8 @@
 				title: "{ftbquests.chapter.028AB66FF504A9BC.quest22.task_+6850498883149086505.title}"
 				type: "checkmark"
 			}]
-			x: -16.0d
-			y: -2.0d
+			x: -7.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["03CF3E3907C153E0"]
@@ -213,8 +169,8 @@
 				item: "ctpp:seaweed_farm"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 1.5d
+			x: -7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["03CF3E3907C153E0"]
@@ -224,8 +180,8 @@
 				item: "ctnhcore:big_dam"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 3.0d
+			x: -7.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["03CF3E3907C153E0"]
@@ -235,8 +191,8 @@
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 0.0d
+			x: -5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["03CF3E3907C153E0"]
@@ -246,8 +202,8 @@
 				item: "create:windmill_bearing"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 0.0d
+			x: -8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["03CF3E3907C153E0"]
@@ -258,19 +214,19 @@
 				item: "ctpp:windmill_control_center"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 4.5d
+			x: -7.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["144A09EC75B60D68"]
+			dependencies: ["03CF3E3907C153E0"]
 			id: "76F963A42FEAD27A"
 			tasks: [{
 				id: "29AEB32C43613223"
 				item: "ctnhcore:underfloor_heating_system"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 6.0d
+			x: -8.5d
+			y: 5.0d
 		}
 		{
 			id: "18C1668BA11D77A8"
@@ -578,7 +534,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["144A09EC75B60D68"]
+			dependencies: ["03CF3E3907C153E0"]
 			id: "043DFD8A549AC307"
 			shape: "gear"
 			size: 2.0d
@@ -587,7 +543,7 @@
 				item: "ctnhcore:martial_morality_eye"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -5.0d
 			y: 5.0d
 		}
 		{

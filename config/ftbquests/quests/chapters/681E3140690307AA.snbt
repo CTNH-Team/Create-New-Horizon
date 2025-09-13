@@ -72,6 +72,14 @@
 			x: -6.0d
 			y: 5.0d
 		}
+		{
+			height: 1.0d
+			image: "farmersdelight:block/stove_front_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 4.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -94,12 +102,13 @@
 			description: [
 				"{ftbquests.chapter.681E3140690307AA.quest2.description1}"
 				"{ftbquests.chapter.681E3140690307AA.quest2.description2}"
+				"     &m如果你实在讨厌温度，可以通过设置关掉，方法自行查询&r"
 			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
 					Parent: {
-						temperature: 20.6f
+						temperature: 35.6f
 					}
 				}
 				id: "legendarysurvivaloverhaul:thermometer"
@@ -187,21 +196,23 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["44C7FE559ECFB2EB"]
+			dependencies: ["1B4FFE71B4C66E14"]
 			description: [
+				"对gt矿物的连锁默认被禁用了"
 				"{ftbquests.chapter.681E3140690307AA.quest7.description1}"
 				"{image:ftbquests:textures/basic/mods.png width:180 height:100 align:center}"
 				"{image:ftbquests:textures/basic/config.png width:180 height:100 align:center}"
 			]
 			id: "4B11E32ACA7BC6FA"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7.subtitle}"
+			subtitle: "默认按~启用"
 			tasks: [{
 				id: "6344812C1EC2C585"
 				title: "{ftbquests.chapter.681E3140690307AA.quest7.task_+7152984134665815429.title}"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 3.5d
+			title: "连锁挖矿"
+			x: -6.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["7500E7310C70727B"]
@@ -342,18 +353,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "336B11DEECD4272E"
-					item: {
-						Count: 1
-						id: "sophisticatedbackpacks:gold_backpack"
-						tag: {
-							inventorySlots: 81
-							upgradeSlots: 3
-						}
-					}
-					type: "item"
-				}
 			]
 			shape: "square"
 			size: 1.5d
@@ -405,7 +404,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["1B4FFE71B4C66E14"]
+			dependencies: ["4B11E32ACA7BC6FA"]
 			description: ["{ftbquests.chapter.681E3140690307AA.quest12.description1}"]
 			icon: "gtceu:raw_magnetite"
 			id: "6639C6A3A5807AED"
@@ -451,7 +450,7 @@
 			]
 			title: "{ftbquests.chapter.681E3140690307AA.quest12.title}"
 			x: -6.5d
-			y: 15.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["1B4FFE71B4C66E14"]
@@ -517,48 +516,6 @@
 			}]
 			x: -12.5d
 			y: 9.0d
-		}
-		{
-			dependencies: ["611BCC64F1F511AA"]
-			description: ["更多相关任务见[实用小工具]"]
-			icon: "sophisticatedbackpacks:backpack"
-			id: "04FBFEEE00051A74"
-			optional: true
-			rewards: [
-				{
-					count: 4
-					id: "75D0E80D02D3516B"
-					item: "minecraft:string"
-					type: "item"
-				}
-				{
-					id: "10F8762EB24C04B7"
-					item: "minecraft:chest"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "36E42458DAA32682"
-					item: "minecraft:leather"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest16.subtitle}"
-			tasks: [{
-				id: "123796D65339C390"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "curios:back"
-					}
-				}
-				title: "{ftbquests.chapter.681E3140690307AA.quest16.task_+1312683663665251216.title}"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.681E3140690307AA.quest16.title}"
-			x: -6.5d
-			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -748,7 +705,7 @@
 		{
 			dependencies: ["09C344717F4BAD6C"]
 			id: "31554E021ECE6572"
-			subtitle: "如果你不看籽岷，那么用这把剑杀掉的动物可以直接掉落熟肉，非常方便"
+			subtitle: "用这把剑杀掉的动物可以直接掉落熟肉，非常方便"
 			tasks: [{
 				id: "640D0069BFD1C069"
 				item: {
@@ -889,7 +846,7 @@
 				item: "minecraft:white_bed"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -4.5d
 			y: 7.0d
 		}
 		{
@@ -902,7 +859,7 @@
 				item: "minecraft:white_wool"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.5d
 			y: 7.0d
 		}
 		{
@@ -961,6 +918,69 @@
 				type: "item"
 			}]
 			x: -4.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["1B4FFE71B4C66E14"]
+			description: [
+				"  右键打开，放在物品栏中或装备在饰品栏“背包”位置时可通过快捷键（默认为B）打开。"
+				"  shift+右键可以将背包放置在地上（或拿起），此时可以通过右键打开（就像箱子），也可以通过任何物流手段进行物品的输入输出。"
+				"  背包的数据并不依赖于背包物品存在。若背包不慎丢失，可通过 /sophisticatedbackpacks list 指令查看所有背包并恢复。"
+				"  更多用法可前往“存储的艺术”章节查看。"
+			]
+			id: "04C7933B3E7709CE"
+			rewards: [{
+				id: "170CFDAA247F0E2D"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			subtitle: "唯一真神"
+			tasks: [{
+				id: "40600AC46CAF10C4"
+				type: "checkmark"
+			}]
+			title: "背起行囊"
+			x: -6.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["44C7FE559ECFB2EB"]
+			id: "76C15DB805BE1D12"
+			rewards: [{
+				id: "3F4FAE4DA2B568C7"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			subtitle: "成为美食家吧"
+			tasks: [{
+				id: "06AAAB63BC2803F0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:seeds"
+					}
+				}
+				type: "item"
+			}]
+			title: "农夫乐事"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7F3D3CD93589D286"]
+			description: [
+				"在本整合包中，下界、末地、天境和暮色森林均需要对应权限才能进入。通过推进科技、完成相应任务可解锁权限。"
+				"外星维度则无限制。"
+			]
+			id: "7C11E76AA3AA3E9E"
+			subtitle: "怎么去不了下界了？"
+			tasks: [{
+				id: "5A1A87B1DFA5172C"
+				title: "维度封锁"
+				type: "checkmark"
+			}]
+			x: -8.5d
 			y: 17.0d
 		}
 	]

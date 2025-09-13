@@ -1163,7 +1163,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6F6CE9819AC46724"]
+			dependencies: ["026EEA8EEAA6BFB1"]
 			id: "314803CD653E6206"
 			tasks: [{
 				id: "26417814FABC3952"
@@ -1203,10 +1203,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"4FFD51BF444957C6"
-				"6F6CE9819AC46724"
-			]
+			dependencies: ["4FFD51BF444957C6"]
 			dependency_requirement: "one_completed"
 			id: "33CDE1381B278481"
 			shape: "octagon"
@@ -1232,7 +1229,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 3.0d
+			y: 1.0d
 		}
 		{
 			id: "646A046E3DBA0C52"
@@ -1586,6 +1583,17 @@
 			}]
 			x: 11.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["6F6CE9819AC46724"]
+			id: "026EEA8EEAA6BFB1"
+			tasks: [{
+				id: "503AA7626F80065B"
+				item: "gtceu:molybdenum_disilicide_coil_block"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
 		}
 	]
 	title: "{ftbquests.chapter.ev.title}"

@@ -349,17 +349,17 @@ ServerEvents.recipes(event => {
             A: "gtceu:polybenzimidazole_plate",
             B: "minecraft:dried_kelp",
         })
-    event.shaped(
-        Item.of("ae2:inscriber", 1), [
-            "ABA",
-            "C C",
-            "DBD"
-        ], {
-            A: "gtceu:mv_electric_piston",
-            B: "minecraft:sticky_piston",
-            C: "gtceu:aluminium_plate",
-            D: "gtceu:certus_quartz_plate"
-        })
+    // event.shaped(
+    //     Item.of("ae2:inscriber", 1), [
+    //         "ABA",
+    //         "C C",
+    //         "DBD"
+    //     ], {
+    //         A: "gtceu:mv_electric_piston",
+    //         B: "minecraft:sticky_piston",
+    //         C: "gtceu:aluminium_plate",
+    //         D: "gtceu:certus_quartz_plate"
+    //     })
     event.shaped(
         Item.of("ae2:charger", 1), [
             " AA",

@@ -626,26 +626,20 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"15F6F741F83DADF6"
-				"5DB9849BC92C0BB1"
-			]
+			dependencies: ["5DB9849BC92C0BB1"]
 			description: ["更高效地处理矿物，省去繁琐的步骤"]
 			id: "2095975A0D0A9E1E"
-			subtitle: "不只是分解生物素材"
+			subtitle: "不要电的单步矿处"
 			tasks: [{
 				id: "1861D9204F97212D"
 				item: "ctnhbio:lv_decomposer"
 				type: "item"
 			}]
 			x: -4.5d
-			y: 6.0d
+			y: 4.5d
 		}
 		{
-			dependencies: [
-				"15F6F741F83DADF6"
-				"2A07853B97390E58"
-			]
+			dependencies: ["2A07853B97390E58"]
 			description: [""]
 			id: "09542A8A75F69EA5"
 			subtitle: "它其实是个美食家"
@@ -668,7 +662,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5C5E74F9A6082A4B"]
@@ -679,7 +673,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["7D8B9FF2E5A2A167"]
@@ -690,7 +684,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 9.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["474BDB71028B9DDF"]
@@ -701,7 +695,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 10.5d
+			y: 12.5d
 		}
 		{
 			id: "1CCBE7B71BB782FD"
@@ -743,18 +737,11 @@
 			]
 			id: "5EE36C722931A3A5"
 			subtitle: "培养"
-			tasks: [
-				{
-					id: "6C52488BDCD9AF38"
-					item: "biomancy:primordial_cradle"
-					type: "item"
-				}
-				{
-					id: "43E5F0F7A5B1293A"
-					item: "gtceu:primordial_serum_bucket"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6C52488BDCD9AF38"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
 			x: 3.0d
 			y: 8.5d
 		}
@@ -853,7 +840,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			description: [
@@ -929,6 +916,22 @@
 			}]
 			x: -2.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["213B6C166AFD2A8E"]
+			description: [
+				"用于生产一些血清，以及鲜活血肉、原初核心的增殖"
+				"除此之外，还能快速生产一些有机物"
+			]
+			id: "50CCCB9AECB5C68B"
+			subtitle: "生物反应（太科学了）"
+			tasks: [{
+				id: "1C905E71F305BE8D"
+				item: "ctnhbio:lv_bioreactor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
 		}
 	]
 	title: "血肉重铸"

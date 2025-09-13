@@ -1,5 +1,6 @@
 {
 	chapter_groups: [
+		{ id: "045BDEA2D2692FE0", title: "实用技术" }
 		{ id: "203B37D7B3ACCD4B", title: "{ftbquests.chapter_groups_2322511432411565387.title}" }
 		{ id: "19912BEA87D24FE0", title: "{ftbquests.chapter_groups_1842302008872292320.title}" }
 		{ id: "32DB92B5A6E4493B", title: "{ftbquests.chapter_groups_3664684030682745147.title}" }

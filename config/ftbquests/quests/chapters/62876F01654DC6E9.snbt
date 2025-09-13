@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "62876F01654DC6E9"
-	group: ""
+	group: "045BDEA2D2692FE0"
 	icon: "buildinggadgets2:gadget_building"
 	id: "62876F01654DC6E9"
 	images: [{
@@ -13,7 +13,7 @@
 		x: -5.0d
 		y: 2.5d
 	}]
-	order_index: 2
+	order_index: 0
 	quest_links: [{
 		id: "2C36813CC15AD301"
 		linked_quest: "337BC9186C014A06"
