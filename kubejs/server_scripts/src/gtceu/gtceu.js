@@ -241,12 +241,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:assembler/cover_ender_fluid_link" })
 
 
-    event.recipes.gtceu.phase_inversion("ram_reverse")
-        .itemInputs('gtceu:ram_chip')
-        .inputFluids(Fluid.of("gtceu:zenith_essence", 60))
-        .itemOutputs('gtceu:ram_wafer')
-        .duration(2000)
-        .EUt(480)
     event.recipes.gtceu.assembler("cover_ender_fluid_link")
         .EUt(480)
         .duration(320)
