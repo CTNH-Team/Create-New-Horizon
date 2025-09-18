@@ -35,10 +35,24 @@ ServerEvents.recipes(event => {
         .duration(100)
         .EUt(1920)
     ctnh.assembler("graphene_powder")
-        .itemInputs(['8x gtceu:graphite_dust', '1x gtceu:duct_tape'])
-        .itemOutputs(['2x gtceu:small_graphene_dust'])
+        .itemInputs(['10x gtceu:graphite_dust', '10x gtceu:duct_tape'])
+        .chancedOutput('gtceu:small_graphene_dust', 4500, 0)
         .EUt(480)
         .duration(180)
+
+    let transitional = 'minecraft:coal_block'
+    event.recipes.create.sequenced_assembly([
+            Item.of('gtceu:small_graphene_dust').withChance(0.09),
+            Item.of('minecraft:coal_block').withChance(0.5),
+            Item.of('minecraft:diamond').withChance(0.05),
+            Item.of('gtceu:snow_steel_ingot').withChance(0.01),
+            Item.of('minecraft:coal').withChance(0.3),
+            Item.of('gtceu:exquisite_coal_gem').withChance(0.05),
+        ], 'minecraft:coal_block', [
+            event.recipes.createDeploying(transitional, [transitional, 'gtceu:duct_tape'])
+        ]).transitionalItem(transitional)
+        .loops(1)
+
     ctnh.centrifuge("metal_slag")
         .itemInputs('gtceu:metal_sludge_dust')
         .itemOutputs('gtceu:nickel_dust', 'gtceu:copper_dust')

@@ -237,10 +237,12 @@ ServerEvents.recipes(event => {
         /vintageimprovements:(.*)_wire/,
         /gtceu:high_temp_wrought_precursor_(.*)/,
         'gtceu:small_high_temp_wrought_precursor_dust',
-        'gtceu:tiny_high_temp_wrought_precursor_dust'
+        'gtceu:tiny_high_temp_wrought_precursor_dust',
+        /mae2:(.*)x_crafting_accelerator/
+
     ])
     remove_recipes_input(event, [
-        "thermal:constantan_ingot",
+        "thermal:constantan_ingot"
     ])
 
     event.remove({ id: /thermal:parts(.*)_gear/ })

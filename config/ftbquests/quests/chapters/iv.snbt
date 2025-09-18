@@ -1735,6 +1735,19 @@
 			x: -2.5d
 			y: -1.0d
 		}
+		{
+			description: ["不卡服的异步成型，可放置流体，可调用ae，真·无仓室模式"]
+			id: "4BDA824EB1819B9E"
+			size: 1.5d
+			subtitle: "更强的终端"
+			tasks: [{
+				id: "5CAE4994C9B40064"
+				item: "ctnhcore:me_advanced_terminal"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
 	]
 	title: "{ftbquests.chapter.iv.title}"
 }
