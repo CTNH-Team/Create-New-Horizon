@@ -194,7 +194,9 @@ ServerEvents.recipes(event => {
         //铁板方块
         'ad_astra:iron_plating',
         //压肉块
-        'biofactory:compacting/flesh_block_from_flesh_bits'
+        'biofactory:compacting/flesh_block_from_flesh_bits',
+        //转换器
+        /gtceu:shaped\/(.*)_energy_converter/
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",
@@ -239,7 +241,6 @@ ServerEvents.recipes(event => {
         'gtceu:small_high_temp_wrought_precursor_dust',
         'gtceu:tiny_high_temp_wrought_precursor_dust',
         /mae2:(.*)x_crafting_accelerator/
-
     ])
     remove_recipes_input(event, [
         "thermal:constantan_ingot"

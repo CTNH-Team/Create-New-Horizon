@@ -146,6 +146,7 @@
 		}
 		{
 			dependencies: ["41E48BCAEAD9D47E"]
+			description: ["1ALV和4ALV是唯二可以使用的两种转换器"]
 			id: "54A0B48F51F12647"
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest56.subtitle}"
 			tasks: [{
@@ -434,7 +435,10 @@
 				"54A0B48F51F12647"
 				"13388DB5A507AB34"
 			]
-			description: ["    你需要将转换器将FE转换为EU以供格雷机器使用"]
+			description: [
+				"  你需要将转换器将FE转换为EU以供格雷机器使用"
+				"  如果你之后需要使用FE机器，可以直接接入任意电压的EU，EU能够自动转换为FE。"
+			]
 			id: "54A490510D5FBA04"
 			rewards: [{
 				count: 32

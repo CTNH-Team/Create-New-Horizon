@@ -504,6 +504,7 @@
 		}
 		{
 			dependencies: ["27675B2A83F65B2E"]
+			description: ["“生物”与“机械”结合的开始"]
 			id: "02115E4763B9F906"
 			subtitle: "这科学吗"
 			tasks: [{
@@ -583,7 +584,7 @@
 			]
 			id: "3A0DF5CC0ED15F67"
 			rewards: [{
-				count: 64
+				count: 32
 				id: "2511A056E45D9E0D"
 				item: "biomancy:nutrient_bar"
 				type: "item"
@@ -595,7 +596,7 @@
 				id: "139ED399738E942B"
 				type: "checkmark"
 			}]
-			title: "活体机器操作规范"
+			title: "活体机器操作规范(1)"
 			x: 3.0d
 			y: 4.5d
 		}
@@ -652,7 +653,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["15F6F741F83DADF6"]
+			dependencies: ["682686E8538E5E70"]
 			description: ["你只要激励你的lv生物电炉：一台机器的上限不取决于电压，而取决于机器自己。它就能执行mv配方了"]
 			id: "5C5E74F9A6082A4B"
 			subtitle: "pua你的lv生物电炉"
@@ -788,6 +789,7 @@
 			dependencies: [
 				"5EE36C722931A3A5"
 				"59C7B38822893245"
+				"7E1DEFB53BF4D305"
 			]
 			description: [
 				"运行配方即可朝特定方向分化；"
@@ -932,6 +934,42 @@
 			}]
 			x: 3.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["3A0DF5CC0ED15F67"]
+			description: [
+				"3.电压风险警示​​"
+				"&6•允许临时超频：所有活体机器可短时执行高于额定电压1级的配方，但会导致机体损伤。&r"
+				"•操作人员必须实时监控设备生命值，必要时执行维护程序。​​"
+				""
+				"4.禁止行为​​"
+				"•严禁攻击设备！物理打击不会提升效率。"
+				""
+				"&m5.异常处理&r​​"
+				"&m•活体组织必须与金属框架结合。若发现游离态活体组织：&r"
+				"&m▸ 立即清除；&r"
+				"&m▸ 记录异常形态及发生时间；&r"
+				"&m▸ 向【█̸͒̚█̷̛̾█̴̂̕】部门提交报告。"
+				""
+				"&r——摘自《泛银河格雷科技有限公司员工手册》"
+			]
+			id: "682686E8538E5E70"
+			rewards: [{
+				count: 32
+				id: "683F8E46AD91F963"
+				item: "biomancy:nutrient_bar"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "非常重要"
+			tasks: [{
+				id: "5F6176E5C27F354F"
+				type: "checkmark"
+			}]
+			title: "活体机器操作规范(2)"
+			x: 3.0d
+			y: 6.5d
 		}
 	]
 	title: "血肉重铸"

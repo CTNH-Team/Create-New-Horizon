@@ -555,7 +555,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('2x gtceu:small_silicon_dust')
         .outputFluids(Fluid.of('gtceu:chloroauric_acid', 500))
         .chancedOutput('gtceu:silver_dust', 1000, 500)
-        .chancedOutput(Fluid.of('gtceu:mercury'), 1000, 250)
+        .chancedFluidOutput('gtceu:mercury 1000', 250, 0)
         .EUt(480)
         .duration(200)
     event.recipes.gtceu.centrifuge('veridium_slurry')

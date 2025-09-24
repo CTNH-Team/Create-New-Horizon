@@ -573,4 +573,19 @@ ServerEvents.recipes(event => {
         .EUt(120 * 4 * 4 * 4 * 4)
         .duration(60)
 
+    event.shaped(
+        Item.of('mae2:pattern_p2p_tunnel', 1), [
+            "AB "
+        ], {
+            A: 'ae2:me_p2p_tunnel',
+            B: '#mae2:p2p_attunements/pattern_p2p_tunnel'
+        }).keepIngredient('#mae2:p2p_attunements/pattern_p2p_tunnel')
+    
+    event.shaped(
+        Item.of('mae2:eu_p2p_tunnel', 1), [
+            "AB "
+        ], {
+            A: 'ae2:me_p2p_tunnel',
+            B: '#mae2:p2p_attunements/eu_p2p_tunnel'
+        }).keepIngredient('#mae2:p2p_attunements/eu_p2p_tunnel')
 })

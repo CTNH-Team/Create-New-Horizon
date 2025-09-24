@@ -100,4 +100,10 @@ ServerEvents.recipes(event => {
         .outputFluids(Fluid.of('gtceu:mana_up_fuel_active', 720))
         .EUt(32678 * 4)
         .duration(240)
+    
+    event.recipes.gtceu.twisted_fusion('coffee')
+        .inputFluids(Fluid.of('gtceu:cobalt', 144), Fluid.of('gtceu:iron', 288))
+        .outputFluids(Fluid.of('createcafe:coffee', 1000))
+        .EUt(32)
+        .duration(20)
 })

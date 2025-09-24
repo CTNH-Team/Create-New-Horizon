@@ -1302,6 +1302,7 @@
 		}
 		{
 			id: "1AEEB36389F68A28"
+			subtitle: "    如果你发展了血魔法，还可以通过制作凋零电动刷怪笼来生产下界之星"
 			tasks: [{
 				id: "58460F9F5142F7EC"
 				title: "{ftbquests.chapter.hv.quest122.task_+6360788700644964332.title}"
@@ -1336,7 +1337,7 @@
 				"4F78544FBE794648"
 				"79CF01CFCC2FF596"
 			]
-			description: ["    如果你发展了血魔法，还可以通过制作凋零电动刷怪笼来生产下界之星"]
+			description: [""]
 			id: "0F8A1D38DCB6CCE1"
 			subtitle: "{ftbquests.chapter.hv.quest125.subtitle}"
 			tasks: [{

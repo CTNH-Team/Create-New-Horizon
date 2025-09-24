@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
             "ACA",
             "BAB"
         ], {
-            A: '#gtceu:circuits/ev',
+            A: '#gtceu:circuits/mv',
             B: 'kubejs:steel_casing',
             C: 'gtceu:mv_machine_hull',
 
@@ -25,9 +25,9 @@ ServerEvents.recipes(event => {
         .itemOutputs('2x gtceu:impure_iron_dust')
         .EUt(-4)
         .duration(10)
-    event.recipes.gtceu.nano_generator('gtceu:raw_aluminium')
+    event.recipes.gtceu.nano_generator('gtceu:raw_antimony')
         .itemInputs('gtceu:raw_aluminium')
-        .itemOutputs('2x gtceu:impure_aluminium_dust')
+        .itemOutputs('2x gtceu:impure_antimony_dust')
         .EUt(-6)
         .duration(40)
     event.recipes.gtceu.nano_generator('gtceu:raw_chromite')

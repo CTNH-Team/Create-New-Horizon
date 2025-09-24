@@ -1654,7 +1654,7 @@ ServerEvents.recipes(event => {
         ], {
             A: '#forge:plates/iron'
         })
-        
+
     event.shapeless("ad_astra:space_helmet", "ad_astra:space_helmet")
     event.shapeless("ad_astra:space_suit", "ad_astra:space_suit")
     event.shapeless("ad_astra:space_pants", "ad_astra:space_pants")

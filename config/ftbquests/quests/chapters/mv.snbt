@@ -28,6 +28,12 @@
 			x: 11.0d
 			y: 0.5d
 		}
+		{
+			id: "65F7F2B42D3849C7"
+			linked_quest: "02115E4763B9F906"
+			x: -1.0d
+			y: -4.0d
+		}
 	]
 	quests: [
 		{
@@ -125,8 +131,8 @@
 				item: "gtceu:sodium_persulfate_bucket"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.0d
+			x: -1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["45D2C63F76606DE2"]
@@ -245,7 +251,7 @@
 				item: "gtceu:silicon_boule"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.5d
 			y: -4.0d
 		}
 		{
@@ -291,7 +297,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -316,7 +322,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5A460876CA0EC216"]
@@ -794,7 +800,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -895,7 +901,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3C1A31CEA3C10082"]
