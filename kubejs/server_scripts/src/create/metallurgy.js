@@ -308,6 +308,7 @@ ServerEvents.recipes(event => {
 })
  //玻璃、橡胶
 ServerEvents.recipes(event => {
+    metallurgy(event, `gtceu:rubber_ingot`, 40, [{"fluid": `gtceu:rubber`, "amount": 144}], "heated")
     metallurgy(event, `kubejs:rubber_powder`, 40, [{"fluid": `gtceu:rubber`, "amount": 144}], "heated")
     metallurgy(event, `gtceu:glass_dust`, 40, [{"fluid": `gtceu:glass`, "amount": 144}],"heated")
 
