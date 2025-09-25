@@ -1,12 +1,13 @@
 name = "Maid Storage Manager"
-filename = "1.20.1-maid_storage_manager-1.12.2.jar"
+filename = "1.20.1-maid_storage_manager-1.13.12.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2266b82c82acd165b0e13c8c90758fca23d010b8"
-url = "https://edge.forgecdn.net/files/6760/990/1.20.1-maid_storage_manager-1.12.2.jar"
+hash = "33686117e0038f2963a434b30e4b603698aea8ca"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 6760990
+file-id = 7031124
 project-id = 1210244
