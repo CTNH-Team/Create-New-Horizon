@@ -1595,19 +1595,6 @@
 			x: 13.0d
 			y: 3.0d
 		}
-		{
-			dependencies: ["534D927B52EC5F63"]
-			description: ["合成时不会消耗电路板"]
-			id: "78BB6CDADE57CED5"
-			subtitle: "也许比拉线方便"
-			tasks: [{
-				id: "26398F870CA3D0CE"
-				item: "mae2:eu_p2p_tunnel"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -7.0d
-		}
 	]
 	title: "{ftbquests.chapter.ev.title}"
 }
