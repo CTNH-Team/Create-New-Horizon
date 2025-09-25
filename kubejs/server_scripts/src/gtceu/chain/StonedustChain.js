@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
     let ctnh = event.recipes.gtceu
 //催化剂配方
-    ctnh.centrifuge('catalyst')
+    ctnh.differential_centrifuge('stone_dust_with_catalyst')
     .itemInputs('60x gtceu:stone_dust')
     .notConsumable('kubejs:stone_process_catalyst')
     .itemOutputs('gtceu:tiny_inert_residues_dust')

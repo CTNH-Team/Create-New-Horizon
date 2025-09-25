@@ -1218,18 +1218,6 @@ ServerEvents.recipes(event => {
             C: "gtceu:elementium_plate"
         })
     event.shaped(
-        Item.of("ctnhcore:mana_steel_gearbox_casing", 2), [
-            "ADA",
-            "CBC",
-            "AFA"
-        ], {
-            A: "gtceu:mana_steel_plate",
-            B: "gtceu:mana_steel_frame",
-            C: "gtceu:mana_steel_gear",
-            D: "#forge:tools/hammers",
-            F: "#forge:tools/wrenches"
-        })
-    event.shaped(
         Item.of("ctnhcore:ev_chemical_generator", 1), [
             "ABA",
             "CDC",

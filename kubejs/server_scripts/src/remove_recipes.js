@@ -196,7 +196,12 @@ ServerEvents.recipes(event => {
         //压肉块
         'biofactory:compacting/flesh_block_from_flesh_bits',
         //转换器
-        /gtceu:shaped\/(.*)_energy_converter/
+        /gtceu:shaped\/(.*)_energy_converter/,
+        //魂金锭
+        'enderio:alloy_smelting/soularium_ingot',
+        //装配线外壳和控制外壳
+        'gtceu:assembler/assembly_line_casing',
+        'gtceu:assembler/assembly_control_casing',
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",

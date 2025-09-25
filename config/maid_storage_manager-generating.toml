@@ -3,7 +3,7 @@
 
 	[botania.mana_infusion]
 		enable = true
-		accept_by_default = false
+		accept_by_default = true
 
 	[botania.elven_trade]
 		enable = true

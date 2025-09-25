@@ -95,9 +95,9 @@ debug_msg = false
 	#Crafting solver to use. [DFS/DFS_QUEUED/DFS_THREADED/TOPOLOGY]. Topology algorithm costs least but dose not support circular recipes.
 	solver = ["DFS_THREADED"]
 	#Generate craft guides for vanilla recipes.
-	generate = false
+	generate = true
 	#No need portable calculator for crafting
-	no_calculator = false
+	no_calculator = true
 	#The way to select the correct crafting path.
 	#Allowed Values: NONE, STEPS, CRAFT_GUIDES, ITEMS, ITEMS_COSTED
 	shortest_path_evaluator = "CRAFT_GUIDES"
@@ -109,7 +109,7 @@ debug_msg = false
 		#Prevent item in loop that are fully input outside the loop.
 		prevent_indirect = true
 		#Prevent new byproduct from loop that's not available in graph.
-		prevent_new_byproduct = false
+		prevent_new_byproduct = true
 
 	[crafting.nbt]
 		#Match nbt for all items by default. Use #maid_storage_manager:no_nbt and #maid_storage_manager:use_nbt to modify.
