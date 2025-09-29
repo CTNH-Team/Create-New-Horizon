@@ -31,6 +31,16 @@ ServerEvents.recipes(event => {
             D: "minecraft:iron_block"
         })
     event.shaped(
+        Item.of("vintageimprovements:recipe_card", 4), [
+            " A ",
+            "BBB",
+            "CCC"
+        ], {
+            A: "createmetallurgy:sandpaper_belt",
+            B: "minecraft:redstone",
+            C: "gtceu:brass_plate"
+        })
+    event.shaped(
         Item.of("create:windmill_bearing", 1), [
             "AAA",
             "BCB",
@@ -1526,7 +1536,7 @@ ServerEvents.recipes(event => {
             E: 'create:depot'
         })
     event.shaped(
-        Item.of('ctnhcore:mechanical_pressor', 1), [
+        Item.of('ctnhcore:mechanical_mixer', 1), [
             "AAA",
             "BCB",
             "DED"
@@ -1536,18 +1546,6 @@ ServerEvents.recipes(event => {
             C: 'create:mechanical_mixer',
             D: 'create:fluid_pipe',
             E: 'create:basin'
-        })
-    event.shaped(
-        Item.of('ctnhcore:mechanical_mixer', 1), [
-            "AAA",
-            "BCB",
-            "DED"
-        ], {
-            A: 'ctpp:steel_mechanism',
-            B: 'create:railway_casing',
-            C: 'create:mechanical_press',
-            D: 'create:large_cogwheel',
-            E: 'create:depot'
         })
     event.shaped(
         Item.of('ctnhcore:mechanical_centrifuge', 1), [
@@ -1655,4 +1653,8 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:forlorn_hollows"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:forlorn_hollows"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT())
+    event.shapeless('ae2:redstone_p2p_tunnel', ['ae2:me_p2p_tunnel', 'minecraft:redstone'])
+    event.shapeless('ae2:fe_p2p_tunnel', ['ae2:me_p2p_tunnel', 'ae2:fluix_dust'])
+    event.shapeless('ae2:fluid_p2p_tunnel', ['ae2:me_p2p_tunnel', 'minecraft:bucket'])
+    event.shapeless('ae2:item_p2p_tunnel', ['ae2:me_p2p_tunnel', 'minecraft:chest'])
 })

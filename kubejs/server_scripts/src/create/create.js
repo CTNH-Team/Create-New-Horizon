@@ -526,6 +526,8 @@ ServerEvents.recipes(event => {
     event.recipes.create.crushing('gtceu:crimsite_dust', 'create:crimsite')
     event.recipes.create.crushing('gtceu:ochrum_dust', 'create:ochrum')
     event.recipes.create.crushing('gtceu:veridium_dust', 'create:veridium')
+    event.recipes.create.crushing('gtceu:wrought_iron_dust', 'gtceu:wrought_iron_ingot')
+    event.recipes.create.milling('gtceu:wrought_iron_dust', 'gtceu:wrought_iron_ingot')
     event.recipes.create.splashing(['gtceu:silicon_dioxide_dust', Item.of('4x gtceu:zinc_nugget').withChance(0.5)], 'gtceu:asurine_dust')
     event.recipes.create.splashing(['gtceu:silicon_dioxide_dust', Item.of('4x minecraft:iron_nugget').withChance(0.5)], 'gtceu:crimsite_dust')
     event.recipes.create.splashing(['gtceu:silicon_dioxide_dust', Item.of('4x gtceu:precious_alloy_nugget').withChance(0.5)], 'gtceu:ochrum_dust')
