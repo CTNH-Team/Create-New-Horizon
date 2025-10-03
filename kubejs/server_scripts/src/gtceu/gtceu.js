@@ -37,6 +37,7 @@ ServerEvents.recipes(event => {
     //     .EUt(32)
     //     .rpm(64)
     event.recipes.gtceu.mixer("rose_quartz2")
+        .circuit(5)
         .itemInputs("minecraft:quartz", "4x minecraft:redstone")
         .itemOutputs("create:rose_quartz")
         .duration(100)

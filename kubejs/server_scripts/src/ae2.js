@@ -520,6 +520,7 @@ ServerEvents.recipes(event => {
         .EUt(30)
         .duration(80)
     event.recipes.gtceu.mixer('fluix_crystal')
+        .circuit(3)
         .itemInputs(['ae2:charged_certus_quartz_crystal', 'minecraft:redstone', 'minecraft:quartz'])
         .inputFluids('minecraft:water 250')
         .itemOutputs('2x ae2:fluix_crystal')
