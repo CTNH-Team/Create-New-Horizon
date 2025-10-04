@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:tin_single_cable']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:tin_single_cable']),
             event.recipes.createDeploying(transitional, [transitional, '#gtceu:circuits/lv']),
-        ]).transitionalItem(transitional)
+    ]).transitionalItem("kubejs:circuit_board_m_two")
         .loops(1)
 
     transitional = 'gtceu:lv_machine_hull'
@@ -18,6 +18,6 @@ ServerEvents.recipes(event => {
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:tin_quadruple_cable']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:tin_quadruple_cable']),
             event.recipes.createDeploying(transitional, [transitional, '#gtceu:circuits/lv']),
-        ]).transitionalItem(transitional)
+    ]).transitionalItem("kubejs:circuit_board_m_three")
         .loops(1)
 })
