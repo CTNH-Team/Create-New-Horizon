@@ -43,7 +43,6 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.nano_generator('ad_astra:mercury_stone')
         .itemInputs('ad_astra:mercury_stone')
         .itemOutputs('2x gtceu:mercury_stone_dust')
-        .chancedOutput('gtceu:impure_naquadah_dust', 5000, 0)
         .EUt(-16)
         .duration(20)
     event.recipes.gtceu.nano_generator('ad_astra:glacio_stone')
