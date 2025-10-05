@@ -9,12 +9,12 @@ const REMOVE_ITEMS = [
 
 // 需要转换为流体的物品（原物品 -> GT流体）
 const FLUID_CONVERSIONS = {
-    'biomancy:regenerative_fluid': 'ctnhbio:regenerative_fluid',
-    'biomancy:withering_ooze': 'ctnhbio:withering_ooze',
-    'biomancy:hormone_secretion': 'ctnhbio:hormone_secretion',
-    'biomancy:toxin_extract': 'ctnhbio:toxin_extract',
-    'biomancy:bile': 'ctnhbio:bile',
-    'biomancy:volatile_fluid': 'ctnhbio:volatile_fluid'
+    'biomancy:regenerative_fluid': 'gtceu:regenerative_fluid',
+    'biomancy:withering_ooze': 'gtceu:withering_ooze',
+    'biomancy:hormone_secretion': 'gtceu:hormone_secretion',
+    'biomancy:toxin_extract': 'gtceu:toxin_extract',
+    'biomancy:bile': 'gtceu:bile',
+    'biomancy:volatile_fluid': 'gtceu:volatile_fluid'
 };
 
 // 流体转换比例 (1物品 = 25mB)
