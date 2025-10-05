@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
         .inputFluids(Fluid.of('gtceu:zenith_essence', 800))
         .itemOutputs('10x gtceu:twist_power_mana_dust')
         .duration(50)
-        .addCondition($CTNHRecipes.setNA(1000, 800))
+        .addCondition($CTNHRecipes.setNA(800, 1000))
     event.recipes.gtceu.large_chemical_reactor("ctnh:unstable_mana_ok")
         .itemInputs('4x gtceu:mana_plus_dust')
         .notConsumable('kubejs:terria_catalyst')

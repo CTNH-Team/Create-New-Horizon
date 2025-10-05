@@ -34,6 +34,8 @@ ServerEvents.recipes(event => {
     event.recipes.createoreexcavation.vein(Text.translate('ctnh.pyrolusite_vein'), 'gtceu:raw_pyrolusite').placement(192, 8, 7789695).id('kubejs:pyrolusite_vein').alwaysFinite().veinSize(20, 70).biomeWhitelist('minecraft:is_nether')
     event.recipes.createoreexcavation.vein(Text.translate('ctnh.certus_vein'), 'gtceu:raw_certus_quartz').placement(128, 8, 7964355).id('kubejs:certus_vein').alwaysFinite().veinSize(30, 80).biomeWhitelist('minecraft:is_nether')
     event.recipes.createoreexcavation.vein(Text.translate('ctnh.ancient_debris_vein'), 'minecraft:ancient_debris').placement(256, 8, 9984655).id('kubejs:ancient_debris_vein').alwaysFinite().veinSize(20, 45).biomeWhitelist('minecraft:is_nether')
+    event.recipes.createoreexcavation.vein(Text.translate('ctnh.seawater_vein'), 'gtceu:seawater_bucket').placement(64, 8, 12345678).id
+    ('kubejs:seawater_vein').alwaysFinite().veinSize(3000, 8000).biomeWhitelist('minecraft:is_ocean').biomeWhitelist('minecraft:is_overworld')
 
     event.recipes.createoreexcavation.drilling(
         [Item.of('gtceu:raw_goethite').withChance(0.5),
@@ -228,4 +230,12 @@ ServerEvents.recipes(event => {
         .fluid('gtceu:lubricant 50')
         .drill('createoreexcavation:netherite_drill')
         .stress(1024)
+    
+    event.recipes.createoreexcavation.extracting(
+        { fluid: 'gtceu:seawater', amount: 1000 }, 'kubejs:seawater_vein', 250 )
+        .id('kubejs:seawater_extraction')
+        .fluid('gtceu:lubricant 50')
+        .stress(192)
+    
 })
+
