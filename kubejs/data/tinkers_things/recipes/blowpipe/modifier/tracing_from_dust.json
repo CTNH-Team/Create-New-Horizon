@@ -1,0 +1,19 @@
+{
+	"type": "tconstruct:incremental_modifier",
+	"input": {
+		"tag": "forge:dusts/glowstone"
+	},
+	"amount_per_item": 1,
+	"needed_per_level": 20,
+	"tools": {
+		"item": "tinkers_things:blowpipe"
+	},
+	"allow_crystal": true,
+	"result": "tinkers_things:tracing",
+	"level": {
+		"max": 5
+	},
+	"slots": {
+		"upgrades": 1
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "type": "ticex:embossment_modifier",
+  "emboss_inputs": [
+    {
+      "tag": "tconstruct:parts"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "tconstruct:earth_slime_crystal"
+    },
+    {
+      "item": "tconstruct:sky_slime_crystal"
+    },
+    {
+      "item": "tconstruct:ichor_slime_crystal"
+    },
+    {
+      "item": "tconstruct:ender_slime_crystal"
+    }
+  ],
+  "result": "ticex:embossment",
+  "tools": {
+    "tag": "tconstruct:modifiable/durability"
+  }
+}

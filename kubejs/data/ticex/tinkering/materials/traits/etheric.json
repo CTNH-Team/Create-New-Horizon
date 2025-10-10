@@ -1,0 +1,12 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "ticex:sassy"
+    },
+    {
+      "level": 1,
+      "name": "ticex:deflection"
+    }
+  ]
+}

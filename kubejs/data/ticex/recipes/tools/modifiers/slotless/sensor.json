@@ -1,0 +1,30 @@
+{
+  "type": "ticex:single_embossment_modifier",
+  "conditions": [
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:psi_compat"
+    }
+  ],
+  "emboss_input": [
+    {
+      "item": "psi:exosuit_sensor_light"
+    },
+    {
+      "item": "psi:exosuit_sensor_heat"
+    },
+    {
+      "item": "psi:exosuit_sensor_stress"
+    },
+    {
+      "item": "psi:exosuit_sensor_water"
+    },
+    {
+      "item": "psi:exosuit_sensor_trigger"
+    }
+  ],
+  "result": "ticex:sensor",
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/helmets"
+  }
+}

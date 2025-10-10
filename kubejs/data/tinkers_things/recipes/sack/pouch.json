@@ -1,0 +1,19 @@
+{
+	"type": "tconstruct:modifier",
+	"inputs": [
+		{
+			"item": "minecraft:leather"
+		},
+		{
+			"tag": "forge:nuggets/iron"
+		}
+	],
+	"tools": {
+		"item": "tinkers_things:sack"
+	},
+	"slots": {
+		"upgrades": 1
+	},
+	"allow_crystal": true,
+	"result": "tinkers_things:pouch"
+}

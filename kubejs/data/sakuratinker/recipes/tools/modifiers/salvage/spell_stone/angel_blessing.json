@@ -1,0 +1,21 @@
+{
+	"type": "tconstruct:modifier_salvage",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "enigmaticlegacy"
+		}
+	],
+	"result": "sakuratinker:angel_blessing",
+	"slots": {
+		"spell_stone": 1
+	},
+	"tools": [
+		{
+			"tag": "tconstruct:modifiable/armor"
+		},
+		{
+			"tag": "tconstruct:modifiable/ranged"
+		}
+	]
+}

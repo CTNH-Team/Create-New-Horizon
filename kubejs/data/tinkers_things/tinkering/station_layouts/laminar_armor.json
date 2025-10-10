@@ -1,0 +1,76 @@
+{
+	"translation_key": "gui.tinkers_things.laminar_armor",
+	"icon": {
+		"pattern": "tinkers_things:laminar_armor"
+	},
+	"sortIndex": 16,
+	"input_slots": [
+		{
+			"filter": [
+				{
+					"item": "tconstruct:boots_plating"
+				},
+				{
+					"item": "tconstruct:leggings_plating"
+				},
+				{
+					"item": "tconstruct:chestplate_plating"
+				},
+				{
+					"item": "tconstruct:helmet_plating"
+				}
+			],
+			"icon": "tconstruct:plating",
+			"translation_key": "pattern.tconstruct.plating",
+			"x": 23,
+			"y": 29
+		},
+		{
+			"filter": [
+				{
+					"item": "tconstruct:boots_plating"
+				},
+				{
+					"item": "tconstruct:leggings_plating"
+				},
+				{
+					"item": "tconstruct:chestplate_plating"
+				},
+				{
+					"item": "tconstruct:helmet_plating"
+				}
+			],
+			"icon": "tconstruct:plating",
+			"translation_key": "pattern.tconstruct.plating",
+			"x": 43,
+			"y": 29
+		},
+		{
+			"filter": {
+				"item": "tconstruct:shield_core"
+			},
+			"icon": "tconstruct:shield_core",
+			"translation_key": "item.tconstruct.shield_core",
+			"x": 33,
+			"y": 53
+		},
+		{
+			"filter": {
+				"item": "minecraft:leather"
+			},
+			"icon": "tinkers_things:leather",
+			"translation_key": "item.minecraft.leather",
+			"x": 13,
+			"y": 49
+		},
+		{
+			"filter": {
+				"item": "minecraft:leather"
+			},
+			"icon": "tinkers_things:leather",
+			"translation_key": "item.minecraft.leather",
+			"x": 53,
+			"y": 49
+		}
+	]
+}

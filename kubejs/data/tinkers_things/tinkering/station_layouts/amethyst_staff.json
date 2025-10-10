@@ -1,0 +1,62 @@
+{
+	"translation_key": "item.tinkers_things.amethyst_staff",
+	"icon": {
+		"item": "tinkers_things:amethyst_staff",
+		"nbt": {
+			"tic_display": true,
+			"tic_materials": [
+				"tconstruct:ui_render#head",
+				"tconstruct:ui_render#handle",
+				"tconstruct:ui_render#extra"
+			]
+		}
+	},
+	"sortIndex": 20,
+	"input_slots": [
+		{
+			"icon": "tconstruct:bow_limb",
+			"translation_key": "item.tconstruct.bow_limb",
+			"x": 10,
+			"y": 60,
+			"filter": {
+				"item": "tconstruct:bow_limb"
+			}
+		},
+		{
+			"icon": "tconstruct:bow_limb",
+			"translation_key": "item.tconstruct.bow_limb",
+			"x": 32,
+			"y": 44,
+			"filter": {
+				"item": "tconstruct:bow_limb"
+			}
+		},
+		{
+			"icon": "tconstruct:bowstring",
+			"translation_key": "item.tconstruct.bowstring",
+			"x": 54,
+			"y": 22,
+			"filter": {
+				"item": "tconstruct:bowstring"
+			}
+		},
+		{
+			"icon": "tinkers_things:amethyst",
+			"translation_key": "item.minecraft.amethyst_shard",
+			"x": 34,
+			"y": 22,
+			"filter": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		{
+			"icon": "tinkers_things:amethyst",
+			"translation_key": "item.minecraft.amethyst_shard",
+			"x": 54,
+			"y": 42,
+			"filter": {
+				"item": "minecraft:amethyst_shard"
+			}
+		}
+	]
+}

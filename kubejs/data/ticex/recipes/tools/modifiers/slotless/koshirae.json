@@ -1,0 +1,16 @@
+{
+  "type": "ticex:single_embossment_modifier",
+  "conditions": [
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:slashblade_compat"
+    }
+  ],
+  "emboss_input": {
+    "item": "ticex:catalyst_slashblade"
+  },
+  "result": "ticex:koshirae",
+  "tools": {
+    "tag": "ticex:seram/slashblade"
+  }
+}

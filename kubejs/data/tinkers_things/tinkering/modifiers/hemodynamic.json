@@ -1,0 +1,32 @@
+{
+	"level_display": "tconstruct:default",
+	"tooltip_display": "always",
+	"priority": 60,
+	"modules": [
+		{
+			"type": "tconstruct:modifier_slot",
+			"name": "upgrades",
+			"count": 2
+		},
+		{
+			"type": "tconstruct:conditional_mining_speed",
+			"blocks": {
+				"type": "mantle:tag",
+				"tag": "tinkers_things:hemotoxin_blocks"
+			},
+			"entity": "mantle:any",
+			"require_effective": true,
+			"percent": false,
+			"each_level": -6
+		},
+		{
+			"type": "tconstruct:conditional_melee_damage",
+			"target": {
+				"type": "mantle:mob_type",
+				"mobs": "minecraft:undead"
+			},
+			"percent": false,
+			"each_level": -3.0
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"type": "tconstruct:material_melting",
+	"input": "sakuratinker:pyrothium",
+	"temperature": 1500,
+	"result": {
+		"fluid": "sakuratinker:molten_pyrothium",
+		"amount": 144
+	}
+}

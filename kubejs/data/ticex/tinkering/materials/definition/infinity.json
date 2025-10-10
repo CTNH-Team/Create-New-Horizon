@@ -1,0 +1,10 @@
+{
+  "condition": {
+    "type": "addonapi:mods_available",
+    "required_raw_module": "ticex:avaritia_compat"
+  },
+  "craftable": false,
+  "hidden": false,
+  "sortOrder": 7,
+  "tier": 6
+}

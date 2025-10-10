@@ -1,0 +1,10 @@
+{
+  "condition": {
+    "type": "addonapi:mods_available",
+    "required_raw_module": "ticex:draconicevolution_compat"
+  },
+  "craftable": true,
+  "hidden": false,
+  "sortOrder": 7,
+  "tier": 4
+}

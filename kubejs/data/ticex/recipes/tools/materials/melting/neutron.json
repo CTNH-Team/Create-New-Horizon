@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material_melting",
+  "conditions": [
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:avaritia_compat"
+    }
+  ],
+  "input": "ticex:neutron",
+  "result": {
+    "amount": 144,
+    "fluid": "ticex:molten_neutron"
+  },
+  "temperature": 1400
+}

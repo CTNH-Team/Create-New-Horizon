@@ -1,0 +1,12 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "ticex:aftershock"
+    },
+    {
+      "level": 1,
+      "name": "tconstruct:insatiable"
+    }
+  ]
+}

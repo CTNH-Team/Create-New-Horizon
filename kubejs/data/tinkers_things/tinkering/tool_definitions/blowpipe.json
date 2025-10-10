@@ -1,0 +1,47 @@
+{
+	"modules": [
+		{
+			"type": "tconstruct:base_stats",
+			"stats": {
+				"tconstruct:durability": 140,
+				"tconstruct:velocity": 0.5,
+				"tconstruct:draw_speed": 2.0,
+				"tconstruct:accuracy": 0.9,
+				"tconstruct:projectile_damage": 2
+			}
+		},
+		{
+			"type": "tconstruct:modifier_slots",
+			"slots": {
+				"upgrades": 5,
+				"abilities": 1
+			}
+		},
+		{
+			"type": "tconstruct:material_repair",
+			"material": "tconstruct:bamboo",
+			"stat_type": "tconstruct:limb"
+		},
+		{
+			"type": "tconstruct:traits",
+			"traits": [
+				{
+					"name": "tinkers_things:bambooshot",
+					"level": 1
+				}
+			]
+		},
+		{
+			"type": "tconstruct:traits",
+			"hooks": [
+				"tconstruct:rebalanced_trait"
+			],
+			"traits": [
+				{
+					"name": "tconstruct:unburdened",
+					"level": 2
+				}
+			]
+		}
+	]
+}

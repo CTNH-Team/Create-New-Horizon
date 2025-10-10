@@ -1,0 +1,52 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "item": "ticex:reconstruction_core"
+  },
+  "conditions": [
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:draconicevolution_compat"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "draconicevolution:draconium_core"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "tag": "forge:ingots/netherite"
+    },
+    {
+      "tag": "forge:ingots/netherite"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "draconicevolution:module_core"
+    }
+  ],
+  "result": {
+    "item": "ticex:draconium_evolved_core"
+  },
+  "tier": "DRACONIUM",
+  "total_energy": 16000000
+}

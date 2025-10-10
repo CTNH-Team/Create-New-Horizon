@@ -1,0 +1,20 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "tconstruct:lacerating"
+    }
+  ],
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "level": 2,
+        "name": "ticex:soul_rending"
+      },
+      {
+        "level": 2,
+        "name": "tconstruct:lacerating"
+      }
+    ]
+  }
+}

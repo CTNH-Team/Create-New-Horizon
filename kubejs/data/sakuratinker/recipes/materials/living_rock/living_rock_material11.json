@@ -1,0 +1,24 @@
+{
+	"type": "tconstruct:material",
+	"conditions": [
+		{
+			"type": "forge:or",
+			"values": [
+				{
+					"type": "tconstruct:config",
+					"prop": "force_integration_materials"
+				},
+				{
+					"type": "forge:mod_loaded",
+					"modid": "botania"
+				}
+			]
+		}
+	],
+	"ingredient": {
+		"item": "botania:livingrock"
+	},
+	"material": "sakuratinker:living_rock",
+	"needed": 1,
+	"value": 1
+}

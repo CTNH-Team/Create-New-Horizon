@@ -1,0 +1,11 @@
+{
+	"type": "tconstruct:molding_table",
+	"material": {
+		"item": "tconstruct:blank_sand_cast"
+	},
+	"pattern": {
+		"type": "tconstruct:material",
+		"item": "sakuratinker:charm_chain"
+	},
+	"result": "sakuratinker:charm_chain_sand_cast"
+}

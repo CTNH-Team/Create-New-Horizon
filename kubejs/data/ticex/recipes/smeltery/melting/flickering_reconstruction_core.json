@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "ticex:flickering_reconstruction_core"
+  },
+  "result": {
+    "amount": 2000,
+    "fluid": "ticex:molten_reconstruction_core"
+  },
+  "temperature": 1000,
+  "time": 32
+}

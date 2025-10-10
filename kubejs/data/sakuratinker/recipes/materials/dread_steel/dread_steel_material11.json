@@ -1,0 +1,24 @@
+{
+	"type": "tconstruct:material",
+	"conditions": [
+		{
+			"type": "forge:or",
+			"values": [
+				{
+					"type": "tconstruct:config",
+					"prop": "force_integration_materials"
+				},
+				{
+					"type": "forge:mod_loaded",
+					"modid": "dreadsteel"
+				}
+			]
+		}
+	],
+	"ingredient": {
+		"item": "dreadsteel:dreadsteel_ingot"
+	},
+	"material": "sakuratinker:dread_steel",
+	"needed": 1,
+	"value": 1
+}

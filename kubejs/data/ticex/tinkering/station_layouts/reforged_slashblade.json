@@ -1,0 +1,36 @@
+{
+  "icon": {
+    "pattern": "ticex:reforged_slashblade"
+  },
+  "input_slots": [
+    {
+      "filter": {
+        "item": "ticex:slashblade_blade"
+      },
+      "icon": "ticex:slashblade_blade",
+      "translation_key": "item.ticex.slashblade_blade",
+      "x": 21,
+      "y": 56
+    },
+    {
+      "filter": {
+        "item": "ticex:slashblade_saya"
+      },
+      "icon": "ticex:slashblade_saya",
+      "translation_key": "item.ticex.slashblade_saya",
+      "x": 39,
+      "y": 44
+    },
+    {
+      "filter": {
+        "item": "tconstruct:tough_handle"
+      },
+      "icon": "tconstruct:tough_handle",
+      "translation_key": "item.tconstruct.tough_handle",
+      "x": 21,
+      "y": 34
+    }
+  ],
+  "sortIndex": 14,
+  "translation_key": "gui.ticex.reforged_slashblade"
+}

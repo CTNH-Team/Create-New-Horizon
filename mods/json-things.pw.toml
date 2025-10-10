@@ -1,0 +1,12 @@
+name = "JsonThings"
+filename = "JsonThings-1.20.1-0.9.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b99f3866304f3f43b667b01aa03806083449623f"
+url = "https://edge.forgecdn.net/files/6100/175/JsonThings-1.20.1-0.9.9.jar"
+
+[update.curseforge]
+file-id = 6100175
+project-id = 541617

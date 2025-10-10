@@ -1,0 +1,11 @@
+{
+	"type": "tconstruct:molding_table",
+	"material": {
+		"tag": "tconstruct:casts/sand"
+	},
+	"pattern": {
+		"type": "tconstruct:material",
+		"item": "tinkers_things:large_repair_kit"
+	},
+	"result": "tinkers_things:large_repair_kit_sand_cast"
+}

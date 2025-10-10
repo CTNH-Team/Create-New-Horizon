@@ -1,0 +1,17 @@
+{
+	"modules": [
+		{
+			"type": "tconstruct:traits",
+			"hooks": [
+				"tconstruct:tool_traits",
+				"tconstruct:rebalanced_trait"
+			],
+			"traits": [
+				{
+					"name": "tinkers_things:stowing",
+					"level": 1
+				}
+			]
+		}
+	]
+}

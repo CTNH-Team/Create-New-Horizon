@@ -1,0 +1,19 @@
+{
+	"type": "tconstruct:incremental_modifier",
+	"input": {
+		"item": "minecraft:carved_pumpkin"
+	},
+	"amount_per_item": 1,
+	"needed_per_level": 5,
+	"tools": {
+		"item": "tinkers_things:blowpipe"
+	},
+	"allow_crystal": true,
+	"result": "tinkers_things:blinding",
+	"level": {
+		"max": 3
+	},
+	"slots": {
+		"upgrades": 1
+	}
+}

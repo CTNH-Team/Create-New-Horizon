@@ -1,0 +1,19 @@
+{
+	"level_display": "tconstruct:default",
+	"tooltip_display": "always",
+	"modules": [
+		{
+			"type": "tconstruct:mob_effect",
+			"entity": "mantle:any",
+			"effect": "minecraft:glowing",
+			"level": {
+				"flat": 1
+			},
+			"time": {
+				"flat": 40,
+				"per_level": 20,
+				"random": 40
+			}
+		}
+	]
+}

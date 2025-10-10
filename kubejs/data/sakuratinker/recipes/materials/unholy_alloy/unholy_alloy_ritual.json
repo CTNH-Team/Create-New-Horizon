@@ -1,0 +1,46 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "goety"
+		}
+	],
+	"type": "goety:ritual",
+	"ritual_type": "goety:craft",
+	"activation_item": {
+		"item": "goety:unholy_blood"
+	},
+	"craftType": "expert_nether",
+	"soulCost": 5,
+	"duration": 15,
+	"ingredients": [
+		{
+			"item": "goety:shadow_essence"
+		},
+		{
+			"item": "goety:dark_ingot"
+		},
+		{
+			"item": "goety:shadow_essence"
+		},
+		{
+			"item": "goety:dark_ingot"
+		},
+		{
+			"item": "goety:shadow_essence"
+		},
+		{
+			"item": "goety:dark_ingot"
+		},
+		{
+			"item": "goety:shadow_essence"
+		},
+		{
+			"item": "goety:dark_ingot"
+		}
+	],
+	"result": {
+		"item": "sakuratinker:unholy_alloy",
+		"count": 4
+	}
+}

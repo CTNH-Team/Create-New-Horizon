@@ -1,0 +1,32 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "ticex:omnipotence"
+    },
+    {
+      "level": 1,
+      "name": "ticex:cosmic_luck"
+    },
+    {
+      "level": 1,
+      "name": "ticex:cosmic_unbreakable"
+    },
+    {
+      "level": 1,
+      "name": "ticex:bedrock_breaker"
+    }
+  ],
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "ticex:transcendental"
+      },
+      {
+        "level": 1,
+        "name": "ticex:cosmic_unbreakable"
+      }
+    ]
+  }
+}

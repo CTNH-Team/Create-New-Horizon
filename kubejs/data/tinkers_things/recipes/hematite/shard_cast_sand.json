@@ -1,0 +1,13 @@
+{
+	"type": "tconstruct:casting_table",
+	"cast": {
+		"tag": "tconstruct:casts/single_use/gem"
+	},
+	"cast_consumed": true,
+	"fluid": {
+		"fluid": "tinkers_things:molten_hematite",
+		"amount": 160
+	},
+	"result": "tinkers_things:hematite",
+	"cooling_time": 125
+}

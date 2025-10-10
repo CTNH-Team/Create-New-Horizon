@@ -1,0 +1,17 @@
+{
+	"level_display": "tconstruct:default",
+	"tooltip_display": "always",
+	"priority": 60,
+	"modules": [
+		{
+			"type": "tconstruct:modifier_slot",
+			"name": "defense",
+			"count": 2
+		},
+		{
+			"type": "tconstruct:protection",
+			"damage_source": "mantle:can_protect",
+			"each_level": -1.25
+		}
+	]
+}

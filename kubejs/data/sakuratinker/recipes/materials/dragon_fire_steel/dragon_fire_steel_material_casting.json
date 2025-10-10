@@ -1,0 +1,9 @@
+{
+	"type": "tconstruct:material_fluid",
+	"fluid": {
+		"name": "sakuratinker:molten_dragon_fire_steel",
+		"amount": 144
+	},
+	"temperature": 2000,
+	"output": "sakuratinker:dragon_fire_steel"
+}

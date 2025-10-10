@@ -1,0 +1,37 @@
+{
+	"translation_key": "item.tinkers_things.shovel",
+	"icon": {
+		"item": "tinkers_things:shovel",
+		"nbt": {
+			"tic_display": true,
+			"tic_materials": [
+				"tconstruct:ui_render#head",
+				"tconstruct:ui_render#handle",
+				"tconstruct:ui_render#extra",
+				"tconstruct:ui_render#large",
+				"tconstruct:ui_render#extra_large"
+			]
+		}
+	},
+	"sortIndex": 6,
+	"input_slots": [
+		{
+			"icon": "tconstruct:adze_head",
+			"translation_key": "item.tconstruct.adze_head",
+			"x": 39,
+			"y": 35,
+			"filter": {
+				"item": "tconstruct:adze_head"
+			}
+		},
+		{
+			"icon": "tconstruct:tool_handle",
+			"translation_key": "item.tconstruct.tool_handle",
+			"x": 21,
+			"y": 53,
+			"filter": {
+				"item": "tconstruct:tool_handle"
+			}
+		}
+	]
+}

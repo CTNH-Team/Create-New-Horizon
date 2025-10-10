@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:storage_blocks/infinity"
+    },
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:avaritia_compat"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/infinity"
+  },
+  "result": {
+    "amount": 1296,
+    "tag": "forge:molten_infinity"
+  },
+  "temperature": 6360,
+  "time": 517
+}

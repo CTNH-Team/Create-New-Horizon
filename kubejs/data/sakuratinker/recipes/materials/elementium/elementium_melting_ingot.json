@@ -1,0 +1,27 @@
+{
+	"type": "tconstruct:melting",
+	"conditions": [
+		{
+			"type": "forge:or",
+			"values": [
+				{
+					"type": "tconstruct:config",
+					"prop": "force_integration_materials"
+				},
+				{
+					"type": "forge:mod_loaded",
+					"modid": "botania"
+				}
+			]
+		}
+	],
+	"ingredient": {
+		"item": "botania:elementium_ingot"
+	},
+	"result": {
+		"amount": 144,
+		"fluid": "sakuratinker:molten_elementium"
+	},
+	"temperature": 1200,
+	"time": 72
+}

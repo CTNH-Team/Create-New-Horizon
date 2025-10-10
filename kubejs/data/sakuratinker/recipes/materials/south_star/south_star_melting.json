@@ -1,0 +1,12 @@
+{
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"item": "sakuratinker:south_star"
+	},
+	"result": {
+		"fluid": "sakuratinker:molten_south_star",
+		"amount": 144
+	},
+	"temperature": 1400,
+	"time": 400
+}

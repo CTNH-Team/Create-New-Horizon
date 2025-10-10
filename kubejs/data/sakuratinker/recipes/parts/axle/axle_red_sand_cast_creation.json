@@ -1,0 +1,11 @@
+{
+	"type": "tconstruct:molding_table",
+	"material": {
+		"item": "tconstruct:blank_red_sand_cast"
+	},
+	"pattern": {
+		"type": "tconstruct:material",
+		"item": "sakuratinker:axle"
+	},
+	"result": "sakuratinker:axle_red_sand_cast"
+}

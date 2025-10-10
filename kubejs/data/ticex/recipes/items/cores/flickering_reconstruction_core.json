@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "ticex:reconstruction_core"
+    },
+    "s": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "csc",
+    "ccc"
+  ],
+  "result": {
+    "item": "ticex:flickering_reconstruction_core"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,51 @@
+{
+	"fluid": {
+		"name": "tinkers_things:molten_hematite",
+		"amount": 16
+	},
+	"block_effects": [
+		{
+			"type": "tconstruct:place_block",
+			"block": "minecraft:fire"
+		},
+		{
+			"type": "tconstruct:mob_effect_cloud",
+			"effects": [
+				{
+					"effect": "minecraft:regeneration",
+					"time": 100,
+					"level": 3
+				}
+			]
+		}
+	],
+	"entity_effects": [
+		{
+			"type": "tconstruct:conditional",
+			"effect": {
+				"type": "tconstruct:damage",
+				"damage": 4.0,
+				"damage_type": {
+					"melee": "tconstruct:fluid_fire_melee",
+					"ranged": "tconstruct:fluid_fire_ranged"
+				}
+			},
+			"target": {
+				"type": "mantle:inverted",
+				"inverted_type": "mantle:fire_immune"
+			}
+		},
+		{
+			"type": "tconstruct:fire",
+			"action": "add",
+			"time": 5
+		},
+		{
+			"type": "tconstruct:mob_effect",
+			"effect": "minecraft:regeneration",
+			"action": "add",
+			"time": 100,
+			"level": 3
+		}
+	]
+}

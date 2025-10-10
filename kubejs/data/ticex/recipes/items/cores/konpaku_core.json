@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:slashblade_compat"
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_tiny"
+    },
+    "C": {
+      "item": "ticex:reconstruction_core"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ACA",
+    " A "
+  ],
+  "result": {
+    "item": "ticex:konpaku_core"
+  },
+  "show_notification": true
+}

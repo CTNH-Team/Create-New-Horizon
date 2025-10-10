@@ -1,0 +1,13 @@
+name = "tconjei"
+filename = "tconjei-1.20.1-1.4.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/6562/926/tconjei-1.20.1-1.4.4.jar"
+hash-format = "sha1"
+hash = "4f3c7c314fd925ef7cd6d6e38f1abbde902f1b9c"
+
+[update]
+[update.curseforge]
+file-id = 6562926
+project-id = 974154

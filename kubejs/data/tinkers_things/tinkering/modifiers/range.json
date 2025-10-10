@@ -1,0 +1,26 @@
+{
+	"level_display": "tconstruct:single_level",
+	"tooltip_display": "always",
+	"modules": [
+		{
+			"type": "tconstruct:attribute",
+			"unique": "tinkers_things.modifier.range",
+			"attribute": "forge:reach_distance",
+			"operation": "addition",
+			"each_level": 2.0,
+			"slots": [
+				"offhand"
+			]
+		},
+		{
+			"type": "tconstruct:attribute",
+			"unique": "tinkers_things.modifier.range",
+			"attribute": "forge:attack_range",
+			"operation": "addition",
+			"each_level": 2.0,
+			"slots": [
+				"mainhand"
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "mekanism:reaction",
+  "conditions": [
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:mekanism_compat"
+    }
+  ],
+  "duration": 100,
+  "fluidInput": {
+    "amount": 1000,
+    "fluid": "minecraft:water"
+  },
+  "gasInput": {
+    "amount": 1000,
+    "gas": "mekanism:polonium"
+  },
+  "gasOutput": {
+    "amount": 1000,
+    "gas": "mekanism:spent_nuclear_waste"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "ticex:reconstruction_core"
+    }
+  },
+  "itemOutput": {
+    "item": "ticex:radiation_shielding_core"
+  }
+}

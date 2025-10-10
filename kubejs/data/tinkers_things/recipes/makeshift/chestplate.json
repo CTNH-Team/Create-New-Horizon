@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"p p",
+		"ppp",
+		"ppp"
+	],
+	"key": {
+		"p": {
+			"item": "tconstruct:pattern"
+		}
+	},
+	"result": {
+		"item": "tinkers_things:makeshift_chestplate"
+	}
+}

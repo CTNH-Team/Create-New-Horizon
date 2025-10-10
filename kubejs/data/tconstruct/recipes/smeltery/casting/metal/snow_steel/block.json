@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cooling_time": 180,
+  "fluid": {
+    "amount": 1296,
+    "tag": "forge:snow_steel"
+  },
+  "result": {
+    "tag": "forge:storage_blocks/snow_steel"
+  }
+}

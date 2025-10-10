@@ -1,0 +1,18 @@
+{
+	"level_display": "tconstruct:no_levels",
+	"modules": [
+		{
+			"type": "tconstruct:infinity",
+			"ammo": {
+				"item": "tconstruct:crystalshot",
+				"nbt": {
+					"variant": "tinkers_things_bamboo"
+				}
+			},
+			"check_standard_arrows": false,
+			"durability_usage": 1
+		}
+	],
+	"priority": 40,
+	"tooltip_display": "always"
+}

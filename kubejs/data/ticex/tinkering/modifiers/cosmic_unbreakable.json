@@ -1,0 +1,15 @@
+{
+  "level_display": "tconstruct:no_levels",
+  "modules": [
+    {
+      "type": "tconstruct:durability_color",
+      "color": "FF0000"
+    },
+    {
+      "type": "tconstruct:reduce_tool_damage",
+      "flat": 1.0
+    }
+  ],
+  "priority": 125,
+  "tooltip_display": "always"
+}

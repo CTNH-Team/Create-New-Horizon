@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "tconstruct:cobalt_block",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "sakuratinker:eezo_nugget"
+		}
+	},
+	"result": {
+		"item": "sakuratinker:eezo_ingot"
+	}
+}

@@ -1,0 +1,13 @@
+name = "etstlib"
+filename = "etstlib-3.0.0-beta.10.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/6732/443/etstlib-3.0.0-beta.10.jar"
+hash-format = "sha1"
+hash = "e540eabf2a5d0a377a2f53729e9f7399f6e6e20f"
+
+[update]
+[update.curseforge]
+file-id = 6732443
+project-id = 1206379

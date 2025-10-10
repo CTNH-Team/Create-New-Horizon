@@ -1,0 +1,24 @@
+{
+	"type": "tconstruct:material",
+	"conditions": [
+		{
+			"type": "forge:or",
+			"values": [
+				{
+					"type": "tconstruct:config",
+					"prop": "force_integration_materials"
+				},
+				{
+					"type": "forge:mod_loaded",
+					"modid": "buddycards"
+				}
+			]
+		}
+	],
+	"ingredient": {
+		"item": "buddycards:perfect_buddysteel_ingot"
+	},
+	"material": "sakuratinker:perfect_buddysteel",
+	"needed": 1,
+	"value": 1
+}

@@ -1,0 +1,22 @@
+{
+	"type": "tconstruct:incremental_modifier",
+	"allow_crystal": true,
+	"amount_per_item": 1,
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "irons_spellbooks"
+		}
+	],
+	"input": {
+		"item": "irons_spellbooks:ice_upgrade_orb"
+	},
+	"needed_per_level": 2,
+	"result": "sakuratinker:ice_attr",
+	"slots": {
+		"upgrades": 1
+	},
+	"tools": {
+		"tag": "sakuratinker:modifiable/curio/tinker_spell_book"
+	}
+}

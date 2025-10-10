@@ -1,0 +1,25 @@
+{
+	"type": "tconstruct:modifier",
+	"allow_crystal": true,
+	"inputs": [
+		{
+			"item": "minecraft:pointed_dripstone"
+		},
+		{
+			"item": "minecraft:pointed_dripstone"
+		},
+		{
+			"item": "minecraft:pointed_dripstone"
+		}
+	],
+	"level": {
+		"max": 4
+	},
+	"result": "tconstruct:impaling",
+	"slots": {
+		"upgrades": 1
+	},
+	"tools": {
+		"item": "tinkers_things:blowpipe"
+	}
+}

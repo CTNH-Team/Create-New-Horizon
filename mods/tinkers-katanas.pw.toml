@@ -1,0 +1,12 @@
+name = "TinkersKatanas"
+filename = "TinkersKatanas_v1.3.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "929559a377738306a7cb3a6cd65c5155f7f4bea9"
+url = "https://edge.forgecdn.net/files/6805/378/TinkersKatanas_v1.3.5.jar"
+
+[update.curseforge]
+file-id = 6805378
+project-id = 884944

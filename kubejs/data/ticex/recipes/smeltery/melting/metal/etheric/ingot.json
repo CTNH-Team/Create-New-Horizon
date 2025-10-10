@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/etheric"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/etheric"
+  },
+  "result": {
+    "amount": 144,
+    "tag": "forge:molten_etheric"
+  },
+  "temperature": 5000,
+  "time": 151
+}

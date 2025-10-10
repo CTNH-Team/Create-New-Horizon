@@ -1,0 +1,11 @@
+{
+  "type": "ticex:embossment_building",
+  "conditions": [
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:irons_spellbooks_compat"
+    }
+  ],
+  "result": "ticex:revival_spellbook_irons",
+  "result_count": 1
+}

@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "sakuratinker:eezo_ore"
+	},
+	"result": "sakuratinker:eezo_ingot",
+	"experience": 0.7,
+	"cookingtime": 200
+}

@@ -1,0 +1,13 @@
+{
+	"type": "tconstruct:casting_table",
+	"cast": {
+		"tag": "tconstruct:casts/single_use/ingot"
+	},
+	"cast_consumed": true,
+	"fluid": {
+		"name": "sakuratinker:molten_soul_sakura",
+		"amount": 144
+	},
+	"result": "sakuratinker:soul_sakura",
+	"cooling_time": 200
+}

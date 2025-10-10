@@ -1,0 +1,15 @@
+{
+	"type": "tconstruct:item_part_builder",
+	"cost": 3,
+	"material": "tconstruct:rock",
+	"pattern": "tinkers_things:shield_plating",
+	"pattern_item": [
+		{
+			"tag": "tconstruct:patterns/default"
+		},
+		{
+			"item": "tinkers_things:shield_plating_gold_cast"
+		}
+	],
+	"result": "tinkers_things:shield_plating_dummy"
+}

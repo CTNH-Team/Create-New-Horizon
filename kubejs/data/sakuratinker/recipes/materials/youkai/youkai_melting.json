@@ -1,0 +1,18 @@
+{
+	"type": "tconstruct:melting",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "youkaishomecoming"
+		}
+	],
+	"ingredient": {
+		"item": "sakuratinker:youkai_ingot"
+	},
+	"result": {
+		"fluid": "sakuratinker:molten_youkai",
+		"amount": 144
+	},
+	"temperature": 750,
+	"time": 100
+}

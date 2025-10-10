@@ -1,0 +1,12 @@
+{
+	"type": "tconstruct:tool_building",
+	"extra_requirements": [
+		{
+			"item": "minecraft:amethyst_shard"
+		},
+		{
+			"item": "minecraft:amethyst_shard"
+		}
+	],
+	"result": "tinkers_things:amethyst_staff"
+}

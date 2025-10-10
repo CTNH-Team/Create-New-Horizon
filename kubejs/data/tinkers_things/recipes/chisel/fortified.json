@@ -1,0 +1,19 @@
+{
+	"type": "tconstruct:modifier",
+	"inputs": [
+		{
+			"tag": "forge:raw_materials/copper"
+		}
+	],
+	"tools": {
+		"item": "tinkers_things:chisel"
+	},
+	"allow_crystal": true,
+	"result": "tinkers_things:fortified",
+	"level": {
+		"max": 1
+	},
+	"slots": {
+		"upgrades": 1
+	}
+}

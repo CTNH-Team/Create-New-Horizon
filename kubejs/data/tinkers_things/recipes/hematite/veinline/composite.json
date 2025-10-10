@@ -1,0 +1,10 @@
+{
+	"type": "tconstruct:material_fluid",
+	"input": "tconstruct:vine",
+	"fluid": {
+		"fluid": "tinkers_things:molten_hematite",
+		"amount": 80
+	},
+	"temperature": 1250,
+	"output": "tinkers_things:veinline"
+}

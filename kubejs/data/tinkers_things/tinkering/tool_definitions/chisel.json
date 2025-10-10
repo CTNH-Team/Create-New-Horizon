@@ -1,0 +1,70 @@
+{
+	"modules": [
+		{
+			"type": "tconstruct:base_stats",
+			"stats": {
+				"tconstruct:durability": 100,
+				"tconstruct:attack_damage": 1,
+				"tconstruct:attack_speed": 1.75,
+				"tconstruct:mining_speed": 3,
+				"tconstruct:harvest_tier": "minecraft:stone"
+			}
+		},
+		{
+			"type": "tconstruct:multiply_stats",
+			"multipliers": {
+				"tconstruct:attack_damage": 0.75,
+				"tconstruct:durability": 0.75
+			}
+		},
+		{
+			"type": "tconstruct:material_repair",
+			"material": "tconstruct:flint",
+			"stat_type": "tconstruct:head"
+		},
+		{
+			"type": "tconstruct:modifier_slots",
+			"slots": {
+				"upgrades": 4,
+				"abilities": 1
+			}
+		},
+		{
+			"type": "tconstruct:traits",
+			"traits": [
+				{
+					"name": "tconstruct:exchanging",
+					"level": 1
+				}
+			]
+		},
+		{
+			"type": "tconstruct:traits",
+			"hooks": [
+				"tconstruct:rebalanced_trait"
+			],
+			"traits": [
+				{
+					"name": "tconstruct:crumbling",
+					"level": 2
+				}
+			]
+		},
+		{
+			"type": "tconstruct:tool_actions",
+			"tool_actions": [
+				"pickaxe_dig"
+			]
+		},
+		{
+			"type": "tconstruct:is_effective",
+			"predicate_type": "mantle:tag",
+			"tag": "minecraft:mineable/pickaxe"
+		},
+		{
+			"type": "tconstruct:circle_aoe",
+			"3D": false,
+			"diameter": 1
+		}
+	]
+}

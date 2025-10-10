@@ -1,0 +1,12 @@
+{
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"item": "sakuratinker:orichalcum_ingot"
+	},
+	"result": {
+		"fluid": "sakuratinker:molten_orichalcum",
+		"amount": 144
+	},
+	"temperature": 1000,
+	"time": 270
+}

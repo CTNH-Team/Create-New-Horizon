@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "ticex:mekaplate_helmet",
+      "required": false
+    },
+    {
+      "id": "ticex:mekaplate_chestplate",
+      "required": false
+    },
+    {
+      "id": "ticex:mekaplate_leggings",
+      "required": false
+    },
+    {
+      "id": "ticex:mekaplate_boots",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+	"type": "tconstruct:part_builder",
+	"pattern": "tinkers_things:large_repair_kit",
+	"pattern_item": [
+		{
+			"tag": "tconstruct:patterns/default"
+		},
+		{
+			"item": "tinkers_things:large_repair_kit_gold_cast"
+		}
+	],
+	"cost": 8,
+	"result": {
+		"item": "tinkers_things:large_repair_kit"
+	}
+}

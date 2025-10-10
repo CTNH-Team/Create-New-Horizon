@@ -1,0 +1,11 @@
+{
+  "level_display": "tconstruct:no_levels",
+  "modules": [
+    {
+      "type": "tconstruct:modifier_slot",
+      "flat": 1,
+      "name": "abilities"
+    }
+  ],
+  "tooltip_display": "always"
+}

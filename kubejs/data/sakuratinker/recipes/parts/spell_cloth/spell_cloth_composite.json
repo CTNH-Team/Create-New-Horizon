@@ -1,0 +1,11 @@
+{
+	"condition": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "irons_spellbooks"
+		}
+	],
+	"type": "tconstruct:table_casting_composite",
+	"result": "sakuratinker:spell_cloth",
+	"item_cost": 3
+}

@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:item_part_builder",
+  "conditions": [
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:slashblade_compat"
+    }
+  ],
+  "pattern": "ticex:slashblade_saya",
+  "pattern_item": {
+    "tag": "tconstruct:casts/sand"
+  },
+  "result": "ticex:slashblade_saya_sand_cast"
+}

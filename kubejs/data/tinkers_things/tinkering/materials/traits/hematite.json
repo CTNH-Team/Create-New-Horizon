@@ -1,0 +1,16 @@
+{
+	"default": [
+		{
+			"name": "tinkers_things:hemodynamic",
+			"level": 1
+		}
+	],
+	"perStat": {
+		"tconstruct:armor": [
+			{
+				"name": "tinkers_things:hemosistance",
+				"level": 1
+			}
+		]
+	}
+}

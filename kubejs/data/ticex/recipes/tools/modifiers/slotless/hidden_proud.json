@@ -1,0 +1,16 @@
+{
+  "type": "ticex:single_embossment_modifier",
+  "conditions": [
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:slashblade_compat"
+    }
+  ],
+  "emboss_input": {
+    "tag": "slashblade:proudsouls"
+  },
+  "result": "ticex:hidden_proud",
+  "tools": {
+    "tag": "ticex:seram/slashblade"
+  }
+}

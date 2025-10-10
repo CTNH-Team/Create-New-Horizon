@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:table_casting_material",
+  "cast": {
+    "item": "projecte:gem_chestplate"
+  },
+  "cast_consumed": true,
+  "conditions": [
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:projecte_compat"
+    }
+  ],
+  "item_cost": 1,
+  "result": "ticex:catalyst_gem_chestplate"
+}

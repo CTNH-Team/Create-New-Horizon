@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/ingot"
+  },
+  "cast_consumed": true,
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/etheric"
+    }
+  ],
+  "cooling_time": 191,
+  "fluid": {
+    "amount": 144,
+    "tag": "forge:molten_etheric"
+  },
+  "result": {
+    "tag": "forge:ingots/etheric"
+  }
+}

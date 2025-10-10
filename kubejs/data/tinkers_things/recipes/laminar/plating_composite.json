@@ -1,0 +1,6 @@
+{
+	"type": "tconstruct:table_casting_composite",
+	"casting_stat_conflict": "tconstruct:plating_shield",
+	"item_cost": 3,
+	"result": "tinkers_things:shield_plating"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "tconstruct:modifier_salvage",
+  "conditions": [
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:avaritia_compat"
+    }
+  ],
+  "modifier": "ticex:endestshot",
+  "slots": {
+    "abilities": 2
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/ranged"
+  }
+}

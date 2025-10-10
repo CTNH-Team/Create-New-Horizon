@@ -1,0 +1,8 @@
+{
+	"type": "tconstruct:table_casting_material",
+	"cast": {
+		"tag": "tinkers_things:casts/large_repair_kit_multi_use"
+	},
+	"item_cost": 8,
+	"result": "tinkers_things:large_repair_kit"
+}

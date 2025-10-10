@@ -1,0 +1,19 @@
+{
+  "type": "psi:trick_crafting",
+  "cad": {
+    "item": "psi:cad_assembly_psimetal"
+  },
+  "conditions": [
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:psi_compat"
+    }
+  ],
+  "input": {
+    "item": "ticex:reconstruction_core"
+  },
+  "output": {
+    "item": "ticex:psionizing_radiation_core"
+  },
+  "trick": "psi:trick_greater_infusion"
+}

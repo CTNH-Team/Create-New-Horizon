@@ -1,0 +1,19 @@
+{
+	"level_display": "tconstruct:default",
+	"tooltip_display": "always",
+	"modules": [
+		{
+			"type": "tconstruct:mob_effect",
+			"entity": "mantle:any",
+			"effect": "minecraft:weakness",
+			"level": {
+				"flat": 1
+			},
+			"time": {
+				"flat": 60,
+				"per_level": 20,
+				"random": 40
+			}
+		}
+	]
+}

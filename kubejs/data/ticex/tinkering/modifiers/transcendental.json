@@ -1,0 +1,21 @@
+{
+  "level_display": "tconstruct:no_levels",
+  "modules": [
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "ticex:damage_taken",
+      "each_level": -0.25,
+      "operation": "addition",
+      "slots": [
+        "mainhand",
+        "offhand",
+        "feet",
+        "legs",
+        "chest",
+        "head"
+      ],
+      "unique": "1dc2b568-1b38-47a0-97d6-ac83a390c67c"
+    }
+  ],
+  "tooltip_display": "always"
+}

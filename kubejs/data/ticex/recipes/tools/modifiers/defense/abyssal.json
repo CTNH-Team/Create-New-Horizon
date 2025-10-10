@@ -1,0 +1,28 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "conditions": [
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:projecte_compat"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "ticex:catalyst_gem_helmet"
+    }
+  ],
+  "result": "ticex:abyssal",
+  "slots": {
+    "defense": 1
+  },
+  "tools": {
+    "type": "forge:difference",
+    "base": {
+      "tag": "tconstruct:modifiable/armor/helmets"
+    },
+    "subtracted": {
+      "tag": "ticex:seram/gem"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "tconstruct:cobalt_block",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "tinkers_things:hematite"
+		}
+	},
+	"result": {
+		"item": "tinkers_things:hematite_block"
+	}
+}

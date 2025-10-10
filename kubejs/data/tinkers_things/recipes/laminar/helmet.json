@@ -1,0 +1,13 @@
+{
+	"type": "tconstruct:tool_building",
+	"extra_requirements": [
+		{
+			"item": "minecraft:leather"
+		},
+		{
+			"item": "minecraft:leather"
+		}
+	],
+	"result": "tinkers_things:laminar_helmet",
+	"slot_layout": "tinkers_things:laminar_armor"
+}

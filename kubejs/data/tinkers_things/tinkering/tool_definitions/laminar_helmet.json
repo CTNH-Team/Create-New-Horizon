@@ -1,0 +1,61 @@
+{
+	"modules": [
+		{
+			"type": "tconstruct:part_stats",
+			"parts": [
+				{
+					"item": "tconstruct:helmet_plating",
+					"scale": 0.5
+				},
+				{
+					"item": "tconstruct:helmet_plating",
+					"scale": 0.5
+				},
+				"tconstruct:shield_core"
+			],
+			"primary_part": 0
+		},
+		{
+			"type": "tconstruct:default_materials",
+			"materials": [
+				{
+					"type": "tconstruct:random",
+					"tier": {
+						"max": 2
+					}
+				},
+				{
+					"type": "tconstruct:random",
+					"tier": {
+						"max": 2
+					}
+				},
+				{
+					"type": "tconstruct:random",
+					"tier": {
+						"max": 2
+					}
+				}
+			]
+		},
+		{
+			"type": "tconstruct:base_stats",
+			"stats": {
+				"tconstruct:armor_toughness": 1.0
+			}
+		},
+		{
+			"type": "tconstruct:multiply_stats",
+			"multipliers": {
+				"tconstruct:durability": 1.5
+			}
+		},
+		{
+			"type": "tconstruct:modifier_slots",
+			"slots": {
+				"abilities": 1,
+				"upgrades": 2
+			}
+		}
+	]
+}

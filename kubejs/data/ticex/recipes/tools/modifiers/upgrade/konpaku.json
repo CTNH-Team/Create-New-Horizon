@@ -1,0 +1,26 @@
+{
+  "type": "ticex:embossment_modifier",
+  "conditions": [
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:slashblade_compat"
+    }
+  ],
+  "emboss_inputs": [
+    {
+      "item": "minecraft:enchanted_book"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "ticex:konpaku_core"
+    }
+  ],
+  "result": "ticex:konpaku",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "tag": "ticex:seram/slashblade"
+  }
+}

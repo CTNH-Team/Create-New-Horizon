@@ -1,0 +1,55 @@
+{
+	"translation_key": "item.tinkers_things.halberd",
+	"icon": {
+		"item": "tinkers_things:halberd",
+		"nbt": {
+			"tic_display": true,
+			"tic_materials": [
+				"tconstruct:ui_render#head",
+				"tconstruct:ui_render#handle",
+				"tconstruct:ui_render#extra",
+				"tconstruct:ui_render#large",
+				"tconstruct:ui_render#extra_large"
+			]
+		}
+	},
+	"sortIndex": 10,
+	"input_slots": [
+		{
+			"icon": "tconstruct:broad_axe_head",
+			"translation_key": "item.tconstruct.broad_axe_head",
+			"x": 35,
+			"y": 20,
+			"filter": {
+				"item": "tconstruct:broad_axe_head"
+			}
+		},
+		{
+			"icon": "tconstruct:tough_handle",
+			"translation_key": "item.tconstruct.tough_handle",
+			"x": 12,
+			"y": 55,
+			"filter": {
+				"item": "tconstruct:tough_handle"
+			}
+		},
+		{
+			"icon": "tconstruct:small_blade",
+			"translation_key": "item.tconstruct.small_blade",
+			"x": 50,
+			"y": 40,
+			"filter": {
+				"item": "tconstruct:small_blade"
+			}
+		},
+		{
+			"icon": "tconstruct:tough_handle",
+			"translation_key": "item.tconstruct.tough_handle",
+			"x": 30,
+			"y": 40,
+			"filter": {
+				"item": "tconstruct:tough_handle"
+			}
+		}
+	]
+}

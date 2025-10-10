@@ -1,0 +1,7 @@
+{
+  "icon": "ticex:slot/head",
+  "size": 1,
+  "validators": [
+    "ticex:incomparable"
+  ]
+}

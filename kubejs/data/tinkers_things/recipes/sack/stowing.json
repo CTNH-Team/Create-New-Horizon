@@ -1,0 +1,28 @@
+{
+	"type": "tconstruct:modifier",
+	"inputs": [
+		{
+			"item": "minecraft:rabbit_hide"
+		},
+		{
+			"tag": "forge:ingots/iron"
+		},
+		{
+			"item": "minecraft:rabbit_hide"
+		},
+		{
+			"item": "minecraft:rabbit_hide"
+		},
+		{
+			"item": "minecraft:rabbit_hide"
+		}
+	],
+	"tools": {
+		"item": "tinkers_things:sack"
+	},
+	"slots": {
+		"abilities": 1
+	},
+	"allow_crystal": true,
+	"result": "tinkers_things:stowing"
+}

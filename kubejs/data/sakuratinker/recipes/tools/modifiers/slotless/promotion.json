@@ -1,0 +1,23 @@
+{
+	"type": "tconstruct:modifier",
+	"inputs": [
+		{
+			"item": "sakuratinker:eezo_ingot"
+		},
+		{
+			"item": "sakuratinker:eezo_ingot"
+		},
+		{
+			"item": "sakuratinker:eezo_ingot"
+		},
+		{
+			"item": "sakuratinker:nihilite_ingot"
+		}
+	],
+	"tools": {
+		"tag": "tconstruct:modifiable/bonus_slots"
+	},
+	"level": 1,
+	"allow_crystal": true,
+	"result": "sakuratinker:promotion"
+}

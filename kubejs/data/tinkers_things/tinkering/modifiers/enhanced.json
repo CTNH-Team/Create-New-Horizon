@@ -1,0 +1,32 @@
+{
+	"level_display": "tconstruct:single_level",
+	"modules": [
+		{
+			"type": "tconstruct:modifier_slot",
+			"count": 1,
+			"name": "upgrades"
+		},
+		{
+			"type": "tconstruct:requirements",
+			"display_modifiers": [
+				{
+					"name": "tinkers_things:fortified",
+					"level": 1
+				}
+			],
+			"requirement": {
+				"type": "tconstruct:has_modifier",
+				"check": "all",
+				"level": {
+					"min": 1
+				},
+				"modifier": {
+					"type": "tconstruct:single",
+					"modifier": "tinkers_things:fortified"
+				}
+			},
+			"translation_key": "modifier.tinkers_things.enhanced.requirements"
+		}
+	],
+	"tooltip_display": "tinker_station"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:part_builder",
+  "conditions": [
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:slashblade_compat"
+    }
+  ],
+  "cost": 4,
+  "pattern": "ticex:slashblade_blade",
+  "pattern_item": {
+    "tag": "tconstruct:patterns/default"
+  },
+  "result": {
+    "item": "ticex:slashblade_blade"
+  }
+}

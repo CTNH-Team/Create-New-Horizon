@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:nuggets/infinity"
+    },
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:avaritia_compat"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:nuggets/infinity"
+  },
+  "material": "ticex:infinity",
+  "needed": 9,
+  "value": 1
+}

@@ -1,0 +1,9 @@
+{
+	"type": "tconstruct:table_casting_material",
+	"cast": {
+		"tag": "tinkers_things:casts/shield_plating_multi_use"
+	},
+	"cast_consumed": false,
+	"item_cost": 3,
+	"result": "tinkers_things:shield_plating"
+}

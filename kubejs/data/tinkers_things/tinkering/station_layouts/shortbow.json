@@ -1,0 +1,46 @@
+{
+	"translation_key": "item.tinkers_things.shortbow",
+	"icon": {
+		"item": "tinkers_things:shortbow",
+		"nbt": {
+			"tic_display": true,
+			"tic_materials": [
+				"tconstruct:ui_render#head",
+				"tconstruct:ui_render#handle",
+				"tconstruct:ui_render#extra",
+				"tconstruct:ui_render#large",
+				"tconstruct:ui_render#extra_large"
+			]
+		}
+	},
+	"sortIndex": 8,
+	"input_slots": [
+		{
+			"icon": "tconstruct:bow_limb",
+			"translation_key": "item.tconstruct.bow_limb",
+			"x": 20,
+			"y": 55,
+			"filter": {
+				"item": "tconstruct:bow_limb"
+			}
+		},
+		{
+			"icon": "tconstruct:bow_limb",
+			"translation_key": "item.tconstruct.bow_limb",
+			"x": 45,
+			"y": 30,
+			"filter": {
+				"item": "tconstruct:bow_limb"
+			}
+		},
+		{
+			"icon": "tconstruct:bowstring",
+			"translation_key": "item.tconstruct.bowstring",
+			"x": 45,
+			"y": 55,
+			"filter": {
+				"item": "tconstruct:bowstring"
+			}
+		}
+	]
+}

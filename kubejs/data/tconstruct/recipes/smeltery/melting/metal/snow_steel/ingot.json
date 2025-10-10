@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:ingots/snow_steel"
+  },
+  "result": {
+    "amount": 144,
+    "tag": "forge:snow_steel"
+  },
+  "temperature": 605,
+  "time": 54
+}

@@ -1,0 +1,29 @@
+{
+  "type": "apotheosis:enchanting",
+  "conditions": [
+    {
+      "type": "ticex:module_fixed",
+      "module": "enchantment"
+    },
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:apotheosis_compat"
+    }
+  ],
+  "input": {
+    "item": "ticex:reconstruction_core"
+  },
+  "max_requirements": {
+    "arcana": 100.0,
+    "eterna": 50.0,
+    "quanta": 100.0
+  },
+  "requirements": {
+    "arcana": 100.0,
+    "eterna": 50.0,
+    "quanta": 100.0
+  },
+  "result": {
+    "item": "ticex:overload_core"
+  }
+}

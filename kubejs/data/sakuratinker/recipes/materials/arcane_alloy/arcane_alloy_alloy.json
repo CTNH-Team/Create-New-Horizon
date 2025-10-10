@@ -1,0 +1,18 @@
+{
+	"type": "tconstruct:alloy",
+	"inputs": [
+		{
+			"amount": 576,
+			"fluid": "gtceu:gold"
+		},
+		{
+			"amount": 576,
+			"fluid": "sakuratinker:molten_arcane_salvage"
+		}
+	],
+	"result": {
+		"amount": 144,
+		"fluid": "sakuratinker:molten_arcane_alloy"
+	},
+	"temperature": 1500
+}

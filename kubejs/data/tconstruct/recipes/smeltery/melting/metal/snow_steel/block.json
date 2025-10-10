@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/snow_steel"
+  },
+  "result": {
+    "amount": 1296,
+    "tag": "forge:snow_steel"
+  },
+  "temperature": 605,
+  "time": 171
+}

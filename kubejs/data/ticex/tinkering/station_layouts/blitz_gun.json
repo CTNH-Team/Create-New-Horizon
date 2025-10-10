@@ -1,0 +1,36 @@
+{
+  "icon": {
+    "pattern": "ticex:blitz_gun"
+  },
+  "input_slots": [
+    {
+      "filter": {
+        "item": "tconstruct:large_plate"
+      },
+      "icon": "tconstruct:large_plate",
+      "translation_key": "item.tconstruct.large_plate",
+      "x": 42,
+      "y": 34
+    },
+    {
+      "filter": {
+        "item": "tconstruct:tough_handle"
+      },
+      "icon": "tconstruct:tough_handle",
+      "translation_key": "item.tconstruct.tough_handle",
+      "x": 42,
+      "y": 56
+    },
+    {
+      "filter": {
+        "item": "ticex:catalyst_kinetic_gun"
+      },
+      "icon": "ticex:catalyst",
+      "translation_key": "item.ticex.catalyst_kinetic_gun",
+      "x": 24,
+      "y": 34
+    }
+  ],
+  "sortIndex": 14,
+  "translation_key": "gui.ticex.blitz_gun"
+}

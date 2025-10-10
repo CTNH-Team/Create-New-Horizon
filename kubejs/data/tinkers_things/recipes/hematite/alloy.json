@@ -1,0 +1,22 @@
+{
+	"type": "tconstruct:alloy",
+	"inputs": [
+		{
+			"tag": "forge:iron",
+			"amount": 144
+		},
+		{
+			"tag": "tconstruct:molten_debris",
+			"amount": 144
+		},
+		{
+			"tag": "tconstruct:molten_obsidian",
+			"amount": 400
+		}
+	],
+	"result": {
+		"fluid": "tinkers_things:molten_hematite",
+		"amount": 160
+	},
+	"temperature": 1250
+}

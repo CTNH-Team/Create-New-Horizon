@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:nuggets/crystal_matrix"
+    },
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:avaritia_compat"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:nuggets/crystal_matrix"
+  },
+  "material": "ticex:crystal_matrix",
+  "needed": 9,
+  "value": 1
+}

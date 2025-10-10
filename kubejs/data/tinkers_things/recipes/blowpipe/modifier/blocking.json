@@ -1,0 +1,30 @@
+{
+	"type": "tconstruct:modifier",
+	"allow_crystal": true,
+	"check_trait_level": true,
+	"inputs": [
+		{
+			"tag": "minecraft:planks"
+		},
+		{
+			"tag": "forge:ingots/steel"
+		},
+		{
+			"tag": "minecraft:planks"
+		},
+		{
+			"tag": "minecraft:planks"
+		},
+		{
+			"tag": "minecraft:planks"
+		}
+	],
+	"level": 1,
+	"result": "tconstruct:blocking",
+	"slots": {
+		"abilities": 1
+	},
+	"tools": {
+		"item": "tinkers_things:blowpipe"
+	}
+}

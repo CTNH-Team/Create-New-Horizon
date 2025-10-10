@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:casting_basin",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:storage_blocks/etheric"
+    }
+  ],
+  "cooling_time": 453,
+  "fluid": {
+    "amount": 1296,
+    "tag": "forge:molten_etheric"
+  },
+  "result": {
+    "tag": "forge:storage_blocks/etheric"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "c": {
+      "item": "tconstruct:sky_slime_ball"
+    },
+    "p": {
+      "item": "minecraft:blaze_powder"
+    },
+    "s": {
+      "item": "minecraft:shulker_shell"
+    }
+  },
+  "pattern": [
+    "asa",
+    "pcp",
+    "asa"
+  ],
+  "result": {
+    "item": "ticex:reconstruction_core"
+  },
+  "show_notification": true
+}

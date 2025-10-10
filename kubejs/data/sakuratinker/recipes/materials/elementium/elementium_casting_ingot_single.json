@@ -1,0 +1,27 @@
+{
+	"type": "tconstruct:casting_table",
+	"cast": {
+		"tag": "tconstruct:casts/multi_use/ingot"
+	},
+	"conditions": [
+		{
+			"type": "forge:or",
+			"values": [
+				{
+					"type": "tconstruct:config",
+					"prop": "force_integration_materials"
+				},
+				{
+					"type": "forge:mod_loaded",
+					"modid": "botania"
+				}
+			]
+		}
+	],
+	"cooling_time": 72,
+	"fluid": {
+		"amount": 144,
+		"fluid": "sakuratinker:molten_elementium"
+	},
+	"result": "botania:elementium_ingot"
+}

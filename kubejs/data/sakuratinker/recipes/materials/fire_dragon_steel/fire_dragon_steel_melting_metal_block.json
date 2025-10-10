@@ -1,0 +1,27 @@
+{
+	"type": "tconstruct:melting",
+	"conditions": [
+		{
+			"type": "forge:or",
+			"values": [
+				{
+					"type": "tconstruct:config",
+					"prop": "force_integration_materials"
+				},
+				{
+					"type": "forge:mod_loaded",
+					"modid": "iceandfire"
+				}
+			]
+		}
+	],
+	"ingredient": {
+		"item": "iceandfire:dragonsteel_fire_block"
+	},
+	"result": {
+		"amount": 1296,
+		"fluid": "sakuratinker:molten_dragon_fire_steel"
+	},
+	"temperature": 2000,
+	"time": 278
+}

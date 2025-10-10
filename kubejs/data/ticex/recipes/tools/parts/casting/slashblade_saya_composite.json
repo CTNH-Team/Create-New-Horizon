@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:table_casting_composite",
+  "conditions": [
+    {
+      "type": "addonapi:mods_available",
+      "required_raw_module": "ticex:slashblade_compat"
+    }
+  ],
+  "item_cost": 6,
+  "result": "ticex:slashblade_saya"
+}
