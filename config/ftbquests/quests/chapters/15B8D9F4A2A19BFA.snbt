@@ -578,7 +578,7 @@
 		}
 		{
 			id: "4F8CBD1FE34B4A4D"
-			subtitle: "如果你有无限的矿物，那么强无敌"
+			subtitle: "烧石头发电"
 			tasks: [{
 				id: "16F7CEDB76D72832"
 				item: "ctnhcore:nanogenetor"

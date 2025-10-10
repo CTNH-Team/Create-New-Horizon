@@ -84,6 +84,13 @@ JEIEvents.hideItems(event => {
     event.hide('gtceu:hv_steam_turbine')
     event.hide('ae2:facade')
 })
+JEIEvents.hideFluids(event => {
+    for (let i = 0; i <= 19; i++) {
+    const eventName = 'ticex:rf_furnace_fuel_${i}';
+    event.hide(eventName);
+}
+    
+})
 
 JEIEvents.removeCategories(event => {
     //console.log("event.categoryIds:")

@@ -1463,6 +1463,7 @@
 		}
 		{
 			dependencies: ["07D8E36B38808E28"]
+			dependency_requirement: "one_started"
 			id: "06C36A1995887667"
 			subtitle: "路边也许能捡到？"
 			tasks: [{
@@ -1475,6 +1476,7 @@
 		}
 		{
 			id: "07D8E36B38808E28"
+			optional: true
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest53.subtitle}"
 			tasks: [{
 				id: "220D413017F9AF0B"

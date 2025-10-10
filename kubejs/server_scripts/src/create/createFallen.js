@@ -315,18 +315,18 @@ ServerEvents.recipes(event => {
   //批量添加离心机和压缩机配方(ULV以下)
   const $GTRecipeCapabilities=Java.loadClass('com.gregtechceu.gtceu.common.data.GTRecipeCapabilities');
   ServerEvents.recipes(event =>{
-      event.forEachRecipe({ mod: 'gtceu', type: 'gtceu:centrifuge', not:{id:'gtceu:centrifuge/sticky_resin_separation'}}, recipe => { 
-          if(EUt(recipe)>8){ return; }
-          try { 
-              var input = allInputs(recipe);
-              var outputs=allOutputs(recipe);
-              event.recipes.vintageimprovements.centrifugation(outputs,input)
-              .processingTime(recipe.get('duration'))
-              .minimalRPM(64);
-          } catch (err) {
+      // event.forEachRecipe({ mod: 'gtceu', type: 'gtceu:centrifuge', not:{id:'gtceu:centrifuge/sticky_resin_separation'}}, recipe => { 
+      //     if(EUt(recipe)>8){ return; }
+      //     try { 
+      //         var input = allInputs(recipe);
+      //         var outputs=allOutputs(recipe);
+      //         event.recipes.vintageimprovements.centrifugation(outputs,input)
+      //         .processingTime(recipe.get('duration'))
+      //         .minimalRPM(64);
+      //     } catch (err) {
               
-          }
-      });
+      //     }
+      // });
     //   event.forEachRecipe({ mod: 'gtceu', type: 'gtceu:compressor' }, recipe => { 
     //     if(EUt(recipe)>8){ return; }
     //     try { 

@@ -50,16 +50,16 @@ WorldgenEvents.remove(event => {
     "twilightforest:legacy_lapis_ore",
     "twilightforest:legacy_copper_ore",
     
-    "createmetallurgy:wolframite_ore"
+    "createmetallurgy:wolframite_ore",
   ])
 })
 
 
-GTCEuStartupEvents.registry("gtceu:tag_prefix", event => {
-	event.create("jupiter_stone", "ore")
-		.stateSupplier(() => Block.getBlock("adastra:jupiter_stone").defaultBlockState())
-		.baseModelLocation("ad_extendra:block/jupiter_stone")
-		.unificationEnabled(true)
-		.materialIconType(GTMaterialIconType.ore)
-		.generationCondition(ItemGenerationCondition.hasOreProperty)
-})
+// GTCEuStartupEvents.registry("gtceu:tag_prefix", event => {
+// 	event.create("jupiter_stone", "ore")
+// 		.stateSupplier(() => Block.getBlock("adastra:jupiter_stone").defaultBlockState())
+// 		.baseModelLocation("ad_extendra:block/jupiter_stone")
+// 		.unificationEnabled(true)
+// 		.materialIconType(GTMaterialIconType.ore)
+// 		.generationCondition(ItemGenerationCondition.hasOreProperty)
+// })

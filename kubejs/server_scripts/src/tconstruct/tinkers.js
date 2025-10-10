@@ -109,6 +109,32 @@ ServerEvents.recipes(event => {
 		800,
 		40
 	)
+
+	event.recipes.tconstruct.melting_fuel(
+		100,
+		Fluid.of('gtceu:raw_bio_diesel', 5),
+		1000
+	)
+	event.recipes.tconstruct.melting_fuel(
+		100,
+		Fluid.of('gtceu:diesel', 50),
+		1400
+	)
+	event.recipes.tconstruct.melting_fuel(
+		100,
+		Fluid.of('gtceu:gasoline', 50),
+		1400
+	)
+	event.recipes.tconstruct.melting_fuel(
+		200,
+		Fluid.of('gtceu:high_octane_gasoline', 50),
+		2200
+	)
+	event.recipes.tconstruct.melting_fuel(
+		200,
+		Fluid.of('gtceu:cetane_boosted_diesel', 50),
+		2200
+	)
 })
 
 //矿脉
@@ -189,4 +215,6 @@ ServerEvents.recipes(event => {
 		C: 'tconstruct:seared_brick',
 		D: '#forge:chests/wooden'
 	})
+
+	
 })

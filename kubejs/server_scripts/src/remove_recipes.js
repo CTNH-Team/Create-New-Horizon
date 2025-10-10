@@ -210,6 +210,9 @@ ServerEvents.recipes(event => {
         //装配线外壳和控制外壳
         'gtceu:assembler/assembly_line_casing',
         'gtceu:assembler/assembly_control_casing',
+        //氧气分配器、重力控制器
+        'ad_astra:oxygen_distributor',
+        'ad_astra:gravity_normalizer'
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",
@@ -253,7 +256,9 @@ ServerEvents.recipes(event => {
         /gtceu:high_temp_wrought_precursor_(.*)/,
         'gtceu:small_high_temp_wrought_precursor_dust',
         'gtceu:tiny_high_temp_wrought_precursor_dust',
-        /mae2:(.*)x_crafting_accelerator/
+        /mae2:(.*)x_crafting_accelerator/,
+        //木屑
+        'createdieselgenerators:wood_chip'
     ])
     remove_recipes_input(event, [
         "thermal:constantan_ingot"
