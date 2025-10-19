@@ -69,6 +69,10 @@ debug_msg = false
 	#How maid will throw Item.FINALLY_POS will try make the item stop at the position. GO_THROUGH will try to make item go through the target position. FIXED will always use the vector of length 0.6
 	#Allowed Values: FINALLY_POS, GO_THROUGH, FIXED
 	throw_item_vector = "FINALLY_POS"
+	#No showing bubbles for sub tasks
+	no_bubble_for_sub_task = false
+	#Try going to work center when fail pathfinding.
+	try_go_center_when_fail_pathfinding = false
 
 [render]
 	#Virtual Item Frame's render method allow access/no access/filter.
@@ -76,6 +80,8 @@ debug_msg = false
 	virtual_item_frame_render = "LARGE"
 	#Render the maid at the bottom of the screen when pressing ingredient request key.
 	maid_render_ingredient_request = true
+	#Using a direct light to make itemstack appears brighter.
+	using_better_light_on_item = true
 
 [performance]
 	#Disable the 'shortest path limitation' to gain faster path finding.
@@ -101,6 +107,11 @@ debug_msg = false
 	#The way to select the correct crafting path.
 	#Allowed Values: NONE, STEPS, CRAFT_GUIDES, ITEMS, ITEMS_COSTED
 	shortest_path_evaluator = "CRAFT_GUIDES"
+	#Max layer count limit when calculating plan. Increasing this value may cause a large lagging in some cases.
+	#Range: > 100
+	max_layer_limit = 10000
+	#Some experimental optimization. If some crafting calculation cannot done successfully, try turn this off.
+	experimental_optimization = true
 
 	[crafting.loop_solver]
 		#Max length to calculate in loop solver.
@@ -123,4 +134,18 @@ debug_msg = false
 		#Crafting generator algorithm to use.
 		#Allowed Values: RELEVANCE, RELEVANCE_THREADED
 		algorithm = "RELEVANCE_THREADED"
+		#Only generate recipe with nearest block to maid.
+		nearest_only = false
+
+[misc]
+
+	[misc.inv_list_damage]
+		#Range: 0.0 ~ 1.0
+		factor = 0.02500000037252903
+		#Range: 0.0 ~ 1.0E7
+		max = 20.0
+		#Range: 0.0 ~ 1.0E7
+		min = 2.0
+		#Range: 0.0 ~ 100.0
+		speed = 1.2000000476837158
 

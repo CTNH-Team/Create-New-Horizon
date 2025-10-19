@@ -211,6 +211,10 @@ machines:
   # Default: true
   enableMaintenance: true
 
+  # Time in ticks between when Multiblocks can require Maintenance. By default, 48 hours.
+  # Default: 3456000
+  maintenanceTime: 3456000
+
   # Whether to enable World Accelerators, which accelerate ticks for surrounding Tile Entities, Crops, etc.
   # Default: true
   enableWorldAccelerators: true

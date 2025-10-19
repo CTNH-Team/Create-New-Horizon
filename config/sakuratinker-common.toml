@@ -1,130 +1,144 @@
 
-[recipe]
+["兼容配置"]
 
-	#魂樱刻印配方配置
-	[recipe.sakura_core]
-		#大地史莱姆水晶 (default: sakuratinker:slime_crystal_earth)
-		slimeCrystalEarth = "sakuratinker:slime_crystal_earth"
-		#天空史莱姆水晶 (default: sakuratinker:slime_crystal_sky)
-		slimeCrystalSky = "sakuratinker:slime_crystal_sky"
-		#下界史莱姆水晶 (default: sakuratinker:slime_crystal_nether)
-		slimeCrystalNether = "sakuratinker:slime_crystal_nether"
-		#金块 (default: minecraft:gold_block)
-		goldBlock = "minecraft:gold_block"
+	["兼容配置".recipe]
 
-["工具配置"]
+		#魂樱刻印配方配置
+		["兼容配置".recipe.sakura_core]
+			#大地史莱姆水晶 (default: sakuratinker:slime_crystal_earth)
+			slimeCrystalEarth = "sakuratinker:slime_crystal_earth"
+			#天空史莱姆水晶 (default: sakuratinker:slime_crystal_sky)
+			slimeCrystalSky = "sakuratinker:slime_crystal_sky"
+			#下界史莱姆水晶 (default: sakuratinker:slime_crystal_nether)
+			slimeCrystalNether = "sakuratinker:slime_crystal_nether"
+			#金块 (default: minecraft:gold_block)
+			goldBlock = "minecraft:gold_block"
 
-	#护符设置
-	["工具配置".charms]
-		#设为true允许装备多件护符
-		allowMultipleCharms = false
+	["兼容配置"."工具配置"]
 
-	#工匠秘典
-	["工具配置"."Tinker spell book"]
-		#设为true允许秘典攻击力计算进法术伤害
-		enableTinkerBookATKBonus = true
+		#护符设置
+		["兼容配置"."工具配置".charms]
+			#设为true允许装备多件护符
+			allowMultipleCharms = false
 
-	#吸血鬼刀
-	["工具配置"."Vampire knives"]
-		#吸血概率
-		#Range: 0.0 ~ 1.0
-		lifeStealChance = 0.5
-		#一次攻击伤害中的吸取量
-		#Range: 0.0 ~ 10.0
-		lifeStealPercent = 0.1
-		#是否开启最大生命值恢复
-		enableMaxHealthHeal = true
-		#最大生命值恢复系数
-		#Range: 0.0 ~ 10.0
-		maxHealthHealAmount = 0.05
+		#工匠秘典
+		["兼容配置"."工具配置"."Tinker spell book"]
+			#设为true允许秘典攻击力计算进法术伤害
+			enableTinkerBookATKBonus = true
 
-[drop]
+		#吸血鬼刀
+		["兼容配置"."工具配置"."Vampire knives"]
+			#吸血概率
+			#Range: 0.0 ~ 1.0
+			lifeStealChance = 0.5
+			#一次攻击伤害中的吸取量
+			#Range: 0.0 ~ 10.0
+			lifeStealPercent = 0.1
+			#是否开启最大生命值恢复
+			enableMaxHealthHeal = true
+			#最大生命值恢复系数
+			#Range: 0.0 ~ 10.0
+			maxHealthHealAmount = 0.05
 
-	#万剑归一掉落配置
-	[drop.blade_convergence]
-		#万剑归一的掉落概率 (0.0 - 1.0)
-		#Range: 0.0 ~ 1.0
-		dropChance = 0.1
-		#可以掉落万剑归一的生物 (用逗号分隔)
-		dropMobs = "minecraft:ender_dragon"
+		#工匠箭矢
+		["兼容配置"."工具配置"."Tinker Arrow"]
+			#箭矢伤害修正系数，最小为1.0
+			#Range: 1.0 ~ 2.147483647E9
+			enableTinkerBookATKBonus = 1.2
 
-	#虚空珍珠掉落配置
-	[drop.void_pearl]
-		#掉落概率 (0.0 - 1.0)
-		#Range: 0.0 ~ 1.0
-		dropChance = 0.01
-		#可以掉落虚空珍珠的生物 (用逗号分隔)
-		dropMobs = "minecraft:ender_dragon"
+	["兼容配置".drop]
 
-	#凋零之心掉落配置
-	[drop.wither_heart]
-		#掉落概率 (0.0 - 1.0)
-		#Range: 0.0 ~ 1.0
-		dropChance = 1.0
-		#可以掉落凋零之心的生物 (用逗号分隔)
-		dropMobs = "minecraft:wither"
+		#万剑归一掉落配置
+		["兼容配置".drop.blade_convergence]
+			#万剑归一的掉落概率 (0.0 - 1.0)
+			#Range: 0.0 ~ 1.0
+			dropChance = 0.1
+			#可以掉落万剑归一的生物 (用逗号分隔)
+			dropMobs = "minecraft:ender_dragon"
 
-[modifiers]
+		#虚空珍珠掉落配置
+		["兼容配置".drop.void_pearl]
+			#掉落概率 (0.0 - 1.0)
+			#Range: 0.0 ~ 1.0
+			dropChance = 0.01
+			#可以掉落虚空珍珠的生物 (用逗号分隔)
+			dropMobs = "minecraft:ender_dragon"
 
-	#罪孽根源配置
-	[modifiers.ruination]
-		#罪孽根源的伤害系数
-		#Range: 0.0 ~ 1.0
-		damageFactor = 0.03
+		#凋零之心掉落配置
+		["兼容配置".drop.wither_heart]
+			#掉落概率 (0.0 - 1.0)
+			#Range: 0.0 ~ 1.0
+			dropChance = 1.0
+			#可以掉落凋零之心的生物 (用逗号分隔)
+			dropMobs = "minecraft:wither"
 
-	#生命之尺配置
-	[modifiers.life_ratio]
-		#生命之尺的增幅系数
-		#Range: 0.0 ~ 1.0
-		bonusPercent = 0.1
+	["兼容配置".modifiers]
 
-	#伤害吸收配置
-	[modifiers.absorption]
-		#每tick恢复的间隔 (default: 5)
-		#Range: 1 ~ 1000
-		tickInterval = 5
-		#每tick恢复的生命值 (default: 0.2)
-		#Range: 0.0 ~ 100.0
-		absorptionPerTick = 0.2
+		#罪孽根源配置
+		["兼容配置".modifiers.ruination]
+			#罪孽根源的伤害系数
+			#Range: 0.0 ~ 1.0
+			damageFactor = 0.08
 
-	#下克上配置
-	[modifiers.shitakuso]
-		#根据生命比例缩放伤害的系数 (default: 0.1)
-		#Range: 0.0 ~ 10.0
-		bonusMultiplier = 0.1
+		#生命之尺配置
+		["兼容配置".modifiers.life_ratio]
+			#生命之尺的增幅系数
+			#Range: 0.0 ~ 1.0
+			bonusPercent = 0.1
 
-	#折磨效果配置
-	[modifiers.torture]
-		#基础移动多少米触发伤害(1.0 = 1格)
-		#Range: 0.1 ~ 2.147483647E9
-		baseDamageThreshold = 1.0
-		#每等级对阈值的影响系数(0.2 = 每等级减少20%阈值)
-		#Range: 0.0 ~ 1.0
-		damageMultiplier = 0.2
+		#伤害吸收配置
+		["兼容配置".modifiers.absorption]
+			#每tick恢复的间隔 (default: 5)
+			#Range: 1 ~ 1000
+			tickInterval = 5
+			#每tick恢复的生命值 (default: 0.2)
+			#Range: 0.0 ~ 100.0
+			absorptionPerTick = 0.2
 
-	#死神祝福配置
-	[modifiers.reapers_blessing]
-		#最大加成 (百分比, 例如 0.4 是 40%)
-		#Range: 0.0 ~ 1.0
-		maxBonus = 0.4
-		#每百分比的生命加成
-		#Range: 0.0 ~ 0.1
-		bonusPerHealth = 0.01
+		#下克上配置
+		["兼容配置".modifiers.shitakuso]
+			#根据生命比例缩放伤害的系数 (default: 0.1)
+			#Range: 0.0 ~ 10.0
+			bonusMultiplier = 0.1
 
-	#高频结界配置
-	[modifiers.high_frequency_barrier]
-		#每次受到伤害时增加的伤害减免比例 (0.0 - 1.0)
-		#Range: 0.0 ~ 1.0
-		reductionPerHit = 0.05
-		#最大伤害减免比例 (0.0 - 1.0)
-		#Range: 0.0 ~ 1.0
-		maxReduction = 0.5
-		#多少tick未受攻击后重置层数 (0表示不重置)
-		#Range: > 0
-		resetTicks = 100
+		#折磨效果配置
+		["兼容配置".modifiers.torture]
+			#基础移动多少米触发伤害(1.0 = 1格)
+			#Range: 0.1 ~ 2.147483647E9
+			baseDamageThreshold = 1.0
+			#每等级对阈值的影响系数(0.2 = 每等级减少20%阈值)
+			#Range: 0.0 ~ 1.0
+			damageMultiplier = 0.2
 
-	#厄运人偶配置
-	[modifiers.jinx_doll]
-		#厄运人偶消除buff黑名单
-		debuffBlacklist = ["youkaishomecoming:youkaified"]
+		#死神祝福配置
+		["兼容配置".modifiers.reapers_blessing]
+			#最大加成 (百分比, 例如 0.4 是 40%)
+			#Range: 0.0 ~ 1.0
+			maxBonus = 0.4
+			#每百分比的生命加成
+			#Range: 0.0 ~ 0.1
+			bonusPerHealth = 0.01
+
+		#高频结界配置
+		["兼容配置".modifiers.high_frequency_barrier]
+			#每次受到伤害时增加的伤害减免比例 (0.0 - 1.0)
+			#Range: 0.0 ~ 1.0
+			reductionPerHit = 0.05
+			#最大伤害减免比例 (0.0 - 1.0)
+			#Range: 0.0 ~ 1.0
+			maxReduction = 0.5
+			#多少tick未受攻击后重置层数 (0表示不重置)
+			#Range: > 0
+			resetTicks = 100
+
+		#厄运人偶配置
+		["兼容配置".modifiers.jinx_doll]
+			#厄运人偶消除buff黑名单
+			debuffBlacklist = ["youkaishomecoming:youkaified"]
+
+		#聚宝特性配置
+		["兼容配置".modifiers.treasure_modifier]
+			#每次生成战利品消耗的能量
+			#Range: 0.01 ~ 2.147483647E9
+			energy_cost = 50.0
 

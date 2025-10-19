@@ -1,0 +1,15 @@
+#Show inventory tabs
+showTabs = true
+#Show inventory tabs only in curio page. Only works when showTabs is true and curio is installed.
+showTabsOnlyCurio = false
+#Redirect Inventory Tab to Curios Inventory
+redirectInventoryTabToCuriosInventory = true
+#Number of attribure lines per page
+#Range: 1 ~ 100
+attributeLinePerPage = 15
+#List of tabs to hide. Use title translation key for tab id.
+#Example: menu.tabs.attribute for attribute tab
+#Example: menu.tabs.curios for curios tab
+#Example: pandora.menu.title for pandora tab
+hiddentTabs = []
+

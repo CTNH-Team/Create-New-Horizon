@@ -31,19 +31,6 @@
       "name": "mo_guang",
       "uniqueId": "047706db-288c-43d5-976b-ac2e8ef4a62f"
     },
-    "time": 1752249112145,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/ohieC0zpGr"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "mo_guang",
-      "uniqueId": "047706db-288c-43d5-976b-ac2e8ef4a62f"
-    },
     "time": 1725952808820,
     "type": "Profiler",
     "data": {

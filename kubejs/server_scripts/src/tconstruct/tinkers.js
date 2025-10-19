@@ -28,9 +28,9 @@ ServerEvents.recipes(event => {
 
 	event.recipes.tconstruct.casting_table(
 		'createmetallurgy:foundry_unit',
-		Fluid.of('gtceu:wrought_iron', 288), 
+		Fluid.of('gtceu:wrought_iron', 144), 
 		'createdieselgenerators:distillation_controller', 
-		true, 90
+		false, 90
 	)
 
 	event.recipes.tconstruct.casting_table(
