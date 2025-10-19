@@ -91,50 +91,34 @@ ServerEvents.recipes(event => {
 	)
 	//锻铁
 	event.recipes.tconstruct.melting(
-		Fluid.of('gtceu:wrought_iron', 16),
+		Fluid.of('gtceu:wrought_iron', 32),
 		'minecraft:iron_nugget',
 		600,
-		40
+		10
 	)
 	event.recipes.tconstruct.melting(
 		Fluid.of('gtceu:wrought_iron', 16),
 		'gtceu:wrought_iron_nugget',
 		600,
-		40
+		5
 	)
 	//贵金属
 	event.recipes.tconstruct.melting(
-		Fluid.of('gtceu:gold', 32),
+		Fluid.of('gtceu:gold', 64),
 		'gtceu:precious_alloy_ingot',
 		800,
 		40
 	)
 
-	event.recipes.tconstruct.melting_fuel(
-		100,
-		Fluid.of('gtceu:raw_bio_diesel', 5),
-		1000
-	)
-	event.recipes.tconstruct.melting_fuel(
-		100,
-		Fluid.of('gtceu:diesel', 50),
-		1400
-	)
-	event.recipes.tconstruct.melting_fuel(
-		100,
-		Fluid.of('gtceu:gasoline', 50),
-		1400
-	)
-	event.recipes.tconstruct.melting_fuel(
-		200,
-		Fluid.of('gtceu:high_octane_gasoline', 50),
-		2200
-	)
-	event.recipes.tconstruct.melting_fuel(
-		200,
-		Fluid.of('gtceu:cetane_boosted_diesel', 50),
-		2200
-	)
+	//燃料
+	melting_fuels(event, 100, 10, 300, ['gtceu:raw_bio_diesel', 5])
+	melting_fuels(event, 100, 30, 500, ['gtceu:diesel', 25])
+	melting_fuels(event, 100, 50, 1000, ['gtceu:gasoline', 25])
+	melting_fuels(event, 200, 100, 3000, ['gtceu:high_octane_gasoline', 25])
+	melting_fuels(event, 200, 30, 4000, ['gtceu:blaze', 100])
+	melting_fuels(event, 200, 75, 5000, ['gtceu:cetane_boosted_diesel', 25])
+	melting_fuels(event, 200, 500, 5700, ['gtceu:pyrotheum', 1])
+
 })
 
 //矿脉
