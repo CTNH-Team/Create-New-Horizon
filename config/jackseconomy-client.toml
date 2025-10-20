@@ -1,7 +1,0 @@
-hidePriceTooltips = false
-alternativeTooltipFormat = true
-#Range: 1.0 ~ 60.0
-balanceChangePopupTime = 6.0
-walletHudPositionRight = false
-walletHudPositionYOffset = 0
-

@@ -14,25 +14,25 @@
 			shape: "rsquare"
 			size: 1.5d
 			x: -4.5d
-			y: -1.0d
+			y: -5.0d
 		}
 		{
 			id: "73C8E06B594B5A87"
 			linked_quest: "0FEAC07F1404346A"
 			x: 2.5d
-			y: -4.0d
+			y: -8.0d
 		}
 		{
 			id: "359E958586D6232F"
 			linked_quest: "2C6FBF2A814BB60D"
 			x: 11.0d
-			y: 0.5d
+			y: -3.5d
 		}
 		{
 			id: "65F7F2B42D3849C7"
 			linked_quest: "02115E4763B9F906"
 			x: -1.0d
-			y: -4.0d
+			y: -8.0d
 		}
 	]
 	quests: [
@@ -51,7 +51,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2D662EFDE7A39BB8"]
@@ -77,7 +77,7 @@
 				}
 			]
 			x: -4.5d
-			y: -10.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["689E197D320A0477"]
@@ -88,7 +88,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["45D2C63F76606DE2"]
@@ -99,7 +99,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["45D2C63F76606DE2"]
@@ -110,7 +110,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["62F1BC2DC2900E4F"]
@@ -121,7 +121,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["3DDBBC874FEB36B4"]
@@ -132,7 +132,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["45D2C63F76606DE2"]
@@ -143,7 +143,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["577C0EA40EC89B14"]
@@ -163,7 +163,7 @@
 			]
 			title: "{ftbquests.chapter.mv.quest9.title}"
 			x: -2.5d
-			y: -10.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["1FBD86C0CF681427"]
@@ -174,7 +174,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -189,7 +189,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["18053F8D68450C52"]
@@ -201,7 +201,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -218,7 +218,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6A93AEE55399519D"]
@@ -229,7 +229,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1FBD86C0CF681427"]
@@ -240,7 +240,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["19869FD9D4BCCB9F"]
@@ -252,7 +252,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -272,7 +272,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -2.5d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -286,7 +286,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -2.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["7142680A93861DB2"]
@@ -297,7 +297,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -311,7 +311,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7142680A93861DB2"]
@@ -322,7 +322,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5A460876CA0EC216"]
@@ -333,7 +333,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -354,7 +354,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -383,7 +383,7 @@
 			}]
 			title: "末地权限"
 			x: 8.0d
-			y: -5.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["61306F7E5202C387"]
@@ -394,7 +394,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -5.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["063155FDDF799750"]
@@ -405,7 +405,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -5.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5A55D491F0E9F389"]
@@ -423,7 +423,7 @@
 				type: "dimension"
 			}]
 			x: 6.5d
-			y: -3.5d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -437,7 +437,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -460,7 +460,7 @@
 				type: "item"
 			}]
 			x: 2.452380952380956d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["4C152AA55BCD6945"]
@@ -471,7 +471,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["56D33C26893B29C5"]
@@ -488,7 +488,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["45B113F1D8B0C756"]
@@ -499,7 +499,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1FBD86C0CF681427"]
@@ -517,7 +517,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -8.0d
+			y: -12.0d
 		}
 		{
 			id: "61F3A1C4B771E811"
@@ -528,7 +528,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1FBD86C0CF681427"]
@@ -541,7 +541,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1FBD86C0CF681427"]
@@ -552,7 +552,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -567,7 +567,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 3.0d
+			y: -1.0d
 		}
 		{
 			id: "5F393B970A71BEF2"
@@ -578,7 +578,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -601,7 +601,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1A760D451E9D23B0"]
@@ -612,7 +612,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -2.0d
+			y: -6.0d
 		}
 		{
 			can_repeat: true
@@ -635,7 +635,7 @@
 			}]
 			title: "天境权限"
 			x: 8.0d
-			y: -2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["415AF3F977F4C3F9"]
@@ -654,7 +654,7 @@
 			}]
 			title: "{ftbquests.chapter.mv.quest43.title}"
 			x: 9.5d
-			y: -3.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["699743A94DF7E0B8"]
@@ -666,7 +666,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -2.0d
+			y: -6.0d
 		}
 		{
 			id: "4616A64D47AFBFF9"
@@ -677,7 +677,7 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
@@ -689,7 +689,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
@@ -700,7 +700,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -5.0d
+			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -715,7 +715,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1FBD86C0CF681427"]
@@ -727,7 +727,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["707A41CB0EED30D3"]
@@ -746,7 +746,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -761,7 +761,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -789,7 +789,7 @@
 				}
 			]
 			x: -1.0d
-			y: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7142680A93861DB2"]
@@ -800,7 +800,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -820,7 +820,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -8.0d
+			y: -12.0d
 		}
 		{
 			id: "0B406575E6CDCC2D"
@@ -830,7 +830,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
@@ -844,7 +844,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["19869FD9D4BCCB9F"]
@@ -855,7 +855,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -2.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["18053F8D68450C52"]
@@ -867,7 +867,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3C1A31CEA3C10082"]
@@ -878,7 +878,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["477E8A2397016E0B"]
@@ -890,7 +890,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["7142680A93861DB2"]
@@ -901,7 +901,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3C1A31CEA3C10082"]
@@ -918,7 +918,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["0FEAC07F1404346A"]
@@ -929,7 +929,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -3.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -943,7 +943,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3F99A5F49AABC226"]
@@ -954,7 +954,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2E117BBA1E035855"]
@@ -965,7 +965,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3AE584B3EBC63A09"]
@@ -976,7 +976,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 0.0d
+			y: -4.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -987,7 +987,7 @@
 				type: "checkmark"
 			}]
 			x: 5.5d
-			y: -5.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["063155FDDF799750"]
@@ -1001,7 +1001,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			id: "1F14A82831F5C61B"
@@ -1011,7 +1011,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["199C34FF316CDB5D"]
@@ -1022,7 +1022,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -1036,7 +1036,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["199C34FF316CDB5D"]
@@ -1047,7 +1047,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["62688FD63BBA12C2"]
@@ -1058,7 +1058,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -1078,7 +1078,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 5.0d
+			y: 1.0d
 		}
 		{
 			id: "64B9355875C126ED"
@@ -1089,7 +1089,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["64B9355875C126ED"]
@@ -1100,7 +1100,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 5.0d
+			y: 1.0d
 		}
 		{
 			id: "62688FD63BBA12C2"
@@ -1110,7 +1110,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 3.5d
+			y: -0.5d
 		}
 	]
 	title: "{ftbquests.chapter.mv.title}"

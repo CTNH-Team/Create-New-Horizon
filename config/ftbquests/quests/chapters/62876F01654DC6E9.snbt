@@ -418,10 +418,10 @@
 						Count: 1
 						id: "gtceu:flint_mortar"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: { }
 							GT.Tool: {
-								Damage: 0
 								MaxDamage: 63
 							}
 							HideFlags: 2
@@ -435,10 +435,10 @@
 						Count: 1
 						id: "gtceu:iron_hammer"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: { }
 							GT.Tool: {
-								Damage: 0
 								HarvestLevel: 2
 								MaxDamage: 255
 								ToolSpeed: 6.0f
@@ -470,10 +470,10 @@
 						Count: 1
 						id: "gtceu:iron_file"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: { }
 							GT.Tool: {
-								Damage: 0
 								MaxDamage: 255
 							}
 							HideFlags: 2
@@ -487,10 +487,10 @@
 						Count: 1
 						id: "gtceu:iron_screwdriver"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: { }
 							GT.Tool: {
-								Damage: 0
 								MaxDamage: 255
 							}
 							HideFlags: 2
@@ -504,12 +504,12 @@
 						Count: 1
 						id: "gtceu:iron_wrench"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: {
 								Mode: 2b
 							}
 							GT.Tool: {
-								Damage: 0
 								HarvestLevel: 2
 								MaxDamage: 255
 								ToolSpeed: 6.0f
@@ -525,10 +525,10 @@
 						Count: 1
 						id: "gtceu:iron_wire_cutter"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: { }
 							GT.Tool: {
-								Damage: 0
 								HarvestLevel: 2
 								MaxDamage: 255
 								ToolSpeed: 6.0f
@@ -544,12 +544,12 @@
 						Count: 1
 						id: "gtceu:iron_saw"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: {
 								HarvestIce: 1b
 							}
 							GT.Tool: {
-								Damage: 0
 								MaxDamage: 255
 							}
 							HideFlags: 2
@@ -575,10 +575,10 @@
 					Count: 1
 					id: "gtceu:wood_mallet"
 					tag: {
+						Damage: 0
 						DisallowContainerItem: 0b
 						GT.Behaviours: { }
 						GT.Tool: {
-							Damage: 0
 							MaxDamage: 127
 						}
 						HideFlags: 2
@@ -598,6 +598,7 @@
 					Count: 1
 					id: "gtceu:iron_mining_hammer"
 					tag: {
+						Damage: 0
 						DisallowContainerItem: 0b
 						GT.Behaviours: {
 							AoEColumn: 1
@@ -608,7 +609,6 @@
 							MaxAoERow: 1
 						}
 						GT.Tool: {
-							Damage: 0
 							HarvestLevel: 2
 							MaxDamage: 767
 							ToolSpeed: 4.8f
@@ -631,6 +631,7 @@
 					id: "gtceu:lv_iron_drill"
 					tag: {
 						Charge: 2147483647L
+						Damage: 0
 						DisallowContainerItem: 0b
 						GT.Behaviours: {
 							AoEColumn: 1
@@ -641,7 +642,6 @@
 							MaxAoERow: 1
 						}
 						GT.Tool: {
-							Damage: 0
 							HarvestLevel: 2
 							MaxDamage: 767
 							ToolSpeed: 6.0f
@@ -665,12 +665,12 @@
 					id: "gtceu:lv_iron_wrench"
 					tag: {
 						Charge: 2147483647L
+						Damage: 0
 						DisallowContainerItem: 0b
 						GT.Behaviours: {
 							Mode: 2b
 						}
 						GT.Tool: {
-							Damage: 0
 							HarvestLevel: 2
 							MaxDamage: 255
 							ToolSpeed: 8.0f

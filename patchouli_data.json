@@ -52,7 +52,30 @@
         "botania:misc/dispenser_tweaks",
         "botania:alfhomancy/gaia_ritual",
         "botania:devices/mana_conjuration",
-        "botania:ender/luminizer_transport"
+        "botania:ender/luminizer_transport",
+        "botania:mana/manalink",
+        "botania:baubles/frost_ring",
+        "botania:alfheim/kvasir",
+        "botania:generating_flowers/twinstar",
+        "botania:generating_flowers/moonlight_lily",
+        "botania:generating_flowers/sunshine_lily",
+        "botania:generating_flowers/resoncund",
+        "botania:generating_flowers/omniviolet",
+        "botania:generating_flowers/edelweiss",
+        "botania:generating_flowers/tinkle",
+        "botania:generating_flowers/stonesia",
+        "botania:generating_flowers/reikarlily",
+        "botania:generating_flowers/blood_enchantress",
+        "botania:generating_flowers/bellflower",
+        "botania:ender/ender_eye_block",
+        "botania:ender/ender_air",
+        "botania:generating_flowers/intro",
+        "botania:generating_flowers/endoflame",
+        "botania:generating_flowers/gourmaryllis",
+        "botania:tools/grass_seeds",
+        "botania:devices/mana_alchemy",
+        "botania:mythic_botany/infuser",
+        "botania:alfheim/alfheim_landscape"
       ],
       "bookmarks": [],
       "completedManualQuests": []
@@ -99,7 +122,13 @@
         "bloodmagic:utility/life_essence_bucket",
         "bloodmagic:altar/redstone_automation",
         "bloodmagic:rituals/activation_crystals",
-        "bloodmagic:rituals/ritual_tinkerer"
+        "bloodmagic:rituals/ritual_tinkerer",
+        "bloodmagic:rituals/ritual_list/ritual_grounding",
+        "bloodmagic:rituals/ritual_list/ritual_yawning_void",
+        "bloodmagic:rituals/ritual_list/ritual_full_stomach",
+        "bloodmagic:rituals/ritual_list/ritual_jump",
+        "bloodmagic:rituals/ritual_diviner",
+        "bloodmagic:rituals/ritual_basics"
       ],
       "bookmarks": [],
       "completedManualQuests": []
@@ -145,7 +174,11 @@
         "ars_nouveau:mod_news/support_mod",
         "ars_nouveau:feather_falling",
         "ars_nouveau:tomeofblood/armor",
-        "ars_nouveau:rituals/ritual_containment"
+        "ars_nouveau:rituals/ritual_containment",
+        "ars_nouveau:rituals/ritual_conjure_island_desert",
+        "ars_nouveau:rituals/ritual_sanctuary",
+        "ars_nouveau:rituals/performing_rituals",
+        "ars_nouveau:machines/ritual_brazier"
       ],
       "bookmarks": [],
       "completedManualQuests": []

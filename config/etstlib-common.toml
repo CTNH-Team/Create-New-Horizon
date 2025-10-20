@@ -1,6 +1,0 @@
-
-#一些常规的配置
-["常规"]
-	#是否允许EntityTicker作用于玩家，由于可能导致问题所以默认false
-	allow_entity_ticker_on_player = false
-

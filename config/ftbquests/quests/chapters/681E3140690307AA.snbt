@@ -316,6 +316,7 @@
 						Count: 1
 						id: "gtceu:rose_gold_mining_hammer"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							Enchantments: [{
 								id: "minecraft:fortune"
@@ -330,7 +331,6 @@
 								MaxAoERow: 1
 							}
 							GT.Tool: {
-								Damage: 0
 								HarvestLevel: 2
 								MaxDamage: 2303
 								ToolSpeed: 8.8f
@@ -648,6 +648,7 @@
 					Count: 1
 					id: "ctnhbio:damascus_steel_boning_knife"
 					tag: {
+						Damage: 0
 						Enchantments: [{
 							id: "biomancy:despoil"
 							lvl: 3
@@ -656,7 +657,6 @@
 						GT.Tool: {
 							AttackDamage: 8.0f
 							AttackSpeed: -1.9000001f
-							Damage: 0
 							MaxDamage: 1024
 						}
 					}
@@ -712,6 +712,7 @@
 					Count: 1
 					id: "gtceu:flint_sword"
 					tag: {
+						Damage: 0
 						DisallowContainerItem: 0b
 						Enchantments: [{
 							id: "minecraft:fire_aspect"
@@ -721,7 +722,6 @@
 						GT.Tool: {
 							AttackDamage: 4.0f
 							AttackSpeed: -2.4f
-							Damage: 0
 							MaxDamage: 63
 						}
 						HideFlags: 2

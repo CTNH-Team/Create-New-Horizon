@@ -20,12 +20,12 @@
 		enableTelemetry = true
 		#遥测数据UUID
 		#The UUID of the telemetry data
-		telemetryUUID = "bf6cc974-502b-41b3-92d3-c7579fd0261c"
+		telemetryUUID = "65b4e9b7-efe4-46f1-8582-7ae93d9a6bb8"
 
 	[server.gaia]
 		#设为 true 来禁用盖亚的缴械技能
 		#Set true to disable Gaia's disarm
-		disableGaiaDisarm = false
+		disableGaiaDisarm = true
 		#盖亚三生成时不检查的ModID或者物品
 		#示例：minecraft, sophisticatedbackpacks:backpack
 		#Items or ModIDs that gaia ignore to check when spawn
