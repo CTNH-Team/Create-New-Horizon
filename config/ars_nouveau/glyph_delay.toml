@@ -25,7 +25,7 @@
 	invalid_combos = []
 	#Randomize chance, in percentage (0-1 = 0% - 100%)
 	#Range: 0.0 ~ 2.147483647E9
-	extend_time = 1
+	extend_time = 0.25
 	#The base duration of the delay effect in ticks.
 	#Range: > 0
 	base_duration = 20

@@ -98,6 +98,9 @@
   "lootr": {
     "info": true
   },
+  "ctnhcore": {
+    "thread_status_provider": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
