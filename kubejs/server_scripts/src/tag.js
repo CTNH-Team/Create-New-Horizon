@@ -81,24 +81,11 @@ ServerEvents.tags("entity_type", event => {
 })
 
 ServerEvents.tags('block', event => {
-  const suffixes = [
-    "input_hatch",
-    "output_hatch",
-    "input_bus",
-    "output_bus",
-    "laser_target",
-    "laser_source",
-    "transmitter_hatch",
-    "receiver_hatch",
-    "maintenance_hatch",
-    "parallel_hatch",
-    "import_bus",
-    "export_bus"
-  ]
-
-  // 构造正则表达式，例如 .*(input_hatch|output_hatch|...)
-  const regex = new RegExp(`.*(${suffixes.join("|")})$`)
-
-  // 添加符合正则的所有物品到标签
-  event.add('forge:hatch', regex)
+  
+  event.add('gtceu:cleanroom_doors', [
+    "create:brass_door",
+    "create:copper_door",
+    "create:train_door",
+    "create:framed_glass_door"
+  ])
 })
