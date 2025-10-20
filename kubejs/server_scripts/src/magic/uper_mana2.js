@@ -156,7 +156,7 @@ ServerEvents.recipes(event => {
         .circuit(2);
 
     event.recipes.gtceu.hellforge("stable")
-        .itemInputs('8x kubejs:force_field_casing')
+        .itemInputs('8x ctnhcore:force_field_casing')
         .itemInputs('8x gtceu:tungsten_steel_gear')
         .itemInputs('kubejs:endslate')
         .itemOutputs('4x ctnhcore:depth_force_field_stabilizing_casing')
@@ -249,7 +249,7 @@ ServerEvents.recipes(event => {
         .itemInputs("2x ctnhcore:mana_steel_casing")
         .itemInputs('2x ctnhcore:alfsteel_casing')
         .itemInputs('2x ctnhcore:terra_steel_casing')
-        .itemInputs('2x kubejs:force_field_casing')
+        .itemInputs('2x ctnhcore:force_field_casing')
         .itemInputs('2x gtceu:quantum_eye')
         .itemInputs('2x ctnhcore:depth_force_field_stabilizing_casing')
         .itemInputs('4x gtceu:mana_plus_ingot')
