@@ -78,6 +78,9 @@
     "cable_info": true,
     "parallel_info": true
   },
+  "maid_storage_manager": {
+    "virtual_frame": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
