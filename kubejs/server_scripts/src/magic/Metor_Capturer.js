@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.meteor_capturer('pt')
         .itemInputs('gtceu:hv_emitter')
         .inputFluids(Fluid.of('bloodmagic:life_essence_fluid', 1024000))
-        .itemOutputs('64x gtceu:moon_stone_palladium_ore', '256x gtceu:moon_stone_platinum_ore', '128x gtceu:moon_stone_cooperite_ore',
+        .itemOutputs('64x gtceu:moon_stone_palladium_ore_ore', '256x gtceu:moon_stone_platinum_ore_ore', '128x gtceu:moon_stone_cooperite_ore',
             '64x gtceu:moon_stone_pentlandite_ore', '64x gtceu:moon_stone_tetrahedrite_ore'
         )
         .addData('radius', 8)
@@ -100,7 +100,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.meteor_capturer('mars_pt')
         .itemInputs('gtceu:luv_assembler')
         .inputFluids(Fluid.of('bloodmagic:life_essence_fluid', 1024000))
-        .itemOutputs('64x gtceu:mars_stone_palladium_ore', '256x gtceu:mars_stone_platinum_ore', '64x gtceu:mars_stone_cooperite_ore',
+        .itemOutputs('64x gtceu:mars_stone_palladium_ore_ore', '256x gtceu:mars_stone_platinum_ore_ore', '64x gtceu:mars_stone_cooperite_ore',
             '64x gtceu:mars_stone_iridium_ore', '64x gtceu:mars_stone_osmium_ore', '64x gtceu:mars_stone_copper_ore'
         )
         .addData('radius', 8)
@@ -120,7 +120,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.meteor_capturer('mars_radioactive')
         .itemInputs('gtceu:naquadria_block')
         .inputFluids(Fluid.of('bloodmagic:life_essence_fluid', 4096000))
-        .itemOutputs('2048x gtceu:mars_stone_naquadah_ore', '1024x gtceu:mars_stone_uranium_ore', '1024x gtceu:mars_stone_plutonium_ore')
+        .itemOutputs('2048x gtceu:mars_stone_"naquadah_oxide_mixture_ore', '1024x gtceu:mars_stone_uranium_ore', '1024x gtceu:mars_stone_plutonium_ore')
         .addData('radius', 12)
         .addData('rock', 'ad_astra:mars_stone')
         .EUt(122880)
@@ -154,9 +154,9 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.meteor_capturer("naquadah")
         .itemInputs('gtceu:zpm_emitter')
         .inputFluids(Fluid.of('bloodmagic:life_essence_fluid', 1024000))
-        .itemOutputs('512x gtceu:naquadah_ore')
-        .itemOutputs('128x gtceu:enriched_naquadah_ore')
-        .itemOutputs('32x gtceu:naquadria_ore')
+        .itemOutputs('512x gtceu:naquadah_oxide_mixture_ore')
+        .itemOutputs('128x gtceu:enriched_naquadah_oxide_mixture_ore')
+        .itemOutputs('32x gtceu:naquadria_oxide_mixture_ore')
         .addData('radius', 9)
         .addData('rock', 'minecraft:stone')
         .EUt(200000)
