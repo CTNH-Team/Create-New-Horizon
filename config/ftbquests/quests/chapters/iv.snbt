@@ -544,10 +544,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"1ED352B272339266"
-				"114C14B4DBCEF015"
-			]
+			dependencies: ["114C14B4DBCEF015"]
 			id: "55F51D261FC8E78B"
 			subtitle: "{ftbquests.chapter.iv.quest33.subtitle}"
 			tasks: [{
