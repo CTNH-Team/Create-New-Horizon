@@ -856,7 +856,7 @@
 				item: "gtceu:zirconium_dust"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: -4.0d
 		}
 		{
@@ -974,7 +974,7 @@
 				item: "gtceu:zirconium_dust"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: -5.5d
 		}
 		{
@@ -1181,7 +1181,7 @@
 		}
 		{
 			dependencies: ["001B1FD0183C089D"]
-			description: ["线圈每1800K都会增加50%运行速度，记得换上好线圈"]
+			description: [""]
 			id: "3B3194C22AA50A4B"
 			size: 2.0d
 			subtitle: "更大，更快，更无损！"
@@ -1602,6 +1602,20 @@
 			}]
 			x: 1.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["3B32397F6057B4DC"]
+			description: ["你需要用它去做多方块结构的外壳什么的~"]
+			id: "17B7D65DC38BA2DA"
+			size: 2.0d
+			subtitle: "没事的，到LUV就会好起来了"
+			tasks: [{
+				id: "058A766E13244487"
+				item: "gtceu:alloy_blast_smelter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
 		}
 	]
 	title: "{ftbquests.chapter.ev.title}"
