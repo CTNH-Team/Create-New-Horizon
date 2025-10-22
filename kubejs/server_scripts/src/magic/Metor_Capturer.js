@@ -120,7 +120,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.meteor_capturer('mars_radioactive')
         .itemInputs('gtceu:naquadria_block')
         .inputFluids(Fluid.of('bloodmagic:life_essence_fluid', 4096000))
-        .itemOutputs('2048x gtceu:mars_stone_"naquadah_oxide_mixture_ore', '1024x gtceu:mars_stone_uranium_ore', '1024x gtceu:mars_stone_plutonium_ore')
+        .itemOutputs('2048x gtceu:mars_stone_naquadah_oxide_mixture_ore', '1024x gtceu:mars_stone_uranium_ore', '1024x gtceu:mars_stone_plutonium_ore')
         .addData('radius', 12)
         .addData('rock', 'ad_astra:mars_stone')
         .EUt(122880)
