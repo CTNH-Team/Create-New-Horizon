@@ -1377,54 +1377,54 @@ ServerEvents.recipes(event => {
                 C: "gtceu:" + tier + "_voltage_coil"
             })
     })
-    event.shaped(
-        Item.of("ctpp:lv_kinetic_mixer", 1), [
-            "ABA",
-            "ACA",
-            "DED"
-        ], {
-            A: "create:shaft",
-            B: "gtceu:tin_rotor",
-            C: "gtceu:lv_electric_motor",
-            D: "#gtceu:circuits/lv",
-            E: "gtceu:lv_machine_hull"
-        })
-    event.shaped(
-        Item.of("ctpp:mv_kinetic_mixer", 1), [
-            "ABA",
-            "ACA",
-            "DED"
-        ], {
-            A: "create:shaft",
-            B: "gtceu:bronze_rotor",
-            C: "gtceu:mv_electric_motor",
-            D: "#gtceu:circuits/mv",
-            E: "gtceu:mv_machine_hull"
-        })
-    event.shaped(
-        Item.of("ctpp:hv_kinetic_mixer", 1), [
-            "ABA",
-            "ACA",
-            "DED"
-        ], {
-            A: "create:shaft",
-            B: "gtceu:steel_rotor",
-            C: "gtceu:hv_electric_motor",
-            D: "#gtceu:circuits/hv",
-            E: "gtceu:hv_machine_hull"
-        })
-    event.shaped(
-        Item.of("ctpp:ev_kinetic_mixer", 1), [
-            "ABA",
-            "ACA",
-            "DED"
-        ], {
-            A: "create:shaft",
-            B: "gtceu:stainless_steel_rotor",
-            C: "gtceu:ev_electric_motor",
-            D: "#gtceu:circuits/ev",
-            E: "gtceu:ev_machine_hull"
-        })
+    // event.shaped(
+    //     Item.of("ctpp:lv_kinetic_mixer", 1), [
+    //         "ABA",
+    //         "ACA",
+    //         "DED"
+    //     ], {
+    //         A: "create:shaft",
+    //         B: "gtceu:tin_rotor",
+    //         C: "gtceu:lv_electric_motor",
+    //         D: "#gtceu:circuits/lv",
+    //         E: "gtceu:lv_machine_hull"
+    //     })
+    // event.shaped(
+    //     Item.of("ctpp:mv_kinetic_mixer", 1), [
+    //         "ABA",
+    //         "ACA",
+    //         "DED"
+    //     ], {
+    //         A: "create:shaft",
+    //         B: "gtceu:bronze_rotor",
+    //         C: "gtceu:mv_electric_motor",
+    //         D: "#gtceu:circuits/mv",
+    //         E: "gtceu:mv_machine_hull"
+    //     })
+    // event.shaped(
+    //     Item.of("ctpp:hv_kinetic_mixer", 1), [
+    //         "ABA",
+    //         "ACA",
+    //         "DED"
+    //     ], {
+    //         A: "create:shaft",
+    //         B: "gtceu:steel_rotor",
+    //         C: "gtceu:hv_electric_motor",
+    //         D: "#gtceu:circuits/hv",
+    //         E: "gtceu:hv_machine_hull"
+    //     })
+    // event.shaped(
+    //     Item.of("ctpp:ev_kinetic_mixer", 1), [
+    //         "ABA",
+    //         "ACA",
+    //         "DED"
+    //     ], {
+    //         A: "create:shaft",
+    //         B: "gtceu:stainless_steel_rotor",
+    //         C: "gtceu:ev_electric_motor",
+    //         D: "#gtceu:circuits/ev",
+    //         E: "gtceu:ev_machine_hull"
+    //     })
     event.shaped(
         Item.of("ctpp:smashing_factory", 1), [
             "ABA",

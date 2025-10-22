@@ -126,3 +126,5 @@ config/*
 !config/jackseconomy_prices.json
 !config/modernfix-mixins.properties
 !config/twilightforest-common.toml
+!config/sophisticatedcore-common.toml
+!config/alexsmobs.toml
