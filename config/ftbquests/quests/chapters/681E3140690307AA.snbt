@@ -613,18 +613,6 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["5BA86B01337A91D5"]
-			id: "34606BB00D3B0E3D"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest22.subtitle}"
-			tasks: [{
-				id: "4881B53598E8D5CE"
-				item: "ironfurnaces:iron_furnace"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 11.0d
-		}
-		{
 			dependencies: ["44C7FE559ECFB2EB"]
 			icon: "ars_nouveau:novice_spell_book"
 			id: "414BFFE0E7A3C868"

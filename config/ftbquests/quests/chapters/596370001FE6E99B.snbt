@@ -336,10 +336,7 @@
 			y: 3.5d
 		}
 		{
-			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest20.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest20.description2}"
-			]
+			description: ["{ftbquests.chapter.596370001FE6E99B.quest20.description1}"]
 			id: "7FC6F33F349AFB8B"
 			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest20.subtitle}"
 			tasks: [{

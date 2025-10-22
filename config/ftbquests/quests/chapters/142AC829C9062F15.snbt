@@ -538,8 +538,8 @@
 			shape: "pentagon"
 			subtitle: "血肉苦弱"
 			tasks: [{
-				id: "676D3EEF35D96221"
-				item: "ctnhbio:lv_bioeclectric_forge"
+				id: "0D1C516B794C6B35"
+				item: "ctnhbio:lv_bioelectric_forge"
 				type: "item"
 			}]
 			x: 0.5d
@@ -658,8 +658,8 @@
 			id: "5C5E74F9A6082A4B"
 			subtitle: "pua你的lv生物电炉"
 			tasks: [{
-				id: "0F0E7E1508D56A77"
-				item: "ctnhbio:mv_bioeclectric_forge"
+				id: "1CAEE9A7A9C283D1"
+				item: "ctnhbio:mv_bioelectric_forge"
 				type: "item"
 			}]
 			x: 0.5d
@@ -669,8 +669,8 @@
 			dependencies: ["5C5E74F9A6082A4B"]
 			id: "7D8B9FF2E5A2A167"
 			tasks: [{
-				id: "2BEB90C22250C4FE"
-				item: "ctnhbio:hv_bioeclectric_forge"
+				id: "4C0E750E104FC646"
+				item: "ctnhbio:hv_bioelectric_forge"
 				type: "item"
 			}]
 			x: 0.5d
@@ -680,8 +680,8 @@
 			dependencies: ["7D8B9FF2E5A2A167"]
 			id: "474BDB71028B9DDF"
 			tasks: [{
-				id: "4E70BA38694D2EE1"
-				item: "ctnhbio:ev_bioeclectric_forge"
+				id: "5E2BD3141432A7BB"
+				item: "ctnhbio:ev_bioelectric_forge"
 				type: "item"
 			}]
 			x: 0.5d
@@ -691,8 +691,8 @@
 			dependencies: ["474BDB71028B9DDF"]
 			id: "4A95D738CDC2F9D3"
 			tasks: [{
-				id: "5DAC5F11D29B981A"
-				item: "ctnhbio:iv_bioeclectric_forge"
+				id: "3B502B52BE197224"
+				item: "ctnhbio:iv_bioelectric_forge"
 				type: "item"
 			}]
 			x: 0.5d
@@ -939,7 +939,7 @@
 			dependencies: ["3A0DF5CC0ED15F67"]
 			description: [
 				"3.电压风险警示​​"
-				"&6•允许临时超频：所有活体机器可短时执行高于额定电压1级的配方，但会导致机体损伤。&r"
+				"&6•允许临时升压：所有活体机器可短时执行高于额定电压1级的配方，但会导致机体损伤。&r"
 				"•操作人员必须实时监控设备生命值，必要时执行维护程序。​​"
 				""
 				"4.禁止行为​​"
