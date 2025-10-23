@@ -1077,10 +1077,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"44DF62D8F87E1E98"
-				"0DA6DBCC41828D80"
-			]
+			dependencies: ["44DF62D8F87E1E98"]
 			id: "1F24CDB4B265DAE8"
 			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest93.subtitle}"
 			tasks: [{

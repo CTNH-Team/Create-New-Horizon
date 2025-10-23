@@ -1925,7 +1925,7 @@ ServerEvents.recipes(event => {
         .duration(40)
         .circuit(1)
     event.recipes.gtceu.circuit_assembler('echo_circuit_board')
-        .itemInputs('gtceu:multilayer_fiber_reinforced_circuit_board', '3x minecraft:echo_shard', '5x minecraft:sculk_vein', '4x gtceu:stem_cells', '3x gtceu:hidden_alloy_single_wire', '3x gtceu:hidden_alloy_tiny_fluid_pipe')
+        .itemInputs('4x ctnhbio:wetware_circuit_board', '3x minecraft:echo_shard', '5x minecraft:sculk_vein', '4x gtceu:stem_cells', '3x gtceu:hidden_alloy_single_wire', '3x gtceu:hidden_alloy_tiny_fluid_pipe')
         .inputFluids('gtceu:sterilebiologicalculturemediumstocksolution 600')
         .itemOutputs('16x kubejs:echo_circuit_board')
         .EUt(491520)

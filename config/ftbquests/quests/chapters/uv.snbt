@@ -17,14 +17,14 @@
 		{
 			id: "1E89B8AB6D106F05"
 			linked_quest: "7F0C67AE534020B1"
-			x: 2.5d
+			x: 2.0d
 			y: -4.5d
 		}
 		{
 			id: "00B5D11AA16DE9D2"
 			linked_quest: "74E26D593C100718"
-			x: 5.5d
-			y: -4.5d
+			x: 2.0d
+			y: -6.5d
 		}
 		{
 			id: "056A00C408ADC615"
@@ -119,20 +119,15 @@
 			y: -6.5d
 		}
 		{
-			dependencies: [
-				"1833231DA6DC3D77"
-				"18E2A4593690B3D1"
-				"619F43DB0B07651E"
-				"7A71908F8897D99E"
-			]
+			dependencies: ["633B6EC62B49755E"]
 			id: "69967649B8FB901C"
 			tasks: [{
 				id: "49CE237B12E3E1C4"
 				item: "ctnhcore:uv_compressed_fusion_reactor"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -11.5d
+			x: 6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["633B6EC62B49755E"]
@@ -166,16 +161,6 @@
 			}]
 			x: 4.0d
 			y: -9.5d
-		}
-		{
-			id: "7A71908F8897D99E"
-			tasks: [{
-				id: "474F6A8335C66DF3"
-				title: "{ftbquests.chapter.uv.quest11.task_+5138442811628482035.title}"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: -13.0d
 		}
 		{
 			dependencies: [
@@ -1013,6 +998,7 @@
 		{
 			dependencies: ["38559FFEC45C6B03"]
 			id: "0A1650016D17B7F3"
+			subtitle: "你也逃——不——掉——"
 			tasks: [{
 				id: "20A935E8E14ACEE7"
 				item: "gtceu:uv_assembler"
@@ -1042,6 +1028,27 @@
 			}]
 			x: 4.0d
 			y: 2.0d
+		}
+		{
+			id: "6B61A32A2688A834"
+			subtitle: "{ftbquests.chapter.luv.quest31.subtitle}"
+			tasks: [{
+				id: "1A30057D21C7EEB0"
+				item: "ctnhcore:luv_compressed_fusion_reactor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "07ABDAE50C5C8D9A"
+			tasks: [{
+				id: "0E6F8B16FACD03E1"
+				item: "ctnhcore:zpm_compressed_fusion_reactor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
 		}
 	]
 	title: "{ftbquests.chapter.uv.title}"

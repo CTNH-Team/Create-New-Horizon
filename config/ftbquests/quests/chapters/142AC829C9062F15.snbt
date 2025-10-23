@@ -889,6 +889,7 @@
 		}
 		{
 			id: "53E534A981177FEC"
+			subtitle: "需要UV电路板"
 			tasks: [{
 				id: "0460393FCE082088"
 				item: "ctnhbio:synaptic_casing"

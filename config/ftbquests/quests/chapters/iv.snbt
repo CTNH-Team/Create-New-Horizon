@@ -328,7 +328,7 @@
 		{
 			dependencies: [
 				"08428BDD673EEC5A"
-				"0B92B29E066D2E88"
+				"63F5094821C731CA"
 			]
 			id: "1CE031B193FB03C6"
 			rewards: [{
@@ -344,7 +344,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -11.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["028B2C12ED867AB0"]
@@ -891,25 +891,6 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["38B6939B719B9C30"]
-			description: ["{ftbquests.chapter.iv.quest70.description1}"]
-			id: "27EC2E4B61A056E0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6817D9D70B646753"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			subtitle: "{ftbquests.chapter.iv.quest70.subtitle}"
-			tasks: [{
-				id: "367D336517F7EFB2"
-				item: "gtceu:data_bank"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -8.5d
-		}
-		{
 			description: ["{ftbquests.chapter.iv.quest74.description1}"]
 			id: "322F3AB4C2159BA6"
 			size: 2.0d
@@ -1430,10 +1411,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"474F529118B9CF93"
-				"55B8C88C78AFF283"
-			]
+			dependencies: ["474F529118B9CF93"]
 			description: ["{ftbquests.chapter.iv.quest107.description1}"]
 			id: "754CF2D0D96359C3"
 			rewards: [{
