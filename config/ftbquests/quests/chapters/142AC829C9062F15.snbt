@@ -835,6 +835,7 @@
 				"50800D463AF3C2EB"
 			]
 			dependency_requirement: "one_completed"
+			description: ["将缸中之脑紧贴个人计算机放置以提供算力"]
 			id: "41F57D86D4B78EA2"
 			tasks: [{
 				id: "46258DC00D4D5B66"
@@ -888,6 +889,7 @@
 		}
 		{
 			id: "53E534A981177FEC"
+			subtitle: "需要UV电路板"
 			tasks: [{
 				id: "0460393FCE082088"
 				item: "ctnhbio:synaptic_casing"

@@ -14,20 +14,21 @@
 			y: 5.5d
 		}
 		{
-			id: "5099BCB60DB36815"
-			linked_quest: "2C5AAAE7171632CA"
-			x: 0.0d
-			y: 3.5d
-		}
-		{
 			id: "7B5E8515958F337F"
 			linked_quest: "65E0B77C49C4F584"
 			x: 0.5d
 			y: 10.0d
 		}
+		{
+			id: "546244696CB15F85"
+			linked_quest: "7623D2206370CA76"
+			x: -1.5d
+			y: 6.5d
+		}
 	]
 	quests: [
 		{
+			dependencies: ["0E253014071FBBA5"]
 			id: "07D0FD2AC4C767B2"
 			shape: "gear"
 			size: 2.0d
@@ -37,7 +38,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -55,7 +56,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["355ACD2C8F4E6257"]
+			dependencies: ["1010CB5EC52EFAF5"]
 			id: "74B398F5468F8A36"
 			tasks: [{
 				id: "0B84192182E27CAA"
@@ -344,30 +345,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"173C1ED446EF4D39"
-				"3C00023A573AA56E"
-			]
-			id: "07ABDAE50C5C8D9A"
-			tasks: [{
-				id: "0E6F8B16FACD03E1"
-				item: "ctnhcore:zpm_compressed_fusion_reactor"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 3.5d
-		}
-		{
-			id: "3C00023A573AA56E"
-			tasks: [{
-				id: "43A15A45398FC1E1"
-				title: "{ftbquests.chapter.zpm.quest50.task_+4873275525156553185.title}"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: 3.5d
-		}
-		{
 			dependencies: ["52156F99511B7A7E"]
 			id: "7C395777B5E4B556"
 			tasks: [{
@@ -482,8 +459,8 @@
 				item: "gtceu:zpm_field_generator"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.5d
+			x: 1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2BB03484D6971028"]
@@ -621,7 +598,7 @@
 				item: "gtceu:helium_3_bucket"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 15.5d
 			y: -2.5d
 		}
 		{
@@ -635,8 +612,8 @@
 				item: "gtceu:taranium_dirty_helium3_bucket"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -0.5d
+			x: 15.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4B63F560AED06615"]
@@ -646,7 +623,7 @@
 				item: "gtceu:taranium_enriched_liquid_helium3_bucket"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 17.0d
 			y: 1.5d
 		}
 		{
@@ -658,7 +635,7 @@
 				item: "gtceu:taranium_half_life_liquid_helium3_bucket"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 19.0d
 			y: 1.5d
 		}
 		{
@@ -669,7 +646,7 @@
 				item: "gtceu:taranium_depleted_liquid_helium3_bucket"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 21.0d
 			y: 1.5d
 		}
 		{
@@ -680,7 +657,7 @@
 				item: "gtceu:taranium_enriched_dirty_helium_plasma_plasma_bucket"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 19.0d
 			y: 3.5d
 		}
 		{
@@ -693,7 +670,7 @@
 				item: "ctnhcore:plasma_condenser"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 21.0d
 			y: 3.5d
 		}
 		{
@@ -704,7 +681,7 @@
 				item: "gtceu:taranium_enriched_helium4_plasma_plasma_bucket"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 19.0d
 			y: 5.5d
 		}
 		{
@@ -715,7 +692,7 @@
 				item: "gtceu:taranium_depleted_helium_plasma_plasma_bucket"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 17.0d
 			y: 5.5d
 		}
 		{
@@ -729,7 +706,7 @@
 				item: "gtceu:taranium_enriched_liquid_helium4_bucket"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 21.0d
 			y: 5.5d
 		}
 		{
@@ -745,7 +722,7 @@
 				item: "gtceu:adamant_mud_dust"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 17.0d
 			y: 7.5d
 		}
 		{
@@ -761,7 +738,7 @@
 				item: "gtceu:taranium_powder_dust"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 23.0d
 			y: 5.5d
 		}
 		{
@@ -772,7 +749,7 @@
 				item: "gtceu:taranium_depleted_liquid_helium_bucket"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 19.0d
 			y: 7.5d
 		}
 		{
@@ -783,7 +760,7 @@
 				item: "gtceu:p507_extractant_bucket"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 14.0d
 			y: 7.5d
 		}
 		{
@@ -798,7 +775,7 @@
 				item: "gtceu:adamantiteliquid_bucket"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 15.5d
 			y: 9.5d
 		}
 		{
@@ -809,7 +786,7 @@
 				item: "gtceu:chalcogen_anode_mud_dust"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 14.0d
 			y: 11.0d
 		}
 		{
@@ -820,7 +797,7 @@
 				item: "gtceu:refined_gold_aq_bucket"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 17.0d
 			y: 11.0d
 		}
 		{
@@ -832,7 +809,7 @@
 				item: "gtceu:adamantite_dust"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 19.0d
 			y: 11.0d
 		}
 		{
@@ -843,7 +820,7 @@
 				item: "gtceu:adamantite_plasma_bucket"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 19.0d
 			y: 9.5d
 		}
 		{
@@ -860,7 +837,7 @@
 				item: "gtceu:adamantite_ingot"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 21.0d
 			y: 9.5d
 		}
 		{
@@ -871,7 +848,7 @@
 				item: "gtceu:ingot_casting_mold"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 21.0d
 			y: 7.5d
 		}
 		{
@@ -882,7 +859,7 @@
 				title: "{ftbquests.chapter.zpm.quest93.task_+4843089928469553132.title}"
 				type: "checkmark"
 			}]
-			x: 16.0d
+			x: 23.0d
 			y: 9.5d
 		}
 		{
@@ -904,7 +881,7 @@
 				item: "gtceu:taranium_powder_dust"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 23.0d
 			y: 3.5d
 		}
 		{
@@ -915,7 +892,7 @@
 				item: "gtceu:adamantite_ingot"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 21.0d
 			y: 11.0d
 		}
 		{
@@ -940,47 +917,6 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["68F1E652B8BA5A07"]
-			id: "527E6E7130A16435"
-			rewards: [{
-				id: "6A19197F2BCD0B34"
-				item: "gtceu:neutron_reflector"
-				type: "item"
-			}]
-			subtitle: "坚不坚不可摧"
-			tasks: [{
-				id: "4EEA8E4FE57CE0DB"
-				item: "kubejs:strongly_interacting_neutron_refector"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["527E6E7130A16435"]
-			id: "7506DBB3B4B03B05"
-			subtitle: "中子活化器那一套不好用了"
-			tasks: [{
-				id: "77B1DBAD5BD53176"
-				item: "ctnhcore:widespeedingpipe"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["7506DBB3B4B03B05"]
-			id: "0BF9AD47D3294ACE"
-			subtitle: "一台更比三台强"
-			tasks: [{
-				id: "73BC2FA2FF8469C3"
-				item: "ctnhcore:wide_particle_accelerator"
-				type: "item"
-			}]
-			x: 8.0d
 			y: -7.5d
 		}
 		{
@@ -1075,6 +1011,92 @@
 			}]
 			x: -9.5d
 			y: 8.0d
+		}
+		{
+			dependencies: ["2FD33C4009211037"]
+			description: ["如果你发现你因为算力不够且没法做高级计算组件而卡死，你就要看看你的冷却有没有升级和你的算策略是不是最优的"]
+			id: "31A773AB4898B8F8"
+			tasks: [{
+				id: "7EF9D64A02F23501"
+				item: "gtceu:hpca_advanced_computation_component"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["64828704B9D70F14"]
+			description: ["把数据球和要扫描的东西放进物品支架里"]
+			id: "56C88CA114314593"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "194607EF8EE0E066"
+				table_id: 7618519509353548779L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "4FB2DC37F499DCB6"
+				item: "gtceu:research_station"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "64828704B9D70F14"
+			tasks: [{
+				id: "0C44AF44CF995CEB"
+				item: {
+					Count: 1
+					id: "gtceu:data_orb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1F24CDB4B265DAE8"
+				"7623D2206370CA76"
+			]
+			id: "47D1E2F257A78CC8"
+			shape: "pentagon"
+			subtitle: "ZPM线圈"
+			tasks: [{
+				count: 16L
+				id: "7148FED2E30E7170"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["47D1E2F257A78CC8"]
+			id: "2C5AAAE7171632CA"
+			subtitle: "{ftbquests.chapter.luv.quest26.subtitle}"
+			tasks: [{
+				id: "6698C7007931B007"
+				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["07D0FD2AC4C767B2"]
+			id: "1010CB5EC52EFAF5"
+			subtitle: "我逃不掉..."
+			tasks: [{
+				id: "74114E60FFB37973"
+				item: "gtceu:zpm_assembler"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
 		}
 	]
 	title: "{ftbquests.chapter.zpm.title}"
