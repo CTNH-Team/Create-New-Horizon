@@ -523,6 +523,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["1CECBF50A30F23B0"]
 			id: "3FAC0EBCE35BE621"
 			subtitle: "{ftbquests.chapter.028AB66FF504A9BC.quest58.subtitle}"
 			tasks: [{

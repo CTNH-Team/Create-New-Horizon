@@ -11,38 +11,50 @@
 			id: "2D8E067BA5CDB23A"
 			linked_quest: "17292FB8D4DD36BA"
 			shape: "rsquare"
-			x: -25.5d
+			size: 2.0d
+			x: -31.0d
 			y: -1.5d
 		}
 		{
 			id: "7771623F63D63FEA"
 			linked_quest: "754CF2D0D96359C3"
-			x: -18.5d
-			y: -6.0d
+			x: -23.0d
+			y: -3.5d
 		}
 		{
 			id: "716D1262FDD7F70C"
 			linked_quest: "209FAC261240DA4E"
-			x: -4.0d
-			y: 4.0d
+			size: 2.0d
+			x: -31.0d
+			y: 0.5d
 		}
 		{
 			id: "236921A346C5AB53"
 			linked_quest: "3409699C4612D368"
-			x: -6.0d
-			y: 2.0d
+			x: -28.0d
+			y: 1.5d
 		}
 		{
 			id: "6A9D16337B5BEA10"
 			linked_quest: "1F24CDB4B265DAE8"
-			x: -12.5d
-			y: 6.5d
+			x: -16.5d
+			y: -4.5d
+		}
+		{
+			id: "50419253E025F148"
+			linked_quest: "187E4ADFF4648D64"
+			size: 2.0d
+			x: -31.0d
+			y: -3.5d
 		}
 	]
 	quests: [
 		{
 			dependencies: ["17292FB8D4DD36BA"]
-			description: [""]
+			description: [
+				"恭喜你经过漫长的旅途来到了一个充满科幻的阶段"
+				"尽情体验吧"
+			]
 			id: "0DA6DBCC41828D80"
 			shape: "gear"
 			size: 1.0d
@@ -52,7 +64,7 @@
 				item: "gtceu:luv_machine_hull"
 				type: "item"
 			}]
-			x: -23.0d
+			x: -25.0d
 			y: -1.5d
 		}
 		{
@@ -66,8 +78,8 @@
 				item: "gtceu:crystal_processor"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -6.0d
+			x: -23.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2813BC7AC57AFF93"]
@@ -77,8 +89,8 @@
 				item: "gtceu:multilayer_fiber_reinforced_circuit_board"
 				type: "item"
 			}]
-			x: -18.5d
-			y: -7.5d
+			x: -24.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["78FB6D2EBEC04944"]
@@ -88,8 +100,8 @@
 				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -7.5d
+			x: -24.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -102,8 +114,8 @@
 				item: "gtceu:crystal_processor_assembly"
 				type: "item"
 			}]
-			x: -14.0d
-			y: -6.0d
+			x: -23.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["77E66A5569F9845B"]
@@ -113,23 +125,32 @@
 				item: "gtceu:crystal_processor_computer"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -6.0d
+			x: -17.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["34820874A85286FC"]
+			description: [
+				"                    &c&l&o&n如此超越！"
+				"                    &c&l&o&n如此瑰丽！"
+				"                    &c&l&o&n如此精湛！"
+			]
 			id: "019F2136970CA2E1"
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.luv.quest15.subtitle}"
 			tasks: [{
 				id: "4DBEF1F18227075A"
 				item: "gtceu:crystal_processor_mainframe"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -6.0d
+			x: -11.0d
+			y: -5.5d
 		}
 		{
-			dependencies: ["48DD8F1CA4521491"]
+			dependencies: [
+				"48DD8F1CA4521491"
+				"0DA6DBCC41828D80"
+			]
 			id: "14C08D2A44860C08"
 			subtitle: "{ftbquests.chapter.luv.quest16.subtitle}"
 			tasks: [{
@@ -137,7 +158,7 @@
 				item: "gtceu:luv_energy_input_hatch"
 				type: "item"
 			}]
-			x: -17.5d
+			x: -23.0d
 			y: -1.5d
 		}
 		{
@@ -148,8 +169,8 @@
 				item: "gtceu:superconducting_coil"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.0d
+			x: -29.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0C56A770E0AA5FE2"]
@@ -159,8 +180,8 @@
 				item: "gtceu:neutron_reflector"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.5d
+			x: -28.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -169,6 +190,12 @@
 				"3409699C4612D368"
 			]
 			id: "4C039D7366BE1BD4"
+			rewards: [{
+				count: 32
+				id: "5B96D37BB197C3B2"
+				item: "gtceu:indium_dust"
+				type: "item"
+			}]
 			subtitle: "玻璃比机械方块便宜，所以多用玻璃"
 			tasks: [
 				{
@@ -181,15 +208,21 @@
 					item: "gtceu:fusion_glass"
 					type: "item"
 				}
+				{
+					count: 16L
+					id: "02C0173410FB5F46"
+					item: { Count: 16, id: "gtceu:uhpic_wafer" }
+					type: "item"
+				}
 			]
-			x: -6.0d
+			title: "要开始聚变咯"
+			x: -27.0d
 			y: 0.5d
 		}
 		{
 			dependencies: [
 				"4C039D7366BE1BD4"
-				"4F8A3B3DFEE2B87E"
-				"14C08D2A44860C08"
+				"0DA6DBCC41828D80"
 			]
 			id: "174B639A9AAA2B4C"
 			tasks: [{
@@ -198,37 +231,39 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.luv.quest21.title}"
-			x: -8.0d
-			y: -1.5d
+			x: -25.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["174B639A9AAA2B4C"]
 			id: "7623D2206370CA76"
+			size: 1.0d
 			tasks: [{
 				id: "795C4F908195DB98"
 				item: "gtceu:duranium_bucket"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -1.5d
+			x: -25.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
-				"59D486695F2A9671"
 				"0D1111FBACF1B0D4"
 				"14C08D2A44860C08"
+				"16A81169336BBB10"
+				"59D486695F2A9671"
 			]
 			description: ["根据需要的算力值和冷却值来选择结构中的九个组件；同时，计算这些组件的总能耗来决定合适的能源仓。"]
 			id: "637D202FC567B932"
-			size: 2.0d
+			size: 1.0d
 			subtitle: "计算机"
 			tasks: [{
 				id: "3C7C6EF260BFFAEE"
 				item: "gtceu:high_performance_computation_array"
 				type: "item"
 			}]
-			x: -22.0d
-			y: 3.0d
+			x: -23.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2F76701066E1552E"]
@@ -238,50 +273,8 @@
 				item: "gtceu:luv_voltage_coil"
 				type: "item"
 			}]
-			x: -19.0d
-			y: -1.5d
-		}
-		{
-			id: "4089D6C868A2D08A"
-			rewards: [{
-				id: "5CEB93C3F3B10C5A"
-				item: {
-					Count: 1
-					id: "gtceu:turbine_rotor"
-					tag: {
-						GT.PartStats: {
-							Material: "gtceu:neutronium"
-						}
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.luv.quest36.subtitle}"
-			tasks: [{
-				id: "1D67A2915C631403"
-				item: "gtceu:plasma_large_turbine"
-				type: "item"
-			}]
-			x: -28.0d
-			y: 0.0d
-		}
-		{
-			description: ["好多铟好多铟好多铟好多铟"]
-			id: "4F8A3B3DFEE2B87E"
-			rewards: [{
-				count: 16
-				id: "7A653BCB65553AEE"
-				item: "gtceu:indium_dust"
-				type: "item"
-			}]
-			tasks: [{
-				count: 16L
-				id: "4EF75DA5B4777331"
-				item: "gtceu:uhpic_wafer"
-				type: "item"
-			}]
-			x: -8.0d
-			y: 0.5d
+			x: -24.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -296,8 +289,8 @@
 				item: "gtceu:hpca_heat_sink_component"
 				type: "item"
 			}]
-			x: -24.5d
-			y: 3.0d
+			x: -22.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3FB06067540E1931"]
@@ -314,8 +307,8 @@
 				item: "gtceu:hpca_active_cooler_component"
 				type: "item"
 			}]
-			x: -26.5d
-			y: 3.0d
+			x: -22.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -329,8 +322,8 @@
 				item: "gtceu:hpca_computation_component"
 				type: "item"
 			}]
-			x: -22.0d
-			y: 5.0d
+			x: -24.0d
+			y: 1.5d
 		}
 		{
 			id: "251E2EE2A84D76A2"
@@ -345,14 +338,13 @@
 				item: "gtceu:hpca_empty_component"
 				type: "item"
 			}]
-			x: -24.5d
-			y: 5.0d
+			x: -23.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
 				"637D202FC567B932"
 				"619D862A293BB315"
-				"4005E4FE93C80D8E"
 			]
 			id: "693BE7D773A7C37F"
 			rewards: [{
@@ -366,8 +358,8 @@
 				item: "ctnhcore:quark_core"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 5.0d
+			x: -21.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["693BE7D773A7C37F"]
@@ -377,8 +369,8 @@
 				item: "ctnhcore:neutron_activator"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 5.0d
+			x: -19.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["02DD2E6EEDC15505"]
@@ -413,8 +405,8 @@
 				}
 			]
 			title: "中子活化器使用方法（文字版）"
-			x: -14.5d
-			y: 5.0d
+			x: -19.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -436,22 +428,14 @@
 				item: "gtceu:naquadah_dust"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 3.0d
+			x: -17.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["45EF42ADC599589E"]
-			id: "48CF80673BB7D0BE"
-			tasks: [{
-				id: "0F290371C354631B"
-				item: "gtceu:naquadah_boule"
-				type: "item"
-			}]
-			x: -14.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["45EF42ADC599589E"]
+			dependencies: [
+				"45EF42ADC599589E"
+				"14C08D2A44860C08"
+			]
 			hide_details_until_startable: false
 			id: "1E79D7B65D6DCECF"
 			rewards: [{
@@ -467,11 +451,11 @@
 				item: "gtceu:naquadah_coil_block"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 3.0d
+			x: -17.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["48CF80673BB7D0BE"]
+			dependencies: ["45EF42ADC599589E"]
 			id: "7350B8C1243D44CD"
 			subtitle: "{ftbquests.chapter.iv.quest115.subtitle}"
 			tasks: [{
@@ -479,8 +463,8 @@
 				item: "gtceu:advanced_soc_wafer"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 0.0d
+			x: -17.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7350B8C1243D44CD"]
@@ -497,8 +481,8 @@
 				type: "item"
 			}]
 			title: "便宜HV电路"
-			x: -15.5d
-			y: 0.0d
+			x: -16.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1E79D7B65D6DCECF"]
@@ -508,8 +492,8 @@
 				item: "gtceu:enriched_naquadah_ingot"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 3.0d
+			x: -17.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3EA13126A1A8CAFE"]
@@ -527,8 +511,8 @@
 				type: "item"
 			}]
 			title: "来试试硅岩发电吧"
-			x: -9.5d
-			y: 3.0d
+			x: -17.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["45EF42ADC599589E"]
@@ -539,48 +523,29 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.iv.quest54.subtitle}"
 			tasks: [{
 				id: "5CC8DC9DDD4A857B"
 				item: "gtceu:uranium_rhodium_dinaquadide_dust"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 1.5d
+			x: -14.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["45EF42ADC599589E"]
-			id: "46DFFF321BBE034E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3D96F4D18479629F"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			shape: "rsquare"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.iv.quest65.subtitle}"
-			tasks: [{
-				id: "5A826DD4F0003B6A"
-				item: "gtceu:naquadah_alloy_ingot"
-				type: "item"
-			}]
-			x: -17.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["46DFFF321BBE034E"]
+			dependencies: ["6CA56307669FD197"]
 			description: ["我们（）人的化工厂太厉害辣！"]
 			id: "75353060280848EB"
-			size: 1.0d
+			size: 2.0d
 			subtitle: "超级化工厂"
 			tasks: [{
 				id: "2491F333995C7BE8"
 				item: "ctnhcore:sinope_chemical"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 1.5d
+			x: -11.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7350B8C1243D44CD"]
@@ -598,8 +563,8 @@
 				type: "item"
 			}]
 			title: "便宜EV电路"
-			x: -12.0d
-			y: 0.0d
+			x: -17.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["14C08D2A44860C08"]
@@ -621,8 +586,8 @@
 				}
 			]
 			title: "前往霜原星"
-			x: -17.5d
-			y: -3.5d
+			x: -22.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4DE49DB87C6B5D1C"]
@@ -632,7 +597,7 @@
 				item: "gtceu:exquisite_europium_fluorite_gem"
 				type: "item"
 			}]
-			x: -15.5d
+			x: -22.0d
 			y: -3.5d
 		}
 		{
@@ -643,8 +608,8 @@
 				item: "ctnhcore:advanced_ram_chip"
 				type: "item"
 			}]
-			x: -14.0d
-			y: -3.5d
+			x: -22.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0DA6DBCC41828D80"]
@@ -655,8 +620,8 @@
 				item: "gtceu:luv_assembler"
 				type: "item"
 			}]
-			x: -20.5d
-			y: -1.5d
+			x: -25.0d
+			y: -3.5d
 		}
 		{
 			id: "0D1111FBACF1B0D4"
@@ -665,8 +630,8 @@
 				item: "ctnhbio:consciousness_sensor_glass"
 				type: "item"
 			}]
-			x: -22.5d
-			y: 1.0d
+			x: -22.0d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -683,7 +648,7 @@
 				type: "checkmark"
 			}]
 			x: -24.0d
-			y: 1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["364B921AAE54EF9C"]
@@ -701,28 +666,26 @@
 				item: "gtceu:data_bank"
 				type: "item"
 			}]
-			x: -20.5d
-			y: -4.5d
+			x: -25.0d
+			y: -5.5d
 		}
 		{
 			id: "619D862A293BB315"
-			tasks: [{
-				id: "352706B84D3BBEFB"
-				item: "gtceu:computation_transmitter_hatch"
-				type: "item"
-			}]
-			x: -19.5d
-			y: 2.5d
-		}
-		{
-			id: "4005E4FE93C80D8E"
-			tasks: [{
-				id: "27FA5E1195798229"
-				item: "gtceu:computation_receiver_hatch"
-				type: "item"
-			}]
-			x: -20.0d
-			y: 5.0d
+			tasks: [
+				{
+					id: "352706B84D3BBEFB"
+					item: "gtceu:computation_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "34425C65360AE12E"
+					item: "gtceu:computation_receiver_hatch"
+					type: "item"
+				}
+			]
+			title: "算力数据仓"
+			x: -21.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -735,20 +698,8 @@
 				item: "gtceu:trinium_ingot"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["7A22FC6D68A6C26E"]
-			id: "0E253014071FBBA5"
-			subtitle: "ZPM的开始"
-			tasks: [{
-				id: "65C7E04E34FE25F1"
-				item: "gtceu:naquadah_alloy_ingot"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 5.0d
+			x: -16.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2F76701066E1552E"]
@@ -773,8 +724,28 @@
 				}
 			]
 			title: "研究三件套"
-			x: -20.5d
-			y: -3.0d
+			x: -25.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1E79D7B65D6DCECF"]
+			id: "6CA56307669FD197"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25D228CF19177375"
+				table_id: 7618519509353548779L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.iv.quest65.subtitle}"
+			tasks: [{
+				id: "1EB0BDD610BF9EB0"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
 		}
 	]
 	title: "{ftbquests.chapter.luv.title}"

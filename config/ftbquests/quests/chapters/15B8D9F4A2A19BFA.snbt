@@ -304,17 +304,6 @@
 			y: 8.5d
 		}
 		{
-			id: "14D70CD81A9B77A0"
-			tasks: [{
-				id: "5F20F56A4D3A3D86"
-				item: "gtceu:plasma_large_turbine"
-				type: "item"
-			}]
-			title: "用以太就能发100W电并省400W电("
-			x: 12.0d
-			y: 7.0d
-		}
-		{
 			id: "3D882DE9ACFD43EA"
 			tasks: [{
 				id: "536B45B8404BE1CB"
@@ -355,6 +344,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["17292FB8D4DD36BA"]
 			id: "187E4ADFF4648D64"
 			tasks: [{
 				id: "32EE4FBEE51C583A"
@@ -665,6 +655,31 @@
 			}]
 			x: 16.0d
 			y: 8.5d
+		}
+		{
+			id: "4089D6C868A2D08A"
+			rewards: [{
+				id: "5CEB93C3F3B10C5A"
+				item: {
+					Count: 1
+					id: "gtceu:turbine_rotor"
+					tag: {
+						GT.PartStats: {
+							Material: "gtceu:neutronium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.luv.quest36.subtitle}"
+			tasks: [{
+				id: "1D67A2915C631403"
+				item: "gtceu:plasma_large_turbine"
+				type: "item"
+			}]
+			title: "用以太就能发100W电并省400W电("
+			x: 12.0d
+			y: 7.0d
 		}
 	]
 	title: "如何产应力/发电"

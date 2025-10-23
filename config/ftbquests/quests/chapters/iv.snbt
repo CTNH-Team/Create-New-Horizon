@@ -1427,7 +1427,7 @@
 				item: "gtceu:crystal_cpu"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: -0.5d
 		}
 		{
@@ -1445,7 +1445,7 @@
 				item: "gtceu:raw_crystal_chip_parts"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -0.5d
 		}
 		{

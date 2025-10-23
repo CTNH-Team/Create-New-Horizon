@@ -10,7 +10,7 @@
 		id: "458DBA0428F69CAB"
 		linked_quest: "3C15632B9697C37D"
 		title: "LV如何发电"
-		x: -6.0d
+		x: -7.0d
 		y: 0.5d
 	}]
 	quests: [
@@ -32,15 +32,15 @@
 			description: ["{ftbquests.chapter.lv.quest2.description1}"]
 			id: "504A762FE1057233"
 			shape: "diamond"
-			size: 2.0d
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.lv.quest2.subtitle}"
 			tasks: [{
 				id: "261F23C630F0BE7D"
 				item: "gtceu:lv_assembler"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.0d
+			x: 2.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["06B6C2C77135D570"]
@@ -72,15 +72,15 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			size: 2.0d
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.lv.quest6.subtitle}"
 			tasks: [{
 				id: "253644418A2DE8E0"
 				item: "gtceu:lv_circuit_assembler"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -6.0d
+			x: 4.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["7F992D338D4783CE"]
@@ -92,8 +92,8 @@
 				item: "gtceu:diode"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -4.5d
+			x: 7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["41E48BCAEAD9D47E"]
@@ -111,7 +111,7 @@
 				item: "gtceu:lv_machine_hull"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: 0.5d
 		}
 		{
@@ -128,8 +128,8 @@
 				item: "gtceu:phenolic_printed_circuit_board"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -8.0d
+			x: 7.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["06B6C2C77135D570"]
@@ -164,7 +164,7 @@
 				type: "item"
 			}]
 			title: "搅搅你的"
-			x: 9.0d
+			x: 7.5d
 			y: 0.5d
 		}
 		{
@@ -181,8 +181,8 @@
 				item: "gtceu:gallium_arsenide_dust"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -3.0d
+			x: 7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -203,8 +203,8 @@
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -6.0d
+			x: 7.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["44E9D92283CBF029"]
@@ -216,7 +216,7 @@
 				item: "gtceu:invar_dust"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 9.5d
 			y: -0.5d
 		}
 		{
@@ -227,7 +227,7 @@
 				item: "gtceu:cupronickel_dust"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 7.5d
 			y: 2.5d
 		}
 		{
@@ -261,7 +261,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.lv.quest18.title}"
-			x: 13.0d
+			x: 11.5d
 			y: 0.5d
 		}
 		{
@@ -285,7 +285,7 @@
 				item: "gtceu:aluminium_ingot"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 14.5d
 			y: 0.5d
 		}
 		{
@@ -301,7 +301,7 @@
 				item: "gtceu:aluminium_dust"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 14.5d
 			y: 2.5d
 		}
 		{
@@ -313,7 +313,7 @@
 				item: "gtceu:alumina_dust"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 13.5d
 			y: 2.5d
 		}
 		{
@@ -326,21 +326,8 @@
 				item: "gtceu:lv_electrolyzer"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: -1.5d
-		}
-		{
-			dependencies: ["3F2A5A509F9DF84B"]
-			description: ["{ftbquests.chapter.lv.quest23.description1}"]
-			id: "1F7CA0731CCA907A"
-			subtitle: "{ftbquests.chapter.lv.quest23.subtitle}"
-			tasks: [{
-				id: "0EE186D66FCC7F58"
-				item: "gtceu:cryolite_dust"
-				type: "item"
-			}]
-			x: 16.5d
-			y: 5.5d
 		}
 		{
 			can_repeat: true
@@ -362,7 +349,7 @@
 				type: "item"
 			}]
 			title: "暮色森林权限"
-			x: 11.0d
+			x: 14.5d
 			y: 5.5d
 		}
 		{
@@ -380,8 +367,8 @@
 				type: "dimension"
 			}]
 			title: "{ftbquests.chapter.lv.quest26.title}"
-			x: 13.0d
-			y: 5.5d
+			x: 14.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["19869FD9D4BCCB9F"]
@@ -399,7 +386,7 @@
 				item: "gtceu:silicon_boule"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 11.5d
 			y: 2.5d
 		}
 		{
@@ -461,7 +448,7 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
+			x: -5.5d
 			y: 2.5d
 		}
 		{
@@ -477,7 +464,7 @@
 				item: "gtceu:lv_alloy_smelter"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: -1.5d
 		}
 		{
@@ -489,8 +476,8 @@
 				item: "gtceu:gallium_dust"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -1.5d
+			x: 5.5d
+			y: -1.0d
 		}
 		{
 			description: [""]
@@ -501,8 +488,8 @@
 				item: "gtceu:arsenic_dust"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.5d
+			x: 5.5d
+			y: -3.0d
 		}
 		{
 			description: ["{ftbquests.chapter.lv.quest36.description1}"]
@@ -527,7 +514,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.lv.quest36.title}"
-			x: 6.5d
+			x: 7.5d
 			y: 5.5d
 		}
 		{
@@ -538,7 +525,7 @@
 				item: "gtceu:conductive_alloy_ingot"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
@@ -551,7 +538,7 @@
 				item: "gtceu:conductive_alloy_single_wire"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: -3.0d
 		}
 		{
@@ -578,8 +565,8 @@
 				item: "kubejs:mana_electronic_circuit"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -6.0d
+			x: 11.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["19869FD9D4BCCB9F"]
@@ -589,7 +576,7 @@
 				item: "gtceu:energetic_alloy_ingot"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 11.5d
 			y: -1.5d
 		}
 		{
@@ -600,7 +587,7 @@
 				item: "gtceu:energetic_alloy_single_wire"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.5d
 			y: -3.0d
 		}
 		{
@@ -611,7 +598,7 @@
 				item: "enderio:experience_rod"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.5d
 			y: -3.0d
 		}
 		{
@@ -623,7 +610,7 @@
 				item: "ctnhcore:large_steel_furnace"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: 2.5d
 		}
 		{
@@ -634,7 +621,7 @@
 				item: "ctnhcore:large_steel_alloy_furnace"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: 2.5d
 		}
 		{
@@ -664,7 +651,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["06B6C2C77135D570"]
@@ -678,7 +665,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["06B6C2C77135D570"]
@@ -692,7 +679,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["46526928B48A390A"]
@@ -773,10 +760,13 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -9.5d
+			y: -10.0d
 		}
 		{
-			dependencies: ["7E7FF6EFEC19BE71"]
+			dependencies: [
+				"7E7FF6EFEC19BE71"
+				"504A762FE1057233"
+			]
 			description: ["{ftbquests.chapter.lv.quest70.description1}"]
 			id: "5D1419802A307F70"
 			shape: "octagon"
@@ -787,7 +777,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -9.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["7E7FF6EFEC19BE71"]
@@ -800,8 +790,8 @@
 				item: "gtceu:lv_sensor"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -9.5d
+			x: 4.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["06B6C2C77135D570"]
@@ -841,7 +831,7 @@
 				title: "GT小课堂：覆盖板"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 5.5d
 		}
 		{
@@ -886,20 +876,27 @@
 				title: "格雷电压"
 				type: "checkmark"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: 5.5d
 		}
 		{
-			dependencies: ["1F7CA0731CCA907A"]
+			dependencies: ["3F2A5A509F9DF84B"]
 			description: ["将冰晶石粉放入提取机或者机械熔炼厂内可以制取六氟铝酸钠"]
 			id: "5F53673A3EA0BDA4"
-			tasks: [{
-				id: "4D4D6E237A2754F9"
-				item: "gtceu:sodium_hexafluoroaluminate_bucket"
-				type: "item"
-			}]
-			x: 16.5d
-			y: 4.0d
+			tasks: [
+				{
+					id: "4D4D6E237A2754F9"
+					item: "gtceu:cryolite_dust"
+					type: "item"
+				}
+				{
+					id: "4FFBBE57C16E35F7"
+					item: "gtceu:sodium_hexafluoroaluminate_bucket"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7345F277E135E5B9"]
@@ -918,8 +915,8 @@
 				item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.0d
+			x: 9.5d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -975,7 +972,7 @@
 				}
 			]
 			title: "完整版仓室介绍！"
-			x: 11.0d
+			x: 9.5d
 			y: 1.0d
 		}
 		{
@@ -986,7 +983,7 @@
 				item: "gtceu:lv_polarizer"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: -1.5d
 		}
 		{
@@ -997,8 +994,8 @@
 				item: "alexscaves:acid_bucket"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -9.5d
+			x: 6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["6076B0D66ED1DA02"]
@@ -1008,8 +1005,8 @@
 				item: "gtceu:hydrochloric_acid_bucket"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -9.5d
+			x: 7.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["261F23C630F0BE7D"]
@@ -1020,7 +1017,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -8.0d
+			y: -8.5d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.lv.subtitle0}"]
