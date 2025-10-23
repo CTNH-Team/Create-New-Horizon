@@ -43,8 +43,8 @@
 				}
 			]
 			title: "压印模板"
-			x: -9.0d
-			y: -4.5d
+			x: -9.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -53,7 +53,7 @@
 			]
 			description: ["新版压印器只需要开64堆叠、任意面自动化、自动弹出就可以单面自动化了，非常方便"]
 			id: "25622AD73030A13E"
-			size: 4.0d
+			size: 2.0d
 			subtitle: "万恶之源"
 			tasks: [{
 				id: "05B29812B209F755"
@@ -101,21 +101,8 @@
 				item: "ae2:growth_accelerator"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["77FB18547FBE81B9"]
-			description: ["ae网络内的无限能源，但是只有20ae/t的发电量，且每个ae网络内只能有一个，非常适合子网食用（把子网和主网络用石英纤维链接也将被视为的同一个ae网络！）"]
-			id: "2C7CC6C2FD0AE128"
-			subtitle: "赛尔号的终极梦想"
-			tasks: [{
-				id: "3D30590851B44EA9"
-				item: "ae2:crystal_resonance_generator"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -1.0d
+			x: -10.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["25622AD73030A13E"]
@@ -172,7 +159,7 @@
 			dependencies: ["11F898C7B0C925D5"]
 			description: ["用于生产充能赛特斯石英水晶"]
 			id: "7A582CAB1F4E37F4"
-			size: 3.0d
+			size: 2.0d
 			subtitle: "压印器的兄弟"
 			tasks: [{
 				id: "493AE0825F23F2B6"
@@ -339,6 +326,7 @@
 				"3AE584B3EBC63A09"
 			]
 			id: "2F297694365BE2FE"
+			size: 2.0d
 			subtitle: "you shall not paaaaass!"
 			tasks: [
 				{
@@ -352,8 +340,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: 2.0d
+			x: -7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["77FB18547FBE81B9"]
@@ -365,7 +353,7 @@
 				item: "ae2:condenser"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -10.5d
 			y: 0.0d
 		}
 		{
@@ -381,8 +369,8 @@
 				item: "ae2:speed_card"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.0d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2F297694365BE2FE"]
@@ -394,8 +382,8 @@
 				item: "ae2:controller"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -8.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2F297694365BE2FE"]
@@ -406,8 +394,8 @@
 				item: "ae2:drive"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: -7.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2F297694365BE2FE"]
@@ -835,7 +823,7 @@
 				type: "item"
 			}]
 			title: "工程师小福利"
-			x: -9.0d
+			x: -12.0d
 			y: 4.0d
 		}
 		{
@@ -864,8 +852,23 @@
 				type: "item"
 			}]
 			title: "懒人福利"
-			x: -9.0d
+			x: -12.0d
 			y: 8.0d
+		}
+		{
+			description: [
+				"在你需要用你的输出总线输出物料，并且ae网络里面存在该物料样板的时候"
+				"会占用合成单元合成所需的物料"
+			]
+			id: "534A73AC5D36DA8C"
+			subtitle: "这下不得不合成了"
+			tasks: [{
+				id: "3DE521CFF8DAA39D"
+				item: "ae2:crafting_card"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
 		}
 	]
 	title: "应用能源"

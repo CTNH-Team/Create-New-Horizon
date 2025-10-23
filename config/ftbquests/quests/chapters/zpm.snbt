@@ -482,8 +482,8 @@
 				item: "gtceu:zpm_field_generator"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2BB03484D6971028"]
@@ -799,7 +799,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 9.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["73FEBDBA63D96DDA"]

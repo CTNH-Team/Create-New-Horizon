@@ -490,7 +490,7 @@
 				item: "apotheosis:gem_cutting_table"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 5.5d
 			y: 5.0d
 		}
 		{
@@ -501,7 +501,7 @@
 				item: "apotheosis:salvaging_table"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
@@ -512,7 +512,7 @@
 				item: "apotheosis:reforging_table"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: 2.0d
 		}
 		{
@@ -524,7 +524,7 @@
 				item: "apotheosis:augmenting_table"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: 5.0d
 		}
 		{
@@ -535,7 +535,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0E9BE949349D607B"]
@@ -546,7 +546,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0E9BE949349D607B"]
@@ -557,7 +557,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0E9BE949349D607B"]
@@ -568,7 +568,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0E9BE949349D607B"]
@@ -579,7 +579,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0E9BE949349D607B"]
@@ -590,7 +590,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0E9BE949349D607B"]
@@ -601,7 +601,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			id: "481BEB39783A1A4A"

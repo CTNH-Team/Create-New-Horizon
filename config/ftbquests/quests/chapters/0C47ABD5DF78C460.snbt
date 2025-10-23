@@ -20,7 +20,7 @@
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -1.5d
 		}
 		{
@@ -31,7 +31,7 @@
 				item: "ae2:logic_processor"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -91,7 +91,7 @@
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -1.5d
 		}
 		{
@@ -107,7 +107,7 @@
 				title: "{ftbquests.chapter.0C47ABD5DF78C460.quest8.task_+6919107789834636526.title}"
 				type: "checkmark"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -1.5d
 		}
 		{

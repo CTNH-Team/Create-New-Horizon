@@ -11,9 +11,8 @@
 			id: "2D8E067BA5CDB23A"
 			linked_quest: "17292FB8D4DD36BA"
 			shape: "rsquare"
-			size: 1.5d
-			x: -15.928571428571438d
-			y: -2.285714285714249d
+			x: -18.5d
+			y: 0.0d
 		}
 		{
 			id: "7771623F63D63FEA"
@@ -24,20 +23,20 @@
 		{
 			id: "716D1262FDD7F70C"
 			linked_quest: "209FAC261240DA4E"
-			x: -8.5d
-			y: 5.5d
+			x: -12.0d
+			y: 4.0d
 		}
 		{
 			id: "236921A346C5AB53"
 			linked_quest: "3409699C4612D368"
-			x: -10.0d
-			y: 2.5d
+			x: -13.0d
+			y: 2.0d
 		}
 		{
 			id: "6A9D16337B5BEA10"
 			linked_quest: "1F24CDB4B265DAE8"
-			x: -16.0d
-			y: 2.5d
+			x: -17.0d
+			y: 1.5d
 		}
 	]
 	quests: [
@@ -46,93 +45,14 @@
 			description: [""]
 			id: "0DA6DBCC41828D80"
 			shape: "gear"
-			size: 3.0d
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.luv.quest1.subtitle}"
 			tasks: [{
 				id: "2AB09D6B46C98218"
 				item: "gtceu:luv_machine_hull"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1B08CB9E24BDF006"]
-			dependency_requirement: "one_completed"
-			id: "544B143B7159968A"
-			subtitle: "装配线地狱"
-			tasks: [{
-				id: "6E9361A934605F29"
-				item: "gtceu:luv_electric_motor"
-				type: "item"
-			}]
-			x: -25.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["544B143B7159968A"]
-			id: "6D997B6ECEE712BB"
-			tasks: [{
-				id: "03A8E25CC90A7F13"
-				item: "gtceu:luv_electric_pump"
-				type: "item"
-			}]
-			x: -25.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["544B143B7159968A"]
-			id: "7F00562BC80D2C1F"
-			tasks: [{
-				id: "7F29F93BEF0379AB"
-				item: "gtceu:luv_conveyor_module"
-				type: "item"
-			}]
-			x: -25.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["544B143B7159968A"]
-			id: "39D42A922CBA0109"
-			tasks: [{
-				id: "038CC9F2ED3B5682"
-				item: "gtceu:luv_electric_piston"
-				type: "item"
-			}]
-			x: -23.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["544B143B7159968A"]
-			id: "09B87190236E3F3B"
-			tasks: [{
-				id: "5C8AFB390608A950"
-				item: "gtceu:luv_robot_arm"
-				type: "item"
-			}]
-			x: -23.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["544B143B7159968A"]
-			id: "5A10711E91899771"
-			tasks: [{
-				id: "725DD6BC5FD02C22"
-				item: "gtceu:luv_emitter"
-				type: "item"
-			}]
-			x: -28.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["544B143B7159968A"]
-			id: "0408D82BF03701E8"
-			tasks: [{
-				id: "7617C1BBFC81F4EA"
-				item: "gtceu:luv_sensor"
-				type: "item"
-			}]
-			x: -28.0d
+			x: -17.0d
 			y: 0.0d
 		}
 		{
@@ -233,7 +153,7 @@
 				item: "gtceu:luv_energy_input_hatch"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -15.0d
 			y: 0.0d
 		}
 		{
@@ -244,8 +164,8 @@
 				title: "{ftbquests.chapter.luv.quest17.task_+1168455898938463341.title}"
 				type: "checkmark"
 			}]
-			x: -16.0d
-			y: -3.5d
+			x: -15.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["209FAC261240DA4E"]
@@ -255,7 +175,7 @@
 				item: "gtceu:superconducting_coil"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -12.0d
 			y: 2.5d
 		}
 		{
@@ -266,8 +186,8 @@
 				item: "gtceu:neutron_reflector"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 2.5d
+			x: -11.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -288,14 +208,14 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
-			y: 0.0d
+			x: -12.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"4C039D7366BE1BD4"
-				"3F84B7E91E4A1926"
 				"14C08D2A44860C08"
+				"4F8A3B3DFEE2B87E"
 			]
 			id: "174B639A9AAA2B4C"
 			subtitle: "{ftbquests.chapter.luv.quest21.subtitle}"
@@ -305,17 +225,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.luv.quest21.title}"
-			x: -8.5d
-			y: -3.5d
-		}
-		{
-			id: "3F84B7E91E4A1926"
-			tasks: [{
-				id: "04239D81911F91D2"
-				title: "{ftbquests.chapter.luv.quest22.task_+298255180147691986.title}"
-				type: "checkmark"
-			}]
-			x: -6.0d
+			x: -12.0d
 			y: 0.0d
 		}
 		{
@@ -326,8 +236,8 @@
 				item: "gtceu:duranium_ingot"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -5.0d
+			x: -12.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1F24CDB4B265DAE8"]
@@ -341,7 +251,7 @@
 				type: "item"
 			}]
 			x: -16.0d
-			y: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["47D1E2F257A78CC8"]
@@ -352,14 +262,11 @@
 				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 5.5d
+			x: -15.0d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"2C5AAAE7171632CA"
-				"251E2EE2A84D76A2"
-			]
+			dependencies: ["251E2EE2A84D76A2"]
 			id: "637D202FC567B932"
 			size: 2.0d
 			subtitle: "给研究站输出算力，注意选择整除且最大的算法"
@@ -368,8 +275,8 @@
 				item: "gtceu:high_performance_computation_array"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 7.0d
+			x: -25.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -385,8 +292,8 @@
 				item: "gtceu:europium_ingot"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -5.0d
+			x: -11.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -400,14 +307,13 @@
 				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -6.0d
+			x: -11.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
 				"7623D2206370CA76"
 				"355ACD2C8F4E6257"
-				"4B85DFF240A03E9E"
 			]
 			id: "6B61A32A2688A834"
 			subtitle: "{ftbquests.chapter.luv.quest31.subtitle}"
@@ -416,34 +322,8 @@
 				item: "ctnhcore:luv_compressed_fusion_reactor"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -8.0d
-		}
-		{
-			id: "4B85DFF240A03E9E"
-			tasks: [{
-				id: "0CDFE2699DE3122A"
-				title: "{ftbquests.chapter.luv.quest32.task_+927708991509959210.title}"
-				type: "checkmark"
-			}]
-			title: "你可以使用并行仓和激光仓，建议你做一个"
-			x: -8.5d
-			y: -9.0d
-		}
-		{
-			dependencies: [
-				"0DA6DBCC41828D80"
-				"48DD8F1CA4521491"
-			]
-			id: "4BA59C23FB4625B9"
-			subtitle: "{ftbquests.chapter.luv.quest33.subtitle}"
-			tasks: [{
-				id: "7D568142383C1846"
-				item: "gtceu:luv_energy_output_hatch"
-				type: "item"
-			}]
-			x: -21.0d
-			y: 0.0d
+			x: -12.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["422A69585A4BD605"]
@@ -453,8 +333,8 @@
 				item: "gtceu:luv_voltage_coil"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -5.5d
+			x: -15.0d
+			y: -1.5d
 		}
 		{
 			id: "006528E474CE82DE"
@@ -468,7 +348,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["4BA59C23FB4625B9"]
 			id: "4089D6C868A2D08A"
 			rewards: [{
 				id: "5CEB93C3F3B10C5A"
@@ -489,8 +368,8 @@
 				item: "gtceu:plasma_large_turbine"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 2.5d
+			x: -28.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["14C08D2A44860C08"]
@@ -508,386 +387,8 @@
 				item: "gtceu:uhpic_wafer"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 2.5d
-		}
-		{
-			id: "2E045E885DAC322B"
-			tasks: [{
-				id: "592C93A84EBA755B"
-				title: "{ftbquests.chapter.luv.quest38.task_+6425673119435486555.title}"
-				type: "checkmark"
-			}]
-			x: -25.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["2E045E885DAC322B"]
-			id: "1EF248C7C4AFAC3C"
-			tasks: [{
-				id: "03D2BE9778D1D369"
-				item: "gtceu:diesel_bucket"
-				type: "item"
-			}]
-			x: -28.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["2E045E885DAC322B"]
-			id: "10AB5F3B4A44543A"
-			tasks: [{
-				id: "69FE384B39844D82"
-				item: "gtceu:seed_oil_bucket"
-				type: "item"
-			}]
-			x: -23.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["2E045E885DAC322B"]
-			id: "0BE8489EB8CC678E"
-			tasks: [{
-				id: "21B1EF938B317B79"
-				item: "gtceu:cyclohexane_bucket"
-				type: "item"
-			}]
-			x: -25.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["0BE8489EB8CC678E"]
-			id: "7F85C79A9CAA8803"
-			tasks: [{
-				id: "74D60C1B2CE2CA15"
-				item: "gtceu:chlorocyclohexane_bucket"
-				type: "item"
-			}]
-			x: -25.5d
-			y: -7.0d
-		}
-		{
-			dependencies: [
-				"1EF248C7C4AFAC3C"
-				"10AB5F3B4A44543A"
-				"7F85C79A9CAA8803"
-				"1E45E7181CD0D438"
-			]
-			dependency_requirement: "one_completed"
-			id: "5D8E94C6F6D2F7D9"
-			tasks: [{
-				id: "1DF2D089FF3E981B"
-				item: "gtceu:2_ethylhexanol_bucket"
-				type: "item"
-			}]
-			x: -25.5d
-			y: -9.0d
-		}
-		{
-			id: "1E45E7181CD0D438"
-			tasks: [{
-				id: "7E5042205B8D4EF0"
-				item: "gtceu:copper_chromium_catalyst_dust"
-				type: "item"
-			}]
-			x: -23.0d
-			y: -9.0d
-		}
-		{
-			dependencies: ["5D8E94C6F6D2F7D9"]
-			id: "26E81F59BB42665E"
-			tasks: [{
-				id: "4E6255B159EA254C"
-				item: "gtceu:1_chloro_2_ethylhexane_bucket"
-				type: "item"
-			}]
-			x: -28.0d
-			y: -9.0d
-		}
-		{
-			id: "7D43F59BAF678FEB"
-			tasks: [{
-				id: "125C68F1B5B0D92E"
-				item: "gtceu:phosphorous_acid_bucket"
-				type: "item"
-			}]
-			x: -23.0d
-			y: -11.0d
-		}
-		{
-			dependencies: ["7D43F59BAF678FEB"]
-			id: "140A7AE677F8123C"
-			tasks: [{
-				id: "05AC8BF312B8950F"
-				item: "gtceu:dimethyl_phosphite_bucket"
-				type: "item"
-			}]
-			x: -25.5d
-			y: -11.0d
-		}
-		{
-			dependencies: [
-				"5D8E94C6F6D2F7D9"
-				"140A7AE677F8123C"
-			]
-			id: "3A75FD124FD6CDC3"
-			tasks: [{
-				id: "7D235EEB023B745A"
-				item: "gtceu:di_2_ethylhexyl_phosphite_bucket"
-				type: "item"
-			}]
-			x: -28.0d
-			y: -11.0d
-		}
-		{
-			dependencies: [
-				"3A75FD124FD6CDC3"
-				"26E81F59BB42665E"
-			]
-			id: "6298036843D1531E"
-			tasks: [{
-				id: "7095883AF04D5B1A"
-				item: "gtceu:phosphonate_bucket"
-				type: "item"
-			}]
-			x: -32.0d
-			y: -10.0d
-		}
-		{
-			dependencies: [
-				"6298036843D1531E"
-				"59C320A0944927A3"
-			]
-			dependency_requirement: "one_completed"
-			id: "42CDDB06AA6D0A68"
-			subtitle: "{ftbquests.chapter.luv.quest50.subtitle}"
-			tasks: [{
-				id: "51EFF9533E43EB0B"
-				item: "gtceu:p507_extractant_bucket"
-				type: "item"
-			}]
-			x: -32.0d
-			y: -7.0d
-		}
-		{
-			id: "59C320A0944927A3"
-			invisible: true
-			tasks: [{
-				id: "12C91C16AFB15D3D"
-				item: "gtceu:p507_extractant_bucket"
-				type: "item"
-			}]
-			x: -32.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["781CBDF13AE36F7A"]
-			id: "39A45EEC725C981C"
-			tasks: [{
-				id: "0148C52978A25A2C"
-				item: "gtceu:bio_chaff"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["39A45EEC725C981C"]
-			id: "0126D4F879BF8772"
-			tasks: [{
-				id: "4AD929C1F6F14D16"
-				item: "gtceu:bacteria_bucket"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["39A45EEC725C981C"]
-			id: "5BA0E0C76CA92F58"
-			tasks: [{
-				id: "262D3B84ED2C339B"
-				item: "gtceu:biomass_bucket"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -5.5d
-		}
-		{
-			dependencies: [
-				"0126D4F879BF8772"
-				"5BA0E0C76CA92F58"
-			]
-			id: "3F366E4813D5DC73"
-			tasks: [{
-				id: "0A089550734775A9"
-				item: "gtceu:bacterial_sludge_bucket"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["3F366E4813D5DC73"]
-			id: "2E53D2599EDEA32C"
-			tasks: [{
-				id: "3F05286EF89FF02E"
-				item: "gtceu:enriched_bacterial_sludge_bucket"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["2E53D2599EDEA32C"]
-			id: "62A095389C5A1837"
-			tasks: [{
-				id: "4FAA840ACBE98955"
-				item: "gtceu:mutagen_bucket"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 0.5d
-		}
-		{
-			dependencies: [
-				"7F9C4ED40B8B9057"
-				"62A095389C5A1837"
-			]
-			id: "688DB65F296AE05F"
-			tasks: [{
-				id: "1D0974D7BF9FE005"
-				item: "gtceu:raw_growth_medium_bucket"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["1033F6AC4379AE6C"]
-			id: "7F9C4ED40B8B9057"
-			tasks: [{
-				id: "5359EF2F9FE9BE02"
-				item: "gtceu:agar_dust"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["4C6E6D4BA2AE3562"]
-			id: "1033F6AC4379AE6C"
-			tasks: [{
-				id: "1E83D28447CA81CA"
-				item: "gtceu:gelatin_dust"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"56732BC3C7F2B02E"
-				"3599DD77FCFCE66C"
-			]
-			id: "4C6E6D4BA2AE3562"
-			tasks: [{
-				id: "4ED6A577DCAF9637"
-				item: "gtceu:gelatin_mixture_bucket"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["183E07A7B4E3911F"]
-			id: "56732BC3C7F2B02E"
-			tasks: [{
-				id: "0AF432EC12E5757E"
-				item: "gtceu:collagen_dust"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["781CBDF13AE36F7A"]
-			id: "183E07A7B4E3911F"
-			tasks: [{
-				id: "5D4760F55E3114C7"
-				item: "gtceu:meat_dust"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["183E07A7B4E3911F"]
-			id: "3599DD77FCFCE66C"
-			tasks: [{
-				id: "71526791B517CCA2"
-				item: "gtceu:phosphoric_acid_bucket"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["59EACDB9A6F6F5B8"]
-			id: "781CBDF13AE36F7A"
-			tasks: [{
-				id: "39EE28FE45416BC4"
-				title: "生物线的开端"
-				type: "checkmark"
-			}]
-			x: -1.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["688DB65F296AE05F"]
-			id: "64AB6462326CB9DA"
-			tasks: [{
-				id: "4728D2DD734BD20B"
-				item: "gtceu:sterilized_growth_medium_bucket"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["64AB6462326CB9DA"]
-			id: "589DEEA6662898A5"
-			tasks: [{
-				id: "3697250448F06309"
-				item: "gtceu:stem_cells"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["589DEEA6662898A5"]
-			id: "47073ADF1F9B9DEC"
-			shape: "circle"
-			size: 2.0d
-			subtitle: "最后一种维护仓？"
-			tasks: [{
-				id: "0862D897BCC5BDAB"
-				item: "ctnhcore:sterile_cleanroom_maintenance_hatch"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 5.5d
-		}
-		{
-			id: "59EACDB9A6F6F5B8"
-			tasks: [{
-				id: "4FBBC9863AEE4DA2"
-				item: "gtceu:sterilizing_filter_casing"
-				type: "item"
-			}]
-			title: "升级你的超净间过滤方块！"
-			x: -1.0d
-			y: -9.5d
+			x: -13.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -902,8 +403,8 @@
 				item: "gtceu:hpca_heat_sink_component"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 8.5d
+			x: -24.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["3FB06067540E1931"]
@@ -920,8 +421,8 @@
 				item: "gtceu:hpca_active_cooler_component"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 10.5d
+			x: -24.5d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -935,8 +436,8 @@
 				item: "gtceu:hpca_computation_component"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 8.5d
+			x: -22.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["2FD33C4009211037"]
@@ -948,8 +449,8 @@
 				item: "gtceu:hpca_advanced_computation_component"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 10.5d
+			x: -22.5d
+			y: 14.5d
 		}
 		{
 			id: "251E2EE2A84D76A2"
@@ -963,27 +464,8 @@
 				item: "gtceu:hpca_empty_component"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["6D997B6ECEE712BB"]
-			description: ["转底炉是谁？我不认识"]
-			id: "4F64AA1B00E26B4D"
-			rewards: [{
-				id: "19FC47C9C7D2CDBF"
-				item: "ctnhcore:ultimate_engine_intake_casing"
-				type: "item"
-			}]
-			size: 2.0d
-			subtitle: "太伟大了"
-			tasks: [{
-				id: "04F383507CBBE66E"
-				item: "ctnhcore:super_ebf"
-				type: "item"
-			}]
-			x: -25.5d
-			y: 7.0d
+			x: -23.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["48DD8F1CA4521491"]
@@ -1000,7 +482,7 @@
 				type: "item"
 			}]
 			x: -16.0d
-			y: -7.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["693BE7D773A7C37F"]
@@ -1011,7 +493,7 @@
 				type: "item"
 			}]
 			x: -16.0d
-			y: -9.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["02DD2E6EEDC15505"]
@@ -1046,8 +528,8 @@
 				}
 			]
 			title: "中子活化器使用方法（文字版）"
-			x: -19.0d
-			y: -9.0d
+			x: -17.25d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -1070,7 +552,7 @@
 				type: "item"
 			}]
 			x: -16.0d
-			y: -11.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["45EF42ADC599589E"]
@@ -1080,8 +562,8 @@
 				item: "gtceu:naquadah_boule"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -13.0d
+			x: -15.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["45EF42ADC599589E"]
@@ -1100,8 +582,8 @@
 				item: "gtceu:naquadah_coil_block"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -9.0d
+			x: -15.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["48CF80673BB7D0BE"]
@@ -1112,8 +594,8 @@
 				item: "gtceu:advanced_soc_wafer"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -13.0d
+			x: -13.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["7350B8C1243D44CD"]
@@ -1130,8 +612,8 @@
 				type: "item"
 			}]
 			title: "便宜HV电路"
-			x: -8.5d
-			y: -13.0d
+			x: -13.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1E79D7B65D6DCECF"]
@@ -1141,8 +623,8 @@
 				item: "gtceu:enriched_naquadah_ingot"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -9.0d
+			x: -13.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3EA13126A1A8CAFE"]
@@ -1161,7 +643,7 @@
 			}]
 			title: "来试试硅岩发电吧"
 			x: -11.0d
-			y: -7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["45EF42ADC599589E"]
@@ -1178,8 +660,8 @@
 				item: "gtceu:uranium_rhodium_dinaquadide_dust"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -11.0d
+			x: -16.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["45EF42ADC599589E"]
@@ -1191,29 +673,29 @@
 				type: "random"
 			}]
 			shape: "rsquare"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.iv.quest65.subtitle}"
 			tasks: [{
 				id: "5A826DD4F0003B6A"
 				item: "gtceu:naquadah_alloy_ingot"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -13.0d
+			x: -17.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["46DFFF321BBE034E"]
 			description: ["我们（）人的化工厂太厉害辣！"]
 			id: "75353060280848EB"
-			size: 2.0d
+			size: 1.0d
 			subtitle: "超级化工厂"
 			tasks: [{
 				id: "2491F333995C7BE8"
 				item: "ctnhcore:sinope_chemical"
 				type: "item"
 			}]
-			x: -19.0d
-			y: -13.0d
+			x: -17.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["7350B8C1243D44CD"]
@@ -1232,23 +714,7 @@
 			}]
 			title: "便宜EV电路"
 			x: -11.0d
-			y: -11.0d
-		}
-		{
-			dependencies: [
-				"0408D82BF03701E8"
-				"5A10711E91899771"
-			]
-			description: [""]
-			id: "48BAB59CD186FF3F"
-			subtitle: "WOW,16并行"
-			tasks: [{
-				id: "3B56564FC0EEE31F"
-				item: "gtceu:luv_parallel_hatch"
-				type: "item"
-			}]
-			x: -28.0d
-			y: 2.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["48DD8F1CA4521491"]
@@ -1270,8 +736,8 @@
 				}
 			]
 			title: "前往霜原星"
-			x: -19.0d
-			y: -5.5d
+			x: -14.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4DE49DB87C6B5D1C"]
@@ -1289,8 +755,8 @@
 				item: { Count: 64, id: "gtceu:neutronium_mixture_dust" }
 				type: "item"
 			}]
-			x: -21.0d
-			y: -7.0d
+			x: -14.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4DE49DB87C6B5D1C"]
@@ -1301,8 +767,8 @@
 				item: "gtceu:naquadria_oxide_mixture_dust"
 				type: "item"
 			}]
-			x: -21.0d
-			y: -4.0d
+			x: -15.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -1324,8 +790,8 @@
 				item: "gtceu:research_station"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 7.0d
+			x: -21.5d
+			y: 12.0d
 		}
 		{
 			id: "64828704B9D70F14"
@@ -1338,8 +804,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: 7.0d
+			x: -20.75d
+			y: 10.5d
 		}
 		{
 			description: [
@@ -1367,8 +833,8 @@
 				}
 			]
 			title: "研究三件套"
-			x: -13.0d
-			y: 5.0d
+			x: -21.75d
+			y: 10.5d
 		}
 	]
 	title: "{ftbquests.chapter.luv.title}"

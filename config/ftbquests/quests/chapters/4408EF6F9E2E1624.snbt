@@ -18,13 +18,14 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: -19.5d
-			y: 1.5d
+			x: -47.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"32D9754803137E82"
 				"60D8E1B5B8777322"
+				"543DF835C9FE39CC"
 			]
 			id: "6DB370790E927958"
 			shape: "diamond"
@@ -35,7 +36,7 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: -18.0d
+			x: -45.0d
 			y: 0.0d
 		}
 		{
@@ -47,8 +48,8 @@
 				item: "gtceu:andesite_alloy_plate"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 0.0d
+			x: -43.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6D9003172EF921C9"]
@@ -58,8 +59,8 @@
 				item: "create:hand_crank"
 				type: "item"
 			}]
-			x: -19.5d
-			y: -1.5d
+			x: -47.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["15AE530D8337DCEE"]
@@ -77,8 +78,8 @@
 				item: "create:windmill_bearing"
 				type: "item"
 			}]
-			x: -19.5d
-			y: -7.5d
+			x: -44.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7E591C0E7278D12F"]
@@ -94,8 +95,8 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -6.0d
+			x: -43.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6D9003172EF921C9"]
@@ -106,7 +107,7 @@
 				item: "create:basin"
 				type: "item"
 			}]
-			x: -19.5d
+			x: -47.0d
 			y: 0.0d
 		}
 		{
@@ -123,8 +124,8 @@
 				item: "gtceu:iron_plate"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -1.5d
+			x: -45.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -141,7 +142,7 @@
 				item: "ctpp:basic_mechanism"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -42.0d
 			y: 0.0d
 		}
 		{
@@ -165,8 +166,8 @@
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -1.5d
+			x: -42.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["15AE530D8337DCEE"]
@@ -177,8 +178,8 @@
 				item: "create:portable_storage_interface"
 				type: "item"
 			}]
-			x: -21.0d
-			y: -9.0d
+			x: -46.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7BDF74DD4432FF75"]
@@ -189,15 +190,15 @@
 				item: "gtceu:bronze_ingot"
 				type: "item"
 			}]
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				count: 16L
 				id: "7EDD66D9685F95D3"
 				item: "gtceu:bronze_ingot"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -1.5d
+			x: -41.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["53B3B59D47455ACE"]
@@ -208,37 +209,34 @@
 				item: "create:copper_casing"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 0.0d
+			x: -38.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
 				"4CDCD4A5CB57415D"
 				"3509D7B8E361DF68"
-				"4BFCE509589207BC"
+				"0524278F58E281E3"
 			]
 			description: ["    在熔铸炉中使用熔铸搅拌器制作液态黄铜，然后浇筑冷却"]
 			id: "2B430B944944D2C1"
 			size: 1.5d
-			tasks: [{
-				count: 16L
-				id: "1CC18E3E3383CD44"
-				item: "gtceu:brass_ingot"
-				type: "item"
-			}]
-			x: -12.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["6EA93E6AA3A807C7"]
-			id: "30BE9ED9BA8D5E8C"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest18.subtitle}"
-			tasks: [{
-				id: "3AEA778B7075BF6B"
-				item: "create:brass_casing"
-				type: "item"
-			}]
-			x: -9.0d
+			subtitle: "恭喜你进入了黄铜时代~"
+			tasks: [
+				{
+					count: 16L
+					id: "1CC18E3E3383CD44"
+					item: "gtceu:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "598FD3B7A8DC00A4"
+					item: "create:brass_casing"
+					type: "item"
+				}
+			]
+			title: "黄铜时代"
+			x: -37.0d
 			y: 0.0d
 		}
 		{
@@ -250,8 +248,8 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: -21.0d
-			y: -7.5d
+			x: -44.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2460426DE77EF0F4"]
@@ -290,9 +288,15 @@
 					item: "gtceu:coke_oven_bricks"
 					type: "item"
 				}
+				{
+					id: "2CA0AB97A20C6431"
+					item: "gtceu:coke_oven_hatch"
+					optional_task: true
+					type: "item"
+				}
 			]
-			x: -16.5d
-			y: -3.0d
+			x: -44.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["25CADEFA5DCB0244"]
@@ -303,8 +307,8 @@
 				item: "minecraft:charcoal"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -4.5d
+			x: -45.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["25CADEFA5DCB0244"]
@@ -315,8 +319,8 @@
 				item: "gtceu:coke_gem"
 				type: "item"
 			}]
-			x: -18.0d
-			y: -4.5d
+			x: -44.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["25CADEFA5DCB0244"]
@@ -327,8 +331,8 @@
 				item: "gtceu:creosote_bucket"
 				type: "item"
 			}]
-			x: -15.0d
-			y: -3.0d
+			x: -43.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2A633C681F979398"]
@@ -339,8 +343,8 @@
 				item: "gtceu:treated_wood_planks"
 				type: "item"
 			}]
-			x: -15.0d
-			y: -4.5d
+			x: -43.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2460426DE77EF0F4"]
@@ -356,14 +360,15 @@
 				item: "create:empty_blaze_burner"
 				type: "item"
 			}]
-			x: -18.0d
-			y: -1.5d
+			x: -46.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
 				"03B30F262729DB33"
 				"29EDBE0D432B1D62"
 			]
+			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest87.subtitle}"]
 			id: "3235EC33AE70B9A0"
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest28.subtitle}"
 			tasks: [{
@@ -371,8 +376,8 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: -19.5d
-			y: -3.0d
+			x: -46.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7E591C0E7278D12F"]
@@ -402,13 +407,12 @@
 					type: "item"
 				}
 			]
-			x: -15.0d
-			y: -6.0d
+			x: -42.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
 				"700219157D99E263"
-				"5CC765087238C3A3"
 				"7E16AD4CB7F6CDE6"
 			]
 			id: "7C9B89066D34939E"
@@ -417,32 +421,15 @@
 				item: "create:rose_quartz"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -3.0d
-		}
-		{
-			id: "5CC765087238C3A3"
-			rewards: [{
-				count: 128
-				id: "4D3EF1EFEC73E679"
-				item: "minecraft:quartz"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest31.subtitle}"
-			tasks: [{
-				id: "1CEC62A509B7D392"
-				item: "minecraft:quartz"
-				type: "item"
-			}]
-			x: -12.0d
-			y: -4.5d
+			x: -40.0d
+			y: -2.0d
 		}
 		{
 			description: ["    与雪傀儡类似，在竖直放置的两个铁栏杆上方放置南瓜头（注意：不是雕刻南瓜，是恶魔南瓜头）"]
 			icon: "create:blaze_burner"
 			id: "29EDBE0D432B1D62"
 			shape: "square"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest32.subtitle}"
 			tasks: [
 				{
@@ -458,8 +445,8 @@
 				}
 			]
 			title: "烈焰人召唤术"
-			x: -21.0d
-			y: -3.0d
+			x: -46.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5BA86B01337A91D5"]
@@ -478,34 +465,22 @@
 				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
-			x: -21.0d
+			x: -49.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["25CADEFA5DCB0244"]
-			description: ["需要橡胶树"]
-			id: "0829FFD7D670E5DE"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest35.subtitle}"
-			tasks: [{
-				id: "243E9517B1B097A2"
-				item: "gtceu:coke_oven_hatch"
-				type: "item"
-			}]
-			x: -18.0d
-			y: -3.0d
 		}
 		{
 			dependencies: ["33452CB4AAC5EE5F"]
 			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest36.description1}"]
 			id: "62C8A0B668137AD3"
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest36.subtitle}"
 			tasks: [{
 				id: "73BCB4C58FAE733A"
 				item: "ctnhcore:big_dam"
 				type: "item"
 			}]
-			x: -19.5d
-			y: -6.0d
+			x: -31.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -518,8 +493,8 @@
 				item: "gtceu:raw_rubber_dust"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 4.5d
+			x: -42.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -534,8 +509,8 @@
 				item: "ctnhcore:underfloor_heating_system"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 6.0d
+			x: -35.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7C9B89066D34939E"]
@@ -545,8 +520,8 @@
 				item: "create:polished_rose_quartz"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -3.0d
+			x: -38.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1BA3FA0F7BFCF9D8"]
@@ -556,8 +531,8 @@
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -3.0d
+			x: -36.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["57B6D6BFE7577AFA"]
@@ -568,19 +543,8 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["2B430B944944D2C1"]
-			id: "6EA93E6AA3A807C7"
-			tasks: [{
-				id: "6909C22C4BECE5BD"
-				item: "gtceu:brass_plate"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 1.5d
+			x: -34.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["39C2B774D392AA8F"]
@@ -591,8 +555,8 @@
 				item: "minecraft:bricks"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.5d
+			x: -35.5d
+			y: 3.5d
 		}
 		{
 			id: "39C2B774D392AA8F"
@@ -603,7 +567,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "挖空所有黏土，垄断所有人的科技！"
 			tasks: [
 				{
@@ -618,14 +582,15 @@
 				}
 			]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest57.title}"
-			x: -6.0d
-			y: 3.0d
+			x: -35.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
-				"6EA93E6AA3A807C7"
-				"2A0DB69B5E67D674"
 				"4202B676480913ED"
+				"2B430B944944D2C1"
+				"41835AF728140323"
+				"2A0DB69B5E67D674"
 			]
 			dependency_requirement: "one_completed"
 			id: "6CDD36A3C742B7F2"
@@ -637,13 +602,13 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 1.5d
+			x: -34.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"11EDB5B9EB1B6554"
-				"51CB44ACDC00146E"
+				"47682BAE195B18E5"
 			]
 			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest61.description1}"]
 			id: "2A0DB69B5E67D674"
@@ -653,21 +618,22 @@
 				item: "alexscaves:acid_bucket"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 4.5d
+			x: -34.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["30BE9ED9BA8D5E8C"]
+			dependencies: ["6CDD36A3C742B7F2"]
 			description: ["    动力合成器可执行工作台的任意有序合成配方，这一特性仍然存在，但为了便于从jei中检索信息，相关页面在jei中被隐藏了。"]
 			id: "106DC15191737D98"
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest62.subtitle}"
 			tasks: [{
 				id: "2A5BB84290617FC1"
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -1.5d
+			x: -31.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["106DC15191737D98"]
@@ -679,8 +645,8 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -3.0d
+			x: -32.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4EAE423454479E42"]
@@ -700,8 +666,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest71.title}"
-			x: -9.0d
-			y: -4.5d
+			x: -32.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3035A92235772F73"]
@@ -721,8 +687,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest72.title}"
-			x: -9.0d
-			y: -6.0d
+			x: -32.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -742,8 +708,8 @@
 				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest73.task_+8154180158064847273.title}"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -6.0d
+			x: -31.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -765,8 +731,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest74.title}"
-			x: -7.5d
-			y: -4.5d
+			x: -30.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["106DC15191737D98"]
@@ -778,8 +744,8 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -3.0d
+			x: -30.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3AE55A55A5EBBA5A"]
@@ -798,27 +764,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest76.title}"
-			x: -6.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["3AE55A55A5EBBA5A"]
-			id: "0913621A74CD9436"
-			tasks: [{
-				id: "7BC81251362B50A0"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:nuggets"
-					}
-				}
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest77.task_+8919399202017726624.title}"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest77.title}"
-			x: -6.0d
-			y: -6.0d
+			x: -30.5d
+			y: 5.5d
 		}
 		{
 			description: [
@@ -855,8 +802,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest79.title}"
-			x: -9.0d
-			y: 7.5d
+			x: -40.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -870,8 +817,8 @@
 				item: "gtceu:rubber_ingot"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 4.5d
+			x: -37.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1BDD550BE6C77C28"]
@@ -881,8 +828,8 @@
 				item: "gtceu:compressed_fireclay"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 4.5d
+			x: -43.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["37BD0BB07046E310"]
@@ -900,8 +847,8 @@
 				item: "gtceu:firebricks"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 6.0d
+			x: -43.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["6FDDD78D3F1CD965"]
@@ -912,8 +859,8 @@
 				item: "gtceu:coke_dust"
 				type: "item"
 			}]
-			x: -19.5d
-			y: -4.5d
+			x: -44.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["105D45F86A0B3A55"]
@@ -926,8 +873,8 @@
 				item: "gtceu:steel_ingot"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 7.5d
+			x: -31.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["15AE530D8337DCEE"]
@@ -938,32 +885,20 @@
 				item: "createmetallurgy:mechanical_belt_grinder"
 				type: "item"
 			}]
-			x: -21.0d
-			y: -10.5d
-		}
-		{
-			id: "563D74DC666F2A57"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest87.subtitle}"
-			tasks: [{
-				id: "665D099AB64C3841"
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest87.task_+7376062324790802497.title}"
-				type: "checkmark"
-			}]
-			title: "流体燃料"
-			x: -21.0d
-			y: -4.5d
+			x: -45.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5E5F4837CC1F047A"]
 			id: "6A9845F85704E2D4"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "1F36789281D83E9C"
 				item: "vintageimprovements:spring_coiling_machine"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 1.5d
+			x: -42.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["06C3AF2D5D8F694A"]
@@ -975,8 +910,8 @@
 				item: "vintageimprovements:centrifuge"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 3.0d
+			x: -42.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["06C3AF2D5D8F694A"]
@@ -987,11 +922,11 @@
 				item: "vintageimprovements:vibrating_table"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 3.0d
+			x: -41.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["6CDD36A3C742B7F2"]
+			dependencies: ["106DC15191737D98"]
 			id: "5B9EBE5F72944F67"
 			subtitle: "代替你的螺丝刀和锉刀"
 			tasks: [{
@@ -999,11 +934,14 @@
 				item: "vintageimprovements:lathe"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 1.5d
+			x: -31.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["06C3AF2D5D8F694A"]
+			dependencies: [
+				"06C3AF2D5D8F694A"
+				"586FCED7C02EE5D7"
+			]
 			id: "1BDD550BE6C77C28"
 			subtitle: "压缩耐火砖"
 			tasks: [{
@@ -1011,8 +949,8 @@
 				item: "vintageimprovements:vacuum_chamber"
 				type: "item"
 			}]
-			x: -19.5d
-			y: 3.0d
+			x: -43.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6A9845F85704E2D4"]
@@ -1023,20 +961,8 @@
 				item: "gtceu:iron_spring"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["15AE530D8337DCEE"]
-			id: "66616CA6C0C95B0B"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest96.subtitle}"
-			tasks: [{
-				id: "767215D7A25C05EF"
-				item: "ctnhcore:meadow"
-				type: "item"
-			}]
-			x: -19.5d
-			y: -10.5d
+			x: -42.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["01CC0041CF5F9033"]
@@ -1047,8 +973,8 @@
 				item: "gtceu:sticky_resin"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 4.5d
+			x: -41.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -1063,8 +989,8 @@
 				item: "kubejs:rubber_powder"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 6.0d
+			x: -42.0d
+			y: 7.0d
 		}
 		{
 			description: [
@@ -1096,8 +1022,8 @@
 				}
 			]
 			title: "浇筑"
-			x: -12.0d
-			y: 4.5d
+			x: -37.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["351809CC7F8F9D7B"]
@@ -1108,20 +1034,21 @@
 				item: "gtceu:rubber_bucket"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 6.0d
+			x: -42.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7E5199B7F22F5DED"]
 			id: "33452CB4AAC5EE5F"
+			size: 2.0d
 			subtitle: "大型水车在本整合包进行了增强，可以试试"
 			tasks: [{
 				id: "60BA3C41665B633E"
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			x: -18.0d
-			y: -6.0d
+			x: -43.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -1144,7 +1071,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "小炉子，你有几分它的影子"
 			tasks: [
 				{
@@ -1160,12 +1087,13 @@
 				}
 			]
 			title: "多方块冶炼炉？"
-			x: -18.0d
-			y: 7.5d
+			x: -43.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5E5F4837CC1F047A"]
 			id: "4CDCD4A5CB57415D"
+			size: 1.5d
 			tasks: [
 				{
 					id: "11608DFDAA797975"
@@ -1184,25 +1112,41 @@
 				}
 			]
 			title: "冶金学"
-			x: -13.5d
-			y: 1.5d
+			x: -40.0d
+			y: 0.0d
 		}
 		{
 			id: "7E16AD4CB7F6CDE6"
-			rewards: [{
-				count: 64
-				id: "2A57831AAA10ACA4"
-				item: "minecraft:redstone_block"
-				type: "item"
-			}]
-			subtitle: "玫瑰石英需要它"
-			tasks: [{
-				id: "43A1B3E5A1DBDF40"
-				item: "minecraft:redstone"
-				type: "item"
-			}]
-			x: -13.5d
-			y: -4.5d
+			rewards: [
+				{
+					count: 64
+					id: "2A57831AAA10ACA4"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7BBABBE384809FAB"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			subtitle: "什么 石英可以这样来？"
+			tasks: [
+				{
+					id: "43A1B3E5A1DBDF40"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "612FBF4A189995A7"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			title: "玫瑰石英原料"
+			x: -40.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["53B3B59D47455ACE"]
@@ -1219,8 +1163,8 @@
 				item: "create:mechanical_pump"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 0.0d
+			x: -41.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -1235,11 +1179,14 @@
 				item: "ctnhcore:refined_iron_ingot"
 				type: "item"
 			}]
-			x: -19.5d
-			y: 6.0d
+			x: -44.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["00172F657F4BAB7A"]
+			dependencies: [
+				"00172F657F4BAB7A"
+				"79BE8625F8D33E1C"
+			]
 			id: "37C84B86D958F123"
 			subtitle: "更好的获得铁方坯的手段，不过要钢"
 			tasks: [{
@@ -1247,8 +1194,8 @@
 				item: "ctnhcore:sintering_kiln"
 				type: "item"
 			}]
-			x: -19.5d
-			y: 4.5d
+			x: -44.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5F7EAD64388EBAD2"]
@@ -1259,8 +1206,8 @@
 				item: "gtceu:steel_precursor_dust"
 				type: "item"
 			}]
-			x: -21.0d
-			y: 6.0d
+			x: -45.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["525ACD2BD801E168"]
@@ -1277,8 +1224,8 @@
 				item: "gtceu:wrought_iron_dust"
 				type: "item"
 			}]
-			x: -21.0d
-			y: 4.5d
+			x: -45.0d
+			y: 6.0d
 		}
 		{
 			icon: "gtceu:wrought_iron_ingot"
@@ -1290,7 +1237,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "锻铁锭再也不是由粒变锭了！"
 			tasks: [
 				{
@@ -1305,8 +1252,8 @@
 				}
 			]
 			title: "关于锻铁锭"
-			x: -21.0d
-			y: 3.0d
+			x: -44.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4EB8D7E72D302C75"]
@@ -1317,18 +1264,19 @@
 				item: "enderio:fluid_conduit"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -40.0d
 			y: 3.0d
 		}
 		{
+			dependencies: ["222114435B2A13DE"]
 			id: "15AE530D8337DCEE"
 			tasks: [{
 				id: "28E9BFBBE34D65CE"
 				title: "基础构件能解锁的Create"
 				type: "checkmark"
 			}]
-			x: -19.5d
-			y: -9.0d
+			x: -45.0d
+			y: 2.0d
 		}
 		{
 			description: ["    之后会有更加高效的提炼方法。"]
@@ -1345,8 +1293,8 @@
 				item: "gtceu:precious_alloy_ingot"
 				type: "item"
 			}]
-			x: -15.0d
-			y: -1.5d
+			x: -43.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["700219157D99E263"]
@@ -1356,23 +1304,24 @@
 				item: "gtceu:bronze_dust"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 0.0d
+			x: -41.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6168741C8B4F4F31"]
 			id: "4BFCE509589207BC"
+			size: 2.0d
 			tasks: [{
 				id: "0524278F58E281E3"
 				item: "createmetallurgy:foundry_mixer"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 1.5d
+			x: -35.0d
+			y: -5.0d
 		}
 		{
 			can_repeat: true
-			dependencies: ["2B430B944944D2C1"]
+			dependencies: ["43CD7225D0D21331"]
 			description: [
 				"    什么？你说你还没有钢，做不出打火石？"
 				"    Minecraft是一个充满可能性的游戏，尝试找到属于你的可能性吧！"
@@ -1387,7 +1336,7 @@
 				type: "command"
 			}]
 			shape: "rsquare"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "前往下界的权限"
 			tasks: [{
 				id: "43030C369984C7C2"
@@ -1395,8 +1344,8 @@
 				type: "checkmark"
 			}]
 			title: "下界"
-			x: -10.5d
-			y: 3.0d
+			x: -31.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -1409,8 +1358,8 @@
 				item: "minecraft:glass"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 3.0d
+			x: -40.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["31BA6652FDB500C3"]
@@ -1423,8 +1372,8 @@
 				title: "探索毒化洞穴"
 				type: "biome"
 			}]
-			x: -9.0d
-			y: 6.0d
+			x: -40.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["51CB44ACDC00146E"]
@@ -1434,7 +1383,7 @@
 				item: "alexscaves:sulfur"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -40.0d
 			y: 6.0d
 		}
 		{
@@ -1445,8 +1394,8 @@
 				item: "alexscaves:sulfur_dust"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 6.0d
+			x: -40.0d
+			y: 7.0d
 		}
 		{
 			description: ["    在本整合包中，格雷科技的蒸汽时代被机械动力及其附属完全取代。但目前蒸汽机器的制作方法并没有被移除，或许你可以制作几台来一睹蒸汽时代的荣光。"]
@@ -1458,8 +1407,8 @@
 				type: "item"
 			}]
 			title: "我蒸汽呢？"
-			x: -6.0d
-			y: 7.5d
+			x: -35.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["07D8E36B38808E28"]
@@ -1471,10 +1420,11 @@
 				item: "minecraft:compass"
 				type: "item"
 			}]
-			x: -19.5d
-			y: 7.5d
+			x: -46.0d
+			y: 9.0d
 		}
 		{
+			dependencies: ["5A66E5F0C90F7A67"]
 			id: "07D8E36B38808E28"
 			optional: true
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest53.subtitle}"
@@ -1483,8 +1433,194 @@
 				item: "gtceu:magnetic_iron_bolt"
 				type: "item"
 			}]
-			x: -21.0d
-			y: 7.5d
+			x: -46.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2460426DE77EF0F4"]
+			id: "35F4C20ACB393416"
+			tasks: [
+				{
+					id: "22C6F31A7C1D7197"
+					item: {
+						Count: 1
+						id: "gtceu:iron_hammer"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "180DC456A5C56155"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_mortar"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 383
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D7FC4C056A21799"
+					item: {
+						Count: 1
+						id: "gtceu:iron_file"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06F54884B5ACDDA1"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wire_cutter"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "131C7D5C3C974890"
+					item: {
+						Count: 1
+						id: "gtceu:iron_saw"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "318A167BE182798A"
+					item: {
+						Count: 1
+						id: "gtceu:iron_screwdriver"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13B87AB56D94ACDE"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wrench"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -43.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["525ACD2BD801E168"]
+			id: "79BE8625F8D33E1C"
+			subtitle: "你需要它为你的烧结窑提供应力"
+			tasks: [{
+				id: "188E009492795DD6"
+				item: "ctpp:ulv_kinetic_input_box"
+				type: "item"
+			}]
+			x: -44.0d
+			y: 6.0d
+		}
+		{
+			id: "5A66E5F0C90F7A67"
+			tasks: [{
+				id: "047AE25A5A8F5506"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:lens_magnet"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:azure_magnet"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:scarlet_magnet"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "磁，很神奇吧"
+			x: -46.0d
+			y: 5.0d
 		}
 	]
 	title: "{ftbquests.chapter.4408EF6F9E2E1624.title}"

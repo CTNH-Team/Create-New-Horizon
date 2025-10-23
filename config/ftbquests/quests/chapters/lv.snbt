@@ -129,7 +129,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -7.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["06B6C2C77135D570"]
@@ -144,10 +144,26 @@
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.lv.quest13.subtitle}"
 			tasks: [{
-				id: "63C11E1667B97529"
-				item: "gtceu:lv_mixer"
+				id: "767DB096DDB0DE58"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_mixer"
+							}
+							{
+								Count: 1b
+								id: "ctnhcore:mechanical_mixer"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
+			title: "搅搅你的"
 			x: 9.0d
 			y: 0.5d
 		}
@@ -385,21 +401,6 @@
 			}]
 			x: 13.0d
 			y: 2.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.lv.quest28.description1}"
-				"{ftbquests.chapter.lv.quest28.description2}"
-			]
-			id: "7FC7714BD50388EC"
-			tasks: [{
-				id: "7D464D8C24E2F3AF"
-				title: "{ftbquests.chapter.lv.quest28.task_+9026987767420351407.title}"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.lv.quest28.title}"
-			x: -18.0d
-			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -973,7 +974,7 @@
 					type: "item"
 				}
 			]
-			title: "仓室！"
+			title: "完整版仓室介绍！"
 			x: 11.0d
 			y: 1.0d
 		}
@@ -996,7 +997,7 @@
 				item: "alexscaves:acid_bucket"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 7.5d
 			y: -9.5d
 		}
 		{
@@ -1008,7 +1009,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -8.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["261F23C630F0BE7D"]
@@ -1019,7 +1020,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -7.5d
+			y: -8.0d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.lv.subtitle0}"]
