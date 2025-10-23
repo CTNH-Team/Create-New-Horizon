@@ -33,12 +33,6 @@
 			y: -4.5d
 		}
 		{
-			id: "0010F6566FA58906"
-			linked_quest: "589DEEA6662898A5"
-			x: -8.0d
-			y: -2.0d
-		}
-		{
 			id: "16E5A3A942479B8E"
 			linked_quest: "43F6AA3B97042202"
 			x: -4.0d
@@ -568,7 +562,6 @@
 		{
 			dependencies: [
 				"7C46A46BCA54FB18"
-				"589DEEA6662898A5"
 				"0FBFC9DC10435D74"
 				"4DF22955275FF10F"
 				"325BB56C5CEBF98A"
@@ -632,7 +625,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["589DEEA6662898A5"]
 			id: "68E2F33616B5A7A0"
 			subtitle: "你需要大量的幽匿脉络"
 			tasks: [{

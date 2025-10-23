@@ -211,8 +211,8 @@
 				type: "checkmark"
 			}]
 			title: "连锁挖矿"
-			x: -6.5d
-			y: 15.0d
+			x: -3.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["7500E7310C70727B"]
@@ -223,14 +223,15 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				count: 16L
 				id: "737374C23974ABF8"
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 13.0d
+			x: -6.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["31554E021ECE6572"]
@@ -290,8 +291,8 @@
 				item: "minecraft:leather"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 9.0d
+			x: -10.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
@@ -355,15 +356,15 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest10.subtitle}"
 			tasks: [{
 				id: "02CB7B2250363B17"
 				title: "{ftbquests.chapter.681E3140690307AA.quest10.task_+201389995652954903.title}"
 				type: "checkmark"
 			}]
-			x: -6.5d
-			y: 13.0d
+			x: -3.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
@@ -400,8 +401,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.681E3140690307AA.quest11.title}"
-			x: -10.5d
-			y: 13.0d
+			x: -6.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["4B11E32ACA7BC6FA"]
@@ -449,13 +450,14 @@
 				}
 			]
 			title: "{ftbquests.chapter.681E3140690307AA.quest12.title}"
-			x: -6.5d
-			y: 17.0d
+			x: -3.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["1B4FFE71B4C66E14"]
 			icon: "minecraft:iron_ingot"
 			id: "5BA86B01337A91D5"
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest13.subtitle}"
 			tasks: [
 				{
@@ -472,8 +474,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.681E3140690307AA.quest13.title}"
-			x: -4.5d
-			y: 13.0d
+			x: -2.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -495,7 +497,7 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -9.5d
 			y: 9.0d
 		}
 		{
@@ -514,14 +516,11 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 9.0d
+			x: -11.0d
+			y: 9.5d
 		}
 		{
-			dependencies: [
-				"5BA86B01337A91D5"
-				"744B99980B778CF7"
-			]
+			dependencies: ["5BA86B01337A91D5"]
 			description: [
 				"{ftbquests.chapter.681E3140690307AA.quest17.description1}"
 				"{ftbquests.chapter.681E3140690307AA.quest17.description2}"
@@ -535,14 +534,14 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest17.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest17.subtitle}（收集安山岩了吗~）"
 			tasks: [{
 				id: "19245BF7A4D48BFB"
 				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
-			x: -2.047619047619044d
-			y: 13.023809523809518d
+			x: 0.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["42BC9DB741D0AD70"]
@@ -564,8 +563,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.681E3140690307AA.quest18.title}"
-			x: -10.5d
-			y: 7.0d
+			x: -11.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -573,14 +572,14 @@
 			hide_dependency_lines: true
 			id: "1FB23D66088398BC"
 			shape: "rsquare"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "519EA59FDB4B479F"
 				title: "{ftbquests.chapter.681E3140690307AA.quest19.task_+5881320269389973407.title}"
 				type: "checkmark"
 			}]
-			x: -0.75d
-			y: 2.25d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -609,8 +608,8 @@
 				item: "rehooked:wood_hook"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 11.0d
+			x: -9.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -663,6 +662,7 @@
 		}
 		{
 			id: "42BC9DB741D0AD70"
+			size: 2.0d
 			subtitle: "这是你主线上的第一个任务"
 			tasks: [{
 				id: "51D08D5ED0A791B8"
@@ -670,7 +670,7 @@
 				type: "checkmark"
 			}]
 			x: -12.5d
-			y: 7.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["09C344717F4BAD6C"]
@@ -687,8 +687,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: 11.0d
+			x: -8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["09C344717F4BAD6C"]
@@ -717,8 +717,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: 9.0d
+			x: -9.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["4157A965AA4E18D2"]
@@ -736,8 +736,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: 13.0d
+			x: -5.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
@@ -761,20 +761,8 @@
 				title: "在急着推进主线之前，先感受一下这个世界吧"
 				type: "checkmark"
 			}]
-			x: -8.5d
-			y: 15.0d
-		}
-		{
-			id: "744B99980B778CF7"
-			subtitle: "挖矿时别忘了收集一些这些玩意"
-			tasks: [{
-				count: 16L
-				id: "1E3AD402021BE394"
-				item: { Count: 16, id: "minecraft:andesite" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 15.0d
+			x: -6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["31554E021ECE6572"]
@@ -788,8 +776,8 @@
 				value: 10L
 			}]
 			title: "僵尸猎人"
-			x: -4.5d
-			y: 9.0d
+			x: -11.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["31554E021ECE6572"]
@@ -804,8 +792,8 @@
 				value: 10L
 			}]
 			title: "蜘蛛猎人"
-			x: -3.0d
-			y: 9.0d
+			x: -8.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["31554E021ECE6572"]
@@ -819,8 +807,8 @@
 				value: 10L
 			}]
 			title: "骷髅猎人"
-			x: -1.5d
-			y: 9.0d
+			x: -8.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -834,8 +822,8 @@
 				item: "minecraft:white_bed"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 7.0d
+			x: -9.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["31554E021ECE6572"]
@@ -847,8 +835,8 @@
 				item: "minecraft:white_wool"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 7.0d
+			x: -9.5d
+			y: 12.0d
 		}
 		{
 			description: ["如果你在晚上遇到一道闪电从天而降，那就是神化小Boss刷新了"]
@@ -859,8 +847,8 @@
 				title: "神化小Boss"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 8.0d
+			x: -8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5BA86B01337A91D5"]
@@ -883,7 +871,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 11.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5BA86B01337A91D5"]
@@ -894,8 +882,8 @@
 				item: "gtceu:hot_high_temp_wrought_precursor_ingot"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 15.0d
+			x: -2.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0509C060962EF04C"]
@@ -905,8 +893,8 @@
 				item: "gtceu:wrought_iron_ingot"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 17.0d
+			x: -2.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["1B4FFE71B4C66E14"]
@@ -928,8 +916,8 @@
 				type: "checkmark"
 			}]
 			title: "背起行囊"
-			x: -6.5d
-			y: 11.0d
+			x: -3.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -968,8 +956,8 @@
 				title: "维度封锁"
 				type: "checkmark"
 			}]
-			x: -8.5d
-			y: 17.0d
+			x: -5.0d
+			y: 7.0d
 		}
 	]
 	title: "{ftbquests.chapter.681E3140690307AA.title}"
