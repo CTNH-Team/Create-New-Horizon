@@ -13,6 +13,9 @@ GTCEuStartupEvents.registry("gtceu:element", event => {
         .symbol('**Ma**')
 })
 GTCEuStartupEvents.registry("gtceu:material", event => {
+    TagPrefix.ingot.setIgnored(GTMaterials.Neutronium, 'avaritia:neutron_ingot')
+    TagPrefix.nugget.setIgnored(GTMaterials.Neutronium, 'avaritia:neutron_nugget')
+    TagPrefix.block.setIgnored(GTMaterials.Neutronium, 'avaritia:neutron')
     GTMaterials.get("darmstadtium").addFlags(GTMaterialFlags.GENERATE_GEAR)
     GTMaterials.get('neutronium').addFlags(GTMaterialFlags.GENERATE_SMALL_GEAR)
 })

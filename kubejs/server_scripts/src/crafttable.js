@@ -1463,43 +1463,6 @@ ServerEvents.recipes(event => {
             G: 'gtceu:luv_electric_pump'
         })
     event.shaped(
-        Item.of('extendedcrafting:basic_component', 1), [
-            "AC",
-            "BA"
-        ], {
-            A: 'gtceu:iron_plate',
-            B: 'extendedcrafting:black_iron_slate',
-            C: 'extendedcrafting:luminessence'
-        })
-    event.shaped(
-        Item.of('extendedcrafting:basic_catalyst', 1), [
-            "AB",
-            "BA"
-        ], {
-            A: 'extendedcrafting:luminessence',
-            B: 'extendedcrafting:basic_component'
-        })
-    event.shaped(
-        Item.of('extendedcrafting:advanced_component', 1), [
-            "AAC",
-            "BBA",
-            "BBA"
-        ], {
-            A: 'gtceu:gold_plate',
-            B: 'extendedcrafting:black_iron_slate',
-            C: 'extendedcrafting:luminessence'
-        })
-    event.shaped(
-        Item.of('extendedcrafting:advanced_catalyst', 1), [
-            "A C",
-            " B ",
-            "C A"
-        ], {
-            A: 'extendedcrafting:advanced_component',
-            B: 'extendedcrafting:black_iron_slate',
-            C: 'extendedcrafting:luminessence'
-        })
-    event.shaped(
         Item.of('ctnhcore:uhv_parallel_hatch', 1), [
             "ABC",
             "BDB",

@@ -74,7 +74,6 @@ ServerEvents.recipes(event => {
         "tetranichematerials:gold_ingot_from_powder_blasting",
         "tetranichematerials:steel_ingot_from_powder_blasting",
         "tetranichematerials:steel_powder",
-        "extendedcrafting:handheld_table",
         "create_new_age:shaped/layered_magnet",
         "enderio:stick",
         "enderio:wood_gear",
@@ -312,8 +311,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:large_chemical_reactor/indium_concentrate_separation_4x" })
     event.remove({ id: "gtceu:large_chemical_reactor/indium_concentrate_separation_4x" })
     event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_aluminium_sulfite" })
-    event.remove({ id: "ironfurnaces:augments/augment_generator" })
-    event.remove({ id: "ironfurnaces:rainbow_plating" })
     event.remove({ id: "gtceu:large_chemical_reactor/phosphoric_acid_from_pentoxide" })
     event.remove({ id: "gtceu:bender/bend_graphite_ir_plate_ingot_to_double_plate" })
     event.remove({ id: "gtceu:shaped/large_bronze_boiler" })
@@ -344,32 +341,12 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:shaped/filter_casing_sterile" })
     event.remove({ id: "gtceu:shaped/maintenance_hatch_cleaning" })
     event.remove({ id: "gtceu:kinetic_mixer/kinetic_mixer/graphene" })
-    event.remove({ id: "create:kjs/2cy39ggyi10fg4iscosa1udto" })
-    event.remove({ id: "extendedcrafting:black_iron_ingot" })
-    event.remove({ id: "extendedcrafting:basic_component" })
-    event.remove({ id: "extendedcrafting:advanced_component" })
-    event.remove({ id: "extendedcrafting:advanced_catalyst" })
-    event.remove({ id: "extendedcrafting:basic_catalyst" })
-    event.remove({ id: "extendedcrafting:elite_catalyst" })
-    event.remove({ id: "extendedcrafting:elite_component" })
-    event.remove({ id: "extendedcrafting:crystaltine_component" })
-    event.remove({ id: "extendedcrafting:crystaltine_catalyst" })
-    event.remove({ id: "extendedcrafting:ultimate_component" })
-    event.remove({ id: "extendedcrafting:ultimate_catalyst" })
-    event.remove({ id: "extendedcrafting:redstone_component" })
-    event.remove({ id: "extendedcrafting:redstone_catalyst" })
     event.remove({ id: "ad_astra:steel_rod" })
     event.remove({ id: "vintageimprovements:craft/steel_rod" })
-    event.remove({ id: "extendedcrafting:flux_crafter" })
-    event.remove({ id: "extendedcrafting:flux_alternator" })
     event.remove({ id: "vintageimprovements:craft/nickel_rod" })
     event.remove({ id: "vintageimprovements:craft/sulfur_item_to_nuggets" })
     event.remove({ id: "vintageimprovements:craft/sulfur_nuggets_to_item" })
     event.remove({ id: "vintageimprovements:craft/sulfur_block_to_items" })
-    event.remove({ id: "extendedcrafting:ender_alternator" })
-    event.remove({ id: "extendedcrafting:ender_crafter" })
-    event.remove({ id: "extendedcrafting:ender_catalyst" })
-    event.remove({ id: "extendedcrafting:ender_component" })
     event.remove({ id: "gtceu:chemical_reactor/calcite_from_quicklime" })
     event.remove({ id: "gtceu:extractor/extract_osmium_tetroxide_dust" })
     event.remove({ id: "gtceu:combustion_generator/light_fuel" })
