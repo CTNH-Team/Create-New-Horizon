@@ -173,36 +173,21 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest10.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest10.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest10.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest10.description4}"
-			]
-			id: "5A7C277C370AD362"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest10.subtitle}"
-			tasks: [{
-				id: "035BB87E7E582702"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest10.task_+241989858419549954.title}"
-				type: "checkmark"
-			}]
-			x: -0.5d
-			y: -0.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest11.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest11.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest11.description3}"
+				"    当机器的电压等级高于配方所需的电压等级时，将会触发&e超频&r机制，消耗额外的电力来加快配方运行。每高出一级，触发一次超频。"
+				"    常见的超频是&b有损超频&r，机器每tick消耗的EU提高4倍，但允许时间只缩短一半。以&bMV&r机器运行耗时10秒的&7LV&r配方为例，当触发有损超频时，机器的耗电从1A&7LV&r提高至1A&bMV&r，是配方所需的4倍，配方时间缩短至5秒，相当于速度变为原本的2倍。在这种情况下，执行该配方消耗的总EU变为了原本的两倍，所以是“有损”。"
+				"    某些情况下可以触发&a无损超频&r，耗电提高4倍且运行时间变为原本的1/4，此时执行配方的总EU消耗不会增加，所以是“无损”。具有无损超频特性的机器会在自身描述中标注。"
+				"    触发多次超频时，累乘计算。假设使用&5EV&r机器运行&7L&rV配方，触发三次有损超频，则每tick耗电变为原本的4x4x4=64倍，配方时间缩短至原本的1/(2x2x2)=1/8。"
+				"    &b特别说明&r：电压等级为&8ULV&r的配方，计算超频时固定减少一次。"
 			]
 			id: "0380BD76D7A96F58"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest11.subtitle}"
+			subtitle: "使劲超"
 			tasks: [{
 				id: "254299460AE15C49"
 				title: "{ftbquests.chapter.596370001FE6E99B.quest11.task_+2684876853975538761.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: -0.5d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -216,8 +201,8 @@
 				title: "{ftbquests.chapter.596370001FE6E99B.quest12.task_+7456846322174722579.title}"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: -0.5d
+			x: -6.5d
+			y: 3.5d
 		}
 		{
 			description: [
@@ -231,8 +216,8 @@
 				title: "{ftbquests.chapter.596370001FE6E99B.quest13.task_+2741375749707040108.title}"
 				type: "checkmark"
 			}]
-			x: -6.5d
-			y: 1.5d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -247,8 +232,8 @@
 				title: "{ftbquests.chapter.596370001FE6E99B.quest14.task_+375544457099544813.title}"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 1.5d
+			x: 1.5d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -267,8 +252,8 @@
 				title: "{ftbquests.chapter.596370001FE6E99B.quest15.task_+438704065266038508.title}"
 				type: "checkmark"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: 3.5d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -287,8 +272,8 @@
 				title: "{ftbquests.chapter.596370001FE6E99B.quest16.task_+2582154013494244763.title}"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: -2.5d
+			y: 3.5d
 		}
 		{
 			description: ["{ftbquests.chapter.596370001FE6E99B.quest17.description1}"]
@@ -299,8 +284,8 @@
 				title: "{ftbquests.chapter.596370001FE6E99B.quest17.task_+8335875660217632090.title}"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: 1.5d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			description: [
@@ -315,8 +300,8 @@
 				title: "{ftbquests.chapter.596370001FE6E99B.quest18.task_+3983762925354005950.title}"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: -0.5d
+			y: 3.5d
 		}
 		{
 			description: [
@@ -326,13 +311,13 @@
 				"{ftbquests.chapter.596370001FE6E99B.quest19.description4}"
 			]
 			id: "157616D257E25806"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest19.subtitle}"
+			subtitle: "当心终端乱放仓室"
 			tasks: [{
 				id: "6BBC98D7EA0A55A3"
 				title: "{ftbquests.chapter.596370001FE6E99B.quest19.task_+7763247910791828899.title}"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -4.5d
 			y: 3.5d
 		}
 		{
@@ -364,8 +349,102 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.596370001FE6E99B.quest20.title}"
-			x: -0.5d
+			x: 3.5d
 			y: 3.5d
+		}
+		{
+			description: [
+				"    与使用&2FE&r作为能源的大部分科技模组不同，格雷机器使用的能源是GTEU，简称&eEU&r。"
+				"    与现实类似，EU在传输过程中存在电压与电流的概念，单位分别是伏特（简称&eV&r）与安培（简称&eA&r），1V 1A的电流在1tick内传输的电能为1EU（tick是我的世界基本时间单位，一般情况下1秒为20tick，简称t）。"
+				"    EU可以自行转换为FE，故可以直接向FE机器提供EU来使其工作。"
+				"    FE需要通过转换器转换成EU才能供GT机器使用，&4本整合包已禁用LV等级以上的转化器&r。   "
+			]
+			id: "7CCF3DDD9544F909"
+			subtitle: "这是什么，就不能让我们用正常的电吗"
+			tasks: [{
+				id: "71C7653A29E1B239"
+				title: "GTEU"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"    格雷科技依据电压大小将电压划分为若干个等级，每一级电压大小是上一级的4倍，依次为："
+				"    &8ULV&r: 8V"
+				"    &7LV&r:  32V"
+				"    &bMV&r： 128V"
+				"    &6HV&r： 512V"
+				"    &dEV&r： 2,048V"
+				"    &9IV&r:   8,192V"
+				"    &dLuV&r: 32,768V"
+				"    &cZPM&r: 131,072V"
+				"    &2UV&r:   524,288V"
+				"    &4UHV&r: 2,097,152V"
+				"    ......"
+				"    电力机器都有对应的电压等级，向机器通入大于对应等级的电压会让机器爆炸。"
+			]
+			id: "39CF9637DAECD9E2"
+			subtitle: "boom！"
+			tasks: [{
+				id: "164C27B8057B10BC"
+				type: "checkmark"
+			}]
+			title: "GT电压"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"    需求电力的格雷科技配方都有对应的电压等级，可通过jei配方页面右下角的电压或边框颜色来分辨。一般情况下，当机器的电压等级低于配方所需电压时，机器无法运行对应配方，即使机器有足够的EU。"
+				"    对于单方块机器（后文简称小机器），其等级就是描述中的输入电压等级。"
+				"    对于多方块机器（后文简称大机器），其等级由组成多方块结构的能源仓的等级决定。有多个不同等级能源仓时，以最高的为准。"
+			]
+			id: "7627F4559E232CB1"
+			subtitle: "等级森严"
+			tasks: [{
+				id: "67F316843881B466"
+				title: "配方电压"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"    一般情况下，单方块机器无法升压，只能通过更换更高电压等级的单方块机器来执行更高电压等级的配方。（本整合包中的生物机器可以升压，相关机制详见“血肉重铸”章节）"
+				"    &e重要&r：多方块机器具有&b双仓升压&r机制。如果多方块机器的结构允许&b两个&r能源仓，当多方块结构成型时，如果其结构中有两个相同等级的能源仓，那么该多方块的能够执行的配方电压等级将会提高一级。"
+				"    以电力高炉为例：当电力高炉结构中有两个&7LV&r能源仓时，电力高炉的配方等级将会被提高到&bMV&r，允许执行&bMV&r电压的配方。"
+				"   结构中只允许&b一个&r能源仓的多方块机器&d无法升压&r。"
+			]
+			id: "41562EA63324B2F2"
+			subtitle: "打破电压的桎梏"
+			tasks: [{
+				id: "3EAA6D92BEB4359E"
+				title: "升压"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				" &e   配方电压&r：机器可执行配方的电压等级"
+				" &e   超频电压&r：机器计算配方超频次数的电压等级"
+				"    对于小机器来说，以上两者完全等同。"
+				"    对于大机器来说，如果使用了超过1A的能源仓，则&b情况会发生变化&r。配方电压由能源仓等级和双仓升压机制决定，超频电压由能源仓能够输入的EU/t决定。"
+				"    假设为一台大机器安装了一台16A&5EV&r能源仓，此时由于没有触发双仓升压，机器的配方电压依然是&5EV&r，无法运行更高电压等级的配方。但是机器能够输入的最大EU/t是16A&5EV&r，相当于1A&dLuV&r，故此时机器会按照&dLuV&r来计算配方超频次数，也就是说可以消耗16倍电将&5EV&r配方运行时间缩短到1/4。"
+			]
+			id: "1B3F47FA45A8AFAB"
+			subtitle: "啊？这不是一个东西吗"
+			tasks: [{
+				id: "671B9B9945AA150A"
+				title: "配方电压与超频电压"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 1.5d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.596370001FE6E99B.subtitle0}"]
