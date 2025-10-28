@@ -5,7 +5,7 @@
 	group: "32DB92B5A6E4493B"
 	icon: "bloodmagic:altar"
 	id: "71282A84EFB2E6DD"
-	order_index: 1
+	order_index: 2
 	quest_links: [
 		{
 			id: "201E8191E9CFE196"
@@ -1099,6 +1099,30 @@
 			}]
 			x: 6.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["04490059A9F4DB88"]
+			id: "177A9DF4D82B534D"
+			subtitle: "量产下界之星"
+			tasks: [{
+				id: "6A8399E3324346FF"
+				item: {
+					Count: 1
+					id: "enderio:filled_soul_vial"
+					tag: {
+						BlockEntityTag: {
+							EntityStorage: {
+								Entity: {
+									id: "minecraft:wither"
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.5d
 		}
 	]
 	title: "{ftbquests.chapter.71282A84EFB2E6DD.title}"

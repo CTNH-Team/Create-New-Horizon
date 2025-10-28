@@ -1,10 +1,2 @@
 {
-  "type": "tconstruct:melting_fuel",
-  "duration": 150,
-  "fluid": {
-    "amount": 50,
-    "fluid": "ticex:rf_furnace_fuel_12"
-  },
-  "rate": 65,
-  "temperature": 3623
 }

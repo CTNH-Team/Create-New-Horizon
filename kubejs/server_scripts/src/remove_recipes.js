@@ -74,7 +74,6 @@ ServerEvents.recipes(event => {
         "tetranichematerials:gold_ingot_from_powder_blasting",
         "tetranichematerials:steel_ingot_from_powder_blasting",
         "tetranichematerials:steel_powder",
-        "extendedcrafting:handheld_table",
         "create_new_age:shaped/layered_magnet",
         "enderio:stick",
         "enderio:wood_gear",
@@ -104,6 +103,7 @@ ServerEvents.recipes(event => {
         "gtceu:assembler/bamboo_stairs",
         "gtceu:assembler/crimson_stairs",
         "gtceu:assembler/warped_stairs",
+        "gtceu:extractor/extract_ammonium_chloride_dust",
         "enderio:void_chassis",
         "hostilenetworks:sim_chamber",
         "hostilenetworks:loot_fabricator",
@@ -126,6 +126,7 @@ ServerEvents.recipes(event => {
         "vintageimprovements:pressing/zinc_ingot",
         "vintageimprovements:pressing/nickel_ingot",
         "vintageimprovements:pressing/osmium_ingot",
+        "vintageimprovements:sequenced_assembly/recipe_card",
         "aether:aether_saddle",
         "gtceu:extruder/nan_certificate",
         "vintageimprovements:pressurizing/sulfuric_acid",
@@ -147,10 +148,6 @@ ServerEvents.recipes(event => {
         "gtceu:electrolyzer/decomposition_electrolyzing_palladium_sulfide",
         "gtceu:electrolyzer/decomposition_electrolyzing_ruthenium_amalgam",
         "gtceu:electrolyzer/decomposition_electrolyzing_osmium_iron_spinel",
-        "gtceu:mixer/neutronium_mixture",
-        "gtceu:assembler/heavy_ingot_t2",
-        "gtceu:assembly_line/heavy_ingot_t4",
-        "gtceu:assembler/heavy_ingot_t3",
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_rail",
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_powered_rail",
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_activator_rail",
@@ -180,8 +177,41 @@ ServerEvents.recipes(event => {
         "create:pressing/neptunium_ingot",
         "create:pressing/uranium_ingot",
         "gtceu:shaped/bronze_primitive_blast_furnace",
-        "gtceu:smelting/wrought_iron_nugget"
-
+        "gtceu:smelting/wrought_iron_nugget",
+        "mae2:network/parts/multi_p2p_tunnel_pattern",
+        "mae2:network/parts/multi_p2p_tunnel_redstone",
+        "mae2:network/parts/multi_p2p_tunnel_fe",
+        "mae2:network/parts/multi_p2p_tunnel_fluid",
+        "mae2:network/parts/multi_p2p_tunnel_item",
+        "mae2:network/parts/multi_p2p_tunnel_workaround",
+        "mae2:network/parts/multi_p2p_tunnel_eu",
+        //工作台制作箔和弹簧
+        /gtceu:shaped\/foil_(.*)/,
+        /gtceu:shaped\/spring_(.*)/,
+        //末影之眼块合成末影之眼
+        'gtceu:shapeless/block_decompress_ender_eye',
+        'gtceu:forge_hammer/hammer_ender_eye_block_to_gem',
+        //非中央厨房南瓜派配方
+        'gtceu:shapeless/pumpkin_pie_from_dough',
+        'deep_aether:pumpkin_pie',
+        'aether:moa_egg_pumpkin_pie',
+        //湿件研究站
+        'gtceu:research_station/1x_gtceu_wetware_processor_assembly',
+        'gtceu:research_station/1x_gtceu_wetware_processor_computer',
+        //铁板方块
+        'ad_astra:iron_plating',
+        //压肉块
+        'biofactory:compacting/flesh_block_from_flesh_bits',
+        //转换器
+        /gtceu:shaped\/(.*)_energy_converter/,
+        //魂金锭
+        'enderio:alloy_smelting/soularium_ingot',
+        //装配线外壳和控制外壳
+        'gtceu:assembler/assembly_line_casing',
+        'gtceu:assembler/assembly_control_casing',
+        //氧气分配器、重力控制器
+        'ad_astra:oxygen_distributor',
+        'ad_astra:gravity_normalizer'
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",
@@ -217,12 +247,20 @@ ServerEvents.recipes(event => {
         "tconstruct:seared_fuel_gauge",
         "tconstruct:seared_ingot_tank",
         "tconstruct:seared_ingot_gauge",
+        'botania:lens_normal',
+        'botania:lens_magnet',
         /vintageimprovements:(.*)_sheet/,
         /vintageimprovements:(.*)_rod/,
-        /vintageimprovements:(.*)_wire/
+        /vintageimprovements:(.*)_wire/,
+        /gtceu:high_temp_wrought_precursor_(.*)/,
+        'gtceu:small_high_temp_wrought_precursor_dust',
+        'gtceu:tiny_high_temp_wrought_precursor_dust',
+        /mae2:(.*)x_crafting_accelerator/,
+        //木屑
+        'createdieselgenerators:wood_chip'
     ])
     remove_recipes_input(event, [
-        "thermal:constantan_ingot",
+        "thermal:constantan_ingot"
     ])
 
     event.remove({ id: /thermal:parts(.*)_gear/ })
@@ -273,8 +311,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:large_chemical_reactor/indium_concentrate_separation_4x" })
     event.remove({ id: "gtceu:large_chemical_reactor/indium_concentrate_separation_4x" })
     event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_aluminium_sulfite" })
-    event.remove({ id: "ironfurnaces:augments/augment_generator" })
-    event.remove({ id: "ironfurnaces:rainbow_plating" })
     event.remove({ id: "gtceu:large_chemical_reactor/phosphoric_acid_from_pentoxide" })
     event.remove({ id: "gtceu:bender/bend_graphite_ir_plate_ingot_to_double_plate" })
     event.remove({ id: "gtceu:shaped/large_bronze_boiler" })
@@ -305,32 +341,12 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:shaped/filter_casing_sterile" })
     event.remove({ id: "gtceu:shaped/maintenance_hatch_cleaning" })
     event.remove({ id: "gtceu:kinetic_mixer/kinetic_mixer/graphene" })
-    event.remove({ id: "create:kjs/2cy39ggyi10fg4iscosa1udto" })
-    event.remove({ id: "extendedcrafting:black_iron_ingot" })
-    event.remove({ id: "extendedcrafting:basic_component" })
-    event.remove({ id: "extendedcrafting:advanced_component" })
-    event.remove({ id: "extendedcrafting:advanced_catalyst" })
-    event.remove({ id: "extendedcrafting:basic_catalyst" })
-    event.remove({ id: "extendedcrafting:elite_catalyst" })
-    event.remove({ id: "extendedcrafting:elite_component" })
-    event.remove({ id: "extendedcrafting:crystaltine_component" })
-    event.remove({ id: "extendedcrafting:crystaltine_catalyst" })
-    event.remove({ id: "extendedcrafting:ultimate_component" })
-    event.remove({ id: "extendedcrafting:ultimate_catalyst" })
-    event.remove({ id: "extendedcrafting:redstone_component" })
-    event.remove({ id: "extendedcrafting:redstone_catalyst" })
     event.remove({ id: "ad_astra:steel_rod" })
     event.remove({ id: "vintageimprovements:craft/steel_rod" })
-    event.remove({ id: "extendedcrafting:flux_crafter" })
-    event.remove({ id: "extendedcrafting:flux_alternator" })
     event.remove({ id: "vintageimprovements:craft/nickel_rod" })
     event.remove({ id: "vintageimprovements:craft/sulfur_item_to_nuggets" })
     event.remove({ id: "vintageimprovements:craft/sulfur_nuggets_to_item" })
     event.remove({ id: "vintageimprovements:craft/sulfur_block_to_items" })
-    event.remove({ id: "extendedcrafting:ender_alternator" })
-    event.remove({ id: "extendedcrafting:ender_crafter" })
-    event.remove({ id: "extendedcrafting:ender_catalyst" })
-    event.remove({ id: "extendedcrafting:ender_component" })
     event.remove({ id: "gtceu:chemical_reactor/calcite_from_quicklime" })
     event.remove({ id: "gtceu:extractor/extract_osmium_tetroxide_dust" })
     event.remove({ id: "gtceu:combustion_generator/light_fuel" })
@@ -340,4 +356,5 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:gas_turbine/benzene" })
     event.remove({ id: "gtceu:gas_turbine/nitrobenzene" })
     event.remove({ id: "gtceu:electric_blast_furnace/iro2" })
+    event.remove({ id: "gtceu:large_chemical_reactor/hydrogen_peroxide" })
 })

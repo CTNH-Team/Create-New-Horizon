@@ -1,0 +1,978 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "142AC829C9062F15"
+	group: "4CD84F8DB1FF8B7E"
+	icon: {
+		Count: 1
+		id: "biomancy:despoil_sickle"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "142AC829C9062F15"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "223723ED95F15CBF"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "可以尝尝"
+			tasks: [{
+				count: 4L
+				id: "76899A5326B419A7"
+				item: { Count: 4, id: "biomancy:living_flesh" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["223723ED95F15CBF"]
+			id: "18E1279B545D4249"
+			tasks: [{
+				id: "5B245EA9C88384B2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ctnhbio:aluminium_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 11.5f
+										AttackSpeed: -2.2f
+										Damage: 0
+										MaxDamage: 767
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:iron_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 6.0f
+										AttackSpeed: -2.2f
+										Damage: 0
+										MaxDamage: 255
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:titanium_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 10.0f
+										AttackSpeed: -2.2f
+										Damage: 0
+										MaxDamage: 1535
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:neutronium_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										RelocateMinedBlocks: 1b
+										RelocateMobDrops: 1b
+									}
+									GT.Tool: {
+										AttackDamage: 104.0f
+										AttackSpeed: -1.7f
+										Damage: 0
+										MaxDamage: 65534
+									}
+									HideFlags: 2
+									Unbreakable: 1b
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:duranium_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										RelocateMinedBlocks: 1b
+										RelocateMobDrops: 1b
+									}
+									GT.Tool: {
+										AttackDamage: 16.0f
+										AttackSpeed: -1.9000001f
+										Damage: 0
+										MaxDamage: 8191
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:bronze_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 6.0f
+										AttackSpeed: -2.2f
+										Damage: 0
+										MaxDamage: 191
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:diamond_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 11.0f
+										AttackSpeed: -2.1000001f
+										Damage: 0
+										MaxDamage: 767
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:invar_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [{
+										id: "minecraft:bane_of_arthropods"
+										lvl: 3s
+									}]
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 7.0f
+										AttackSpeed: -2.2f
+										Damage: 0
+										MaxDamage: 383
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:sterling_silver_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [{
+										id: "minecraft:smite"
+										lvl: 3s
+									}]
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 12.0f
+										AttackSpeed: -1.9000001f
+										Damage: 0
+										MaxDamage: 767
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:rose_gold_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 6.0f
+										AttackSpeed: -2.2f
+										Damage: 0
+										MaxDamage: 767
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:stainless_steel_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 9.0f
+										AttackSpeed: -2.2f
+										Damage: 0
+										MaxDamage: 1023
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:steel_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 7.0f
+										AttackSpeed: -2.2f
+										Damage: 0
+										MaxDamage: 511
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:ultimet_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 11.0f
+										AttackSpeed: -2.1000001f
+										Damage: 0
+										MaxDamage: 2047
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:wrought_iron_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 6.0f
+										AttackSpeed: -2.4f
+										Damage: 0
+										MaxDamage: 383
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:tungsten_carbide_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 6.0f
+										AttackSpeed: -2.2f
+										Damage: 0
+										MaxDamage: 1023
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:netherite_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 8.0f
+										AttackSpeed: -2.2f
+										Damage: 0
+										MaxDamage: 2031
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:damascus_steel_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [{
+										id: "minecraft:looting"
+										lvl: 3s
+									}]
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 8.0f
+										AttackSpeed: -1.9000001f
+										Damage: 0
+										MaxDamage: 1023
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:tungsten_steel_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 11.0f
+										AttackSpeed: -2.2f
+										Damage: 0
+										MaxDamage: 2047
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:cobalt_brass_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 6.0f
+										AttackSpeed: -2.4f
+										Damage: 0
+										MaxDamage: 1023
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:vanadium_steel_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 7.0f
+										AttackSpeed: -2.4f
+										Damage: 0
+										MaxDamage: 1535
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:naquadah_alloy_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										RelocateMinedBlocks: 1b
+										RelocateMobDrops: 1b
+									}
+									GT.Tool: {
+										AttackDamage: 16.0f
+										AttackSpeed: -1.9000001f
+										Damage: 0
+										MaxDamage: 3071
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:flint_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [{
+										id: "minecraft:fire_aspect"
+										lvl: 1s
+									}]
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 5.0f
+										AttackSpeed: -2.2f
+										Damage: 0
+										MaxDamage: 63
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:red_steel_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 10.0f
+										AttackSpeed: -2.1000001f
+										Damage: 0
+										MaxDamage: 2559
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:blue_steel_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 10.0f
+										AttackSpeed: -2.1000001f
+										Damage: 0
+										MaxDamage: 1023
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "ctnhbio:hsse_boning_knife"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 14.0f
+										AttackSpeed: -1.9000001f
+										Damage: 0
+										MaxDamage: 3071
+									}
+									HideFlags: 2
+								}
+							}
+						]
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "剔骨刀"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18E1279B545D4249"]
+			id: "62622845DCE27A13"
+			tasks: [
+				{
+					id: "4455ED439F1BB961"
+					item: "biomancy:mob_fang"
+					type: "item"
+				}
+				{
+					id: "2065415429F9F6A5"
+					item: "biomancy:mob_claw"
+					type: "item"
+				}
+				{
+					id: "18B98290ECF68AA3"
+					item: "biomancy:mob_sinew"
+					type: "item"
+				}
+				{
+					id: "576C80E1EA36097B"
+					item: "biomancy:mob_marrow"
+					type: "item"
+				}
+				{
+					id: "20262B7919F45566"
+					item: "biomancy:mob_gland"
+					type: "item"
+				}
+				{
+					id: "2B815D859F4A2286"
+					item: "biomancy:toxin_gland"
+					type: "item"
+				}
+			]
+			title: "血肉掠夺"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"62622845DCE27A13"
+				"02115E4763B9F906"
+			]
+			id: "213B6C166AFD2A8E"
+			tasks: [{
+				id: "666CE38C59406524"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["27675B2A83F65B2E"]
+			description: ["“生物”与“机械”结合的开始"]
+			id: "02115E4763B9F906"
+			subtitle: "这科学吗"
+			tasks: [{
+				id: "3096BAC653706631"
+				item: "biomancy:primordial_core"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62622845DCE27A13"]
+			description: [
+				"粉碎轮粉碎生物也会产生“血肉掠夺”产物，产量正比于粉碎轮转速；"
+				"除此之外，如果对应生物具有“生物粉碎”配方，还会产生对应产物，可通过jei查询"
+			]
+			id: "1696CCDC1C982D16"
+			subtitle: "是不是觉得打怪太慢了"
+			tasks: [{
+				id: "6298993466FEF813"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "高效肢解"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["213B6C166AFD2A8E"]
+			id: "15F6F741F83DADF6"
+			shape: "pentagon"
+			subtitle: "血肉苦弱"
+			tasks: [{
+				id: "0D1C516B794C6B35"
+				item: "ctnhbio:lv_bioelectric_forge"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["15F6F741F83DADF6"]
+			description: [
+				"活体机器操作规范（修订版）​​"
+				""
+				"​​&4注：本设备兼具生物与机器双重特性，操作人员须同时掌握基础机器知识（电压/超频）与生物特性（生命值/药水）&r"
+				""
+				"​​操作指引​​"
+				""
+				"1.能量与营养供给​​"
+				"•活体机器运行期间同步消耗营养值（Nutrition）与电力（EU）。"
+				"•补充方式："
+				"▸ 将营养膏或营养液置入设备输入槽；"
+				"▸ 手持食物右键点击设备直接喂食。"
+				""
+				"2.药水效果触发条件​​"
+				"•特定配方需设备处于指定药水状态（如迅捷、力量等）。"
+				"•施加方式："
+				"▸ 使用喷溅型药水泼洒设备；"
+				"▸ 或通过管道输入格雷科技（GT）标准药水流体。"
+				""
+				"{@pagebreak}"
+				"3.电压风险警示​​"
+				"&6•允许临时超频：所有活体机器可短时执行高于额定电压1级的配方，但会导致机体损伤。&r"
+				"•操作人员必须实时监控设备生命值，必要时执行维护程序。​​"
+				""
+				"4.禁止行为​​"
+				"•严禁攻击设备！物理打击不会提升效率。"
+				""
+				"&m5.异常处理&r​​"
+				"&m•活体组织必须与金属框架结合。若发现游离态活体组织：&r"
+				"&m▸ 立即清除；&r"
+				"&m▸ 记录异常形态及发生时间；&r"
+				"&m▸ 向【█̸͒̚█̷̛̾█̴̂̕】部门提交报告。"
+				""
+				"&r——摘自《泛银河格雷科技有限公司员工手册》"
+			]
+			id: "3A0DF5CC0ED15F67"
+			rewards: [{
+				count: 32
+				id: "2511A056E45D9E0D"
+				item: "biomancy:nutrient_bar"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "这是哪个部门研究出来的？"
+			tasks: [{
+				id: "139ED399738E942B"
+				type: "checkmark"
+			}]
+			title: "活体机器操作规范(1)"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["62622845DCE27A13"]
+			id: "5DB9849BC92C0BB1"
+			tasks: [{
+				id: "4AA4598E3529CA36"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"213B6C166AFD2A8E"
+				"5DB9849BC92C0BB1"
+			]
+			id: "2A07853B97390E58"
+			subtitle: "更高程度利用食物"
+			tasks: [{
+				id: "0B295155171326D1"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5DB9849BC92C0BB1"]
+			description: ["更高效地处理矿物，省去繁琐的步骤"]
+			id: "2095975A0D0A9E1E"
+			subtitle: "不要电的单步矿处"
+			tasks: [{
+				id: "1861D9204F97212D"
+				item: "ctnhbio:lv_decomposer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2A07853B97390E58"]
+			description: [""]
+			id: "09542A8A75F69EA5"
+			subtitle: "它其实是个美食家"
+			tasks: [{
+				id: "1E6F8C00F696B134"
+				item: "ctnhbio:lv_digester"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["682686E8538E5E70"]
+			description: ["你只要激励你的lv生物电炉：一台机器的上限不取决于电压，而取决于机器自己。它就能执行mv配方了"]
+			id: "5C5E74F9A6082A4B"
+			subtitle: "pua你的lv生物电炉"
+			tasks: [{
+				id: "1CAEE9A7A9C283D1"
+				item: "ctnhbio:mv_bioelectric_forge"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5C5E74F9A6082A4B"]
+			id: "7D8B9FF2E5A2A167"
+			tasks: [{
+				id: "4C0E750E104FC646"
+				item: "ctnhbio:hv_bioelectric_forge"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7D8B9FF2E5A2A167"]
+			id: "474BDB71028B9DDF"
+			tasks: [{
+				id: "5E2BD3141432A7BB"
+				item: "ctnhbio:ev_bioelectric_forge"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["474BDB71028B9DDF"]
+			id: "4A95D738CDC2F9D3"
+			tasks: [{
+				id: "3B502B52BE197224"
+				item: "ctnhbio:iv_bioelectric_forge"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.5d
+		}
+		{
+			id: "1CCBE7B71BB782FD"
+			tasks: [
+				{
+					id: "2D2C03CA16F539D0"
+					item: "ctnhbio:wetware_capacitor"
+					type: "item"
+				}
+				{
+					id: "31193EA52ECB0D1C"
+					item: "ctnhbio:wetware_transistor"
+					type: "item"
+				}
+				{
+					id: "1E9C5FE65E9EDB70"
+					item: "ctnhbio:wetware_inductor"
+					type: "item"
+				}
+				{
+					id: "09C235409051E8B3"
+					item: "ctnhbio:wetware_resistor"
+					type: "item"
+				}
+				{
+					id: "47CD02221DDBEA8D"
+					item: "ctnhbio:wetware_diode"
+					type: "item"
+				}
+			]
+			title: "湿件元件"
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			description: [
+				"向原初温床献上血肉和治疗药水，会产生各种肉块；"
+				"向普通肉块（不是饥饿肉块，也不是原初肉块）使用活体注射器注射原初血清，它将会展现生命的原初形态"
+			]
+			id: "5EE36C722931A3A5"
+			subtitle: "培养"
+			tasks: [{
+				id: "6C52488BDCD9AF38"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["351351BE58F24654"]
+			id: "0B3AA16035FC3AAD"
+			tasks: [{
+				id: "6FC1BCFCE2A46C04"
+				item: "ctnhbio:circulatory_system"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"351351BE58F24654"
+				"53E534A981177FEC"
+			]
+			id: "65E0B77C49C4F584"
+			tasks: [{
+				id: "14F9778E4DEA7CB6"
+				item: "ctnhbio:cogni_assembler"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"351351BE58F24654"
+				"3042E50E7034C8C0"
+			]
+			id: "6DD7D2E0A83FBC3C"
+			tasks: [{
+				id: "26C04647F8299385"
+				item: "ctnhbio:weatherer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"5EE36C722931A3A5"
+				"59C7B38822893245"
+				"7E1DEFB53BF4D305"
+			]
+			description: [
+				"运行配方即可朝特定方向分化；"
+				"至于分化结果......"
+			]
+			id: "351351BE58F24654"
+			subtitle: "活体多方块机器"
+			tasks: [{
+				id: "0F55B60324E4BAFD"
+				item: "ctnhbio:great_flesh"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			description: ["用有机试管容纳血清，手持活体注射器并按下对应功能键打开注射槽ui，即可装入血清"]
+			id: "59C7B38822893245"
+			tasks: [
+				{
+					id: "0A8267B61C108001"
+					item: {
+						Count: 1
+						id: "biomancy:injector"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "391089DE4213FDA1"
+					item: "ctnhbio:organic_vial"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"5C5E74F9A6082A4B"
+				"50800D463AF3C2EB"
+			]
+			dependency_requirement: "one_completed"
+			description: ["将缸中之脑紧贴个人计算机以提供算力"]
+			id: "41F57D86D4B78EA2"
+			tasks: [{
+				id: "46258DC00D4D5B66"
+				item: "ctnhbio:hv_brain_in_a_vat"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"活体多方块机器的&6一部分&r结构方块无法被制作，而是依靠自己生长；"
+				"使用食物右键主方块可提醒其生长"
+			]
+			id: "7E1DEFB53BF4D305"
+			rewards: [
+				{
+					id: "376125428F9C784B"
+					item: "ctnhbio:flesh_casing"
+					type: "item"
+				}
+				{
+					id: "46C40245B44E06ED"
+					item: "ctnhbio:primal_flesh_casing"
+					type: "item"
+				}
+				{
+					id: "66DBF10815A0457E"
+					item: "ctnhbio:ornate_flesh_casing"
+					type: "item"
+				}
+				{
+					id: "395BD7673CE25D1E"
+					item: "ctnhbio:acid_flesh_casing"
+					type: "item"
+				}
+				{
+					id: "5F2D3D9912047925"
+					item: "ctnhbio:bio_acid_casing"
+					type: "item"
+				}
+			]
+			subtitle: "你管这叫机器？"
+			tasks: [{
+				id: "27ED04AC6B62824B"
+				type: "checkmark"
+			}]
+			title: "活体多方块机器"
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			id: "53E534A981177FEC"
+			subtitle: "需要UV电路板"
+			tasks: [{
+				id: "0460393FCE082088"
+				item: "ctnhbio:synaptic_casing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			id: "3042E50E7034C8C0"
+			tasks: [{
+				id: "7136201F3059ED39"
+				item: "biomancy:flesh_spike"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1696CCDC1C982D16"]
+			description: ["放入带有“抽筋剥骨”附魔的武器即可自动产出血肉掠夺战利品。（赶紧用，以后说不定会削）"]
+			id: "70646FDE3BB4425C"
+			subtitle: "真正的轮椅"
+			tasks: [{
+				id: "314C7C36795D14E3"
+				item: "ctnhcore:slaughter_house"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["213B6C166AFD2A8E"]
+			description: [
+				"用于生产一些血清，以及鲜活血肉、原初核心的增殖"
+				"除此之外，还能快速生产一些有机物"
+			]
+			id: "50CCCB9AECB5C68B"
+			subtitle: "生物反应（太科学了）"
+			tasks: [{
+				id: "1C905E71F305BE8D"
+				item: "ctnhbio:lv_bioreactor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3A0DF5CC0ED15F67"]
+			description: [
+				"3.电压风险警示​​"
+				"&6•允许临时升压：所有活体机器可短时执行高于额定电压1级的配方，但会导致机体损伤。&r"
+				"•操作人员必须实时监控设备生命值，必要时执行维护程序。​​"
+				""
+				"4.禁止行为​​"
+				"•严禁攻击设备！物理打击不会提升效率。"
+				""
+				"&m5.异常处理&r​​"
+				"&m•活体组织必须与金属框架结合。若发现游离态活体组织：&r"
+				"&m▸ 立即清除；&r"
+				"&m▸ 记录异常形态及发生时间；&r"
+				"&m▸ 向【█̸͒̚█̷̛̾█̴̂̕】部门提交报告。"
+				""
+				"&r——摘自《泛银河格雷科技有限公司员工手册》"
+			]
+			id: "682686E8538E5E70"
+			rewards: [{
+				count: 32
+				id: "683F8E46AD91F963"
+				item: "biomancy:nutrient_bar"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "非常重要"
+			tasks: [{
+				id: "5F6176E5C27F354F"
+				type: "checkmark"
+			}]
+			title: "活体机器操作规范(2)"
+			x: 3.0d
+			y: 6.5d
+		}
+	]
+	title: "血肉重铸"
+}

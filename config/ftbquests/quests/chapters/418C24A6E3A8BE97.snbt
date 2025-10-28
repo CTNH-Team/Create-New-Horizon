@@ -4,7 +4,7 @@
 	filename: "418C24A6E3A8BE97"
 	group: "4CD84F8DB1FF8B7E"
 	id: "418C24A6E3A8BE97"
-	order_index: 7
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,7 +16,7 @@
 				type: "item"
 			}]
 			title: "夜观天象"
-			x: -41.5d
+			x: -26.0d
 			y: -19.0d
 		}
 		{
@@ -39,7 +39,7 @@
 				type: "item"
 			}]
 			title: "月球之旅"
-			x: -41.5d
+			x: -26.0d
 			y: -16.0d
 		}
 		{
@@ -61,7 +61,7 @@
 				}
 				type: "item"
 			}]
-			x: -41.5d
+			x: -26.0d
 			y: -13.0d
 		}
 		{
@@ -83,7 +83,7 @@
 				}
 				type: "item"
 			}]
-			x: -41.5d
+			x: -26.0d
 			y: -10.0d
 		}
 		{
@@ -105,7 +105,7 @@
 				}
 				type: "item"
 			}]
-			x: -41.5d
+			x: -26.0d
 			y: -7.0d
 		}
 		{

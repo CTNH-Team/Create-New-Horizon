@@ -8,12 +8,6 @@
 	order_index: 0
 	quest_links: [
 		{
-			id: "68D2466F72098A30"
-			linked_quest: "470B9D39E23E01F2"
-			x: 0.5d
-			y: 5.5d
-		}
-		{
 			id: "797E2E6DBDE8F61A"
 			linked_quest: "3F2A5A509F9DF84B"
 			x: 0.5d
@@ -119,6 +113,7 @@
 		}
 		{
 			dependencies: ["12316D2A6DC56654"]
+			description: ["    不要试图直接用这个寻找洞穴，否则alex's caves的作者会没收你的指南针"]
 			id: "60F22A89A32E0DD5"
 			rewards: [{
 				id: "0464156D5866E120"
@@ -129,7 +124,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest6.subtitle}"
+			subtitle: "可以用这个寻找洞穴小屋"
 			tasks: [{
 				id: "11E87C8E711D9668"
 				title: "Alex的洞穴"
@@ -534,8 +529,13 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["63135DB9ECF07650"]
+			dependencies: [
+				"63135DB9ECF07650"
+				"50800D463AF3C2EB"
+			]
+			dependency_requirement: "one_completed"
 			id: "08090475481678F3"
+			subtitle: "武神女王战利品宝箱中有几率出现"
 			tasks: [{
 				id: "19F40957F1D74006"
 				item: "ctnhcore:program_rocket_core_1"
@@ -566,6 +566,20 @@
 			}]
 			x: 7.0d
 			y: 14.5d
+		}
+		{
+			dependencies: ["12316D2A6DC56654"]
+			hide_dependency_lines: false
+			id: "470B9D39E23E01F2"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest10.subtitle}"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "39382193B16E173D"
+				title: "{ftbquests.chapter.08AF6857D150C353.quest10.task_+4123082377078380349.title}"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: 4.5d
 		}
 	]
 	title: "{ftbquests.chapter.2C8B1E40224C9A0C.title}"

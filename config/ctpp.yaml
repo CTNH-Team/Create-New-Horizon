@@ -42,7 +42,7 @@ ctnhConfig:
   enableKineticGenerator: true
 
   # KineticGenerator's Generating Boost (0.5~8.0)
-  kineticGeneratorGeneratingBoost: 2.0
+  kineticGeneratorGeneratingBoost: 1.0
 
   # Does KineticGenerator require lubricant?
   kineticGeneratorGeneratingRequireLubricant: true

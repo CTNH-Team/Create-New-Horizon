@@ -1,9 +1,9 @@
 {
-  "type": "tconstruct:casting_basin",
-  "cooling_time": 195,
-  "fluid": {
-    "amount": 1000,
-    "tag": "tconstruct:molten_glass"
-  },
-  "result": "minecraft:glass"
+	"type": "tconstruct:casting_basin",
+	"cooling_time": 59,
+	"fluid": {
+		"amount": 144,
+		"tag": "forge:glass"
+	},
+	"result": "minecraft:glass"
 }

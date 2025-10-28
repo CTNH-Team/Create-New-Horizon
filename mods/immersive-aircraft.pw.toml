@@ -3,10 +3,11 @@ filename = "immersive_aircraft-1.1.5+1.20.1-forge.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/5898/208/immersive_aircraft-1.1.5+1.20.1-forge.jar"
 hash-format = "sha1"
 hash = "8567342d7148aab8d50ee8420e0755bc9599dda6"
-url = "https://edge.forgecdn.net/files/5898/208/immersive_aircraft-1.1.5+1.20.1-forge.jar"
 
+[update]
 [update.curseforge]
 file-id = 5898208
 project-id = 666014

@@ -580,6 +580,7 @@
 				Count: 1
 				id: "gtceu:rose_gold_mining_hammer"
 				tag: {
+					Damage: 0
 					DisallowContainerItem: 0b
 					Enchantments: [{
 						id: "minecraft:fortune"
@@ -595,7 +596,6 @@
 						TorchPlacing: 1b
 					}
 					GT.Tool: {
-						Damage: 0
 						HarvestLevel: 2
 						MaxDamage: 2303
 						ToolSpeed: 8.8f
@@ -612,6 +612,7 @@
 					Count: 1
 					id: "gtceu:rose_gold_mining_hammer"
 					tag: {
+						Damage: 0
 						DisallowContainerItem: 0b
 						Enchantments: [{
 							id: "minecraft:fortune"
@@ -627,7 +628,6 @@
 							TorchPlacing: 1b
 						}
 						GT.Tool: {
-							Damage: 0
 							HarvestLevel: 2
 							MaxDamage: 2303
 							ToolSpeed: 8.8f

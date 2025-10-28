@@ -1,0 +1,301 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "387655B3E5BE4912"
+	group: "4CD84F8DB1FF8B7E"
+	icon: {
+		Count: 1
+		id: "minecraft:iron_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "387655B3E5BE4912"
+	order_index: 1
+	quest_links: [
+		{
+			id: "652E0BAD6776556B"
+			linked_quest: "210C1FB94A0AA2B0"
+			shape: "gear"
+			size: 3.0d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "58DB151681C0C18A"
+			linked_quest: "50B3C9E6ECB749A2"
+			shape: "gear"
+			size: 3.0d
+			x: 4.5d
+			y: -6.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["6EADC71354FF9E80"]
+			id: "6CA2F157BAE76D50"
+			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest66.subtitle}"
+			tasks: [{
+				id: "6147405E44AAA165"
+				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest66.task_+7009642118648602981.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "10B1EE4638BC3203"
+			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest67.subtitle}"
+			tasks: [{
+				id: "6A26DD0599CB6F4D"
+				item: "createoreexcavation:vein_finder"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6EADC71354FF9E80"]
+			id: "65F3DFA4C8A1E5BE"
+			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest65.subtitle}"
+			tasks: [{
+				id: "3BAE3A1289E355D7"
+				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest65.task_+4300438545482601943.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["156B500126054BC2"]
+			description: [
+				"{ftbquests.chapter.4408EF6F9E2E1624.quest64.description1}"
+				"{ftbquests.chapter.4408EF6F9E2E1624.quest64.description2}"
+			]
+			id: "6EADC71354FF9E80"
+			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest64.subtitle}"
+			tasks: [{
+				id: "3DCD7A350F944CD6"
+				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest64.task_+4453349974852521174.title}"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"65F3DFA4C8A1E5BE"
+				"6CA2F157BAE76D50"
+			]
+			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest80.description1}"]
+			id: "1C93DF12398AA4D3"
+			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest80.subtitle}"
+			tasks: [{
+				id: "086C0B12858B6581"
+				item: "createoreexcavation:sample_drill"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6CDD36A3C742B7F2"
+				"106DC15191737D98"
+			]
+			id: "156B500126054BC2"
+			subtitle: "需要润滑油"
+			tasks: [{
+				id: "12FCB62B90907890"
+				item: "createoreexcavation:drilling_machine"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1162E347E7C00175"]
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest75.description1}"]
+			id: "4E153836BC53CDD1"
+			shape: "gear"
+			size: 3.0d
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest75.subtitle}"
+			tasks: [{
+				id: "2C454A9B147379F9"
+				item: "ctnhcore:martial_morality_eye"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			id: "189EA0629CFAD1AB"
+			tasks: [{
+				id: "620BF10408A855C5"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["189EA0629CFAD1AB"]
+			id: "41BB77968B763B18"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest31.subtitle}"
+			tasks: [{
+				id: "7F90E118B46EDCFA"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["41BB77968B763B18"]
+			id: "30733F339E6E47CE"
+			tasks: [{
+				id: "229516F116F7AD2D"
+				item: "gtceu:rich_soil_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06B1BB32F96710A2"]
+			id: "2C18C2C4CA54D968"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest29.subtitle}"
+			tasks: [{
+				id: "2365A1402342CBDF"
+				item: "gtceu:fermented_biomass_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2C6B53F9425ACB79"
+				"30733F339E6E47CE"
+			]
+			id: "06B1BB32F96710A2"
+			tasks: [{
+				id: "0D042241D5CFECD7"
+				item: "gtceu:ethanol_mixture_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06B1BB32F96710A2"]
+			id: "3C2319F21ED52FAE"
+			tasks: [{
+				id: "42AF2D6F2387F79A"
+				item: "gtceu:ethanol_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C2319F21ED52FAE"]
+			id: "0FBB6BA03487D67F"
+			tasks: [{
+				id: "2D6D506C4E94FF0D"
+				item: "gtceu:raw_bio_diesel_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1162E347E7C00175"]
+			id: "2C6B53F9425ACB79"
+			tasks: [{
+				id: "1D13E54D6C41BBF7"
+				item: "createdieselgenerators:basin_lid"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["75774FD66E513B5C"]
+			description: ["{ftbquests.chapter.lv.quest72.description1}"]
+			id: "3534E727B52EC2F2"
+			subtitle: "{ftbquests.chapter.lv.quest72.subtitle}"
+			tasks: [{
+				id: "0D86590B09AEE101"
+				item: "gtceu:lv_miner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3534E727B52EC2F2"]
+			description: ["{ftbquests.chapter.lv.quest73.description1}"]
+			id: "3889F08007235A6C"
+			subtitle: "{ftbquests.chapter.lv.quest73.subtitle}"
+			tasks: [{
+				id: "110FE957A43551B9"
+				item: "gtmthings:lv_digital_miner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "2F6F9A8648EB8899"
+			tasks: [{
+				id: "1F842B0ABEBC4043"
+				item: "gtmthings:mv_digital_miner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "136335555BE48105"
+			tasks: [{
+				id: "67CD18BBB16859AD"
+				item: "gtmthings:hv_digital_miner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "3979018285276884"
+			tasks: [{
+				id: "6CD9D0433C49D89E"
+				item: "gtceu:ev_large_miner"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			id: "512D724945EF3D93"
+			tasks: [{
+				id: "3BD3F79292AC8E9B"
+				item: "gtceu:iv_large_miner"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "7F6ED86E26844364"
+			tasks: [{
+				id: "25998370F96B7EF5"
+				item: "gtceu:luv_large_miner"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+	]
+	title: "如何挖矿"
+}

@@ -3,10 +3,11 @@ filename = "vintage_kubejs-1.20.1-1.0.0rc-2.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/5607/145/vintage_kubejs-1.20.1-1.0.0rc-2.jar"
 hash-format = "sha1"
 hash = "ca49a4163794cc0f94a31a17f6956be11979db53"
-url = "https://edge.forgecdn.net/files/5607/145/vintage_kubejs-1.20.1-1.0.0rc-2.jar"
 
+[update]
 [update.curseforge]
 file-id = 5607145
 project-id = 1077532

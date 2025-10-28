@@ -3,10 +3,11 @@ filename = "structure_gel-1.20.1-2.16.2.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/5278/429/structure_gel-1.20.1-2.16.2.jar"
 hash-format = "sha1"
 hash = "ec8c59d2a69eca3249a8da673f572b40b6d59895"
-url = "https://edge.forgecdn.net/files/5278/429/structure_gel-1.20.1-2.16.2.jar"
 
+[update]
 [update.curseforge]
 file-id = 5278429
 project-id = 378802

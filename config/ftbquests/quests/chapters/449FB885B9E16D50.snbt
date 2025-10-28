@@ -5,7 +5,7 @@
 	group: "32DB92B5A6E4493B"
 	icon: "botania:mana_pylon"
 	id: "449FB885B9E16D50"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -88,16 +88,6 @@
 			}]
 			x: -23.0d
 			y: -1.0d
-		}
-		{
-			id: "6F0CE28D9DEF3D33"
-			tasks: [{
-				id: "1103864AD92F7FEF"
-				item: "ctnhcore:season_reactor"
-				type: "item"
-			}]
-			x: -17.0d
-			y: -15.0d
 		}
 		{
 			id: "0BE8E02ED6A5478C"
@@ -198,8 +188,8 @@
 		{
 			id: "389A67C76B4B1821"
 			tasks: [{
-				id: "2E6A812D83EBC8A9"
-				item: "gtceu:gaia_reactor"
+				id: "42B0E04A51E87BCD"
+				item: "ctnhcore:gaia_reactor"
 				type: "item"
 			}]
 			x: -5.0d
@@ -228,12 +218,12 @@
 			y: -11.0d
 		}
 		{
-			description: ["注意0号电路板的注血配方不能自动化，建议用付费的（免费的真不行）"]
+			description: ["注意：0号电路板的注血配方可能会出现不检测的情况，此时需要开关输入仓或机器来手动触发检测"]
 			id: "4A0AC9C14C9F5EFD"
 			subtitle: "在IV会很好用，做出来后就不用管那个b祭坛了"
 			tasks: [{
-				id: "027B599FD889A72D"
-				item: "ctnhcore:alter"
+				id: "739D51C5E20C9465"
+				item: "ctnhcore:industrial_altar"
 				type: "item"
 			}]
 			x: -17.0d
@@ -241,7 +231,6 @@
 		}
 		{
 			id: "0684030D5FD75087"
-			subtitle: "可制作凋零灵魂瓶"
 			tasks: [{
 				id: "3C245078B57AE5F8"
 				item: "ctnhcore:hellforge"
@@ -410,7 +399,6 @@
 			dependencies: [
 				"0BE8E02ED6A5478C"
 				"04E158A2929EB69A"
-				"6F0CE28D9DEF3D33"
 			]
 			id: "237681239D5CE55C"
 			rewards: [{

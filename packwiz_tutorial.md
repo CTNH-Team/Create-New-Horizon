@@ -6,3 +6,5 @@ Finally run `java -jar packwiz-installer-bootstrap.jar pack.toml` to download mi
 Every time you finish changing something, you'd better run `packwiz refresh` to refresh the pack before submit.
 ## fix missing mods
 You can find that what you pulled from the repository in the mods file folder is all pw.toml files, we should run `java -jar packwiz-installer-bootstrap.jar pack.toml` to download missing mods. If it report some warning, don't care and just click `continue`.
+## Tutorial
+[网址](https://packwiz.infra.link/tutorials/creating/getting-started/)

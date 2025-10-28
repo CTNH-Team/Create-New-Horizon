@@ -210,7 +210,7 @@ ServerEvents.recipes(event => {
         event.recipes.create.mixing('8x extendedcrafting:luminessence', ['4x minecraft:glowstone_dust', 'minecraft:gunpowder', 'minecraft:redstone']).heated()
         event.recipes.create.mixing('16x extendedcrafting:crystaltine_ingot', ['4x extendedcrafting:luminessence_block', 'gtceu:quantum_star', 'minecraft:netherite_ingot']).heated()
         event.recipes.create.mixing('create:rose_quartz', ['minecraft:quartz', '4x minecraft:redstone']).heated()
-        event.recipes.create.mixing('create:rose_quartz', ['2x biomesoplenty:rose_quartz_chunk', 'minecraft:redstone']).heated()
+        event.recipes.create.mixing('create:rose_quartz', ['2x biomesoplenty:rose_quartz_chunk', Fluid.of('minecraft:water', 100)])
         event.recipes.create.mixing(Fluid.of('gtceu:concrete', /** @type {number} */ 1000), ['gtceu:stone_dust', 'gtceu:quartz_sand_dust', 'gtceu:clay_dust', '2x gtceu:calcite_dust', Fluid.of('minecraft:water', 1000)]).heated()
         event.recipes.create.mixing('2x gtceu:andesite_alloy_dust', [Fluid.of('gtceu:iron', 144), '2x gtceu:andesite_dust'])
         event.recipes.create.mixing('gtceu:stem_cells', [Fluid.of('gtceu:simple_growth_medium', 144), '4x ctnhcore:animal_excreta'])
@@ -218,6 +218,13 @@ ServerEvents.recipes(event => {
         event.recipes.create.mixing('gtceu:red_alloy_dust', ['4x minecraft:redstone', '1x gtceu:copper_dust']).heated()
         event.recipes.create.mixing(['gtceu:andesite_alloy_dust', Item.of('gtceu:andesite_alloy_dust').withChance(0.3)], ['gtceu:andesite_dust', 'gtceu:iron_dust'])
         event.recipes.create.mixing('8x gtceu:steel_precursor_dust', ['8x gtceu:wrought_iron_dust', '3x gtceu:coke_dust']).heated()
+        event.recipes.create.mixing('8x gtceu:steel_precursor_dust', ['8x gtceu:wrought_iron_dust', '6x #forge:dusts/charcoal']).heated()
+        event.recipes.create.mixing('3x gtceu:bronze_dust', ['3x gtceu:copper_dust', 'gtceu:tin_dust']).heated()
+
+        //alex 磁铁
+        event.recipes.create.mixing('2x alexscaves:scarlet_neodymium_ingot', ["alexscaves:raw_scarlet_neodymium", "minecraft:iron_ingot"])
+        event.recipes.create.mixing('2x alexscaves:azure_neodymium_ingot', ["alexscaves:raw_azure_neodymium", "minecraft:iron_ingot"])
+
     })
     //组装
 ServerEvents.recipes(event => { //红色合金线缆
@@ -237,7 +244,7 @@ ServerEvents.recipes(event => {
         .loops(1)
 })
 ServerEvents.recipes(event => {
-    let transitional = 'minecraft:oak_slab'
+    let transitional = 'ctpp:incomplete_basic_mechanism'
     event.recipes.create.sequenced_assembly([
             'ctpp:basic_mechanism'
         ], '#minecraft:wooden_slabs', [
@@ -519,6 +526,8 @@ ServerEvents.recipes(event => {
     event.recipes.create.crushing('gtceu:crimsite_dust', 'create:crimsite')
     event.recipes.create.crushing('gtceu:ochrum_dust', 'create:ochrum')
     event.recipes.create.crushing('gtceu:veridium_dust', 'create:veridium')
+    event.recipes.create.crushing('gtceu:wrought_iron_dust', 'gtceu:wrought_iron_ingot')
+    event.recipes.create.milling('gtceu:wrought_iron_dust', 'gtceu:wrought_iron_ingot')
     event.recipes.create.splashing(['gtceu:silicon_dioxide_dust', Item.of('4x gtceu:zinc_nugget').withChance(0.5)], 'gtceu:asurine_dust')
     event.recipes.create.splashing(['gtceu:silicon_dioxide_dust', Item.of('4x minecraft:iron_nugget').withChance(0.5)], 'gtceu:crimsite_dust')
     event.recipes.create.splashing(['gtceu:silicon_dioxide_dust', Item.of('4x gtceu:precious_alloy_nugget').withChance(0.5)], 'gtceu:ochrum_dust')
@@ -541,25 +550,26 @@ ServerEvents.recipes(event => {
     let transitional = 'gtceu:ulv_input_bus'
     event.recipes.create.sequenced_assembly([
             'gtceu:ulv_input_bus'
-        ], 'gtceu:steam_input_bus', [
+        ], '#forge:chests/wooden', [
             event.recipes.createDeploying(transitional, [transitional, 'ctpp:steel_mechanism']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:ulv_machine_casing']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:double_wrought_iron_plate']),
-
-        ]).transitionalItem('gtceu:steam_input_bus')
-        .loops(2)
+        ]).transitionalItem('#forge:chests/wooden')
+        .loops(1)
 })
 ServerEvents.recipes(event => {
     let transitional = 'gtceu:ulv_input_hatch'
     event.recipes.create.sequenced_assembly([
             'gtceu:ulv_input_hatch'
-        ], 'gtceu:steam_input_hatch', [
+        ], 'gtceu:bronze_drum', [
             event.recipes.createDeploying(transitional, [transitional, 'ctpp:steel_mechanism']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:ulv_machine_casing']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:double_wrought_iron_plate']),
-        ]).transitionalItem('gtceu:steam_input_hatch')
-        .loops(2)
+        ]).transitionalItem('gtceu:bronze_drum')
+        .loops(1)
 })
+
+
 ServerEvents.recipes(event => {
     let transitional = 'gtceu:tungsten_steel_frame'
     event.recipes.create.sequenced_assembly([

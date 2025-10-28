@@ -17,7 +17,7 @@ Ponder.registry(event=>{
         "ctpp:zpm_kinetic_output_box"
         ])
         .scene("block_ponder",
-        "应力输入/输出仓",
+        "kinetic input/output hatch",
         "kubejs:kinetic_input",
         (scene,util)=>{
             scene.showBasePlate();
@@ -27,16 +27,16 @@ Ponder.registry(event=>{
             scene.idle(80)
 
             scene.overlay.showOutline("red", {}, [1, 1, 3, 5, 1, 3], 60)
-            scene.text(60,"这是应力仓，它们拥有不同的等级",[1, 2, 3]).attachKeyFrame()
+            scene.text(60,"This is kinetic hatch,they have different levels.",[1, 2, 3]).attachKeyFrame()
 
             scene.idle(80)
 
             scene.overlay.showOutline("red", {}, [5, 1, 3], 60)
-            scene.text(60,"你可能用到的最低等级的应力仓为lv应力仓，它在256RPM转速的情况下需要输入32768su的应力",[5, 2, 3]).attachKeyFrame()
+            scene.text(60,"The lowest level of kinetic hatch you may use is the LV kinetic hatch,it have 32768su input/output at 256RPM speed.",[5, 2, 3]).attachKeyFrame()
 
             scene.idle(80)
 
-            scene.text(120,"与格雷的升压机制类似，应力仓每升一级需要将所需应力*4",[1, 2, 3]).attachKeyFrame()
+            scene.text(120,"Similar to gregtech's boost mechanism,the required stress * 4 is required for each level of the kinetic hatch",[1, 2, 3]).attachKeyFrame()
             scene.overlay.showOutline("red", {}, [4, 1, 3], 20)
             scene.text(20,"131072su",[4, 2.5, 3]).attachKeyFrame()
             scene.idle(30)
@@ -55,7 +55,7 @@ Ponder.registry(event=>{
 //牧场
 Ponder.registry(event=>{
     event.create('ctnhcore:meadow')
-    .scene("multiblock_building",
+    .scene("meadou_building",
         "How to build a gregtech multiblock",
         "kubejs:meadow",
         (scene,util)=>{
@@ -64,7 +64,7 @@ Ponder.registry(event=>{
             
             scene.idle(10)
             scene.world.showSection([6, 1, 1],"down")
-            scene.text(40,"放置牧场主方块",[3, 2, 2]).attachKeyFrame()
+            scene.text(40,"First, you need a meadow main block.",[3, 2, 2]).attachKeyFrame()
 
             scene.idle(60)
 
@@ -72,7 +72,7 @@ Ponder.registry(event=>{
                 .rightClick()
                 .withItem('gtceu:terminal')
                 .whileSneaking()
-            scene.text(40,"使用终端一键放置",[6, 2, 1]).attachKeyFrame()
+            scene.text(40,"One click placement using the terminal.",[6, 2, 1]).attachKeyFrame()
             scene.idle(10)
             scene.world.showSection([1, 1, 1, 11, 7, 11],"down")
             scene.world.modifyBlockEntityNBT([5, 1, 1], nbt => { nbt.Speed = 0 });
@@ -80,28 +80,28 @@ Ponder.registry(event=>{
             scene.idle(60)
 
             scene.overlay.showOutline("red", {}, [4, 1, 6, 2, 1, 2], 40)
-            scene.text(40,"睡莲和水不会自动放置，记得手动填上",[2,5,1]).attachKeyFrame()
+            scene.text(40,"Lily pad and water can not automatically place, remember to manually fill them in.",[2,5,1]).attachKeyFrame()
 
             scene.idle(60)
 
             scene.overlay.showOutline("red", {}, [4, 1, 1, 3, 1, 1], 40)
-            scene.text(40,"确保有足够的输出物品和液体的空间",[3,2,1]).attachKeyFrame()
+            scene.text(40,"Ensure sufficient space for output items and liquids.",[3,2,1]).attachKeyFrame()
 
             scene.idle(60)
 
             scene.overlay.showOutline("red", {}, [7, 1, 1], 40)
 
-            scene.text(40,"别忘了将电路设置为0号",[7,2,1]).attachKeyFrame()
+            scene.text(40,"Don't forget to set the circuit to 0.",[7,2,1]).attachKeyFrame()
 
             scene.idle(60)
 
             scene.world.showSection([5, 1, 0],"down")
             scene.world.modifyBlockEntityNBT([5, 1, 1], nbt => { nbt.Speed = 256 });
-            scene.text(40,"接入应力",[4, 1, 1]).attachKeyFrame()
+            scene.text(40,"Access stress.",[4, 1, 1]).attachKeyFrame()
 
             scene.idle(60)
 
-            scene.text(60,"放入动物，动物越多产出越多",[5, 1, 5]).attachKeyFrame()
+            scene.text(60,"Put in animals, the more animals there are, the more they produce.",[5, 1, 5]).attachKeyFrame()
             scene.world.createEntity("minecraft:cow", [9, 2, 5])
             scene.idle(10)
             scene.world.createEntity("minecraft:sheep", [7, 2, 5])
@@ -115,24 +115,24 @@ Ponder.registry(event=>{
             scene.idle(60)
             
             scene.overlay.showOutline("red", {}, [9, 2, 5 , 8, 3, 4], 30)
-            scene.text(30,"牛的产出物为牛奶和皮革",[9,3,5]).attachKeyFrame()
+            scene.text(30,"The output of cows is milk and leather.",[9,3,5]).attachKeyFrame()
             scene.idle(40)
             scene.overlay.showOutline("red", {}, [7, 2, 5 , 6, 3, 4], 30)
-            scene.text(30,"羊的产出物为羊毛",[7,3,5]).attachKeyFrame()
+            scene.text(30,"The output of sheep is wool.",[7,3,5]).attachKeyFrame()
             scene.idle(40)
             scene.overlay.showOutline("red", {}, [5, 2, 5 , 4, 3, 4], 30)
-            scene.text(30,"猪的产出物为猪肉",[5,3,5]).attachKeyFrame()
+            scene.text(30,"The output of pigs is pork.",[5,3,5]).attachKeyFrame()
             scene.idle(40)
             scene.overlay.showOutline("red", {}, [3, 2, 5 , 2, 3, 4], 30)
-            scene.text(30,"鸡的产出物为鸡蛋",[3,3,5]).attachKeyFrame()
+            scene.text(30,"The output of chickens is eggs.",[3,3,5]).attachKeyFrame()
             scene.idle(40)
             scene.overlay.showOutline("red", {}, [9, 2, 5 , 2, 3, 4], 60)
-            scene.text(60,"所有动物都会产生粪便",[3,3,5]).attachKeyFrame()
+            scene.text(60,"All animals produce feces.",[3,3,5]).attachKeyFrame()
 
             scene.idle(60)
 
             scene.world.showSection([4, 1, 0, 3, 1, 0],"down")
-            scene.text(40,"最后放上容器，就可以完美的使用牧场了",[2, 1, 1]).attachKeyFrame()
+            scene.text(40,"Finally, place the container and you can use the meadow perfectly.",[2, 1, 1]).attachKeyFrame()
             //scene.particles.simple(50,'minecraft:composter',[8,3,8]).density(20)
             //let blockpos = []
         })
@@ -142,7 +142,7 @@ Ponder.registry(event=>{
 //粉碎工厂
 Ponder.registry(event=>{
     event.create('ctpp:smashing_factory')
-        .scene("multiblock_building",
+        .scene("smashing_factory_building",
         "How to build a gregtech multiblock",
         "kubejs:smashing_factory",
         (scene,util)=>{
@@ -156,7 +156,7 @@ Ponder.registry(event=>{
             scene.idle(10)
 
             scene.world.showSection([3, 2, 1],"down")
-            scene.text(60,"放置粉碎工厂主方块",[3, 2.5, 1]).attachKeyFrame()
+            scene.text(60,"First, you need a smashing factory main block.",[3, 2.5, 1]).attachKeyFrame()
 
             scene.idle(60)
 
@@ -166,12 +166,12 @@ Ponder.registry(event=>{
                 .whileSneaking()
             scene.idle(40)
             scene.world.showSection([1, 1, 1, 5, 3, 5],"down")
-            scene.text(40,'使用终端一键放置').attachKeyFrame()
+            scene.text(40,'One click placement using the terminal.').attachKeyFrame()
 
             scene.idle(60)
 
             scene.addKeyframe()
-            scene.text(100,'由于终端的问题，一键放置的粉碎轮并不会以正确的方向摆放,而是呈现为这样的形态')
+            scene.text(100,'Due to issues with the terminal, the terminal placed crushing wheel is not placed in the correct direction, but rather appears in this form')
             scene.idle(40)
             scene.world.replaceBlocks(crushing_wheel_right, "minecraft:air", true)
             scene.world.setBlock([2, 3, 2], crushing_wheel, true)
@@ -182,7 +182,7 @@ Ponder.registry(event=>{
             scene.idle(100)
 
             scene.addKeyframe()
-            scene.text(80,'这时候我们需要手动将粉碎轮以正确的方向替换回去')
+            scene.text(80,'At this point, we need to manually replace the crushing wheel in the correct direction.')
             scene.world.setBlock([2, 3, 3], crushing_wheel, true)
             scene.world.setBlock([4, 3, 3], crushing_wheel, true)
             scene.world.modifyBlocks(crushing_wheel_right, () => Block.id(crushing_wheel).with("axis", "z"), true)
@@ -192,17 +192,17 @@ Ponder.registry(event=>{
             scene.idle(100)
 
             scene.world.modifyBlockEntityNBT([2, 2, 1], nbt => { nbt.Speed = 256 })
-            scene.text(80,'接入应力',[3,1.75,2]).attachKeyFrame()
+            scene.text(80,'Access stress.',[3,1.75,2]).attachKeyFrame()
             scene.overlay.showOutline("red", {}, [2, 2, 1], 80)
             scene.idle(100)
             scene.world.replaceBlocks([4, 2, 1], "ctpp:mv_kinetic_input_box", true)
-            scene.text(80,'如果粉碎工厂里有多个不同等级的应力输入仓，那么实际运行速度会按照等级最高的应力仓计算',[5,1.75,2]).attachKeyFrame()
+            scene.text(80,'If there are multiple kinetic input hatch of different levels in the smashing factory, the actual operating speed will be calculated based on the highest level of kinetic input hatch.',[5,1.75,2]).attachKeyFrame()
             scene.idle(20)
             scene.world.modifyBlockEntityNBT([4, 2, 1], nbt => { nbt.Speed = 64 })
 
             scene.idle(100)
 
-            scene.text(80,'现在你可以正常使用粉碎工厂了，需要注意，本机器并没有研磨副产物',[4,1.75,2]).attachKeyFrame()
+            scene.text(80,'Now you can use the smashing factory normally. Please note that this machine does not produce any grinding by-products',[4,1.75,2]).attachKeyFrame()
             //scene.particles.simple(50,'minecraft:composter',[8,3,8]).density(20)
             //let blockpos = []
         })
@@ -213,7 +213,7 @@ Ponder.registry(event=>{
 Ponder.registry(event=>{
     var kinetic_output = "ctpp:lv_kinetic_output_box"
     event.create('ctpp:windmill_control_center')
-        .scene("multiblock_building",
+        .scene("windmill_control_center_building",
         "How to build a gregtech multiblock",
         "kubejs:windmill_control_center",
         (scene,util)=>{
@@ -228,7 +228,7 @@ Ponder.registry(event=>{
             scene.idle(10)
 
             scene.world.showSection([3, 2, 2],"down")
-            scene.text(60,"放置风车控制中心主方块",[2.5, 3.5, 1]).attachKeyFrame()
+            scene.text(60,"First, you need a windmill control center main block",[2.5, 3.5, 1]).attachKeyFrame()
 
             scene.idle(60)
 
@@ -238,12 +238,12 @@ Ponder.registry(event=>{
                 .whileSneaking()
             scene.idle(40)
             scene.world.showSection([1, 1, 1, 5, 4, 5],"down")
-            scene.text(40,'使用终端一键放置').attachKeyFrame()
+            scene.text(40,'One click placement using the terminal.').attachKeyFrame()
             
             scene.idle(60)
             
             scene.world.setBlock([3, 3, 2], "gtceu:lv_input_hatch", true)
-            scene.text(60,'放置输入仓以确保可以输入润滑油').attachKeyFrame()
+            scene.text(60,'Place the input hatch to ensure that lubricating oil can be input').attachKeyFrame()
             scene.idle(20)
             scene.showControls(40,[2.5, 4.5, 1],"left")
                 .rightClick()
@@ -255,16 +255,16 @@ Ponder.registry(event=>{
             scene.world.setBlock([4, 3, 2], kinetic_output, true)
             scene.world.setBlock([2, 2, 2], kinetic_output, true)
             scene.world.setBlock([4, 2, 2], kinetic_output, true)
-            scene.text(60,'放置足够的应力输出仓确保可以输出应力').attachKeyFrame()
+            scene.text(60,'Place sufficient kinetic output hatch to ensure that stress can be output.').attachKeyFrame()
 
             scene.idle(80)
 
             scene.world.showSection([2, 5, 2, 4, 5, 4],"down")
-            scene.text(60,'在主方块16格半径内放置风车轴承，放置的越多输出的应力就越多,最多计入16个风车轴承').attachKeyFrame()
+            scene.text(60,'Place windmill bearings within the 16 grid radius of the main block, and the more they are placed, the more stress they will output. A maximum of 16 windmill bearings can be included.').attachKeyFrame()
 
             scene.idle(80)
 
-            scene.text(60,'在每个风车轴承上连接128个风帆或羊毛，让每个风车轴承的应力量为最大').attachKeyFrame()
+            scene.text(60,'Connect 128 sails or wool to each windmill bearing to maximize the stress of each windmill bearing.').attachKeyFrame()
             const WINDMILL1 = scene.world.showIndependentSection(windmill1,Direction.down)
             const WINDMILL2 = scene.world.showIndependentSection(windmill2,Direction.down)
             const WINDMILL3 = scene.world.showIndependentSection(windmill3,Direction.down)
@@ -272,7 +272,7 @@ Ponder.registry(event=>{
 
             scene.idle(80)
 
-            scene.text(60,'使风车轴承为激活状态').attachKeyFrame()
+            scene.text(60,'Activate the windmill bearings.').attachKeyFrame()
             scene.showControls(40,[2, 5.5, 2],"left")
                 .rightClick()
             scene.world.rotateSection(WINDMILL1, 0, 360, 0, 400)
@@ -282,7 +282,7 @@ Ponder.registry(event=>{
 
             scene.idle(80)
 
-            scene.text(60,'确保应力输出仓足够的情况下，你现在就可以享受风车神力了').attachKeyFrame()
+            scene.text(60,'With sufficient stress output compartment, you can now enjoy the power of the windmill.').attachKeyFrame()
             //scene.particles.simple(50,'minecraft:composter',[8,3,8]).density(20)
             //let blockpos = []
         })
@@ -294,7 +294,7 @@ Ponder.registry(event=>{
     var kinetic_output = "ctpp:lv_kinetic_output_box"
     event.create('ctnhcore:big_dam')
         .scene("big_dam_1",
-            "关于三峡大坝建造时的注意事项", 
+            "Precautions for the big dam", 
             "kubejs:big_dam_1",
         (scene,util)=>{
             scene.scaleSceneView(0.3)
@@ -302,7 +302,7 @@ Ponder.registry(event=>{
             scene.idle(10)
 
             scene.world.showSection([9, 8, 0],"down")
-            scene.text(60,"放置三峡大坝主方块",[9.5, 8.5, 1]).attachKeyFrame()
+            scene.text(60,"First, you need a big dam main block",[9.5, 8.5, 1]).attachKeyFrame()
 
             scene.idle(80)
 
@@ -312,24 +312,24 @@ Ponder.registry(event=>{
                 .whileSneaking()
             scene.idle(80)
             scene.world.showSection([0, 0, 0, 17, 15, 28],"down")
-            scene.text(60,'使用终端一键放置').attachKeyFrame()
+            scene.text(60,'One click placement using the terminal.').attachKeyFrame()
 
             scene.idle(80)
             
             scene.overlay.showOutline("red", {}, [16, 15, 1, 16, 15, 27], 60)
             scene.overlay.showOutline("red", {}, [3, 1, 1, 3, 1, 27], 60)
-            scene.text(60,'注意水不会自动放置，记得手动填上').attachKeyFrame()
+            scene.text(60,'Note that the water will not automatically place, remember to manually fill it in').attachKeyFrame()
             
             scene.idle(80)
 
             scene.overlay.showOutline("red", {}, [16, 15, 1, 16, 15, 27], 60)
-            scene.text(60,'顶层的水会结冰，可以在水源上方放置方块防止结冰').attachKeyFrame()
+            scene.text(60,'The top layer of water will freeze, so you can place blocks above the water source to prevent freezing.').attachKeyFrame()
             scene.idle(20)
             scene.world.showSection([16, 17, 1, 16, 17, 27],"down")
         })
 
         .scene("big_dam_2",
-            "三峡大坝的仓室限制", 
+            "Limitations on the hatch of the big dam", 
             "kubejs:big_dam_2",
         (scene,util)=>{
             const BIG_DAM = scene.world.showIndependentSection([0, 0, 0, 17, 15, 28],Direction.down)
@@ -342,13 +342,108 @@ Ponder.registry(event=>{
             scene.idle(80)
 
             scene.world.setBlock([9, 9, 0], "gtceu:lv_input_hatch", true)
-            scene.text(60,'放置输入仓以确保可以输入润滑油').attachKeyFrame()
+            scene.text(60,'Place the input hatch to ensure that lubricating oil can be input').attachKeyFrame()
 
             scene.idle(80)
 
-            scene.text(80,'你至少需要16个lv应力输出仓才可以将三峡大坝内的应力全部输出，否则三峡大坝将不会工作').attachKeyFrame()
+            scene.text(80,'You need at least 16 LV kinetic output hatch to fully output the stress inside the big dam, otherwise the dam will not work').attachKeyFrame()
             scene.idle(10)
             scene.world.replaceBlocks([11, 10, 0, 10, 7, 0], kinetic_output, true)
             scene.world.replaceBlocks([8, 10, 0, 7, 7, 0], kinetic_output, true)
+        })
+})
+//碳刷
+Ponder.registry(event=>{
+    event.create([
+        'create_new_age:carbon_brushes',
+        'create_new_age:generator_coil'
+        ])
+    .scene("carbon_brushes",
+        "Magneto generated electricity",
+        "kubejs:carbon_brushes",
+        (scene,util)=>{
+            var magnet1= util.select.fromTo(4, 5, 1, 2, 5, 8)
+            var magnet2= util.select.fromTo(4, 1, 1, 2, 1, 8)
+            var magnet3= util.select.fromTo(1, 4, 1, 1, 2, 8)
+            var magnet4= util.select.fromTo(5, 2, 1, 5, 4, 8)
+
+            scene.idle(10)
+            scene.world.showSection([0, 0, 0, 6, 0, 8],"north")
+
+            scene.idle(10)
+
+            scene.world.showSection([3, 3, 0],"north")
+            scene.world.modifyBlockEntityNBT([3, 3, 0, 3, 3, 9], nbt => { nbt.Speed = 16 });
+            scene.world.replaceBlocks(magnet1, 'create_new_age:magnetite_block', false)
+            scene.world.replaceBlocks(magnet2, 'create_new_age:magnetite_block', false)
+            scene.world.replaceBlocks(magnet3, 'create_new_age:magnetite_block', false)
+            scene.world.replaceBlocks(magnet4, 'create_new_age:magnetite_block', false)
+            scene.text(60,"This is carbon brushes.It can convert kinetic energy into electrical energy.",[3.5, 3.5, 0]).attachKeyFrame()
+
+            scene.idle(70)
+
+            scene.world.showSection([3, 3, 1, 3, 3.5, 1],"north")
+            scene.idle(10)
+            scene.text(60,"To provide sufficient kinetic energy, you need generator coils.",[2.5, 3.5, 1]).attachKeyFrame()
+
+            scene.idle(70)
+
+            scene.world.showSection([3, 5, 1],"north")
+            scene.idle(10)
+            scene.text(60,"Just having a generator coil is not enough to generate energy, you also need to install magnets around the coil.",[3, 5.5, 2]).attachKeyFrame()
+
+            scene.idle(70)
+
+            scene.world.showSection([3, 4, 0],"down")
+            scene.world.showSection([2, 3, 0],"east")
+            scene.idle(10)
+            scene.text(60,"Place containers or cables to export energy",[3, 3.5, 1]).attachKeyFrame()
+
+            scene.idle(70)
+
+            scene.text(60,"A generator coil can be accelerated by up to 12 magnets",[2, 5.5, 1]).attachKeyFrame()
+            scene.idle(10)
+            scene.world.showSection([1, 5, 1, 5, 1, 1],"north")
+
+            scene.idle(70)
+
+            scene.text(60,"One carbon brush can receive the kinetic energy of 8 generator coils").attachKeyFrame()
+            scene.idle(10)
+            scene.world.showSection([1, 5, 2, 5, 1, 9],"north")
+
+            scene.idle(70)
+
+            scene.text(60,"As the number of magnets increases, the stress consumption of the coil will also increase",[2, 5.5, 1]).attachKeyFrame()
+
+            scene.idle(60)
+
+            scene.text(60,"the rotational speed is also a major contributor to the increase in stress consumption",[3.5, 3.5, 0]).attachKeyFrame()
+            scene.idle(10)
+            scene.world.modifyBlockEntityNBT([3, 3, 0, 3, 3, 8], nbt => { nbt.Speed = 256 })
+
+            scene.idle(70)
+
+            scene.text(100,"Similarly, The grade of the magnet will also increase stress consumption.").attachKeyFrame()
+            scene.idle(20)
+            scene.world.replaceBlocks(magnet1, 'create_new_age:redstone_magnet', true)
+            scene.world.replaceBlocks(magnet2, 'create_new_age:redstone_magnet', true)
+            scene.world.replaceBlocks(magnet3, 'create_new_age:redstone_magnet', true)
+            scene.world.replaceBlocks(magnet4, 'create_new_age:redstone_magnet', true)
+            scene.idle(20)
+            scene.world.replaceBlocks(magnet1, 'create_new_age:layered_magnet', true)
+            scene.world.replaceBlocks(magnet2, 'create_new_age:layered_magnet', true)
+            scene.world.replaceBlocks(magnet3, 'create_new_age:layered_magnet', true)
+            scene.world.replaceBlocks(magnet4, 'create_new_age:layered_magnet', true)
+            scene.idle(20)
+            scene.world.replaceBlocks(magnet1, 'create_new_age:fluxuated_magnetite', true)
+            scene.world.replaceBlocks(magnet2, 'create_new_age:fluxuated_magnetite', true)
+            scene.world.replaceBlocks(magnet3, 'create_new_age:fluxuated_magnetite', true)
+            scene.world.replaceBlocks(magnet4, 'create_new_age:fluxuated_magnetite', true)
+            scene.idle(20)
+            scene.world.replaceBlocks(magnet1, 'create_new_age:netherite_magnet', true)
+            scene.world.replaceBlocks(magnet2, 'create_new_age:netherite_magnet', true)
+            scene.world.replaceBlocks(magnet3, 'create_new_age:netherite_magnet', true)
+            scene.world.replaceBlocks(magnet4, 'create_new_age:netherite_magnet', true)
+
         })
 })

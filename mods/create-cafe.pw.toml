@@ -3,10 +3,11 @@ filename = "createcafe-1.2.4-1.20.1.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/5237/090/createcafe-1.2.4-1.20.1.jar"
 hash-format = "sha1"
 hash = "d7f48c95833c8d83f2d9f8240819f2e9ee8dc3c0"
-url = "https://edge.forgecdn.net/files/5237/090/createcafe-1.2.4-1.20.1.jar"
 
+[update]
 [update.curseforge]
 file-id = 5237090
 project-id = 542235

@@ -87,7 +87,7 @@ ItemEvents.tooltip(event => {
     event.add('kubejs:uhv_voltage_coil', Text.translate('ctnh.uhv_voltage_coil').white())
 
     //Snow_city's cautions:
-    event.add('gtceu:ender_fluid_link_cover', '§4暂未实装')
+    //event.add('gtceu:ender_fluid_link_cover', '§4暂未实装')
     event.add(['gtceu:item_tag_filter', 'gtceu:fluid_tag_filter'], Text.red("非语句 [!] 不可用"))
     event.add('gtceu:nightvision_goggles', '§7用Gregtech的 [Armor Mode Switch] 键开启.')
     event.add(['gtceu:lp_steam_macerator', 'gtceu:hp_steam_macerator', 'gtceu:steam_grinder', 'gtceu:lv_macerator', 'gtceu:mv_macerator', 'ctpp:smashing_factory'], '§4研磨副产物只能通过HV及以上的电压获得！')

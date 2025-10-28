@@ -3,10 +3,11 @@ filename = "ferritecore-6.0.1-forge.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/4810/975/ferritecore-6.0.1-forge.jar"
 hash-format = "sha1"
 hash = "417fb6ce8f52abf40bd9d0390371790f9576f8ba"
-url = "https://edge.forgecdn.net/files/4810/975/ferritecore-6.0.1-forge.jar"
 
+[update]
 [update.curseforge]
 file-id = 4810975
 project-id = 429235

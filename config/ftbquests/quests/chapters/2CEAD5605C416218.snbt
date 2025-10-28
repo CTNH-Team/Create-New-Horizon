@@ -5,7 +5,7 @@
 	group: "4CD84F8DB1FF8B7E"
 	icon: "gtceu:oil_medium_bucket"
 	id: "2CEAD5605C416218"
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -1404,6 +1404,250 @@
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest67.title}"
 			x: 9.0d
 			y: 2.0d
+		}
+		{
+			id: "10E9DB3C92C8B969"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest36.subtitle}"
+			tasks: [{
+				id: "242E7A295BA60586"
+				item: "createdieselgenerators:oil_scanner"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description1}"
+				""
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description2}"
+				""
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description3}"
+				""
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description4}"
+				""
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description5}"
+				""
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description6}"
+				""
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description7}"
+				""
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description8}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description9}"
+				""
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description10}"
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description11}"
+				"{ftbquests.chapter.08AF6857D150C353.quest4.description12}"
+			]
+			id: "0DA7785CF55ABAAB"
+			tasks: [
+				{
+					id: "6A94E9FE0C9AC1A0"
+					item: "createdieselgenerators:pumpjack_hole"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3C426FAD847BF672"
+					item: "createdieselgenerators:pumpjack_bearing"
+					type: "item"
+				}
+				{
+					id: "44995081187636C5"
+					item: "createdieselgenerators:pumpjack_crank"
+					type: "item"
+				}
+				{
+					id: "01F00B505A8C928C"
+					item: "createdieselgenerators:pumpjack_head"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.08AF6857D150C353.quest4.title}"
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2D138FB6F66ED4D5"
+				"0DA7785CF55ABAAB"
+				"10E9DB3C92C8B969"
+			]
+			id: "6397FCC9081360A5"
+			tasks: [{
+				id: "251E1F73C6A9AAC8"
+				item: "gtceu:impure_oil_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6397FCC9081360A5"]
+			id: "31105ADA8A75BD01"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest14.subtitle}"
+			tasks: [{
+				id: "00F4CFFD57E04AFB"
+				item: "gtceu:sulfuric_naphtha_bucket"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6397FCC9081360A5"]
+			id: "327A7C4C3C7404CC"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest15.subtitle}"
+			tasks: [{
+				id: "423F14BBB55CD067"
+				item: "gtceu:sulfuric_heavy_fuel_bucket"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"501574CAF685828A"
+				"3F8458C2BA5156BF"
+			]
+			id: "7EF838EF4607A41D"
+			tasks: [{
+				id: "5B553B9B0975C1E3"
+				item: "gtceu:pure_bitumen_bucket"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6397FCC9081360A5"]
+			id: "01225A51A3963F11"
+			tasks: [{
+				id: "4045D78252AD026A"
+				item: "gtceu:bitumen_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7EF838EF4607A41D"]
+			id: "56BA200ABCEABC7A"
+			tasks: [{
+				id: "5D9DA2A1F623728D"
+				item: "gtceu:petroleum_coke_bucket"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7EF838EF4607A41D"]
+			id: "0AE0727C431D39A5"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest13.subtitle}"
+			tasks: [{
+				id: "4819ADF162A3E004"
+				item: "gtceu:oil_bucket"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["56BA200ABCEABC7A"]
+			id: "0858CB89E07BC65D"
+			tasks: [{
+				id: "1ECEDD3402CE53B9"
+				item: "gtceu:petroleum_coke_gem"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["78C907D8AEA05A18"]
+			id: "501574CAF685828A"
+			tasks: [{
+				id: "3AFEA4B9DFA82D54"
+				item: "gtceu:emulsified_bitumen_bucket"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"01225A51A3963F11"
+				"7AA11BFF6F7D4D48"
+			]
+			id: "78C907D8AEA05A18"
+			tasks: [{
+				id: "6C0225E8BD53EEFD"
+				item: "gtceu:emulsified_bitumen_slurry_bucket"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"25373674A1A9932C"
+				"2FC92689C24682AA"
+			]
+			id: "7AA11BFF6F7D4D48"
+			tasks: [{
+				id: "4153CD7E2BD5C1D8"
+				item: "gtceu:simple_emulgator_bucket"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 6.5d
+		}
+		{
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest20.description1}"]
+			id: "25373674A1A9932C"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest20.subtitle}"
+			tasks: [{
+				id: "4149619485BBB7D2"
+				item: "kubejs:tallow"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2FC92689C24682AA"]
+			id: "3F8458C2BA5156BF"
+			tasks: [{
+				id: "1B9FB0543F9BF0F2"
+				item: "gtceu:simple_demulsifier_bucket"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["08C88706F994E458"]
+			id: "2FC92689C24682AA"
+			tasks: [{
+				id: "17D4CC6BA58BE028"
+				item: "gtceu:soda_ash_dust"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 5.0d
+		}
+		{
+			id: "08C88706F994E458"
+			tasks: [{
+				id: "5694B31384C8BB1A"
+				item: "gtceu:raw_trona"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 3.5d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.2CEAD5605C416218.subtitle0}"]

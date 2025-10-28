@@ -1,7 +1,0 @@
-
-[visuals]
-	#Whether Farseer's effects are enabled (this is for sensitive types like photosensitivity)
-	FARSEER_EFFECTS_ENABLED = true
-	#Whether Farseer's effects reminder is enabled in login
-	EFFECTS_REMINDER_ENABLED = true
-

@@ -6,15 +6,28 @@
 	icon: "kubejs:steel_casing"
 	id: "08AF6857D150C353"
 	order_index: 1
-	quest_links: [{
-		id: "793AA9FA1B76D96F"
-		linked_quest: "1162E347E7C00175"
-		x: -1.5d
-		y: -5.0d
-	}]
+	quest_links: [
+		{
+			id: "793AA9FA1B76D96F"
+			linked_quest: "1162E347E7C00175"
+			size: 2.0d
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "71C1FD7C19D281BB"
+			linked_quest: "40A89FF9918E1BA5"
+			size: 2.0d
+			x: 0.5d
+			y: -2.0d
+		}
+	]
 	quests: [
 		{
-			dependencies: ["1162E347E7C00175"]
+			dependencies: [
+				"1162E347E7C00175"
+				"3367AE30ECB52ED6"
+			]
 			icon: "ctpp:steel_mechanism"
 			icon_scale: 1.3d
 			id: "7D76859D3E40A235"
@@ -33,123 +46,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.08AF6857D150C353.quest1.title}"
-			x: -1.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["7D76859D3E40A235"]
-			id: "64C293C5E547D47D"
-			tasks: [{
-				id: "770486D8C25F1E31"
-				item: "createdieselgenerators:engine_piston"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["64C293C5E547D47D"]
-			id: "3672E16CD2C53B19"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest3.subtitle}"
-			tasks: [{
-				id: "0A4B118AE7FAA844"
-				item: "createdieselgenerators:diesel_engine"
-				type: "item"
-			}]
-			x: -3.0d
+			x: -2.0d
 			y: 0.0d
-		}
-		{
-			dependencies: [
-				"71D83506BCD67EF2"
-				"10E9DB3C92C8B969"
-				"7D76859D3E40A235"
-			]
-			description: [
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description1}"
-				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description2}"
-				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description3}"
-				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description4}"
-				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description5}"
-				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description6}"
-				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description7}"
-				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description8}"
-				"{@pagebreak}"
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description9}"
-				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description10}"
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description11}"
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description12}"
-			]
-			id: "0DA7785CF55ABAAB"
-			tasks: [
-				{
-					id: "6A94E9FE0C9AC1A0"
-					item: "createdieselgenerators:pumpjack_hole"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "3C426FAD847BF672"
-					item: "createdieselgenerators:pumpjack_bearing"
-					type: "item"
-				}
-				{
-					id: "44995081187636C5"
-					item: "createdieselgenerators:pumpjack_crank"
-					type: "item"
-				}
-				{
-					id: "01F00B505A8C928C"
-					item: "createdieselgenerators:pumpjack_head"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.08AF6857D150C353.quest4.title}"
-			x: 1.0d
-			y: -3.0d
-		}
-		{
-			id: "71D83506BCD67EF2"
-			tasks: [{
-				id: "11FD7557A981B8FA"
-				item: "kubejs:steel_casing"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"2D138FB6F66ED4D5"
-				"0DA7785CF55ABAAB"
-			]
-			id: "6397FCC9081360A5"
-			tasks: [{
-				id: "251E1F73C6A9AAC8"
-				item: "gtceu:impure_oil_bucket"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["1162E347E7C00175"]
-			id: "2C6B53F9425ACB79"
-			tasks: [{
-				id: "1D13E54D6C41BBF7"
-				item: "createdieselgenerators:basin_lid"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -5.0d
 		}
 		{
 			id: "2D138FB6F66ED4D5"
@@ -158,297 +56,8 @@
 				item: "createdieselgenerators:distillation_controller"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["3672E16CD2C53B19"]
-			id: "24A3BEAC1C62DFEC"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest9.subtitle}"
-			tasks: [{
-				id: "7BFAEFB1D5014A2B"
-				item: "createdieselgenerators:large_diesel_engine"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"1E11A492F4576DBA"
-				"12316D2A6DC56654"
-			]
-			hide_dependency_lines: false
-			id: "470B9D39E23E01F2"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest10.subtitle}"
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				id: "39382193B16E173D"
-				title: "{ftbquests.chapter.08AF6857D150C353.quest10.task_+4123082377078380349.title}"
-				type: "dimension"
-			}]
-			x: 1.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["1162E347E7C00175"]
-			id: "1E11A492F4576DBA"
-			rewards: [{
-				command: "/gamephase add @p nether"
-				elevate_perms: true
-				id: "73102DDDEA76B9E4"
-				title: "{ftbquests.chapter.08AF6857D150C353.quest11.reward_8291177345133754852.title}"
-				type: "command"
-			}]
-			tasks: [{
-				id: "1BF05068C4319343"
-				item: {
-					Count: 1
-					id: "minecraft:flint_and_steel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -1.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["6397FCC9081360A5"]
-			id: "01225A51A3963F11"
-			tasks: [{
-				id: "4045D78252AD026A"
-				item: "gtceu:bitumen_bucket"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["7EF838EF4607A41D"]
-			id: "0AE0727C431D39A5"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest13.subtitle}"
-			tasks: [{
-				id: "4819ADF162A3E004"
-				item: "gtceu:oil_bucket"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["6397FCC9081360A5"]
-			id: "31105ADA8A75BD01"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest14.subtitle}"
-			tasks: [{
-				id: "00F4CFFD57E04AFB"
-				item: "gtceu:sulfuric_naphtha_bucket"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6397FCC9081360A5"]
-			id: "327A7C4C3C7404CC"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest15.subtitle}"
-			tasks: [{
-				id: "423F14BBB55CD067"
-				item: "gtceu:sulfuric_heavy_fuel_bucket"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["78C907D8AEA05A18"]
-			id: "501574CAF685828A"
-			tasks: [{
-				id: "3AFEA4B9DFA82D54"
-				item: "gtceu:emulsified_bitumen_bucket"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"25373674A1A9932C"
-				"2FC92689C24682AA"
-			]
-			id: "7AA11BFF6F7D4D48"
-			tasks: [{
-				id: "4153CD7E2BD5C1D8"
-				item: "gtceu:simple_emulgator_bucket"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"01225A51A3963F11"
-				"7AA11BFF6F7D4D48"
-			]
-			id: "78C907D8AEA05A18"
-			tasks: [{
-				id: "6C0225E8BD53EEFD"
-				item: "gtceu:emulsified_bitumen_slurry_bucket"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["08C88706F994E458"]
-			id: "2FC92689C24682AA"
-			tasks: [{
-				id: "17D4CC6BA58BE028"
-				item: "gtceu:soda_ash_dust"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 1.5d
-		}
-		{
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest20.description1}"]
-			id: "25373674A1A9932C"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest20.subtitle}"
-			tasks: [{
-				id: "4149619485BBB7D2"
-				item: "kubejs:tallow"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.5d
-		}
-		{
-			id: "08C88706F994E458"
-			tasks: [{
-				id: "5694B31384C8BB1A"
-				item: "gtceu:raw_trona"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"501574CAF685828A"
-				"3F8458C2BA5156BF"
-			]
-			id: "7EF838EF4607A41D"
-			tasks: [{
-				id: "5B553B9B0975C1E3"
-				item: "gtceu:pure_bitumen_bucket"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["2FC92689C24682AA"]
-			id: "3F8458C2BA5156BF"
-			tasks: [{
-				id: "1B9FB0543F9BF0F2"
-				item: "gtceu:simple_demulsifier_bucket"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7EF838EF4607A41D"]
-			id: "56BA200ABCEABC7A"
-			tasks: [{
-				id: "5D9DA2A1F623728D"
-				item: "gtceu:petroleum_coke_bucket"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["56BA200ABCEABC7A"]
-			id: "0858CB89E07BC65D"
-			tasks: [{
-				id: "1ECEDD3402CE53B9"
-				item: "gtceu:petroleum_coke_gem"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 7.5d
-		}
-		{
-			dependencies: [
-				"2C6B53F9425ACB79"
-				"30733F339E6E47CE"
-			]
-			id: "06B1BB32F96710A2"
-			tasks: [{
-				id: "0D042241D5CFECD7"
-				item: "gtceu:ethanol_mixture_bucket"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["06B1BB32F96710A2"]
-			id: "3C2319F21ED52FAE"
-			tasks: [{
-				id: "42AF2D6F2387F79A"
-				item: "gtceu:ethanol_bucket"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["06B1BB32F96710A2"]
-			id: "2C18C2C4CA54D968"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest29.subtitle}"
-			tasks: [{
-				id: "2365A1402342CBDF"
-				item: "gtceu:fermented_biomass_bucket"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["41BB77968B763B18"]
-			id: "30733F339E6E47CE"
-			tasks: [{
-				id: "229516F116F7AD2D"
-				item: "gtceu:rich_soil_dust"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["189EA0629CFAD1AB"]
-			id: "41BB77968B763B18"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest31.subtitle}"
-			tasks: [{
-				id: "7F90E118B46EDCFA"
-				item: "farmersdelight:rich_soil"
-				type: "item"
-			}]
-			x: -5.5d
+			x: -5.0d
 			y: -4.0d
-		}
-		{
-			id: "189EA0629CFAD1AB"
-			tasks: [{
-				id: "620BF10408A855C5"
-				item: "farmersdelight:organic_compost"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -5.0d
 		}
 		{
 			dependencies: ["2D138FB6F66ED4D5"]
@@ -459,30 +68,8 @@
 				item: "gtceu:seed_oil_bucket"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["3C2319F21ED52FAE"]
-			id: "0FBB6BA03487D67F"
-			tasks: [{
-				id: "2D6D506C4E94FF0D"
-				item: "gtceu:raw_bio_diesel_bucket"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			id: "10E9DB3C92C8B969"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest36.subtitle}"
-			tasks: [{
-				id: "242E7A295BA60586"
-				item: "createdieselgenerators:oil_scanner"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -5.0d
+			x: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -497,8 +84,8 @@
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4A20A744ACDB0ABF"]
@@ -508,8 +95,8 @@
 				item: "gtceu:lubricant_bucket"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -523,17 +110,17 @@
 				item: "gtceu:magnetic_iron_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
-				"680EE95FED0F46F5"
-				"24A3BEAC1C62DFEC"
-				"62BAC5BC588E4CAA"
+				"106DC15191737D98"
+				"2CB9C64B6AD4B61B"
+				"1407C9F660BC9038"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest55.description1}"]
+			description: [""]
 			id: "2D9F762371DEDF70"
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest55.subtitle}"
 			tasks: [
@@ -543,25 +130,17 @@
 					type: "item"
 				}
 				{
-					count: 12L
-					id: "749B8BF92428076A"
-					item: "create_new_age:magnetite_block"
-					type: "item"
-				}
-				{
-					id: "008DFC823DF82662"
+					id: "0326ECF3769946F0"
 					item: "create_new_age:carbon_brushes"
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 1.5d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
-			dependencies: [
-				"41E48BCAEAD9D47E"
-				"2D9F762371DEDF70"
-			]
+			dependencies: ["41E48BCAEAD9D47E"]
+			description: ["1ALV和4ALV是唯二可以使用的两种转换器"]
 			id: "54A0B48F51F12647"
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest56.subtitle}"
 			tasks: [{
@@ -569,8 +148,8 @@
 				item: "gtceu:lv_1a_energy_converter"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.0d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
 			id: "23FD399F5B59DA53"
@@ -579,8 +158,8 @@
 				item: "gtceu:sticky_resin"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 7.5d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -594,8 +173,8 @@
 				item: "gtceu:resin_printed_circuit_board"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 6.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["23FD399F5B59DA53"]
@@ -605,8 +184,8 @@
 				item: "gtceu:resistor"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 7.5d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			id: "3AFD46E811ED67AD"
@@ -615,14 +194,15 @@
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.5d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
 				"2CB9C64B6AD4B61B"
 				"0B8D27D4FAA175B9"
 				"3AFD46E811ED67AD"
+				"7441815510F49119"
 			]
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.08AF6857D150C353.quest68.description1}"]
@@ -633,25 +213,15 @@
 				item: "kubejs:general_circuit_lv"
 				type: "item"
 			}]
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest68.subtitle}"
 			tasks: [{
 				id: "4642660A4797E594"
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["470B9D39E23E01F2"]
-			id: "23EB2E3C95D020C6"
-			tasks: [{
-				id: "64FF21111F96EC3F"
-				item: "gtceu:sulfur_dust"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -7.0d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["23FD399F5B59DA53"]
@@ -661,75 +231,36 @@
 				item: "gtceu:resin_circuit_board"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 6.0d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
+			dependencies: [
+				"106DC15191737D98"
+				"7D76859D3E40A235"
+			]
 			id: "67EA5AED4C89F28E"
 			tasks: [{
 				id: "7466B7660A4991D8"
 				item: "vintageimprovements:helve_hammer"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.5d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["67EA5AED4C89F28E"]
 			id: "4B90C12A9AD3F488"
-			subtitle: "用手抡锤，或是用机器"
 			tasks: [{
 				id: "1407C9F660BC9038"
 				item: "gtceu:copper_foil"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 4.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
-			description: [
-				"{ftbquests.chapter.08AF6857D150C353.quest74.description1}"
-				"{ftbquests.chapter.08AF6857D150C353.quest74.description2}"
-				"{ftbquests.chapter.08AF6857D150C353.quest74.description3}"
-			]
-			id: "3942AF99CAFEF32C"
-			tasks: [{
-				id: "0F07A6703A44723A"
-				title: "{ftbquests.chapter.08AF6857D150C353.quest74.task_+1083017236350005818.title}"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.08AF6857D150C353.quest74.title}"
-			x: 0.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["1162E347E7C00175"]
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest75.description1}"]
-			id: "4E153836BC53CDD1"
-			shape: "gear"
-			size: 3.0d
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest75.subtitle}"
-			tasks: [{
-				id: "2C454A9B147379F9"
-				item: "ctnhcore:martial_morality_eye"
-				type: "item"
-			}]
-			x: 1.0357142857142918d
-			y: -5.074404761904752d
-		}
-		{
-			dependencies: ["3AFD46E811ED67AD"]
-			id: "10E46AEB034C47B6"
-			tasks: [{
-				id: "799C276593ADC318"
-				item: "gtceu:bronze_large_boiler"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["41E48BCAEAD9D47E"]
+			dependencies: ["3EFC30D1B3494B77"]
 			description: [
 				"{ftbquests.chapter.08AF6857D150C353.quest77.description1}"
 				"{ftbquests.chapter.08AF6857D150C353.quest77.description2}"
@@ -786,11 +317,11 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 6.0d
+			x: 0.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["1162E347E7C00175"]
+			dependencies: ["3EFC30D1B3494B77"]
 			id: "4ADE322F099F1C88"
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest78.subtitle}"
 			tasks: [{
@@ -798,20 +329,190 @@
 				item: "ctnhcore:advanced_coke_oven"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -7.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
-			id: "5E90AB6CBCB4E8E4"
-			shape: "square"
-			size: 1.5d
+			dependencies: ["62BAC5BC588E4CAA"]
+			id: "13388DB5A507AB34"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest55.description1}"
 			tasks: [{
-				id: "43BC65D8B9CD4AD4"
-				title: "这一章的主要任务是解决你在LV阶段早期的发电难题"
+				count: 12L
+				id: "5D54A22BD467C77B"
+				item: "create_new_age:magnetite_block"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6652CC7C49CA01CF"]
+			id: "3367AE30ECB52ED6"
+			tasks: [{
+				id: "2A082D3EDD4303D9"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			id: "6652CC7C49CA01CF"
+			tasks: [{
+				id: "5E10899E97C2DB53"
+				item: "gtceu:red_alloy_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3EFC30D1B3494B77"]
+			id: "20F1A65CC925BA92"
+			tasks: [{
+				id: "43D7723E8AA739B8"
+				item: "ctnhcore:mechanical_mixer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EFC30D1B3494B77"]
+			id: "2F56493CC7A0B409"
+			tasks: [{
+				id: "70E2952C1068F302"
+				item: "ctnhcore:mechanical_pressor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3EFC30D1B3494B77"]
+			id: "2667FDA7BF75AD5B"
+			tasks: [{
+				id: "707374B426943A86"
+				item: "ctnhcore:mechanical_lathe"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EFC30D1B3494B77"]
+			id: "6EBBF119E9F36BEE"
+			tasks: [{
+				id: "34AC2E8B87F4AFC2"
+				item: "ctnhcore:mechanical_centrifuge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2D9F762371DEDF70"
+				"54A0B48F51F12647"
+				"13388DB5A507AB34"
+			]
+			description: [
+				"&4注意，这是一台产生FE电量的发电装置"
+				"需要将转换器将FE转换为EU以供格雷机器使用"
+				"如果你之后需要使用FE机器，可以直接接入任意电压的EU，EU能够自动转换为FE。"
+			]
+			id: "54A490510D5FBA04"
+			rewards: [{
+				count: 32
+				id: "5E5DD8CED10318A7"
+				item: "gtceu:conductive_alloy_double_wire"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "这是一台通过磁力产生电力的机器"
+			tasks: [{
+				id: "29E3903D7F9732A1"
+				title: "第一台发电设备"
 				type: "checkmark"
 			}]
-			x: -5.488095238095241d
-			y: -6.970238095238088d
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7D76859D3E40A235"]
+			description: [
+				"    格雷科技多方块结构由3部分组成：主方块，仓室和结构方块。"
+				" &6   主方块&r（又称为多方块控制器）是多方块结构的核心，一般具有ui，可以查看多方块机器的工作状态；"
+				" &6   仓室&r是为多方块机器进行输入输出或执行其他功能的方块;"
+				" &6   结构方块&r是不具有其他功能，只为了形成多方块结构而存在的方块。"
+				"    通过主方块的jei页面可以看到多方块结构的指导，其中可以查看哪些位置的结构方块可以被替换成仓室。"
+			]
+			id: "6AD97B17E0ECA129"
+			shape: "square"
+			size: 1.0d
+			subtitle: "很重要！"
+			tasks: [{
+				id: "1DFBF4F07F173929"
+				title: "多方块结构"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EFC30D1B3494B77"]
+			id: "4A7E0535E96D1CD1"
+			tasks: [{
+				id: "6624B34D59B2B174"
+				item: "ctnhcore:mechanical_sifter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EFC30D1B3494B77"]
+			description: ["记得多放几个仓室哦~"]
+			id: "66616CA6C0C95B0B"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest96.subtitle}"
+			tasks: [{
+				id: "767215D7A25C05EF"
+				item: "ctnhcore:meadow"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DFBF4F07F173929"]
+			description: [
+				"在做出第一个多方块结构前，Yuriko需要告诉你一些关于‘仓室’的事情~"
+				"输入总线：向多方块结构输入物品，可以调整电路"
+				"输入仓：向多方块结构输入流体，可以调整电路"
+				"输出总线：从多方块结构输出物品"
+				"输出仓：从多方块结构输出流体"
+				"&7应力输入箱：向多方块结构输入应力"
+				"以上就是这这些仓室的介绍啦~这里没有提及到的会在LV任务提及到哦~"
+			]
+			id: "3EFC30D1B3494B77"
+			tasks: [{
+				id: "26C852833C644D77"
+				title: "仓室介绍"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "7441815510F49119"
+			tasks: [{
+				id: "2D2B0943C900A3C7"
+				item: "gtceu:rubber_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
 		}
 	]
 	title: "{ftbquests.chapter.08AF6857D150C353.title}"

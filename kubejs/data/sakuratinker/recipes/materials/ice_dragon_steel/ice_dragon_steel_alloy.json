@@ -3,7 +3,7 @@
 	"inputs": [
 		{
 			"amount": 144,
-			"fluid": "tconstruct:molten_iron"
+			"fluid": "gtceu:iron"
 		},
 		{
 			"amount": 800,

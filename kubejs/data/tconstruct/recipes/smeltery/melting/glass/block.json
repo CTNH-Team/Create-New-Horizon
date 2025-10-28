@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:glass/silica"
+  },
+  "result": {
+    "amount": 144,
+    "tag": "forge:glass"
+  },
+  "temperature": 750,
+  "time": 59
+}

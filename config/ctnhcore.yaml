@@ -1,3 +1,9 @@
+# Migration Setting
+migration:
+  # Whether enable migration function, which might prevent blocks from disappearing when migrating saves from old versions.  NOTICE: Turn it off after migration, or will slow down the loading
+  # Default: false
+  migrationMode: false
+
 # Terminal AutoBuild
 terminal:
   # How many blocks GT-MBST-A will put per tick when AE storage is not available
@@ -12,7 +18,7 @@ terminal:
 ftbPlugin:
   # Enable FTBUltimine on GregTech Ores
   # Default: false
-  enableFTBUltimineOnGTOres: false
+  enableFTBUltimineOnGTOres: true
 
 # Mechanical Machine's Buffer
 kinetic:

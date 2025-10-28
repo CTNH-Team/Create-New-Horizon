@@ -51,6 +51,11 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "avaritia": {
+    "extreme_smithing": true,
+    "crafting_table": true,
+    "compressor": true
+  },
   "crockpot": {
     "birdcage": true,
     "crock_pot": true
@@ -66,7 +71,6 @@
     "exhaust_vent_info": true,
     "me_pattern_buffer_proxy": true,
     "multiblock_structure": true,
-    "recipe_logic_provider": true,
     "living_machine_status_provider": true,
     "maintenance_info": true,
     "machine_mode": true,
@@ -97,6 +101,10 @@
   },
   "lootr": {
     "info": true
+  },
+  "ctnhcore": {
+    "recipe_logic_provider": true,
+    "thread_status_provider": true
   },
   "ae2": {
     "part_icon": true,

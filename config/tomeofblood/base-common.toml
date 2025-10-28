@@ -1,5 +1,0 @@
-#Conversion rate of LP into player mana
-conversionRate = 10
-#Scale at which Living Mage Armor gains experience compared to normal Living Armor
-livingExpScale = 0.8
-

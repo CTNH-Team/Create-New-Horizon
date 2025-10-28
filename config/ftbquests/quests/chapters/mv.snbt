@@ -12,21 +12,39 @@
 			id: "7499099A0B832604"
 			linked_quest: "11F898C7B0C925D5"
 			shape: "rsquare"
-			size: 1.5d
-			x: -4.5d
-			y: -1.0d
+			size: 2.0d
+			x: 1.0d
+			y: 12.0d
 		}
 		{
 			id: "73C8E06B594B5A87"
 			linked_quest: "0FEAC07F1404346A"
-			x: 2.5d
-			y: -4.0d
+			x: 13.0d
+			y: 13.0d
 		}
 		{
-			id: "359E958586D6232F"
-			linked_quest: "2C6FBF2A814BB60D"
-			x: 11.0d
-			y: 0.0d
+			id: "65F7F2B42D3849C7"
+			linked_quest: "02115E4763B9F906"
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			id: "0BEDB38C49D6815C"
+			linked_quest: "7564DC3576C62D48"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			id: "176E4746C691A2E2"
+			linked_quest: "3D882DE9ACFD43EA"
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			id: "7EA6409FA421A4C4"
+			linked_quest: "60DE45074FA207BF"
+			x: 13.0d
+			y: 11.0d
 		}
 	]
 	quests: [
@@ -39,16 +57,20 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
+			size: 2.0d
 			tasks: [{
 				id: "24CB9175692BADFD"
 				item: "gtceu:mv_machine_hull"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -1.0d
+			x: 3.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["2D662EFDE7A39BB8"]
+			dependencies: [
+				"2D662EFDE7A39BB8"
+				"1FBD86C0CF681427"
+			]
 			id: "689E197D320A0477"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -70,8 +92,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -10.0d
+			x: 3.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["689E197D320A0477"]
@@ -81,8 +103,8 @@
 				item: "gtceu:salt_dust"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -8.0d
+			x: 3.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["45D2C63F76606DE2"]
@@ -92,8 +114,8 @@
 				item: "gtceu:hydrochloric_acid_bucket"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -6.0d
+			x: 2.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["45D2C63F76606DE2"]
@@ -103,8 +125,8 @@
 				item: "gtceu:sodium_bisulfate_dust"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -6.0d
+			x: 3.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["62F1BC2DC2900E4F"]
@@ -114,8 +136,8 @@
 				item: "gtceu:iron_iii_chloride_bucket"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -4.0d
+			x: 2.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["3DDBBC874FEB36B4"]
@@ -125,8 +147,8 @@
 				item: "gtceu:sodium_persulfate_bucket"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.0d
+			x: 3.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["45D2C63F76606DE2"]
@@ -136,8 +158,8 @@
 				item: "gtceu:salt_water_bucket"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -8.0d
+			x: 4.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["577C0EA40EC89B14"]
@@ -156,19 +178,23 @@
 				}
 			]
 			title: "{ftbquests.chapter.mv.quest9.title}"
-			x: -2.5d
-			y: -10.0d
+			x: 4.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["1FBD86C0CF681427"]
+			description: [
+				"木化是你为打造后期庞大的工业帝国的基础之一"
+				"你需要查阅JEI，使用多联热解炉去制作你的木化产线"
+			]
 			id: "18053F8D68450C52"
 			tasks: [{
 				id: "70B7E658DC504E19"
 				item: "gtceu:pyrolyse_oven"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.0d
+			x: 2.0d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -182,20 +208,8 @@
 				item: "gtceu:ethanol_bucket"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["18053F8D68450C52"]
-			id: "1ED352B272339266"
-			subtitle: "{ftbquests.chapter.mv.quest12.subtitle}"
-			tasks: [{
-				id: "4057EBBFB0E3EF5F"
-				item: "gtceu:coal_tar_bucket"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 3.0d
+			x: 7.0d
+			y: 15.0d
 		}
 		{
 			dependencies: [
@@ -211,42 +225,20 @@
 				item: "gtceu:ethylene_bucket"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: 9.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["6A93AEE55399519D"]
+			description: ["袜，聚乙烯！"]
 			id: "3F99A5F49AABC226"
 			tasks: [{
 				id: "35A6A68E98942425"
 				item: "gtceu:polyethylene_plate"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["1FBD86C0CF681427"]
-			id: "07BB6832A71B2804"
-			tasks: [{
-				id: "3C59B9CA1FFC283C"
-				item: "ctnhcore:exxonmobil_chemical_plant"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["19869FD9D4BCCB9F"]
-			id: "0B90121BB71598DD"
-			subtitle: "{ftbquests.chapter.mv.quest16.subtitle}"
-			tasks: [{
-				id: "4252FAA765FCEC15"
-				item: "gtceu:silicon_boule"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -4.0d
+			x: 13.0d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -265,13 +257,13 @@
 				item: "gtceu:mv_cutter"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.5d
+			x: 3.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
 				"10FA0AB1DB0672F9"
-				"0B90121BB71598DD"
+				"7564DC3576C62D48"
 			]
 			id: "27675B2A83F65B2E"
 			tasks: [{
@@ -279,8 +271,8 @@
 				item: "gtceu:silicon_wafer"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.5d
+			x: 3.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["7142680A93861DB2"]
@@ -290,22 +282,23 @@
 				item: "gtceu:ilc_wafer"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.0d
+			x: 13.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
-				"6A93AEE55399519D"
-				"6D2CFD7C56F6A2B3"
+				"19B0A02601FB3654"
+				"3F99A5F49AABC226"
 			]
 			id: "4D79E10947CC121F"
+			size: 1.0d
 			tasks: [{
 				id: "6C7ED169ACEA6489"
 				item: "gtceu:transistor"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.0d
+			x: 14.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["7142680A93861DB2"]
@@ -315,8 +308,8 @@
 				item: "gtceu:ram_wafer"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.0d
+			x: 13.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5A460876CA0EC216"]
@@ -326,8 +319,8 @@
 				item: "gtceu:polyethylene_bucket"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.0d
+			x: 11.0d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -342,44 +335,39 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "7312ABE98EF4BE13"
 				item: "gtceu:implosion_compressor"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.0d
+			x: 18.0d
+			y: 10.0d
 		}
 		{
-			dependencies: [
-				"44D70AFBA18CA0E4"
-				"22A82D3281551181"
-				"3E53190CE94A4E38"
-			]
+			dependencies: ["44D70AFBA18CA0E4"]
 			dependency_requirement: "one_completed"
+			icon: "minecraft:end_portal_frame"
 			id: "5A55D491F0E9F389"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1939DA6E776D1004"
-					table_id: 5863108397808417557L
-					type: "random"
-				}
-				{
-					command: "/gamephase add @p end"
-					elevate_perms: true
-					id: "345886DE08824767"
-					type: "command"
-				}
-			]
+			optional: true
+			rewards: [{
+				command: "/gamephase add @p end"
+				elevate_perms: true
+				id: "345886DE08824767"
+				title: "进入末地的权限"
+				type: "command"
+			}]
+			shape: "rsquare"
+			size: 1.0d
 			subtitle: "只需要完成一个前置任务就可以做这个任务"
 			tasks: [{
 				id: "7BAD7E832FEF40F0"
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -5.0d
+			title: "末地权限"
+			x: 20.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["61306F7E5202C387"]
@@ -389,19 +377,22 @@
 				item: "gtceu:ender_eye_dust"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -5.0d
+			x: 20.0d
+			y: 8.5d
 		}
 		{
-			dependencies: ["063155FDDF799750"]
+			dependencies: [
+				"063155FDDF799750"
+				"12CC90A0B4668F70"
+			]
 			id: "61306F7E5202C387"
 			tasks: [{
 				id: "6FD335E7DFD138B9"
 				item: "gtceu:ender_pearl_dust"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -5.0d
+			x: 18.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["5A55D491F0E9F389"]
@@ -412,19 +403,21 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
+			size: 1.5d
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "36924FA5E1528AB2"
 				title: "{ftbquests.chapter.mv.quest27.task_+3932292998516345522.title}"
 				type: "dimension"
 			}]
-			x: 6.5d
-			y: -3.5d
+			x: 21.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
-				"1A760D451E9D23B0"
 				"291D02E808F55209"
+				"78C09E2B5542CD21"
+				"1DA7DEEECA317293"
 			]
 			id: "0B95FAC22EC46105"
 			tasks: [{
@@ -432,14 +425,11 @@
 				item: "gtceu:stainless_steel_dust"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -6.0d
+			x: 21.5d
+			y: 12.0d
 		}
 		{
-			dependencies: [
-				"0B95FAC22EC46105"
-				"3C1A31CEA3C10082"
-			]
+			dependencies: ["0B95FAC22EC46105"]
 			id: "36968F23015BC87A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -448,72 +438,28 @@
 				type: "random"
 			}]
 			shape: "rsquare"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.mv.quest29.subtitle}"
 			tasks: [{
 				id: "19B8A8E266098D32"
 				item: "gtceu:stainless_steel_ingot"
 				type: "item"
 			}]
-			x: 2.452380952380956d
-			y: -6.047619047619044d
+			x: 23.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["4C152AA55BCD6945"]
+			description: ["现在~利用你学到的双仓升压去做神奇的事吧！"]
 			id: "3C1A31CEA3C10082"
+			size: 2.0d
 			tasks: [{
 				id: "61073088E3E1F703"
 				item: "gtceu:mv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["56D33C26893B29C5"]
-			id: "22A82D3281551181"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "270584549501C03E"
-				table_id: 5863108397808417557L
-				type: "random"
-			}]
-			tasks: [{
-				id: "179D733C738A1283"
-				item: "minecraft:tnt"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["45B113F1D8B0C756"]
-			id: "56D33C26893B29C5"
-			tasks: [{
-				id: "55C051E34E27ADB7"
-				item: "gtceu:toluene_bucket"
-				type: "item"
-			}]
 			x: 11.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["1FBD86C0CF681427"]
-			hide_dependency_lines: true
-			id: "45B113F1D8B0C756"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "441BADDE77B7325E"
-				table_id: 5863108397808417557L
-				type: "random"
-			}]
-			tasks: [{
-				id: "6068AFAB3B93FDA1"
-				item: "gtceu:mv_distillery"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -7.0d
+			y: 8.5d
 		}
 		{
 			id: "61F3A1C4B771E811"
@@ -523,22 +469,8 @@
 				item: "gtceu:sulfuric_acid_bucket"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["1FBD86C0CF681427"]
-			hide_dependency_lines: true
-			id: "1A760D451E9D23B0"
-			subtitle: "{ftbquests.chapter.mv.quest35.subtitle}"
-			tasks: [{
-				id: "71D1D2D5063F35CB"
-				item: "gtceu:mv_mixer"
-				optional_task: true
-				type: "item"
-			}]
-			x: 4.5d
-			y: -3.5d
+			x: 7.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["1FBD86C0CF681427"]
@@ -548,8 +480,8 @@
 				item: "ctnhcore:digestion_tank"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.0d
+			x: 4.0d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -563,8 +495,8 @@
 				item: "ctnhcore:fermenting_tank"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.0d
+			x: 7.0d
+			y: 14.0d
 		}
 		{
 			id: "5F393B970A71BEF2"
@@ -574,8 +506,8 @@
 				item: "gtceu:oil_bucket"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.0d
+			x: 7.0d
+			y: 17.0d
 		}
 		{
 			dependencies: [
@@ -583,7 +515,7 @@
 				"1C203FA12C28D5D2"
 			]
 			dependency_requirement: "one_completed"
-			description: [""]
+			description: ["更好的铬处理"]
 			id: "291D02E808F55209"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -597,47 +529,45 @@
 				item: "gtceu:chromium_dust"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -6.0d
+			x: 21.5d
+			y: 10.0d
 		}
 		{
-			dependencies: ["1A760D451E9D23B0"]
+			dependencies: [
+				"2418F847F2BC0F05"
+				"45E72A768448ED19"
+			]
 			id: "2FFC9C35347833E2"
 			tasks: [{
 				id: "29641A72CC84053A"
 				item: "gtceu:kanthal_dust"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.0d
+			x: 13.0d
+			y: 8.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["4DCA7E4E57817E0A"]
-			id: "35FC625257013116"
-			tasks: [{
-				id: "3984FFE4AEFE07F5"
-				item: "botania:ender_air_bottle"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["35FC625257013116"]
+			icon: "aether:aether_portal_frame"
 			id: "415AF3F977F4C3F9"
 			rewards: [{
 				command: "/gamephase add @p aether"
 				elevate_perms: true
 				id: "47B4C1C8E27B98A0"
+				title: "进入天境的权限"
 				type: "command"
 			}]
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [{
 				id: "5B98F8342CFB3E30"
 				item: "minecraft:dragon_breath"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			title: "天境权限"
+			x: 21.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["415AF3F977F4C3F9"]
@@ -655,31 +585,8 @@
 				type: "dimension"
 			}]
 			title: "{ftbquests.chapter.mv.quest43.title}"
-			x: 9.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["699743A94DF7E0B8"]
-			id: "689EA8B026306D08"
-			subtitle: "{ftbquests.chapter.mv.quest44.subtitle}"
-			tasks: [{
-				id: "7069C294EA4BCFD9"
-				item: "gtceu:fluorine_bucket"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -2.0d
-		}
-		{
-			id: "4616A64D47AFBFF9"
-			subtitle: "{ftbquests.chapter.mv.quest45.subtitle}"
-			tasks: [{
-				id: "0F7E19A36C1CE5FC"
-				title: "{ftbquests.chapter.mv.quest45.task_+1116357947318658556.title}"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: 0.0d
+			x: 23.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
@@ -690,8 +597,8 @@
 				item: "create:shadow_steel"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -2.0d
+			x: 23.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
@@ -701,13 +608,14 @@
 				item: "gtceu:raw_chromite"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -7.0d
+			x: 21.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
 				"2FFC9C35347833E2"
 				"05DE915B25451CF1"
+				"3C1A31CEA3C10082"
 			]
 			id: "707A41CB0EED30D3"
 			subtitle: "{ftbquests.chapter.mv.quest48.subtitle}"
@@ -716,8 +624,8 @@
 				item: "gtceu:kanthal_ingot"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 13.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1FBD86C0CF681427"]
@@ -728,11 +636,14 @@
 				item: "gtceu:mv_chemical_bath"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 16.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["707A41CB0EED30D3"]
+			dependencies: [
+				"707A41CB0EED30D3"
+				"02F1CF840A21D33C"
+			]
 			id: "667964AF2027E5BD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -741,35 +652,33 @@
 				type: "random"
 			}]
 			shape: "pentagon"
+			size: 1.0d
 			tasks: [{
 				count: 16L
 				id: "0D5766F5AC12A7F6"
 				item: "gtceu:kanthal_coil_block"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: 13.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
 				"1FBD86C0CF681427"
-				"27675B2A83F65B2E"
 				"01377F6FDB479DC4"
 			]
 			id: "7142680A93861DB2"
+			size: 2.0d
 			tasks: [{
 				id: "10A74E679FA94C6B"
 				item: "gtceu:mv_laser_engraver"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.0d
+			x: 11.0d
+			y: 12.0d
 		}
 		{
-			dependencies: [
-				"11F898C7B0C925D5"
-				"7BE6A468603F70A6"
-			]
+			dependencies: ["11F898C7B0C925D5"]
 			hide_dependency_lines: true
 			id: "01377F6FDB479DC4"
 			rewards: [{
@@ -790,8 +699,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 1.0d
+			x: 11.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["7142680A93861DB2"]
@@ -801,38 +710,8 @@
 				item: "gtceu:cpu_wafer"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"56D33C26893B29C5"
-				"0B406575E6CDCC2D"
-			]
-			id: "40CBECB09DB2EEE7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2E748F1E8B6F3431"
-				table_id: 5863108397808417557L
-				type: "random"
-			}]
-			tasks: [{
-				id: "571D09AB2742E15B"
-				item: "gtceu:industrial_tnt"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -7.0d
-		}
-		{
-			id: "0B406575E6CDCC2D"
-			tasks: [{
-				id: "32BB109EF0F59B3F"
-				item: "gtceu:nitration_mixture_bucket"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -7.0d
+			x: 13.0d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -845,31 +724,23 @@
 				item: "gtceu:silicon_ingot"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.0d
+			x: 16.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["19869FD9D4BCCB9F"]
+			dependencies: [
+				"19869FD9D4BCCB9F"
+				"4408E3466C5F2470"
+				"59B39491E1FAA6E0"
+			]
 			id: "5FCD87E61592F357"
 			tasks: [{
 				id: "42DFAF361A5675C7"
 				item: "gtceu:vanadium_steel_ingot"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["18053F8D68450C52"]
-			id: "141227BD0FDD68EE"
-			subtitle: "{ftbquests.chapter.mv.quest58.subtitle}"
-			tasks: [{
-				id: "761640BF02698B68"
-				item: "gtceu:coal_gas_bucket"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 3.0d
+			x: 1.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3C1A31CEA3C10082"]
@@ -879,8 +750,8 @@
 				item: "gtceu:vibrant_alloy_ingot"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -8.0d
+			x: 11.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["477E8A2397016E0B"]
@@ -891,8 +762,8 @@
 				item: "gtceu:vibrant_alloy_single_wire"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -8.0d
+			x: 11.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7142680A93861DB2"]
@@ -902,8 +773,8 @@
 				item: "gtceu:ulpic_wafer"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.0d
+			x: 11.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3C1A31CEA3C10082"]
@@ -919,8 +790,8 @@
 				item: "gtceu:phosphorus_boule"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -6.0d
+			x: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0FEAC07F1404346A"]
@@ -930,8 +801,8 @@
 				item: "gtceu:basic_integrated_circuit"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -3.0d
+			x: 15.0d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -944,41 +815,51 @@
 				item: "gtceu:good_integrated_circuit"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.0d
+			x: 16.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["3F99A5F49AABC226"]
 			id: "279ED2DAD4CC60CD"
+			size: 1.0d
 			tasks: [{
 				id: "091878C039413924"
 				item: "gtceu:plastic_printed_circuit_board"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 5.0d
+			x: 14.5d
+			y: 17.0d
 		}
 		{
-			dependencies: ["2E117BBA1E035855"]
+			dependencies: [
+				"2E117BBA1E035855"
+				"0CC3390A8E309608"
+			]
 			id: "3AE584B3EBC63A09"
 			tasks: [{
 				id: "1D3AB4D312D5E848"
 				item: "gtceu:advanced_integrated_circuit"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.0d
+			x: 17.0d
+			y: 11.0d
 		}
 		{
-			dependencies: ["3AE584B3EBC63A09"]
+			dependencies: [
+				"3AE584B3EBC63A09"
+				"60DE45074FA207BF"
+			]
+			description: [""]
 			id: "761AC9761D80AC19"
+			size: 1.0d
+			subtitle: "我的天哪植魔大人"
 			tasks: [{
 				id: "32FD501729B1C125"
 				item: "kubejs:mana_integrated_circuit"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 15.0d
+			y: 11.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -988,21 +869,287 @@
 				title: "{ftbquests.chapter.mv.quest68.task_+2025493845214559268.title}"
 				type: "checkmark"
 			}]
-			x: 5.5d
-			y: -5.0d
+			x: 20.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["063155FDDF799750"]
-			id: "3E53190CE94A4E38"
-			subtitle: "跳过任务线"
+			id: "1F14A82831F5C61B"
 			tasks: [{
-				count: 12L
-				id: "76ACB99BED534645"
-				item: { Count: 12, id: "minecraft:ender_eye" }
+				id: "4B73FBB0F178614C"
+				item: "enderio:void_chassis"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -6.0d
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"199C34FF316CDB5D"
+				"4B0A7C665D98CEDD"
+			]
+			id: "6908B97B403240A1"
+			tasks: [{
+				id: "612A3FCED08C1E67"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"1F14A82831F5C61B"
+				"1CD250F70B566174"
+			]
+			id: "199C34FF316CDB5D"
+			tasks: [{
+				id: "5DBAB9B5128F3AE7"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["199C34FF316CDB5D"]
+			id: "2072672E99455E02"
+			tasks: [{
+				id: "77DEABF1AD07241C"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			id: "1CD250F70B566174"
+			tasks: [{
+				id: "7A77BF39C11C0BF6"
+				item: "gtceu:soularium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"199C34FF316CDB5D"
+				"4B0A7C665D98CEDD"
+			]
+			description: ["    事实上，你还可以通过神化的刷怪笼或者新生魔艺的手段获取怪物掉落。但电动刷怪笼还可以用于HV阶段的屠宰场。"]
+			id: "25F0981E1E4A0E7F"
+			subtitle: "自动刷怪"
+			tasks: [{
+				id: "716733C9922E17A0"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			id: "64B9355875C126ED"
+			subtitle: "gt屠刀可以快速获取头颅"
+			tasks: [{
+				id: "56B2EE6B74321BB0"
+				item: "minecraft:zombie_head"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"64B9355875C126ED"
+				"2072672E99455E02"
+			]
+			id: "4B0A7C665D98CEDD"
+			size: 1.0d
+			tasks: [{
+				id: "484DFA560F39E5B2"
+				item: "enderio:z_logic_controller"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			id: "23AD57EAE8D44BCB"
+			tasks: [{
+				id: "72C058D738CC97C6"
+				item: "gtceu:raw_vanadium_magnetite"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["23AD57EAE8D44BCB"]
+			id: "4408E3466C5F2470"
+			tasks: [{
+				id: "2CE327998BFF0360"
+				item: "gtceu:vanadium_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			id: "4F752D5EC2FB511C"
+			tasks: [{
+				id: "02572D38EE845C9F"
+				item: "gtceu:raw_ruby"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4F752D5EC2FB511C"]
+			description: ["简易版铬粉"]
+			id: "59B39491E1FAA6E0"
+			tasks: [{
+				id: "45E72A768448ED19"
+				item: "gtceu:chromium_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["24CB9175692BADFD"]
+			id: "78A828D153F91AC5"
+			tasks: [{
+				id: "010A88ADBD0BB387"
+				item: "ctnhcore:greenhouse"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["24CB9175692BADFD"]
+			id: "2418F847F2BC0F05"
+			tasks: [{
+				id: "67FA403BBBE0D61E"
+				item: "gtceu:mv_mixer"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.5d
+		}
+		{
+			id: "02F1CF840A21D33C"
+			tasks: [{
+				id: "373ACC015DF8DEE7"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5CC2A3C37EB99ED3"]
+			id: "7446005F43FE2EFA"
+			size: 1.0d
+			tasks: [{
+				id: "12E585C3B80D61BE"
+				item: "gtceu:cpu_chip"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3F99A5F49AABC226"]
+			id: "4AC69E9C512AB2B8"
+			tasks: [{
+				id: "4BDC2CC7606D2B9C"
+				item: "gtceu:polyethylene_foil"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4AC69E9C512AB2B8"]
+			id: "5FB37DA272403FB2"
+			size: 1.0d
+			tasks: [{
+				id: "584EC9E3D4ED80E8"
+				item: "gtceu:capacitor"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["636A4080FF1A30CD"]
+			id: "12CC90A0B4668F70"
+			tasks: [{
+				id: "35FC18486FAA07CC"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 7.0d
+		}
+		{
+			id: "636A4080FF1A30CD"
+			tasks: [{
+				id: "335160C8B6795CF1"
+				item: "gtceu:toluene_bucket"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			id: "78C09E2B5542CD21"
+			tasks: [{
+				id: "4E0B43C9FD626722"
+				item: "gtceu:raw_pyrolusite"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"5FB37DA272403FB2"
+				"4D79E10947CC121F"
+				"279ED2DAD4CC60CD"
+				"7446005F43FE2EFA"
+			]
+			description: ["恭喜你马上结束痛苦又漫长的手搓阶段"]
+			id: "37BE0924832C7808"
+			size: 1.0d
+			subtitle: "这是一个阶段的结束，亦是另一个阶段的开始"
+			tasks: [{
+				id: "55524595C686AC17"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"24CB9175692BADFD"
+				"2E117BBA1E035855"
+			]
+			id: "1DA7DEEECA317293"
+			tasks: [{
+				id: "681FCB9486BA2741"
+				item: "gtceu:mv_mixer"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 12.0d
 		}
 	]
 	title: "{ftbquests.chapter.mv.title}"

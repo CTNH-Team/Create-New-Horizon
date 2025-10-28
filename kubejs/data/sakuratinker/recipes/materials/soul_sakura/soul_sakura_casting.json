@@ -4,10 +4,10 @@
 		"item": "minecraft:cherry_leaves"
 	},
 	"cast_consumed": true,
-	"cooling_time": 400,
+	"cooling_time": 120,
 	"fluid": {
-		"amount": 720,
-		"fluid": "tconstruct:molten_manyullyn"
+		"amount": 288,
+		"fluid": "sakuratinker:molten_nihilite"
 	},
 	"result": "sakuratinker:soul_sakura"
 }

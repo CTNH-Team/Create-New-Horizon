@@ -1,0 +1,75 @@
+{
+  "dimensions": [
+    "minecraft:overworld",
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ],
+  "entity_energy_values": [
+    { "entity": "minecraft:zombie", "dimension": "minecraft:overworld", "value": 5 },
+    { "entity": "minecraft:skeleton", "dimension": "minecraft:overworld", "value": 5 },
+    { "entity": "minecraft:creeper", "dimension": "minecraft:overworld", "value": 6 },
+    { "entity": "minecraft:spider", "dimension": "minecraft:overworld", "value": 5 },
+    { "entity": "minecraft:enderman", "dimension": "minecraft:the_end", "value": 12 },
+    { "entity": "minecraft:blaze", "dimension": "minecraft:the_nether", "value": 10 },
+    { "entity": "minecraft:wither_skeleton", "dimension": "minecraft:the_nether", "value": 15 },
+    { "entity": "minecraft:ghast", "dimension": "minecraft:the_nether", "value": 12 },
+    { "entity": "minecraft:piglin", "dimension": "minecraft:the_nether", "value": 8 },
+    { "entity": "minecraft:shulker", "dimension": "minecraft:the_end", "value": 14 },
+    { "entity": "minecraft:guardian", "dimension": "minecraft:overworld", "value": 10 },
+    { "entity": "minecraft:elder_guardian", "dimension": "minecraft:overworld", "value": 30 },
+    { "entity": "minecraft:witch", "dimension": "minecraft:overworld", "value": 8 },
+    { "entity": "minecraft:vindicator", "dimension": "minecraft:overworld", "value": 10 },
+    { "entity": "minecraft:evoker", "dimension": "minecraft:overworld", "value": 12 },
+    { "entity": "minecraft:ravager", "dimension": "minecraft:overworld", "value": 20 },
+    { "entity": "minecraft:warden", "dimension": "minecraft:overworld", "value": 50 }
+  ],
+  "dimension_capacities": [
+    { "dimension": "minecraft:overworld", "capacity": 200 },
+    { "dimension": "minecraft:the_nether", "capacity": 300 },
+    { "dimension": "minecraft:the_end", "capacity": 300 }
+  ],
+  "dimension_loot_tables": [
+    {
+      "dimension": "minecraft:overworld",
+      "tables": [
+        { "id": "minecraft:chests/simple_dungeon", "cost": 20 },
+        { "id": "minecraft:chests/abandoned_mineshaft", "cost": 25 },
+        { "id": "minecraft:chests/stronghold_library", "cost": 30 },
+        { "id": "minecraft:chests/stronghold_corridor", "cost": 30 },
+        { "id": "minecraft:chests/buried_treasure", "cost": 40 },
+        { "id": "minecraft:chests/shipwreck_treasure", "cost": 40 },
+        { "id": "minecraft:chests/pillager_outpost", "cost": 35 },
+        { "id": "minecraft:chests/woodland_mansion", "cost": 50 },
+        { "id": "minecraft:chests/jungle_temple", "cost": 25 },
+        { "id": "minecraft:chests/desert_pyramid", "cost": 25 },
+        { "id": "minecraft:chests/village/village_weaponsmith", "cost": 15 },
+        { "id": "minecraft:chests/village/village_armorer", "cost": 15 },
+        { "id": "minecraft:chests/village/village_toolsmith", "cost": 15 },
+        { "id": "minecraft:chests/village/village_fletcher", "cost": 15 },
+        { "id": "minecraft:chests/shipwreck_supply", "cost": 20 },
+        { "id": "minecraft:chests/shipwreck_map", "cost": 20 },
+        { "id": "minecraft:chests/ruined_portal", "cost": 10 },
+        { "id": "minecraft:chests/igloo_chest", "cost": 10 },
+        { "id": "minecraft:chests/underwater_ruin_big", "cost": 25 },
+        { "id": "minecraft:chests/underwater_ruin_small", "cost": 15 }
+      ]
+    },
+    {
+      "dimension": "minecraft:the_nether",
+      "tables": [
+        { "id": "minecraft:chests/nether_bridge", "cost": 30 },
+        { "id": "minecraft:chests/bastion_bridge", "cost": 40 },
+        { "id": "minecraft:chests/bastion_treasure", "cost": 50 },
+        { "id": "minecraft:chests/bastion_hoglin_stable", "cost": 40 },
+        { "id": "minecraft:chests/bastion_other", "cost": 45 },
+        { "id": "minecraft:chests/bastion_units", "cost": 35 }
+      ]
+    },
+    {
+      "dimension": "minecraft:the_end",
+      "tables": [
+        { "id": "minecraft:chests/end_city_treasure", "cost": 60 }
+      ]
+    }
+  ]
+}

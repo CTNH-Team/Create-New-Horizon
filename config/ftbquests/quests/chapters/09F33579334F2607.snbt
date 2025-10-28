@@ -5,7 +5,7 @@
 	group: "32DB92B5A6E4493B"
 	icon: "botania:pure_daisy"
 	id: "09F33579334F2607"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -1015,7 +1015,7 @@
 			subtitle: "神"
 			tasks: [{
 				id: "7381CFE03BF65333"
-				item: "gtceu:gaia_reactor"
+				item: "ctnhcore:gaia_reactor"
 				type: "item"
 			}]
 			x: 14.5d

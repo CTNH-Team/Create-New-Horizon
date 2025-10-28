@@ -8,16 +8,16 @@
 	order_index: 6
 	quest_links: [
 		{
-			id: "4F2B606F0BCDD83B"
-			linked_quest: "4F8A3B3DFEE2B87E"
-			x: -4.0d
-			y: 11.0d
+			id: "7B5E8515958F337F"
+			linked_quest: "65E0B77C49C4F584"
+			x: 0.5d
+			y: 10.0d
 		}
 		{
-			id: "5099BCB60DB36815"
-			linked_quest: "2C5AAAE7171632CA"
-			x: 0.0d
-			y: 5.0d
+			id: "546244696CB15F85"
+			linked_quest: "7623D2206370CA76"
+			x: -1.5d
+			y: 6.5d
 		}
 	]
 	quests: [
@@ -31,87 +31,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["355ACD2C8F4E6257"]
-			id: "096536DBC775459A"
-			tasks: [{
-				id: "704A9D951A6436C1"
-				item: "gtceu:zpm_electric_motor"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["096536DBC775459A"]
-			id: "66C9EDCA565E819B"
-			tasks: [{
-				id: "5B0CA8DC41776963"
-				item: "gtceu:zpm_electric_pump"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["096536DBC775459A"]
-			id: "532AB794FC5A7C9C"
-			tasks: [{
-				id: "073358A2FB418E50"
-				item: "gtceu:zpm_conveyor_module"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["096536DBC775459A"]
-			id: "3CC41314A358DB84"
-			tasks: [{
-				id: "49CF8CD3FBBD04A3"
-				item: "gtceu:zpm_electric_piston"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 6.5d
-		}
-		{
-			dependencies: [
-				"096536DBC775459A"
-				"3CC41314A358DB84"
-			]
-			id: "1E8C4B75F7D0AB9D"
-			tasks: [{
-				id: "4BD9ED692DE3C9F3"
-				item: "gtceu:zpm_robot_arm"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["096536DBC775459A"]
-			id: "6942CE21E9C18B0E"
-			tasks: [{
-				id: "7555A825EDDE6BA2"
-				item: "gtceu:zpm_emitter"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["096536DBC775459A"]
-			id: "2138D71942009D22"
-			tasks: [{
-				id: "0E10E65308DA2F46"
-				item: "gtceu:zpm_sensor"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -126,10 +46,10 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["355ACD2C8F4E6257"]
+			dependencies: ["1010CB5EC52EFAF5"]
 			id: "74B398F5468F8A36"
 			tasks: [{
 				id: "0B84192182E27CAA"
@@ -137,7 +57,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -153,10 +73,9 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["4F8A3B3DFEE2B87E"]
 			id: "4033E5511E9C50EA"
 			tasks: [{
 				id: "7F63789C2300997B"
@@ -164,7 +83,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 9.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -180,7 +99,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7F0C67AE534020B1"]
@@ -191,7 +110,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7D4DBB785B16A377"]
@@ -202,7 +121,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0B162359CC259A9F"]
@@ -214,7 +133,7 @@
 			}]
 			title: "{ftbquests.chapter.zpm.quest16.title}"
 			x: 4.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["173C1ED446EF4D39"]
@@ -225,7 +144,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["173C1ED446EF4D39"]
@@ -237,7 +156,7 @@
 			}]
 			title: "{ftbquests.chapter.zpm.quest18.title}"
 			x: 6.0d
-			y: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["173C1ED446EF4D39"]
@@ -249,7 +168,7 @@
 			}]
 			title: "{ftbquests.chapter.zpm.quest19.title}"
 			x: 6.0d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["173C1ED446EF4D39"]
@@ -260,7 +179,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["173C1ED446EF4D39"]
@@ -274,7 +193,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5B882B9AFD650138"]
@@ -293,43 +212,32 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["64AB6462326CB9DA"]
-			id: "409E5680BE7920CF"
-			tasks: [{
-				id: "31D0076E2FC2BCBB"
-				item: "gtceu:wetware_printed_circuit_board"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"589DEEA6662898A5"
-				"409E5680BE7920CF"
-			]
+			dependencies: ["749B5293C2B313D2"]
 			id: "2C168D2C6B55CD10"
 			tasks: [{
 				id: "320D875EA878EC9E"
 				item: "gtceu:neuro_processing_unit"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -6.5d
+			x: -7.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["2C168D2C6B55CD10"]
+			dependencies: [
+				"2C168D2C6B55CD10"
+				"1CCBE7B71BB782FD"
+			]
 			id: "13756D7E0FDA4B9E"
 			tasks: [{
 				id: "1DC8CF70ABDD3B4A"
 				item: "gtceu:wetware_processor"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -6.5d
+			x: -4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["13756D7E0FDA4B9E"]
@@ -339,22 +247,26 @@
 				item: "gtceu:wetware_processor_assembly"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -4.5d
+			x: -2.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["22FA4C6A1ADEC7AC"]
+			dependencies: [
+				"22FA4C6A1ADEC7AC"
+				"65E0B77C49C4F584"
+			]
 			id: "762DC8899FC95277"
 			tasks: [{
 				id: "33D36925813D7106"
 				item: "gtceu:wetware_processor_computer"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -2.0d
+			x: 0.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["762DC8899FC95277"]
+			description: ["    虽然制作方式已经与原版格雷相去甚远。"]
 			id: "7D527B8CCB41E418"
 			subtitle: "原版格雷的顶点"
 			tasks: [{
@@ -362,8 +274,8 @@
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -2.0d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			id: "724B4D5BE66CEEEA"
@@ -423,30 +335,6 @@
 			}]
 			x: 0.0d
 			y: -3.5d
-		}
-		{
-			dependencies: [
-				"173C1ED446EF4D39"
-				"3C00023A573AA56E"
-			]
-			id: "07ABDAE50C5C8D9A"
-			tasks: [{
-				id: "0E6F8B16FACD03E1"
-				item: "ctnhcore:zpm_compressed_fusion_reactor"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 5.0d
-		}
-		{
-			id: "3C00023A573AA56E"
-			tasks: [{
-				id: "43A15A45398FC1E1"
-				title: "{ftbquests.chapter.zpm.quest50.task_+4873275525156553185.title}"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: 5.0d
 		}
 		{
 			dependencies: ["52156F99511B7A7E"]
@@ -563,8 +451,8 @@
 				item: "gtceu:zpm_field_generator"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 7.0d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2BB03484D6971028"]
@@ -702,7 +590,7 @@
 				item: "gtceu:helium_3_bucket"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 15.5d
 			y: -2.5d
 		}
 		{
@@ -716,8 +604,8 @@
 				item: "gtceu:taranium_dirty_helium3_bucket"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -0.5d
+			x: 15.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4B63F560AED06615"]
@@ -727,7 +615,7 @@
 				item: "gtceu:taranium_enriched_liquid_helium3_bucket"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 17.0d
 			y: 1.5d
 		}
 		{
@@ -739,7 +627,7 @@
 				item: "gtceu:taranium_half_life_liquid_helium3_bucket"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 19.0d
 			y: 1.5d
 		}
 		{
@@ -750,7 +638,7 @@
 				item: "gtceu:taranium_depleted_liquid_helium3_bucket"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 21.0d
 			y: 1.5d
 		}
 		{
@@ -761,7 +649,7 @@
 				item: "gtceu:taranium_enriched_dirty_helium_plasma_plasma_bucket"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 19.0d
 			y: 3.5d
 		}
 		{
@@ -774,7 +662,7 @@
 				item: "ctnhcore:plasma_condenser"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 21.0d
 			y: 3.5d
 		}
 		{
@@ -785,7 +673,7 @@
 				item: "gtceu:taranium_enriched_helium4_plasma_plasma_bucket"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 19.0d
 			y: 5.5d
 		}
 		{
@@ -796,7 +684,7 @@
 				item: "gtceu:taranium_depleted_helium_plasma_plasma_bucket"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 17.0d
 			y: 5.5d
 		}
 		{
@@ -810,7 +698,7 @@
 				item: "gtceu:taranium_enriched_liquid_helium4_bucket"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 21.0d
 			y: 5.5d
 		}
 		{
@@ -826,7 +714,7 @@
 				item: "gtceu:adamant_mud_dust"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 17.0d
 			y: 7.5d
 		}
 		{
@@ -842,7 +730,7 @@
 				item: "gtceu:taranium_powder_dust"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 23.0d
 			y: 5.5d
 		}
 		{
@@ -853,7 +741,7 @@
 				item: "gtceu:taranium_depleted_liquid_helium_bucket"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 19.0d
 			y: 7.5d
 		}
 		{
@@ -864,7 +752,7 @@
 				item: "gtceu:p507_extractant_bucket"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 14.0d
 			y: 7.5d
 		}
 		{
@@ -879,7 +767,7 @@
 				item: "gtceu:adamantiteliquid_bucket"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 15.5d
 			y: 9.5d
 		}
 		{
@@ -890,7 +778,7 @@
 				item: "gtceu:chalcogen_anode_mud_dust"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 14.0d
 			y: 11.0d
 		}
 		{
@@ -901,7 +789,7 @@
 				item: "gtceu:refined_gold_aq_bucket"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 17.0d
 			y: 11.0d
 		}
 		{
@@ -913,7 +801,7 @@
 				item: "gtceu:adamantite_dust"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 19.0d
 			y: 11.0d
 		}
 		{
@@ -924,7 +812,7 @@
 				item: "gtceu:adamantite_plasma_bucket"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 19.0d
 			y: 9.5d
 		}
 		{
@@ -941,7 +829,7 @@
 				item: "gtceu:adamantite_ingot"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 21.0d
 			y: 9.5d
 		}
 		{
@@ -952,7 +840,7 @@
 				item: "gtceu:ingot_casting_mold"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 21.0d
 			y: 7.5d
 		}
 		{
@@ -963,7 +851,7 @@
 				title: "{ftbquests.chapter.zpm.quest93.task_+4843089928469553132.title}"
 				type: "checkmark"
 			}]
-			x: 16.0d
+			x: 23.0d
 			y: 9.5d
 		}
 		{
@@ -985,7 +873,7 @@
 				item: "gtceu:taranium_powder_dust"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 23.0d
 			y: 3.5d
 		}
 		{
@@ -996,7 +884,7 @@
 				item: "gtceu:adamantite_ingot"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 21.0d
 			y: 11.0d
 		}
 		{
@@ -1009,7 +897,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0FE50A78729EF06F"]
@@ -1021,47 +909,6 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["68F1E652B8BA5A07"]
-			id: "527E6E7130A16435"
-			rewards: [{
-				id: "6A19197F2BCD0B34"
-				item: "gtceu:neutron_reflector"
-				type: "item"
-			}]
-			subtitle: "坚不坚不可摧"
-			tasks: [{
-				id: "4EEA8E4FE57CE0DB"
-				item: "kubejs:strongly_interacting_neutron_refector"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["527E6E7130A16435"]
-			id: "7506DBB3B4B03B05"
-			subtitle: "中子活化器那一套不好用了"
-			tasks: [{
-				id: "77B1DBAD5BD53176"
-				item: "ctnhcore:widespeedingpipe"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["7506DBB3B4B03B05"]
-			id: "0BF9AD47D3294ACE"
-			subtitle: "一台更比三台强"
-			tasks: [{
-				id: "73BC2FA2FF8469C3"
-				item: "ctnhcore:wideparticleaccelerator"
-				type: "item"
-			}]
-			x: 8.0d
 			y: -7.5d
 		}
 		{
@@ -1081,7 +928,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5B882B9AFD650138"]
@@ -1107,11 +954,11 @@
 			subtitle: "who r u"
 			tasks: [{
 				id: "24B87356C55140CC"
-				item: "gtceu:ultimate_combustion_engine"
+				item: "ctnhcore:ultimate_combustion_engine"
 				type: "item"
 			}]
 			x: -8.0d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["46922EE3F296BDCF"]
@@ -1125,7 +972,7 @@
 			}]
 			title: "在燃油的终末"
 			x: -8.0d
-			y: 6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5B882B9AFD650138"]
@@ -1145,7 +992,137 @@
 				type: "item"
 			}]
 			x: -11.0d
+			y: -1.0d
+		}
+		{
+			id: "749B5293C2B313D2"
+			tasks: [{
+				id: "058D8A09C5864DAA"
+				item: "ctnhbio:wetware_printed_circuit_board"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2FD33C4009211037"]
+			description: ["如果你发现你因为算力不够且没法做高级计算组件而卡死，你就要看看你的冷却有没有升级和你的算策略是不是最优的"]
+			id: "31A773AB4898B8F8"
+			tasks: [{
+				id: "7EF9D64A02F23501"
+				item: "gtceu:hpca_advanced_computation_component"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"64828704B9D70F14"
+				"2C5AAAE7171632CA"
+			]
+			description: ["把数据球和要扫描的东西放进物品支架里"]
+			id: "56C88CA114314593"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "194607EF8EE0E066"
+				table_id: 7618519509353548779L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "4FB2DC37F499DCB6"
+				item: "gtceu:research_station"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "64828704B9D70F14"
+			tasks: [{
+				id: "0C44AF44CF995CEB"
+				item: {
+					Count: 1
+					id: "gtceu:data_orb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1F24CDB4B265DAE8"
+				"7623D2206370CA76"
+			]
+			id: "47D1E2F257A78CC8"
+			shape: "pentagon"
+			subtitle: "ZPM线圈"
+			tasks: [{
+				count: 16L
+				id: "7148FED2E30E7170"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["47D1E2F257A78CC8"]
+			id: "2C5AAAE7171632CA"
+			subtitle: "{ftbquests.chapter.luv.quest26.subtitle}"
+			tasks: [{
+				id: "6698C7007931B007"
+				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["07D0FD2AC4C767B2"]
+			id: "1010CB5EC52EFAF5"
+			subtitle: "我逃不掉..."
+			tasks: [{
+				id: "74114E60FFB37973"
+				item: "gtceu:zpm_assembler"
+				type: "item"
+			}]
+			x: -4.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["56C88CA114314593"]
+			description: ["    多线程合金冶炼炉"]
+			id: "699C95B07EACDDC6"
+			subtitle: "一起炖！"
+			tasks: [{
+				id: "163D3E56B2971B4F"
+				item: "ctnhcore:cnc_alloy_smelter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["56C88CA114314593"]
+			description: [
+				"    可配置多线程机器每个线程的超频等级"
+				"    可查询线程执行的上一个配方"
+				"    可设置“&b配方锁定&r”：使该线程只会执行上一个配方"
+				"    可设置“&b线程保护&r”：使该线程不会执行其他线程正在执行或已经锁定的配方。"
+			]
+			id: "66596B5FFF2E941A"
+			subtitle: "遥遥领先！"
+			tasks: [{
+				id: "0283D5E1E42F99B0"
+				item: "ctnhcore:luv_async_thread_hatch"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
 		}
 	]
 	title: "{ftbquests.chapter.zpm.title}"

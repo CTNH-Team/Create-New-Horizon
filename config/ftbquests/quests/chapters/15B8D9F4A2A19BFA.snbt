@@ -13,7 +13,7 @@
 		}
 	}
 	id: "15B8D9F4A2A19BFA"
-	order_index: 6
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -65,7 +65,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -85,7 +85,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.5d
+			y: 5.5d
 		}
 		{
 			description: [
@@ -105,7 +105,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 7.0d
 		}
 		{
 			id: "3C15632B9697C37D"
@@ -285,7 +285,6 @@
 		}
 		{
 			id: "6A5982BF9A0692C5"
-			subtitle: "推荐使用底下的硅岩堆发电"
 			tasks: [{
 				id: "32BFB382EA697960"
 				item: "ctnhcore:uv_naquadah_reactor"
@@ -301,19 +300,8 @@
 				item: "ctnhcore:large_naquadah_reactor"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 11.5d
-		}
-		{
-			id: "14D70CD81A9B77A0"
-			tasks: [{
-				id: "5F20F56A4D3A3D86"
-				item: "gtceu:plasma_large_turbine"
-				type: "item"
-			}]
-			title: "用以太就能发100W电并省400W电("
-			x: 10.0d
-			y: 7.0d
+			x: 12.0d
+			y: 8.5d
 		}
 		{
 			id: "3D882DE9ACFD43EA"
@@ -356,6 +344,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["17292FB8D4DD36BA"]
 			id: "187E4ADFF4648D64"
 			tasks: [{
 				id: "32EE4FBEE51C583A"
@@ -484,8 +473,8 @@
 				item: "ctnhcore:naq_reactor_mk3"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 13.0d
+			x: 12.0d
+			y: 10.0d
 		}
 		{
 			id: "6E4976ECA4949FBE"
@@ -554,7 +543,7 @@
 				item: "ctnhcore:demon_will_generator"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 16.0d
 			y: 5.5d
 		}
 		{
@@ -564,7 +553,7 @@
 				item: "ctnhcore:magic_fuel_generator"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 7.0d
 		}
 		{
@@ -579,7 +568,7 @@
 		}
 		{
 			id: "4F8CBD1FE34B4A4D"
-			subtitle: "如果你有无限的矿物，那么强无敌"
+			subtitle: "烧石头发电"
 			tasks: [{
 				id: "16F7CEDB76D72832"
 				item: "ctnhcore:nanogenetor"
@@ -618,31 +607,80 @@
 			y: 10.0d
 		}
 		{
-			description: [
-				"这对你说绝对是一个全新的挑战，下一步的光伏线会需要巨量的阳光化合物，所以我建议你做出来其产线"
-				""
-				"你有很多方式可以获取它："
-				""
-				"1.从某些生物质里面提取到阳光提取物，然后与萤石在高压釜中制作"
-				""
-				"2.使用UU物质和生物质直接制取，速度更快步骤更少（前提是UU物质这条线已经有人做了）"
-				""
-				"3.在LUV后，你可以直接聚变来获得阳光化合物，这个方法消耗的材料少才速度快"
-				""
-				"4.在你制造出光伏基站后，你可以使用其独有配方来跳过阳光提取物这一步来制取阳光化合物"
-				""
-				"5.如果你接受了BTNH，那么你可以通过魔法配方来制取阳光化合物，不过他所需的东西也并没有这么简单：XD"
-			]
-			id: "3EECB7F9DF5AA7B2"
-			subtitle: "凑了，以前光伏要这个玩意吗"
+			id: "35946853DCF9050F"
 			tasks: [{
-				id: "61DA0967DE0444A2"
-				item: "gtceu:sunnarium_dust"
+				id: "193D0C21E4E8EF0B"
+				item: "ctpp:kinetic_generator"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 2.5d
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			id: "4F6F6169955CF2DD"
+			tasks: [{
+				id: "34753B4DEAA126B5"
+				item: "ctpp:windmill_control_center"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "51966223E636D298"
+			tasks: [{
+				id: "3FC96B146B74042E"
+				item: "ctnhcore:big_dam"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "6BA44627043FA783"
+			tasks: [{
+				id: "60F2E18CAE196797"
+				item: "ctnhcore:space_photovoltai_cbase_station"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.5d
+		}
+		{
+			id: "571E6FAB38D273F8"
+			tasks: [{
+				id: "45876FE25F0048E4"
+				item: "ctnhcore:hyper_plasma_turbine"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.5d
+		}
+		{
+			id: "4089D6C868A2D08A"
+			rewards: [{
+				id: "5CEB93C3F3B10C5A"
+				item: {
+					Count: 1
+					id: "gtceu:turbine_rotor"
+					tag: {
+						GT.PartStats: {
+							Material: "gtceu:neutronium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.luv.quest36.subtitle}"
+			tasks: [{
+				id: "1D67A2915C631403"
+				item: "gtceu:plasma_large_turbine"
+				type: "item"
+			}]
+			title: "用以太就能发100W电并省400W电("
+			x: 12.0d
+			y: 7.0d
 		}
 	]
-	title: "{ftbquests.chapter.15B8D9F4A2A19BFA.title}"
+	title: "如何产应力/发电"
 }

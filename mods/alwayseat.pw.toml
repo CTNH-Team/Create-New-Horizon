@@ -3,10 +3,11 @@ filename = "AlwaysEat-5.2.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/3930/804/AlwaysEat-5.2.jar"
 hash-format = "sha1"
 hash = "250cafb62c3f73cce919a56899ebd94424036735"
-url = "https://edge.forgecdn.net/files/3930/804/AlwaysEat-5.2.jar"
 
+[update]
 [update.curseforge]
 file-id = 3930804
 project-id = 318749

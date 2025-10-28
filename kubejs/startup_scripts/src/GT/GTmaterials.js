@@ -13,6 +13,9 @@ GTCEuStartupEvents.registry("gtceu:element", event => {
         .symbol('**Ma**')
 })
 GTCEuStartupEvents.registry("gtceu:material", event => {
+    TagPrefix.ingot.setIgnored(GTMaterials.Neutronium, 'avaritia:neutron_ingot')
+    TagPrefix.nugget.setIgnored(GTMaterials.Neutronium, 'avaritia:neutron_nugget')
+    TagPrefix.block.setIgnored(GTMaterials.Neutronium, 'avaritia:neutron')
     GTMaterials.get("darmstadtium").addFlags(GTMaterialFlags.GENERATE_GEAR)
     GTMaterials.get('neutronium').addFlags(GTMaterialFlags.GENERATE_SMALL_GEAR)
 })
@@ -923,9 +926,6 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .dust()
         .color(0xFF6666)
         .components("1x potassium", "1x fluorine")
-    event.create("ammonium_hydroxide")
-        .liquid()
-        .color(0xE0E0E0)
     event.create("niobium_oxide")
         .dust()
         .color(0xB2A9A9)
@@ -1646,6 +1646,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .iconSet(GTMaterialIconSet.METALLIC)
         .color(0x8C7853)
         .blastTemp(7200 , 'high', GTValues.VA[GTValues.UHV], 2500)
+    event.create("perrhenic_acid")
+        .liquid()
+        .color(0x654aaa)
 
 })
 
@@ -1682,7 +1685,6 @@ StartupEvents.postInit(event => {
     setFormula("lignin", "(CH2ON?S?)n")
     setFormula("combustible_ice", "(CH4)(H2O)")
     setFormula("ammonium_sulfate", "(NH4)2SO4")
-    setFormula("ammonium_hydroxide", "NH4OH")
     setFormula("niobium_tantalite", "Ta-Nb")
     setFormula("ammonium_fluoride", "NH4F")
     setFormula("rare_earth_fe_one", "Fe4?")
@@ -1718,4 +1720,5 @@ StartupEvents.postInit(event => {
     setFormula("strontium_chloride", "SrCl2")
     setFormula("oracle", "THANKS_FOR_YOUR_PLAYING")
     setFormula("advanced_mana_steel", "MAGIC+")
+    setFormula("perrhenic_acid", "HReO4")
 })

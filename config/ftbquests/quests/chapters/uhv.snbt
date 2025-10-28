@@ -371,7 +371,6 @@
 		{
 			dependencies: [
 				"072DDED1FC323DB9"
-				"61AE610609BFCBDC"
 				"2FA53E0988807E71"
 			]
 			description: [
@@ -416,24 +415,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["511D5305BC579F35"]
-			id: "61AE610609BFCBDC"
-			rewards: [{
-				id: "363A7BAF60A2FBDD"
-				item: "gtceu:abyssalalloy_hex_wire"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "7CAE239552A17955"
-				item: "ctnhcore:abyssalalloy_coil_block"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -4.0d
-		}
-		{
 			id: "2FA53E0988807E71"
 			subtitle: "如果给它加上通流琥珀金的话它的化学式能突破4行吗"
 			tasks: [{
@@ -443,6 +424,33 @@
 			}]
 			x: 4.5d
 			y: -3.0d
+		}
+		{
+			id: "2DBA5445319926BE"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "锗从冶炼炉里来"
+			tasks: [{
+				id: "25A8BD7CF4103101"
+				item: "gtceu:abyssalalloy_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2DBA5445319926BE"]
+			id: "0C5E045DBD9D132E"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "UHV线圈"
+			tasks: [{
+				id: "7FDBB66A6463D160"
+				item: "ctnhcore:abyssalalloy_coil_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
 		}
 	]
 	title: "{ftbquests.chapter.uhv.title}"

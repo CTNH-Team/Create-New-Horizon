@@ -1,0 +1,25 @@
+{
+	"type": "tconstruct:modifier",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "enigmaticlegacy"
+		}
+	],
+	"allow_crystal": true,
+	"inputs": [
+		{
+			"item": "enigmaticlegacy:ocean_stone"
+		}
+	],
+	"level": 1,
+	"result": "sakuratinker:will_of_ocean",
+	"slots": {
+		"spell_stone": 1
+	},
+	"tools": [
+		{
+			"tag": "tconstruct:modifiable/armor"
+		}
+	]
+}

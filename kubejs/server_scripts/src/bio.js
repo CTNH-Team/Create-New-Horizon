@@ -81,7 +81,7 @@ ServerEvents.recipes(event => {
         .itemInputs('gtceu:soldering_alloy_dust')
         .itemInputs('ctnhcore:sculk_cell')
         .itemInputs('gtceu:long_radiation_sight_alloy_inf_rod')
-        .itemInputs('extendedcrafting:crystaltine_ingot')
+        .itemInputs('avaritia:crystal_matrix_ingot')
         .itemInputs('#gtceu:circuits/uev')
         .itemOutputs('ctnhcore:research_dataset_lm')
         .addData("1", 48)

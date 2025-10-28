@@ -1,6 +1,0 @@
-
-#Client Settings
-[client]
-	#Rendering with shaders for some tools/armors
-	useShader = true
-

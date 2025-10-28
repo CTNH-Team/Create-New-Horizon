@@ -5,7 +5,7 @@
 	group: "4CD84F8DB1FF8B7E"
 	icon: "ae2:charged_certus_quartz_crystal"
 	id: "0C47ABD5DF78C460"
-	order_index: 1
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -20,7 +20,7 @@
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -1.5d
 		}
 		{
@@ -31,7 +31,7 @@
 				item: "ae2:logic_processor"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -91,7 +91,7 @@
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -1.5d
 		}
 		{
@@ -107,7 +107,7 @@
 				title: "{ftbquests.chapter.0C47ABD5DF78C460.quest8.task_+6919107789834636526.title}"
 				type: "checkmark"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
@@ -327,7 +327,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["40E2D3E042EC7608"]
 			hide_dependency_lines: true
 			id: "22A0E1EC2295780A"
 			tasks: [{
@@ -339,7 +338,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["40E2D3E042EC7608"]
 			hide_dependency_lines: true
 			id: "10961DB3B07533AA"
 			tasks: [{
@@ -351,7 +349,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["40E2D3E042EC7608"]
 			hide_dependency_lines: true
 			id: "7865E7BB786E65FD"
 			tasks: [{
@@ -366,13 +363,14 @@
 			dependencies: ["0F2A14132F65CC87"]
 			hide_dependency_lines: true
 			id: "52D78E53A576F7B5"
+			subtitle: "不如输入总成"
 			tasks: [{
 				id: "02FA7EE49806BECD"
 				item: "expatternprovider:ingredient_buffer"
 				type: "item"
 			}]
 			x: -2.0d
-			y: 1.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0F2A14132F65CC87"]
@@ -384,10 +382,9 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 5.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["40E2D3E042EC7608"]
 			hide_dependency_lines: true
 			id: "0DF62E2FF6E60C3C"
 			tasks: [{
@@ -399,7 +396,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["40E2D3E042EC7608"]
 			hide_dependency_lines: true
 			id: "5343C92781666C20"
 			tasks: [{
@@ -411,7 +407,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["40E2D3E042EC7608"]
 			hide_dependency_lines: true
 			id: "793CE9A81EC3528F"
 			tasks: [{
@@ -423,15 +418,38 @@
 			y: 9.0d
 		}
 		{
-			id: "40E2D3E042EC7608"
-			shape: "rsquare"
+			id: "7470CC8DD48CA0EB"
 			size: 1.5d
-			tasks: [{
-				id: "540CB45E51FA1299"
-				item: "gtceu:titanium_ingot"
-				type: "item"
-			}]
-			x: -2.0d
+			subtitle: "去查查怎么搭建吧"
+			tasks: [
+				{
+					id: "4570166912F4252F"
+					item: "expatternprovider:assembler_matrix_wall"
+					type: "item"
+				}
+				{
+					id: "57786C33D7CF5C67"
+					item: "expatternprovider:assembler_matrix_frame"
+					type: "item"
+				}
+				{
+					id: "1B4CE87EBFEA1A18"
+					item: "expatternprovider:assembler_matrix_pattern"
+					type: "item"
+				}
+				{
+					id: "3FB62585A2EF06A0"
+					item: "expatternprovider:assembler_matrix_crafter"
+					type: "item"
+				}
+				{
+					id: "65E45776AC61ECF1"
+					item: "expatternprovider:assembler_matrix_speed"
+					type: "item"
+				}
+			]
+			title: "装配矩阵"
+			x: 6.5d
 			y: 8.0d
 		}
 	]

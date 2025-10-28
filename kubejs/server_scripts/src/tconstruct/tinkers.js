@@ -7,11 +7,14 @@
 //
 //})
 ServerEvents.tags('minecraft:fluid', event => {
-    // 标签id，流体id
+	// 标签id，流体id
 	let fluidmaterials = ['precious_alloy', 'tin', 'silver', 'zinc', 'nickel', 'lead', 'beryllium',
-                         'molybdenum', 'brass', 'gold', 'iron', 'bronze', 'copper', 'cobalt', 'manganese', 'slag']
+						 'molybdenum', 'brass', 'gold', 'iron', 'bronze', 'copper', 'cobalt', 
+						 'manganese', 'slag', 'steel', 'aluminium', 'uranium', 'osmium', 'invar',
+						'eleectrum', 'platinum', 'tungsten', 'rose_gold', 'electrum']
 	fluidmaterials.forEach(fluidmaterial => {
-		event.add(`forge:molten_${fluidmaterial}`, `gtceu:${fluidmaterial}`)
+		event.remove('tconstruct:glass','tconstruct:glass')
+		event.removeAll(`tconstruct:${fluidmaterial}`)
 	})
 })
 //浇筑
@@ -19,20 +22,13 @@ ServerEvents.recipes(event => {
     event.recipes.tconstruct.casting_table(
 		'gtceu:andesite_alloy_ingot', 
 		Fluid.of('gtceu:andesite_alloy', 144), 
-		'createmetallurgy:graphite_ingot_mold', 
+		'tconstruct:ingot_cast', 
 		false, 90
-	)
-
-    event.recipes.tconstruct.casting_table(
-		'gtceu:andesite_alloy_block', 
-		Fluid.of('gtceu:andesite_alloy', 1296), 
-		"kubejs:graphite_block_mold", 
-		false, 120
 	)
 
 	event.recipes.tconstruct.casting_table(
 		'createmetallurgy:foundry_unit',
-		Fluid.of('gtceu:wrought_iron', 288), 
+		Fluid.of('gtceu:wrought_iron', 144), 
 		'createdieselgenerators:distillation_controller', 
 		false, 90
 	)
@@ -40,49 +36,119 @@ ServerEvents.recipes(event => {
 	event.recipes.tconstruct.casting_table(
 		'gtceu:rubber_ingot', 
 		Fluid.of('gtceu:rubber', 144), 
-		'createmetallurgy:graphite_ingot_mold', 
+		'tconstruct:ingot_cast', 
+		false, 90
+	)
+	
+	event.recipes.tconstruct.casting_table(
+		'gtceu:snow_steel_ingot', 
+		Fluid.of('gtceu:snow_steel', 144), 
+		'tconstruct:ingot_cast', 
 		false, 90
 	)
 
-    event.recipes.tconstruct.casting_table(
-		'gtceu:rubber_block', 
-		Fluid.of('gtceu:rubber', 1296),
-		"kubejs:graphite_block_mold", 
-		false, 120
+	event.recipes.tconstruct.casting_table(
+		'gtceu:wrought_iron_ingot', 
+		Fluid.of('gtceu:wrought_iron', 144), 
+		'tconstruct:ingot_cast', 
+		false, 90
 	)
+
 })
 //合金
 ServerEvents.recipes(event => {
 	event.recipes.tconstruct.alloy(
-		Fluid.of('tconstruct:molten_brass', 576), 
+		Fluid.of('gtceu:brass', 576), 
 		[
-			Fluid.of('tconstruct:molten_zinc', 432),
-			Fluid.of('tconstruct:molten_copper', 144)
+			Fluid.of('gtceu:zinc', 432),
+			Fluid.of('gtceu:copper', 144)
 		],
 		605
 	)
 })
 //融化
 ServerEvents.recipes(event => {
+	//熔融粘土
 	event.recipes.tconstruct.melting(
-		Fluid.of("tconstruct:molten_clay", 125),
+		Fluid.of("tconstruct:clay", 125),
 		"gtceu:fireclay_dust",
 		1000,
 		200
 	)
+	//橡胶
 	event.recipes.tconstruct.melting(
 		Fluid.of('gtceu:rubber', 144),
 		'kubejs:rubber_powder',
 		400,
 		90
 	)
+	//玻璃
 	event.recipes.tconstruct.melting(
-		Fluid.of('tconstruct:molten_glass', 500),
+		Fluid.of('gtceu:glass', 72),
 		'gtceu:glass_dust',
 		800,
 		90
 	)
+	//锻铁
+	event.recipes.tconstruct.melting(
+		Fluid.of('gtceu:wrought_iron', 32),
+		'minecraft:iron_nugget',
+		600,
+		10
+	)
+	event.recipes.tconstruct.melting(
+		Fluid.of('gtceu:wrought_iron', 16),
+		'gtceu:wrought_iron_nugget',
+		600,
+		5
+	)
+	//贵金属
+	event.recipes.tconstruct.melting(
+		Fluid.of('gtceu:gold', 64),
+		'gtceu:precious_alloy_ingot',
+		800,
+		40
+	)
+
+	//燃料
+	melting_fuels(event, 100, 10, 300, ['gtceu:raw_bio_diesel', 5])
+	melting_fuels(event, 100, 30, 500, ['gtceu:diesel', 25])
+	melting_fuels(event, 100, 50, 1000, ['gtceu:gasoline', 25])
+	melting_fuels(event, 200, 100, 3000, ['gtceu:high_octane_gasoline', 25])
+	melting_fuels(event, 200, 30, 4000, ['gtceu:blaze', 100])
+	melting_fuels(event, 200, 75, 5000, ['gtceu:cetane_boosted_diesel', 25])
+	melting_fuels(event, 200, 500, 5700, ['gtceu:pyrotheum', 1])
+
 })
+
+//矿脉
+GTCEuServerEvents.oreVeins(event => {
+    event.add("kubejs:tinkers_vein", vein => {
+        //矿脉生成前准备
+        vein.weight(20) // [*]//权重，愈大生成概率越高
+        vein.clusterSize(20) // [*]//矿脉大小，与单个矿脉内矿物数量相关
+        vein.density(0.3) // [*]//密度
+        vein.discardChanceOnAirExposure(0) //
+            // 定义在哪里生成
+        vein.layer("deepslate") // [*]//替换方块类型
+        vein.dimensions("minecraft:overworld") //限制维度
+        vein.biomes("#minecraft:is_overworld") //限制生物群系
+            // 定义高度范围
+        vein.heightRangeUniform(-20, 20) //高度
+            // 配置矿脉矿物类型
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                //weight:矿物权重
+				.layer(l => l.weight(1).block(() => Block.getBlock('gtceu:eclipse_shadow_ore')).size(1, 1))
+                .layer(l => l.weight(1).block(() => Block.getBlock('sakuratinker:eezo_ore')).size(1, 1))
+                .layer(l => l.weight(2).state(() => Block.getBlock('sakuratinker:terracryst_ore').defaultBlockState()).size(1, 2))
+                .layer(l => l.weight(3).state(() => Block.getBlock('sakuratinker:prometheum_ore').defaultBlockState()).size(2, 3))
+                .layer(l => l.weight(3).state(() => Block.getBlock('sakuratinker:orichalcum_ore').defaultBlockState()).size(4, 6))
+            )
+        )
+    })
+})
+
 //合成
 ServerEvents.recipes(event => {
     for (let rcp of [
@@ -133,4 +199,6 @@ ServerEvents.recipes(event => {
 		C: 'tconstruct:seared_brick',
 		D: '#forge:chests/wooden'
 	})
+
+	
 })

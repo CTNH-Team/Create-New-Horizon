@@ -1,0 +1,15 @@
+{
+  "type": "ad_astra:oxygen_loading",
+  "cookingtime": 1,
+  "energy": 30,
+  "input": {
+    "ingredient": {
+      "tag": "forge:chlorine"
+    },
+    "millibuckets": 4
+  },
+  "result": {
+    "fluid": "gtceu:chlorine",
+    "millibuckets": 4
+  }
+}

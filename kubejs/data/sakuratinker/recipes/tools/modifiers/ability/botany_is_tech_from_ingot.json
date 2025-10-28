@@ -1,0 +1,25 @@
+{
+	"type": "tconstruct:incremental_modifier",
+	"allow_crystal": true,
+	"amount_per_item": 1,
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "botania"
+		}
+	],
+	"input": {
+		"item": "botania:manasteel_ingot"
+	},
+	"level": {
+		"max": 5
+	},
+	"needed_per_level": 24,
+	"result": "sakuratinker:botany_is_tech",
+	"slots": {
+		"abilities": 1
+	},
+	"tools": {
+		"tag": "tconstruct:modifiable"
+	}
+}

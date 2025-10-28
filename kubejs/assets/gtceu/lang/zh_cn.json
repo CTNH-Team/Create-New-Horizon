@@ -342,7 +342,6 @@
     "material.gtceu.tantalite_fluorine": "铌钽复合氟化物",
     "material.gtceu.potassium_fluoride": "氟化钾",
     "material.gtceu.niobium_oxide": "五氧化二铌",
-    "material.gtceu.ammonium_hydroxide": "一水合氨",
     "material.gtceu.niobium_tantalite": "铌钽氧化复合物",
     "material.gtceu.ammonium_fluoride": "氟化铵",
     "material.gtceu.rare_earth_fe_one": "含铁稀土",
@@ -505,5 +504,7 @@
     "material.gtceu.perrhenic_acid": "高铼酸",
     "material.gtceu.steel_precursor": "预制钢",
     "material.gtceu.high_temp_wrought_precursor": "预处理锻铁",
-    "gtceu.jei.ore_vein.tinkers_vein": "材料金属矿脉"
+    "gtceu.jei.ore_vein.tinkers_vein": "材料金属矿脉",
+    "gtceu.recipe.cleanroom.display_name": "§e超净间§r",
+    "gtceu.recipe.cleanroom_sterile.display_name": "§d无菌超净间§r"
 }

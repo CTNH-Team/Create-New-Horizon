@@ -5,7 +5,7 @@
 	group: "32DB92B5A6E4493B"
 	icon: "ctnhcore:horizen_rune"
 	id: "1FD18D8B41761626"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -577,18 +577,6 @@
 			y: 20.5d
 		}
 		{
-			dependencies: ["484BB98965D48FBF"]
-			id: "7B7EDEDB4D48C01C"
-			tasks: [{
-				id: "14479A88DC623552"
-				item: "gtceu:agn_fuel_active_plasma_bucket"
-				type: "item"
-			}]
-			title: "还没做"
-			x: 16.5d
-			y: 20.5d
-		}
-		{
 			dependencies: [
 				"6205780525A93130"
 				"57B52F859023B1C5"
@@ -1101,7 +1089,7 @@
 			subtitle: "盖亚保护协会表示谴责"
 			tasks: [{
 				id: "5E67E5ADDE66A448"
-				item: "gtceu:gaia_reactor"
+				item: "ctnhcore:gaia_reactor"
 				type: "item"
 			}]
 			x: -5.5d
@@ -1238,7 +1226,7 @@
 			subtitle: "小而巧"
 			tasks: [{
 				id: "6EAB01420115B37B"
-				item: "ctnhcore:alter"
+				item: "ctnhcore:industrial_altar"
 				type: "item"
 			}]
 			x: -3.5d

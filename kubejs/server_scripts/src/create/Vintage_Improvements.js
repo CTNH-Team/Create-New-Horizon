@@ -11,100 +11,35 @@ ServerEvents.recipes((event) => {
         vintageimprovements.coiling(`gtceu:${i}_spring`, [`gtceu:long_${i}_rod`])
         vintageimprovements.coiling(`gtceu:small_${i}_spring`, [`gtceu:${i}_rod`])
     }
-    let ingot1 = ['iron', 'gold','steel','copper','silver','bronze']//不同的金属箔
+    let ingot1 = ['gold','steel','copper','silver','bronze']//不同的金属箔
         for (let i of ingot1) {
         event.recipes.vintageimprovementsHammering(Item.of(`3x gtceu:${i}_foil`),`#forge:plates/${i}`,3)
     }
 
-    vintageimprovements.turning(//车床配方（铁）按杆，螺栓，螺丝排列
-        'gtceu:iron_rod','minecraft:iron_ingot')
-        .processingTime(20)
-    vintageimprovements.turning(
-        '2x gtceu:iron_bolt','gtceu:iron_rod')
-        .processingTime(40)    
-    vintageimprovements.turning(
-        'gtceu:iron_screw','gtceu:iron_bolt')
-        .processingTime(40)
-    
-    vintageimprovements.turning(//车床配方（铜）
-        'gtceu:copper_rod','minecraft:copper_ingot')
-        .processingTime(20)
-    vintageimprovements.turning(
-        '2x gtceu:copper_bolt','gtceu:copper_rod')
-        .processingTime(40)    
-    vintageimprovements.turning(
-        'gtceu:copper_screw','gtceu:copper_bolt')
-        .processingTime(40)   
+    function addTurningRecipes(metal, ingot, rodTime, boltTime, screwTime) {
+    // ingot -> rod
+    vintageimprovements.turning(`2x gtceu:${metal}_rod`, ingot)
+        .processingTime(rodTime)
 
-    vintageimprovements.turning(//车床配方（金)
-        'gtceu:gold_rod','minecraft:gold_ingot')
-        .processingTime(200)
-    vintageimprovements.turning(
-        '2x gtceu:gold_bolt','gtceu:gold_rod')
-        .processingTime(40)    
-    vintageimprovements.turning(
-        'gtceu:gold_screw','gtceu:gold_bolt')
-        .processingTime(100)   
+    // rod -> 2x bolt
+    vintageimprovements.turning(`3x gtceu:${metal}_bolt`, `gtceu:${metal}_rod`)
+        .processingTime(boltTime)
 
-    vintageimprovements.turning(//车床配方（红色合金)
-        'gtceu:red_alloy_rod','gtceu:red_alloy_ingot')
-        .processingTime(100)
-    vintageimprovements.turning(
-        '2x gtceu:red_alloy_bolt','gtceu:red_alloy_rod')
-        .processingTime(40)    
-    vintageimprovements.turning(
-        'gtceu:red_alloy_screw','gtceu:red_alloy_bolt')
-        .processingTime(40)   
+    // bolt -> screw
+    vintageimprovements.turning(`gtceu:${metal}_screw`, `gtceu:${metal}_bolt`)
+        .processingTime(screwTime)
+}
 
-    vintageimprovements.turning(//车床配方（青铜)
-        'gtceu:bronze_rod','gtceu:bronze_ingot')
-        .processingTime(60)
-    vintageimprovements.turning(
-        '2x gtceu:bronze_bolt','gtceu:bronze_rod')
-        .processingTime(40)    
-    vintageimprovements.turning(
-        'gtceu:bronze_screw','gtceu:bronze_bolt')
-        .processingTime(40)
-    
-    vintageimprovements.turning(//车床配方（锻铁)
-        'gtceu:wrought_iron_rod','gtceu:wrought_iron_ingot')
-        .processingTime(60)
-    vintageimprovements.turning(
-        '2x gtceu:wrought_iron_bolt','gtceu:wrought_iron_rod')
-        .processingTime(40)    
-    vintageimprovements.turning(
-        'gtceu:wrought_iron_screw','gtceu:wrought_iron_bolt')
-        .processingTime(40)
-
-    vintageimprovements.turning(//车床配方（钢)
-        'gtceu:steel_rod','gtceu:steel_ingot')
-        .processingTime(100)
-    vintageimprovements.turning(
-        '2x gtceu:steel_bolt','gtceu:steel_rod')
-        .processingTime(40)    
-    vintageimprovements.turning(
-        'gtceu:steel_screw','gtceu:steel_bolt')
-        .processingTime(40)
-
-    vintageimprovements.turning(//车床配方（黄铜)
-        'gtceu:brass_rod','gtceu:brass_ingot')
-        .processingTime(60)
-    vintageimprovements.turning(
-        '2x gtceu:brass_bolt','gtceu:brass_rod')
-        .processingTime(40)    
-    vintageimprovements.turning(
-        'gtceu:brass_screw','gtceu:brass_bolt')
-        .processingTime(40)
-    
-    vintageimprovements.turning(//车床配方（粗青铜合金)
-        'gtceu:potin_rod','gtceu:potin_ingot')
-        .processingTime(60)
-    vintageimprovements.turning(
-        '2x gtceu:potin_bolt','gtceu:potin_rod')
-        .processingTime(40)    
-    vintageimprovements.turning(
-        'gtceu:potin_screw','gtceu:potin_bolt')
-        .processingTime(40)
+// 定义配方
+addTurningRecipes("iron", "minecraft:iron_ingot", 20, 40, 40)
+addTurningRecipes("copper", "minecraft:copper_ingot", 20, 40, 40)
+addTurningRecipes("gold", "minecraft:gold_ingot", 200, 40, 100)
+addTurningRecipes("red_alloy", "gtceu:red_alloy_ingot", 100, 40, 40)
+addTurningRecipes("bronze", "gtceu:bronze_ingot", 60, 40, 40)
+addTurningRecipes("wrought_iron", "gtceu:wrought_iron_ingot", 60, 40, 40)
+addTurningRecipes("steel", "gtceu:steel_ingot", 100, 40, 40)
+addTurningRecipes("brass", "gtceu:brass_ingot", 60, 40, 40)
+addTurningRecipes("potin", "gtceu:potin_ingot", 60, 40, 40)
 
 
     let ingot2 = ['iron', 'bronze','wrought_iron','steel','brass',]

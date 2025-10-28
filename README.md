@@ -16,11 +16,11 @@ An modpack which combined Create and GregTech together! According to the core mo
 <p align="center">
   
   <a href="https://www.curseforge.com/minecraft/modpacks/ctnh">
-    <img src="https://raw.githubusercontent.com/moguang2004/Create-New-Horizon/dev/kubejs/assets/ctnh/textures/readme_image/title2.png" alt="Logo" width="1013" height="174">
+    <img src="https://raw.githubusercontent.com/CTNH-Team/Create-New-Horizon/dev/kubejs/assets/ctnh/textures/readme_image/title2.png" alt="Logo" width="1013" height="174">
   </a>
   <p align="center">
     <a href="https://www.bilibili.com/video/BV179XyYFE56">观看宣传视频</a> .
-    <a href="https://github.com/moguang2004/Create-New-Horizon/issues">提交Bug以及请求新特性</a> .
+    <a href="https://github.com/CTNH-Team/Create-New-Horizon/issues">提交Bug以及请求新特性</a> .
     <a href="https://kdocs.cn/l/cvdYmhg2ome0">整合包反馈腾讯文档</a>
   </p>
 </p>
@@ -88,21 +88,21 @@ An modpack which combined Create and GregTech together! According to the core mo
 ---
 
 # 游戏内截图展示
-![task1](https://raw.githubusercontent.com/moguang2004/Create-New-Horizon/dev/kubejs/assets/ctnh/textures/readme_image/guide1.jpg)
-![tsak2](https://raw.githubusercontent.com/moguang2004/Create-New-Horizon/dev/kubejs/assets/ctnh/textures/readme_image/guide2.jpg)
+![task1](https://raw.githubusercontent.com/CTNH-Team/Create-New-Horizon/dev/kubejs/assets/ctnh/textures/readme_image/guide1.jpg)
+![tsak2](https://raw.githubusercontent.com/CTNH-Team/Create-New-Horizon/dev/kubejs/assets/ctnh/textures/readme_image/guide2.jpg)
 带有机械动力特色的格雷机器
-![windmill](https://raw.githubusercontent.com/moguang2004/Create-New-Horizon/dev/kubejs/assets/ctnh/textures/readme_image/windmill_control.jpg)
+![windmill](https://raw.githubusercontent.com/CTNH-Team/Create-New-Horizon/dev/kubejs/assets/ctnh/textures/readme_image/windmill_control.jpg)
 
 ---
 
 # 开发组成员
 **整合包仓库贡献者（排名不分先后）**
-<a href="https://github.com/moguang2004/Create-New-Horizon/graphs/contributors" target="_blank">
-  <img src="https://contrib.rocks/image?repo=moguang2004/Create-New-Horizon" />
+<a href="https://github.com/CTNH-Team/Create-New-Horizon/graphs/contributors" target="_blank">
+  <img src="https://contrib.rocks/image?repo=CTNH-Team/Create-New-Horizon" />
 </a>
 **核心模组CTNHCore贡献者（排名不分先后）**
-<a href="https://github.com/CPearl0/CTNH-Core/graphs/contributors" target="_blank">
-  <img src="https://contrib.rocks/image?repo=CPearl0/CTNH-Core" />
+<a href="https://github.com/CTNH-Team/CTNH-Core/graphs/contributors" target="_blank">
+  <img src="https://contrib.rocks/image?repo=CTNH-Team/CTNH-Core" />
 </a>
 
 # 特别鸣谢

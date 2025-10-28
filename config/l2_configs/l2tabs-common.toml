@@ -1,0 +1,9 @@
+#Sync player attribute names to client
+syncPlayerAttributeName = true
+#Sync all entity attribute name to client
+syncAllEntityAttributeName = false
+#Show all attribute on attribute tab, like Apothic
+generateAllAttributes = false
+#Show all attribute on attribute tab and hide the unchanged
+generateAllAttributesHideUnchanged = false
+

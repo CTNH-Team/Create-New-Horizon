@@ -3,7 +3,7 @@
 	"inputs": [
 		{
 			"amount": 576,
-			"fluid": "tconstruct:molten_gold"
+			"fluid": "gtceu:gold"
 		},
 		{
 			"amount": 576,

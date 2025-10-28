@@ -1,8 +1,0 @@
-
-#General settings
-[general]
-	#Set this value to change Crock Pot speed modifier. Higher tier Crock Pot will cook faster.
-	#actualCookingTime = cookingTime * (1.0 - crockPotSpeedModifier * potLevel)
-	#Range: 0.0 ~ 1.0
-	crockPotSpeedModifier = 0.15
-

@@ -1,13 +1,13 @@
 name = "Tinkers Construct"
-filename = "TinkersConstruct-ClassicsFluidValues-1.20.1-3.10.2.jar"
+filename = "TinkersConstruct-Morden-1.20.1-3.10.2.93.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "d83287d66decf2ad8b497ce50a8e727222155618"
-url = "https://edge.forgecdn.net/files/6809/898/TinkersConstruct-ClassicsFluidValues-1.20.1-3.10.2.jar"
+hash = "7bad48a7a327f6524d5d3a13b2731712573e4202"
+url = "https://edge.forgecdn.net/files/6947/442/TinkersConstruct-Morden-1.20.1-3.10.2.93.jar"
 
 [update.curseforge]
-file-id = 6809898
+file-id = 6947442
 project-id = 1313873
 

@@ -1,12 +1,13 @@
 name = "ReHooked"
-filename = "rehooked-1.7.0-1.20.1.jar"
+filename = "rehooked-1.8.3-1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e0cc0c0186e46eb7b86768a3d13322a93f12ff2c"
-url = "https://edge.forgecdn.net/files/5831/970/rehooked-1.7.0-1.20.1.jar"
+hash = "e4fe79c242ee562364afc7e90d280d56c068ba21"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 5831970
+file-id = 6341096
 project-id = 1096531

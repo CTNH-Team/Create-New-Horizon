@@ -1,0 +1,875 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "79CF3BE588A05F71"
+	group: "4CD84F8DB1FF8B7E"
+	icon: "ae2:controller"
+	id: "79CF3BE588A05F71"
+	images: [{
+		height: 1.0d
+		image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 2.5d
+		y: -7.5d
+	}]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["需要跑图挖陨石，模板在陨石中心的神秘方块里(当然脸黑或者不想跑图可以自己做）"]
+			id: "17B42B733D367D21"
+			subtitle: "来自外星的朋友们"
+			tasks: [
+				{
+					id: "5B349F70056E0B34"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "2CE1AB8AEFA47D7F"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "2D510B0289C4D336"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "2B91E1C982BFBFE1"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "压印模板"
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"17B42B733D367D21"
+				"11F898C7B0C925D5"
+			]
+			description: ["新版压印器只需要开64堆叠、任意面自动化、自动弹出就可以单面自动化了，非常方便"]
+			id: "25622AD73030A13E"
+			size: 2.0d
+			subtitle: "万恶之源"
+			tasks: [{
+				id: "05B29812B209F755"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"25622AD73030A13E"
+				"2D662EFDE7A39BB8"
+			]
+			id: "63FD1F0FC963B456"
+			subtitle: "你在MV的唯一选择"
+			tasks: [{
+				id: "099D6879D897B42B"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["77FB18547FBE81B9"]
+			description: ["有了格雷科技，你就能在高压釜内制作无瑕的母岩，无限白嫖赛特斯石英水晶了"]
+			id: "38C90F31ED99A1E4"
+			subtitle: "无限白嫖"
+			tasks: [{
+				id: "0EB2695494A9291B"
+				item: "ae2:flawless_budding_quartz"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77FB18547FBE81B9"]
+			description: ["把这个贴着母岩，接上ae网络，就能更快的白嫖赛特斯石英水晶了，你甚至能用这个催熟作物、树，甚至能加速依靠随机刻的任意机器"]
+			id: "6C2C1ACC8CC72ADD"
+			subtitle: "快速的无限白嫖"
+			tasks: [{
+				id: "7F83594150FDD824"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25622AD73030A13E"]
+			description: ["甚至能直接把金属块切成4（赛特斯石英水晶块）或9（金块、钻石块）个对应的电路板"]
+			id: "00AD3F46786CB82B"
+			subtitle: "压印器promaxultra"
+			tasks: [{
+				id: "4FD7C9ED3E97B299"
+				item: "expatternprovider:circuit_cutter"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["63FD1F0FC963B456"]
+			description: ["你的第一个终端，不能在其中合成物品，只能存入/取出ae网络中的物品"]
+			id: "06B9117F0C740A7F"
+			tasks: [{
+				id: "0BCEFF47EB8F99B9"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["63FD1F0FC963B456"]
+			description: ["用于自动化破坏方块"]
+			id: "575F16FBDB5A4556"
+			subtitle: "面板的颜色说明了一切🎶勇敢的木🎶"
+			tasks: [{
+				id: "7DF49E00514AE067"
+				item: "ae2:annihilation_plane"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["63FD1F0FC963B456"]
+			description: ["用于自动放置方块"]
+			id: "73BEFCBC69AFFFF9"
+			subtitle: "薄纱机械手"
+			tasks: [{
+				id: "65FE50C95F68BDDE"
+				item: "ae2:formation_plane"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["11F898C7B0C925D5"]
+			description: ["用于生产充能赛特斯石英水晶"]
+			id: "7A582CAB1F4E37F4"
+			size: 2.0d
+			subtitle: "压印器的兄弟"
+			tasks: [{
+				id: "493AE0825F23F2B6"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7A582CAB1F4E37F4"]
+			id: "77FB18547FBE81B9"
+			tasks: [{
+				id: "2F8AA624396E3A82"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			id: "32219B0C8171E349"
+			tasks: [{
+				id: "69279D6BD6AECABF"
+				title: "小玩具"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63FD1F0FC963B456"]
+			description: ["me接口的样板供应功能在高版本被拆分给了样板供应器（那个屎黄色的玩意），所以现在me接口变成了总线二合一，惨遭解体"]
+			id: "28F07240B52DC2F3"
+			subtitle: "惨遭解体"
+			tasks: [{
+				id: "5ACEF14FB4560C36"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63FD1F0FC963B456"]
+			description: ["用于快速在me网络和硬盘中传输物品，换盘的时候有大用。还可以快速传输大量物品，具体教程建议观看https://www.mcmod.cn/item/392570.html教程"]
+			id: "69B8ADF46A83B93B"
+			tasks: [{
+				id: "60C8A68462DCD6E8"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63FD1F0FC963B456"]
+			description: ["可以用于自动合成，把样板供应器紧贴着这个东西放，然后在样板供应器里放入对应样板就好了"]
+			id: "5E73F36C9795B0D6"
+			subtitle: "解放双手！"
+			tasks: [{
+				id: "03C407FB159E966D"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63FD1F0FC963B456"]
+			description: ["用于自动向me网络中输入物品"]
+			id: "4F73B748B1D33BD4"
+			tasks: [{
+				id: "0CA0269438ED5A52"
+				item: "ae2:import_bus"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63FD1F0FC963B456"]
+			description: ["用于自动从me网路中输出物品"]
+			id: "70826F00178A21B3"
+			tasks: [{
+				id: "248BDE68A4A35E39"
+				item: "ae2:export_bus"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63FD1F0FC963B456"]
+			description: ["用于将实体存储容器（箱子，木桶）接入me网路，在你的物品种类多的时候存储效率优于me硬盘,你甚至可以用这个把军械库连上me网络从而存储一大堆不可堆叠物品"]
+			id: "556EBDBF758D9615"
+			tasks: [{
+				id: "20CDF6E4382254F2"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			description: ["由于制作组的惊世智慧，导致你在获得hv电路板之前无法制作me控制器和me驱动器，导致同一个网络内最大只有8频道可用，网络的存储功能也极大的打折，所以我并不推荐你在lv阶段就着手推进ae，如果真的有需要，你可以使用存储总线和me箱子来进行存储，用me接口进行简单的被动自动化。"]
+			id: "441B2B5B58A11D7D"
+			tasks: [{
+				id: "706BC319C1877DB9"
+				title: "一些说明"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63FD1F0FC963B456"]
+			description: ["只能装一个me硬盘的me驱动器，相应的便宜了很多，点击这个方块的侧面可以打开放置硬盘的ui，点击顶面可以直接访问装载的硬盘，属于终端和me驱动器的缝合产物，总结：不好用"]
+			id: "24FA46B9DDC42BC7"
+			subtitle: "me驱动器se lite"
+			tasks: [{
+				id: "06CF308D6030974F"
+				item: "ae2:chest"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			description: ["将eu、rf能其他电力转化成ae内置能源，为网络功能"]
+			id: "3B488EDCF0288FA9"
+			subtitle: "power！"
+			tasks: [{
+				id: "5B7CEFE5F5BCD560"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"说明：本段文字中的“现实”指的是游戏中的物质世界，并非你所在的真正的现实"
+				"概述：me存储网络技术（下文简称me网络）是一种可以将现实物品通过终端、me接口、me总线等手段转化为me磁盘中的数据，再通过上述手段转化为显示物品的技术"
+				"术语解释：1.频道：表示me网络中可连接的（消耗频道的）设备数量限制，一个无me控制器的网络最多连接8个消耗频道的设备,一个me控制器方块每个面可以提供32个频道，多个控制器方块相连可以提供更多数量的频道，不过每个面提供的频道数量还是一定的，一个me网络中，只能出现一个me控制器集群（集群指紧连着的，不超过7x7x7的由me控制器组成的多方快结构）。"
+				"     me玻璃线缆，me智能线缆只能传导8个频道,me致密线缆可以传导32个频道，由此可知由me智能线缆无法完全导出me控制器一个面的所有频道，由此，p2p的需求诞生了（更详细的说明见https://www.mcmod.cn/item/192513.html）"
+				"          2.p2p：https://www.mcmod.cn/item/8748.html"
+				"          3.ae能源https://www.mcmod.cn/item/366571.html"
+				"          4.自动合成教程：https://www.mcmod.cn/item/392558.html"
+			]
+			id: "6E533D393553186C"
+			tasks: [{
+				id: "263DA3113322AC0E"
+				title: "ae网络相关概念"
+				type: "checkmark"
+			}]
+			title: "ae网络相关概念/教程汇总"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"25622AD73030A13E"
+				"3AE584B3EBC63A09"
+			]
+			id: "2F297694365BE2FE"
+			size: 2.0d
+			subtitle: "you shall not paaaaass!"
+			tasks: [
+				{
+					id: "14D8869E148A7741"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "7D4E61BCE3041393"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77FB18547FBE81B9"]
+			description: ["垃圾桶兼奇点制造器"]
+			id: "4F80046AF4863EF3"
+			subtitle: "大卫戴这一块"
+			tasks: [{
+				id: "5842CEB644F2003A"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F297694365BE2FE"]
+			description: [
+				"可以塞进ae的机器的屁股里给他们好好加个速（？）"
+				"可用于加速ae机器"
+			]
+			id: "3733F5D4B5552484"
+			subtitle: "冲刺！冲！冲刺！"
+			tasks: [{
+				id: "584D26BB3197A1E5"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F297694365BE2FE"]
+			description: ["可以提供频道、接收eu，rf等能源，搭建方法见https://www.mcmod.cn/item/30659.html"]
+			id: "25ED48C76B5EB60F"
+			subtitle: "R!G!B!"
+			tasks: [{
+				id: "4770BED4361FBB99"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2F297694365BE2FE"]
+			id: "79A96FB79CD87846"
+			subtitle: "me箱子s elite（没想到我还能这么断句吧）"
+			tasks: [{
+				id: "650954B306A54F88"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2F297694365BE2FE"]
+			description: ["存储能量，防止你的me网络突然断电"]
+			id: "4D656EC7663BC6AF"
+			tasks: [
+				{
+					id: "0B4739FF5AEC550A"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7F277EBEB2736F23"
+					item: {
+						Count: 1
+						id: "ae2:dense_energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F297694365BE2FE"]
+			description: ["有了这个，你的ae网络才能自动合成"]
+			id: "3B222B4D20E2A769"
+			subtitle: "真正的劳模"
+			tasks: [{
+				id: "7AFF8FEAD266D1A7"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F297694365BE2FE"]
+			description: ["有了这个你的自动合成才能快速高效"]
+			id: "164D36ABCB21FF8C"
+			subtitle: "劳模二号"
+			tasks: [{
+				id: "51036137615A2850"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F297694365BE2FE"]
+			description: ["ae自动化的真正核心，可以按其中的样板给周围的容器供应物品"]
+			id: "0D994803D40B1F03"
+			subtitle: "真正的神中神"
+			tasks: [{
+				id: "2ED1787F1D9D0454"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F297694365BE2FE"]
+			description: ["远程传输me频道，不限距离，维度，需要区块加载"]
+			id: "6A62E6D5AFFF27D0"
+			subtitle: "星际之门"
+			tasks: [
+				{
+					count: 8L
+					id: "2BEF559EEFAF3E94"
+					item: { Count: 8, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+				{
+					id: "292D6BCC5713985A"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					id: "230D21B72FD22EF7"
+					item: "ae2:singularity"
+					type: "item"
+				}
+			]
+			title: "量子环"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F297694365BE2FE"]
+			description: ["可以帮你自动下单，维持me网络内某个物品的数量"]
+			id: "41BAA77EA23F477E"
+			tasks: [{
+				id: "7B3362B951D1ECB6"
+				item: "merequester:requester"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F297694365BE2FE"]
+			description: ["可以直接在终端里合成东西了，可喜可贺"]
+			id: "6BAA4F144A88925C"
+			subtitle: "手搓之王"
+			tasks: [{
+				id: "07A00B92ED5093CC"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2F297694365BE2FE"]
+			description: ["远程传输me频道，限制同纬度，需要区块加载"]
+			id: "0D0DA6798304E5B6"
+			subtitle: "量子环lite"
+			tasks: [{
+				id: "12A75D077ABC08A2"
+				item: "expatternprovider:wireless_connect"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2F297694365BE2FE"]
+			description: ["可以通过这个终端写样板啦"]
+			id: "6C915062833A63DE"
+			subtitle: "今后你的大部分游戏时长都会花费在这块屏幕上"
+			tasks: [{
+				id: "6D35220B1164F03B"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2F297694365BE2FE"]
+			description: ["让你足不出户给机器们塞样板"]
+			id: "6CDCB3EC86D06C47"
+			subtitle: "视奸每一个样板供应器"
+			tasks: [{
+				id: "1FFBD3195C0F4A32"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2F297694365BE2FE"]
+			description: ["让你的无线终端无视距离（需要配合奇点和量子环食用）"]
+			id: "24FD60E7CC3A9496"
+			subtitle: "每一个鼠鼠梦寐以求的114格安全箱"
+			tasks: [{
+				id: "458A4BA18B997EE0"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2F297694365BE2FE"]
+			description: ["自动化配方们的载体"]
+			id: "6AF1CE5FD6EB5678"
+			rewards: [{
+				count: 16
+				id: "76CF03CCE806D46A"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			subtitle: "消耗品，多做"
+			tasks: [{
+				id: "5685D07A47CD6469"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2F297694365BE2FE"]
+			description: ["可以更好的导出你的频道，避免浪费，还可以节省长距离拉线的消耗"]
+			id: "02EA1884BE2A2FFE"
+			rewards: [{
+				id: "358D7EB3E7D1B7D5"
+				item: {
+					Count: 1
+					id: "ae2:memory_card"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "ae2模组的终极杀器"
+			tasks: [{
+				id: "314D71DA57C32CFB"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2F297694365BE2FE"]
+			description: ["p2p现在可以直接传输gt的eu了，不用转换器了"]
+			id: "3B3237064555CCAA"
+			tasks: [{
+				id: "3CFEDBFA28A96E72"
+				item: "mae2:eu_p2p_tunnel"
+				type: "item"
+			}]
+			title: "p2p传电太好用了你们知道吗"
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2F297694365BE2FE"]
+			description: ["用来设置元件的过滤功能等"]
+			id: "67E01A5DAB7798DE"
+			tasks: [{
+				id: "5CCB608EE9E4C892"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["164D36ABCB21FF8C"]
+			id: "5E7F5190A9C9C541"
+			tasks: [{
+				id: "478BEDE3E54961C8"
+				item: "bigger_ae2:4_core_crafting_accelerator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5E7F5190A9C9C541"]
+			id: "6E52C17618752964"
+			tasks: [{
+				id: "5A980BB542DAEAF8"
+				item: "bigger_ae2:16_core_crafting_accelerator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E52C17618752964"]
+			id: "4C30B993E9BF476A"
+			tasks: [{
+				id: "3930C43141B6F4BD"
+				item: "bigger_ae2:64_core_crafting_accelerator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4C30B993E9BF476A"]
+			id: "2E517A55A8E450BE"
+			tasks: [{
+				id: "119C4FC690B9E6B1"
+				item: "bigger_ae2:256_core_crafting_accelerator"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E517A55A8E450BE"]
+			id: "41197A8E78602273"
+			tasks: [{
+				id: "63E1805296904890"
+				item: "bigger_ae2:1024_core_crafting_accelerator"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B222B4D20E2A769"]
+			id: "4E41C8E51CB41ECF"
+			tasks: [{
+				id: "39959386788EB859"
+				item: "ae2:4k_crafting_storage"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4E41C8E51CB41ECF"]
+			id: "7C389096F196BD3D"
+			tasks: [{
+				id: "33EB624CA94AB79C"
+				item: "ae2:16k_crafting_storage"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C389096F196BD3D"]
+			id: "6B9761765100B801"
+			tasks: [{
+				id: "55FBE2B43E43EE7E"
+				item: "ae2:64k_crafting_storage"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6B9761765100B801"]
+			id: "2611B7715BC13025"
+			tasks: [{
+				id: "7BBA78F92E332E4A"
+				item: "ae2:256k_crafting_storage"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2611B7715BC13025"]
+			id: "11C048BF3543F744"
+			tasks: [{
+				id: "02405E07E64A5EEA"
+				item: "ae2additions:1024k_crafting_storage"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["11C048BF3543F744"]
+			id: "2607929EE3C97A6A"
+			tasks: [{
+				id: "499CE6EFCA34CE82"
+				item: "ae2additions:4096k_crafting_storage"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["11C048BF3543F744"]
+			id: "10394573DE579762"
+			tasks: [{
+				id: "7D65F420F8BCE5E2"
+				item: "ae2additions:16384k_crafting_storage"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["10394573DE579762"]
+			id: "49C2650F36C562E6"
+			tasks: [{
+				id: "35AB71E700036589"
+				item: "ae2additions:65536k_crafting_storage"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			icon: "ae2:certus_quartz_wrench"
+			id: "1C2340D328655D96"
+			rewards: [
+				{
+					id: "1CA3E7FF465AA5B7"
+					item: {
+						Count: 1
+						id: "ae2wtlib:wireless_universal_terminal"
+						tag: {
+							crafting: 1b
+							ex_pattern_access: 1b
+							internalMaxPower: 6400000.0d
+							pattern_access: 1b
+							pattern_encoding: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "770B927CB57D33D4"
+					item: "ae2:certus_quartz_wrench"
+					type: "item"
+				}
+				{
+					id: "4BF964677EC9A4EC"
+					item: {
+						Count: 1
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "553F1A193475A8DE"
+					item: "ae2:network_tool"
+					type: "item"
+				}
+			]
+			size: 4.0d
+			tasks: [{
+				count: 32L
+				id: "452EF69E063D96B5"
+				item: { Count: 32, id: "gtceu:aluminium_ingot" }
+				type: "item"
+			}]
+			title: "工程师小福利"
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: "ae2:fluix_smart_cable"
+			id: "4AC7F7D3DC78AD14"
+			rewards: [
+				{
+					count: 64
+					id: "49B9AC004FB8A036"
+					item: "ae2:fluix_smart_dense_cable"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "05679FFD0B24D6AA"
+					item: "ae2:fluix_smart_cable"
+					type: "item"
+				}
+			]
+			size: 4.0d
+			tasks: [{
+				count: 16L
+				id: "79675382A97A74C0"
+				item: { Count: 16, id: "gtceu:aluminium_ingot" }
+				type: "item"
+			}]
+			title: "懒人福利"
+			x: -12.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"在你需要用你的输出总线输出物料，并且ae网络里面存在该物料样板的时候"
+				"会占用合成单元合成所需的物料"
+			]
+			id: "534A73AC5D36DA8C"
+			subtitle: "这下不得不合成了"
+			tasks: [{
+				id: "3DE521CFF8DAA39D"
+				item: "ae2:crafting_card"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+	]
+	title: "应用能源"
+}

@@ -31,6 +31,16 @@ ServerEvents.recipes(event => {
             D: "minecraft:iron_block"
         })
     event.shaped(
+        Item.of("vintageimprovements:recipe_card", 4), [
+            " A ",
+            "BBB",
+            "CCC"
+        ], {
+            A: "createmetallurgy:sandpaper_belt",
+            B: "minecraft:redstone",
+            C: "gtceu:brass_plate"
+        })
+    event.shaped(
         Item.of("create:windmill_bearing", 1), [
             "AAA",
             "BCB",
@@ -250,6 +260,17 @@ ServerEvents.recipes(event => {
             }).keepIngredient("alexscaves:scarlet_magnet")
         .keepIngredient("alexscaves:azure_magnet")
     event.shaped(
+            Item.of('gtceu:magnetic_iron_bolt', 7), [
+                "ABA",
+                "AAA",
+                "ACA"
+            ], {
+                A: 'gtceu:iron_bolt',
+                B: "alexscaves:scarlet_magnet",
+                C: "alexscaves:azure_magnet"
+            }).keepIngredient("alexscaves:scarlet_magnet")
+        .keepIngredient("alexscaves:azure_magnet")
+    event.shaped(
         Item.of("create_new_age:magnetite_block", 5), [
             "ABA",
             "BAB",
@@ -338,17 +359,17 @@ ServerEvents.recipes(event => {
             A: "gtceu:polybenzimidazole_plate",
             B: "minecraft:dried_kelp",
         })
-    event.shaped(
-        Item.of("ae2:inscriber", 1), [
-            "ABA",
-            "C C",
-            "DBD"
-        ], {
-            A: "gtceu:mv_electric_piston",
-            B: "minecraft:sticky_piston",
-            C: "gtceu:aluminium_plate",
-            D: "gtceu:certus_quartz_plate"
-        })
+    // event.shaped(
+    //     Item.of("ae2:inscriber", 1), [
+    //         "ABA",
+    //         "C C",
+    //         "DBD"
+    //     ], {
+    //         A: "gtceu:mv_electric_piston",
+    //         B: "minecraft:sticky_piston",
+    //         C: "gtceu:aluminium_plate",
+    //         D: "gtceu:certus_quartz_plate"
+    //     })
     event.shaped(
         Item.of("ae2:charger", 1), [
             " AA",
@@ -401,15 +422,58 @@ ServerEvents.recipes(event => {
             C: "gtceu:gold_plate",
             D: "botania:cosmetic_engineer_goggles"
         })
+
+    //魔力透镜魔改；磁化透镜制作磁化物品
     event.shaped(
-        Item.of("gtceu:magnetic_iron_ingot", 4), [
+        Item.of('botania:lens_normal', 1), [
             " A ",
             "ABA",
             " A "
         ], {
+            A: 'gtceu:mana_steel_plate',
+            B: "minecraft:glass_pane"
+        })
+    event.shaped(
+        Item.of('botania:lens_magnet', 1), [
+            "   ",
+            "ABC",
+            "   "
+        ], {
+            A: '#forge:dyes/blue',
+            B: "botania:lens_normal",
+            C: '#forge:dyes/red'
+        })    
+
+
+    event.shaped(
+        Item.of("gtceu:magnetic_iron_ingot", 8), [
+            "AAA",
+            "ABA",
+            "AAA"
+        ], {
             A: "minecraft:iron_ingot",
             B: "botania:lens_magnet"
-        })
+        }).keepIngredient("botania:lens_magnet")
+
+    event.shaped(
+            Item.of("gtceu:magnetic_iron_rod", 8), [
+                "AAA",
+                "ABA",
+                "AAA"
+            ], {
+                A: "gtceu:iron_rod",
+                B: "botania:lens_magnet"
+            }).keepIngredient("botania:lens_magnet")
+    event.shaped(
+            Item.of("gtceu:magnetic_iron_bolt", 8), [
+                "AAA",
+                "ABA",
+                "AAA"
+            ], {
+                A: "gtceu:iron_bolt",
+                B: "botania:lens_magnet"
+            }).keepIngredient("botania:lens_magnet")
+   
     event.shaped(
         Item.of("create_new_age:layered_magnet", 2), [
             "AAA",
@@ -488,7 +552,7 @@ ServerEvents.recipes(event => {
         ], {
             A: "gtceu:lv_conveyor_module",
             B: "#gtceu:circuits/lv",
-            C: "gtceu:primitive_blast_furnace",
+            C: "minecraft:blast_furnace",
             D: "gtceu:firebricks"
         })
     event.shaped(
@@ -1066,7 +1130,7 @@ ServerEvents.recipes(event => {
         ], {
             A: 'gtceu:copper_spring',
             B: '#gtceu:circuits/lv',
-            C: 'gtceu:steam_alloy_furnace',
+            C: 'gtceu:hp_steam_alloy_smelter',
             D: 'gtceu:firebricks',
         })
 
@@ -1162,18 +1226,6 @@ ServerEvents.recipes(event => {
             A: "ctnhcore:elementium_normal_fluid_pipe",
             B: "gtceu:elementium_frame",
             C: "gtceu:elementium_plate"
-        })
-    event.shaped(
-        Item.of("ctnhcore:mana_steel_gearbox_casing", 2), [
-            "ADA",
-            "CBC",
-            "AFA"
-        ], {
-            A: "gtceu:mana_steel_plate",
-            B: "gtceu:mana_steel_frame",
-            C: "gtceu:mana_steel_gear",
-            D: "#forge:tools/hammers",
-            F: "#forge:tools/wrenches"
         })
     event.shaped(
         Item.of("ctnhcore:ev_chemical_generator", 1), [
@@ -1325,54 +1377,54 @@ ServerEvents.recipes(event => {
                 C: "gtceu:" + tier + "_voltage_coil"
             })
     })
-    event.shaped(
-        Item.of("ctpp:lv_kinetic_mixer", 1), [
-            "ABA",
-            "ACA",
-            "DED"
-        ], {
-            A: "create:shaft",
-            B: "gtceu:tin_rotor",
-            C: "gtceu:lv_electric_motor",
-            D: "#gtceu:circuits/lv",
-            E: "gtceu:lv_machine_hull"
-        })
-    event.shaped(
-        Item.of("ctpp:mv_kinetic_mixer", 1), [
-            "ABA",
-            "ACA",
-            "DED"
-        ], {
-            A: "create:shaft",
-            B: "gtceu:bronze_rotor",
-            C: "gtceu:mv_electric_motor",
-            D: "#gtceu:circuits/mv",
-            E: "gtceu:mv_machine_hull"
-        })
-    event.shaped(
-        Item.of("ctpp:hv_kinetic_mixer", 1), [
-            "ABA",
-            "ACA",
-            "DED"
-        ], {
-            A: "create:shaft",
-            B: "gtceu:steel_rotor",
-            C: "gtceu:hv_electric_motor",
-            D: "#gtceu:circuits/hv",
-            E: "gtceu:hv_machine_hull"
-        })
-    event.shaped(
-        Item.of("ctpp:ev_kinetic_mixer", 1), [
-            "ABA",
-            "ACA",
-            "DED"
-        ], {
-            A: "create:shaft",
-            B: "gtceu:stainless_steel_rotor",
-            C: "gtceu:ev_electric_motor",
-            D: "#gtceu:circuits/ev",
-            E: "gtceu:ev_machine_hull"
-        })
+    // event.shaped(
+    //     Item.of("ctpp:lv_kinetic_mixer", 1), [
+    //         "ABA",
+    //         "ACA",
+    //         "DED"
+    //     ], {
+    //         A: "create:shaft",
+    //         B: "gtceu:tin_rotor",
+    //         C: "gtceu:lv_electric_motor",
+    //         D: "#gtceu:circuits/lv",
+    //         E: "gtceu:lv_machine_hull"
+    //     })
+    // event.shaped(
+    //     Item.of("ctpp:mv_kinetic_mixer", 1), [
+    //         "ABA",
+    //         "ACA",
+    //         "DED"
+    //     ], {
+    //         A: "create:shaft",
+    //         B: "gtceu:bronze_rotor",
+    //         C: "gtceu:mv_electric_motor",
+    //         D: "#gtceu:circuits/mv",
+    //         E: "gtceu:mv_machine_hull"
+    //     })
+    // event.shaped(
+    //     Item.of("ctpp:hv_kinetic_mixer", 1), [
+    //         "ABA",
+    //         "ACA",
+    //         "DED"
+    //     ], {
+    //         A: "create:shaft",
+    //         B: "gtceu:steel_rotor",
+    //         C: "gtceu:hv_electric_motor",
+    //         D: "#gtceu:circuits/hv",
+    //         E: "gtceu:hv_machine_hull"
+    //     })
+    // event.shaped(
+    //     Item.of("ctpp:ev_kinetic_mixer", 1), [
+    //         "ABA",
+    //         "ACA",
+    //         "DED"
+    //     ], {
+    //         A: "create:shaft",
+    //         B: "gtceu:stainless_steel_rotor",
+    //         C: "gtceu:ev_electric_motor",
+    //         D: "#gtceu:circuits/ev",
+    //         E: "gtceu:ev_machine_hull"
+    //     })
     event.shaped(
         Item.of("ctpp:smashing_factory", 1), [
             "ABA",
@@ -1411,43 +1463,6 @@ ServerEvents.recipes(event => {
             G: 'gtceu:luv_electric_pump'
         })
     event.shaped(
-        Item.of('extendedcrafting:basic_component', 1), [
-            "AC",
-            "BA"
-        ], {
-            A: 'gtceu:iron_plate',
-            B: 'extendedcrafting:black_iron_slate',
-            C: 'extendedcrafting:luminessence'
-        })
-    event.shaped(
-        Item.of('extendedcrafting:basic_catalyst', 1), [
-            "AB",
-            "BA"
-        ], {
-            A: 'extendedcrafting:luminessence',
-            B: 'extendedcrafting:basic_component'
-        })
-    event.shaped(
-        Item.of('extendedcrafting:advanced_component', 1), [
-            "AAC",
-            "BBA",
-            "BBA"
-        ], {
-            A: 'gtceu:gold_plate',
-            B: 'extendedcrafting:black_iron_slate',
-            C: 'extendedcrafting:luminessence'
-        })
-    event.shaped(
-        Item.of('extendedcrafting:advanced_catalyst', 1), [
-            "A C",
-            " B ",
-            "C A"
-        ], {
-            A: 'extendedcrafting:advanced_component',
-            B: 'extendedcrafting:black_iron_slate',
-            C: 'extendedcrafting:luminessence'
-        })
-    event.shaped(
         Item.of('ctnhcore:uhv_parallel_hatch', 1), [
             "ABC",
             "BDB",
@@ -1484,7 +1499,7 @@ ServerEvents.recipes(event => {
             E: 'create:depot'
         })
     event.shaped(
-        Item.of('ctnhcore:mechanical_pressor', 1), [
+        Item.of('ctnhcore:mechanical_mixer', 1), [
             "AAA",
             "BCB",
             "DED"
@@ -1494,18 +1509,6 @@ ServerEvents.recipes(event => {
             C: 'create:mechanical_mixer',
             D: 'create:fluid_pipe',
             E: 'create:basin'
-        })
-    event.shaped(
-        Item.of('ctnhcore:mechanical_mixer', 1), [
-            "AAA",
-            "BCB",
-            "DED"
-        ], {
-            A: 'ctpp:steel_mechanism',
-            B: 'create:railway_casing',
-            C: 'create:mechanical_press',
-            D: 'create:large_cogwheel',
-            E: 'create:depot'
         })
     event.shaped(
         Item.of('ctnhcore:mechanical_centrifuge', 1), [
@@ -1592,6 +1595,15 @@ ServerEvents.recipes(event => {
         ], {
             A: 'bloodmagic:dungeon_brick1'
         })
+    event.shaped(
+        Item.of('ad_astra:iron_plating', 64), [
+            "AAA",
+            "A A",
+            "AAA"
+        ], {
+            A: '#forge:plates/iron'
+        })
+
     event.shapeless("ad_astra:space_helmet", "ad_astra:space_helmet")
     event.shapeless("ad_astra:space_suit", "ad_astra:space_suit")
     event.shapeless("ad_astra:space_pants", "ad_astra:space_pants")
@@ -1604,4 +1616,8 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:forlorn_hollows"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:forlorn_hollows"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT())
+    event.shapeless('ae2:redstone_p2p_tunnel', ['ae2:me_p2p_tunnel', 'minecraft:redstone'])
+    event.shapeless('ae2:fe_p2p_tunnel', ['ae2:me_p2p_tunnel', 'ae2:fluix_dust'])
+    event.shapeless('ae2:fluid_p2p_tunnel', ['ae2:me_p2p_tunnel', 'minecraft:bucket'])
+    event.shapeless('ae2:item_p2p_tunnel', ['ae2:me_p2p_tunnel', 'minecraft:chest'])
 })

@@ -1,3 +1,4 @@
+const $CTNHRecipes = Java.loadClass("io.github.cpearl0.ctnhcore.registry.CTNHRecipes")
 ServerEvents.recipes(event => {
     let ctnh = event.recipes.gtceu
         //基岩主线
@@ -108,7 +109,7 @@ ServerEvents.recipes(event => {
         .outputFluids('gtceu:bedrock_gas 1000')
         .itemOutputs('4x gtceu:tiny_radioactive_metals_mix_dust', 'gtceu:tiny_francium_dust', '3x gtceu:tiny_naquadria_oxide_mixture_dust', '2x gtceu:small_technetium_dust')
         .duration(100)
-        .addCondition($CTNHRecipes.setNA(600, 440))
+        .addCondition($CTNHRecipes.setNA(440, 600))
     ctnh.cracker("bedrock_gas_cracking")
         .inputFluids("gtceu:bedrock_gas_re 1000", "gtceu:radon 1000")
         .outputFluids("gtceu:dr_bedrock_gas_re 2000")
@@ -147,7 +148,7 @@ ServerEvents.recipes(event => {
     ctnh.large_chemical_reactor("radioactive_particles")
         .circuit(1)
         .itemInputs('gtceu:enrich_radioactive_waste_dust')
-        .inputFluids("gtceu:ammonium_hydroxide 1000")
+        .inputFluids("gtceu:ammonia_monohydrate 1000")
         .outputFluids('gtceu:radioactive_ion_solution 2000')
         .EUt(114514)
         .duration(20)
@@ -157,7 +158,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('2x gtceu:small_americium_dust', '2x gtceu:small_radium_dust', '2x gtceu:small_francium_dust')
         .outputFluids('gtceu:neutron_irradiation_of_radioactive_waste 1000')
         .duration(100)
-        .addCondition($CTNHRecipes.setNA(600, 110))
+        .addCondition($CTNHRecipes.setNA(110, 600))
     ctnh.centrifuge("neutron_substance_separation")
         .inputFluids('gtceu:neutron_irradiation_of_radioactive_waste 1000')
         .outputFluids('gtceu:radon 8000', 'gtceu:fluorine 16000', 'gtceu:helium_plasma 4000', 'gtceu:nuclear_waste_water 16000')

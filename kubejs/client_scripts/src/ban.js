@@ -82,8 +82,20 @@ JEIEvents.hideItems(event => {
     event.hide('gtceu:lv_steam_turbine')
     event.hide('gtceu:mv_steam_turbine')
     event.hide('gtceu:hv_steam_turbine')
+    event.hide('ae2:facade')
+})
+JEIEvents.hideFluids(event => {
+    for (let i = 0; i <= 19; i++) {
+    const eventName = 'ticex:rf_furnace_fuel_${i}';
+    event.hide(eventName);
+}
+    
 })
 
-/*REIEvents.information(event => {
-    event.addItem('example:ingredient', 'Title', ['Line 1', 'Line 2'])
-  })*/
+JEIEvents.removeCategories(event => {
+    //console.log("event.categoryIds:")
+    //console.log(event.categoryIds) //log a list of all category ids to logs/kubejs/client.txt
+    event.remove('create:automatic_shaped')
+    event.remove('create:automatic_shapeless')
+    //event.remove('create:draining')
+})

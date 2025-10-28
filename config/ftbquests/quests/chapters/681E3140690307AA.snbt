@@ -11,40 +11,40 @@
 			image: "create:textures/gui/logo.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -8.0d
-			y: 1.5d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			height: 1.0d
 			image: "gtceu:textures/gui/icon/gregtech_logo.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -13.3d
-			y: 3.5d
+			x: -8.3d
+			y: 4.0d
 		}
 		{
 			height: 1.0d
 			image: "bloodmagic:item/altarmaker"
 			rotation: 0.0d
 			width: 1.0d
-			x: -13.2d
-			y: -0.75d
+			x: -8.2d
+			y: -0.25d
 		}
 		{
 			height: 1.0d
 			image: "legendarysurvivaloverhaul:item/thermometer/thermometer_16"
 			rotation: 0.0d
 			width: 1.0d
-			x: -11.0d
-			y: -1.5d
+			x: -6.0d
+			y: -1.0d
 		}
 		{
 			height: 1.0d
 			image: "botania:item/corporea_spark_creative"
 			rotation: 0.0d
 			width: 1.0d
-			x: -9.0d
-			y: -0.75d
+			x: -4.0d
+			y: -0.25d
 		}
 		{
 			corner: true
@@ -61,16 +61,24 @@
 			image: "ars_nouveau:item/drygmy_shard"
 			rotation: 0.0d
 			width: 1.0d
-			x: -14.0d
-			y: 1.5d
+			x: -9.0d
+			y: 2.0d
 		}
 		{
 			height: 1.2d
-			image: "tconstruct:block/smeltery/controller/smeltery_active"
+			image: "biomancy:textures/mob_effect/despoil.png"
 			rotation: 0.0d
 			width: 1.2d
-			x: -11.0d
-			y: 4.5d
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "farmersdelight:block/stove_front_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 4.0d
 		}
 	]
 	order_index: 0
@@ -86,20 +94,21 @@
 				title: "{ftbquests.chapter.681E3140690307AA.quest1.task_+6694491882964515917.title}"
 				type: "checkmark"
 			}]
-			x: -11.0d
-			y: 1.5d
+			x: -6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
 			description: [
 				"{ftbquests.chapter.681E3140690307AA.quest2.description1}"
 				"{ftbquests.chapter.681E3140690307AA.quest2.description2}"
+				"     &m如果你实在讨厌温度，可以通过设置关掉，方法自行查询&r"
 			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
 					Parent: {
-						temperature: 20.6f
+						temperature: 35.6f
 					}
 				}
 				id: "legendarysurvivaloverhaul:thermometer"
@@ -123,8 +132,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.681E3140690307AA.quest2.title}"
-			x: -11.0d
-			y: -0.5d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -142,8 +151,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.681E3140690307AA.quest3.title}"
-			x: -12.5d
-			y: 3.0d
+			x: -7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -157,8 +166,8 @@
 				title: "{ftbquests.chapter.681E3140690307AA.quest4.task_+708532979325862072.title}"
 				type: "checkmark"
 			}]
-			x: -9.0d
-			y: 1.5d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -170,8 +179,8 @@
 				title: "{ftbquests.chapter.681E3140690307AA.quest5.task_+3997356261942771367.title}"
 				type: "checkmark"
 			}]
-			x: -9.5d
-			y: 0.0d
+			x: -4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -183,28 +192,30 @@
 				title: "{ftbquests.chapter.681E3140690307AA.quest6.task_+6157444188204973590.title}"
 				type: "checkmark"
 			}]
-			x: -12.5d
-			y: 0.0d
+			x: -7.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["44C7FE559ECFB2EB"]
+			dependencies: ["1B4FFE71B4C66E14"]
 			description: [
+				"对gt矿物的连锁默认被禁用了"
 				"{ftbquests.chapter.681E3140690307AA.quest7.description1}"
 				"{image:ftbquests:textures/basic/mods.png width:180 height:100 align:center}"
 				"{image:ftbquests:textures/basic/config.png width:180 height:100 align:center}"
 			]
 			id: "4B11E32ACA7BC6FA"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7.subtitle}"
+			subtitle: "默认按~启用"
 			tasks: [{
 				id: "6344812C1EC2C585"
 				title: "{ftbquests.chapter.681E3140690307AA.quest7.task_+7152984134665815429.title}"
 				type: "checkmark"
 			}]
-			x: -9.5d
-			y: 3.0d
+			title: "连锁挖矿"
+			x: -3.5d
+			y: 11.0d
 		}
 		{
-			dependencies: ["09C344717F4BAD6C"]
+			dependencies: ["7500E7310C70727B"]
 			id: "6F405D2508EED283"
 			rewards: [{
 				count: 64
@@ -212,17 +223,18 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				count: 16L
 				id: "737374C23974ABF8"
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 3.0d
+			x: -6.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["1B4FFE71B4C66E14"]
+			dependencies: ["31554E021ECE6572"]
 			description: [""]
 			id: "611BCC64F1F511AA"
 			optional: true
@@ -279,8 +291,8 @@
 				item: "minecraft:leather"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 4.0d
+			x: -10.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
@@ -305,6 +317,7 @@
 						Count: 1
 						id: "gtceu:rose_gold_mining_hammer"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							Enchantments: [{
 								id: "minecraft:fortune"
@@ -319,7 +332,6 @@
 								MaxAoERow: 1
 							}
 							GT.Tool: {
-								Damage: 0
 								HarvestLevel: 2
 								MaxDamage: 2303
 								ToolSpeed: 8.8f
@@ -342,19 +354,9 @@
 					}
 					type: "item"
 				}
-				{
-					id: "336B11DEECD4272E"
-					item: {
-						Count: 1
-						id: "sophisticatedbackpacks:gold_backpack"
-						tag: {
-							inventorySlots: 81
-							upgradeSlots: 3
-						}
-					}
-					type: "item"
-				}
 			]
+			shape: "square"
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest10.subtitle}"
 			tasks: [{
 				id: "02CB7B2250363B17"
@@ -362,7 +364,7 @@
 				type: "checkmark"
 			}]
 			x: -3.5d
-			y: 3.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
@@ -400,10 +402,10 @@
 			}]
 			title: "{ftbquests.chapter.681E3140690307AA.quest11.title}"
 			x: -6.5d
-			y: 2.0d
+			y: 11.0d
 		}
 		{
-			dependencies: ["6F405D2508EED283"]
+			dependencies: ["4B11E32ACA7BC6FA"]
 			description: ["{ftbquests.chapter.681E3140690307AA.quest12.description1}"]
 			icon: "gtceu:raw_magnetite"
 			id: "6639C6A3A5807AED"
@@ -448,14 +450,15 @@
 				}
 			]
 			title: "{ftbquests.chapter.681E3140690307AA.quest12.title}"
-			x: -4.5d
-			y: 2.0d
+			x: -3.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["1B4FFE71B4C66E14"]
 			icon: "minecraft:iron_ingot"
 			id: "5BA86B01337A91D5"
-			subtitle: "初期你最需要的东西"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest13.subtitle}"
 			tasks: [
 				{
 					count: 16L
@@ -471,8 +474,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.681E3140690307AA.quest13.title}"
-			x: -1.5d
-			y: 3.0d
+			x: -2.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -480,17 +483,25 @@
 				"337BC9186C014A06"
 			]
 			id: "09C344717F4BAD6C"
+			rewards: [{
+				count: 2
+				id: "323245D0CF7D2E17"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest14.subtitle}"
 			tasks: [{
 				id: "58CDFF594C3E0249"
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 4.5d
+			x: -9.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["4B11E32ACA7BC6FA"]
+			dependencies: ["42BC9DB741D0AD70"]
 			id: "27C30CC438658E3E"
 			rewards: [{
 				count: 4
@@ -505,49 +516,8 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["611BCC64F1F511AA"]
-			icon: "sophisticatedbackpacks:backpack"
-			id: "04FBFEEE00051A74"
-			optional: true
-			rewards: [
-				{
-					count: 4
-					id: "75D0E80D02D3516B"
-					item: "minecraft:string"
-					type: "item"
-				}
-				{
-					id: "10F8762EB24C04B7"
-					item: "minecraft:chest"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "36E42458DAA32682"
-					item: "minecraft:leather"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest16.subtitle}"
-			tasks: [{
-				id: "123796D65339C390"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "curios:back"
-					}
-				}
-				title: "{ftbquests.chapter.681E3140690307AA.quest16.task_+1312683663665251216.title}"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.681E3140690307AA.quest16.title}"
-			x: -2.5d
-			y: 4.0d
+			x: -11.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["5BA86B01337A91D5"]
@@ -564,17 +534,17 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest17.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest17.subtitle}（收集安山岩了吗~）"
 			tasks: [{
 				id: "19245BF7A4D48BFB"
 				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: 0.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["4B11E32ACA7BC6FA"]
+			dependencies: ["42BC9DB741D0AD70"]
 			description: [
 				"{ftbquests.chapter.681E3140690307AA.quest18.description1}"
 				"{ftbquests.chapter.681E3140690307AA.quest18.description2}"
@@ -593,8 +563,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.681E3140690307AA.quest18.title}"
-			x: -8.0d
-			y: 3.0d
+			x: -11.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -602,14 +572,14 @@
 			hide_dependency_lines: true
 			id: "1FB23D66088398BC"
 			shape: "rsquare"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "519EA59FDB4B479F"
 				title: "{ftbquests.chapter.681E3140690307AA.quest19.task_+5881320269389973407.title}"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -625,8 +595,8 @@
 				title: "{ftbquests.chapter.681E3140690307AA.quest20.task_+7524537443263658711.title}"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: 0.0d
+			x: -11.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["09C344717F4BAD6C"]
@@ -638,20 +608,8 @@
 				item: "rehooked:wood_hook"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["5BA86B01337A91D5"]
-			id: "34606BB00D3B0E3D"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest22.subtitle}"
-			tasks: [{
-				id: "4881B53598E8D5CE"
-				item: "ironfurnaces:iron_furnace"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 2.0d
+			x: -9.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -663,22 +621,343 @@
 				title: "新生魔艺"
 				type: "checkmark"
 			}]
-			x: -13.0d
-			y: 1.5d
+			x: -8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			icon: "tconstruct:smeltery_controller"
+			description: ["  生物与科技的结合"]
+			icon: "biomancy:primordial_core"
 			id: "2AC892D111A8FA83"
-			subtitle: "自定义工具（需要想象力）"
+			rewards: [{
+				id: "3E2FCBC05DB451DE"
+				item: {
+					Count: 1
+					id: "ctnhbio:damascus_steel_boning_knife"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "biomancy:despoil"
+							lvl: 3
+						}]
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 8.0f
+							AttackSpeed: -1.9000001f
+							MaxDamage: 1024
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "有点克，有点..."
 			tasks: [{
-				id: "7397B9E592EFAEEA"
-				title: "匠魂"
+				id: "5A99B7C4816A6CF4"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			title: "血肉重铸"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "42BC9DB741D0AD70"
+			size: 2.0d
+			subtitle: "这是你主线上的第一个任务"
+			tasks: [{
+				id: "51D08D5ED0A791B8"
+				title: "从此开始你的CTNH之旅"
 				type: "checkmark"
 			}]
-			title: "匠魂"
+			x: -12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["09C344717F4BAD6C"]
+			id: "7500E7310C70727B"
+			subtitle: "你知道应该怎么做"
+			tasks: [{
+				id: "2FCDC90FC081C247"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["09C344717F4BAD6C"]
+			id: "31554E021ECE6572"
+			subtitle: "用这把剑杀掉的动物可以直接掉落熟肉，非常方便"
+			tasks: [{
+				id: "640D0069BFD1C069"
+				item: {
+					Count: 1
+					id: "gtceu:flint_sword"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						Enchantments: [{
+							id: "minecraft:fire_aspect"
+							lvl: 2s
+						}]
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 4.0f
+							AttackSpeed: -2.4f
+							MaxDamage: 63
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4157A965AA4E18D2"]
+			description: ["其实你可以直接去村庄劫掠"]
+			id: "62CFB5898D0A96E4"
+			subtitle: "一分耕耘，一分收获"
+			tasks: [{
+				id: "7FCC30F090B016F5"
+				item: {
+					Count: 1
+					id: "minecraft:stone_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6F405D2508EED283"]
+			description: ["本整合包里地形多样，群系丰富，不少可以收集的自然资源在未来都能给你提供很大的帮助(某些神秘结构也可以给你带来前期的物资)，请尽情探索吧！"]
+			id: "7F3D3CD93589D286"
+			rewards: [{
+				id: "799312A73A8C9467"
+				item: {
+					Count: 1
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "minecraft:swiftness"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "见[大千世界]章节"
+			tasks: [{
+				id: "2BC1BCB3ECAB5715"
+				title: "在急着推进主线之前，先感受一下这个世界吧"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["31554E021ECE6572"]
+			id: "53AB5247B08B9709"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "3101F2CBA1F36E54"
+				title: "杀死十只僵尸"
+				type: "kill"
+				value: 10L
+			}]
+			title: "僵尸猎人"
 			x: -11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["31554E021ECE6572"]
+			id: "323BCD9A004CC866"
+			subtitle: "可以获得大量的线"
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "minecraft:spider_eye"
+				id: "65D03000C99C3EA4"
+				title: "杀死十只蜘蛛"
+				type: "kill"
+				value: 10L
+			}]
+			title: "蜘蛛猎人"
+			x: -8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["31554E021ECE6572"]
+			id: "48E751EFF8F0E511"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "47626D7974245604"
+				title: "杀死十只骷髅"
+				type: "kill"
+				value: 10L
+			}]
+			title: "骷髅猎人"
+			x: -8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"0E5EEE6DC4DC4DD8"
+				"77DF7C0A366D69B4"
+			]
+			id: "63F7EE58C223B854"
+			subtitle: "帮你平安度过黑夜"
+			tasks: [{
+				id: "414A0BF3F30BD1EB"
+				item: "minecraft:white_bed"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["31554E021ECE6572"]
+			id: "0E5EEE6DC4DC4DD8"
+			subtitle: "这是迫不得已的"
+			tasks: [{
+				count: 3L
+				id: "1B4443DEE810CE33"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 12.0d
+		}
+		{
+			description: ["如果你在晚上遇到一道闪电从天而降，那就是神化小Boss刷新了"]
+			id: "2E0859396D8A4E6D"
+			subtitle: "打得过就打，打不过就跑"
+			tasks: [{
+				id: "08A4E2132E7F1A97"
+				title: "神化小Boss"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5BA86B01337A91D5"]
+			id: "2FC55C36F244A34F"
+			rewards: [{
+				id: "75FEE738B110015C"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			subtitle: "开始做饭！"
+			tasks: [{
+				id: "365616DAF25D746D"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5BA86B01337A91D5"]
+			id: "0509C060962EF04C"
+			subtitle: "用铁锭烧制得到"
+			tasks: [{
+				id: "6AE261E7034F3EA3"
+				item: "gtceu:hot_high_temp_wrought_precursor_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0509C060962EF04C"]
+			id: "5D0FF90EEF5735EF"
+			tasks: [{
+				id: "2AE57F0B6B7B2D16"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1B4FFE71B4C66E14"]
+			description: [
+				"  右键打开，放在物品栏中或装备在饰品栏“背包”位置时可通过快捷键（默认为B）打开。"
+				"  shift+右键可以将背包放置在地上（或拿起），此时可以通过右键打开（就像箱子），也可以通过任何物流手段进行物品的输入输出。"
+				"  背包的数据并不依赖于背包物品存在。若背包不慎丢失，可通过 /sophisticatedbackpacks list 指令查看所有背包并恢复。"
+				"  更多用法可前往“存储的艺术”章节查看。"
+			]
+			id: "04C7933B3E7709CE"
+			rewards: [{
+				id: "170CFDAA247F0E2D"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			subtitle: "唯一真神"
+			tasks: [{
+				id: "40600AC46CAF10C4"
+				type: "checkmark"
+			}]
+			title: "背起行囊"
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["44C7FE559ECFB2EB"]
+			id: "76C15DB805BE1D12"
+			rewards: [{
+				id: "3F4FAE4DA2B568C7"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			subtitle: "成为美食家吧"
+			tasks: [{
+				id: "06AAAB63BC2803F0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:seeds"
+					}
+				}
+				type: "item"
+			}]
+			title: "农夫乐事"
+			x: -4.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["7F3D3CD93589D286"]
+			description: [
+				"在本整合包中，下界、末地、天境和暮色森林均需要对应权限才能进入。通过推进科技、完成相应任务可解锁权限。"
+				"外星维度则无限制。"
+			]
+			id: "7C11E76AA3AA3E9E"
+			subtitle: "怎么去不了下界了？"
+			tasks: [{
+				id: "5A1A87B1DFA5172C"
+				title: "维度封锁"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 7.0d
 		}
 	]
 	title: "{ftbquests.chapter.681E3140690307AA.title}"

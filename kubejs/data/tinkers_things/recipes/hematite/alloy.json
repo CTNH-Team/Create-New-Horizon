@@ -2,15 +2,15 @@
 	"type": "tconstruct:alloy",
 	"inputs": [
 		{
-			"tag": "tconstruct:molten_iron",
+			"tag": "forge:iron",
 			"amount": 144
 		},
 		{
-			"tag": "tconstruct:molten_debris",
+			"tag": "tconstruct:debris",
 			"amount": 144
 		},
 		{
-			"tag": "tconstruct:molten_obsidian",
+			"tag": "tconstruct:obsidian",
 			"amount": 400
 		}
 	],

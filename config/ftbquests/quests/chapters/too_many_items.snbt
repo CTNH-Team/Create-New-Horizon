@@ -1,0 +1,52 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "too_many_items"
+	group: "045BDEA2D2692FE0"
+	icon: {
+		Count: 1
+		id: "sophisticatedbackpacks:backpack"
+		tag: {
+			contentsUuid: [I;
+				-1049582662
+				2047035583
+				-1366304106
+				-653277940
+			]
+			inventorySlots: 27
+			renderInfo: {
+				upgradeItems: [{
+					Count: 1b
+					id: "minecraft:air"
+				}]
+			}
+			upgradeSlots: 1
+		}
+	}
+	id: "7895086FD143829C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"  由于这个整合包的物品种类非常多，你需要妥善管理你的库存（包括但不限于各种工具、各种矿物、战利品以及路边捡到的不知道有没有的小垃圾......）"
+			"  本章节将介绍各种存储容器以及库存管理方式，涵盖各个阶段。"
+		]
+		id: "2BA98C183C50C7B9"
+		rewards: [{
+			id: "522C5BD78B81FE9D"
+			item: "minecraft:chest"
+			type: "item"
+		}]
+		subtitle: "别再抓药了"
+		tasks: [{
+			id: "310BFB18DB3EA991"
+			title: "抓药"
+			type: "checkmark"
+		}]
+		title: "存储的艺术"
+		x: -3.5d
+		y: 0.0d
+	}]
+	title: "存储的艺术"
+}

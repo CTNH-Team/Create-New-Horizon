@@ -1,0 +1,9 @@
+{
+	"type": "tconstruct:casting_table",
+	"cooling_time": 29,
+	"fluid": {
+		"amount": 36,
+		"tag": "forge:glass"
+	},
+	"result": "minecraft:glass_pane"
+}

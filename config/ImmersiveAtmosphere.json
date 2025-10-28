@@ -1,7 +1,0 @@
-{
-  "chunksToProcessPerTick": 2,
-  "memoryDuration": 600,
-  "enableHourglassChangingDayNightCycle": true,
-  "hourglassDaySpeed": 1.0,
-  "hourglassNightSpeed": 1.0
-}

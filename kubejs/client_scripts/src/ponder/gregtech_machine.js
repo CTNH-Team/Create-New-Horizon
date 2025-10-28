@@ -162,3 +162,76 @@ Ponder.registry(event=>{
             //let blockpos = []
         })
 })
+//EU、FE
+Ponder.registry(event=>{
+    event.create('gtceu:lv_1a_energy_converter')
+    .scene("energy_comparate_1",
+        "The difference between EU and FE.",
+        "kubejs:energy_comparate_1",
+        (scene,util)=>{
+            const energy_comparate = scene.world.showIndependentSection([0, 0, 0, 6, 4, 6],Direction.down)
+            scene.scaleSceneView(1)
+            scene.world.rotateSection(energy_comparate, 41, 28, -22, 8)
+
+            scene.idle(80)
+
+            scene.text(80,"This is Forge Enegry.It's called FE",[1,4,2]).attachKeyFrame()
+
+            scene.idle(80)
+
+            scene.text(80,"This is GT Enegry Unit.It's called EU",[2,4,2]).attachKeyFrame()
+
+            scene.idle(80)
+
+            scene.text(80,"They cannot be used interchangeably under normal circumstances").attachKeyFrame()
+
+        })
+
+    .scene("energy_comparate_2",
+        "How to convert EU and FE.",
+        "kubejs:energy_comparate_2",
+        (scene,util)=>{
+            scene.world.showSection([0, 0, 0, 7, 0, 7],"down")
+
+            scene.idle(40)
+
+            scene.world.showSection([3, 1, 0],"down") 
+
+            scene.idle(40)
+
+            scene.text(80,"This is Energy Converter.It can convert EU and FE.",[3,1.5,0]).attachKeyFrame()
+
+            scene.idle(80)
+
+            scene.text(60,"It defaults to changing EU to FE.",[3,1.5,0]).attachKeyFrame()
+
+            scene.idle(60)
+
+            scene.text(60,"You can use mallet to reverse convert-mode",[3,2,0]).attachKeyFrame()
+
+            scene.idle(20)
+
+            scene.showControls(40,[3,1.5,0],"left")
+                .rightClick()
+                .withItem('gtceu:rubber_mallet')
+
+            scene.idle(60)
+            
+            scene.world.hideSection([3, 1, 0], 'south');
+            scene.world.showSection([1, 1, 2, 5, 1, 2],"down")
+            scene.world.showSection([5, 2, 2],"down")
+
+            scene.text(60,"Now, it will convert FE to EU.",[3,2,2]).attachKeyFrame()
+
+            scene.idle(60)
+
+            scene.text(60,"The red surface is used to output EU.",[3.5,1.5,2]).attachKeyFrame()
+            scene.text(60,"The green surface is used to input FE.",[3.5,2,2.5]).attachKeyFrame()
+
+            scene.idle(60)
+
+            scene.world.showSection([1, 1, 1, 3, 1, 1],"down")
+            scene.world.showSection([3, 2, 2, 4, 2, 2],"down")
+            scene.text(60,"Laying electrical wires.").attachKeyFrame()
+        })
+})

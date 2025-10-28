@@ -1,0 +1,24 @@
+{
+	"type": "tconstruct:material_melting",
+	"conditions": [
+		{
+			"type": "forge:or",
+			"values": [
+				{
+					"type": "tconstruct:config",
+					"prop": "force_integration_materials"
+				},
+				{
+					"type": "forge:mod_loaded",
+					"modid": "extrabotany"
+				}
+			]
+		}
+	],
+	"input": "sakuratinker:aerialite",
+	"result": {
+		"amount": 144,
+		"fluid": "sakuratinker:molten_aerialite"
+	},
+	"temperature": 1200
+}

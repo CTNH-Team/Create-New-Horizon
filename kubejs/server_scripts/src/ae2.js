@@ -102,11 +102,11 @@ ServerEvents.recipes(event => {
         .itemInputs("ae2:fluix_glass_cable")
         .inputFluids("gtceu:styrene_butadiene_rubber 36")
         .itemOutputs("ae2:fluix_covered_cable")
-    event.recipes.gtceu.assembler("ex_inscriber")
-        .EUt(120)
-        .duration(400)
-        .itemInputs(["4x ae2:inscriber", "gtceu:ev_sensor", "gtceu:ev_emitter", "#ae2:interface", "2x ae2:storage_bus"])
-        .itemOutputs("expatternprovider:ex_inscriber")
+    // event.recipes.gtceu.assembler("ex_inscriber")
+    //     .EUt(120)
+    //     .duration(400)
+    //     .itemInputs(["4x ae2:inscriber", "gtceu:ev_sensor", "gtceu:ev_emitter", "#ae2:interface", "2x ae2:storage_bus"])
+    //     .itemOutputs("expatternprovider:ex_inscriber")
     event.recipes.gtceu.assembler("ex_charger")
         .EUt(120)
         .duration(400)
@@ -465,16 +465,8 @@ ServerEvents.recipes(event => {
             .circuit(23)
             .duration(200)
         if (circuit) {
-            event.recipes.gtceu.forming_press("gtceu:" + name + "_tin")
+            event.recipes.gtceu.forming_press("gtceu:" + name)
                 .itemInputs("2x ae2:printed_" + name, "2x ae2:printed_silicon", "#gtceu:circuits/hv")
-                .inputFluids(Fluid.of("gtceu:tin", 576))
-                .itemOutputs("2x ae2:" + name)
-                .EUt(120)
-                .circuit(23)
-                .duration(360)
-            event.recipes.gtceu.forming_press("gtceu:" + name + "_soldering_alloy")
-                .itemInputs("2x ae2:printed_" + name, "2x ae2:printed_silicon", "#gtceu:circuits/hv")
-                .inputFluids(Fluid.of("gtceu:soldering_alloy", 288))
                 .itemOutputs("2x ae2:" + name)
                 .EUt(120)
                 .circuit(23)
@@ -485,20 +477,13 @@ ServerEvents.recipes(event => {
     press_recipe("engineering_processor", "blue", "diamond", true)
     press_recipe("silicon", "gray", "silicon", false)
 
-    event.recipes.gtceu.forming_press("gtceu:" + "logic_processor" + "_tin")
+    event.recipes.gtceu.forming_press("gtceu:" + "logic_processor")
         .itemInputs("2x ae2:printed_" + "logic_processor", "2x ae2:printed_silicon", "#gtceu:circuits/mv")
-        .inputFluids(Fluid.of("gtceu:tin", 576))
         .itemOutputs("2x ae2:" + "logic_processor")
         .EUt(30)
         .circuit(23)
         .duration(360)
-    event.recipes.gtceu.forming_press("gtceu:" + "logic_processor" + "_soldering_alloy")
-        .itemInputs("2x ae2:printed_" + "logic_processor", "2x ae2:printed_silicon", "#gtceu:circuits/mv")
-        .inputFluids(Fluid.of("gtceu:soldering_alloy", 288))
-        .itemOutputs("2x ae2:" + "logic_processor")
-        .EUt(30)
-        .circuit(23)
-        .duration(360)
+
     event.recipes.gtceu.forming_press("gtceu:" + "logic_processor" + "_print")
         .itemInputs("gtceu:" + "gold" + "_plate")
         .notConsumable("ae2:" + "logic_processor" + "_press")
@@ -535,6 +520,7 @@ ServerEvents.recipes(event => {
         .EUt(30)
         .duration(80)
     event.recipes.gtceu.mixer('fluix_crystal')
+        .circuit(3)
         .itemInputs(['ae2:charged_certus_quartz_crystal', 'minecraft:redstone', 'minecraft:quartz'])
         .inputFluids('minecraft:water 250')
         .itemOutputs('2x ae2:fluix_crystal')
@@ -588,4 +574,19 @@ ServerEvents.recipes(event => {
         .EUt(120 * 4 * 4 * 4 * 4)
         .duration(60)
 
+    event.shaped(
+        Item.of('mae2:pattern_p2p_tunnel', 1), [
+            "AB "
+        ], {
+            A: 'ae2:me_p2p_tunnel',
+            B: '#mae2:p2p_attunements/pattern_p2p_tunnel'
+        }).keepIngredient('#mae2:p2p_attunements/pattern_p2p_tunnel')
+    
+    event.shaped(
+        Item.of('mae2:eu_p2p_tunnel', 1), [
+            "AB "
+        ], {
+            A: 'ae2:me_p2p_tunnel',
+            B: '#mae2:p2p_attunements/eu_p2p_tunnel'
+        }).keepIngredient('#mae2:p2p_attunements/eu_p2p_tunnel')
 })
