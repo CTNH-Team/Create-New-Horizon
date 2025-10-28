@@ -52,6 +52,15 @@ WorldgenEvents.remove(event => {
     
     "createmetallurgy:wolframite_ore",
   ])
+  event.removeFeatureById("underground_decoration", [
+    "sakuratinker:eezo_ore",
+	  "sakuratinker:terracryst_ore",
+	  "sakuratinker:terracryst_ore_deepslate",
+	  "sakuratinker:prometheum_ore",
+	  "sakuratinker:prometheum_ore_deepslate",
+	  "sakuratinker:orichalcum_ore",
+	  "sakuratinker:orichalcum_ore_deepslate"
+  ])
 })
 
 
