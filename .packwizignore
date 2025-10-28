@@ -83,3 +83,4 @@ config/*
 !config/twilightforest-common.toml
 !config/sophisticatedcore-common.toml
 !config/alexsmobs.toml
+!kubejs/config/*

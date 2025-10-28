@@ -462,7 +462,7 @@ hash = "8dea2945143e4e9e5bb0c6460296ad42a45ad95518d75a9ae36e2645c1f1e2be"
 
 [[files]]
 file = "config/apotheosis/names.cfg"
-hash = "fdb2fa35a775e233322398ab4c7399ed30fe02b3ff44c37f8c8e33f3c6791da4"
+hash = "69f52aca52eec55f3c340d66d32fb881f6c146144ef44e0af08875a5899ae998"
 
 [[files]]
 file = "config/apotheosis/potion.cfg"
@@ -982,7 +982,7 @@ hash = "ddfc340bf22bec9f1361f5a01a14212f68e7522681d33c864b3a0f73a1a04d4f"
 
 [[files]]
 file = "config/fpsreducer/fpsreducer-client.toml"
-hash = "247a36ef8ad8b5fa987d97afb143c44cdbec497b98369ca1b09f4297ed42d9fb"
+hash = "e84ab1c1fb08def9ccba81542696eb828e767b2835cfacc6a713807dce27ede6"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -1190,11 +1190,11 @@ hash = "6e80120f62c78a05f652c446411facacac7552fa1cb99c70fb53747679fee811"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "4f9decb84b62396b7d65fe1c32d7ac5774ff28a5f5ed64296d1024309ef3db5e"
+hash = "bf8541a1f5bd43aacd67a4631c0a637a19ab136a7475550407818e8375c4ce23"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "2c4dd100833b461e7370e573f6057270300d11d11aa7eb922c0956f5c7f77b1d"
+hash = "01dc3566649a64f296a519ba5019ec562f77bddd0a3d30eade8338c102e572ae"
 
 [[files]]
 file = "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-client.toml"
@@ -7975,6 +7975,26 @@ hash = "07568bfb3abc932b3f40a26fc05932f288a04568aab4e04ca36dbc1b6d18caf5"
 [[files]]
 file = "kubejs/client_scripts/src/tooltip.js"
 hash = "c97e7cb72e17bd09afd13241d9148ae77418c51b2ff7269fe5e58fe8b7a6b204"
+
+[[files]]
+file = "kubejs/config/client.properties"
+hash = "dfd554b2f2dd28beaf77a096732dc7ec716f506609e29a7b5bdf5cfe910f460b"
+
+[[files]]
+file = "kubejs/config/common.properties"
+hash = "902ae84dc7bc466edba61e6d56398dd6492779f363d5051285e1873c841cc301"
+
+[[files]]
+file = "kubejs/config/packicon.png"
+hash = "f6c6b644c8276140bfcb0b795f445fb47460212bbafc2e8e6822bd6314683dee"
+
+[[files]]
+file = "kubejs/config/probe-settings.json"
+hash = "2934af6fd12416bbcede9b8aa513e77fe8fc49beb3a55a61761408630a33f2bb"
+
+[[files]]
+file = "kubejs/config/probejs.json"
+hash = "61d61b8ce212f037d2277c18203d6bfebcc049f35b8b29b78fbdcc791da11184"
 
 [[files]]
 file = "kubejs/data/ad_astra/recipes/oxygen_loading/gt_oxygen.json"
@@ -16430,7 +16450,7 @@ hash = "72300efe9fc9a906eb8de7dd8f449a720eeac33ea7d08ba2ddb483585dcd7caa"
 
 [[files]]
 file = "kubejs/server_scripts/src/bio.js"
-hash = "22557baa8f8a41e059a0fa419e0937e907732d52c5d442eb020a96a44c03b876"
+hash = "063fb42d74dd72e3c5f0fe184400315ad5170590098fd34a61f9ea374dc140a5"
 
 [[files]]
 file = "kubejs/server_scripts/src/biomancy/decompose.js"
@@ -16450,7 +16470,7 @@ hash = "cb8ec9109a6ca3bdc4c3f25730b183dca8e05868c58613c5c9b5a1d7ad79a549"
 
 [[files]]
 file = "kubejs/server_scripts/src/crafttable.js"
-hash = "bf951ecbf800d019032ecc54ecf40d8430b542a2db7864b1e5c46e47e1a40b32"
+hash = "21e1685bf23402f2339e0f1324fe3009ec71088097877be423624c226af3a649"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/Vintage_Improvements.js"
@@ -16738,7 +16758,7 @@ hash = "71462d20e8676fbc4504fd1e207ece54016c312d8a83d8fceb412f4b083c7163"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "bf579b3d468b2b9745644c8ce286893ef9e1ef257e14ee2004738132c7830b43"
+hash = "30d300ae8531f4a0b90293718f8ff63827a374d9ad1dbd709b7ce3f0855824b2"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedbackpacks.js"
@@ -16798,7 +16818,7 @@ hash = "d48a9033c9f49e9a6e54a93d636b5c83d4a6e31397816ece3ce4c3dc00fad2be"
 
 [[files]]
 file = "kubejs/startup_scripts/src/GT/GTmaterials.js"
-hash = "a7c4b373726403350b800bb88550fe5d086c4e0296aa9d13ab55a132a4576c11"
+hash = "5391613343249ad82aeacc8e1f720749e0ea88868d8f1848d2f4ba3838443669"
 
 [[files]]
 file = "kubejs/startup_scripts/src/GT/GTrecipetypes.js"
@@ -17440,7 +17460,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "f76dcc4122bcbc77ce67812b83013c7728c84c26b24321ab4ce2e650eb1688f4"
+hash = "405441ee4b2caa3503f94720d00f9d86d804ab5cba09fb65f13cee4be11c3e39"
 metafile = true
 
 [[files]]
@@ -17479,8 +17499,8 @@ hash = "a2a9f96a634bb74bd35962ff0ec9485a6ce99d1d2e952339d1cf30dcbd3425ec"
 metafile = true
 
 [[files]]
-file = "mods/inventory-profiles-next.pw.toml"
-hash = "3fe6a2f0c2443a193907d2a5cf502333bf5eeaabb1c488892437567cb1724918"
+file = "mods/inventory-sorter-configurable.pw.toml"
+hash = "38a72fbee92dd05ee980ccb70857c1e3ed638b4bdcc65ac646a05d6a77deaf58"
 metafile = true
 
 [[files]]
@@ -17719,6 +17739,11 @@ hash = "200f79b635a087841698c85ac7028f0a1fac2cc4ffae1d59ff3f07a94abfe70e"
 metafile = true
 
 [[files]]
+file = "mods/omni-cells.pw.toml"
+hash = "d3ca78ef93f70682b4424efe1ea29217837f41736f5b1e2319211fc7be6e7607"
+metafile = true
+
+[[files]]
 file = "mods/opack2reload.pw.toml"
 hash = "a086a4e48707831dac436f0815d2415673e049834b67b2127860bad7d5e4e90c"
 metafile = true
@@ -17781,6 +17806,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "ac8ae4bc1d5bde1f63f6497c82b251c533d4be67666cf5dc7d9ea75dd827c12c"
+metafile = true
+
+[[files]]
+file = "mods/re-avaritia.pw.toml"
+hash = "2b08c58f3b533346bc4b6ad6178976a4e7302d5f5ee57a30fa5b1386ff07581b"
 metafile = true
 
 [[files]]
