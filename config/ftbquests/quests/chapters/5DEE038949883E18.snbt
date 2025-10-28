@@ -5,15 +5,25 @@
 	group: "4CD84F8DB1FF8B7E"
 	icon: "tconstruct:smeltery_controller"
 	id: "5DEE038949883E18"
+	images: [{
+		height: 3.0d
+		hover: ["老东西"]
+		image: "tconstruct:block/smeltery/controller/smeltery_unformed"
+		rotation: 0.0d
+		width: 3.0d
+		x: -7.5d
+		y: -1.5d
+	}]
 	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
 				"本书对第一次接触匠魂的玩家很有帮助，里面的内容对于匠魂的机制、机器、材料等描述的比较全面"
-				"想要更多？看看工匠大百科把"
+				"想要更多？看看工匠大百科吧"
 			]
 			id: "093E472E8D89C8E9"
+			size: 1.5d
 			subtitle: "你该不会开局就丢掉了吧"
 			tasks: [{
 				id: "3B2C0DF28D85EFCC"
@@ -21,8 +31,8 @@
 				type: "item"
 			}]
 			title: "匠魂的指导书"
-			x: -4.5d
-			y: -2.0d
+			x: -3.0d
+			y: -5.25d
 		}
 		{
 			dependencies: ["093E472E8D89C8E9"]
@@ -35,6 +45,7 @@
 				item: "kubejs:grout_dust"
 				type: "item"
 			}]
+			size: 1.5d
 			subtitle: "我是个渣渣"
 			tasks: [
 				{
@@ -62,8 +73,8 @@
 				}
 			]
 			title: "砖泥?"
-			x: -3.0d
-			y: -2.0d
+			x: -0.75d
+			y: -5.25d
 		}
 		{
 			dependencies: ["6FC0B002DFE2C978"]
@@ -75,6 +86,7 @@
 				item: "kubejs:heatproof_smelting_brick_dust"
 				type: "item"
 			}]
+			size: 1.5d
 			subtitle: "太烧了"
 			tasks: [{
 				count: 8L
@@ -82,8 +94,8 @@
 				item: { Count: 8, id: "kubejs:heatproof_smelting_brick_dust" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.0d
+			x: -0.75d
+			y: -3.75d
 		}
 		{
 			dependencies: ["2BB06AD56AC59656"]
@@ -94,14 +106,16 @@
 				item: "tconstruct:seared_brick"
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				count: 16L
 				id: "186DA29234EFFC54"
 				item: { Count: 16, id: "tconstruct:seared_brick" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: -0.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3DC28CC7547FA4DC"]
@@ -111,6 +125,7 @@
 				item: "tconstruct:ingot_cast"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "20D0E20B739C46FD"
@@ -129,16 +144,25 @@
 				}
 			]
 			title: "老一辈"
-			x: -4.5d
-			y: 0.5d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
 				"3DC28CC7547FA4DC"
 				"6CDD36A3C742B7F2"
 			]
+			description: [
+				"• 每个矿石熔化时多给予3粒量的熔融矿物 或1宝石量的熔融宝石"
+				"• 可把加热器换为燃料储罐以提升其熔炼温度"
+				"• 容纳最多9锭量流体"
+				"• 同时熔炼3个物品"
+				"• 很省燃料"
+				"• 熔炼猪灵掉落物（如金剑、金盔甲）的 理想设备"
+			]
 			id: "40BADBAD1F96B405"
-			subtitle: "你的第一个匠魂炉"
+			size: 2.0d
+			subtitle: "前期的熔炼方式"
 			tasks: [
 				{
 					id: "33904B939E9BE09B"
@@ -152,8 +176,8 @@
 				}
 			]
 			title: "焦黑熔化炉"
-			x: -3.0d
-			y: 2.0d
+			x: -0.75d
+			y: 1.0d
 		}
 		{
 			dependencies: ["40BADBAD1F96B405"]
@@ -163,13 +187,14 @@
 				"mmyddd:烧制铁粒获得液态锻铁✅"
 			]
 			id: "4ADD2A9E3EE56DF7"
+			size: 1.5d
 			tasks: [{
 				id: "1729607824BD4073"
 				item: "gtceu:wrought_iron_nugget"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["40BADBAD1F96B405"]
@@ -179,13 +204,14 @@
 				"mmyddd:烧制金锭获得液态金✅"
 			]
 			id: "49ACD8DDB7A8E795"
+			size: 1.5d
 			tasks: [{
 				id: "29D9D78F38CA2BE9"
 				item: "minecraft:gold_nugget"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 2.5d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -193,15 +219,216 @@
 				"40BADBAD1F96B405"
 				"7D76859D3E40A235"
 			]
+			description: [
+				"• 能够批量熔炼"
+				"• 可容纳多种金属"
+				"• 储量可拓展"
+				"• 可以制作合金"
+				"• 燃料效率由大小决定"
+				"• 可以熔炼生物以获取珍稀材料"
+				"• 同时熔炼大量材料的理想设备"
+			]
 			id: "441CDF995C142B61"
+			size: 3.0d
 			subtitle: "你的第二个匠魂炉"
 			tasks: [{
 				id: "4364A6B179916D88"
 				item: "tconstruct:smeltery_controller"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 2.0d
+			x: 2.0d
+			y: 1.07d
+		}
+		{
+			description: [
+				"每100mb"
+				"可燃烧10s"
+				"3倍加速"
+				"温度4000°C"
+			]
+			id: "16B66B89F139C922"
+			tasks: [{
+				id: "31DC8396FA225F4C"
+				item: "gtceu:blaze_bucket"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"每1mb"
+				"可燃烧10s"
+				"50倍加速"
+				"温度5700°C"
+			]
+			id: "057D9DA071D2FDEC"
+			tasks: [{
+				id: "09E90CBF4AB76F4F"
+				item: "gtceu:pyrotheum_bucket"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"每25mb"
+				"可燃烧5s"
+				"12.5倍加速"
+				"温度3800°C"
+			]
+			id: "2C35ABEFC9511E01"
+			tasks: [{
+				id: "640E73D7E4BAEB49"
+				item: "gtceu:gasoline_bucket"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"每1mb"
+				"可燃烧10s"
+				"20倍加速"
+				"温度4700°C"
+			]
+			id: "1CF8482E7A39FF65"
+			tasks: [{
+				id: "2BD6BA7E125E1717"
+				item: "gtceu:high_octane_gasoline_bucket"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"每5mb"
+				"可燃烧5s"
+				"5倍加速"
+				"温度3500°C"
+			]
+			id: "759B84EF9827845C"
+			tasks: [{
+				id: "52105A9A324761D1"
+				item: "gtceu:diesel_bucket"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"每1mb"
+				"可燃烧10s"
+				"7.5倍加速"
+				"温度5000°C"
+			]
+			id: "07DD5DB6AE51D634"
+			tasks: [{
+				id: "3DDE41E5D42CC74E"
+				item: "gtceu:cetane_boosted_diesel_bucket"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"每25mb"
+				"可燃烧5s"
+				"2.5倍加速"
+				"温度2300°C"
+			]
+			id: "32A3E0A6B3073552"
+			tasks: [{
+				id: "1153CB8DA253EACD"
+				item: "gtceu:raw_bio_diesel_bucket"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.5d
+		}
+		{
+			icon: "create:blaze_burner"
+			id: "5546D4AC598211ED"
+			title: "额外增加的匠魂炉燃料"
+			x: -15.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"每999mb"
+				"可燃烧114514s"
+				"191.9倍加速"
+				"温度8100°C"
+			]
+			id: "77169CCC50FF4B6D"
+			tasks: [{
+				id: "7FA4BFDAFFCB652A"
+				item: "gtceu:snow_steel_bucket"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 1.5d
+		}
+		{
+			icon: "ae2:controller"
+			id: "1B53AB552907AB67"
+			rewards: [{
+				count: 2
+				id: "7EA5CE25A3740467"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_chest"
+					tag: {
+						woodType: "cherry"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "不要用堆叠升级，至少在修复bug之前"
+			tasks: [
+				{
+					id: "1D1D8E9C1A789C16"
+					item: "tconstruct:crafting_station"
+					type: "item"
+				}
+				{
+					id: "321FE232B41E0423"
+					item: "sophisticatedstorage:controller"
+					type: "item"
+				}
+			]
+			title: "AE?"
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["40BADBAD1F96B405"]
+			description: [
+				"• 可容纳多种金属材料"
+				"• 储量可拓展"
+				"• 储量可比什么低级的冶炼炉大得多"
+				"• 可以熔炼有多种产出的方块"
+				"• 燃料效率取决于大小"
+				"• 对于纯下界生存以及大量多种流体的储存 十分有用"
+			]
+			id: "0CF2F8782CCA744C"
+			size: 3.0d
+			subtitle: "熔铸炉无法进行合金——这是飞跃性的进步， 你不必担心不小心把材料混到一起了"
+			tasks: [{
+				id: "1587A3AF6312B3DA"
+				item: "tconstruct:foundry_controller"
+				type: "item"
+			}]
+			title: "熔铸炉"
+			x: -0.75d
+			y: 4.5d
 		}
 	]
 	title: "匠魂"
