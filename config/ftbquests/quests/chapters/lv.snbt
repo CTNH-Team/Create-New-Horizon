@@ -235,7 +235,10 @@
 				"4487EDC96DB1390B"
 				"146AF407393668B4"
 			]
-			description: ["{ftbquests.chapter.lv.quest18.description1}"]
+			description: [
+				"{ftbquests.chapter.lv.quest18.description1}"
+				"    关于更加详细的升压机制讲解，请前往“存在即被感知”章节。"
+			]
 			icon: "gtceu:electric_blast_furnace"
 			id: "19869FD9D4BCCB9F"
 			rewards: [{
@@ -848,6 +851,7 @@
 				"现在我们需要注意一些‘用电安全’的事项"
 				"&4①：不可以输入高于导线/舱室/机器本身电压阶段的电压"
 				"&4②：不可以输入高于导线承受电流最大值以上的电流"
+				"如果需要更加详细的指导，请前往“存在即被感知”章节。"
 			]
 			icon: {
 				Count: 1
