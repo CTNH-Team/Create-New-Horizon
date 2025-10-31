@@ -747,6 +747,35 @@
 			x: -11.0d
 			y: -1.5d
 		}
+		{
+			description: ["    多线程合金冶炼炉"]
+			id: "699C95B07EACDDC6"
+			subtitle: "一起炖！"
+			tasks: [{
+				id: "163D3E56B2971B4F"
+				item: "ctnhcore:cnc_alloy_smelter"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"    可配置多线程机器每个线程的超频等级"
+				"    可查询线程执行的上一个配方"
+				"    可设置“&b配方锁定&r”：使该线程只会执行上一个配方"
+				"    可设置“&b线程保护&r”：使该线程不会执行其他线程正在执行或已经锁定的配方。"
+			]
+			id: "66596B5FFF2E941A"
+			subtitle: "遥遥领先！"
+			tasks: [{
+				id: "0283D5E1E42F99B0"
+				item: "ctnhcore:luv_async_thread_hatch"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 4.0d
+		}
 	]
 	title: "{ftbquests.chapter.luv.title}"
 }

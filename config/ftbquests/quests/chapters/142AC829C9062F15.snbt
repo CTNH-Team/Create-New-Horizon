@@ -1011,6 +1011,16 @@
 			x: 37.0d
 			y: 18.5d
 		}
+		{
+			id: "5302156497A0F5AE"
+			tasks: [{
+				id: "00C8358114D4443B"
+				item: "ctnhbio:parabiotic_bridge"
+				type: "item"
+			}]
+			x: 36.0d
+			y: 22.0d
+		}
 	]
 	title: "血肉重铸"
 }
