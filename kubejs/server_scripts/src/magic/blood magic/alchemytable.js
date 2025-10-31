@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
     remove.forEach(r => {
         event.remove({ id: r })
     })
-    event.recipes.extendedcrafting.shaped_table(
+    event.recipes.avaritia.shaped_table(2,
         Item.of('bloodmagic:alchemytable', 1), [
             "     ",
             "   A ",
@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
         })
 
 
-    event.recipes.extendedcrafting.shaped_table(
+    event.recipes.avaritia.shaped_table(4, 
         Item.of('kubejs:snow_city_sword', 1), [
             "      AA ",
             "      A A",
@@ -52,7 +52,7 @@ ServerEvents.recipes(event => {
             A: 'gtceu:snow_steel_ingot',
             B: '#gtceu:circuits/luv'
         })
-    event.recipes.extendedcrafting.shaped_table(
+    event.recipes.avaritia.shaped_table(4, 
         Item.of('kubejs:yharim', 9), [
             "ABBCCCBBA",
             "BDDDDDDDB",
@@ -73,7 +73,7 @@ ServerEvents.recipes(event => {
             G: 'gtceu:infinity_catalyst_dust'
 
         })
-    event.recipes.extendedcrafting.shaped_table(
+    event.recipes.avaritia.shaped_table(4, 
         Item.of('kubejs:ark_of_homo', 1), [
             " D D D D ",
             " D D D D ",
@@ -92,7 +92,7 @@ ServerEvents.recipes(event => {
             G: 'kubejs:yharim'
 
     })
-    event.recipes.extendedcrafting.shaped_table(
+    event.recipes.avaritia.shaped_table(4, 
         Item.of('kubejs:ark_of_homo', 1), [
         " D D D D ",
         " D D D D ",
@@ -110,216 +110,6 @@ ServerEvents.recipes(event => {
         D: 'gtceu:boundless_ingot',
         G: 'kubejs:yharim'
 
-    })
-    event.recipes.extendedcrafting.shaped_table(
-        Item.of('extendedcrafting:elite_component', 1), [
-        "ABBCA",
-        "CCCCC",
-        "BBBCB",
-        "BBBCB",
-        "ABBCA",
-    ], {
-        A: 'extendedcrafting:luminessence_block',
-        B: 'extendedcrafting:black_iron_slate',
-        C: 'gtceu:diamond_plate'
-    })
-    event.recipes.extendedcrafting.shaped_table(
-        Item.of('extendedcrafting:redstone_component', 8), [
-        "AAAAA",
-        "ACBCA",
-        "ABDBA",
-        "ACBCA",
-        "AAAAA",
-    ], {
-        A: 'extendedcrafting:luminessence',
-        B: 'vintageimprovements:redstone_module',
-        C: 'extendedcrafting:redstone_ingot_block',
-        D: 'extendedcrafting:black_iron_slate'
-    })
-    event.recipes.extendedcrafting.shaped_table(
-        Item.of('extendedcrafting:redstone_catalyst', 1), [
-        "  A  ",
-        " CBC ",
-        "ABDBA",
-        " CBC ",
-        "  A  ",
-    ], {
-        A: 'vintageimprovements:redstone_module',
-        B: 'extendedcrafting:redstone_ingot_block',
-        C: 'extendedcrafting:redstone_component',
-        D: 'extendedcrafting:luminessence_block'
-    })
-    event.recipes.extendedcrafting.shaped_table(
-        Item.of('extendedcrafting:flux_crafter', 1), [
-        "AAAAA",
-        "BCCCB",
-        "BCDCB",
-        "BEEEB",
-        "BBBBB",
-    ], {
-        A: 'extendedcrafting:luminessence_block',
-        B: 'extendedcrafting:redstone_ingot_block',
-        C: 'vintageimprovements:redstone_module',
-        D: 'extendedcrafting:advanced_table',
-        E: 'extendedcrafting:redstone_catalyst'
-    })
-    event.recipes.extendedcrafting.shaped_table(
-        Item.of('extendedcrafting:flux_alternator', 4), [
-        " AAA ",
-        " ACA ",
-        " ACA ",
-        "BEEEB",
-        "BBBBB",
-    ], {
-        A: 'extendedcrafting:luminessence_block',
-        B: 'extendedcrafting:redstone_ingot_block',
-        C: 'gtceu:electrum_block',
-        E: 'extendedcrafting:redstone_catalyst'
-    })
-    event.recipes.extendedcrafting.shaped_table(
-        Item.of('extendedcrafting:ender_component', 8), [
-        "AAAAA",
-        "ACBCA",
-        "ABDBA",
-        "ACBCA",
-        "AAAAA",
-    ], {
-        A: 'extendedcrafting:ender_ingot_block',
-        B: 'enderio:ender_crystal',
-        C: 'extendedcrafting:ender_ingot_block',
-        D: 'extendedcrafting:black_iron_slate'
-    })
-    event.recipes.extendedcrafting.shaped_table(
-        Item.of('extendedcrafting:ender_catalyst', 1), [
-        "  A  ",
-        " CBC ",
-        "ABDBA",
-        " CBC ",
-        "  A  ",
-    ], {
-        A: 'enderio:ender_crystal',
-        B: 'extendedcrafting:ender_ingot_block',
-        C: 'extendedcrafting:ender_component',
-        D: 'extendedcrafting:luminessence_block'
-    })
-    event.recipes.extendedcrafting.shaped_table(
-        Item.of('extendedcrafting:ender_crafter', 1), [
-        "AAAAA",
-        "BCCCB",
-        "BCDCB",
-        "BEEEB",
-        "BBBBB",
-    ], {
-        A: 'extendedcrafting:luminessence_block',
-        B: 'extendedcrafting:ender_ingot_block',
-        C: 'enderio:ender_crystal',
-        D: 'extendedcrafting:advanced_table',
-        E: 'enderio:ender_crystal'
-    })
-    event.recipes.extendedcrafting.shaped_table(
-        Item.of('extendedcrafting:ender_alternator', 4), [
-        " AAA ",
-        " ACA ",
-        " ACA ",
-        "BEEEB",
-        "BBBBB",
-    ], {
-        A: 'extendedcrafting:luminessence_block',
-        B: 'extendedcrafting:ender_ingot_block',
-        C: 'gtceu:olivine_block',
-        E: 'extendedcrafting:ender_catalyst'
-    })
-    event.recipes.extendedcrafting.shaped_table(
-        Item.of('extendedcrafting:elite_catalyst', 1), [
-        "ABCBA",
-        "BCBCB",
-        "CBABC",
-        "BCBCB",
-        "ABCBA",
-    ], {
-        A: 'extendedcrafting:elite_component',
-        B: 'extendedcrafting:black_iron_slate',
-        C: 'extendedcrafting:luminessence_block'
-    })
-    event.recipes.extendedcrafting.shaped_table(
-        Item.of('extendedcrafting:crystaltine_component', 1), [
-        "ABBBCBA",
-        "BBBBDBB",
-        "CCCDEDC",
-        "BBBBDBB",
-        "BBBBCBB",
-        "BBBBCBB",
-        "ABBBCBA"
-    ], {
-        A: 'extendedcrafting:crystaltine_block',
-        B: 'extendedcrafting:black_iron_slate',
-        C: 'extendedcrafting:crystaltine_ingot',
-        D: 'gtceu:engraved_lapotron_crystal_chip',
-        E: 'gtceu:lapotron_gem'
-    })
-    event.recipes.extendedcrafting.shaped_table(
-        Item.of('extendedcrafting:crystaltine_component', 1), [
-        "ABBBCBA",
-        "BBBBDBB",
-        "CCCDEDC",
-        "BBBBDBB",
-        "BBBBCBB",
-        "BBBBCBB",
-        "ABBBCBA"
-    ], {
-        A: 'extendedcrafting:crystaltine_block',
-        B: 'extendedcrafting:black_iron_slate',
-        C: 'extendedcrafting:crystaltine_ingot',
-        D: 'gtceu:engraved_lapotron_crystal_chip',
-        E: 'gtceu:lapotron_gem'
-    })
-    event.recipes.extendedcrafting.shaped_table(
-        Item.of('extendedcrafting:crystaltine_catalyst', 1), [
-        "ABCCCBA",
-        "BCCDCCB",
-        "CCDEDCC",
-        "CDEAEDC",
-        "CCDEDCC",
-        "BCCDCCB",
-        "ABCCCBA"
-    ], {
-        A: 'extendedcrafting:crystaltine_block',
-        B: 'gtceu:engraved_lapotron_crystal_chip',
-        C: 'extendedcrafting:crystaltine_ingot',
-        D: 'extendedcrafting:black_iron_slate',
-        E: 'extendedcrafting:crystaltine_component'
-    })
-    event.recipes.extendedcrafting.shaped_table(
-        Item.of('extendedcrafting:ultimate_component', 1), [
-        "ABBBDBA",
-        "BBBBCBB",
-        "DCCCECD",
-        "BBBBCBB",
-        "BBBBCBB",
-        "BBBBCBB",
-        "ABBBDBA"
-    ], {
-        A: 'extendedcrafting:luminessence_block',
-        B: 'extendedcrafting:black_iron_slate',
-        C: 'gtceu:olivine_plate',
-        D: 'gtceu:ender_eye_plate',
-        E: 'gtceu:terra_steel_plate'
-    })
-    event.recipes.extendedcrafting.shaped_table(
-        Item.of('extendedcrafting:ultimate_catalyst', 1), [
-        "ABCDCBA",
-        "BCDEDCB",
-        "CDEAEDC",
-        "DEAAAED",
-        "CDEAEDC",
-        "BCDEDCB",
-        "ABCDCBA"
-    ], {
-        A: 'extendedcrafting:ultimate_component',
-        B: 'gtceu:ender_eye_plate',
-        C: 'gtceu:terra_steel_plate',
-        D: 'extendedcrafting:luminessence_block',
-        E: 'gtceu:thorium_232_plate'
     })
     //water
     event.custom({

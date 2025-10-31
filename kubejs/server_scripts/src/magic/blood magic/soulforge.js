@@ -52,7 +52,7 @@ ServerEvents.recipes(event => {
     .duration(200)
     .addDataNumber('minimumDrain',400)
     .addDataNumber('drain',150)
-  event.recipes.extendedcrafting.shaped_table('bloodmagic:soulforge', [
+  event.recipes.avaritia.shaped_table(2, 'bloodmagic:soulforge', [
     "     ",
     "A   A",
     "BCDCB",

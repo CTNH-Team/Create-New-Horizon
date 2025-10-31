@@ -112,7 +112,7 @@ ServerEvents.recipes(event => {
             "ticks": 200
         })
         //altar
-    event.recipes.extendedcrafting.shaped_table('bloodmagic:altar', [
+    event.recipes.avaritia.shaped_table(2, 'bloodmagic:altar', [
             "     ",
             "A   A",
             "ABBBA",
