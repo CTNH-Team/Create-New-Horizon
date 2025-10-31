@@ -156,7 +156,7 @@
 			id: "18E2A4593690B3D1"
 			tasks: [{
 				id: "30EE8C597E5C02CB"
-				item: "gtceu:neutronium_ingot"
+				item: "avaritia:neutron_ingot"
 				type: "item"
 			}]
 			x: 4.0d
@@ -566,10 +566,9 @@
 		}
 		{
 			id: "7C46A46BCA54FB18"
-			subtitle: "看看机械动力的配方，如果你不想玩合成拓展的话"
 			tasks: [{
 				id: "22F7F7DACD6729D5"
-				item: "extendedcrafting:crystaltine_ingot"
+				item: "avaritia:crystal_matrix_ingot"
 				type: "item"
 			}]
 			x: -9.0d

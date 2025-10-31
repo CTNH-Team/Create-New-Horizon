@@ -207,8 +207,6 @@ ServerEvents.recipes(event => {
 //搅拌机
 ServerEvents.recipes(event => {
         event.recipes.create.mixing('8x gtceu:potin_dust', ['6x gtceu:copper_dust', '2x gtceu:tin_dust', 'gtceu:lead_dust']).heated()
-        event.recipes.create.mixing('8x extendedcrafting:luminessence', ['4x minecraft:glowstone_dust', 'minecraft:gunpowder', 'minecraft:redstone']).heated()
-        event.recipes.create.mixing('16x extendedcrafting:crystaltine_ingot', ['4x extendedcrafting:luminessence_block', 'gtceu:quantum_star', 'minecraft:netherite_ingot']).heated()
         event.recipes.create.mixing('create:rose_quartz', ['minecraft:quartz', '4x minecraft:redstone']).heated()
         event.recipes.create.mixing('create:rose_quartz', ['2x biomesoplenty:rose_quartz_chunk', Fluid.of('minecraft:water', 100)])
         event.recipes.create.mixing(Fluid.of('gtceu:concrete', /** @type {number} */ 1000), ['gtceu:stone_dust', 'gtceu:quartz_sand_dust', 'gtceu:clay_dust', '2x gtceu:calcite_dust', Fluid.of('minecraft:water', 1000)]).heated()
