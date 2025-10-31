@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "028AB66FF504A9BC"
-	group: "4CD84F8DB1FF8B7E"
+	group: "4D1B16DFEF4B34DD"
 	icon: "gtceu:electric_blast_furnace"
 	id: "028AB66FF504A9BC"
-	order_index: 8
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

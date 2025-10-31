@@ -30,7 +30,7 @@
 		rotation: 0.0d
 		width: 9.185567010309278d
 		x: -1.5d
-		y: -2.5d
+		y: -0.5d
 	}]
 	order_index: 1
 	quest_links: [ ]

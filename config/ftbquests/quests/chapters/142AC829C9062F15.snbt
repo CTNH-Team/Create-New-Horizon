@@ -11,8 +11,13 @@
 		}
 	}
 	id: "142AC829C9062F15"
-	order_index: 5
-	quest_links: [ ]
+	order_index: 2
+	quest_links: [{
+		id: "0971CF8BC35ED7FE"
+		linked_quest: "019F2136970CA2E1"
+		x: 32.5d
+		y: 19.5d
+	}]
 	quests: [
 		{
 			id: "223723ED95F15CBF"
@@ -899,6 +904,7 @@
 			y: 20.5d
 		}
 		{
+			dependencies: ["019F2136970CA2E1"]
 			id: "53E534A981177FEC"
 			subtitle: "需要UV电路板"
 			tasks: [{

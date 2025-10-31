@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "4EE5451097565A1A"
-	group: "71414D2BDE140EDA"
+	group: "4D1B16DFEF4B34DD"
 	icon: "artifacts:villager_hat"
 	id: "4EE5451097565A1A"
-	order_index: 1
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
