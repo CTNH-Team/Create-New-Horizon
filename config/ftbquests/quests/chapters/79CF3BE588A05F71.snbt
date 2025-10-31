@@ -465,7 +465,7 @@
 		}
 		{
 			dependencies: ["2F297694365BE2FE"]
-			description: ["远程传输me频道，不限距离，维度，需要区块加载"]
+			description: ["远程传输me频道，不限距离，维度，需要区块强加载"]
 			id: "6A62E6D5AFFF27D0"
 			subtitle: "星际之门"
 			tasks: [
@@ -870,6 +870,38 @@
 			x: -5.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["79A96FB79CD87846"]
+			description: ["现在的你能塞更多盘了不是吗"]
+			id: "317930ECCD7ABC1C"
+			rewards: [{
+				id: "6F96268FC3DCDCEE"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_64k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72BDAC8E4530105D"
+				item: "expatternprovider:ex_drive"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06B9117F0C740A7F"]
+			id: "16E632D3B39A777F"
+			tasks: [{
+				id: "47292422FE5ABFA9"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
 	]
-	title: "应用能源"
+	title: "应用能源2"
 }
