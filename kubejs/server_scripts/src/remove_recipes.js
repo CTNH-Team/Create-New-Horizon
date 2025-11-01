@@ -211,8 +211,11 @@ ServerEvents.recipes(event => {
         'gtceu:assembler/assembly_control_casing',
         //氧气分配器、重力控制器
         'ad_astra:oxygen_distributor',
-        'ad_astra:gravity_normalizer'
+        'ad_astra:gravity_normalizer',
     ])
+
+
+
     remove_recipes_output(event, [
         "create:cart_assembler",
         "create:portable_storage_interface",
@@ -262,6 +265,11 @@ ServerEvents.recipes(event => {
     remove_recipes_input(event, [
         "thermal:constantan_ingot"
     ])
+
+    event.remove({ mod: "bigger_ae2"})
+    event.remove({ mod: "mae2"})
+    event.remove({ mod: "ae2things"})
+    event.remove({ mod: "ae2additions"})
 
     event.remove({ id: /thermal:parts(.*)_gear/ })
     event.remove({ output: /botania:apothecary_(.*)/ })

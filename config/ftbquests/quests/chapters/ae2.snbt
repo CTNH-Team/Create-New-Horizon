@@ -880,49 +880,6 @@
 			y: -2.0d
 		}
 		{
-			id: "2C306C105CA54D4F"
-			tasks: [{
-				id: "2F847FF73E875C89"
-				item: "ae2additions:1024k_crafting_storage"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -32.5d
-		}
-		{
-			dependencies: ["2C306C105CA54D4F"]
-			id: "7F3F6FAA32DD669A"
-			tasks: [{
-				id: "241DC58E261F0937"
-				item: "ae2additions:4096k_crafting_storage"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -32.5d
-		}
-		{
-			dependencies: ["7F3F6FAA32DD669A"]
-			id: "2F092DB30396CAF4"
-			tasks: [{
-				id: "045792A1466AED05"
-				item: "ae2additions:16384k_crafting_storage"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -32.5d
-		}
-		{
-			dependencies: ["2F092DB30396CAF4"]
-			id: "6A05E9B617229C9D"
-			tasks: [{
-				id: "2A7DB5F18B078F17"
-				item: "ae2additions:65536k_crafting_storage"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -32.5d
-		}
-		{
 			dependencies: ["22A38EA3DB639329"]
 			id: "2135C85DC07D91F8"
 			size: 1.0d
@@ -944,60 +901,6 @@
 			}]
 			x: 14.5d
 			y: -1.0d
-		}
-		{
-			id: "11B5067CD81D6D8A"
-			tasks: [{
-				id: "026F490D5F3628CD"
-				item: "bigger_ae2:4_core_crafting_accelerator"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -31.5d
-		}
-		{
-			dependencies: ["11B5067CD81D6D8A"]
-			id: "72B6909C3EA71B93"
-			tasks: [{
-				id: "2773ED13CA054492"
-				item: "bigger_ae2:16_core_crafting_accelerator"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -31.5d
-		}
-		{
-			dependencies: ["72B6909C3EA71B93"]
-			id: "2EF6FF1E87A704C6"
-			tasks: [{
-				id: "1A16C85AE94A3120"
-				item: "bigger_ae2:64_core_crafting_accelerator"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -31.5d
-		}
-		{
-			dependencies: ["2EF6FF1E87A704C6"]
-			id: "3D27EB7A1C3D646C"
-			tasks: [{
-				id: "553859260A76EED4"
-				item: "bigger_ae2:256_core_crafting_accelerator"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -31.5d
-		}
-		{
-			dependencies: ["3D27EB7A1C3D646C"]
-			id: "4318958BEEBDD244"
-			tasks: [{
-				id: "2C852C79A67D6780"
-				item: "bigger_ae2:1024_core_crafting_accelerator"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -31.5d
 		}
 		{
 			dependencies: ["73E6E35E2E8691C4"]
@@ -1158,74 +1061,6 @@
 			}]
 			x: 3.5d
 			y: -1.0d
-		}
-		{
-			id: "24486934C87EC7AE"
-			tasks: [{
-				id: "3B92B438AA5DEB0D"
-				item: "ae2additions:cell_component_1024"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -30.5d
-		}
-		{
-			dependencies: ["24486934C87EC7AE"]
-			id: "1AF70D7199E4C449"
-			tasks: [{
-				id: "3D5AE875C64C896B"
-				item: "ae2additions:cell_component_4096"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -30.5d
-		}
-		{
-			dependencies: ["1AF70D7199E4C449"]
-			description: ["“林海大人，不要了，ae2吃不下了”"]
-			id: "19618C3AA7250064"
-			tasks: [{
-				id: "26894C19CBDADDC3"
-				item: "ae2additions:cell_component_16384"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -30.5d
-		}
-		{
-			dependencies: ["19618C3AA7250064"]
-			id: "7894D6002360429E"
-			tasks: [{
-				id: "43B56723C9FE4126"
-				item: "ae2additions:cell_component_65536"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -30.5d
-		}
-		{
-			dependencies: ["02D81E34F2FE0A3D"]
-			id: "652102B88A8EFC70"
-			tasks: [{
-				id: "4147F972B4420F48"
-				item: "bigger_ae2:quantum_cell_component"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -31.5d
-		}
-		{
-			dependencies: ["652102B88A8EFC70"]
-			description: ["林海大人你快来啊~"]
-			id: "4D3C7F0BE3A23836"
-			subtitle: "林海也塞不满我"
-			tasks: [{
-				id: "620D8A17065A6770"
-				item: "bigger_ae2:digital_singularity_cell_component"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -31.5d
 		}
 		{
 			id: "445EB3640522A172"
@@ -2061,6 +1896,7 @@
 				"66069718FAAE3BC5"
 				"5E3333FC7B0D7285"
 			]
+			dependency_requirement: "one_completed"
 			id: "5D60A9851F3F1373"
 			size: 1.5d
 			tasks: [{
@@ -2093,6 +1929,16 @@
 				type: "checkmark"
 			}]
 			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "23651FAA383FA5B0"
+			tasks: [{
+				id: "0804CBF76FC67ECD"
+				item: "ae2omnicells:type_fuzzy_card"
+				type: "item"
+			}]
+			x: 18.5d
 			y: 2.5d
 		}
 	]

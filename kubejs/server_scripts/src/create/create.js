@@ -124,36 +124,36 @@ ServerEvents.recipes(event => {
         D: 'gtceu:hv_machine_casing'
     })
 
-    event.recipes.create.mechanical_crafting('gtceu:nan_certificate', [
-        "ABBCCCBBA",
-        "BDEFGFEDB",
-        "BEHIJIHEB",
-        "CKIJLJIMC",
-        "CNJOPOJNC",
-        "CKIJQJIMC",
-        "BEHIJIHEB",
-        "BDERGREDB",
-        "ABBCCCBBA"
-    ], {
-        A: "gtceu:uhv_sensor",
-        B: "gtceu:uhv_electric_pump",
-        C: "gtceu:uhv_electric_motor",
-        D: 'gtmthings:uhv_wireless_energy_receive_cover',
-        E: "gtceu:elementium_gear",
-        F: "ars_nouveau:summon_focus",
-        G: "bloodmagic:reagentsuppression",
-        H: "gtceu:uhv_robot_arm",
-        I: "gtmthings:uhv_huge_dual_hatch",
-        J: "gtceu:gravi_star",
-        K: "cataclysm:cursium_ingot",
-        L: "bigger_ae2:quantum_item_storage_cell",
-        M: "cataclysm:ignitium_ingot",
-        N: "gtceu:ultra_mana_frame",
-        O: "gtceu:max_battery",
-        P: "gtceu:uhv_field_generator",
-        Q: "bigger_ae2:quantum_fluid_storage_cell",
-        R: "apotheosis:infused_breath"
-    })
+    // event.recipes.create.mechanical_crafting('gtceu:nan_certificate', [
+    //     "ABBCCCBBA",
+    //     "BDEFGFEDB",
+    //     "BEHIJIHEB",
+    //     "CKIJLJIMC",
+    //     "CNJOPOJNC",
+    //     "CKIJQJIMC",
+    //     "BEHIJIHEB",
+    //     "BDERGREDB",
+    //     "ABBCCCBBA"
+    // ], {
+    //     A: "gtceu:uhv_sensor",
+    //     B: "gtceu:uhv_electric_pump",
+    //     C: "gtceu:uhv_electric_motor",
+    //     D: 'gtmthings:uhv_wireless_energy_receive_cover',
+    //     E: "gtceu:elementium_gear",
+    //     F: "ars_nouveau:summon_focus",
+    //     G: "bloodmagic:reagentsuppression",
+    //     H: "gtceu:uhv_robot_arm",
+    //     I: "gtmthings:uhv_huge_dual_hatch",
+    //     J: "gtceu:gravi_star",
+    //     K: "cataclysm:cursium_ingot",
+    //     L: "bigger_ae2:quantum_item_storage_cell",
+    //     M: "cataclysm:ignitium_ingot",
+    //     N: "gtceu:ultra_mana_frame",
+    //     O: "gtceu:max_battery",
+    //     P: "gtceu:uhv_field_generator",
+    //     Q: "bigger_ae2:quantum_fluid_storage_cell",
+    //     R: "apotheosis:infused_breath"
+    // })
 
     event.recipes.create.mechanical_crafting('ctnhcore:martial_morality_eye', [
         "ABCCCBA",
