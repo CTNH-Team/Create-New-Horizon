@@ -612,6 +612,20 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(60)    
 
+    event.recipes.gtceu.forming_press("complex_link_circuit_print")
+        .itemInputs('gtceu:netherite_plate')
+        .notConsumable('ae2omnicells:complex_link_print_press')
+        .itemOutputs('ae2omnicells:complex_link_circuit_print')
+        .EUt(480)
+        .circuit(23)
+        .duration(200)
+    event.recipes.gtceu.forming_press("complex_link_processor")
+        .itemInputs('2x ae2omnicells:complex_link_circuit_print', '2x ae2:printed_silicon', '#gtceu:circuits/luv')
+        .itemOutputs('2x ae2omnicells:complex_link_processor')
+        .EUt(480)
+        .circuit(23)
+        .duration(360)
+
     // 
     event.recipes.gtceu.macerator("gtceu:fluix_dust")
         .itemInputs("ae2:fluix_crystal")
