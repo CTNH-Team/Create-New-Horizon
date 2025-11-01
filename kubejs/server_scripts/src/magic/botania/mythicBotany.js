@@ -1058,7 +1058,7 @@ ServerEvents.recipes(event => {
                 {
                     "consume": true,
                     "rune": {
-                        "item": 'bigger_ae2:digital_singularity_cell_component'
+                        "item": 'ae2omnicells:complex_omni_cell_component_64m'
                     },
                     "x": -2,
                     "z": 2
@@ -1067,7 +1067,7 @@ ServerEvents.recipes(event => {
                 {
                     "consume": true,
                     "rune": {
-                        "item": 'bigger_ae2:digital_singularity_cell_component'
+                        "item": 'ae2omnicells:complex_omni_cell_component_64m'
                     },
                     "x": -2,
                     "z": -2
@@ -1076,7 +1076,7 @@ ServerEvents.recipes(event => {
                 {
                     "consume": true,
                     "rune": {
-                        "item": 'bigger_ae2:digital_singularity_cell_component'
+                        "item": 'ae2omnicells:complex_omni_cell_component_64m'
                     },
                     "x": 2,
                     "z": 2
@@ -1085,7 +1085,7 @@ ServerEvents.recipes(event => {
                 {
                     "consume": true,
                     "rune": {
-                        "item": 'bigger_ae2:digital_singularity_cell_component'
+                        "item": 'ae2omnicells:complex_omni_cell_component_64m'
                     },
                     "x": 2,
                     "z": -2
@@ -1094,7 +1094,7 @@ ServerEvents.recipes(event => {
                 {
                     "consume": true,
                     "rune": {
-                        "item": 'bigger_ae2:digital_singularity_cell_component'
+                        "item": 'ae2omnicells:complex_omni_cell_component_64m'
                     },
                     "x": -3,
                     "z": 1
@@ -1103,7 +1103,7 @@ ServerEvents.recipes(event => {
                 {
                     "consume": true,
                     "rune": {
-                        "item": 'bigger_ae2:digital_singularity_cell_component'
+                        "item": 'ae2omnicells:complex_omni_cell_component_64m'
                     },
                     "x": -3,
                     "z": -1
@@ -1112,7 +1112,7 @@ ServerEvents.recipes(event => {
                 {
                     "consume": true,
                     "rune": {
-                        "item": 'bigger_ae2:digital_singularity_cell_component'
+                        "item": 'ae2omnicells:complex_omni_cell_component_64m'
                     },
                     "x": 3,
                     "z": 1
@@ -1121,7 +1121,7 @@ ServerEvents.recipes(event => {
                 {
                     "consume": true,
                     "rune": {
-                        "item": 'bigger_ae2:digital_singularity_cell_component'
+                        "item": 'ae2omnicells:complex_omni_cell_component_64m'
                     },
                     "x": 3,
                     "z": -1

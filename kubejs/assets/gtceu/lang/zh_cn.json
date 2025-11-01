@@ -312,6 +312,7 @@
     "ctnh.circuit_echo_uhv": "UHV级电路板",
     "ctnh.circuit_echo_uev": "UEV级电路板",
     "ctnh.uhv_voltage_coil": "究极线圈",
+    "ctnh.ae2additions.disabled": "该物品已被禁用，将在下个版本移除，请尽快替换为OMNI Cells中的类似物品",
     "gtceu.machine.large_miner.zpm.tooltip": "贯穿整个星球",
     "block.gtceu.ev_rocket_engine": "基础火箭引擎",
     "block.gtceu.iv_rocket_engine": "进阶火箭引擎",

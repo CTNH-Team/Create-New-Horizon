@@ -1,10 +1,11 @@
 {
 	chapter_groups: [
-		{ id: "045BDEA2D2692FE0", title: "实用技术" }
-		{ id: "203B37D7B3ACCD4B", title: "{ftbquests.chapter_groups_2322511432411565387.title}" }
-		{ id: "19912BEA87D24FE0", title: "{ftbquests.chapter_groups_1842302008872292320.title}" }
-		{ id: "32DB92B5A6E4493B", title: "{ftbquests.chapter_groups_3664684030682745147.title}" }
-		{ id: "4CD84F8DB1FF8B7E", title: "{ftbquests.chapter_groups_5537263211847322494.title}" }
-		{ id: "71414D2BDE140EDA", title: "{ftbquests.chapter_groups_8160888850576838362.title}" }
+		{ id: "045BDEA2D2692FE0", title: "α 实用技术" }
+		{ id: "203B37D7B3ACCD4B", title: "β {ftbquests.chapter_groups_2322511432411565387.title}" }
+		{ id: "19912BEA87D24FE0", title: "θ {ftbquests.chapter_groups_1842302008872292320.title}" }
+		{ id: "4CD84F8DB1FF8B7E", title: "λ {ftbquests.chapter_groups_5537263211847322494.title}" }
+		{ id: "4D1B16DFEF4B34DD", title: "μ 产能增幅" }
+		{ id: "32DB92B5A6E4493B", title: "ψ {ftbquests.chapter_groups_3664684030682745147.title}" }
+		{ id: "2B1FA8C1F8DA2844", title: "τ 成就大厅" }
 	]
 }
