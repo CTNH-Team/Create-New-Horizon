@@ -6,6 +6,7 @@ ServerEvents.recipes(event => {
     let circuits = ["#gtceu:circuits/lv", "#gtceu:circuits/mv", "#gtceu:circuits/hv", "#gtceu:circuits/ev", "#gtceu:circuits/iv", "#gtceu:circuits/luv", "#gtceu:circuits/zpm", "#gtceu:circuits/uv"]
     let metal = ["gtceu:steel_plate", "gtceu:aluminium_plate", "gtceu:stainless_steel_plate", "gtceu:titanium_plate", "gtceu:tungsten_steel_plate", "gtceu:rhodium_plated_palladium_plate", "gtceu:naquadah_alloy_plate", "gtceu:darmstadtium_plate"]
     let glass = ["ae2:quartz_glass", "ae2:quartz_vibrant_glass", "botania:mana_glass", "botania:elf_glass"]
+    let industrial_glass = ["ae2:quartz_glass", "ae2:quartz_vibrant_glass", 'gtceu:laminated_glass', 'gtceu:fusion_glass']
     let dust = ["minecraft:redstone", "minecraft:glowstone_dust", "gtceu:certus_quartz_dust", "ae2:sky_dust", "gtceu:silicon_dust", "gtceu:electrotine_dust", "ae2:fluix_dust", "botania:mana_powder"]
     let parallel = ['ae2:crafting_accelerator']
     remove_recipes_output(event, cell_component)
@@ -27,7 +28,41 @@ ServerEvents.recipes(event => {
             E: metal[i]
         })
         }
-       
+        if(i >= 4) {
+            event.shaped(Item.of(omni_component[i + 1], 1), [
+                "BDB",
+                "ACA",
+                "EAE"
+            ], {
+                A: omni_component[i],
+                B: dust[i],
+                C: industrial_glass[(i / 2) | 0],
+                D: circuits[i],
+                E: metal[i]
+            })
+            event.shaped(Item.of(complex_omni_component[i + 1], 1), [
+                "BDB",
+                "ACA",
+                "EAE"
+            ], {
+                A: complex_omni_component[i],
+                B: dust[i],
+                C: industrial_glass[(i / 2) | 0],
+                D: circuits[i],
+                E: metal[i]
+            })
+            event.shaped(Item.of(quantum_omni_component[i + 1], 1), [
+                "BDB",
+                "ACA",
+                "EAE"
+            ], {
+                A: quantum_omni_component[i],
+                B: dust[i],
+                C: industrial_glass[(i / 2) | 0],
+                D: circuits[i],
+                E: metal[i]
+            })
+        }
         event.shaped(Item.of(omni_component[i + 1], 1), [
             "BDB",
             "ACA",
@@ -439,7 +474,7 @@ ServerEvents.recipes(event => {
         ], {
             A: "gtceu:stainless_steel_plate",
             B: "gtceu:tempered_glass",
-            C: "sophisticatedbackpacks:crafting_upgrade",
+            C: "enderio:crafter",
             D: "ae2:formation_core",
             E: "ae2:annihilation_core"
         })
@@ -458,7 +493,10 @@ ServerEvents.recipes(event => {
         "ae2omnicells:quantum_omni_cell_housing",
         "ae2omnicells:omni_link_print_press",
         "ae2omnicells:complex_link_print_press",
-        "ae2omnicells:multidimensional_expansion_print_press"
+        "ae2omnicells:multidimensional_expansion_print_press",
+        "ae2omnicells:omni_crafting_unit_block",
+        "ae2omnicells:complex_crafting_unit_block",
+        "ae2omnicells:quantum_crafting_unit_block"
     ])
     remove_recipes_id(event, [
         "expatternprovider:ex_inscriber",
@@ -752,5 +790,25 @@ ServerEvents.recipes(event => {
         .itemInputs('ae2omnicells:complex_link_processor')
         .itemOutputs('ae2omnicells:complex_omni_cell_housing')
         .EUt(7680)
+        .duration(100)
+
+    //cpu
+    assembler('crafting_unit_block')
+        .itemInputs(['4x ae2omnicells:ender_ingot', '2x ae2omnicells:omni_link_processor', 'ae2:crafting_unit', 'ae2:crafting_accelerator', '4x ae2:fluix_smart_dense_cable'])
+        .inputFluids('gtceu:soldering_alloy 288')
+        .itemOutputs('ae2omnicells:omni_crafting_unit_block')
+        .EUt(1920)
+        .duration(100)
+    event.recipes.gtceu.assembly_line('complex_crafting_unit_block')
+        .itemOutputs('ae2omnicells:complex_crafting_unit_block')
+        .itemInputs('ae2omnicells:omni_crafting_unit_block')
+        .itemInputs('2x gtceu:netherite_plate')
+        .itemInputs('2x ae2omnicells:complex_link_processor')
+        .itemInputs('4x ae2omnicells:charged_ender_ingot')
+        .itemInputs('2x gtceu:small_rhodium_plated_palladium_gear')
+        .itemInputs('2x gtceu:netherite_screw')
+        .inputFluids('gtceu:ancient_debris_leach 8000')
+        .inputFluids('gtceu:lubricant 1000')
+        .EUt(7680 * 4)
         .duration(100)
 })

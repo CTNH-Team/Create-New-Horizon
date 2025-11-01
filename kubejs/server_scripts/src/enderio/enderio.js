@@ -125,4 +125,5 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'enderio:advanced_capacitor_bank' })
     event.replaceInput({ id: 'enderio:basic_capacitor_bank' }, 'minecraft:iron_ingot', 'gtceu:battery_alloy_plate')
     event.replaceInput({}, 'enderio:fused_quartz', 'ae2:quartz_glass')
+    event.replaceInput({output: 'enderio:crafter'}, 'minecraft:crafting_table', 'sophisticatedbackpacks:crafting_upgrade')
 })
