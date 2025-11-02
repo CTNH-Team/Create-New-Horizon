@@ -254,8 +254,10 @@
 			dependencies: [
 				"22FA4C6A1ADEC7AC"
 				"65E0B77C49C4F584"
+				"5104B1835B282FC6"
 			]
 			id: "762DC8899FC95277"
+			subtitle: "UV电路"
 			tasks: [{
 				id: "33D36925813D7106"
 				item: "gtceu:wetware_processor_computer"
@@ -265,7 +267,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["762DC8899FC95277"]
+			dependencies: [
+				"762DC8899FC95277"
+				"50A557051BF8A461"
+			]
 			description: ["    虽然制作方式已经与原版格雷相去甚远。"]
 			id: "7D527B8CCB41E418"
 			subtitle: "原版格雷的顶点"
@@ -604,7 +609,7 @@
 				item: "gtceu:taranium_dirty_helium3_bucket"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.0d
 			y: -1.0d
 		}
 		{
@@ -779,7 +784,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 11.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["73FEBDBA63D96DDA"]
@@ -790,7 +795,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 11.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["7A49E5931F2C7453"]
@@ -802,7 +807,7 @@
 				type: "item"
 			}]
 			x: 19.0d
-			y: 11.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["3B20DB28F8A96FC0"]
@@ -885,7 +890,7 @@
 				type: "item"
 			}]
 			x: 21.0d
-			y: 11.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["7D4DBB785B16A377"]
@@ -1100,10 +1105,12 @@
 				item: "hostilenetworks:sim_chamber"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 6.0d
+			x: 5.5d
+			y: 10.0d
 		}
 		{
+			dependencies: ["5BD26F0325768EED"]
+			description: ["    获得&5超级&r数据模型的唯一方法"]
 			id: "50A557051BF8A461"
 			subtitle: "观测实体"
 			tasks: [{
@@ -1111,28 +1118,73 @@
 				item: "ctnhbio:hostile_observer"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 5.5d
 			y: 8.0d
 		}
 		{
+			dependencies: ["5BD26F0325768EED"]
 			id: "5104B1835B282FC6"
 			tasks: [{
 				id: "50A2EC4B62A124E6"
 				item: "ctnhbio:neural_model_accessor"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 6.0d
+			x: 3.0d
+			y: 10.0d
 		}
 		{
+			dependencies: [
+				"5104B1835B282FC6"
+				"2229C60AFC5A51B3"
+			]
 			id: "29CB100F7A86186F"
+			subtitle: "更加智能"
 			tasks: [{
 				id: "25834B4EF9069798"
 				item: "ctnhbio:advanced_neural_model_accessor"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 8.0d
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7AC1C9575ED0ECBF"]
+			id: "2229C60AFC5A51B3"
+			tasks: [{
+				id: "4895CDDCC108813F"
+				item: {
+					Count: 1
+					id: "gtceu:data_module"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			description: ["    这里本来应该有一些关于GT原版生物线、生产干细胞的任务，但是在任务重置的过程中丢失了，不过都到这个阶段了对着JEI自己看应该也不难。"]
+			id: "7AC1C9575ED0ECBF"
+			subtitle: "GT原版生物线"
+			tasks: [{
+				id: "42FA17298E9E779B"
+				item: "gtceu:stem_cells"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			description: ["    使用巨型总线输入物品可能导致不识别，建议使用ME库存输入总线。"]
+			id: "7F4D1DB73BB3EA48"
+			subtitle: "好像来得有点晚"
+			tasks: [{
+				id: "71C3B1CAB448A928"
+				item: "ctnhcore:advance_assembly_line"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
 		}
 	]
 	title: "{ftbquests.chapter.zpm.title}"

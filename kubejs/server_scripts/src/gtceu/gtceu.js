@@ -985,14 +985,14 @@ ServerEvents.recipes(event => {
 
     let low = ['chicken', 'cod', 'cow', 'glow_squid', 'mooshroom', 'pig', 'rabbit', 'polar_bear', 'squid', 'snow_golem', 'sheep']
     let mid = ['ars_nouveau/wilden_mobs', 'blaze', 'creeper', 'drowned', 'ghast', 'guardian', 'hoglin', 'magma_cube', 'phantom', 'skeleton', 'slime', 'twilightforste/death_tome', 'twilightforste/stable_ice_core',
-        'spider', 'twilightforest/death_tomb', 'twilightforest/deer', 'twilightforest/raven', 'twilight_forest/stable_ice_core', 'witch', 'zombie', 'zombified_piglin'
+        'spider', 'twilightforest/death_tomb', 'twilightforest/deer', 'twilightforest/raven', 'twilight_forest/stable_ice_core', 'witch', 'zombie', 'zombified_piglin', 'aether/aerwhale'
     ]
     let high = ['elder_guardian', 'enderman', 'evoker', 'iron_golem', 'shulker', 'twilightforest/giant', 'twilightforest/kobold', 'twilightforest/goblin',
         'wither_skeleton', 'twilightforest/winter_wolf', 'twilightforest/redcap', 'twilightforest/helmet_crab', 'twilightforest/troll',
         'twilightforest/naga', 'twilightforest/minotaur', 'twilightforest/fire_beetle', 'twilightforest/carminite_golem', 'twilightforest/towerwood_borer',
         'vindicator', 'twilightforest/lich', 'twilightforest/yeti', 'twilightforest/wraith', 'twilightforest/skeleton_druid'
     ]
-    let supers = ['artifacts/mimic', 'wither', 'ender_dragon', 'warden', 'twilightforest/snow_queen', 'twilightforest/hydra', 'twilightforest/minoshroom', 'twilightforest/alpha_yeti']
+    let supers = ['artifacts/mimic', 'wither', 'ender_dragon', 'warden', 'twilightforest/snow_queen', 'twilightforest/hydra', 'twilightforest/minoshroom', 'twilightforest/alpha_yeti', 'biomancy/primordial_flesh_blob']
     let boss = ['twilightforest/ur_ghast']
     low.forEach(entity =>
         addModel(event, entity, 30, 100)
@@ -1966,16 +1966,16 @@ ServerEvents.recipes(event => {
         .itemOutputs('5x gtceu:echo_shard_dust')
         .EUt(32)
         .duration(200)
-    event.recipes.gtceu.assembly_line('ctnhcore:sculk_cell')
-        .itemInputs('32x gtceu:stem_cells', '8x minecraft:sculk_vein', '4x minecraft:sculk', '2x minecraft:echo_shard', 'kubejs:echo_printed_circuit_board', 'gtceu:crystal_soc', 'gtceu:crystal_soc', 'avaritia:crystal_matrix_ingot', '64x gtceu:hidden_alloy_bolt', '64x gtceu:hidden_alloy_bolt', '64x gtceu:hidden_alloy_bolt', '64x gtceu:hidden_alloy_bolt', 'gtceu:highly_advanced_soc', 'gtceu:highly_advanced_soc', 'gtceu:highly_advanced_soc', 'gtceu:highly_advanced_soc')
-        .inputFluids('gtceu:mutagen 16000', 'gtceu:sterilebiologicalculturemediumstocksolution 16000')
-        .itemOutputs('16x ctnhcore:sculk_cell')
-        .EUt(491200)
-        .duration(800)
-        .stationResearch(b => b.researchStack(Item.of('gtceu:crystal_soc'))
-            .dataStack(Item.of("gtceu:data_orb"))
-            .EUt(GTValues.VA[GTValues.ZPM])
-            .CWUt(64))
+    // event.recipes.gtceu.assembly_line('ctnhcore:sculk_cell')
+    //     .itemInputs('32x gtceu:stem_cells', '8x minecraft:sculk_vein', '4x minecraft:sculk', '2x minecraft:echo_shard', 'kubejs:echo_printed_circuit_board', 'gtceu:crystal_soc', 'gtceu:crystal_soc', 'avaritia:crystal_matrix_ingot', '64x gtceu:hidden_alloy_bolt', '64x gtceu:hidden_alloy_bolt', '64x gtceu:hidden_alloy_bolt', '64x gtceu:hidden_alloy_bolt', 'gtceu:highly_advanced_soc', 'gtceu:highly_advanced_soc', 'gtceu:highly_advanced_soc', 'gtceu:highly_advanced_soc')
+    //     .inputFluids('gtceu:mutagen 16000', 'gtceu:sterilebiologicalculturemediumstocksolution 16000')
+    //     .itemOutputs('16x ctnhcore:sculk_cell')
+    //     .EUt(491200)
+    //     .duration(800)
+    //     .stationResearch(b => b.researchStack(Item.of('gtceu:crystal_soc'))
+    //         .dataStack(Item.of("gtceu:data_orb"))
+    //         .EUt(GTValues.VA[GTValues.ZPM])
+    //         .CWUt(64))
     event.recipes.gtceu.assembler('biological_patch_transistor')
         .itemInputs('gtceu:naquadria_foil', '8x gtceu:fine_osmiridium_wire')
         .inputFluids('gtceu:kapton_k 288')

@@ -17274,6 +17274,11 @@ hash = "de47064b82c2a522457edd4611813805dd1d0d465227ee0bfbb62c87c38f5597"
 metafile = true
 
 [[files]]
+file = "mods/eu-p2p-tunnel.pw.toml"
+hash = "b203c7b6b0685486475cc9a582c362b0becc9f197b31c3bff573a7aec9757be1"
+metafile = true
+
+[[files]]
 file = "mods/event-wrapper.pw.toml"
 hash = "1004333faaea1092c29a6585dcba89e29e018eaad6a53608ff55e72f2f67e7ee"
 metafile = true

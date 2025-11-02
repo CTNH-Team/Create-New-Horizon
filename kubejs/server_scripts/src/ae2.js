@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
     let metal = ["gtceu:steel_plate", "gtceu:aluminium_plate", "gtceu:stainless_steel_plate", "gtceu:titanium_plate", "gtceu:tungsten_steel_plate", "gtceu:rhodium_plated_palladium_plate", "gtceu:naquadah_alloy_plate", "gtceu:darmstadtium_plate"]
     let glass = ["ae2:quartz_glass", "ae2:quartz_vibrant_glass", "botania:mana_glass", "botania:elf_glass"]
     let industrial_glass = ["ae2:quartz_glass", "ae2:quartz_vibrant_glass", 'gtceu:laminated_glass', 'gtceu:fusion_glass']
-    let dust = ["minecraft:redstone", "minecraft:glowstone_dust", "gtceu:certus_quartz_dust", "ae2:sky_dust", "gtceu:silicon_dust", "gtceu:electrotine_dust", "ae2:fluix_dust", "botania:mana_powder"]
+    let dust = ["minecraft:redstone", "minecraft:glowstone_dust", "gtceu:certus_quartz_dust", "ae2:sky_dust", "gtceu:silicon_dust", "gtceu:electrotine_dust", "ae2:fluix_dust", "gtceu:yttrofluorite_dust"]
     let parallel = ['ae2:crafting_accelerator']
     remove_recipes_output(event, cell_component)
     remove_recipes_output(event, omni_component)

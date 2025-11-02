@@ -277,16 +277,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"198BA53EC65DB859"
-				"0CE3AC41F7D98F39"
-				"75D522A6289E42CF"
-				"0ADAA3D94273B1B5"
-				"0B24BC1112AA1BD4"
-				"5409D4773E7C8529"
-				"6429ECAF0856240D"
-				"26DE6B2D5D93022F"
-			]
+			description: ["    这曾是CTNH1.2.1版本的毕业证明。"]
 			icon: "gtceu:nan_certificate"
 			id: "15BD44DB26748FA3"
 			rewards: [{
@@ -296,16 +287,16 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 4.0d
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.uhv.quest22.subtitle}"
 			tasks: [{
 				id: "7BE6B053802692B5"
 				item: "gtceu:nan_certificate"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.uhv.quest22.title}"
-			x: -1.0d
-			y: 9.0d
+			title: "1.2.1  毕业证明"
+			x: -7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6D8963683034165D"]

@@ -97,5 +97,7 @@ JEIEvents.removeCategories(event => {
     //console.log(event.categoryIds) //log a list of all category ids to logs/kubejs/client.txt
     event.remove('create:automatic_shaped')
     event.remove('create:automatic_shapeless')
+    event.remove('hostilenetworks:loot_fabricator')
+    event.remove('hostilenetworks:sim_chamber')
     //event.remove('create:draining')
 })
