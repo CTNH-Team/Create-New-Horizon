@@ -131,7 +131,7 @@ ServerEvents.recipes(event => {
         C: "ae2:cell_component_1k",
         D: "#gtceu:circuits/ulv"
     })
-    event.shaped(Item.of('ae2omnicells:complex_omni_cell_component_1k', 1), [
+    event.shaped(Item.of('ae2omnicells:complex_cell_component_1k', 1), [
         "BDB",
         "ACA",
         "EAE"
