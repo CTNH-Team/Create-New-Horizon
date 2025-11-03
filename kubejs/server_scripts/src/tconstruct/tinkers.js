@@ -65,6 +65,15 @@ ServerEvents.recipes(event => {
 		],
 		605
 	)
+
+	event.recipes.tconstruct.alloy(
+		Fluid.of('gtceu:bronze', 576), 
+		[
+			Fluid.of('gtceu:zinc', 432),
+			Fluid.of('gtceu:copper', 144)
+		],
+		605
+	)
 })
 //融化
 ServerEvents.recipes(event => {
@@ -111,16 +120,16 @@ ServerEvents.recipes(event => {
 	)
 
 	//燃料
-	melting_fuels(event, 100, 10, 300, ['gtceu:raw_bio_diesel', 5])
-	melting_fuels(event, 100, 30, 500, ['gtceu:diesel', 25])
-	melting_fuels(event, 100, 50, 1000, ['gtceu:gasoline', 25])
-	melting_fuels(event, 200, 100, 3000, ['gtceu:high_octane_gasoline', 25])
-	melting_fuels(event, 200, 30, 4000, ['gtceu:blaze', 100])
-	melting_fuels(event, 200, 75, 5000, ['gtceu:cetane_boosted_diesel', 25])
-	melting_fuels(event, 200, 500, 5700, ['gtceu:pyrotheum', 1])
+	melting_fuels(event, 100, 25, 2300, ['gtceu:raw_bio_diesel', 25])//生物柴油
+	melting_fuels(event, 100, 50, 3500, ['gtceu:diesel', 5])//柴油
+	melting_fuels(event, 200, 75, 5000, ['gtceu:cetane_boosted_diesel', 1])//高十六烷值柴油
+	melting_fuels(event, 100, 125, 3800, ['gtceu:gasoline', 25])//汽油
+	melting_fuels(event, 200, 200, 4700, ['gtceu:high_octane_gasoline', 1])//高辛烷值汽油
+	melting_fuels(event, 200, 30, 4000, ['gtceu:blaze', 100])//烈焰烈焰
+	melting_fuels(event, 200, 500, 5700, ['gtceu:pyrotheum', 1])//烈焰之炽焱
+	melting_fuels(event, 114514, 1919, 8100, ['gtceu:snow_steel', 999])//雪城钢
 
 })
-
 //矿脉
 GTCEuServerEvents.oreVeins(event => {
     event.add("kubejs:tinkers_vein", vein => {
