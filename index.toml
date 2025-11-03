@@ -7986,7 +7986,7 @@ hash = "59835ffaed270927b4b908786eb15441a68cf7c0a55622a718a561cd61735e2a"
 
 [[files]]
 file = "kubejs/config/client.properties"
-hash = "dfd554b2f2dd28beaf77a096732dc7ec716f506609e29a7b5bdf5cfe910f460b"
+hash = "3260f60c44eac96a2cd3d4b1451b7b2ff2fa871a9f652ad9f3495bf378602429"
 
 [[files]]
 file = "kubejs/config/common.properties"
@@ -16814,7 +16814,7 @@ hash = "2ae149e0afbdb4454be0ec935e2f51531d41047da95981a7b0b6b1a1468ff4b3"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/tinkers.js"
-hash = "494463e1c0ef92899584b569c54d27bb6ac84fd188c6f39210e276843ae769c3"
+hash = "683a75522f66193fdfb4150a9976e5d93aab2f2b82f8df8e6f39c8d353560f4e"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/toolparts_register.js"
