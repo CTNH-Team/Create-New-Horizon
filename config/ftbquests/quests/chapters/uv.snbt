@@ -89,20 +89,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4A1F708FDEEA50D2"]
-			id: "674C9A48676C71F5"
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.uv.quest5.subtitle}"
-			tasks: [{
-				id: "6BC4FAF8A3F8141B"
-				item: "ctnhcore:naq_reactor_mk3"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.75d
-		}
-		{
 			dependencies: [
 				"0C3AB83D2762EC3D"
 				"7F0C67AE534020B1"

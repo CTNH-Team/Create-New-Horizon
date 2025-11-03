@@ -353,10 +353,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"52156F99511B7A7E"
-				"72697B8BAFAD3052"
-			]
+			dependencies: ["52156F99511B7A7E"]
 			dependency_requirement: "one_completed"
 			id: "0FE50A78729EF06F"
 			tasks: [{
@@ -576,17 +573,6 @@
 			}]
 			x: 12.0d
 			y: -3.5d
-		}
-		{
-			id: "72697B8BAFAD3052"
-			invisible: true
-			tasks: [{
-				id: "0FC56981FC18D56D"
-				item: "gtceu:bedrock_dust_dust"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -5.5d
 		}
 		{
 			id: "6A6BBE540A631C28"

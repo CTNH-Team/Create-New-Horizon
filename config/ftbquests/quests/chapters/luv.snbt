@@ -410,10 +410,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"02DD2E6EEDC15505"
-				"1960FC2322EDCB12"
-			]
+			dependencies: ["02DD2E6EEDC15505"]
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.iv.quest51.description1}"]
 			id: "45EF42ADC599589E"

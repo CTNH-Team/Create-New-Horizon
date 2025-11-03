@@ -443,6 +443,41 @@
 			x: 3.5d
 			y: -5.0d
 		}
+		{
+			dependencies: [
+				"4A1F708FDEEA50D2"
+				"0B24BC1112AA1BD4"
+			]
+			id: "674C9A48676C71F5"
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "{ftbquests.chapter.uv.quest5.subtitle}"
+			tasks: [{
+				id: "6BC4FAF8A3F8141B"
+				item: "ctnhcore:naq_reactor_mk3"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"198BA53EC65DB859"
+				"0CE3AC41F7D98F39"
+				"5409D4773E7C8529"
+				"6429ECAF0856240D"
+			]
+			description: ["    新的毕业证明还没做出来，做个这个意思一下吧"]
+			id: "72F3BC0B1E557419"
+			subtitle: "新的菜鸟证明？"
+			tasks: [{
+				id: "0BA949F8EA6C8EAD"
+				item: "gtceu:uhv_circuit_assembler"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
 	]
 	title: "{ftbquests.chapter.uhv.title}"
 }

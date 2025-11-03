@@ -212,6 +212,8 @@ ServerEvents.recipes(event => {
         //氧气分配器、重力控制器
         'ad_astra:oxygen_distributor',
         'ad_astra:gravity_normalizer',
+        //烧硅岩粒
+        'gtceu:electric_blast_furnace/naq_ingot'
     ])
 
 
