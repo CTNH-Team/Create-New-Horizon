@@ -1508,28 +1508,9 @@
 			y: -17.5d
 		}
 		{
-			dependencies: ["687AF4CCD52B0FE6"]
-			id: "1960FC2322EDCB12"
-			rewards: [{
-				count: 32
-				id: "33AF3B64AFB42274"
-				item: "gtceu:impure_naquadah_dust"
-				type: "item"
-			}]
-			subtitle: "IV阶段获取硅岩"
-			tasks: [{
-				count: 32L
-				id: "1A0A0FE88A12687C"
-				item: "gtceu:naquadah_nugget"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -17.5d
-		}
-		{
 			dependencies: ["63F5094821C731CA"]
 			id: "2DDF9BCE967C0ABC"
-			subtitle: "千万GT牢员工看到巨冰时期流下的泪水"
+			subtitle: "千万GT牢员工从小冰箱熬到巨冰过程中流下的泪水"
 			tasks: [{
 				id: "1B5D767986AD8DD8"
 				item: "ctnhcore:cryotheum_freezer"

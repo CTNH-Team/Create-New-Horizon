@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "1E8D7AF132D696EC"
-	group: "4CD84F8DB1FF8B7E"
+	group: "2B1FA8C1F8DA2844"
 	icon: "gtceu:microchip_processor"
 	id: "1E8D7AF132D696EC"
-	order_index: 7
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -852,7 +852,7 @@
 				item: "kubejs:circuit_resonatic_ulv"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 6.0d
 			y: -4.5d
 		}
 		{
@@ -863,7 +863,7 @@
 				item: "kubejs:circuit_resonatic_lv"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 6.0d
 			y: -3.0d
 		}
 		{
@@ -874,7 +874,7 @@
 				item: "kubejs:circuit_resonatic_mv"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
@@ -885,7 +885,7 @@
 				item: "kubejs:circuit_resonatic_hv"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -896,7 +896,7 @@
 				item: "kubejs:circuit_resonatic_ev"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 6.0d
 			y: 1.5d
 		}
 		{
@@ -907,7 +907,7 @@
 				item: "kubejs:circuit_resonatic_iv"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
@@ -918,7 +918,7 @@
 				item: "kubejs:circuit_resonatic_luv"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 6.0d
 			y: 4.5d
 		}
 		{
@@ -929,7 +929,7 @@
 				item: "kubejs:circuit_resonatic_zpm"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
@@ -940,7 +940,7 @@
 				item: "kubejs:circuit_resonatic_uv"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 6.0d
 			y: 7.5d
 		}
 		{
@@ -951,7 +951,7 @@
 				item: "kubejs:circuit_resonatic_uhv"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 6.0d
 			y: 9.0d
 		}
 		{
@@ -962,7 +962,7 @@
 				item: "kubejs:circuit_resonatic_uev"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 6.0d
 			y: 10.5d
 		}
 		{
@@ -973,7 +973,7 @@
 				item: "kubejs:circuit_resonatic_uiv"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 6.0d
 			y: 12.0d
 		}
 		{

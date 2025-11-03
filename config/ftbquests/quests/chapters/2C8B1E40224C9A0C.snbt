@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "2C8B1E40224C9A0C"
-	group: "71414D2BDE140EDA"
+	group: ""
 	icon: "minecraft:compass"
 	id: "2C8B1E40224C9A0C"
-	order_index: 0
+	order_index: 2
 	quest_links: [
 		{
 			id: "797E2E6DBDE8F61A"

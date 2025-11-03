@@ -875,6 +875,7 @@
 			}
 			id: "40A89FF9918E1BA5"
 			size: 2.0d
+			subtitle: "Yuriko"
 			tasks: [{
 				id: "4FC5AEEF33D04DFC"
 				title: "格雷电压"

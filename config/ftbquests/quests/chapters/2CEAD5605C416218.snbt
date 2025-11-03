@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "2CEAD5605C416218"
-	group: "4CD84F8DB1FF8B7E"
+	group: "4D1B16DFEF4B34DD"
 	icon: "gtceu:oil_medium_bucket"
 	id: "2CEAD5605C416218"
-	order_index: 2
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -1413,7 +1413,7 @@
 				item: "createdieselgenerators:oil_scanner"
 				type: "item"
 			}]
-			x: -15.5d
+			x: -13.5d
 			y: 0.5d
 		}
 		{
@@ -1465,7 +1465,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.08AF6857D150C353.quest4.title}"
-			x: -12.5d
+			x: -11.5d
 			y: 0.5d
 		}
 		{
@@ -1504,8 +1504,8 @@
 				item: "gtceu:sulfuric_heavy_fuel_bucket"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 5.0d
+			x: -11.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [

@@ -1,14 +1,22 @@
 ServerEvents.recipes(event => {
-    let cell_component = ["ae2:cell_component_1k", "ae2:cell_component_4k", "ae2:cell_component_16k", "ae2:cell_component_64k", "ae2:cell_component_256k", "ae2additions:cell_component_1024", "ae2additions:cell_component_4096", "ae2additions:cell_component_16384", "ae2additions:cell_component_65536"]
+    let cell_component = ["ae2:cell_component_1k", "ae2:cell_component_4k", "ae2:cell_component_16k", "ae2:cell_component_64k", "ae2:cell_component_256k"]
+    let omni_component = ['ae2omnicells:omni_cell_component_1k', 'ae2omnicells:omni_cell_component_4k', 'ae2omnicells:omni_cell_component_16k', 'ae2omnicells:omni_cell_component_64k', 'ae2omnicells:omni_cell_component_256k', 'ae2omnicells:omni_cell_component_1m', 'ae2omnicells:omni_cell_component_4m', 'ae2omnicells:omni_cell_component_16m', 'ae2omnicells:omni_cell_component_64m']
+    let complex_omni_component = ['ae2omnicells:complex_omni_cell_component_1k', 'ae2omnicells:complex_omni_cell_component_4k', 'ae2omnicells:complex_omni_cell_component_16k', 'ae2omnicells:complex_omni_cell_component_64k', 'ae2omnicells:complex_omni_cell_component_256k', 'ae2omnicells:complex_omni_cell_component_1m', 'ae2omnicells:complex_omni_cell_component_4m', 'ae2omnicells:complex_omni_cell_component_16m', 'ae2omnicells:complex_omni_cell_component_64m']
+    let quantum_omni_component = ['ae2omnicells:quantum_omni_cell_component_1k', 'ae2omnicells:quantum_omni_cell_component_4k', 'ae2omnicells:quantum_omni_cell_component_16k', 'ae2omnicells:quantum_omni_cell_component_64k', 'ae2omnicells:quantum_omni_cell_component_256k', 'ae2omnicells:quantum_omni_cell_component_1m', 'ae2omnicells:quantum_omni_cell_component_4m', 'ae2omnicells:quantum_omni_cell_component_16m', 'ae2omnicells:quantum_omni_cell_component_64m']
     let circuits = ["#gtceu:circuits/lv", "#gtceu:circuits/mv", "#gtceu:circuits/hv", "#gtceu:circuits/ev", "#gtceu:circuits/iv", "#gtceu:circuits/luv", "#gtceu:circuits/zpm", "#gtceu:circuits/uv"]
     let metal = ["gtceu:steel_plate", "gtceu:aluminium_plate", "gtceu:stainless_steel_plate", "gtceu:titanium_plate", "gtceu:tungsten_steel_plate", "gtceu:rhodium_plated_palladium_plate", "gtceu:naquadah_alloy_plate", "gtceu:darmstadtium_plate"]
     let glass = ["ae2:quartz_glass", "ae2:quartz_vibrant_glass", "botania:mana_glass", "botania:elf_glass"]
-    let dust = ["minecraft:redstone", "minecraft:glowstone_dust", "gtceu:certus_quartz_dust", "ae2:sky_dust", "gtceu:silicon_dust", "gtceu:electrotine_dust", "ae2:fluix_dust", "botania:mana_powder"]
-    let parallel = ['ae2:crafting_accelerator', 'bigger_ae2:4_core_crafting_accelerator', 'bigger_ae2:16_core_crafting_accelerator', 'bigger_ae2:64_core_crafting_accelerator', 'bigger_ae2:256_core_crafting_accelerator', 'bigger_ae2:1024_core_crafting_accelerator']
+    let industrial_glass = ["ae2:quartz_glass", "ae2:quartz_vibrant_glass", 'gtceu:laminated_glass', 'gtceu:fusion_glass']
+    let dust = ["minecraft:redstone", "minecraft:glowstone_dust", "gtceu:certus_quartz_dust", "ae2:sky_dust", "gtceu:silicon_dust", "gtceu:electrotine_dust", "ae2:fluix_dust", "gtceu:yttrofluorite_dust"]
+    let parallel = ['ae2:crafting_accelerator']
     remove_recipes_output(event, cell_component)
+    remove_recipes_output(event, omni_component)
+    remove_recipes_output(event, complex_omni_component)
+    remove_recipes_output(event, quantum_omni_component)
 
     for (let i = 0; i < 8; i++) {
-        event.shaped(Item.of(cell_component[i + 1], 1), [
+        if(i <= 3) {
+             event.shaped(Item.of(cell_component[i + 1], 1), [
             "BDB",
             "ACA",
             "EAE"
@@ -19,19 +27,90 @@ ServerEvents.recipes(event => {
             D: circuits[i],
             E: metal[i]
         })
-        if (i > 2) {
-            event.shaped(Item.of(parallel[i - 2], 1), [
-                "EDE",
+        }
+        if(i >= 4) {
+            event.shaped(Item.of(omni_component[i + 1], 1), [
+                "BDB",
                 "ACA",
                 "EAE"
             ], {
-                A: parallel[i - 3],
-                C: glass[(i / 2) | 0],
+                A: omni_component[i],
+                B: dust[i],
+                C: industrial_glass[(i / 2) | 0],
+                D: circuits[i],
+                E: metal[i]
+            })
+            event.shaped(Item.of(complex_omni_component[i + 1], 1), [
+                "BDB",
+                "ACA",
+                "EAE"
+            ], {
+                A: complex_omni_component[i],
+                B: dust[i],
+                C: industrial_glass[(i / 2) | 0],
+                D: circuits[i],
+                E: metal[i]
+            })
+            event.shaped(Item.of(quantum_omni_component[i + 1], 1), [
+                "BDB",
+                "ACA",
+                "EAE"
+            ], {
+                A: quantum_omni_component[i],
+                B: dust[i],
+                C: industrial_glass[(i / 2) | 0],
                 D: circuits[i],
                 E: metal[i]
             })
         }
+        event.shaped(Item.of(omni_component[i + 1], 1), [
+            "BDB",
+            "ACA",
+            "EAE"
+        ], {
+            A: omni_component[i],
+            B: dust[i],
+            C: glass[(i / 2) | 0],
+            D: circuits[i],
+            E: metal[i]
+        })
+        event.shaped(Item.of(complex_omni_component[i + 1], 1), [
+            "BDB",
+            "ACA",
+            "EAE"
+        ], {
+            A: complex_omni_component[i],
+            B: dust[i],
+            C: glass[(i / 2) | 0],
+            D: circuits[i],
+            E: metal[i]
+        })
+        event.shaped(Item.of(quantum_omni_component[i + 1], 1), [
+            "BDB",
+            "ACA",
+            "EAE"
+        ], {
+            A: quantum_omni_component[i],
+            B: dust[i],
+            C: glass[(i / 2) | 0],
+            D: circuits[i],
+            E: metal[i]
+        })
+        // if (i > 2) {
+
+        // }
     }
+            //     event.shaped(Item.of(parallel[i - 2], 1), [
+        //         "EDE",
+        //         "ACA",
+        //         "EAE"
+        //     ], {
+        //         A: parallel[i - 3],
+        //         C: glass[(i / 2) | 0],
+        //         D: circuits[i],
+        //         E: metal[i]
+        //     })
+    // 1k
     event.shaped(Item.of("ae2:cell_component_1k", 1), [
         "BDB",
         "ACA",
@@ -43,6 +122,73 @@ ServerEvents.recipes(event => {
         D: "#gtceu:circuits/ulv",
         E: "gtceu:iron_plate",
     })
+    event.shaped(Item.of('ae2omnicells:omni_cell_component_1k', 1), [
+        "BDB",
+        "ACA",
+        "BAB"
+    ], {
+        A: "gtceu:certus_quartz_plate",
+        B: "gtceu:ender_pearl_dust",
+        C: "ae2:cell_component_1k",
+        D: "#gtceu:circuits/ulv"
+    })
+    event.shaped(Item.of('ae2omnicells:complex_omni_cell_component_1k', 1), [
+        "BDB",
+        "ACA",
+        "EAE"
+    ], {
+        A: "gtceu:certus_quartz_plate",
+        B: "gtceu:ender_pearl_dust",
+        C: "ae2:cell_component_1k",
+        D: "#gtceu:circuits/ulv",
+        E: "ae2:fluix_dust"
+    })        
+    // 256m
+    event.shaped(Item.of('ae2omnicells:omni_cell_component_256m', 1), [
+        "BDB",
+        "ACA",
+        "EAE"
+    ], {
+        A: "ae2omnicells:omni_cell_component_64m",
+        B: "gtceu:europium_fluorite_dust",
+        C: "gtceu:fusion_glass",
+        D: "#gtceu:circuits/uhv",
+        E: "gtceu:neutronium_plate"
+    })
+    event.shaped(Item.of('ae2omnicells:complex_omni_cell_component_256m', 1), [
+        "BDB",
+        "ACA",
+        "EAE"
+    ], {
+        A: "ae2omnicells:complex_omni_cell_component_64m",
+        B: "gtceu:europium_fluorite_dust",
+        C: "gtceu:fusion_glass",
+        D: "#gtceu:circuits/uhv",
+        E: "gtceu:neutronium_plate"
+    })  
+    event.shaped(Item.of('ae2omnicells:omni_cell_component_256m', 1), [
+        "BDB",
+        "ACA",
+        "EAE"
+    ], {
+        A: "ae2omnicells:omni_cell_component_64m",
+        B: "gtceu:europium_fluorite_dust",
+        C: "botania:elf_glass",
+        D: "#gtceu:circuits/uhv",
+        E: "gtceu:neutronium_plate"
+    })
+    event.shaped(Item.of('ae2omnicells:complex_omni_cell_component_256m', 1), [
+        "BDB",
+        "ACA",
+        "EAE"
+    ], {
+        A: "ae2omnicells:complex_omni_cell_component_64m",
+        B: "gtceu:europium_fluorite_dust",
+        C: "botania:elf_glass",
+        D: "#gtceu:circuits/uhv",
+        E: "gtceu:neutronium_plate"
+    }) 
+
     event.custom({
         "type": "ae2:transform",
         "circumstance": {
@@ -77,8 +223,8 @@ ServerEvents.recipes(event => {
     event.replaceInput({ id: "ae2:network/blocks/storage_drive" }, "minecraft:iron_ingot", "gtceu:stainless_steel_plate")
     event.replaceInput({ id: "ae2:network/parts/import_bus" }, "minecraft:iron_ingot", "gtceu:steel_plate")
     event.replaceInput({ id: "ae2:network/parts/export_bus" }, "minecraft:iron_ingot", "gtceu:steel_plate")
-    event.replaceInput({ id: 'bigger_ae2:quantum_cell_component' }, 'ae2:engineering_processor', '#gtceu:circuits/iv')
-    event.replaceInput({ id: 'bigger_ae2:digital_singularity_cell_component' }, 'ae2:engineering_processor', '#gtceu:circuits/luv')
+    // event.replaceInput({ id: 'bigger_ae2:quantum_cell_component' }, 'ae2:engineering_processor', '#gtceu:circuits/iv')
+    // event.replaceInput({ id: 'bigger_ae2:digital_singularity_cell_component' }, 'ae2:engineering_processor', '#gtceu:circuits/luv')
     event.recipes.gtceu.wiremill("quartz_fiber")
         .EUt(120)
         .duration(60)
@@ -185,38 +331,38 @@ ServerEvents.recipes(event => {
         .duration(100)
         .itemInputs(["3x gtceu:bronze_plate", "2x gtceu:bismuth_bronze_screw", "2x gtceu:rubber_foil", "2x ae2:quartz_glass"])
         .itemOutputs("ae2:fluid_cell_housing")
-    event.recipes.gtceu.assembler("deep_item_housing")
-        .EUt(1920)
-        .duration(100)
-        .itemInputs(['4x minecraft:netherite_ingot', "2x gtceu:gold_foil", "2x ae2:quartz_vibrant_glass", "ae2:item_cell_housing"])
-        .itemOutputs("ae2things:disk_housing")
-    event.recipes.gtceu.assembler("deep_fluid_housing")
-        .EUt(1920)
-        .duration(100)
-        .itemInputs(["3x gtceu:blue_alloy_plate", "2x gtceu:blue_alloy_screw", "2x gtceu:silicone_rubber_foil", "2x ae2:quartz_vibrant_glass", "ae2:fluid_cell_housing"])
-        .itemOutputs("ae2additions:disk_fluid_housing")
-    event.recipes.gtceu.assembler("super_housing")
-        .EUt(7680)
-        .duration(100)
-        .itemInputs(["3x gtceu:hsss_plate", "2x gtceu:hsss_screw", "2x gtceu:styrene_butadiene_rubber_foil", "2x botania:mana_glass"])
-        .itemOutputs("ae2additions:super_cell_housing")
+    // event.recipes.gtceu.assembler("deep_item_housing")
+    //     .EUt(1920)
+    //     .duration(100)
+    //     .itemInputs(['4x minecraft:netherite_ingot', "2x gtceu:gold_foil", "2x ae2:quartz_vibrant_glass", "ae2:item_cell_housing"])
+    //     .itemOutputs("ae2things:disk_housing")
+    // event.recipes.gtceu.assembler("deep_fluid_housing")
+    //     .EUt(1920)
+    //     .duration(100)
+    //     .itemInputs(["3x gtceu:blue_alloy_plate", "2x gtceu:blue_alloy_screw", "2x gtceu:silicone_rubber_foil", "2x ae2:quartz_vibrant_glass", "ae2:fluid_cell_housing"])
+    //     .itemOutputs("ae2additions:disk_fluid_housing")
+    // event.recipes.gtceu.assembler("super_housing")
+    //     .EUt(7680)
+    //     .duration(100)
+    //     .itemInputs(["3x gtceu:hsss_plate", "2x gtceu:hsss_screw", "2x gtceu:styrene_butadiene_rubber_foil", "2x botania:mana_glass"])
+    //     .itemOutputs("ae2additions:super_cell_housing")
     event.recipes.gtceu.assembler("wireless_booster")
         .EUt(480)
         .duration(100)
         .itemInputs(["2x gtceu:steel_plate", "ae2:calculation_processor", "ae2:fluix_dust"])
         .itemOutputs("ae2:wireless_booster")
 
-    event.recipes.gtceu.assembler('advanced_cell_item_housing')
-        .EUt(1920)
-        .duration(100)
-        .itemInputs(['3x gtceu:end_steel_plate', '2x gtceu:tungsten_steel_screw', '2x gtceu:polyphenylene_sulfide_foil', '2x gtceu:tempered_glass'])
-        .itemOutputs('bigger_ae2:advanced_item_cell_housing')
+    // event.recipes.gtceu.assembler('advanced_cell_item_housing')
+    //     .EUt(1920)
+    //     .duration(100)
+    //     .itemInputs(['3x gtceu:end_steel_plate', '2x gtceu:tungsten_steel_screw', '2x gtceu:polyphenylene_sulfide_foil', '2x gtceu:tempered_glass'])
+    //     .itemOutputs('bigger_ae2:advanced_item_cell_housing')
 
-    event.recipes.gtceu.assembler('advanced_cell_fluid_housing')
-        .EUt(1920)
-        .duration(100)
-        .itemInputs(['3x gtceu:chorusite_alloy_plate', '2x gtceu:tungsten_steel_screw', '2x gtceu:polyphenylene_sulfide_foil', '2x gtceu:tempered_glass'])
-        .itemOutputs('bigger_ae2:advanced_fluid_cell_housing')
+    // event.recipes.gtceu.assembler('advanced_cell_fluid_housing')
+    //     .EUt(1920)
+    //     .duration(100)
+    //     .itemInputs(['3x gtceu:chorusite_alloy_plate', '2x gtceu:tungsten_steel_screw', '2x gtceu:polyphenylene_sulfide_foil', '2x gtceu:tempered_glass'])
+    //     .itemOutputs('bigger_ae2:advanced_fluid_cell_housing')
     event.recipes.gtceu.assembler("circuit_cutter")
         .EUt(1920)
         .duration(10)
@@ -375,7 +521,7 @@ ServerEvents.recipes(event => {
         ], {
             A: "gtceu:stainless_steel_plate",
             B: "gtceu:tempered_glass",
-            C: "sophisticatedbackpacks:crafting_upgrade",
+            C: "enderio:crafter",
             D: "ae2:formation_core",
             E: "ae2:annihilation_core"
         })
@@ -389,6 +535,15 @@ ServerEvents.recipes(event => {
         "ae2:pattern_encoding_terminal", "expatternprovider:tag_storage_bus", "expatternprovider:tag_export_bus", "expatternprovider:ex_molecular_assembler", "expatternprovider:ingredient_buffer",
         "ae2:molecular_assembler", "ae2:basic_card", "ae2:advanced_card", "ae2:printed_silicon", "ae2:ender_dust", "ae2:certus_quartz_dust", "ae2:crafting_unit", "ae2additions:disk_item_256k",
         "ae2:item_cell_housing", "ae2:fluid_cell_housing", "ae2things:disk_housing", "ae2additions:disk_fluid_housing", "ae2additions:super_cell_housing", "ae2:wireless_booster", "ae2:quartz_glass",
+        "ae2omnicells:omni_cell_housing",
+        "ae2omnicells:complex_omni_cell_housing",
+        "ae2omnicells:quantum_omni_cell_housing",
+        "ae2omnicells:omni_link_print_press",
+        "ae2omnicells:complex_link_print_press",
+        "ae2omnicells:multidimensional_expansion_print_press",
+        "ae2omnicells:omni_crafting_unit_block",
+        "ae2omnicells:complex_crafting_unit_block",
+        "ae2omnicells:quantum_crafting_unit_block"
     ])
     remove_recipes_id(event, [
         "expatternprovider:ex_inscriber",
@@ -444,10 +599,37 @@ ServerEvents.recipes(event => {
         "bigger_ae2:1024_core_crafting_accelerator",
         "bigger_ae2:advanced_item_cell_housing",
         "bigger_ae2:advanced_fluid_cell_housing",
-        "",
-        "",
-        "",
-        "",
+
+        "ae2omnicells:cells/shaped/omni_cell_1k",
+        "ae2omnicells:cells/shaped/omni_cell_4k",
+        "ae2omnicells:cells/shaped/omni_cell_16k",
+        "ae2omnicells:cells/shaped/omni_cell_64k",
+        "ae2omnicells:cells/shaped/omni_cell_256k",
+        "ae2omnicells:cells/shaped/omni_cell_1m",
+        "ae2omnicells:cells/shaped/omni_cell_4m",
+        "ae2omnicells:cells/shaped/omni_cell_16m",
+        "ae2omnicells:cells/shaped/omni_cell_64m",
+        "ae2omnicells:cells/shaped/omni_cell_256m",
+        "ae2omnicells:cells/shaped/complex_omni_cell_1k",
+        "ae2omnicells:cells/shaped/complex_omni_cell_4k",
+        "ae2omnicells:cells/shaped/complex_omni_cell_16k",
+        "ae2omnicells:cells/shaped/complex_omni_cell_64k",
+        "ae2omnicells:cells/shaped/complex_omni_cell_256k",
+        "ae2omnicells:cells/shaped/complex_omni_cell_1m",
+        "ae2omnicells:cells/shaped/complex_omni_cell_4m",
+        "ae2omnicells:cells/shaped/complex_omni_cell_16m",
+        "ae2omnicells:cells/shaped/complex_omni_cell_64m",
+        "ae2omnicells:cells/shaped/complex_omni_cell_256m",
+        "ae2omnicells:cells/shaped/quantum_omni_cell_1k",
+        "ae2omnicells:cells/shaped/quantum_omni_cell_4k",
+        "ae2omnicells:cells/shaped/quantum_omni_cell_16k",
+        "ae2omnicells:cells/shaped/quantum_omni_cell_64k",
+        "ae2omnicells:cells/shaped/quantum_omni_cell_256k",
+        "ae2omnicells:cells/shaped/quantum_omni_cell_1m",
+        "ae2omnicells:cells/shaped/quantum_omni_cell_4m",
+        "ae2omnicells:cells/shaped/quantum_omni_cell_16m",
+        "ae2omnicells:cells/shaped/quantum_omni_cell_64m",
+        "ae2omnicells:cells/shaped/quantum_omni_cell_256m",
     ])
 
     function press_recipe(name, color, ingredient, circuit) {
@@ -498,6 +680,54 @@ ServerEvents.recipes(event => {
         .EUt(30)
         .duration(1600)
 
+    // Omni Link Circuit & ender ingot
+    event.recipes.gtceu.forming_press("omni_link_circuit_print")
+        .itemInputs('ae2omnicells:ender_ingot')
+        .notConsumable('ae2omnicells:omni_link_print_press')
+        .itemOutputs('ae2omnicells:omni_link_circuit_print')
+        .EUt(480)
+        .circuit(23)
+        .duration(200)
+    event.recipes.gtceu.forming_press("omni_link_processor")
+        .itemInputs('2x ae2omnicells:omni_link_circuit_print', '2x ae2:printed_silicon', '#gtceu:circuits/iv')
+        .itemOutputs('2x ae2omnicells:omni_link_processor')
+        .EUt(480)
+        .circuit(23)
+        .duration(360)
+    event.recipes.gtceu.chemical_bath('ender_ingot')
+        .itemInputs('gtceu:end_steel_ingot')
+        .inputFluids('gtceu:ender_pearl 288')
+        .itemOutputs('ae2omnicells:ender_ingot')
+        .EUt(480)
+        .duration(60)    
+
+    event.recipes.gtceu.forming_press("complex_link_circuit_print")
+        .itemInputs('gtceu:netherite_plate')
+        .notConsumable('ae2omnicells:complex_link_print_press')
+        .itemOutputs('ae2omnicells:complex_link_circuit_print')
+        .EUt(480)
+        .circuit(23)
+        .duration(200)
+    event.recipes.gtceu.forming_press("complex_link_processor")
+        .itemInputs('2x ae2omnicells:complex_link_circuit_print', '2x ae2:printed_silicon', '#gtceu:circuits/luv')
+        .itemOutputs('2x ae2omnicells:complex_link_processor')
+        .EUt(480)
+        .circuit(23)
+        .duration(360)
+
+    event.recipes.gtceu.laser_engraver('omni_link_print_press')
+            .itemInputs('gtceu:stellite_100_plate')
+            .notConsumable('gtceu:arcane_crystal_lens')
+            .itemOutputs('ae2omnicells:omni_link_print_press')
+            .EUt(120)
+            .duration(1600)
+    event.recipes.gtceu.laser_engraver("complex_link_print_press")
+            .itemInputs('gtceu:stellite_100_plate')
+            .notConsumable('gtceu:toxic_swamp_amber_lens')
+            .itemOutputs('ae2omnicells:complex_link_print_press')
+            .EUt(120)
+            .duration(1600)
+    // 
     event.recipes.gtceu.macerator("gtceu:fluix_dust")
         .itemInputs("ae2:fluix_crystal")
         .itemOutputs("ae2:fluix_dust")
@@ -564,29 +794,68 @@ ServerEvents.recipes(event => {
         .itemOutputs('ae2:cell_component_256k')
         .EUt(120 * 4 * 4 * 4)
         .duration(60)
-    assembler('ae2:cell_component_1024k_changed')
-        .itemInputs('4x #gtceu:circuits/ev')
-        .itemInputs('16x #gtceu:circuits/iv')
-        .itemInputs('ae2:quartz_glass')
-        .itemInputs('4x gtceu:naquadah_alloy_plate')
-        .itemInputs('4x gtceu:uranium_rhodium_dinaquadide_quadruple_wire')
-        .itemOutputs('ae2additions:cell_component_1024')
-        .EUt(120 * 4 * 4 * 4 * 4)
-        .duration(60)
+    // assembler('ae2:cell_component_1024k_changed')
+    //     .itemInputs('4x #gtceu:circuits/ev')
+    //     .itemInputs('16x #gtceu:circuits/iv')
+    //     .itemInputs('ae2:quartz_glass')
+    //     .itemInputs('4x gtceu:naquadah_alloy_plate')
+    //     .itemInputs('4x gtceu:uranium_rhodium_dinaquadide_quadruple_wire')
+    //     .itemOutputs('ae2additions:cell_component_1024')
+    //     .EUt(120 * 4 * 4 * 4 * 4)
+    //     .duration(60)
 
-    event.shaped(
-        Item.of('mae2:pattern_p2p_tunnel', 1), [
-            "AB "
-        ], {
-            A: 'ae2:me_p2p_tunnel',
-            B: '#mae2:p2p_attunements/pattern_p2p_tunnel'
-        }).keepIngredient('#mae2:p2p_attunements/pattern_p2p_tunnel')
+    // event.shaped(
+    //     Item.of('mae2:pattern_p2p_tunnel', 1), [
+    //         "AB "
+    //     ], {
+    //         A: 'ae2:me_p2p_tunnel',
+    //         B: '#mae2:p2p_attunements/pattern_p2p_tunnel'
+    //     }).keepIngredient('#mae2:p2p_attunements/pattern_p2p_tunnel')
     
-    event.shaped(
-        Item.of('mae2:eu_p2p_tunnel', 1), [
-            "AB "
-        ], {
-            A: 'ae2:me_p2p_tunnel',
-            B: '#mae2:p2p_attunements/eu_p2p_tunnel'
-        }).keepIngredient('#mae2:p2p_attunements/eu_p2p_tunnel')
+    // event.shaped(
+    //     Item.of('mae2:eu_p2p_tunnel', 1), [
+    //         "AB "
+    //     ], {
+    //         A: 'ae2:me_p2p_tunnel',
+    //         B: '#mae2:p2p_attunements/eu_p2p_tunnel'
+    //     }).keepIngredient('#mae2:p2p_attunements/eu_p2p_tunnel')
+    
+    
+    assembler('omni_cell')
+        .itemInputs('4x ae2omnicells:ender_ingot')
+        .itemInputs('4x gtceu:polycaprolactam_foil')
+        .itemInputs('2x gtceu:aluminium_screw')
+        .itemInputs('2x gtceu:tempered_glass')
+        .itemInputs('ae2omnicells:omni_link_processor')
+        .itemOutputs('ae2omnicells:omni_cell_housing')
+        .EUt(1920)
+        .duration(100)
+    assembler('complex_omni_cell')
+        .itemInputs('ae2omnicells:omni_cell_housing')
+        .itemInputs('2x gtceu:netherite_plate')
+        .itemInputs('2x gtceu:netherite_screw')
+        .itemInputs('ae2omnicells:complex_link_processor')
+        .itemOutputs('ae2omnicells:complex_omni_cell_housing')
+        .EUt(7680)
+        .duration(100)
+
+    //cpu
+    assembler('crafting_unit_block')
+        .itemInputs(['4x ae2omnicells:ender_ingot', '2x ae2omnicells:omni_link_processor', 'ae2:crafting_unit', 'ae2:crafting_accelerator', '4x ae2:fluix_smart_dense_cable'])
+        .inputFluids('gtceu:soldering_alloy 288')
+        .itemOutputs('ae2omnicells:omni_crafting_unit_block')
+        .EUt(1920)
+        .duration(100)
+    event.recipes.gtceu.assembly_line('complex_crafting_unit_block')
+        .itemOutputs('ae2omnicells:complex_crafting_unit_block')
+        .itemInputs('ae2omnicells:omni_crafting_unit_block')
+        .itemInputs('2x gtceu:netherite_plate')
+        .itemInputs('2x ae2omnicells:complex_link_processor')
+        .itemInputs('4x ae2omnicells:charged_ender_ingot')
+        .itemInputs('2x gtceu:small_rhodium_plated_palladium_gear')
+        .itemInputs('2x gtceu:netherite_screw')
+        .inputFluids('gtceu:ancient_debris_leach 8000')
+        .inputFluids('gtceu:lubricant 1000')
+        .EUt(7680 * 4)
+        .duration(100)
 })

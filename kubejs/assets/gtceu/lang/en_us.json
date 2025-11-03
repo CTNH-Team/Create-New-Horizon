@@ -1,0 +1,6 @@
+{
+    "ctnh.ae2additions.disabled": "This item has been disabled and will be removed in the next version. Please replace it with a similar item from OMNI Cells as soon as possible.",
+    "ctnh.mae2.disabled": "This item has been disabled and will be removed in the next version. If you need to use EUp2p, please replace it with an item from the EUP2P mod.",
+    "ctnh.hostilenetworks.deep_learner": "Can upgrade models to [Basic] level at most",
+    "ctnh.hostilenetworks.sim_chamber": "Can place models of [Faulty] or [Basic] level, can upgrade models to [Advanced] level at most, no predictive products will be generated"
+}

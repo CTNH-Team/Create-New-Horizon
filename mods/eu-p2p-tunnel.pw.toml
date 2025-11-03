@@ -1,0 +1,13 @@
+name = "EU P2P Tunnel"
+filename = "eup2p-1.20.1-2.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "41d7338f71e90120fb285e93d7a8576e6a7f1d1d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6927538
+project-id = 1065433

@@ -2,15 +2,15 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "0AD950C34ED565A4"
-	group: "71414D2BDE140EDA"
+	group: ""
 	icon: "legendarysurvivaloverhaul:thermometer"
 	id: "0AD950C34ED565A4"
 	order_index: 3
 	quest_links: [{
 		id: "3369652FDECC3484"
 		linked_quest: "14FF729916CDD0DA"
-		x: 2.5d
-		y: 0.5d
+		x: 0.0d
+		y: -0.5d
 	}]
 	quests: [
 		{
@@ -22,7 +22,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2B8D29BCF9754837"]
@@ -33,7 +33,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -46,7 +46,7 @@
 				item: "legendarysurvivaloverhaul:thermal_coat_1"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.5d
 			y: -0.5d
 		}
 		{
@@ -103,7 +103,7 @@
 				title: "跑动"
 				type: "checkmark"
 			}]
-			x: -7.5d
+			x: -6.0d
 			y: -0.5d
 		}
 		{
@@ -114,7 +114,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			id: "641A050FDC6EBA95"
@@ -124,7 +124,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			id: "3314F0D4098098AE"

@@ -1,0 +1,11 @@
+{
+	id: "5CBC93E73F6FA3E3"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ count: 8, item: "ae2:logic_processor" }
+		{ count: 8, item: "ae2:calculation_processor" }
+		{ count: 8, item: "ae2:engineering_processor" }
+	]
+	title: "ae精选"
+}

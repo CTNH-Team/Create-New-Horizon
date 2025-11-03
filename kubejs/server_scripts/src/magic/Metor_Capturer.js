@@ -206,4 +206,14 @@ ServerEvents.recipes(event => {
         .EUt(131072 * 2)
         .duration(400);
     let ctnh = event.recipes.gtceu
+    ctnh.meteor_capturer('omni_ae')
+        .itemInputs('gtceu:ev_emitter')
+        .inputFluids(Fluid.of('bloodmagic:life_essence_fluid', 256000))
+        .itemOutputs('ae2omnicells:omni_link_print_press')
+        .itemOutputs('ae2omnicells:complex_link_print_press')
+        .itemOutputs('ae2omnicells:multidimensional_expansion_print_press')
+        .addData('radius', 8)
+        .addData('rock', 'minecraft:end_stone')
+        .EUt(1920)
+        .duration(400);
 })

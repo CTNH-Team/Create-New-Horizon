@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
         .duration(20)
     event.recipes.gtceu.nano_generator('ad_astra:mars_stone')
         .itemInputs('ad_astra:mars_stone')
-        .itemOutputs('2x ad_astra:mars_stone')
+        .itemOutputs('2x ad_astra:mars_stone_dust')
         .EUt(-8)
         .duration(15)
     event.recipes.gtceu.nano_generator('ad_astra:mercury_stone')

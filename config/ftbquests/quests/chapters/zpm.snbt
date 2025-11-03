@@ -254,8 +254,10 @@
 			dependencies: [
 				"22FA4C6A1ADEC7AC"
 				"65E0B77C49C4F584"
+				"5104B1835B282FC6"
 			]
 			id: "762DC8899FC95277"
+			subtitle: "UV电路"
 			tasks: [{
 				id: "33D36925813D7106"
 				item: "gtceu:wetware_processor_computer"
@@ -265,7 +267,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["762DC8899FC95277"]
+			dependencies: [
+				"762DC8899FC95277"
+				"50A557051BF8A461"
+			]
 			description: ["    虽然制作方式已经与原版格雷相去甚远。"]
 			id: "7D527B8CCB41E418"
 			subtitle: "原版格雷的顶点"
@@ -348,10 +353,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"52156F99511B7A7E"
-				"72697B8BAFAD3052"
-			]
+			dependencies: ["52156F99511B7A7E"]
 			dependency_requirement: "one_completed"
 			id: "0FE50A78729EF06F"
 			tasks: [{
@@ -573,17 +575,6 @@
 			y: -3.5d
 		}
 		{
-			id: "72697B8BAFAD3052"
-			invisible: true
-			tasks: [{
-				id: "0FC56981FC18D56D"
-				item: "gtceu:bedrock_dust_dust"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -5.5d
-		}
-		{
 			id: "6A6BBE540A631C28"
 			tasks: [{
 				id: "50024080885BB4AC"
@@ -604,7 +595,7 @@
 				item: "gtceu:taranium_dirty_helium3_bucket"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.0d
 			y: -1.0d
 		}
 		{
@@ -779,7 +770,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 11.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["73FEBDBA63D96DDA"]
@@ -790,7 +781,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 11.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["7A49E5931F2C7453"]
@@ -802,7 +793,7 @@
 				type: "item"
 			}]
 			x: 19.0d
-			y: 11.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["3B20DB28F8A96FC0"]
@@ -885,7 +876,7 @@
 				type: "item"
 			}]
 			x: 21.0d
-			y: 11.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["7D4DBB785B16A377"]
@@ -1035,8 +1026,8 @@
 				item: "gtceu:research_station"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 5.0d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			id: "64828704B9D70F14"
@@ -1049,8 +1040,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -1094,35 +1085,92 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["56C88CA114314593"]
-			description: ["    多线程合金冶炼炉"]
-			id: "699C95B07EACDDC6"
-			subtitle: "一起炖！"
+			id: "5BD26F0325768EED"
 			tasks: [{
-				id: "163D3E56B2971B4F"
-				item: "ctnhcore:cnc_alloy_smelter"
+				id: "2EB87FA23768CA12"
+				item: "hostilenetworks:sim_chamber"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 7.0d
+			x: 5.5d
+			y: 10.0d
 		}
 		{
-			dependencies: ["56C88CA114314593"]
-			description: [
-				"    可配置多线程机器每个线程的超频等级"
-				"    可查询线程执行的上一个配方"
-				"    可设置“&b配方锁定&r”：使该线程只会执行上一个配方"
-				"    可设置“&b线程保护&r”：使该线程不会执行其他线程正在执行或已经锁定的配方。"
-			]
-			id: "66596B5FFF2E941A"
-			subtitle: "遥遥领先！"
+			dependencies: ["5BD26F0325768EED"]
+			description: ["    获得&5超级&r数据模型的唯一方法"]
+			id: "50A557051BF8A461"
+			subtitle: "观测实体"
 			tasks: [{
-				id: "0283D5E1E42F99B0"
-				item: "ctnhcore:luv_async_thread_hatch"
+				id: "681C0CC7AEF7F5EC"
+				item: "ctnhbio:hostile_observer"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 7.0d
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5BD26F0325768EED"]
+			id: "5104B1835B282FC6"
+			tasks: [{
+				id: "50A2EC4B62A124E6"
+				item: "ctnhbio:neural_model_accessor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"5104B1835B282FC6"
+				"2229C60AFC5A51B3"
+			]
+			id: "29CB100F7A86186F"
+			subtitle: "更加智能"
+			tasks: [{
+				id: "25834B4EF9069798"
+				item: "ctnhbio:advanced_neural_model_accessor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7AC1C9575ED0ECBF"]
+			id: "2229C60AFC5A51B3"
+			tasks: [{
+				id: "4895CDDCC108813F"
+				item: {
+					Count: 1
+					id: "gtceu:data_module"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			description: ["    这里本来应该有一些关于GT原版生物线、生产干细胞的任务，但是在任务重置的过程中丢失了，不过都到这个阶段了对着JEI自己看应该也不难。"]
+			id: "7AC1C9575ED0ECBF"
+			subtitle: "GT原版生物线"
+			tasks: [{
+				id: "42FA17298E9E779B"
+				item: "gtceu:stem_cells"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			description: ["    使用巨型总线输入物品可能导致不识别，建议使用ME库存输入总线。"]
+			id: "7F4D1DB73BB3EA48"
+			subtitle: "好像来得有点晚"
+			tasks: [{
+				id: "71C3B1CAB448A928"
+				item: "ctnhcore:advance_assembly_line"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
 		}
 	]
 	title: "{ftbquests.chapter.zpm.title}"

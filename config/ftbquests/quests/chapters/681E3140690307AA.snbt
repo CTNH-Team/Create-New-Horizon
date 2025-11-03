@@ -137,10 +137,7 @@
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			description: [
-				"{ftbquests.chapter.681E3140690307AA.quest3.description1}"
-				"{ftbquests.chapter.681E3140690307AA.quest3.description2}"
-			]
+			description: [" &e   格雷科技（GregTech）&r，在本整合包的任务中将其简称为&bGT&r。"]
 			icon: "gtceu:gregification_hazard_sign_block"
 			id: "6709D9DF2EA0432B"
 			size: 1.0d
@@ -156,6 +153,7 @@
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
+			description: [" &e   机械动力（Create）&r，在本整合包的任务中会将其简称为&bCT&r。"]
 			hide_dependency_lines: false
 			icon: "create:wrench"
 			id: "6E097A8CDC0BF608"

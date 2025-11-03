@@ -124,36 +124,36 @@ ServerEvents.recipes(event => {
         D: 'gtceu:hv_machine_casing'
     })
 
-    event.recipes.create.mechanical_crafting('gtceu:nan_certificate', [
-        "ABBCCCBBA",
-        "BDEFGFEDB",
-        "BEHIJIHEB",
-        "CKIJLJIMC",
-        "CNJOPOJNC",
-        "CKIJQJIMC",
-        "BEHIJIHEB",
-        "BDERGREDB",
-        "ABBCCCBBA"
-    ], {
-        A: "gtceu:uhv_sensor",
-        B: "gtceu:uhv_electric_pump",
-        C: "gtceu:uhv_electric_motor",
-        D: 'gtmthings:uhv_wireless_energy_receive_cover',
-        E: "gtceu:elementium_gear",
-        F: "ars_nouveau:summon_focus",
-        G: "bloodmagic:reagentsuppression",
-        H: "gtceu:uhv_robot_arm",
-        I: "gtmthings:uhv_huge_dual_hatch",
-        J: "gtceu:gravi_star",
-        K: "cataclysm:cursium_ingot",
-        L: "bigger_ae2:quantum_item_storage_cell",
-        M: "cataclysm:ignitium_ingot",
-        N: "gtceu:ultra_mana_frame",
-        O: "gtceu:max_battery",
-        P: "gtceu:uhv_field_generator",
-        Q: "bigger_ae2:quantum_fluid_storage_cell",
-        R: "apotheosis:infused_breath"
-    })
+    // event.recipes.create.mechanical_crafting('gtceu:nan_certificate', [
+    //     "ABBCCCBBA",
+    //     "BDEFGFEDB",
+    //     "BEHIJIHEB",
+    //     "CKIJLJIMC",
+    //     "CNJOPOJNC",
+    //     "CKIJQJIMC",
+    //     "BEHIJIHEB",
+    //     "BDERGREDB",
+    //     "ABBCCCBBA"
+    // ], {
+    //     A: "gtceu:uhv_sensor",
+    //     B: "gtceu:uhv_electric_pump",
+    //     C: "gtceu:uhv_electric_motor",
+    //     D: 'gtmthings:uhv_wireless_energy_receive_cover',
+    //     E: "gtceu:elementium_gear",
+    //     F: "ars_nouveau:summon_focus",
+    //     G: "bloodmagic:reagentsuppression",
+    //     H: "gtceu:uhv_robot_arm",
+    //     I: "gtmthings:uhv_huge_dual_hatch",
+    //     J: "gtceu:gravi_star",
+    //     K: "cataclysm:cursium_ingot",
+    //     L: "bigger_ae2:quantum_item_storage_cell",
+    //     M: "cataclysm:ignitium_ingot",
+    //     N: "gtceu:ultra_mana_frame",
+    //     O: "gtceu:max_battery",
+    //     P: "gtceu:uhv_field_generator",
+    //     Q: "bigger_ae2:quantum_fluid_storage_cell",
+    //     R: "apotheosis:infused_breath"
+    // })
 
     event.recipes.create.mechanical_crafting('ctnhcore:martial_morality_eye', [
         "ABCCCBA",
@@ -207,8 +207,6 @@ ServerEvents.recipes(event => {
 //搅拌机
 ServerEvents.recipes(event => {
         event.recipes.create.mixing('8x gtceu:potin_dust', ['6x gtceu:copper_dust', '2x gtceu:tin_dust', 'gtceu:lead_dust']).heated()
-        event.recipes.create.mixing('8x extendedcrafting:luminessence', ['4x minecraft:glowstone_dust', 'minecraft:gunpowder', 'minecraft:redstone']).heated()
-        event.recipes.create.mixing('16x extendedcrafting:crystaltine_ingot', ['4x extendedcrafting:luminessence_block', 'gtceu:quantum_star', 'minecraft:netherite_ingot']).heated()
         event.recipes.create.mixing('create:rose_quartz', ['minecraft:quartz', '4x minecraft:redstone']).heated()
         event.recipes.create.mixing('create:rose_quartz', ['2x biomesoplenty:rose_quartz_chunk', Fluid.of('minecraft:water', 100)])
         event.recipes.create.mixing(Fluid.of('gtceu:concrete', /** @type {number} */ 1000), ['gtceu:stone_dust', 'gtceu:quartz_sand_dust', 'gtceu:clay_dust', '2x gtceu:calcite_dust', Fluid.of('minecraft:water', 1000)]).heated()

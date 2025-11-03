@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "4A4420704BDBEA5D"
-	group: "4CD84F8DB1FF8B7E"
+	group: "2B1FA8C1F8DA2844"
 	icon: "gtceu:iron_dust"
 	id: "4A4420704BDBEA5D"
 	images: [{
@@ -13,7 +13,7 @@
 		x: 5.304511278195477d
 		y: 2.10714285714284d
 	}]
-	order_index: 6
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

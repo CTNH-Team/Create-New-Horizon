@@ -277,16 +277,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"198BA53EC65DB859"
-				"0CE3AC41F7D98F39"
-				"75D522A6289E42CF"
-				"0ADAA3D94273B1B5"
-				"0B24BC1112AA1BD4"
-				"5409D4773E7C8529"
-				"6429ECAF0856240D"
-				"26DE6B2D5D93022F"
-			]
+			description: ["    这曾是CTNH1.2.1版本的毕业证明。"]
 			icon: "gtceu:nan_certificate"
 			id: "15BD44DB26748FA3"
 			rewards: [{
@@ -296,16 +287,16 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 4.0d
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.uhv.quest22.subtitle}"
 			tasks: [{
 				id: "7BE6B053802692B5"
 				item: "gtceu:nan_certificate"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.uhv.quest22.title}"
-			x: -1.0d
-			y: 9.0d
+			title: "1.2.1  毕业证明"
+			x: -7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6D8963683034165D"]
@@ -451,6 +442,41 @@
 			}]
 			x: 3.5d
 			y: -5.0d
+		}
+		{
+			dependencies: [
+				"4A1F708FDEEA50D2"
+				"0B24BC1112AA1BD4"
+			]
+			id: "674C9A48676C71F5"
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "{ftbquests.chapter.uv.quest5.subtitle}"
+			tasks: [{
+				id: "6BC4FAF8A3F8141B"
+				item: "ctnhcore:naq_reactor_mk3"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"198BA53EC65DB859"
+				"0CE3AC41F7D98F39"
+				"5409D4773E7C8529"
+				"6429ECAF0856240D"
+			]
+			description: ["    新的毕业证明还没做出来，做个这个意思一下吧"]
+			id: "72F3BC0B1E557419"
+			subtitle: "新的菜鸟证明？"
+			tasks: [{
+				id: "0BA949F8EA6C8EAD"
+				item: "gtceu:uhv_circuit_assembler"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
 		}
 	]
 	title: "{ftbquests.chapter.uhv.title}"
