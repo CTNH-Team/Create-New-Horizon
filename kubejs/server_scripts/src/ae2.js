@@ -110,6 +110,7 @@ ServerEvents.recipes(event => {
         //         D: circuits[i],
         //         E: metal[i]
         //     })
+    // 1k
     event.shaped(Item.of("ae2:cell_component_1k", 1), [
         "BDB",
         "ACA",
@@ -131,7 +132,7 @@ ServerEvents.recipes(event => {
         C: "ae2:cell_component_1k",
         D: "#gtceu:circuits/ulv"
     })
-    event.shaped(Item.of('ae2omnicells:complex_cell_component_1k', 1), [
+    event.shaped(Item.of('ae2omnicells:complex_omni_cell_component_1k', 1), [
         "BDB",
         "ACA",
         "EAE"
@@ -142,6 +143,52 @@ ServerEvents.recipes(event => {
         D: "#gtceu:circuits/ulv",
         E: "ae2:fluix_dust"
     })        
+    // 256m
+    event.shaped(Item.of('ae2omnicells:omni_cell_component_256m', 1), [
+        "BDB",
+        "ACA",
+        "EAE"
+    ], {
+        A: "ae2omnicells:omni_cell_component_64m",
+        B: "gtceu:europium_fluorite_dust",
+        C: "gtceu:fusion_glass",
+        D: "#gtceu:circuits/uhv",
+        E: "gtceu:neutronium_plate"
+    })
+    event.shaped(Item.of('ae2omnicells:complex_omni_cell_component_256m', 1), [
+        "BDB",
+        "ACA",
+        "EAE"
+    ], {
+        A: "ae2omnicells:complex_omni_cell_component_64m",
+        B: "gtceu:europium_fluorite_dust",
+        C: "gtceu:fusion_glass",
+        D: "#gtceu:circuits/uhv",
+        E: "gtceu:neutronium_plate"
+    })  
+    event.shaped(Item.of('ae2omnicells:omni_cell_component_256m', 1), [
+        "BDB",
+        "ACA",
+        "EAE"
+    ], {
+        A: "ae2omnicells:omni_cell_component_64m",
+        B: "gtceu:europium_fluorite_dust",
+        C: "botania:elf_glass",
+        D: "#gtceu:circuits/uhv",
+        E: "gtceu:neutronium_plate"
+    })
+    event.shaped(Item.of('ae2omnicells:complex_omni_cell_component_256m', 1), [
+        "BDB",
+        "ACA",
+        "EAE"
+    ], {
+        A: "ae2omnicells:complex_omni_cell_component_64m",
+        B: "gtceu:europium_fluorite_dust",
+        C: "botania:elf_glass",
+        D: "#gtceu:circuits/uhv",
+        E: "gtceu:neutronium_plate"
+    }) 
+
     event.custom({
         "type": "ae2:transform",
         "circumstance": {

@@ -94,4 +94,5 @@ ServerEvents.recipes(event => {
         },
         "toColor": 65280
     })
+    event.replaceInput({id: 'extrabotany:elven_trade/elementium_quartz'}, 'botania:mana_quartz', 'botania:quartz_elven')
 })
