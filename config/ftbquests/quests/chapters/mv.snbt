@@ -438,7 +438,7 @@
 				type: "random"
 			}]
 			shape: "rsquare"
-			size: 1.0d
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.mv.quest29.subtitle}"
 			tasks: [{
 				id: "19B8A8E266098D32"
@@ -579,7 +579,7 @@
 				type: "random"
 			}]
 			tasks: [{
-				dimension: "minecraft:the_end"
+				dimension: "aether:the_aether"
 				id: "115FCE926E206B92"
 				title: "{ftbquests.chapter.mv.quest43.task_+1251946349740452754.title}"
 				type: "dimension"

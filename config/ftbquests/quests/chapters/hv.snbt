@@ -2383,7 +2383,11 @@
 			y: 27.5d
 		}
 		{
-			dependencies: ["40DCB97F8367A4A6"]
+			dependencies: [
+				"40DCB97F8367A4A6"
+				"3EA2340599949EE7"
+			]
+			dependency_requirement: "one_completed"
 			id: "03B69B22A1106961"
 			tasks: [{
 				id: "0640A540D2D18B1B"
@@ -2402,7 +2406,7 @@
 				type: "item"
 			}]
 			x: -19.0d
-			y: 28.5d
+			y: 28.0d
 		}
 		{
 			dependencies: ["75EA326A1FA866D1"]
@@ -2412,7 +2416,7 @@
 				item: "gtceu:niobium_tantalite_bucket"
 				type: "item"
 			}]
-			x: -21.0d
+			x: -20.0d
 			y: 28.5d
 		}
 		{
@@ -2423,7 +2427,7 @@
 				item: "gtceu:tantalum_alkaline_mixture_bucket"
 				type: "item"
 			}]
-			x: -27.0d
+			x: -26.0d
 			y: 28.5d
 		}
 		{
@@ -2456,7 +2460,7 @@
 				item: "gtceu:tantalite_fluorine_bucket"
 				type: "item"
 			}]
-			x: -25.0d
+			x: -24.0d
 			y: 28.5d
 		}
 		{
@@ -2467,7 +2471,7 @@
 				item: "gtceu:niobium_tantalite_bucket"
 				type: "item"
 			}]
-			x: -23.0d
+			x: -22.0d
 			y: 28.5d
 		}
 		{
@@ -2550,6 +2554,17 @@
 			}]
 			x: -16.0d
 			y: 27.5d
+		}
+		{
+			id: "3EA2340599949EE7"
+			subtitle: "或者直接用这个"
+			tasks: [{
+				id: "76A9D1D311422127"
+				item: "gtceu:raw_tantalite"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 29.0d
 		}
 	]
 	title: "{ftbquests.chapter.hv.title}"
