@@ -23,8 +23,7 @@ WorldgenEvents.remove(event => {
           "mythicbotany:elementium_ore",
           "mythicbotany:dragonstone_ore",
           "mythicbotany:gold_ore",
-          "createmetallurgy:wolframite_ore",
-          "tconstruct:cobalt_ore"
+          "createmetallurgy:wolframite_ore"
         ]
 				})
   
@@ -52,10 +51,11 @@ WorldgenEvents.remove(event => {
     "twilightforest:legacy_diamond_ore",
     "twilightforest:legacy_lapis_ore",
     "twilightforest:legacy_copper_ore",
-    
-    "createmetallurgy:wolframite_ore",
+    "createmetallurgy:wolframite_ore"
   ])
   event.removeFeatureById("underground_decoration", [
+    "tconstruct:cobalt_ore_large",
+    "tconstruct:cobalt_ore_small",
     "sakuratinker:eezo_ore",
 	  "sakuratinker:terracryst_ore",
 	  "sakuratinker:terracryst_ore_deepslate",
