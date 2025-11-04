@@ -630,6 +630,10 @@ ServerEvents.recipes(event => {
         "ae2omnicells:cells/shaped/quantum_omni_cell_16m",
         "ae2omnicells:cells/shaped/quantum_omni_cell_64m",
         "ae2omnicells:cells/shaped/quantum_omni_cell_256m",
+
+        "ae2omnicells:components/shaped/omni_cell_component_256m",
+        "ae2omnicells:components/shaped/complex_omni_cell_component_256m",
+        "ae2omnicells:components/shaped/quantum_omni_cell_component_256m",
     ])
 
     function press_recipe(name, color, ingredient, circuit) {

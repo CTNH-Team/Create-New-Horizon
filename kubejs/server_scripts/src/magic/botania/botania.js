@@ -286,6 +286,8 @@ ServerEvents.recipes(event => {
     elven_trade(event, ['kubejs:mana_transistor', 'kubejs:mana_transistor'], 'kubejs:advanced_mana_transistor')
     elven_trade(event, ['kubejs:mana_diode', 'kubejs:mana_diode'], 'kubejs:advanced_mana_diode')
 
+    elven_trade(event, ['botania:quartz_elven', 'botania:quartz_elven'], 'extrabotany:elementium_quartz')
+
     function terra_plate(event, input, output, mana) {
         event.custom({
             "type": "botania:terra_plate",
