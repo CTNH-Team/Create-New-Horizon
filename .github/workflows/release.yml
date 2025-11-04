@@ -240,7 +240,7 @@ jobs:
       - name: list remained files & mods
         run: |
           ls ${{ github.workspace }}
-          ls /mods
+          ls mods
       - name: 上传带mod包
         uses: actions/upload-artifact@v4
         with:
