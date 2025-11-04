@@ -17642,9 +17642,5 @@ file = "resourcepacks/Minecraft-Mod-Language-Package-1.20.zip"
 hash = "6dbe4c46a5c2e4015f307c6feb0ee0055a5a2143f9e717a3a1b1fb90c842dbb7"
 
 [[files]]
-file = "resourcepacks/tconjeidark.zip"
-hash = "f6f084ae1df2f43e4a0e70b7d361ea766a0db9be9429ef43614d3d1ad8c20be4"
-
-[[files]]
 file = "tconplanner/bookmark.dat"
 hash = "aa46635ebb39d8e8407be190ef68fd2fd162bb01b5b7f66530252e7911b71622"

@@ -54,6 +54,11 @@ natives-*/
 /.mixin.out/
 /TrashSlotSaveState.json
 
+resourcepacks/*
+!resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip
+!resourcepacks/AE2LightMode-1.20.1.zip
+!resourcepacks/Minecraft-Mod-Language-Package-1.20.zip
+
 config/*
 !config/ftbquests
 !config/alexscaves_biome_generation
