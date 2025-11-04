@@ -50,6 +50,9 @@ natives-*/
 /Changelog
 /tlm_custom_pack/
 /packwiz_tutorial.md
+/kubejs/probe/
+/.mixin.out/
+/TrashSlotSaveState.json
 
 config/*
 !config/ftbquests
