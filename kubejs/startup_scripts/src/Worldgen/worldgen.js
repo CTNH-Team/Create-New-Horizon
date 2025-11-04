@@ -22,7 +22,10 @@ WorldgenEvents.remove(event => {
 				props.blocks = [
           "mythicbotany:elementium_ore",
           "mythicbotany:dragonstone_ore",
-          "mythicbotany:gold_ore",]
+          "mythicbotany:gold_ore",
+          "createmetallurgy:wolframite_ore",
+          "tconstruct:cobalt_ore"
+        ]
 				})
   
   event.removeFeatureById("underground_ores", [     

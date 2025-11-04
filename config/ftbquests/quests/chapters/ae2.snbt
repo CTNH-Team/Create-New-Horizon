@@ -1345,6 +1345,7 @@
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			id: "7B92F985DCE4FBEB"
 			rewards: [
 				{
