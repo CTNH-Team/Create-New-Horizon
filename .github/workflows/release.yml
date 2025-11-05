@@ -208,14 +208,15 @@ jobs:
             # done
             rm -rf resourcepacks
             rm -rf shaderpacks
-            rm -f ModList0.4a.md
-            rm -f README.md
-            rm -f TODOlist.md
-            rm -f KubeJSStyleGuide.md
-            rm -f DevGuide.md
+            rm -f observable_announce
+            rm -f packwiz_tutorial.md
+            rm -f fixup.sh
+            rm -f packwiz-installer.jar
+            rm -f packwiz-installer-bootstrap.jar
             rm -f pack.toml
             rm -f index.toml
-            rm -f client_jvm_args.example.txt
+            rm -f refreshmod.sh
+            rm -f patchouli_data.json
 
       - name: 删除客户端only模组
         run: |

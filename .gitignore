@@ -93,8 +93,9 @@ resourcepacks/*
 !resourcepacks/Minecraft-Mod-Language-Package-1.20.zip
 
 ldlib/
-patchouli_data.json
+/patchouli_data.json
 packwiz.exe
+/tconplanner/
 
 config/*
 !config/ftbquests

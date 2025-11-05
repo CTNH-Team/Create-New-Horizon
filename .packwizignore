@@ -59,6 +59,12 @@ resourcepacks/*
 !resourcepacks/AE2LightMode-1.20.1.zip
 !resourcepacks/Minecraft-Mod-Language-Package-1.20.zip
 
+/start.sh
+/start.bat
+/variables*
+/patchouli_data.json
+/tconplanner/
+
 config/*
 !config/ftbquests
 !config/alexscaves_biome_generation
