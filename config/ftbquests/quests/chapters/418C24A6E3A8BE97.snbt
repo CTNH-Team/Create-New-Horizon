@@ -17,7 +17,7 @@
 			}]
 			title: "夜观天象"
 			x: -26.0d
-			y: -19.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["6C02EE976B37E747"]
@@ -39,8 +39,8 @@
 				type: "item"
 			}]
 			title: "月球之旅"
-			x: -26.0d
-			y: -16.0d
+			x: -24.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["752F4FD6CF508677"]
@@ -61,8 +61,8 @@
 				}
 				type: "item"
 			}]
-			x: -26.0d
-			y: -13.0d
+			x: -22.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2808F9BC44C268B0"]
@@ -83,8 +83,8 @@
 				}
 				type: "item"
 			}]
-			x: -26.0d
-			y: -10.0d
+			x: -20.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["70E031602D7868A5"]
@@ -105,7 +105,7 @@
 				}
 				type: "item"
 			}]
-			x: -26.0d
+			x: -18.0d
 			y: -7.0d
 		}
 		{
@@ -131,8 +131,8 @@
 				item: "gtceu:sunnarium_dust"
 				type: "item"
 			}]
-			x: -19.5d
-			y: -19.0d
+			x: -20.0d
+			y: -13.5d
 		}
 		{
 			description: [""]
@@ -148,8 +148,8 @@
 				item: "ctnhcore:combined_vapor_deposition_facility"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -17.5d
+			x: -26.0d
+			y: -14.0d
 		}
 		{
 			description: [
@@ -166,8 +166,8 @@
 				item: "ctnhcore:lasersorder"
 				type: "item"
 			}]
-			x: -21.5d
-			y: -17.5d
+			x: -26.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2DAA4FC70498126B"]
@@ -180,8 +180,8 @@
 				type: "item"
 			}]
 			title: "CLGS线"
-			x: -17.5d
-			y: -16.0d
+			x: -24.0d
+			y: -14.0d
 		}
 		{
 			dependencies: [
@@ -194,8 +194,8 @@
 				item: "kubejs:measurement_pv_cell"
 				type: "item"
 			}]
-			x: -21.5d
-			y: -16.0d
+			x: -24.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -209,8 +209,8 @@
 				item: "ctnhcore:photon_press_cond_block"
 				type: "item"
 			}]
-			x: -19.5d
-			y: -14.0d
+			x: -22.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["73409F231880358F"]
@@ -220,7 +220,7 @@
 				item: "ctnhcore:space_photovoltai_cbase_station"
 				type: "item"
 			}]
-			x: -19.5d
+			x: -20.0d
 			y: -12.0d
 		}
 		{
@@ -243,7 +243,7 @@
 					type: "item"
 				}
 			]
-			x: -17.5d
+			x: -18.0d
 			y: -12.0d
 		}
 		{
@@ -261,7 +261,7 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
+			x: -16.0d
 			y: -14.0d
 		}
 		{
@@ -272,7 +272,7 @@
 				item: "kubejs:pv_drone_research_1"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -14.0d
 			y: -14.0d
 		}
 		{
@@ -292,7 +292,7 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
+			x: -16.0d
 			y: -12.0d
 		}
 		{
@@ -303,7 +303,7 @@
 				item: "kubejs:pv_drone_research_2"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -14.0d
 			y: -12.0d
 		}
 		{
@@ -323,7 +323,7 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
+			x: -16.0d
 			y: -10.0d
 		}
 		{
@@ -334,7 +334,7 @@
 				item: "kubejs:pv_drone_research_3"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -14.0d
 			y: -10.0d
 		}
 	]

@@ -5,7 +5,7 @@
 	group: "4D1B16DFEF4B34DD"
 	icon: "gtceu:oil_medium_bucket"
 	id: "2CEAD5605C416218"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -17,7 +17,7 @@
 				title: "{ftbquests.chapter.2CEAD5605C416218.quest1.task_+8294727597277719446.title}"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -3.5d
 			y: -3.5d
 		}
 		{
@@ -53,7 +53,7 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest2.title}"
-			x: 2.0d
+			x: -1.5d
 			y: -3.5d
 		}
 		{
@@ -72,7 +72,7 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest3.title}"
-			x: -2.0d
+			x: -5.5d
 			y: -3.5d
 		}
 		{
@@ -85,7 +85,7 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest4.title}"
-			x: -9.0d
+			x: -9.5d
 			y: -1.5d
 		}
 		{
@@ -106,8 +106,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest5.title}"
-			x: -9.0d
-			y: 0.5d
+			x: -9.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["618C3E4E348D7A4B"]
@@ -127,8 +127,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest6.title}"
-			x: -9.0d
-			y: 2.0d
+			x: -9.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4510585A6279877F"]
@@ -145,8 +145,8 @@
 				item: "gtceu:sulfuric_light_fuel_bucket"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 0.5d
+			x: -8.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4510585A6279877F"]
@@ -164,7 +164,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4510585A6279877F"]
@@ -181,8 +181,8 @@
 				item: "gtceu:sulfuric_naphtha_bucket"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 2.5d
+			x: -8.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4510585A6279877F"]
@@ -200,7 +200,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4510585A6279877F"]
@@ -218,8 +218,8 @@
 				item: "gtceu:lv_combustion"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 3.5d
+			x: -10.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4510585A6279877F"]
@@ -238,7 +238,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -261,7 +261,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest13.title}"
-			x: -9.0d
+			x: -9.5d
 			y: 5.0d
 		}
 		{
@@ -279,8 +279,8 @@
 				item: "gtceu:hydrogen_sulfide_bucket"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 5.0d
+			x: -9.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4AC6548D09A12203"]
@@ -298,8 +298,8 @@
 				item: "gtceu:lv_electrolyzer"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 6.5d
+			x: -9.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["79F44C472D79151F"]
@@ -320,8 +320,8 @@
 				item: "gtceu:hydrogen_bucket"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 6.5d
+			x: -9.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["332BF376BDAB27DA"]
@@ -338,8 +338,8 @@
 				item: "gtceu:light_fuel_bucket"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 3.5d
+			x: -8.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["332BF376BDAB27DA"]
@@ -356,8 +356,8 @@
 				item: "gtceu:heavy_fuel_bucket"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 4.5d
+			x: -10.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["332BF376BDAB27DA"]
@@ -374,8 +374,8 @@
 				item: "gtceu:naphtha_bucket"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 5.5d
+			x: -8.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["332BF376BDAB27DA"]
@@ -392,8 +392,8 @@
 				item: "gtceu:refinery_gas_bucket"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 6.5d
+			x: -10.5d
+			y: 6.0d
 		}
 		{
 			icon: "gtceu:mv_machine_hull"
@@ -405,7 +405,7 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest21.title}"
-			x: -4.5d
+			x: -5.5d
 			y: -1.5d
 		}
 		{
@@ -434,8 +434,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest22.title}"
-			x: -6.0d
-			y: 0.5d
+			x: -6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1CC3B42FE86A4743"]
@@ -452,7 +452,7 @@
 				item: "gtceu:diesel_bucket"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -6.5d
 			y: 2.0d
 		}
 		{
@@ -471,7 +471,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["04EFD393B5990E72"]
@@ -508,8 +508,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 0.5d
+			x: -5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["62F220389305D060"]
@@ -533,7 +533,7 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest26.title}"
-			x: -3.0d
+			x: -5.5d
 			y: 2.0d
 		}
 		{
@@ -554,8 +554,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest27.title}"
-			x: -4.5d
-			y: 3.5d
+			x: -5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4594C3CB08FB0A4E"]
@@ -572,8 +572,8 @@
 				item: "gtceu:oil_heavy_bucket"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 5.0d
+			x: -6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4594C3CB08FB0A4E"]
@@ -590,7 +590,7 @@
 				item: "gtceu:oil_bucket"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.5d
 			y: 5.0d
 		}
 		{
@@ -608,7 +608,7 @@
 				item: "gtceu:oil_medium_bucket"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: 5.0d
 		}
 		{
@@ -626,8 +626,8 @@
 				item: "gtceu:oil_light_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 5.0d
+			x: -4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4594C3CB08FB0A4E"]
@@ -644,8 +644,8 @@
 				item: "gtceu:natural_gas_bucket"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 6.5d
+			x: -5.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7F15BB71576900CD"]
@@ -675,7 +675,7 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest34.title}"
-			x: 0.0d
+			x: -1.5d
 			y: -1.5d
 		}
 		{
@@ -699,8 +699,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest35.title}"
-			x: -3.0d
-			y: 3.5d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4594C3CB08FB0A4E"]
@@ -723,8 +723,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest36.title}"
-			x: -6.0d
-			y: 3.5d
+			x: -6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1EDA02396B328A49"]
@@ -746,8 +746,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest37.title}"
-			x: 0.0d
-			y: 0.5d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1EDA02396B328A49"]
@@ -766,8 +766,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest38.title}"
-			x: -1.5d
-			y: 0.5d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1EDA02396B328A49"]
@@ -785,8 +785,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest39.title}"
-			x: 1.5d
-			y: 0.5d
+			x: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1EDA02396B328A49"]
@@ -804,7 +804,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["04F5AA140E3E62DB"]
@@ -822,7 +822,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3086208ED2590430"]
@@ -869,7 +869,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 6.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["117CC578D19D6CB0"]
@@ -887,8 +887,8 @@
 				item: "gtceu:cracker"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: -2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5B5DFEB9DE345B10"]
@@ -908,8 +908,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest45.title}"
-			x: 0.0d
-			y: 3.5d
+			x: -2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1EDA02396B328A49"]
@@ -926,8 +926,8 @@
 				item: "gtceu:hv_combustion"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["13424B848195B90D"]
@@ -944,8 +944,8 @@
 				item: "gtceu:hv_gas_turbine"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			icon: "gtceu:ev_machine_hull"
@@ -957,7 +957,7 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest48.title}"
-			x: 4.5d
+			x: 2.5d
 			y: -1.5d
 		}
 		{
@@ -975,8 +975,8 @@
 				item: "gtceu:hv_fluid_drilling_rig"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3D80BAEC0FF08BDD"]
@@ -1001,8 +1001,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest50.title}"
-			x: 6.0d
-			y: 0.5d
+			x: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3D80BAEC0FF08BDD"]
@@ -1021,8 +1021,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest51.title}"
-			x: 4.5d
-			y: 0.5d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["211F0DB44621458D"]
@@ -1039,7 +1039,7 @@
 				item: "gtceu:methanol_bucket"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -1057,7 +1057,7 @@
 				item: "gtceu:acetone_bucket"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -1075,7 +1075,7 @@
 				item: "gtceu:naphtha_bucket"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
@@ -1093,7 +1093,7 @@
 				item: "gtceu:refinery_gas_bucket"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -1115,8 +1115,8 @@
 				item: "gtceu:raw_gasoline_bucket"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.5d
+			x: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["211F0DB44621458D"]
@@ -1134,7 +1134,7 @@
 				item: "gtceu:toluene_bucket"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: 5.0d
 		}
 		{
@@ -1155,7 +1155,7 @@
 				item: "gtceu:gasoline_bucket"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 2.5d
 			y: 5.0d
 		}
 		{
@@ -1174,8 +1174,8 @@
 				item: "gtceu:octane_bucket"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: 3.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["211F0DB44621458D"]
@@ -1193,8 +1193,8 @@
 				item: "gtceu:nitrous_oxide_bucket"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.5d
+			x: 1.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["211F0DB44621458D"]
@@ -1212,8 +1212,8 @@
 				item: "gtceu:ethyl_tertbutyl_ether_bucket"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.5d
+			x: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -1256,11 +1256,14 @@
 				item: "gtceu:high_octane_gasoline_bucket"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 6.5d
+			x: 2.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["3D80BAEC0FF08BDD"]
+			dependencies: [
+				"3D80BAEC0FF08BDD"
+				"1756E4E4880B8FD4"
+			]
 			description: ["{ftbquests.chapter.2CEAD5605C416218.quest63.description1}"]
 			hide_dependency_lines: true
 			id: "321CEC3FB96A2E1E"
@@ -1276,8 +1279,8 @@
 				item: "gtceu:large_combustion_engine"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.5d
+			x: 1.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["481C3D09737918E8"]
@@ -1345,8 +1348,8 @@
 				title: "{ftbquests.chapter.2CEAD5605C416218.quest64.task_+3211046772485992714.title}"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: 6.5d
+			x: 2.5d
+			y: 9.0d
 		}
 		{
 			icon: "gtceu:iv_machine_hull"
@@ -1358,7 +1361,7 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest65.title}"
-			x: 9.0d
+			x: 6.5d
 			y: -1.5d
 		}
 		{
@@ -1377,8 +1380,8 @@
 				item: "gtceu:extreme_combustion_engine"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.5d
+			x: 6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["33BBD29D7E3DDB68"]
@@ -1402,21 +1405,11 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest67.title}"
-			x: 9.0d
-			y: 2.0d
+			x: 6.5d
+			y: 9.0d
 		}
 		{
-			id: "10E9DB3C92C8B969"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest36.subtitle}"
-			tasks: [{
-				id: "242E7A295BA60586"
-				item: "createdieselgenerators:oil_scanner"
-				type: "item"
-			}]
-			x: -13.5d
-			y: 0.5d
-		}
-		{
+			dependencies: ["2F2FC8322B26C942"]
 			description: [
 				"{ftbquests.chapter.08AF6857D150C353.quest4.description1}"
 				""
@@ -1441,6 +1434,7 @@
 				"{ftbquests.chapter.08AF6857D150C353.quest4.description12}"
 			]
 			id: "0DA7785CF55ABAAB"
+			subtitle: "用探测器找油"
 			tasks: [
 				{
 					id: "6A94E9FE0C9AC1A0"
@@ -1463,16 +1457,20 @@
 					item: "createdieselgenerators:pumpjack_head"
 					type: "item"
 				}
+				{
+					id: "1007DFC84492F283"
+					item: "createdieselgenerators:oil_scanner"
+					type: "item"
+				}
 			]
 			title: "{ftbquests.chapter.08AF6857D150C353.quest4.title}"
-			x: -11.5d
-			y: 0.5d
+			x: -13.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"2D138FB6F66ED4D5"
 				"0DA7785CF55ABAAB"
-				"10E9DB3C92C8B969"
 			]
 			id: "6397FCC9081360A5"
 			tasks: [{
@@ -1480,7 +1478,7 @@
 				item: "gtceu:impure_oil_bucket"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -13.5d
 			y: 2.0d
 		}
 		{
@@ -1492,8 +1490,8 @@
 				item: "gtceu:sulfuric_naphtha_bucket"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 3.5d
+			x: -12.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6397FCC9081360A5"]
@@ -1504,8 +1502,8 @@
 				item: "gtceu:sulfuric_heavy_fuel_bucket"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 3.5d
+			x: -13.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1519,7 +1517,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["6397FCC9081360A5"]
@@ -1529,8 +1527,8 @@
 				item: "gtceu:bitumen_bucket"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 8.0d
+			x: -14.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7EF838EF4607A41D"]
@@ -1541,7 +1539,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 9.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7EF838EF4607A41D"]
@@ -1552,8 +1550,8 @@
 				item: "gtceu:oil_bucket"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 9.5d
+			x: -12.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["56BA200ABCEABC7A"]
@@ -1564,7 +1562,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 11.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["78C907D8AEA05A18"]
@@ -1574,8 +1572,8 @@
 				item: "gtceu:emulsified_bitumen_bucket"
 				type: "item"
 			}]
-			x: -15.5d
-			y: 9.5d
+			x: -14.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -1588,8 +1586,8 @@
 				item: "gtceu:emulsified_bitumen_slurry_bucket"
 				type: "item"
 			}]
-			x: -15.5d
-			y: 8.0d
+			x: -14.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -1602,8 +1600,8 @@
 				item: "gtceu:simple_emulgator_bucket"
 				type: "item"
 			}]
-			x: -15.5d
-			y: 6.5d
+			x: -12.5d
+			y: 5.0d
 		}
 		{
 			description: ["{ftbquests.chapter.08AF6857D150C353.quest20.description1}"]
@@ -1614,8 +1612,8 @@
 				item: "kubejs:tallow"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 8.0d
+			x: -12.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2FC92689C24682AA"]
@@ -1625,8 +1623,8 @@
 				item: "gtceu:simple_demulsifier_bucket"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 6.5d
+			x: -13.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["08C88706F994E458"]
@@ -1636,7 +1634,7 @@
 				item: "gtceu:soda_ash_dust"
 				type: "item"
 			}]
-			x: -15.5d
+			x: -13.5d
 			y: 5.0d
 		}
 		{
@@ -1646,8 +1644,20 @@
 				item: "gtceu:raw_trona"
 				type: "item"
 			}]
-			x: -15.5d
-			y: 3.5d
+			x: -13.5d
+			y: 4.0d
+		}
+		{
+			id: "2F2FC8322B26C942"
+			size: 2.0d
+			tasks: [{
+				id: "3E595757170AD63F"
+				item: "kubejs:heavy_machinery_casing"
+				type: "item"
+			}]
+			title: "CT时期"
+			x: -13.5d
+			y: -1.5d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.2CEAD5605C416218.subtitle0}"]
