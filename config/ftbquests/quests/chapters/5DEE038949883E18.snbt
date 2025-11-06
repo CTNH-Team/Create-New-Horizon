@@ -31,7 +31,7 @@
 				type: "item"
 			}]
 			title: "匠魂的指导书"
-			x: -3.0d
+			x: -7.5d
 			y: -5.25d
 		}
 		{
@@ -73,7 +73,7 @@
 				}
 			]
 			title: "砖泥?"
-			x: -0.75d
+			x: -5.25d
 			y: -5.25d
 		}
 		{
@@ -94,8 +94,8 @@
 				item: { Count: 8, id: "kubejs:heatproof_smelting_brick_dust" }
 				type: "item"
 			}]
-			x: -0.75d
-			y: -3.75d
+			x: -3.0d
+			y: -5.25d
 		}
 		{
 			dependencies: ["2BB06AD56AC59656"]
@@ -115,7 +115,7 @@
 				type: "item"
 			}]
 			x: -0.75d
-			y: -1.5d
+			y: -5.25d
 		}
 		{
 			dependencies: ["3DC28CC7547FA4DC"]
@@ -144,8 +144,8 @@
 				}
 			]
 			title: "老一辈"
-			x: -3.0d
-			y: -1.5d
+			x: -0.75d
+			y: -6.75d
 		}
 		{
 			dependencies: [
@@ -161,7 +161,7 @@
 				"• 熔炼猪灵掉落物（如金剑、金盔甲）的 理想设备"
 			]
 			id: "40BADBAD1F96B405"
-			size: 2.0d
+			size: 1.5d
 			subtitle: "前期的熔炼方式"
 			tasks: [
 				{
@@ -176,8 +176,8 @@
 				}
 			]
 			title: "焦黑熔化炉"
-			x: -0.75d
-			y: 1.0d
+			x: 1.5d
+			y: -5.25d
 		}
 		{
 			dependencies: ["40BADBAD1F96B405"]
@@ -193,8 +193,8 @@
 				item: "gtceu:wrought_iron_nugget"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: 1.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["40BADBAD1F96B405"]
@@ -210,8 +210,8 @@
 				item: "minecraft:gold_nugget"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: 1.5d
+			y: -6.75d
 		}
 		{
 			dependencies: [
@@ -236,8 +236,8 @@
 				item: "tconstruct:smeltery_controller"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.07d
+			x: 4.5d
+			y: -6.75d
 		}
 		{
 			description: [
@@ -405,8 +405,8 @@
 				}
 			]
 			title: "AE?"
-			x: -7.5d
-			y: 4.5d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["40BADBAD1F96B405"]
@@ -427,8 +427,8 @@
 				type: "item"
 			}]
 			title: "熔铸炉"
-			x: -0.75d
-			y: 4.5d
+			x: 4.5d
+			y: -3.75d
 		}
 	]
 	title: "匠魂"
