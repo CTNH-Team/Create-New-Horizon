@@ -25,7 +25,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["476757E0C54B6ADE"]
@@ -40,7 +40,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["06B6C2C77135D570"]
@@ -55,7 +55,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -80,7 +80,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7F992D338D4783CE"]
@@ -129,7 +129,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -8.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["06B6C2C77135D570"]
@@ -204,7 +204,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["44E9D92283CBF029"]
@@ -217,7 +217,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["44E9D92283CBF029"]
@@ -228,7 +228,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -305,7 +305,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			description: ["{ftbquests.chapter.lv.quest21.description1}"]
@@ -317,7 +317,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
@@ -329,8 +329,8 @@
 				item: "gtceu:lv_electrolyzer"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -1.5d
+			x: -6.5d
+			y: -2.0d
 		}
 		{
 			can_repeat: true
@@ -371,7 +371,7 @@
 			}]
 			title: "{ftbquests.chapter.lv.quest26.title}"
 			x: 14.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["19869FD9D4BCCB9F"]
@@ -390,7 +390,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -452,7 +452,7 @@
 				}
 			]
 			x: -5.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
@@ -467,8 +467,8 @@
 				item: "gtceu:lv_alloy_smelter"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.5d
+			x: -5.5d
+			y: -2.0d
 		}
 		{
 			description: ["{ftbquests.chapter.lv.quest34.description1}"]
@@ -528,7 +528,7 @@
 				item: "gtceu:conductive_alloy_ingot"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.5d
 			y: -3.0d
 		}
 		{
@@ -541,8 +541,8 @@
 				item: "gtceu:conductive_alloy_single_wire"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -3.0d
+			x: -5.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2D662EFDE7A39BB8"]
@@ -569,7 +569,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["19869FD9D4BCCB9F"]
@@ -580,7 +580,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["64FAD8ABEFEF6286"]
@@ -590,7 +590,7 @@
 				item: "gtceu:energetic_alloy_single_wire"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.5d
 			y: -3.0d
 		}
 		{
@@ -601,8 +601,8 @@
 				item: "enderio:experience_rod"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -3.0d
+			x: 13.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
@@ -613,8 +613,8 @@
 				item: "ctnhcore:large_steel_furnace"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.5d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
@@ -624,8 +624,8 @@
 				item: "ctnhcore:large_steel_alloy_furnace"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 2.5d
+			x: -6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
@@ -653,7 +653,7 @@
 				item: "gtceu:lv_electric_piston"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: -1.0d
 		}
 		{
@@ -681,7 +681,7 @@
 				item: "gtceu:lv_conveyor_module"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -1.0d
 		}
 		{
@@ -751,7 +751,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			description: ["{ftbquests.chapter.lv.quest69.description1}"]
@@ -763,7 +763,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -10.0d
+			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -780,7 +780,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -10.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["7E7FF6EFEC19BE71"]
@@ -794,7 +794,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -8.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["06B6C2C77135D570"]
@@ -807,7 +807,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1066897237999347"]
@@ -900,8 +900,8 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
-			y: 3.5d
+			x: 14.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7345F277E135E5B9"]
@@ -921,7 +921,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -988,8 +988,8 @@
 				item: "gtceu:lv_polarizer"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.5d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
 			description: ["现阶段离心的产物只有这点哦~"]
@@ -1000,7 +1000,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -10.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["6076B0D66ED1DA02"]
@@ -1011,7 +1011,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -10.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["261F23C630F0BE7D"]
@@ -1022,7 +1022,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -8.5d
+			y: -8.0d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.lv.subtitle0}"]
