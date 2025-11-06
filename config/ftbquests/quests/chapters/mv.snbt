@@ -835,7 +835,15 @@
 				"2E117BBA1E035855"
 				"0CC3390A8E309608"
 			]
+			dependency_requirement: "one_completed"
 			id: "3AE584B3EBC63A09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5473F2F4D9630FA7"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "你的第一（？）块HV电子电路"
 			tasks: [{
 				id: "1D3AB4D312D5E848"
 				item: "gtceu:advanced_integrated_circuit"

@@ -779,8 +779,15 @@
 			dependencies: [
 				"41633F254B076032"
 				"1511963A19F70BC2"
+				"607209201C6B08C3"
 			]
 			id: "216D57DF2B38AB9D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1994EEE16F3D4320"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.hv.quest78.subtitle}"
 			tasks: [{
@@ -2557,7 +2564,7 @@
 		}
 		{
 			id: "3EA2340599949EE7"
-			subtitle: "或者直接用这个"
+			subtitle: "或者直接电解这个"
 			tasks: [{
 				id: "76A9D1D311422127"
 				item: "gtceu:raw_tantalite"
