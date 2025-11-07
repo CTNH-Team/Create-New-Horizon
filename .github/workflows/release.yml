@@ -7,6 +7,8 @@ on:
       - release*        # 匹配主发布分支
       - test-*         # 匹配所有 test- 开头的分支（通配符）
 
+env:
+  PACKWIZ_DOWNLOAD_URL: https://github.com/Jasons-impart/packwiz/releases/download/init/packwiz
 jobs:
   # 公共步骤（所有分支都需要执行的前置操作）
   common-steps:
@@ -75,7 +77,6 @@ jobs:
       MC_VERSION: ${{ needs.common-steps.outputs.mc_version }}
       FORGE_VERSION: ${{ needs.common-steps.outputs.forge_version }}
       VERSION_FILE_PATH: ${{ github.workspace }}/config/fancymenu/assets/version.md
-      HMCL_DOWNLOAD_URL: https://github.com/HMCL-dev/HMCL/releases/download/release-3.6.12/HMCL-3.6.12.jar
       JAVA_DOWNLOAD_URL: https://download.oracle.com/java/17/archive/jdk-17.0.12_windows-x64_bin.msi
     if: >
       github.ref_name == 'release' || 
@@ -93,20 +94,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 1 # 只取最新提交，加速
-      - &install_packwiz
-        name: 安装 Packwiz 打包软件
-        id: download-artifact
-        uses: actions/download-artifact@v4
-        with:
-          pattern: "Linux 64-bit x86"
-          path: ${{ github.workspace }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          repository: packwiz/packwiz
-          run-id: 17407879187
-      - &move_packwiz
-        name: 挪动packwiz到根目录
+      - name: 安装 Packwiz 打包软件
         run: |
-          mv "Linux 64-bit x86/packwiz" ./packwiz
+          curl -o packwiz -L $PACKWIZ_DOWNLOAD_URL
           chmod +x ./packwiz
       - name: 【版本】根据pack.toml的整合包和forge版本替换 游戏标题名称 & 更好地兼容检测配置文件 & 反馈配置 & 启动脚本
         run: |
@@ -208,14 +198,15 @@ jobs:
             # done
             rm -rf resourcepacks
             rm -rf shaderpacks
-            rm -f ModList0.4a.md
-            rm -f README.md
-            rm -f TODOlist.md
-            rm -f KubeJSStyleGuide.md
-            rm -f DevGuide.md
+            rm -f observable_announce
+            rm -f packwiz_tutorial.md
+            rm -f fixup.sh
+            rm -f packwiz-installer.jar
+            rm -f packwiz-installer-bootstrap.jar
             rm -f pack.toml
             rm -f index.toml
-            rm -f client_jvm_args.example.txt
+            rm -f refreshmod.sh
+            rm -f patchouli_data.json
 
       - name: 删除客户端only模组
         run: |
@@ -224,12 +215,6 @@ jobs:
               echo "Deleting files with prefix: $prefix"
               find mods -name "${prefix}*" -exec rm {} +
             done
-      - name: 根据pack.toml的整合包版本替换服务安装脚本配置
-        env:
-          MODPACK: ${{ steps.read-version.outputs.value }}
-        run: |
-          sed -i "s/^MODPACK_VERSION=.*/MODPACK_VERSION=$MODPACK/" ${{ github.workspace }}/variables.txt
-          grep '^MODPACK_VERSION=' ${{ github.workspace }}/variables.txt
       - name: 下载forge与ServerStarterJar
         run: |
           set -euo pipefail
@@ -246,7 +231,7 @@ jobs:
       - name: list remained files & mods
         run: |
           ls ${{ github.workspace }}
-          ls /mods
+          ls mods
       - name: 上传带mod包
         uses: actions/upload-artifact@v4
         with:
@@ -288,8 +273,10 @@ jobs:
         with:
           fetch-depth: 0
           fetch-tags: true
-      - *install_packwiz
-      - *move_packwiz
+      - name: 安装 Packwiz 打包软件
+        run: |
+          curl -o packwiz -L $PACKWIZ_DOWNLOAD_URL
+          chmod +x ./packwiz
       - name: 获取最近的tag并配置环境变量
         run: |
           set -euo pipefail

@@ -50,6 +50,20 @@ natives-*/
 /Changelog
 /tlm_custom_pack/
 /packwiz_tutorial.md
+/kubejs/probe/
+/.mixin.out/
+/TrashSlotSaveState.json
+
+resourcepacks/*
+!resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip
+!resourcepacks/AE2LightMode-1.20.1.zip
+!resourcepacks/Minecraft-Mod-Language-Package-1.20.zip
+
+/start.sh
+/start.bat
+/variables*
+/patchouli_data.json
+/tconplanner/
 
 config/*
 !config/ftbquests
