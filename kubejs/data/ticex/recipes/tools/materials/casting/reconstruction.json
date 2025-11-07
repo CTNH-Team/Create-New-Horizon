@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_fluid",
-  "fluid": {
-    "amount": 2000,
-    "tag": "forge:molten_reconstruction_core"
-  },
-  "output": "ticex:reconstruction",
-  "temperature": 1000
-}

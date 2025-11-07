@@ -1811,6 +1811,12 @@
 					type: "item"
 				}
 				{
+					exclude_from_claim_all: true
+					id: "072554193E9E2833"
+					table_id: 1576725829474885042L
+					type: "choice"
+				}
+				{
 					id: "2CDA3451576AB583"
 					item: {
 						Count: 1
@@ -1834,36 +1840,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "4227A55D3DF87697"
-					item: "avaritia:infinity_bucket"
-					type: "item"
-				}
-				{
-					id: "5418BB0CD7557BE9"
-					item: "avaritia:neutron_collector"
-					type: "item"
-				}
-				{
-					id: "643C77A11B1B6E44"
-					item: {
-						Count: 1
-						id: "avaritia:infinity_elytra"
-						tag: {
-							Unbreakable: 1b
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3ACE58ECCB209823"
-					item: {
-						Count: 1
-						id: "ae2omnicells:portable_quantum_omni_cell_64k"
-						tag: { }
-					}
-					type: "item"
-				}
 			]
 			size: 2.0d
 			subtitle: "你已然全知全能"
@@ -1872,7 +1848,7 @@
 				title: "再次恭喜"
 				type: "checkmark"
 			}]
-			x: 29.0d
+			x: 30.0d
 			y: -1.0d
 		}
 		{
