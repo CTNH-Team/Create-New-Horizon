@@ -71,9 +71,7 @@ ServerEvents.recipes(event => {
         'tconstruct:smeltery/melting/seared/seared_casting_tank',
         'tconstruct:tools/materials/melting/glass',
         //末影之眼
-        'tconstruct:smeltery/casting/ender/eye',
-        //杂七杂八的燃料
-        /create:empty_tconstruct_copper_can_of_ticex_rf_furnace_fuel_(.*)/
+        'tconstruct:smeltery/casting/ender/eye'
     ])
 })
 //熔铸炉矿物配方
