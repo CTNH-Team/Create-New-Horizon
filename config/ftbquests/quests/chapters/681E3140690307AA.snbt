@@ -816,8 +816,15 @@
 			id: "63F7EE58C223B854"
 			subtitle: "帮你平安度过黑夜"
 			tasks: [{
-				id: "414A0BF3F30BD1EB"
-				item: "minecraft:white_bed"
+				id: "450DB2BE1C29E8D2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "床"
 				type: "item"
 			}]
 			x: -9.5d
@@ -828,9 +835,16 @@
 			id: "0E5EEE6DC4DC4DD8"
 			subtitle: "这是迫不得已的"
 			tasks: [{
-				count: 3L
-				id: "1B4443DEE810CE33"
-				item: "minecraft:white_wool"
+				count: 2L
+				id: "3BD752787B356821"
+				item: {
+					Count: 2
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				title: "羊毛"
 				type: "item"
 			}]
 			x: -9.5d

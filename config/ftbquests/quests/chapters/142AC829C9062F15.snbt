@@ -996,6 +996,12 @@
 				"65E0B77C49C4F584"
 			]
 			id: "5D01EEBB71A88958"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F7E3914E61AB086"
+				table_id: 7618519509353548779L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4669A8841B543F7C"
 				item: "gtceu:wetware_processor_computer"

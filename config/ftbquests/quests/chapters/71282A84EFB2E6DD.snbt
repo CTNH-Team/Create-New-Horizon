@@ -17,19 +17,28 @@
 		{
 			id: "0F6EC6D1884C72A0"
 			linked_quest: "0598D6FDA6319592"
-			x: -4.5d
-			y: -2.0d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "3BD5D147B83CEEE0"
+			linked_quest: "2F497F4992DEF6E2"
+			x: 4.0d
+			y: 1.0d
 		}
 	]
 	quests: [
 		{
-			dependencies: ["76036AE6CE23B158"]
+			dependencies: [
+				"76036AE6CE23B158"
+				"020A570A2EC3EE8B"
+			]
 			description: [
 				"{ftbquests.chapter.71282A84EFB2E6DD.quest1.description1}"
 				"{ftbquests.chapter.71282A84EFB2E6DD.quest1.description2}"
 			]
 			id: "4CA3E4766B67C12B"
-			size: 2.0d
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest1.subtitle}"
 			tasks: [{
 				id: "636758F719B61C26"
@@ -42,7 +51,6 @@
 		{
 			dependencies: [
 				"4CA3E4766B67C12B"
-				"020A570A2EC3EE8B"
 				"0598D6FDA6319592"
 			]
 			description: [""]
@@ -53,8 +61,8 @@
 				item: "bloodmagic:blankslate"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.5d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -69,11 +77,11 @@
 				item: "bloodmagic:reinforcedslate"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.5d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["0609BF460D2F4A65"]
+			dependencies: ["4CA3E4766B67C12B"]
 			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest4.description1}"]
 			id: "4640BD2CE48A302B"
 			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest4.subtitle}"
@@ -82,17 +90,18 @@
 				item: "bloodmagic:blankrune"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"4640BD2CE48A302B"
+				"4F4D4933EAC497E7"
 				"4CA3E4766B67C12B"
 			]
 			icon: "bloodmagic:altar"
 			id: "33F3CD3FB3033DE3"
-			size: 2.0d
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest5.subtitle}"
 			tasks: [{
 				id: "5155AC0F564C7DA5"
@@ -100,13 +109,13 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["33F3CD3FB3033DE3"]
+			dependencies: ["2E12DCC31E3E0626"]
 			icon: "bloodmagic:altar"
 			id: "698470A3BFEFBCD4"
-			size: 2.0d
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest6.subtitle}"
 			tasks: [{
 				id: "43E044AE5E9EC789"
@@ -114,7 +123,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -127,7 +136,7 @@
 			]
 			icon: "bloodmagic:altar"
 			id: "6D319978414D13A6"
-			size: 2.0d
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest7.subtitle}"
 			tasks: [{
 				id: "0CCA6628275004E2"
@@ -135,7 +144,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 8.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -145,7 +154,7 @@
 			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest8.description1}"]
 			icon: "bloodmagic:altar"
 			id: "513CDE2822C27E26"
-			size: 2.0d
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest8.subtitle}"
 			tasks: [{
 				id: "647C516FB78EF9CA"
@@ -153,7 +162,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 11.0d
+			y: 15.0d
 		}
 		{
 			dependencies: [
@@ -168,8 +177,8 @@
 				item: "bloodmagic:infusedslate"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 6.5d
+			x: -2.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -184,8 +193,8 @@
 				item: "bloodmagic:demonslate"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 9.5d
+			x: -2.0d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -200,8 +209,8 @@
 				item: "bloodmagic:etherealslate"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 12.5d
+			x: -2.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["33F3CD3FB3033DE3"]
@@ -216,8 +225,8 @@
 				item: "bloodmagic:alchemytable"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4ADCAEB3CD34CF1F"]
@@ -233,8 +242,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4ADCAEB3CD34CF1F"]
@@ -250,8 +259,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["644281CF6FC3F315"]
@@ -262,7 +271,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["644281CF6FC3F315"]
@@ -273,7 +282,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 6.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4ADCAEB3CD34CF1F"]
@@ -289,8 +298,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3189BA8348AE4F06"]
@@ -300,8 +309,8 @@
 				item: "bloodmagic:reagentmagnetism"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 10.5d
+			x: -6.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["4ADCAEB3CD34CF1F"]
@@ -317,8 +326,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.0d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3189BA8348AE4F06"]
@@ -328,8 +337,8 @@
 				item: "bloodmagic:reagentbloodlight"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 8.5d
+			x: -6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["644281CF6FC3F315"]
@@ -340,7 +349,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 7.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3189BA8348AE4F06"]
@@ -350,8 +359,8 @@
 				item: "bloodmagic:reagentbinding"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 9.5d
+			x: -6.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["644281CF6FC3F315"]
@@ -362,7 +371,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 7.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["702FDB7F8E805AAF"]
@@ -373,7 +382,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 12.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["702FDB7F8E805AAF"]
@@ -383,8 +392,8 @@
 				item: "bloodmagic:reagentteleposition"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 12.5d
+			x: -6.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["4CA3E4766B67C12B"]
@@ -395,8 +404,8 @@
 				item: "bloodmagic:weakbloodorb"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["33F3CD3FB3033DE3"]
@@ -408,7 +417,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["698470A3BFEFBCD4"]
@@ -420,7 +429,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6D319978414D13A6"]
@@ -432,7 +441,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 9.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["513CDE2822C27E26"]
@@ -443,8 +452,8 @@
 				item: "bloodmagic:archmagebloodorb"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 12.5d
+			x: -1.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["0609BF460D2F4A65"]
@@ -455,8 +464,8 @@
 				item: "bloodmagic:speedrune"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["771C2EE93ADC202F"]
@@ -468,8 +477,8 @@
 				item: "bloodmagic:sacrificerune"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.0d
+			x: -4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["771C2EE93ADC202F"]
@@ -481,8 +490,8 @@
 				item: "bloodmagic:selfsacrificerune"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.0d
+			x: -4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["53B9F9C945B0BB33"]
@@ -493,8 +502,8 @@
 				item: "bloodmagic:dislocationrune"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 6.0d
+			x: -4.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["53B9F9C945B0BB33"]
@@ -505,8 +514,8 @@
 				item: "bloodmagic:altarcapacityrune"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 7.0d
+			x: -4.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -520,8 +529,8 @@
 				item: "bloodmagic:bettercapacityrune"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 8.5d
+			x: -4.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["40BDB3844BF38B0D"]
@@ -531,8 +540,8 @@
 				item: "bloodmagic:orbcapacityrune"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 10.5d
+			x: -4.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["40BDB3844BF38B0D"]
@@ -543,8 +552,8 @@
 				item: "bloodmagic:accelerationrune"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 9.5d
+			x: -4.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["7CC2B2A2B70CCD83"]
@@ -555,8 +564,8 @@
 				item: "bloodmagic:chargingrune"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 12.5d
+			x: -4.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["2E0983CC5E00B72D"]
@@ -570,8 +579,8 @@
 				item: "bloodmagic:weak_tau"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.5d
+			x: 6.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["23347233C6B3121C"]
@@ -586,19 +595,22 @@
 				item: "bloodmagic:strong_tau"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 6.5d
+			x: 6.0d
+			y: 11.0d
 		}
 		{
-			dependencies: ["354B0216A8912589"]
+			dependencies: [
+				"354B0216A8912589"
+				"0A81CFBAA57DCC85"
+			]
 			id: "0F512DA4AB819FDA"
 			tasks: [{
 				id: "3A9EBCB8E27DB911"
 				item: "bloodmagic:largebloodstonebrick"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 8.0d
+			x: 2.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -615,8 +627,8 @@
 				item: "bloodmagic:weakbloodshard"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 8.0d
+			x: 4.0d
+			y: 11.0d
 		}
 		{
 			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest44.description1}"]
@@ -627,19 +639,22 @@
 				item: "bloodmagic:alchemicalreactionchamber"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 8.0d
+			x: 4.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["2CB5BF1DDC96E8D0"]
+			dependencies: [
+				"2CB5BF1DDC96E8D0"
+				"73B77D941D38C88C"
+			]
 			id: "53E11BE9F17DB54E"
 			tasks: [{
 				id: "70959ECA1A623FAF"
 				item: "bloodmagic:dungeon_metal"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 11.0d
+			x: 2.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["6F2B10DEE6CC1CEB"]
@@ -649,8 +664,8 @@
 				item: "bloodmagic:dungeon_ore"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 11.0d
+			x: 4.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["6F2B10DEE6CC1CEB"]
@@ -661,8 +676,8 @@
 				item: "bloodmagic:minekey"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 12.5d
+			x: 6.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["78C75CD9990F3C59"]
@@ -676,8 +691,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.71282A84EFB2E6DD.quest48.title}"
-			x: 7.0d
-			y: 3.5d
+			x: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["698470A3BFEFBCD4"]
@@ -688,8 +703,8 @@
 				item: "bloodmagic:activationcrystalweak"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.5d
+			x: -1.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["11B6FE0A5C38B474"]
@@ -708,7 +723,7 @@
 			}]
 			title: "{ftbquests.chapter.71282A84EFB2E6DD.quest50.title}"
 			x: 7.0d
-			y: 8.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["11B6FE0A5C38B474"]
@@ -724,8 +739,8 @@
 				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest51.task_+926754504467556815.title}"
 				type: "checkmark"
 			}]
-			x: 8.0d
-			y: 9.0d
+			x: 9.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["11B6FE0A5C38B474"]
@@ -739,7 +754,7 @@
 				type: "checkmark"
 			}]
 			x: 8.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["11B6FE0A5C38B474"]
@@ -755,8 +770,8 @@
 				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest53.task_+2019866194985181614.title}"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: 9.5d
+			x: 10.0d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -772,8 +787,8 @@
 				item: "bloodmagic:ritualdiviner"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.5d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["73C6CFF093C3D1FF"]
@@ -784,8 +799,8 @@
 				item: "bloodmagic:ritualdivinerdusk"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 9.5d
+			x: 8.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["698470A3BFEFBCD4"]
@@ -796,8 +811,8 @@
 				item: "bloodmagic:daggerofsacrifice"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 5.0d
+			x: 1.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["11B6FE0A5C38B474"]
@@ -810,8 +825,8 @@
 				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest57.task_+5491464452706784606.title}"
 				type: "checkmark"
 			}]
-			x: 7.0d
-			y: 11.0d
+			x: 8.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["25407232A00F2AF1"]
@@ -826,41 +841,41 @@
 				item: "bloodmagic:mineentrancekey"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 11.0d
+			x: 6.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["2040B219B1AAF893"]
+			dependencies: ["4D87401DC0DD0EE2"]
 			id: "644281CF6FC3F315"
 			tasks: [{
 				id: "36272F4E99C3CE66"
 				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest59.task_+3902139616773525094.title}"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 6.5d
+			x: -5.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["4CF90E6B56618511"]
+			dependencies: ["3556C60FA39E90EF"]
 			id: "3189BA8348AE4F06"
 			tasks: [{
 				id: "168B3332D0787EAA"
 				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest60.task_+1624448383936134826.title}"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 9.5d
+			x: -5.0d
+			y: 13.0d
 		}
 		{
-			dependencies: ["2A5B367B62F87075"]
+			dependencies: ["127E7D9712060F28"]
 			id: "702FDB7F8E805AAF"
 			tasks: [{
 				id: "58189D7341B24CD5"
 				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest61.task_+6347996793127718101.title}"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 12.5d
+			x: -5.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["62A2223CE93E4513"]
@@ -876,8 +891,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 9.5d
+			x: 6.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["73B77D941D38C88C"]
@@ -888,8 +903,8 @@
 				item: "bloodmagic:defaultcrystal"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 9.5d
+			x: 4.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["4CAF15A55CACB620"]
@@ -899,8 +914,8 @@
 				item: "bloodmagic:corrosivecrystal"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 8.0d
+			x: 10.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["4CAF15A55CACB620"]
@@ -910,8 +925,8 @@
 				item: "bloodmagic:vengefulcrystal"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 9.0d
+			x: 11.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["4CAF15A55CACB620"]
@@ -921,8 +936,8 @@
 				item: "bloodmagic:destructivecrystal"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 10.0d
+			x: 11.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["4CAF15A55CACB620"]
@@ -932,8 +947,8 @@
 				item: "bloodmagic:steadfastcrystal"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 11.0d
+			x: 10.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["4CA3E4766B67C12B"]
@@ -943,8 +958,8 @@
 				item: "bloodmagic:soulforge"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -958,13 +973,13 @@
 				item: "bloodmagic:demoncrucible"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.5d
+			x: 2.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
 				"6D319978414D13A6"
-				"7533CEF4D917083F"
+				"0F512DA4AB819FDA"
 			]
 			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest70.description1}"]
 			id: "73B77D941D38C88C"
@@ -974,14 +989,13 @@
 				item: "bloodmagic:demoncrystallizer"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 9.5d
+			x: 2.0d
+			y: 13.0d
 		}
 		{
 			dependencies: [
-				"73B77D941D38C88C"
-				"0A81CFBAA57DCC85"
 				"513CDE2822C27E26"
+				"53E11BE9F17DB54E"
 			]
 			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest71.description1}"]
 			id: "6709ADE1310AAB9F"
@@ -990,8 +1004,8 @@
 				item: "bloodmagic:demonpylon"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 12.5d
+			x: 2.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["6F2B10DEE6CC1CEB"]
@@ -1005,8 +1019,8 @@
 				item: "bloodmagic:hellforgedparts"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 12.5d
+			x: 8.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["6D683CDE5D679C32"]
@@ -1021,11 +1035,15 @@
 				item: "bloodmagic:speedrune2"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 12.5d
+			x: 10.0d
+			y: 17.0d
 		}
 		{
-			dependencies: ["42F7EB2A3B7E87B4"]
+			dependencies: [
+				"42F7EB2A3B7E87B4"
+				"2A5B367B62F87075"
+				"513CDE2822C27E26"
+			]
 			description: [
 				"{ftbquests.chapter.71282A84EFB2E6DD.quest74.description1}"
 				"{ftbquests.chapter.71282A84EFB2E6DD.quest74.description2}"
@@ -1034,7 +1052,7 @@
 			]
 			icon: "bloodmagic:altar"
 			id: "0379412BFDFE99FE"
-			size: 2.0d
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest74.subtitle}"
 			tasks: [{
 				id: "1618820DC099898D"
@@ -1042,12 +1060,13 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 14.0d
+			y: 19.0d
 		}
 		{
 			dependencies: [
 				"7CC2B2A2B70CCD83"
 				"0379412BFDFE99FE"
+				"6709ADE1310AAB9F"
 			]
 			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest75.description1}"]
 			id: "68506B3372A8677F"
@@ -1057,21 +1076,22 @@
 				item: "kubejs:endslate"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 15.5d
+			x: 0.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["68506B3372A8677F"]
 			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest76.description1}"]
 			id: "210C1FB94A0AA2B0"
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest76.subtitle}"
 			tasks: [{
 				id: "3D44922C0B951214"
 				item: "ctnhcore:meteor_capturer"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 15.5d
+			x: 0.0d
+			y: 23.0d
 		}
 		{
 			id: "42F7EB2A3B7E87B4"
@@ -1081,8 +1101,8 @@
 				item: "cataclysm:void_stone"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 14.0d
+			x: 1.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["78C75CD9990F3C59"]
@@ -1090,7 +1110,7 @@
 			icon: "bloodmagic:upgradetome"
 			id: "42521264EB5EADE9"
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "用于前期发电的小玩具"
 			tasks: [{
 				id: "72E7D4C7CEA49F2A"
@@ -1098,7 +1118,7 @@
 				type: "checkmark"
 			}]
 			x: 6.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["04490059A9F4DB88"]
@@ -1122,7 +1142,33 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 9.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4ADCAEB3CD34CF1F"]
+			id: "26628EDAEF8A5404"
+			rewards: [
+				{
+					count: 2
+					id: "56FC4FCE29B78158"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "066BC74A8FE939D6"
+					table_id: 1576725829474885042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "00617C9A3C11D7A3"
+				title: "学会了吗"
+				type: "checkmark"
+			}]
+			title: "给你点小奖励"
+			x: 4.0d
+			y: 5.0d
 		}
 	]
 	title: "{ftbquests.chapter.71282A84EFB2E6DD.title}"

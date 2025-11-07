@@ -17,7 +17,7 @@
 			]
 			id: "022460FFCA763E96"
 			shape: "circle"
-			size: 2.0d
+			size: 1.5d
 			subtitle: "究极魔力线开端"
 			tasks: [{
 				id: "3DDAF18E5E827A2D"
@@ -25,8 +25,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.1FD18D8B41761626.quest1.title}"
-			x: 10.5d
-			y: -0.5d
+			x: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["022460FFCA763E96"]
@@ -37,8 +37,8 @@
 				item: "gtceu:mana_fused_mixed_dust"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -0.5d
+			x: 7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["643B14A93A2A1547"]
@@ -49,8 +49,8 @@
 				item: "gtceu:mana_fused_lp_mixed_dust"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -0.5d
+			x: 9.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0E01AD0627C7DC87"]
@@ -62,8 +62,8 @@
 				item: "gtceu:mana_fused_demon_mixed_dust"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -0.5d
+			x: 11.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2D580EC0F98308F5"]
@@ -81,8 +81,8 @@
 				item: "gtceu:mana_plus_ingot"
 				type: "item"
 			}]
-			x: 19.5d
-			y: -0.5d
+			x: 13.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["793A043D3C7D1DD3"]
@@ -93,8 +93,8 @@
 				item: "gtceu:mana_unstable_plus_dust"
 				type: "item"
 			}]
-			x: 19.5d
-			y: -2.5d
+			x: 11.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["11E7A04526A80439"]
@@ -106,8 +106,8 @@
 				item: "gtceu:mana_infused_plus_dust"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -2.5d
+			x: 9.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["57CEAE5D84402572"]
@@ -118,8 +118,8 @@
 				item: "gtceu:mana_stable_plus_dust"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -2.5d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0B1DD6CF9FC1B153"]
@@ -140,8 +140,8 @@
 				item: "gtceu:mana_super_plus_ingot"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -2.5d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3A4E1D5E4E17F9E6"]
@@ -152,8 +152,8 @@
 				item: "gtceu:unknown_super_mana_dust"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -4.5d
+			x: 9.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3E4085419CE0ADB1"]
@@ -164,8 +164,8 @@
 				item: "gtceu:twist_mana_dust"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -4.5d
+			x: 11.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["349F87134F6B153F"]
@@ -176,8 +176,8 @@
 				item: "gtceu:twist_power_mana_dust"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -4.5d
+			x: 13.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["11BB717A9D64F679"]
@@ -188,8 +188,8 @@
 				item: "kubejs:encapsulated_twist_mana"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -4.5d
+			x: 14.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["130A19F7C214261C"]
@@ -207,8 +207,8 @@
 				item: "gtceu:ultra_mana_ingot"
 				type: "item"
 			}]
-			x: 19.5d
-			y: -4.5d
+			x: 15.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["505115AA8810BBE5"]
@@ -220,14 +220,14 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.1FD18D8B41761626.quest15.title}"
-			x: 19.5d
-			y: -6.5d
+			x: 15.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
 				"5F71536A739E0693"
 				"6549CAFC9C083B23"
-				"70315F47905A7B70"
+				"055C47EC41367A36"
 			]
 			description: [
 				"终于，在研究了这么多魔法之后，你已经初步搞懂了这些魔法的本质——&4无论是血魔法，植物魔法，还是附魔魔法，他们本质都是那种物质——对，就是魔力！&r"
@@ -238,7 +238,7 @@
 			]
 			id: "2946049E78C9A182"
 			shape: "gear"
-			size: 3.0d
+			size: 1.5d
 			subtitle: "魔力大一统！"
 			tasks: [{
 				id: "45AD3D942D22D283"
@@ -263,14 +263,11 @@
 				item: "ctnhcore:twisted_fusion_mk1"
 				type: "item"
 			}]
-			x: 22.0d
-			y: -4.5d
+			x: 15.5d
+			y: 1.0d
 		}
 		{
-			dependencies: [
-				"2946049E78C9A182"
-				"2B89ABEE85CE3532"
-			]
+			dependencies: ["2946049E78C9A182"]
 			id: "138EAB42F677E309"
 			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest34.subtitle}"
 			tasks: [{
@@ -278,14 +275,11 @@
 				item: "ctnhcore:horizen_rune"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"2946049E78C9A182"
-				"2B89ABEE85CE3532"
-			]
+			dependencies: ["2946049E78C9A182"]
 			id: "4F195BAE507ADF5D"
 			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest36.subtitle}"
 			tasks: [{
@@ -293,14 +287,11 @@
 				item: "ctnhcore:starlight_rune"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"2946049E78C9A182"
-				"2B89ABEE85CE3532"
-			]
+			dependencies: ["2946049E78C9A182"]
 			id: "4A9C29237B3606F7"
 			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest37.subtitle}"
 			tasks: [{
@@ -308,14 +299,11 @@
 				item: "ctnhcore:twist_rune"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: 2.5d
+			y: 4.0d
 		}
 		{
-			dependencies: [
-				"2946049E78C9A182"
-				"2B89ABEE85CE3532"
-			]
+			dependencies: ["2946049E78C9A182"]
 			id: "25F5C44403382FC0"
 			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest38.subtitle}"
 			tasks: [{
@@ -323,7 +311,7 @@
 				item: "ctnhcore:proliferation_rune"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 4.0d
 		}
 		{
@@ -332,9 +320,11 @@
 				"4F195BAE507ADF5D"
 				"25F5C44403382FC0"
 				"138EAB42F677E309"
+				"2B89ABEE85CE3532"
 			]
 			description: ["符文的力量过于强大，以至于你几乎完全无法利用它......"]
 			id: "5D378302AE200883"
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest39.subtitle}"
 			tasks: [{
 				id: "7BE68D46F0E9BDDB"
@@ -342,10 +332,10 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["2946049E78C9A182"]
+			dependencies: ["505115AA8810BBE5"]
 			description: ["这时候叫类星体完全不现实，你只是起了一个很厉害的名字而已，它其实只是硅岩线圈的升级版"]
 			id: "6205780525A93130"
 			subtitle: "盗版类星体"
@@ -354,8 +344,8 @@
 				item: "ctnhcore:ulta_mana_coil_block"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 6.0d
+			x: 17.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6205780525A93130"]
@@ -371,14 +361,15 @@
 				"&4那群没脑子的精灵还在彩虹桥上拿魔力玩他们的无聊神明过家家，真正的魔法使早已经领悟到科技与魔力结合的真谛&r"
 			]
 			id: "77E6CC05EB28D0ED"
+			size: 2.0d
 			subtitle: "打开大门"
 			tasks: [{
 				id: "6E047BF6E84B92CC"
 				item: "ctnhcore:eye_of_quasar"
 				type: "item"
 			}]
-			x: 21.0d
-			y: 1.5d
+			x: 20.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -389,18 +380,17 @@
 			dependency_requirement: "one_completed"
 			description: ["精灵精炼厂相比于普通的配方有着更好的产率和无损超频，但是并不代表你不可以再使用魔力反应器来产燃料"]
 			id: "573D6558B6E9DAB5"
-			size: 2.0d
+			size: 1.5d
 			subtitle: "开始精炼你的燃料吧！"
 			tasks: [{
 				id: "618C3088E8BDE88C"
 				item: "ctnhcore:magic_fuel_generator"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 12.5d
+			x: 4.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["573D6558B6E9DAB5"]
 			dependency_requirement: "one_started"
 			id: "51C5F938AB8D5F73"
 			subtitle: "这个其实不需要精炼厂就能用"
@@ -409,8 +399,8 @@
 				item: "gtceu:elf_active_fuel_bucket"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 14.5d
+			x: 13.5d
+			y: 6.0d
 		}
 		{
 			id: "44359DC5BAA74DD6"
@@ -419,8 +409,8 @@
 				item: "gtceu:mana_stable_cooldown_bucket"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 10.5d
+			x: 4.0d
+			y: 9.0d
 		}
 		{
 			id: "5C25C08B7402366E"
@@ -430,8 +420,8 @@
 				item: "gtceu:elf_fuel_bucket"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 10.5d
+			x: 5.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["573D6558B6E9DAB5"]
@@ -443,8 +433,8 @@
 				item: "gtceu:blood_fuel_bucket"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 14.5d
+			x: 7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["12C8D92392C3372E"]
@@ -456,7 +446,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 16.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["573D6558B6E9DAB5"]
@@ -466,8 +456,8 @@
 				item: "gtceu:starlight_fuel_bucket"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 14.5d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2EC83F16FBFE1C74"]
@@ -478,8 +468,8 @@
 				item: "gtceu:starlight_fuel_active_bucket"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 16.0d
+			x: 9.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["573D6558B6E9DAB5"]
@@ -490,8 +480,8 @@
 				item: "gtceu:mana_up_fuel_bucket"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 14.5d
+			x: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4E941FACDD388ACD"]
@@ -501,8 +491,8 @@
 				item: "gtceu:mana_up_fuel_active_bucket"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 16.0d
+			x: 9.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["573D6558B6E9DAB5"]
@@ -513,8 +503,8 @@
 				item: "gtceu:star_fuel_bucket"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 16.0d
+			x: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["13269998C6FC824A"]
@@ -526,8 +516,8 @@
 				item: "gtceu:star_fuel_active_bucket"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 18.5d
+			x: 9.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["6BAC103C397BD1C9"]
@@ -538,8 +528,8 @@
 				type: "item"
 			}]
 			title: "回收燃料，可以获得一些老燃料"
-			x: 9.5d
-			y: 20.5d
+			x: 11.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6BAC103C397BD1C9"]
@@ -550,8 +540,8 @@
 				type: "item"
 			}]
 			title: "留下燃料，进入终极燃料线"
-			x: 11.5d
-			y: 20.5d
+			x: 13.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["50E5710F4CC0EA8A"]
@@ -562,19 +552,20 @@
 				item: "gtceu:agn_fuel_bucket"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 20.5d
+			x: 15.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["484BB98965D48FBF"]
 			id: "72FA0E4A94885F91"
+			size: 2.0d
 			tasks: [{
 				id: "380D9B22E355DA19"
 				item: "gtceu:agn_fuel_plasma_bucket"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 20.5d
+			x: 20.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -593,14 +584,15 @@
 				"&4以前我们只是威慑下的渺小虫子，现在我们就是威慑本身&r"
 			]
 			id: "7A937E3AE05BFC09"
+			size: 2.0d
 			subtitle: "魔力恒星聚焦装置——我们应该把重点放在“魔力恒星”还是“聚焦”？"
 			tasks: [{
 				id: "556C251FB762ABCD"
 				item: "ctnhcore:nicoll_dyson_beams"
 				type: "item"
 			}]
-			x: 21.0d
-			y: 10.5d
+			x: 20.0d
+			y: 5.0d
 		}
 		{
 			description: ["你在花朵中发现了大量的这种.....魔力，也许你能利用花朵将其收集，用于魔导之中"]
@@ -633,7 +625,7 @@
 			}]
 			title: "必要的牺牲"
 			x: -9.5d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			description: ["这本破旧的笔记本给了还未进入工业化时代的你很多灵感，也许利用世界中存在的魔源，你就可以在前期搭建自动化产线"]
@@ -644,8 +636,8 @@
 				item: "ars_nouveau:worn_notebook"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 6.5d
+			x: -1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["42A147C3E1ECCB9B"]
@@ -714,7 +706,7 @@
 			]
 			id: "1C8D18E3FC43D669"
 			shape: "square"
-			size: 2.0d
+			size: 1.5d
 			subtitle: "永恒之花"
 			tasks: [{
 				id: "7B348F99DD55B811"
@@ -722,7 +714,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -781,7 +773,7 @@
 			]
 			title: "没法量产，至少有一个"
 			x: -3.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3E82E716148024D1"]
@@ -904,7 +896,7 @@
 			]
 			title: "过于昂贵的环境"
 			x: -5.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1C8D18E3FC43D669"]
@@ -919,7 +911,7 @@
 				type: "checkmark"
 			}]
 			x: -3.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7F91ACC4605D8687"]
@@ -937,7 +929,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6B9026800C4E14B5"]
@@ -949,8 +941,8 @@
 				item: "botania:hydroangeas"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -3.0d
+			x: -5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6B9026800C4E14B5"]
@@ -971,8 +963,8 @@
 				item: "botania:gourmaryllis"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -3.0d
+			x: -5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6B9026800C4E14B5"]
@@ -989,7 +981,7 @@
 				item: "botania:endoflame"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: -3.0d
 		}
 		{
@@ -1006,7 +998,7 @@
 				item: "mythicbotany:wither_aconite"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: -3.0d
 		}
 		{
@@ -1025,8 +1017,8 @@
 				type: "item"
 			}]
 			title: "雷德花"
-			x: -0.5d
-			y: -3.0d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6B9026800C4E14B5"]
@@ -1042,8 +1034,8 @@
 				item: "botania:munchdew"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.0d
+			x: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6B9026800C4E14B5"]
@@ -1059,8 +1051,8 @@
 				type: "item"
 			}]
 			title: "火绣球"
-			x: -4.5d
-			y: -4.5d
+			x: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["57A04137E648CACD"]
@@ -1072,8 +1064,8 @@
 				item: "ars_nouveau:source_gem_block"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 6.5d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -1093,7 +1085,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["70315F47905A7B70"]
@@ -1111,7 +1103,7 @@
 			}]
 			title: "需要大量的源质！"
 			x: -7.5d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2E1BE8D7095020C6"]
@@ -1143,8 +1135,8 @@
 				}
 			]
 			title: "自己就是最好的血之来源"
-			x: -8.5d
-			y: 10.5d
+			x: -7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2E1BE8D7095020C6"]
@@ -1162,7 +1154,7 @@
 			}]
 			title: "永恒的苦难，但是是电动的"
 			x: -6.5d
-			y: 10.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2E1BE8D7095020C6"]
@@ -1172,8 +1164,8 @@
 				title: "其实血魔法原版还有砍怪输入血和苦难之井仪式，但是有更好的选择这俩开发空间真的不大"
 				type: "checkmark"
 			}]
-			x: -7.5d
-			y: 11.5d
+			x: -8.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2E1BE8D7095020C6"]
@@ -1189,7 +1181,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7F91ACC4605D8687"]
@@ -1229,11 +1221,14 @@
 				item: "ctnhcore:industrial_altar"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 9.0d
+			x: -1.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["055C47EC41367A36"]
+			dependencies: [
+				"055C47EC41367A36"
+				"310339D1792AF716"
+			]
 			description: [
 				"血之祭坛后的又一力作，我敢保证那群诡计多端的恶魔都没有想到如此巧妙的方法！这台机器可以自动吸收周围的恶魔意志，然后为己所用！"
 				"唯一可惜的是自动化恶魔意志似乎比较麻烦，不过你都有神话刷怪笼和时间瓶了，&4拿着你抢夺9的感知之剑砍砍砍吧！&r"
@@ -1246,7 +1241,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["598984AA1D8A72EA"]
@@ -1264,8 +1259,8 @@
 				item: "ctnhcore:meteor_capturer"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 10.5d
+			x: -3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["598984AA1D8A72EA"]
@@ -1276,8 +1271,8 @@
 				item: "ctnhcore:demon_will_generator"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 10.5d
+			x: -3.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2946049E78C9A182"]
@@ -1294,9 +1289,10 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["2946049E78C9A182"]
 			description: [
 				"你对天顶源质的掌控让你能够制造一批新的魔力机器"
 				""
@@ -1329,8 +1325,8 @@
 				}
 			]
 			title: "我即穹顶"
-			x: 8.5d
-			y: 6.0d
+			x: 1.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["57BDB87CFA2B729B"]
@@ -1340,8 +1336,8 @@
 				item: "ctnhcore:zenith_laser"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.5d
+			x: 3.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["57BDB87CFA2B729B"]
@@ -1351,8 +1347,8 @@
 				item: "ctnhcore:zenith_circult_assembler"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 6.0d
+			x: 1.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["57BDB87CFA2B729B"]
@@ -1362,8 +1358,8 @@
 				item: "ctnhcore:zenith_distillation_tower"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 7.5d
+			x: -0.5d
+			y: 8.0d
 		}
 		{
 			description: ["创造即为无穷"]
@@ -1374,8 +1370,8 @@
 				item: "ctnhcore:twisted_fusion_mkinfinity"
 				type: "item"
 			}]
-			x: 21.0d
-			y: 6.0d
+			x: 17.5d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -1392,16 +1388,18 @@
 				"&4本应如此&r"
 			]
 			id: "0A4BE89DE5D23B95"
+			size: 2.0d
 			subtitle: "这不可能，这不可能！"
 			tasks: [{
 				id: "2BDD31473FCEC105"
 				item: "ctnhcore:twisted_fusion_mkalephnull"
 				type: "item"
 			}]
-			x: 24.0d
-			y: 6.0d
+			x: 20.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["6B9026800C4E14B5"]
 			description: ["它能吃掉咀叶花，乐"]
 			id: "115C898955BED311"
 			subtitle: "食物链"
@@ -1411,9 +1409,10 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
+			dependencies: ["6B9026800C4E14B5"]
 			description: [
 				"与原版勿落草一样，在花园中的勿落草会检测很大范围内（与凋零菟葵等范围一致）的带有漂浮状态的生物，然后对其造成200点魔法伤害（尤其是你！）"
 				""
@@ -1426,8 +1425,8 @@
 				item: "botania:shulk_me_not"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -4.5d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -1447,8 +1446,8 @@
 				type: "item"
 			}]
 			title: "无尽门扉在召唤"
-			x: -4.5d
-			y: 10.5d
+			x: -3.5d
+			y: 8.0d
 		}
 		{
 			id: "57B52F859023B1C5"
@@ -1480,8 +1479,8 @@
 				title: "戴森光束JEI丢方块了，用这本蓝图吧"
 				type: "checkmark"
 			}]
-			x: 17.0d
-			y: 10.5d
+			x: 17.5d
+			y: 5.0d
 		}
 	]
 	title: "{ftbquests.chapter.1FD18D8B41761626.title}"

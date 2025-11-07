@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "ticex:etheric",
-  "result": {
-    "amount": 144,
-    "fluid": "ticex:molten_etheric"
-  },
-  "temperature": 2500
-}

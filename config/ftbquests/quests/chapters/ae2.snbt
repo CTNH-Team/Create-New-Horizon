@@ -11,7 +11,7 @@
 		{
 			id: "6B3CBC1E3FED2CA6"
 			linked_quest: "6680806967633AD8"
-			x: 10.5d
+			x: 9.0d
 			y: 1.0d
 		}
 		{
@@ -19,6 +19,66 @@
 			linked_quest: "14899AF85A2D3C9A"
 			x: 5.0d
 			y: -3.0d
+		}
+		{
+			id: "4A9BFB6EB6F26385"
+			linked_quest: "534D927B52EC5F63"
+			x: 24.5d
+			y: -1.0d
+		}
+		{
+			id: "570BFF0CA15CBB12"
+			linked_quest: "0D88A5F86881FB3B"
+			x: 25.5d
+			y: -1.0d
+		}
+		{
+			id: "78DBE5089929C135"
+			linked_quest: "019F2136970CA2E1"
+			x: 26.5d
+			y: -1.0d
+		}
+		{
+			id: "687BF30B7299EFEA"
+			linked_quest: "03F6BCDB99059FD4"
+			x: 27.5d
+			y: -1.0d
+		}
+		{
+			id: "66EDF12C623A65CD"
+			linked_quest: "2D662EFDE7A39BB8"
+			x: 17.5d
+			y: -1.0d
+		}
+		{
+			id: "5D8C3B54CBA14A9E"
+			linked_quest: "3AE584B3EBC63A09"
+			x: 18.5d
+			y: -1.0d
+		}
+		{
+			id: "3F5D758137719935"
+			linked_quest: "607209201C6B08C3"
+			x: 19.5d
+			y: -1.0d
+		}
+		{
+			id: "223DA598BCA25751"
+			linked_quest: "216D57DF2B38AB9D"
+			x: 20.5d
+			y: -1.0d
+		}
+		{
+			id: "54ABCE520AD5AC1A"
+			linked_quest: "41E48BCAEAD9D47E"
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			id: "1954FD2988E28F98"
+			linked_quest: "3AFD46E811ED67AD"
+			x: 15.5d
+			y: -1.0d
 		}
 	]
 	quests: [
@@ -214,7 +274,7 @@
 		{
 			dependencies: [
 				"39932A8C0601C003"
-				"2D662EFDE7A39BB8"
+				"3D3B26CBE9800D76"
 			]
 			description: [
 				"最早的处理器"
@@ -263,7 +323,6 @@
 			dependencies: [
 				"39932A8C0601C003"
 				"1D3AB4D312D5E848"
-				"1B1FC63B7AC00842"
 			]
 			description: [
 				"剩下两个处理器"
@@ -522,8 +581,8 @@
 				item: "ae2:advanced_card"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 4.0d
+			x: 11.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["17E7750B7D3E59C7"]
@@ -533,13 +592,13 @@
 				item: "ae2:speed_card"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.0d
+			x: 11.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
 				"73E6E35E2E8691C4"
-				"55FF023DD9F76BF5"
+				"4C92768AC6F6A911"
 			]
 			description: [
 				"所需材料"
@@ -560,6 +619,7 @@
 			]
 			id: "5756BCA0D27CBC0B"
 			size: 1.0d
+			subtitle: "超高校级合成"
 			tasks: [
 				{
 					id: "1C3932E80DD0CF5B"
@@ -578,11 +638,11 @@
 				}
 			]
 			title: "装配矩阵三巨头"
-			x: 14.5d
-			y: -3.0d
+			x: 9.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["1A4943F0B611E79B"]
+			dependencies: ["387610CFB183C3B0"]
 			description: [
 				"以下来源于mc百科：https://www.mcmod.cn/item/858091.html"
 				"装配矩阵（Assembler Matrix）是AE2扩展添加的、用于自动合成的多方块结构，有极高的效率。"
@@ -606,9 +666,14 @@
 					item: "expatternprovider:assembler_matrix_wall"
 					type: "item"
 				}
+				{
+					id: "46A01BCF47E54CF6"
+					item: "expatternprovider:assembler_matrix_glass"
+					type: "item"
+				}
 			]
 			title: "装配矩阵"
-			x: 10.5d
+			x: 9.0d
 			y: -3.0d
 		}
 		{
@@ -630,14 +695,14 @@
 		{
 			dependencies: ["1A4943F0B611E79B"]
 			id: "37022075645D1CF7"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "开始搭建你的下单阵列吧"
 			tasks: [{
 				id: "3A3EB0CFED607A29"
 				item: "ae2:crafting_unit"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 9.0d
 			y: -1.0d
 		}
 		{
@@ -825,58 +890,37 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["37022075645D1CF7"]
 			id: "4632CB7C9A11C8D9"
-			tasks: [{
-				id: "39B212A7BC52E5E3"
-				item: "ae2:1k_crafting_storage"
-				type: "item"
-			}]
-			x: 10.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["4632CB7C9A11C8D9"]
-			id: "05865C5CBD5EA843"
-			tasks: [{
-				id: "4572943FB447EC6E"
-				item: "ae2:4k_crafting_storage"
-				type: "item"
-			}]
-			x: 11.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["05865C5CBD5EA843"]
-			id: "7655A2E9D6187113"
-			tasks: [{
-				id: "24B51BD90F973EBE"
-				item: "ae2:16k_crafting_storage"
-				type: "item"
-			}]
-			x: 12.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7655A2E9D6187113"]
-			id: "630EFC2B1ED4CF57"
-			tasks: [{
-				id: "2EA78631BBD582C5"
-				item: "ae2:64k_crafting_storage"
-				type: "item"
-			}]
-			x: 13.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["630EFC2B1ED4CF57"]
-			id: "499D828BAD2F175F"
-			tasks: [{
-				id: "1BD7C5FF3E1B9FA0"
-				item: "ae2:256k_crafting_storage"
-				type: "item"
-			}]
-			x: 14.5d
+			subtitle: "请看后面的复杂与全能合成存储器"
+			tasks: [
+				{
+					id: "39B212A7BC52E5E3"
+					item: "ae2:1k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "3736A562F6306989"
+					item: "ae2:4k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "196EF06069F08154"
+					item: "ae2:16k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "449C25443B7A2A0E"
+					item: "ae2:64k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "134E8BD125B17138"
+					item: "ae2:256k_crafting_storage"
+					type: "item"
+				}
+			]
+			title: "什么时代了，还在用原版合成存储器"
+			x: 9.0d
 			y: -2.0d
 		}
 		{
@@ -899,20 +943,8 @@
 				item: "ae2:crafting_accelerator"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["73E6E35E2E8691C4"]
-			id: "55FF023DD9F76BF5"
-			subtitle: "更美观"
-			tasks: [{
-				id: "2B975613687AFAC5"
-				item: "expatternprovider:assembler_matrix_glass"
-				type: "item"
-			}]
-			x: 12.5d
-			y: -6.0d
+			x: 11.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -921,6 +953,12 @@
 				"387610CFB183C3B0"
 			]
 			id: "1A4943F0B611E79B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B4E2759A646E885"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			size: 1.5d
 			subtitle: "你已经成功搭建了AE网络"
 			tasks: [{
@@ -961,57 +999,43 @@
 				"记得流体物品都要做盘"
 			]
 			id: "61C849800E476744"
-			tasks: [{
-				id: "18B35D0170CB5BA3"
-				item: "ae2:cell_component_1k"
-				type: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2219F9A0EB7D79A4"
+				table_id: 971429564947815603L
+				type: "loot"
 			}]
-			x: 10.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["61C849800E476744"]
-			id: "7D808AA6042A72A2"
-			tasks: [{
-				id: "4A2E61642DFAFCC2"
-				item: "ae2:cell_component_4k"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7D808AA6042A72A2"]
-			id: "39C49E06C8AE2F51"
-			tasks: [{
-				id: "4D619BF1CE28E0E9"
-				item: "ae2:cell_component_16k"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["39C49E06C8AE2F51"]
-			id: "5F368A6B6A70A7D3"
-			tasks: [{
-				id: "64555C4F10ACF279"
-				item: "ae2:cell_component_64k"
-				type: "item"
-			}]
-			x: 13.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5F368A6B6A70A7D3"]
-			id: "5E3333FC7B0D7285"
-			tasks: [{
-				id: "02D81E34F2FE0A3D"
-				item: "ae2:cell_component_256k"
-				type: "item"
-			}]
-			x: 14.5d
-			y: 0.0d
+			subtitle: "请看后面的复杂元件与全能元件"
+			tasks: [
+				{
+					id: "18B35D0170CB5BA3"
+					item: "ae2:cell_component_1k"
+					type: "item"
+				}
+				{
+					id: "655515851026C4DD"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+				{
+					id: "4C39A0A0948BAC5A"
+					item: "ae2:cell_component_16k"
+					type: "item"
+				}
+				{
+					id: "5DA2F76176799D0D"
+					item: "ae2:cell_component_64k"
+					type: "item"
+				}
+				{
+					id: "1CBEA04E47B49303"
+					item: "ae2:cell_component_256k"
+					type: "item"
+				}
+			]
+			title: "什么时代了，还在用原版存储元件"
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["50EE8E24E065798F"]
@@ -1070,8 +1094,8 @@
 				item: "ae2:basic_card"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 4.0d
+			x: 11.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6CBC89BB2970D034"]
@@ -1244,8 +1268,8 @@
 				item: "ae2:fuzzy_card"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 3.0d
+			x: 11.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["17E7750B7D3E59C7"]
@@ -1255,8 +1279,8 @@
 				item: "ae2:inverter_card"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 2.5d
+			x: 12.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["17E7750B7D3E59C7"]
@@ -1266,8 +1290,8 @@
 				item: "ae2wtlib:magnet_card"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 3.0d
+			x: 12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["17E7750B7D3E59C7"]
@@ -1277,8 +1301,8 @@
 				item: "ae2:energy_card"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.0d
+			x: 10.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["445EB3640522A172"]
@@ -1288,8 +1312,8 @@
 				item: "ae2:redstone_card"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 11.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["445EB3640522A172"]
@@ -1299,8 +1323,8 @@
 				item: "ae2:capacity_card"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 4.0d
+			x: 10.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["445EB3640522A172"]
@@ -1310,8 +1334,8 @@
 				item: "ae2:void_card"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 3.0d
+			x: 11.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["445EB3640522A172"]
@@ -1321,8 +1345,8 @@
 				item: "ae2:crafting_card"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 4.0d
+			x: 12.5d
+			y: 2.5d
 		}
 		{
 			can_repeat: true
@@ -1345,6 +1369,7 @@
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			id: "7B92F985DCE4FBEB"
 			rewards: [
 				{
@@ -1397,7 +1422,7 @@
 		}
 		{
 			id: "4D0E732C53F05993"
-			subtitle: "隔断网络，但传输频道"
+			subtitle: "隔断网络"
 			tasks: [{
 				id: "591B902407CA244F"
 				item: "ae2:quartz_fiber"
@@ -1407,150 +1432,94 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["4D0CA1F72EEEA7D5"]
+			dependencies: [
+				"4D0CA1F72EEEA7D5"
+				"3AFD46E811ED67AD"
+			]
 			id: "7F01F4DD2BF61F4B"
 			tasks: [{
 				id: "56F3970B4402466C"
 				item: "ae2omnicells:omni_cell_component_1k"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -3.0d
+			x: 15.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["7F01F4DD2BF61F4B"]
+			dependencies: [
+				"7F01F4DD2BF61F4B"
+				"41E48BCAEAD9D47E"
+			]
 			id: "5EFD2B216D94F9B0"
 			tasks: [{
 				id: "3C8439B8ADD6D568"
 				item: "ae2omnicells:omni_cell_component_4k"
 				type: "item"
 			}]
-			x: 19.5d
-			y: -3.0d
+			x: 16.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["5EFD2B216D94F9B0"]
+			dependencies: [
+				"5EFD2B216D94F9B0"
+				"2D662EFDE7A39BB8"
+			]
 			id: "1833487E88360E8F"
 			tasks: [{
 				id: "51134DA55F63B58A"
 				item: "ae2omnicells:omni_cell_component_16k"
 				type: "item"
 			}]
-			x: 20.5d
-			y: -3.0d
+			x: 17.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["1833487E88360E8F"]
+			dependencies: [
+				"1833487E88360E8F"
+				"3AE584B3EBC63A09"
+			]
 			id: "5EF66EA626586D4A"
 			tasks: [{
 				id: "27E45E77F0EE9B40"
 				item: "ae2omnicells:omni_cell_component_64k"
 				type: "item"
 			}]
-			x: 21.5d
-			y: -3.0d
+			x: 18.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["5EF66EA626586D4A"]
+			dependencies: [
+				"5EF66EA626586D4A"
+				"607209201C6B08C3"
+			]
 			id: "53389BA89020EE79"
 			tasks: [{
 				id: "330EAC027F8289D2"
 				item: "ae2omnicells:omni_cell_component_256k"
 				type: "item"
 			}]
-			x: 22.5d
-			y: -3.0d
+			x: 19.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["53389BA89020EE79"]
+			dependencies: [
+				"53389BA89020EE79"
+				"216D57DF2B38AB9D"
+			]
 			id: "48FFC7BCFEB97A86"
 			tasks: [{
 				id: "4F991C51886B51E4"
 				item: "ae2omnicells:omni_cell_component_1m"
 				type: "item"
 			}]
-			x: 23.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["48FFC7BCFEB97A86"]
-			id: "4AB903D546AC054D"
-			tasks: [{
-				id: "3624FAE6DF1A5EE8"
-				item: "ae2omnicells:omni_cell_component_4m"
-				type: "item"
-			}]
-			x: 24.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["317B11045B791B3C"]
-			id: "19F2F006F96C92F9"
-			tasks: [{
-				id: "046C43DDACF8D6D4"
-				item: "ae2omnicells:complex_omni_cell_component_1k"
-				type: "item"
-			}]
-			x: 18.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["19F2F006F96C92F9"]
-			id: "7B4D7D626FC277C1"
-			tasks: [{
-				id: "69F309CF3CD47A54"
-				item: "ae2omnicells:complex_omni_cell_component_4k"
-				type: "item"
-			}]
-			x: 19.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["7B4D7D626FC277C1"]
-			id: "2CA124A92B46BC83"
-			tasks: [{
-				id: "1C223250B2F18A2A"
-				item: "ae2omnicells:complex_omni_cell_component_16k"
-				type: "item"
-			}]
 			x: 20.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["2CA124A92B46BC83"]
-			id: "30D0A8AC6F83AD85"
-			tasks: [{
-				id: "1B1CDF40F701BEE3"
-				item: "ae2omnicells:complex_omni_cell_component_64k"
-				type: "item"
-			}]
-			x: 21.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["30D0A8AC6F83AD85"]
-			id: "38A112B14C1A1793"
-			tasks: [{
-				id: "22D5A22BBB26197E"
-				item: "ae2omnicells:complex_omni_cell_component_256k"
-				type: "item"
-			}]
-			x: 22.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["38A112B14C1A1793"]
-			id: "32FD4D314E968C88"
-			tasks: [{
-				id: "433E64AF6408B0C7"
-				item: "ae2omnicells:complex_omni_cell_component_1m"
-				type: "item"
-			}]
-			x: 23.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["32FD4D314E968C88"]
+			dependencies: [
+				"317B11045B791B3C"
+				"534D927B52EC5F63"
+			]
 			id: "11A59081ACE352B0"
 			tasks: [{
 				id: "644EB757AA7C79B9"
@@ -1558,10 +1527,13 @@
 				type: "item"
 			}]
 			x: 24.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["11A59081ACE352B0"]
+			dependencies: [
+				"11A59081ACE352B0"
+				"0D88A5F86881FB3B"
+			]
 			id: "38E9239EA5B2E087"
 			tasks: [{
 				id: "65473EDA73E15640"
@@ -1569,10 +1541,13 @@
 				type: "item"
 			}]
 			x: 25.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["38E9239EA5B2E087"]
+			dependencies: [
+				"38E9239EA5B2E087"
+				"019F2136970CA2E1"
+			]
 			id: "2C3B44098BB1F3E0"
 			tasks: [{
 				id: "5BB61FC0B4B07727"
@@ -1580,10 +1555,13 @@
 				type: "item"
 			}]
 			x: 26.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["2C3B44098BB1F3E0"]
+			dependencies: [
+				"2C3B44098BB1F3E0"
+				"03F6BCDB99059FD4"
+			]
 			id: "1C17E0B0EBA06DCC"
 			tasks: [{
 				id: "6838DA5404ECCAAC"
@@ -1591,263 +1569,156 @@
 				type: "item"
 			}]
 			x: 27.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["4AB903D546AC054D"]
-			id: "3003EBFB1A284601"
-			tasks: [{
-				id: "6501B2922EACAAC7"
-				item: "ae2omnicells:omni_cell_component_16m"
-				type: "item"
-			}]
-			x: 25.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["3003EBFB1A284601"]
-			id: "762C7B67CF434BC1"
-			tasks: [{
-				id: "019A1BEE05FCA43A"
-				item: "ae2omnicells:omni_cell_component_64m"
-				type: "item"
-			}]
-			x: 26.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["762C7B67CF434BC1"]
-			id: "7484DD029C758C7E"
-			tasks: [{
-				id: "56E95B354F23DDA3"
-				item: "ae2omnicells:omni_cell_component_256m"
-				type: "item"
-			}]
-			x: 27.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["5D60A9851F3F1373"]
+			dependencies: [
+				"66069718FAAE3BC5"
+				"37022075645D1CF7"
+				"1A12EEA9DF9A612D"
+			]
 			id: "4D0CA1F72EEEA7D5"
+			size: 1.5d
+			subtitle: "你好，结婚"
 			tasks: [{
 				id: "2D3C9DB58DD58BA7"
 				item: "ae2omnicells:omni_link_processor"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -3.0d
+			x: 14.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["5D60A9851F3F1373"]
+			dependencies: [
+				"534D927B52EC5F63"
+				"5398C4B22691E149"
+			]
 			id: "317B11045B791B3C"
+			size: 1.5d
 			tasks: [{
 				id: "409E879A0D3FE505"
 				item: "ae2omnicells:complex_link_processor"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 1.0d
+			x: 23.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["4D0CA1F72EEEA7D5"]
 			id: "1B4E505F5E359FAF"
+			size: 1.5d
+			subtitle: "让我看看你有多全能"
 			tasks: [{
 				id: "2D30658B8BAD7E48"
 				item: "ae2omnicells:omni_crafting_unit_block"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -6.0d
+			x: 15.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["1B4E505F5E359FAF"]
+			dependencies: [
+				"1B4E505F5E359FAF"
+				"4D0CA1F72EEEA7D5"
+				"3AFD46E811ED67AD"
+			]
 			id: "4A02AB33931358B6"
 			tasks: [{
 				id: "2BFC1FDA7F121E7F"
 				item: "ae2omnicells:omni_crafting_storage_1k_block"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -6.0d
+			x: 15.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["4A02AB33931358B6"]
+			dependencies: [
+				"4A02AB33931358B6"
+				"41E48BCAEAD9D47E"
+			]
 			id: "0EB3441858295940"
 			tasks: [{
 				id: "186B36D37C64AB3E"
 				item: "ae2omnicells:omni_crafting_storage_4k_block"
 				type: "item"
 			}]
-			x: 19.5d
-			y: -6.0d
+			x: 16.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["0EB3441858295940"]
+			dependencies: [
+				"0EB3441858295940"
+				"2D662EFDE7A39BB8"
+			]
 			id: "0D80334B81800DE2"
 			tasks: [{
 				id: "0BDAEE662003AEEF"
 				item: "ae2omnicells:omni_crafting_storage_16k_block"
 				type: "item"
 			}]
-			x: 20.5d
-			y: -6.0d
+			x: 17.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["0D80334B81800DE2"]
+			dependencies: [
+				"0D80334B81800DE2"
+				"3AE584B3EBC63A09"
+			]
 			id: "3AB0D8AB38C9EDDB"
 			tasks: [{
 				id: "548528A21EA44624"
 				item: "ae2omnicells:omni_crafting_storage_64k_block"
 				type: "item"
 			}]
-			x: 21.5d
-			y: -6.0d
+			x: 18.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["3AB0D8AB38C9EDDB"]
+			dependencies: [
+				"3AB0D8AB38C9EDDB"
+				"607209201C6B08C3"
+			]
 			id: "162450D725403B61"
 			tasks: [{
 				id: "08354B94FDFDEEA8"
 				item: "ae2omnicells:omni_crafting_storage_256k_block"
 				type: "item"
 			}]
-			x: 22.5d
-			y: -6.0d
+			x: 19.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["162450D725403B61"]
+			dependencies: [
+				"162450D725403B61"
+				"216D57DF2B38AB9D"
+			]
 			id: "01A27E5E53509CFA"
 			tasks: [{
 				id: "64F3BACF6AECDFCA"
 				item: "ae2omnicells:omni_crafting_storage_1m_block"
 				type: "item"
 			}]
-			x: 23.5d
-			y: -6.0d
+			x: 20.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["01A27E5E53509CFA"]
-			id: "71772FBDCCB6BFC9"
-			tasks: [{
-				id: "45FCB94B172E077C"
-				item: "ae2omnicells:omni_crafting_storage_4m_block"
-				type: "item"
-			}]
-			x: 24.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["71772FBDCCB6BFC9"]
-			id: "5468841BCAB4E82E"
-			tasks: [{
-				id: "4A83CF916BCC0656"
-				item: "ae2omnicells:omni_crafting_storage_16m_block"
-				type: "item"
-			}]
-			x: 25.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["5468841BCAB4E82E"]
-			id: "70E1B4D522E94120"
-			tasks: [{
-				id: "2660DA61966E12B3"
-				item: "ae2omnicells:omni_crafting_storage_64m_block"
-				type: "item"
-			}]
-			x: 26.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["70E1B4D522E94120"]
-			id: "62EE25623949DB7C"
-			tasks: [{
-				id: "79347B8C5E6910B8"
-				item: "ae2omnicells:omni_crafting_storage_256m_block"
-				type: "item"
-			}]
-			x: 27.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["317B11045B791B3C"]
+			dependencies: ["1B4E505F5E359FAF"]
 			id: "7DB09F149989EB3E"
+			size: 1.5d
+			subtitle: "好复杂的全能"
 			tasks: [{
 				id: "60220FFF50EF918E"
 				item: "ae2omnicells:complex_crafting_unit_block"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 4.0d
+			x: 24.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["7DB09F149989EB3E"]
-			id: "304B346ABD02C46A"
-			tasks: [{
-				id: "046F786F73ADFACD"
-				item: "ae2omnicells:complex_crafting_storage_1k_block"
-				type: "item"
-			}]
-			x: 18.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["304B346ABD02C46A"]
-			id: "07EE4D49824C7DDD"
-			tasks: [{
-				id: "4ADAE669910CB73B"
-				item: "ae2omnicells:complex_crafting_storage_4k_block"
-				type: "item"
-			}]
-			x: 19.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["07EE4D49824C7DDD"]
-			id: "7C6AE729775069B3"
-			tasks: [{
-				id: "24A25BB2D917FE88"
-				item: "ae2omnicells:complex_crafting_storage_16k_block"
-				type: "item"
-			}]
-			x: 20.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["7C6AE729775069B3"]
-			id: "3C447F4C95EC7147"
-			tasks: [{
-				id: "6B42057DDF60212B"
-				item: "ae2omnicells:complex_crafting_storage_64k_block"
-				type: "item"
-			}]
-			x: 21.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["3C447F4C95EC7147"]
-			id: "4FA55CDEC438336A"
-			tasks: [{
-				id: "2DD5207F22491D94"
-				item: "ae2omnicells:complex_crafting_storage_256k_block"
-				type: "item"
-			}]
-			x: 22.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["4FA55CDEC438336A"]
-			id: "0E34DAAC13146948"
-			tasks: [{
-				id: "7D199E6DF45B9A65"
-				item: "ae2omnicells:complex_crafting_storage_1m_block"
-				type: "item"
-			}]
-			x: 23.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["0E34DAAC13146948"]
+			dependencies: [
+				"7DB09F149989EB3E"
+				"317B11045B791B3C"
+				"534D927B52EC5F63"
+			]
 			id: "7B5C04B50652F1FF"
 			tasks: [{
 				id: "139CF61EE2800E6B"
@@ -1855,10 +1726,13 @@
 				type: "item"
 			}]
 			x: 24.5d
-			y: 4.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["7B5C04B50652F1FF"]
+			dependencies: [
+				"7B5C04B50652F1FF"
+				"0D88A5F86881FB3B"
+			]
 			id: "718C9032898CDED4"
 			tasks: [{
 				id: "6B5A31076A4A1EEB"
@@ -1866,10 +1740,13 @@
 				type: "item"
 			}]
 			x: 25.5d
-			y: 4.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["718C9032898CDED4"]
+			dependencies: [
+				"718C9032898CDED4"
+				"019F2136970CA2E1"
+			]
 			id: "66B5A15CD10AD3F9"
 			tasks: [{
 				id: "65D0CA8B40573440"
@@ -1877,10 +1754,13 @@
 				type: "item"
 			}]
 			x: 26.5d
-			y: 4.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["66B5A15CD10AD3F9"]
+			dependencies: [
+				"66B5A15CD10AD3F9"
+				"03F6BCDB99059FD4"
+			]
 			id: "6D442B2854D5D2AD"
 			tasks: [{
 				id: "10ED7A7E770F4C12"
@@ -1888,36 +1768,87 @@
 				type: "item"
 			}]
 			x: 27.5d
-			y: 4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
-				"499D828BAD2F175F"
-				"66069718FAAE3BC5"
-				"5E3333FC7B0D7285"
+				"03F6BCDB99059FD4"
+				"6D442B2854D5D2AD"
+				"1C17E0B0EBA06DCC"
 			]
-			dependency_requirement: "one_completed"
-			id: "5D60A9851F3F1373"
-			size: 1.5d
-			tasks: [{
-				id: "4856A3E7EC643AC7"
-				title: "更快 更强 更全面"
-				type: "checkmark"
-			}]
-			x: 17.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["5D60A9851F3F1373"]
+			description: ["                &m白璃给你送礼物来咯"]
+			icon: "avaritia:infinity_catalyst"
 			id: "496270CFE0BC3FD9"
+			rewards: [
+				{
+					count: 64
+					id: "269BD175E2E89AD9"
+					item: "gtceu:neutronium_dust"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6BE171E7DAD1323F"
+					item: "gtceu:wetware_processor_mainframe"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0155B5BA0783AB2B"
+					item: "ae2omnicells:complex_omni_cell_component_256m"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4FC4848C800DF38D"
+					item: "gtceu:uv_machine_hull"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6CE567B73C6E1E27"
+					item: "gtceu:tritanium_coil_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "072554193E9E2833"
+					table_id: 1576725829474885042L
+					type: "choice"
+				}
+				{
+					id: "2CDA3451576AB583"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1770885103
+									-8500089
+									-1719850181
+									1737227114
+								]
+								Name: "Musicart_unnmei"
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTc2MjQwOTI1OTQ0OSwKICAicHJvZmlsZUlkIiA6ICI5NjcyNzAxMWZmN2U0Yzg3OTk3ZDJiM2I2NzhiZmI2YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNdXNpY2FydF91bm5tZWkiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFmYTRjNjVkNmYyZTQ0N2Y0ODMwMDU1N2IyNmM4MzA3YTIwM2ZjZjMwYTFiMWY0MjM5N2Q0NzExZGVlNTY3ZSIKICAgIH0KICB9Cn0="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
-			subtitle: "你已经征服了AE2"
+			subtitle: "你已然全知全能"
 			tasks: [{
 				id: "11B593F74740EFC8"
 				title: "再次恭喜"
 				type: "checkmark"
 			}]
-			x: 29.5d
+			x: 30.0d
 			y: -1.0d
 		}
 		{
@@ -1932,6 +1863,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["17E7750B7D3E59C7"]
 			description: ["     在元件工作台上为omni元件标记任意流体，然后插入此升级卡，可使该元件只存储流体。物品同理"]
 			id: "23651FAA383FA5B0"
 			tasks: [{
@@ -1939,8 +1871,40 @@
 				item: "ae2omnicells:type_fuzzy_card"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 2.5d
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["37022075645D1CF7"]
+			id: "1A12EEA9DF9A612D"
+			tasks: [{
+				id: "098033992B928977"
+				item: "ae2omnicells:ender_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"01A27E5E53509CFA"
+				"48FFC7BCFEB97A86"
+				"216D57DF2B38AB9D"
+			]
+			id: "5398C4B22691E149"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "582239836BFE315A"
+				table_id: 7618519509353548779L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "57E782E5F5BC7DDC"
+				title: "我建议你做到这里就停下来换成复杂全能"
+				type: "checkmark"
+			}]
+			x: 21.5d
+			y: -1.0d
 		}
 	]
 	title: "ae2"

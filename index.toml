@@ -978,7 +978,7 @@ hash = "e33a31f4289c2444e86113073c6d83b055f1a76741fb07c0a05858de59b3d4a0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08AF6857D150C353.snbt"
-hash = "25e121fccac3feddb516d5a13756557d6eb1ad3955cec4bd7c18bb7bf4cd7356"
+hash = "6484ff8cf152762cb40e414e780d0b1945f4c2ced60be58c6ac0a711dc87f132"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09F33579334F2607.snbt"
@@ -1058,7 +1058,7 @@ hash = "3bed4a9b1b732b4bdc415de6d0be8b383756232540ae626c9240b0de722c2d63"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/681E3140690307AA.snbt"
-hash = "e666b6bb50506c7014767b10bfd2eb583935c7cc50d64dcfde9f73269fa89ef9"
+hash = "853baa4b0a00529a10d7498fbd65a2fa323d55be2f047958547fa7964320acc2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/71282A84EFB2E6DD.snbt"
@@ -1066,7 +1066,7 @@ hash = "7cf64159f1f5127047e85422494a4fbb4b7a040fb00daaf8b536cf0b3f76ad3e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "7c056db1f055b01b8f9bb5bd8a247973502c52c6f8fc6667178cdcdad9f23ed1"
+hash = "5696f75eed3d07aa43406bd921884f55c790ae6d2332faad5c957c718e677dee"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
@@ -1074,7 +1074,7 @@ hash = "9329189ed72798e5f9ff0e7846de53d721a76c33cf6302264f1bccbe6cfafccd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "6cc738c7c62c7a964b540beac6d66019a5b8aaabc5d04843bd58120bfd1ba323"
+hash = "cc3838fafc44b5f9fb56d340a1dde7c0b890d3edc38809f9314963c40c5db4f0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv.snbt"
@@ -1090,7 +1090,7 @@ hash = "3ee451cadaa474af593541ef16ecc914aefb73bca0a929fa1fe850dafe884c78"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv.snbt"
-hash = "ac5c7acdd3d5e3fc7ef255332c38478103bf3fd609b387ce870ed5b6457b7a77"
+hash = "51f77c4a5bbc4c6120ed24bdc6acc97d96e31b468b36e649816268be0af415df"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/too_many_items.snbt"
@@ -7967,6 +7967,7 @@ hash = "59835ffaed270927b4b908786eb15441a68cf7c0a55622a718a561cd61735e2a"
 [[files]]
 file = "kubejs/config/client.properties"
 hash = "7f494ceaec382269ddc390bbbe8fee98e6489d03a5b8e74141d2d1ad50bf0cd3"
+hash = "7f494ceaec382269ddc390bbbe8fee98e6489d03a5b8e74141d2d1ad50bf0cd3"
 
 [[files]]
 file = "kubejs/config/common.properties"
@@ -8359,6 +8360,10 @@ hash = "6bb5336ebba9c581c5ace8afc181f9d7da91d2449234fabd9207df2b397776f6"
 [[files]]
 file = "kubejs/data/blood_magic/recipes/meteor/iron.json"
 hash = "4477f9c7bf4fe74e773240b28983c6b05ad9beb159c703767fcf69eaa578475b"
+
+[[files]]
+file = "kubejs/data/botania/loot_tables/elementium_axe_beheading.json"
+hash = "f7d8df319757d781d644217d00512f372b52f1d40a907a111ef1b30cd70d3d93"
 
 [[files]]
 file = "kubejs/data/botania/recipes/orechid/apatite_ore.json"
@@ -16342,7 +16347,7 @@ hash = "2ae149e0afbdb4454be0ec935e2f51531d41047da95981a7b0b6b1a1468ff4b3"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/tinkers.js"
-hash = "683a75522f66193fdfb4150a9976e5d93aab2f2b82f8df8e6f39c8d353560f4e"
+hash = "5e5fb7f9b3ae056866ae5e78c8ae7d92870e32532be3b412fadf1db832f8ea57"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/toolparts_register.js"
@@ -16382,7 +16387,7 @@ hash = "c3e96da62129a29ab52a2fadc4ecf1699c5a05d360cc0493d8a95a9c071372bb"
 
 [[files]]
 file = "kubejs/startup_scripts/src/Worldgen/worldgen.js"
-hash = "892736410438c6b3874e9bd3244d9873007964a9787e4e32285abbf009f3a0d1"
+hash = "d71d1b628b7c59ed90c3a33d35a29d73764f14d3db91175ecdee67da59f8c800"
 
 [[files]]
 file = "kubejs/startup_scripts/src/attribute/attribute_registry.js"
@@ -17502,11 +17507,6 @@ metafile = true
 [[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "49d91afd3c23759bc246077c91cbe56fcef682997d9dcf3fc467d90e6130ef6e"
-metafile = true
-
-[[files]]
-file = "mods/ticex-tinkers-construct-ex.pw.toml"
-hash = "6f0cde955f9834fa83b54657dcde00442d6233ff8cdd1ebf5d47442b80794083"
 metafile = true
 
 [[files]]

@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material",
-  "ingredient": {
-    "tag": "forge:ingots/etheric"
-  },
-  "material": "ticex:etheric",
-  "needed": 1,
-  "value": 1
-}

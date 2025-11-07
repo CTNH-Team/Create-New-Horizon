@@ -48,27 +48,30 @@
 				}
 				type: "item"
 			}]
+			shape: "gear"
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest1.subtitle}"
 			tasks: [{
 				id: "59F24DF7703134AE"
 				title: "{ftbquests.chapter.046724C96F783FC2.quest1.task_+6481328538874098862.title}"
 				type: "checkmark"
 			}]
-			x: -3.0d
+			title: "一段旅途的起点"
+			x: -0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6F2691C5808837BE"]
 			id: "47E83B3FF8355CCC"
 			shape: "hexagon"
-			size: 1.2d
+			size: 1.5d
 			tasks: [{
 				id: "2C5A6C971F246BB2"
 				item: "minecraft:bookshelf"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -3.5d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["47E83B3FF8355CCC"]
@@ -79,8 +82,8 @@
 				item: "apotheosis:hellshelf"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -6.5d
+			x: 5.5d
+			y: -4.0d
 		}
 		{
 			id: "5AC4BE02BC41744B"
@@ -89,8 +92,8 @@
 				item: "apotheosis:dormant_deepshelf"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.5d
+			x: 6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["47E83B3FF8355CCC"]
@@ -101,8 +104,8 @@
 				item: "apotheosis:seashelf"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -0.5d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["43831A18BD0D336A"]
@@ -113,7 +116,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -125,16 +128,21 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "6104F4DF3C6E3B4E"
+			rewards: [{
+				id: "056E8C36989B95D1"
+				type: "xp_levels"
+				xp_levels: 60
+			}]
 			shape: "hexagon"
-			size: 1.2d
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest7.subtitle}"
 			tasks: [{
 				id: "14A11634C17D43D8"
 				item: "apotheosis:deepshelf"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -3.5d
+			x: 8.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -142,13 +150,19 @@
 				"5B3F00585481E1B2"
 			]
 			id: "43831A18BD0D336A"
+			rewards: [{
+				count: 2
+				id: "7604EC2695E25438"
+				item: "apotheosis:infused_breath"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6895F2B58722A6D1"
 				item: "apotheosis:infused_breath"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -3.5d
+			x: 12.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6104F4DF3C6E3B4E"]
@@ -158,8 +172,8 @@
 				item: "apotheosis:echoing_sculkshelf"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -4.5d
+			x: 10.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6104F4DF3C6E3B4E"]
@@ -169,8 +183,8 @@
 				item: "apotheosis:soul_touched_sculkshelf"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -2.5d
+			x: 10.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["48200D3637CE2930"]
@@ -181,7 +195,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6104F4DF3C6E3B4E"]
@@ -191,8 +205,8 @@
 				item: "apotheosis:treasure_shelf"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.5d
+			x: 10.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -209,76 +223,77 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["59FE3A2954F3D59B"]
 			id: "29EDF9E9F07B041C"
+			rewards: [{
+				id: "6E4563A4071B7C7B"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			size: 1.5d
 			tasks: [{
 				id: "7EA027615DFC388A"
 				item: "apotheosis:ender_library"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -3.5d
+			x: 16.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["15F5B37127D13699"]
+			description: ["&m白璃的小礼物"]
 			id: "2AE229F558CEE98E"
+			rewards: [{
+				count: 2
+				id: "75C58A97169CA76E"
+				item: "ae2omnicells:ender_ingot"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [{
 				id: "369037BE82A9258C"
 				item: "apotheosis:draconic_endshelf"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -3.5d
+			x: 16.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2AE229F558CEE98E"]
 			description: ["{ftbquests.chapter.046724C96F783FC2.quest16.description1}"]
 			id: "5BFDF39A4B861556"
 			shape: "gear"
-			size: 3.0d
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest16.subtitle}"
 			tasks: [{
 				id: "68233A92F4015C0B"
 				title: "{ftbquests.chapter.046724C96F783FC2.quest16.task_+7503905806962744331.title}"
 				type: "checkmark"
 			}]
-			x: 18.5d
-			y: -3.5d
+			x: 16.5d
+			y: -4.0d
 		}
 		{
-			id: "7A19FD6650532E2F"
-			shape: "gear"
-			size: 3.0d
-			tasks: [{
-				id: "226E648B49E32A10"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "apotheosis:apoth_chronicle"
-					}
-				}
+			dependencies: ["1338FE50BBDCF412"]
+			id: "6F2691C5808837BE"
+			rewards: [{
+				count: 2
+				id: "74CE4F97D05DBD1A"
+				item: "minecraft:diamond"
 				type: "item"
 			}]
-			title: "一段征途的起点"
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7A19FD6650532E2F"]
-			id: "6F2691C5808837BE"
 			shape: "rsquare"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "39D1481EA2FBECBC"
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3951CDD106AEED79"]
@@ -288,8 +303,8 @@
 				item: "apotheosis:blazing_hellshelf"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -4.5d
+			x: 6.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3951CDD106AEED79"]
@@ -299,8 +314,8 @@
 				item: "apotheosis:glowing_hellshelf"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -6.5d
+			x: 7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2A9C751134DC1A4E"]
@@ -311,8 +326,8 @@
 				item: "apotheosis:infused_hellshelf"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -5.5d
+			x: 6.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3951CDD106AEED79"]
@@ -322,8 +337,8 @@
 				item: "apotheosis:sightshelf"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -7.5d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["48200D3637CE2930"]
@@ -333,8 +348,8 @@
 				item: "apotheosis:crystal_seashelf"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -0.5d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["48200D3637CE2930"]
@@ -344,8 +359,8 @@
 				item: "apotheosis:heart_seashelf"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.5d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6746637E7BE5AA2D"]
@@ -356,8 +371,8 @@
 				item: "apotheosis:infused_seashelf"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.5d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["48200D3637CE2930"]
@@ -367,8 +382,8 @@
 				item: "apotheosis:rectifier_t2"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.5d
+			x: 6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3951CDD106AEED79"]
@@ -378,8 +393,8 @@
 				item: "apotheosis:sightshelf"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -5.5d
+			x: 7.0d
+			y: -5.0d
 		}
 		{
 			id: "008986F2B64A17BD"
@@ -388,8 +403,8 @@
 				item: "apotheosis:melonshelf"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			id: "770053CE0E3E53F2"
@@ -398,8 +413,8 @@
 				item: "apotheosis:beeshelf"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			id: "50FD4B6DBEE92B39"
@@ -408,8 +423,8 @@
 				item: "apotheosis:stoneshelf"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.0d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
 			id: "6551323759514619"
@@ -418,8 +433,8 @@
 				item: "apotheosis:other_tome"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 0.5d
+			x: 11.0d
+			y: 1.0d
 		}
 		{
 			id: "0799C38601B9DAE5"
@@ -428,48 +443,60 @@
 				item: "apotheosis:scrap_tome"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.5d
+			x: 10.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["7A19FD6650532E2F"]
+			dependencies: ["1338FE50BBDCF412"]
 			id: "70EEEE7E5F39EDCC"
 			shape: "rsquare"
-			size: 2.0d
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.36A2F40CC894ECAF.quest1.subtitle}"
 			tasks: [{
 				id: "2616D43437FC37B5"
 				item: "minecraft:spawner"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["7A19FD6650532E2F"]
+			dependencies: ["1338FE50BBDCF412"]
 			id: "17FBDF16B1271B53"
+			rewards: [{
+				count: 2
+				id: "3FD504B110EF9120"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
 			shape: "rsquare"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "62A90F395EC50D9C"
 				item: "minecraft:anvil"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.5d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["17FBDF16B1271B53"]
 			id: "756CFC3B00008653"
+			rewards: [{
+				count: 8
+				id: "04D148C366C75D2C"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
 			shape: "hexagon"
-			size: 1.2d
+			size: 1.0d
 			tasks: [{
 				id: "172BD42E0071F4A2"
 				item: "apotheosis:gem_dust"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.5d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["756CFC3B00008653"]
@@ -479,8 +506,8 @@
 				item: "apotheosis:simple_reforging_table"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.5d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["756CFC3B00008653"]
@@ -490,8 +517,8 @@
 				item: "apotheosis:gem_cutting_table"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 5.0d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["756CFC3B00008653"]
@@ -501,31 +528,27 @@
 				item: "apotheosis:salvaging_table"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.0d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3B3F3B50CF1C343C"]
+			description: ["&m白璃的小礼物x2"]
 			id: "5504A62A7A952909"
+			rewards: [{
+				count: 2
+				id: "2ADB38D2B7985741"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [{
 				id: "6996996A620EC8D6"
 				item: "apotheosis:reforging_table"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 16.5d
 			y: 2.0d
-		}
-		{
-			dependencies: ["17FBDF16B1271B53"]
-			hide_dependency_lines: true
-			id: "1A46729B7A942BE0"
-			tasks: [{
-				id: "0A0BCCBF03285206"
-				item: "apotheosis:augmenting_table"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 5.0d
 		}
 		{
 			id: "0E9BE949349D607B"
@@ -534,8 +557,8 @@
 				item: "apotheosis:gem_fused_slate"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 3.5d
+			x: 10.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0E9BE949349D607B"]
@@ -545,8 +568,8 @@
 				item: "apotheosis:sigil_of_enhancement"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 5.0d
+			x: 12.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0E9BE949349D607B"]
@@ -556,8 +579,8 @@
 				item: "apotheosis:sigil_of_rebirth"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 6.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0E9BE949349D607B"]
@@ -567,7 +590,7 @@
 				item: "apotheosis:sigil_of_unnaming"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.0d
 			y: 4.0d
 		}
 		{
@@ -578,8 +601,8 @@
 				item: "apotheosis:sigil_of_socketing"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 3.0d
+			x: 11.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0E9BE949349D607B"]
@@ -589,8 +612,8 @@
 				item: "apotheosis:sigil_of_rebirth"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 1.0d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0E9BE949349D607B"]
@@ -600,8 +623,8 @@
 				item: "apotheosis:sigil_of_withdrawal"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 2.0d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			id: "481BEB39783A1A4A"
@@ -611,8 +634,19 @@
 				title: "地球恩惠效果已被移除"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: -5.5d
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["17FBDF16B1271B53"]
+			id: "47CBABE87E7E702A"
+			tasks: [{
+				id: "252876C5AF308A44"
+				item: "apotheosis:augmenting_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
 		}
 	]
 	title: "{ftbquests.chapter.046724C96F783FC2.title}"

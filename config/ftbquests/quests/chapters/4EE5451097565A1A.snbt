@@ -5,7 +5,7 @@
 	group: "4D1B16DFEF4B34DD"
 	icon: "artifacts:villager_hat"
 	id: "4EE5451097565A1A"
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
