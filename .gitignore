@@ -23,7 +23,6 @@
 natives-*/
 /.probe/
 /hs_err_pid16740.log
-/options.txt
 /rhino.local.properties
 /patchouli_data.json
 /patchouli_books/

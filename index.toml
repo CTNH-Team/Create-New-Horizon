@@ -16377,6 +16377,10 @@ hash = "fcc74e53e0152eb6cad879fdd3bafccb610728cb50792fe9686d3a0c0cba5b52"
 metafile = true
 
 [[files]]
+file = "options.txt"
+hash = "951051200053b8a088d69802a640f6d4417977282e9883440c883d56bcbbe2b4"
+
+[[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"
 hash = "1b0e56cbb6c6c613060aaf6c086e0bfac5b868a6a0f549179cab6aa968b9064b"
 

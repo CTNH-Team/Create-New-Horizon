@@ -27,7 +27,6 @@
 *-natives/
 natives-*/
 /.probe/
-/options.txt
 /rhino.local.properties
 /patchouli_data.json
 /patchouli_books/
