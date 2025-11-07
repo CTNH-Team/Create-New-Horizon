@@ -132,7 +132,7 @@
 				type: "item"
 			}]
 			x: -20.0d
-			y: -13.5d
+			y: -14.0d
 		}
 		{
 			description: [""]
@@ -213,8 +213,12 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["73409F231880358F"]
+			dependencies: [
+				"73409F231880358F"
+				"5B882B9AFD650138"
+			]
 			id: "637A10CE158A936B"
+			size: 1.5d
 			tasks: [{
 				id: "6DCF2EE40D670667"
 				item: "ctnhcore:space_photovoltai_cbase_station"

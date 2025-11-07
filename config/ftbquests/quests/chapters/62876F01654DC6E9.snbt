@@ -1116,6 +1116,12 @@
 				"{ftbquests.chapter.62876F01654DC6E9.quest73.description3}"
 			]
 			id: "012DF22FC3551C63"
+			rewards: [{
+				count: 8
+				id: "44413F4340917C07"
+				item: "minecraft:netherite_block"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest73.subtitle}"

@@ -1207,7 +1207,7 @@
 				title: "硅岩处理"
 				type: "checkmark"
 			}]
-			title: "7—硅岩处理"
+			title: "⑦—硅岩处理"
 			x: -5.5d
 			y: 4.0d
 		}
@@ -1282,6 +1282,1017 @@
 			title: "②—铝处理"
 			x: 8.5d
 			y: -9.0d
+		}
+		{
+			dependencies: ["27F0DABAEDC00D7A"]
+			id: "724B4D5BE66CEEEA"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.zpm.quest44.subtitle}"
+			tasks: [{
+				id: "5AAC284D6B71B777"
+				item: "gtceu:flawless_tungstencu_diamond_plating_gem"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["724B4D5BE66CEEEA"]
+			id: "56D0FDB6842D38C2"
+			tasks: [{
+				id: "3A4564E18643E485"
+				item: "ctnhcore:tungstencu_diamond_plating_casing"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["56D0FDB6842D38C2"]
+			id: "52156F99511B7A7E"
+			subtitle: "{ftbquests.chapter.zpm.quest48.subtitle}"
+			tasks: [{
+				id: "4F96B6D82E030080"
+				item: "ctnhcore:bedrock_drilling_rigs"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["52156F99511B7A7E"]
+			id: "7C395777B5E4B556"
+			tasks: [{
+				id: "61AD43FCA2A5D6AC"
+				item: "gtceu:bedrock_fog_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["52156F99511B7A7E"]
+			dependency_requirement: "one_completed"
+			id: "0FE50A78729EF06F"
+			tasks: [{
+				id: "49AB899471113196"
+				item: "gtceu:bedrock_dust_dust"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["7C395777B5E4B556"]
+			id: "66CBB62D5F481442"
+			tasks: [{
+				id: "7F56FEC12E2431A2"
+				item: "gtceu:bedrock_fog_re_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["66CBB62D5F481442"]
+			id: "09C61D8252E71217"
+			tasks: [{
+				id: "1EDB910FCB2858A0"
+				item: "gtceu:bedrock_dust_solution_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["09C61D8252E71217"]
+			id: "09B8C8F2910B213B"
+			tasks: [{
+				id: "0B83C269280D287D"
+				item: "gtceu:bedrock_fog_re_l_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["09C61D8252E71217"]
+			id: "3C9769EB35BB245D"
+			tasks: [{
+				id: "491E555BD9674E2E"
+				item: "gtceu:bedrock_fog_re_m_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["09C61D8252E71217"]
+			id: "5F62A5F28D4E67CD"
+			tasks: [{
+				id: "5800F4C080B1545F"
+				item: "gtceu:bedrock_fog_re_h_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"5F62A5F28D4E67CD"
+				"09B8C8F2910B213B"
+				"3C9769EB35BB245D"
+			]
+			id: "2BB03484D6971028"
+			subtitle: "{ftbquests.chapter.zpm.quest58.subtitle}"
+			tasks: [{
+				id: "19B9754ACA92787A"
+				item: "gtceu:taranliquid_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2BB03484D6971028"]
+			id: "0C3A37B3C7EA9D4C"
+			tasks: [{
+				id: "61386F0B1EB3EE90"
+				item: "gtceu:bedrock_smoke_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"2BB03484D6971028"
+				"58441BB27FBCA1A9"
+			]
+			dependency_requirement: "one_completed"
+			id: "5604BB8175576E0C"
+			tasks: [{
+				id: "29A8F7B9D3146FC0"
+				item: "gtceu:taranmix_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0C3A37B3C7EA9D4C"]
+			id: "71E3A0DDE60A49D3"
+			tasks: [{
+				id: "38EA728DA424F5A6"
+				item: "gtceu:bedrock_smoke_re_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["71E3A0DDE60A49D3"]
+			id: "334AA2BE260C0632"
+			tasks: [{
+				id: "505B737401CCB747"
+				item: "gtceu:bedrock_soot_solution_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"334AA2BE260C0632"
+				"12BAF2B7FB2E3643"
+			]
+			id: "68D37F157D0FD99A"
+			tasks: [{
+				id: "2E0FC33EFBDD1F34"
+				item: "gtceu:f_bedrock_smoke_re_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["68D37F157D0FD99A"]
+			id: "181F08E5E126C286"
+			tasks: [{
+				id: "40BFFF4222D2839B"
+				item: "gtceu:bedrock_smoke_re_l_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["68D37F157D0FD99A"]
+			id: "597174098C5DB38F"
+			tasks: [{
+				id: "332E1333AA542B17"
+				item: "gtceu:bedrock_smoke_re_m_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["68D37F157D0FD99A"]
+			id: "5E1B6CB06C6BE78D"
+			tasks: [{
+				id: "4CAF7BF9402F240F"
+				item: "gtceu:bedrock_smoke_re_h_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 15.5d
+		}
+		{
+			id: "58441BB27FBCA1A9"
+			invisible: true
+			tasks: [{
+				id: "36337ECE3245C12D"
+				item: "gtceu:taranmix_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			id: "6A6BBE540A631C28"
+			tasks: [{
+				id: "50024080885BB4AC"
+				item: "gtceu:helium_3_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"6A6BBE540A631C28"
+				"5604BB8175576E0C"
+			]
+			id: "4B63F560AED06615"
+			tasks: [{
+				id: "5708264978E37912"
+				item: "gtceu:taranium_dirty_helium3_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4B63F560AED06615"]
+			id: "62609CF4F1F38684"
+			tasks: [{
+				id: "686DC51463826630"
+				item: "gtceu:taranium_enriched_liquid_helium3_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4B63F560AED06615"]
+			id: "1BEC6EF7F134246C"
+			subtitle: "{ftbquests.chapter.zpm.quest75.subtitle}"
+			tasks: [{
+				id: "42E1C3E073E2B567"
+				item: "gtceu:taranium_half_life_liquid_helium3_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4B63F560AED06615"]
+			id: "6BA4CB553EC55C19"
+			tasks: [{
+				id: "3B590D09B38EC12A"
+				item: "gtceu:taranium_depleted_liquid_helium3_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["62609CF4F1F38684"]
+			id: "54E333E8246FEB61"
+			tasks: [{
+				id: "670B69EF1A4A059C"
+				item: "gtceu:taranium_enriched_dirty_helium_plasma_plasma_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			id: "46D6EADF05BA41A6"
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.zpm.quest78.subtitle}"
+			tasks: [{
+				id: "30E70EF8D3C1BB40"
+				item: "ctnhcore:plasma_condenser"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["54E333E8246FEB61"]
+			id: "3ACE869B39F2C474"
+			tasks: [{
+				id: "7D511A9A8587886A"
+				item: "gtceu:taranium_enriched_helium4_plasma_plasma_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["54E333E8246FEB61"]
+			id: "61DA0BA84F78E0BE"
+			tasks: [{
+				id: "5A4D46C9CB2DB3F8"
+				item: "gtceu:taranium_depleted_helium_plasma_plasma_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"3ACE869B39F2C474"
+				"46D6EADF05BA41A6"
+			]
+			id: "32D42F3CA03A58C3"
+			tasks: [{
+				id: "5C00048BF77F7086"
+				item: "gtceu:taranium_enriched_liquid_helium4_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"61DA0BA84F78E0BE"
+				"3D8452059DA66415"
+			]
+			dependency_requirement: "one_completed"
+			id: "219E9B48DE93781A"
+			subtitle: "{ftbquests.chapter.zpm.quest82.subtitle}"
+			tasks: [{
+				id: "0BC89185D02D603B"
+				item: "gtceu:adamant_mud_dust"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"32D42F3CA03A58C3"
+				"6DA47B5F8955B00E"
+			]
+			dependency_requirement: "one_completed"
+			id: "7FB819E46B3F2404"
+			subtitle: "{ftbquests.chapter.zpm.quest83.subtitle}"
+			tasks: [{
+				id: "156369CEF2DBB2DA"
+				item: "gtceu:taranium_powder_dust"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["32D42F3CA03A58C3"]
+			id: "3D8452059DA66415"
+			tasks: [{
+				id: "037013F70928C027"
+				item: "gtceu:taranium_depleted_liquid_helium_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.5d
+		}
+		{
+			id: "2EB87027F157815D"
+			subtitle: "{ftbquests.chapter.zpm.quest85.subtitle}"
+			tasks: [{
+				id: "3D229CD3DB82C461"
+				item: "gtceu:p507_extractant_bucket"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"2EB87027F157815D"
+				"219E9B48DE93781A"
+			]
+			id: "73FEBDBA63D96DDA"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.zpm.quest86.subtitle}"
+			tasks: [{
+				id: "1DA28993B0247EA8"
+				item: "gtceu:adamantiteliquid_bucket"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["73FEBDBA63D96DDA"]
+			id: "2D51C78311A72F33"
+			tasks: [{
+				id: "09B45306B6EA84C5"
+				item: "gtceu:chalcogen_anode_mud_dust"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["73FEBDBA63D96DDA"]
+			id: "7A49E5931F2C7453"
+			tasks: [{
+				id: "0270ED0BCD2B048E"
+				item: "gtceu:refined_gold_aq_bucket"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7A49E5931F2C7453"]
+			id: "3B20DB28F8A96FC0"
+			subtitle: "{ftbquests.chapter.zpm.quest89.subtitle}"
+			tasks: [{
+				id: "01CF780BB688157C"
+				item: "gtceu:adamantite_dust"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3B20DB28F8A96FC0"]
+			id: "5E6B17A680E8AD50"
+			tasks: [{
+				id: "7D401634BB90D2D8"
+				item: "gtceu:adamantite_plasma_bucket"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5E6B17A680E8AD50"]
+			dependency_requirement: "one_completed"
+			id: "5DF0169DBCDEFE61"
+			rewards: [{
+				count: 3
+				id: "6095408ACA7A1A4E"
+				item: "gtceu:adamantite_block"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.zpm.quest91.subtitle}"
+			tasks: [{
+				id: "7C005989A82F0622"
+				item: "gtceu:adamantite_ingot"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 8.5d
+		}
+		{
+			id: "6DA47B5F8955B00E"
+			invisible: true
+			tasks: [{
+				id: "10CFB9D503D8511E"
+				item: "gtceu:taranium_powder_dust"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"0FE50A78729EF06F"
+				"2C77397CCBCBE7EF"
+			]
+			id: "68F1E652B8BA5A07"
+			subtitle: "把两个最硬的东西混起来会发生什么？"
+			tasks: [{
+				id: "2A773B7AF70575BE"
+				item: "gtceu:bedrock_neutronium_dust"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 17.5d
+		}
+		{
+			id: "27F0DABAEDC00D7A"
+			size: 1.25d
+			tasks: [{
+				id: "7C7167A73FAF2133"
+				title: "⑧—基岩处理"
+				type: "checkmark"
+			}]
+			x: -15.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"181F08E5E126C286"
+				"597174098C5DB38F"
+				"5E1B6CB06C6BE78D"
+			]
+			id: "71CEB2AFBDDE7B31"
+			tasks: [{
+				id: "709E7379F28B1AB9"
+				item: "gtceu:ax_jiyanqi_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["71CEB2AFBDDE7B31"]
+			id: "0C8A3A38C8A69F95"
+			tasks: [{
+				id: "5C7AEB6CCAB8FBF8"
+				item: "gtceu:bedrock_gas_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"71CEB2AFBDDE7B31"
+				"4E5E3B834FAA8C67"
+			]
+			dependency_requirement: "one_completed"
+			id: "736613239A0FDD32"
+			tasks: [{
+				id: "7373079B4D3DB9E6"
+				item: "gtceu:radioactive_metals_mix_dust"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0C8A3A38C8A69F95"]
+			id: "4E5E3B834FAA8C67"
+			tasks: [{
+				id: "698BB6EEFE70088E"
+				item: "gtceu:bedrock_gas_re_bucket"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"4E5E3B834FAA8C67"
+				"5F669351E929DE13"
+			]
+			id: "62C818606820AC3A"
+			subtitle: "{ftbquests.chapter.uv.quest23.subtitle}"
+			tasks: [{
+				id: "65A07E985B66B699"
+				item: "gtceu:dr_bedrock_gas_re_bucket"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 13.5d
+		}
+		{
+			id: "79FF9CC1122C2362"
+			tasks: [
+				{
+					id: "1143DB72F6754EC9"
+					item: "gtceu:uranium_235_dust"
+					type: "item"
+				}
+				{
+					id: "470ED1315DB370DF"
+					item: "gtceu:plutonium_241_dust"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.uv.quest24.title}"
+			x: 11.5d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"79FF9CC1122C2362"
+				"736613239A0FDD32"
+			]
+			id: "20538FF9D09E4A55"
+			tasks: [{
+				id: "17066A5D717349AA"
+				item: "gtceu:enrich_radioactive_waste_dust"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["20538FF9D09E4A55"]
+			id: "799170F56DEEA43F"
+			tasks: [{
+				id: "618902A3F5A047AF"
+				item: "gtceu:radioactive_ion_solution_bucket"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["799170F56DEEA43F"]
+			id: "109A8810A3C205AB"
+			tasks: [{
+				id: "62FB5785B1C372E4"
+				item: "gtceu:neutron_irradiation_of_radioactive_waste_bucket"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["109A8810A3C205AB"]
+			id: "7565AACEF5040B8D"
+			tasks: [{
+				id: "0FE2F8513460444D"
+				item: "gtceu:radiation_dust_dust"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7565AACEF5040B8D"]
+			id: "6286B016F7A21B39"
+			subtitle: "{ftbquests.chapter.uv.quest29.subtitle}"
+			tasks: [{
+				id: "15A68F85CEBA29F9"
+				item: "gtceu:radioactive_metal_ingot_ingot"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["6286B016F7A21B39"]
+			id: "516FF6C64567223F"
+			tasks: [{
+				id: "6B5B2ED54030D4B0"
+				item: "gtceu:low_level_radioactive_dust_bucket"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["6286B016F7A21B39"]
+			id: "6A6ABE5772951DB4"
+			tasks: [{
+				id: "60AC5FD1474505E7"
+				item: "gtceu:high_level_radioactive_dust_bucket"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["516FF6C64567223F"]
+			id: "239256DEE547E22D"
+			tasks: [{
+				id: "1A3432EA34CA16B5"
+				item: "gtceu:concentrated_low_level_radioactive_dust_bucket"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["6A6ABE5772951DB4"]
+			id: "49E9D581D9A44DCF"
+			tasks: [{
+				id: "5EDB13733579DF02"
+				item: "gtceu:concentrated_high_level_radioactive_dust_bucket"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"49E9D581D9A44DCF"
+				"239256DEE547E22D"
+			]
+			description: ["{ftbquests.chapter.uv.quest34.description1}"]
+			id: "331F72B7D40A7538"
+			subtitle: "{ftbquests.chapter.uv.quest34.subtitle}"
+			tasks: [{
+				id: "040D2994DEAAE849"
+				item: "gtceu:aether_plasma_bucket"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["331F72B7D40A7538"]
+			id: "782DCCEF9924E406"
+			tasks: [{
+				id: "73F5679696102B8F"
+				item: "gtceu:aether_bucket"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"7FB819E46B3F2404"
+				"7C250EA72ABD6BB4"
+			]
+			id: "32B6ED52A989A278"
+			tasks: [{
+				id: "4A88BBB1DD0E3DEE"
+				item: "gtceu:living_metal_pre_bucket"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"32B6ED52A989A278"
+				"08A97EFE678E2419"
+				"48C925CF7AA58864"
+				"6EBC3B65C9660015"
+			]
+			id: "05A23C4F88D2D450"
+			tasks: [{
+				id: "24D6B9533F66854A"
+				item: "gtceu:living_metal_bucket"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["05A23C4F88D2D450"]
+			id: "1D140C1A1D82670E"
+			size: 1.0d
+			tasks: [{
+				id: "3BCF1A5D84EA8AE9"
+				item: "gtceu:oracle_dust"
+				type: "item"
+			}]
+			title: "神谕之粉"
+			x: 29.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"62C818606820AC3A"
+				"511D5305BC579F35"
+			]
+			id: "77D30F6C38DB4B83"
+			tasks: [{
+				id: "3F27EE864D308F20"
+				item: "gtceu:bedrock_gas_re_l_bucket"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"62C818606820AC3A"
+				"511D5305BC579F35"
+			]
+			id: "7DED10B400A33933"
+			tasks: [{
+				id: "12196CF4359AC0E9"
+				item: "gtceu:bedrock_gas_re_m_bucket"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"62C818606820AC3A"
+				"511D5305BC579F35"
+			]
+			id: "4831A750BE325D1A"
+			tasks: [{
+				id: "788C116B64A27D12"
+				item: "gtceu:bedrock_gas_re_h_bucket"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3F27EE864D308F20"]
+			id: "08A97EFE678E2419"
+			tasks: [{
+				id: "0EB4069F3C3845BD"
+				item: "gtceu:taranliquidfuel_l_bucket"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["12196CF4359AC0E9"]
+			id: "6EBC3B65C9660015"
+			tasks: [{
+				id: "2E0A38A1DD8E0AF6"
+				item: "gtceu:taranliquidfuel_m_bucket"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["788C116B64A27D12"]
+			id: "48C925CF7AA58864"
+			tasks: [{
+				id: "75707B66D9856C15"
+				item: "gtceu:taranliquidfuel_h_bucket"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"77D30F6C38DB4B83"
+				"7DED10B400A33933"
+				"4831A750BE325D1A"
+			]
+			description: ["{ftbquests.chapter.uhv.quest9.description1}"]
+			id: "0921AD39C8509CE9"
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.uhv.quest9.subtitle}"
+			tasks: [{
+				id: "27C8F2426A80B994"
+				item: "gtceu:boundless_dust"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["782DCCEF9924E406"]
+			id: "7F81295FE18741A6"
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.uv.quest36.subtitle}"
+			tasks: [{
+				id: "6505A75DAEE23A90"
+				item: "gtceu:aether_ingot"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["6286B016F7A21B39"]
+			id: "2C77397CCBCBE7EF"
+			tasks: [{
+				id: "388836CE2FC77DF7"
+				item: "gtceu:neutronium_mixture_dust"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"0921AD39C8509CE9"
+				"5DF0169DBCDEFE61"
+				"1D140C1A1D82670E"
+				"7F81295FE18741A6"
+			]
+			description: ["&d&l&o&n感谢所有游玩ctnh整合包的玩家、是你们给了我们创作的动力、今后我们也会一步一步、脚踏实地的产出更优质的内容哦~"]
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-1770885103
+							-8500089
+							-1719850181
+							1737227114
+						]
+						Name: "Musicart_unnmei"
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTc2MjUwMzMxNDEwOSwKICAicHJvZmlsZUlkIiA6ICI5NjcyNzAxMWZmN2U0Yzg3OTk3ZDJiM2I2NzhiZmI2YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNdXNpY2FydF91bm5tZWkiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFmYTRjNjVkNmYyZTQ0N2Y0ODMwMDU1N2IyNmM4MzA3YTIwM2ZjZjMwYTFiMWY0MjM5N2Q0NzExZGVlNTY3ZSIKICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+				}
+			}
+			id: "41A39E68809E9480"
+			rewards: [
+				{
+					id: "2902176A2F8934B8"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_totem"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7006B3ED28508BC0"
+					item: "avaritia:densest_neutron_collector"
+					type: "item"
+				}
+				{
+					id: "63826B33814E2074"
+					item: {
+						Count: 1
+						id: "ae2omnicells:portable_quantum_omni_cell_256m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5C775C4B82C1F49F"
+					item: "ae2omnicells:quantum_crafting_storage_256m_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "65E105E45678D41D"
+					item: "kubejs:echo_processor_mainframe"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "你真的很能处理"
+			tasks: [{
+				id: "32C420FD05D1D9CD"
+				title: "Yuriko想对你说"
+				type: "checkmark"
+			}]
+			x: 33.0d
+			y: 12.0d
+		}
+		{
+			id: "12BAF2B7FB2E3643"
+			tasks: [{
+				id: "6D888DD2B4AB01D4"
+				title: "stage—2"
+				type: "checkmark"
+			}]
+			title: "UV处理"
+			x: 5.5d
+			y: 15.5d
+		}
+		{
+			id: "5F669351E929DE13"
+			tasks: [{
+				id: "1A2D771D11092AFB"
+				title: "UHV处理"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 12.5d
+		}
+		{
+			id: "7C250EA72ABD6BB4"
+			tasks: [{
+				id: "4FBFA0E1DDC049BA"
+				title: "UEV处理"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 11.5d
 		}
 	]
 	title: "{ftbquests.chapter.177DD3C4E2D1113C.title}"

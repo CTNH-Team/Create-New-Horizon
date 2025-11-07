@@ -773,6 +773,17 @@
 			x: -23.0d
 			y: 1.0d
 		}
+		{
+			id: "2F497F4992DEF6E2"
+			tasks: [{
+				id: "1B550F421DF0E063"
+				title: "工业血魔法多方块也在这里"
+				type: "checkmark"
+			}]
+			title: "工业血魔法多方块在这里哦"
+			x: -17.0d
+			y: -17.0d
+		}
 	]
 	title: "Mana多方块"
 }
