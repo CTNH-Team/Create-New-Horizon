@@ -10,70 +10,93 @@
 		{
 			id: "7B5E8515958F337F"
 			linked_quest: "65E0B77C49C4F584"
-			x: 0.5d
-			y: 10.0d
+			x: 12.5d
+			y: 7.5d
 		}
 		{
-			id: "546244696CB15F85"
-			linked_quest: "7623D2206370CA76"
-			x: -1.5d
-			y: 6.5d
+			id: "6AEE19AD9514AAAE"
+			linked_quest: "637A10CE158A936B"
+			shape: "rsquare"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			id: "02497A4D3A125248"
+			linked_quest: "6CA56307669FD197"
+			shape: "rsquare"
+			size: 2.0d
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "068BF52FD0EF49DD"
+			linked_quest: "008A90953EEF0008"
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			id: "033B6B6DC8CCF3E8"
+			linked_quest: "352A6F62ED6692B3"
+			x: 18.5d
+			y: 3.5d
 		}
 	]
 	quests: [
 		{
+			dependencies: ["6CA56307669FD197"]
 			id: "07D0FD2AC4C767B2"
 			shape: "gear"
-			size: 2.0d
+			size: 1.0d
+			subtitle: "我好想逃~"
 			tasks: [{
 				id: "6B9EF7A18ADE73D7"
 				item: "gtceu:zpm_machine_hull"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.0d
+			x: 6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
-				"07D0FD2AC4C767B2"
 				"74B398F5468F8A36"
 				"4033E5511E9C50EA"
 			]
 			id: "7D4DBB785B16A377"
+			size: 1.5d
 			tasks: [{
 				id: "777C8308AAD3F137"
 				item: "gtceu:zpm_energy_input_hatch"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 15.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["1010CB5EC52EFAF5"]
+			dependencies: ["6103104855B728EE"]
 			id: "74B398F5468F8A36"
 			tasks: [{
 				id: "0B84192182E27CAA"
 				item: "gtceu:zpm_voltage_coil"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.0d
+			x: 12.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
 				"74B398F5468F8A36"
-				"07D0FD2AC4C767B2"
 				"4033E5511E9C50EA"
 			]
 			id: "5B882B9AFD650138"
+			size: 1.0d
 			subtitle: "你将面对的是ZPM四巨头，你畏惧了吗"
 			tasks: [{
 				id: "3DAF14109B87DA6F"
 				item: "gtceu:zpm_energy_output_hatch"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 1.5d
+			x: 12.5d
+			y: 3.5d
 		}
 		{
 			id: "4033E5511E9C50EA"
@@ -82,15 +105,16 @@
 				item: "gtceu:uhpic_chip"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 4.0d
+			x: 15.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
 				"7D4DBB785B16A377"
 				"16DEC7A6999A22F5"
-				"2C5AAAE7171632CA"
 				"019F2136970CA2E1"
+				"008A90953EEF0008"
+				"3B1B0C46A962A714"
 			]
 			id: "0B162359CC259A9F"
 			tasks: [{
@@ -98,7 +122,7 @@
 				item: "gtceu:zpm_fusion_reactor"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 18.5d
 			y: 1.5d
 		}
 		{
@@ -109,8 +133,8 @@
 				item: "gtceu:fusion_casing_mk2"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 18.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7D4DBB785B16A377"]
@@ -120,7 +144,7 @@
 				item: "gtceu:fusion_coil"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 18.5d
 			y: -0.5d
 		}
 		{
@@ -132,7 +156,7 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.zpm.quest16.title}"
-			x: 4.0d
+			x: 21.5d
 			y: 1.5d
 		}
 		{
@@ -143,8 +167,8 @@
 				item: "gtceu:tritanium_ingot"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.5d
+			x: 21.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["173C1ED446EF4D39"]
@@ -155,8 +179,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.zpm.quest18.title}"
-			x: 6.0d
-			y: -0.5d
+			x: 21.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["173C1ED446EF4D39"]
@@ -167,8 +191,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.zpm.quest19.title}"
-			x: 6.0d
-			y: 3.5d
+			x: 22.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["173C1ED446EF4D39"]
@@ -178,7 +202,7 @@
 				item: "gtceu:americium_ingot"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 22.0d
 			y: 2.5d
 		}
 		{
@@ -192,7 +216,7 @@
 				item: "gtceu:darmstadtium_ingot"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 24.5d
 			y: 1.5d
 		}
 		{
@@ -204,15 +228,15 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 2.0d
+			size: 1.0d
 			subtitle: "更好的发电机，记得烧硅岩基燃料，其他基燃料非常弱"
 			tasks: [{
 				id: "5DE0B367ED3325C4"
 				item: "ctnhcore:large_naquadah_reactor"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 1.5d
+			x: 13.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["749B5293C2B313D2"]
@@ -222,8 +246,8 @@
 				item: "gtceu:neuro_processing_unit"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 8.0d
+			x: 6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -236,8 +260,8 @@
 				item: "gtceu:wetware_processor"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 8.0d
+			x: 9.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["13756D7E0FDA4B9E"]
@@ -247,8 +271,8 @@
 				item: "gtceu:wetware_processor_assembly"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.0d
+			x: 12.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -263,8 +287,8 @@
 				item: "gtceu:wetware_processor_computer"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 8.0d
+			x: 15.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -279,604 +303,19 @@
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 8.0d
+			x: 18.5d
+			y: 5.5d
 		}
 		{
-			id: "724B4D5BE66CEEEA"
-			subtitle: "{ftbquests.chapter.zpm.quest44.subtitle}"
-			tasks: [{
-				id: "5AAC284D6B71B777"
-				item: "gtceu:flawless_tungstencu_diamond_plating_gem"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["724B4D5BE66CEEEA"]
-			id: "6481C8B090895CAE"
-			tasks: [{
-				id: "7F203FB3284F00D7"
-				item: "gtceu:tungstencu_diamond_plating_frame"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["724B4D5BE66CEEEA"]
-			id: "5D3B0E9F56AA49C1"
-			tasks: [{
-				id: "5C7D719849DD6541"
-				item: "gtceu:tungstencu_diamond_plating_plate"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"6481C8B090895CAE"
-				"5D3B0E9F56AA49C1"
-			]
-			id: "56D0FDB6842D38C2"
-			tasks: [{
-				id: "3A4564E18643E485"
-				item: "ctnhcore:tungstencu_diamond_plating_casing"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["56D0FDB6842D38C2"]
-			id: "52156F99511B7A7E"
-			subtitle: "{ftbquests.chapter.zpm.quest48.subtitle}"
-			tasks: [{
-				id: "4F96B6D82E030080"
-				item: "ctnhcore:bedrock_drilling_rigs"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["52156F99511B7A7E"]
-			id: "7C395777B5E4B556"
-			tasks: [{
-				id: "61AD43FCA2A5D6AC"
-				item: "gtceu:bedrock_fog_bucket"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["52156F99511B7A7E"]
-			dependency_requirement: "one_completed"
-			id: "0FE50A78729EF06F"
-			tasks: [{
-				id: "49AB899471113196"
-				item: "gtceu:bedrock_dust_dust"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["7C395777B5E4B556"]
-			id: "66CBB62D5F481442"
-			tasks: [{
-				id: "7F56FEC12E2431A2"
-				item: "gtceu:bedrock_fog_re_bucket"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["66CBB62D5F481442"]
-			id: "09C61D8252E71217"
-			tasks: [{
-				id: "1EDB910FCB2858A0"
-				item: "gtceu:bedrock_dust_solution_bucket"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["09C61D8252E71217"]
-			id: "09B8C8F2910B213B"
-			tasks: [{
-				id: "0B83C269280D287D"
-				item: "gtceu:bedrock_fog_re_l_bucket"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["09C61D8252E71217"]
-			id: "3C9769EB35BB245D"
-			tasks: [{
-				id: "491E555BD9674E2E"
-				item: "gtceu:bedrock_fog_re_m_bucket"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["09C61D8252E71217"]
-			id: "5F62A5F28D4E67CD"
-			tasks: [{
-				id: "5800F4C080B1545F"
-				item: "gtceu:bedrock_fog_re_h_bucket"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -2.5d
-		}
-		{
-			dependencies: [
-				"5F62A5F28D4E67CD"
-				"09B8C8F2910B213B"
-				"3C9769EB35BB245D"
-			]
-			id: "2BB03484D6971028"
-			subtitle: "{ftbquests.chapter.zpm.quest58.subtitle}"
-			tasks: [{
-				id: "19B9754ACA92787A"
-				item: "gtceu:taranliquid_bucket"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -3.5d
-		}
-		{
-			id: "0F40909AA29B15AB"
-			tasks: [{
-				id: "2E581C468B48B82C"
-				title: "{ftbquests.chapter.zpm.quest59.task_+3339450213005309996.title}"
-				type: "checkmark"
-			}]
-			x: 5.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["2C5AAAE7171632CA"]
+			dependencies: ["008A90953EEF0008"]
 			id: "74E26D593C100718"
 			tasks: [{
 				id: "7DBE65E40DF0A28E"
 				item: "gtceu:zpm_field_generator"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["2BB03484D6971028"]
-			id: "0C3A37B3C7EA9D4C"
-			tasks: [{
-				id: "61386F0B1EB3EE90"
-				item: "gtceu:bedrock_smoke_bucket"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"2BB03484D6971028"
-				"58441BB27FBCA1A9"
-			]
-			dependency_requirement: "one_completed"
-			id: "5604BB8175576E0C"
-			tasks: [{
-				id: "29A8F7B9D3146FC0"
-				item: "gtceu:taranmix_dust"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["0C3A37B3C7EA9D4C"]
-			id: "71E3A0DDE60A49D3"
-			tasks: [{
-				id: "38EA728DA424F5A6"
-				item: "gtceu:bedrock_smoke_re_bucket"
-				type: "item"
-			}]
-			x: 14.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["71E3A0DDE60A49D3"]
-			id: "334AA2BE260C0632"
-			tasks: [{
-				id: "505B737401CCB747"
-				item: "gtceu:bedrock_soot_solution_bucket"
-				type: "item"
-			}]
-			x: 16.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["334AA2BE260C0632"]
-			id: "68D37F157D0FD99A"
-			tasks: [{
-				id: "2E0FC33EFBDD1F34"
-				item: "gtceu:f_bedrock_smoke_re_bucket"
-				type: "item"
-			}]
-			x: 18.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["68D37F157D0FD99A"]
-			id: "181F08E5E126C286"
-			tasks: [{
-				id: "40BFFF4222D2839B"
-				item: "gtceu:bedrock_smoke_re_l_bucket"
-				type: "item"
-			}]
-			x: 20.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["68D37F157D0FD99A"]
-			id: "597174098C5DB38F"
-			tasks: [{
-				id: "332E1333AA542B17"
-				item: "gtceu:bedrock_smoke_re_m_bucket"
-				type: "item"
-			}]
-			x: 20.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["68D37F157D0FD99A"]
-			id: "5E1B6CB06C6BE78D"
-			tasks: [{
-				id: "4CAF7BF9402F240F"
-				item: "gtceu:bedrock_smoke_re_h_bucket"
-				type: "item"
-			}]
-			x: 20.5d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"181F08E5E126C286"
-				"597174098C5DB38F"
-				"5E1B6CB06C6BE78D"
-			]
-			id: "5AC405E7182FB287"
-			tasks: [{
-				id: "2DF4F58E11A82718"
-				title: "{ftbquests.chapter.zpm.quest69.task_+3311541616554551064.title}"
-				type: "checkmark"
-			}]
-			x: 22.5d
-			y: -3.5d
-		}
-		{
-			id: "58441BB27FBCA1A9"
-			invisible: true
-			tasks: [{
-				id: "36337ECE3245C12D"
-				item: "gtceu:taranmix_dust"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -3.5d
-		}
-		{
-			id: "6A6BBE540A631C28"
-			tasks: [{
-				id: "50024080885BB4AC"
-				item: "gtceu:helium_3_bucket"
-				type: "item"
-			}]
-			x: 15.5d
-			y: -2.5d
-		}
-		{
-			dependencies: [
-				"6A6BBE540A631C28"
-				"5604BB8175576E0C"
-			]
-			id: "4B63F560AED06615"
-			tasks: [{
-				id: "5708264978E37912"
-				item: "gtceu:taranium_dirty_helium3_bucket"
-				type: "item"
-			}]
-			x: 14.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["4B63F560AED06615"]
-			id: "62609CF4F1F38684"
-			tasks: [{
-				id: "686DC51463826630"
-				item: "gtceu:taranium_enriched_liquid_helium3_bucket"
-				type: "item"
-			}]
-			x: 17.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["4B63F560AED06615"]
-			id: "1BEC6EF7F134246C"
-			subtitle: "{ftbquests.chapter.zpm.quest75.subtitle}"
-			tasks: [{
-				id: "42E1C3E073E2B567"
-				item: "gtceu:taranium_half_life_liquid_helium3_bucket"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["4B63F560AED06615"]
-			id: "6BA4CB553EC55C19"
-			tasks: [{
-				id: "3B590D09B38EC12A"
-				item: "gtceu:taranium_depleted_liquid_helium3_bucket"
-				type: "item"
-			}]
-			x: 21.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["62609CF4F1F38684"]
-			id: "54E333E8246FEB61"
-			tasks: [{
-				id: "670B69EF1A4A059C"
-				item: "gtceu:taranium_enriched_dirty_helium_plasma_plasma_bucket"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 3.5d
-		}
-		{
-			id: "46D6EADF05BA41A6"
-			shape: "gear"
-			size: 2.0d
-			subtitle: "{ftbquests.chapter.zpm.quest78.subtitle}"
-			tasks: [{
-				id: "30E70EF8D3C1BB40"
-				item: "ctnhcore:plasma_condenser"
-				type: "item"
-			}]
-			x: 21.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["54E333E8246FEB61"]
-			id: "3ACE869B39F2C474"
-			tasks: [{
-				id: "7D511A9A8587886A"
-				item: "gtceu:taranium_enriched_helium4_plasma_plasma_bucket"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["54E333E8246FEB61"]
-			id: "61DA0BA84F78E0BE"
-			tasks: [{
-				id: "5A4D46C9CB2DB3F8"
-				item: "gtceu:taranium_depleted_helium_plasma_plasma_bucket"
-				type: "item"
-			}]
-			x: 17.0d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"3ACE869B39F2C474"
-				"46D6EADF05BA41A6"
-			]
-			id: "32D42F3CA03A58C3"
-			tasks: [{
-				id: "5C00048BF77F7086"
-				item: "gtceu:taranium_enriched_liquid_helium4_bucket"
-				type: "item"
-			}]
-			x: 21.0d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"61DA0BA84F78E0BE"
-				"3D8452059DA66415"
-			]
-			dependency_requirement: "one_completed"
-			id: "219E9B48DE93781A"
-			subtitle: "{ftbquests.chapter.zpm.quest82.subtitle}"
-			tasks: [{
-				id: "0BC89185D02D603B"
-				item: "gtceu:adamant_mud_dust"
-				type: "item"
-			}]
-			x: 17.0d
-			y: 7.5d
-		}
-		{
-			dependencies: [
-				"32D42F3CA03A58C3"
-				"6DA47B5F8955B00E"
-			]
-			dependency_requirement: "one_completed"
-			id: "7FB819E46B3F2404"
-			subtitle: "{ftbquests.chapter.zpm.quest83.subtitle}"
-			tasks: [{
-				id: "156369CEF2DBB2DA"
-				item: "gtceu:taranium_powder_dust"
-				type: "item"
-			}]
-			x: 23.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["32D42F3CA03A58C3"]
-			id: "3D8452059DA66415"
-			tasks: [{
-				id: "037013F70928C027"
-				item: "gtceu:taranium_depleted_liquid_helium_bucket"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 7.5d
-		}
-		{
-			id: "2EB87027F157815D"
-			subtitle: "{ftbquests.chapter.zpm.quest85.subtitle}"
-			tasks: [{
-				id: "3D229CD3DB82C461"
-				item: "gtceu:p507_extractant_bucket"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 7.5d
-		}
-		{
-			dependencies: [
-				"2EB87027F157815D"
-				"219E9B48DE93781A"
-			]
-			id: "73FEBDBA63D96DDA"
-			subtitle: "{ftbquests.chapter.zpm.quest86.subtitle}"
-			tasks: [{
-				id: "1DA28993B0247EA8"
-				item: "gtceu:adamantiteliquid_bucket"
-				type: "item"
-			}]
-			x: 15.5d
-			y: 9.5d
-		}
-		{
-			dependencies: ["73FEBDBA63D96DDA"]
-			id: "2D51C78311A72F33"
-			tasks: [{
-				id: "09B45306B6EA84C5"
-				item: "gtceu:chalcogen_anode_mud_dust"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["73FEBDBA63D96DDA"]
-			id: "7A49E5931F2C7453"
-			tasks: [{
-				id: "0270ED0BCD2B048E"
-				item: "gtceu:refined_gold_aq_bucket"
-				type: "item"
-			}]
-			x: 17.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["7A49E5931F2C7453"]
-			id: "3B20DB28F8A96FC0"
-			subtitle: "{ftbquests.chapter.zpm.quest89.subtitle}"
-			tasks: [{
-				id: "01CF780BB688157C"
-				item: "gtceu:adamantite_dust"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["3B20DB28F8A96FC0"]
-			id: "5E6B17A680E8AD50"
-			tasks: [{
-				id: "7D401634BB90D2D8"
-				item: "gtceu:adamantite_plasma_bucket"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 9.5d
-		}
-		{
-			dependencies: [
-				"5E6B17A680E8AD50"
-				"14F59E43D9ADE48A"
-				"4DE441BA03771EBD"
-			]
-			dependency_requirement: "one_completed"
-			id: "5DF0169DBCDEFE61"
-			subtitle: "{ftbquests.chapter.zpm.quest91.subtitle}"
-			tasks: [{
-				id: "7C005989A82F0622"
-				item: "gtceu:adamantite_ingot"
-				type: "item"
-			}]
-			x: 21.0d
-			y: 9.5d
-		}
-		{
-			id: "14F59E43D9ADE48A"
-			subtitle: "{ftbquests.chapter.zpm.quest92.subtitle}"
-			tasks: [{
-				id: "1E0FBF3A7C3CADE6"
-				item: "gtceu:ingot_casting_mold"
-				type: "item"
-			}]
-			x: 21.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["5DF0169DBCDEFE61"]
-			id: "45362F4DEFA95BE6"
-			tasks: [{
-				id: "43361CA151B31FEC"
-				title: "{ftbquests.chapter.zpm.quest93.task_+4843089928469553132.title}"
-				type: "checkmark"
-			}]
-			x: 23.0d
-			y: 9.5d
-		}
-		{
-			id: "77FDE31270BAA38F"
-			tasks: [{
-				id: "24C290A3D447A904"
-				title: "{ftbquests.chapter.zpm.quest94.task_+2648838564162808068.title}"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.zpm.quest94.title}"
-			x: 15.0d
-			y: -4.5d
-		}
-		{
-			id: "6DA47B5F8955B00E"
-			invisible: true
-			tasks: [{
-				id: "10CFB9D503D8511E"
-				item: "gtceu:taranium_powder_dust"
-				type: "item"
-			}]
-			x: 23.0d
-			y: 3.5d
-		}
-		{
-			id: "4DE441BA03771EBD"
-			invisible: true
-			tasks: [{
-				id: "4F65852AF1628223"
-				item: "gtceu:adamantite_ingot"
-				type: "item"
-			}]
-			x: 21.0d
-			y: 11.5d
+			x: 18.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7D4DBB785B16A377"]
@@ -887,20 +326,8 @@
 				item: "gtceu:crystal_soc"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["0FE50A78729EF06F"]
-			id: "68F1E652B8BA5A07"
-			subtitle: "把两个最硬的东西混起来会发生什么？"
-			tasks: [{
-				id: "2A773B7AF70575BE"
-				item: "gtceu:bedrock_neutronium_dust"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -7.5d
+			x: 15.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5B882B9AFD650138"]
@@ -911,15 +338,15 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 2.0d
+			size: 1.0d
 			subtitle: "见证等离子燃料的潜力！"
 			tasks: [{
 				id: "5AFB0CE08C45D50A"
 				item: "ctnhcore:hyper_plasma_turbine"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 4.0d
+			x: 14.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5B882B9AFD650138"]
@@ -942,14 +369,15 @@
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
 			subtitle: "who r u"
 			tasks: [{
 				id: "24B87356C55140CC"
 				item: "ctnhcore:ultimate_combustion_engine"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 3.5d
+			x: 11.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["46922EE3F296BDCF"]
@@ -962,41 +390,25 @@
 				type: "item"
 			}]
 			title: "在燃油的终末"
-			x: -8.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["5B882B9AFD650138"]
-			id: "3539170A27E9D3F4"
-			rewards: [{
-				count: 64
-				id: "711FFBB6BC6E6E89"
-				item: "gtceu:sunnarium_dust"
-				type: "item"
-			}]
-			shape: "square"
-			size: 2.0d
-			subtitle: "星际工程必需品"
-			tasks: [{
-				id: "75E6FCAA5672BB2E"
-				item: "ctnhcore:space_photovoltai_cbase_station"
-				type: "item"
-			}]
-			x: -11.0d
-			y: -1.0d
+			x: 9.5d
+			y: 4.5d
 		}
 		{
 			id: "749B5293C2B313D2"
+			size: 2.0d
 			tasks: [{
 				id: "058D8A09C5864DAA"
 				item: "ctnhbio:wetware_printed_circuit_board"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 8.0d
+			x: 3.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["2FD33C4009211037"]
+			dependencies: [
+				"2FD33C4009211037"
+				"6103104855B728EE"
+			]
 			description: ["如果你发现你因为算力不够且没法做高级计算组件而卡死，你就要看看你的冷却有没有升级和你的算策略是不是最优的"]
 			id: "31A773AB4898B8F8"
 			tasks: [{
@@ -1004,14 +416,11 @@
 				item: "gtceu:hpca_advanced_computation_component"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -1.0d
+			x: 9.5d
+			y: -0.5d
 		}
 		{
-			dependencies: [
-				"64828704B9D70F14"
-				"2C5AAAE7171632CA"
-			]
+			dependencies: ["008A90953EEF0008"]
 			description: ["把数据球和要扫描的东西放进物品支架里"]
 			id: "56C88CA114314593"
 			rewards: [{
@@ -1020,69 +429,14 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "4FB2DC37F499DCB6"
 				item: "gtceu:research_station"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
-		}
-		{
-			id: "64828704B9D70F14"
-			tasks: [{
-				id: "0C44AF44CF995CEB"
-				item: {
-					Count: 1
-					id: "gtceu:data_orb"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: 6.5d
-		}
-		{
-			dependencies: [
-				"1F24CDB4B265DAE8"
-				"7623D2206370CA76"
-			]
-			id: "47D1E2F257A78CC8"
-			shape: "pentagon"
-			subtitle: "ZPM线圈"
-			tasks: [{
-				count: 16L
-				id: "7148FED2E30E7170"
-				item: "gtceu:trinium_coil_block"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["47D1E2F257A78CC8"]
-			id: "2C5AAAE7171632CA"
-			subtitle: "{ftbquests.chapter.luv.quest26.subtitle}"
-			tasks: [{
-				id: "6698C7007931B007"
-				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["07D0FD2AC4C767B2"]
-			id: "1010CB5EC52EFAF5"
-			subtitle: "我逃不掉..."
-			tasks: [{
-				id: "74114E60FFB37973"
-				item: "gtceu:zpm_assembler"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 0.5d
+			x: 17.5d
+			y: 3.5d
 		}
 		{
 			id: "5BD26F0325768EED"
@@ -1091,8 +445,8 @@
 				item: "hostilenetworks:sim_chamber"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 10.0d
+			x: 17.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5BD26F0325768EED"]
@@ -1104,8 +458,8 @@
 				item: "ctnhbio:hostile_observer"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 8.0d
+			x: 18.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5BD26F0325768EED"]
@@ -1115,8 +469,8 @@
 				item: "ctnhbio:neural_model_accessor"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 10.0d
+			x: 15.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -1130,8 +484,8 @@
 				item: "ctnhbio:advanced_neural_model_accessor"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 12.0d
+			x: 15.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["7AC1C9575ED0ECBF"]
@@ -1145,8 +499,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 12.0d
+			x: 12.5d
+			y: 9.5d
 		}
 		{
 			description: ["    这里本来应该有一些关于GT原版生物线、生产干细胞的任务，但是在任务重置的过程中丢失了，不过都到这个阶段了对着JEI自己看应该也不难。"]
@@ -1157,20 +511,44 @@
 				item: "gtceu:stem_cells"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 12.0d
+			x: 9.5d
+			y: 9.5d
 		}
 		{
+			dependencies: ["7D527B8CCB41E418"]
 			description: ["    使用巨型总线输入物品可能导致不识别，建议使用ME库存输入总线。"]
 			id: "7F4D1DB73BB3EA48"
+			size: 2.0d
 			subtitle: "好像来得有点晚"
 			tasks: [{
 				id: "71C3B1CAB448A928"
 				item: "ctnhcore:advance_assembly_line"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 6.5d
+			x: 24.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["07D0FD2AC4C767B2"]
+			id: "6103104855B728EE"
+			tasks: [{
+				id: "1A9CE36983578C9B"
+				item: "gtceu:zpm_circuit_assembler"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["352A6F62ED6692B3"]
+			id: "3B1B0C46A962A714"
+			tasks: [{
+				id: "7A812D5779B4731C"
+				item: "gtceu:naquadria_dust"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.5d
 		}
 	]
 	title: "{ftbquests.chapter.zpm.title}"

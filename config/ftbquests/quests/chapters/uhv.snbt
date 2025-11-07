@@ -6,20 +6,12 @@
 	icon: "gtceu:uhv_machine_hull"
 	id: "3AF23E79C8470AB1"
 	order_index: 8
-	quest_links: [
-		{
-			id: "15A84DF0C2ABEFF0"
-			linked_quest: "18E2A4593690B3D1"
-			x: -1.0d
-			y: 0.0d
-		}
-		{
-			id: "24175305E331840C"
-			linked_quest: "62C818606820AC3A"
-			x: -1.0d
-			y: -6.5d
-		}
-	]
+	quest_links: [{
+		id: "15A84DF0C2ABEFF0"
+		linked_quest: "18E2A4593690B3D1"
+		x: -1.0d
+		y: 0.0d
+	}]
 	quests: [
 		{
 			dependencies: ["18E2A4593690B3D1"]
@@ -43,102 +35,8 @@
 				item: "gtceu:uhv_energy_input_hatch"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: -4.0d
-		}
-		{
-			dependencies: [
-				"62C818606820AC3A"
-				"511D5305BC579F35"
-			]
-			id: "77D30F6C38DB4B83"
-			tasks: [{
-				id: "3F27EE864D308F20"
-				item: "gtceu:bedrock_gas_re_l_bucket"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -8.0d
-		}
-		{
-			dependencies: [
-				"62C818606820AC3A"
-				"511D5305BC579F35"
-			]
-			id: "7DED10B400A33933"
-			tasks: [{
-				id: "12196CF4359AC0E9"
-				item: "gtceu:bedrock_gas_re_m_bucket"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -8.5d
-		}
-		{
-			dependencies: [
-				"62C818606820AC3A"
-				"511D5305BC579F35"
-			]
-			id: "4831A750BE325D1A"
-			tasks: [{
-				id: "788C116B64A27D12"
-				item: "gtceu:bedrock_gas_re_h_bucket"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["77D30F6C38DB4B83"]
-			id: "08A97EFE678E2419"
-			tasks: [{
-				id: "0EB4069F3C3845BD"
-				item: "gtceu:taranliquidfuel_l_bucket"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -9.5d
-		}
-		{
-			dependencies: ["7DED10B400A33933"]
-			id: "6EBC3B65C9660015"
-			tasks: [{
-				id: "2E0A38A1DD8E0AF6"
-				item: "gtceu:taranliquidfuel_m_bucket"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -10.5d
-		}
-		{
-			dependencies: ["4831A750BE325D1A"]
-			id: "48C925CF7AA58864"
-			tasks: [{
-				id: "75707B66D9856C15"
-				item: "gtceu:taranliquidfuel_h_bucket"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -9.5d
-		}
-		{
-			dependencies: [
-				"77D30F6C38DB4B83"
-				"7DED10B400A33933"
-				"4831A750BE325D1A"
-			]
-			description: ["{ftbquests.chapter.uhv.quest9.description1}"]
-			id: "0921AD39C8509CE9"
-			shape: "gear"
-			size: 2.0d
-			subtitle: "{ftbquests.chapter.uhv.quest9.subtitle}"
-			tasks: [{
-				id: "27C8F2426A80B994"
-				item: "gtceu:boundless_dust"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -13.0d
 		}
 		{
 			dependencies: ["18E2A4593690B3D1"]
@@ -148,14 +46,11 @@
 				item: "gtceu:neutronium_boule"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.0d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"4F639E4C01239DA8"
-				"18E2A4593690B3D1"
-			]
+			dependencies: ["4F639E4C01239DA8"]
 			id: "777F1D3EB722D4B7"
 			subtitle: "{ftbquests.chapter.uhv.quest11.subtitle}"
 			tasks: [{
@@ -163,8 +58,8 @@
 				item: "gtceu:highly_advanced_soc_wafer"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			id: "63A4FC58057C9E7D"
@@ -186,7 +81,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6931CCEEE2282117"]
@@ -196,8 +91,8 @@
 				item: "gtceu:uhv_electric_pump"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.5d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6931CCEEE2282117"]
@@ -207,8 +102,8 @@
 				item: "gtceu:uhv_electric_piston"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.5d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6931CCEEE2282117"]
@@ -218,8 +113,8 @@
 				item: "gtceu:uhv_conveyor_module"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 5.0d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6931CCEEE2282117"]
@@ -229,8 +124,8 @@
 				item: "gtceu:uhv_robot_arm"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.0d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6931CCEEE2282117"]
@@ -240,8 +135,8 @@
 				item: "gtceu:uhv_emitter"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 6.5d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6931CCEEE2282117"]
@@ -251,8 +146,8 @@
 				item: "gtceu:uhv_sensor"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.5d
+			x: 1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6931CCEEE2282117"]
@@ -263,10 +158,9 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["18E2A4593690B3D1"]
 			id: "6931CCEEE2282117"
 			tasks: [{
 				id: "28F2EC5F159FE317"
@@ -274,9 +168,10 @@
 				type: "checkmark"
 			}]
 			x: -1.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["6931CCEEE2282117"]
 			description: ["    这曾是CTNH1.2.1版本的毕业证明。"]
 			icon: "gtceu:nan_certificate"
 			id: "15BD44DB26748FA3"
@@ -295,7 +190,7 @@
 				type: "item"
 			}]
 			title: "1.2.1  毕业证明"
-			x: -7.0d
+			x: 1.0d
 			y: 4.0d
 		}
 		{
@@ -349,14 +244,14 @@
 				item: "kubejs:general_circuit_uev"
 				type: "item"
 			}]
-			size: 2.0d
+			size: 1.0d
 			subtitle: "来吧，你必须挑战"
 			tasks: [{
 				id: "6C94783B028F4EFB"
 				item: "ctnhcore:neruo_martix_compiler"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -2.0d
 		}
 		{
@@ -379,6 +274,7 @@
 				item: "gtceu:charged_silica_rock_based_fluid_fuel_mk_iii_bucket"
 				type: "item"
 			}]
+			size: 2.0d
 			subtitle: "这确实很疯狂，但确实够疯狂"
 			tasks: [
 				{
@@ -402,8 +298,8 @@
 				}
 			]
 			title: "蠕动，蠕动......"
-			x: 6.5d
-			y: -3.0d
+			x: 7.0d
+			y: -2.0d
 		}
 		{
 			id: "2FA53E0988807E71"
@@ -413,8 +309,8 @@
 				item: "gtceu:radiation_sight_alloy_inf_bucket"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			id: "2DBA5445319926BE"
@@ -426,8 +322,8 @@
 				item: "gtceu:abyssalalloy_ingot"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -7.0d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2DBA5445319926BE"]
@@ -440,8 +336,8 @@
 				item: "ctnhcore:abyssalalloy_coil_block"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -5.0d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -450,7 +346,7 @@
 			]
 			id: "674C9A48676C71F5"
 			shape: "octagon"
-			size: 3.0d
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.uv.quest5.subtitle}"
 			tasks: [{
 				id: "6BC4FAF8A3F8141B"
@@ -458,7 +354,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 10.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -475,8 +371,8 @@
 				item: "gtceu:uhv_circuit_assembler"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 8.0d
+			x: 3.0d
+			y: 4.0d
 		}
 	]
 	title: "{ftbquests.chapter.uhv.title}"

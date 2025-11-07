@@ -11,71 +11,64 @@
 			id: "30A476A362D84487"
 			linked_quest: "7FD9B0E41358497D"
 			shape: "gear"
-			x: 2.0d
-			y: 8.0d
+			size: 2.0d
+			x: 27.0d
+			y: -18.0d
 		}
 		{
 			id: "1E89B8AB6D106F05"
 			linked_quest: "7F0C67AE534020B1"
-			x: 2.0d
-			y: -4.5d
+			x: 43.0d
+			y: -20.0d
 		}
 		{
 			id: "00B5D11AA16DE9D2"
 			linked_quest: "74E26D593C100718"
-			x: 2.0d
-			y: -6.5d
+			x: 44.0d
+			y: -20.0d
 		}
 		{
 			id: "056A00C408ADC615"
 			linked_quest: "7D527B8CCB41E418"
-			x: 6.0d
-			y: -4.5d
+			x: 42.0d
+			y: -20.0d
 		}
 		{
 			id: "16E5A3A942479B8E"
 			linked_quest: "43F6AA3B97042202"
-			x: -4.0d
-			y: -4.0d
+			x: 45.0d
+			y: -22.0d
+		}
+		{
+			id: "470C682243A23D2E"
+			linked_quest: "12BAF2B7FB2E3643"
+			x: 36.0d
+			y: -16.0d
 		}
 	]
 	quests: [
 		{
-			dependencies: [
-				"7FD9B0E41358497D"
-				"2F0AFEF0F176A92F"
-			]
+			dependencies: ["7FD9B0E41358497D"]
 			id: "38559FFEC45C6B03"
 			tasks: [{
 				id: "14ADC48FAE170E25"
 				item: "gtceu:uv_machine_hull"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.5d
-		}
-		{
-			id: "2F0AFEF0F176A92F"
-			shape: "gear"
-			size: 1.0d
-			tasks: [{
-				id: "602F32A0018A2640"
-				item: "gtceu:yttrium_barium_cuprate_ingot"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 8.0d
+			x: 30.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["1C276DAC38B004B1"]
 			id: "0C3AB83D2762EC3D"
+			size: 1.5d
 			tasks: [{
 				id: "182F2580D81C384D"
 				item: "gtceu:uv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 40.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["1C276DAC38B004B1"]
@@ -85,8 +78,8 @@
 				item: "gtceu:uv_energy_output_hatch"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 38.0d
+			y: -20.0d
 		}
 		{
 			dependencies: [
@@ -101,8 +94,8 @@
 				item: "gtceu:uv_fusion_reactor"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -6.5d
+			x: 43.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["633B6EC62B49755E"]
@@ -112,8 +105,8 @@
 				item: "ctnhcore:uv_compressed_fusion_reactor"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -6.5d
+			x: 42.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["633B6EC62B49755E"]
@@ -123,8 +116,8 @@
 				item: "gtceu:iron_plasma_bucket"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -8.0d
+			x: 43.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["633B6EC62B49755E"]
@@ -134,19 +127,20 @@
 				item: "gtceu:nickel_plasma_bucket"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -8.0d
+			x: 44.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["633B6EC62B49755E"]
 			id: "18E2A4593690B3D1"
+			size: 1.0d
 			tasks: [{
 				id: "30EE8C597E5C02CB"
 				item: "avaritia:neutron_ingot"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -9.5d
+			x: 46.0d
+			y: -18.0d
 		}
 		{
 			dependencies: [
@@ -160,324 +154,47 @@
 				title: "{ftbquests.chapter.uv.quest12.task_+4304930698364564210.title}"
 				type: "checkmark"
 			}]
-			x: 4.0d
-			y: -8.5d
+			x: 43.0d
+			y: -14.0d
 		}
 		{
-			id: "04A3089CEEAE9986"
-			tasks: [{
-				id: "1D00BB5907DAA0E4"
-				item: "gtceu:bedrock_smoke_re_l_bucket"
-				type: "item"
-			}]
-			x: 10.5d
-			y: -13.0d
-		}
-		{
-			id: "237F84ED2C5EF2EF"
-			tasks: [{
-				id: "5360029A6EE07FE0"
-				item: "gtceu:bedrock_smoke_re_m_bucket"
-				type: "item"
-			}]
-			x: 10.5d
-			y: -11.5d
-		}
-		{
-			id: "04FD8D001617E691"
-			tasks: [{
-				id: "6E0F60CA942AE3D3"
-				item: "gtceu:bedrock_smoke_re_h_bucket"
-				type: "item"
-			}]
-			x: 10.5d
-			y: -10.0d
-		}
-		{
-			dependencies: ["04A3089CEEAE9986"]
+			dependencies: ["12BAF2B7FB2E3643"]
 			id: "2F9F236DB91E21EB"
 			tasks: [{
 				id: "59165C9CFE776A45"
 				item: "gtceu:nq_fuelmk1_bucket"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -13.0d
+			x: 36.0d
+			y: -17.0d
 		}
 		{
-			dependencies: ["237F84ED2C5EF2EF"]
+			dependencies: ["12BAF2B7FB2E3643"]
 			id: "34F957A3E8E7D3FF"
 			tasks: [{
 				id: "360AFAE7891B1424"
 				item: "gtceu:nq_fuelmk2_bucket"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -11.5d
+			x: 37.0d
+			y: -16.0d
 		}
 		{
-			dependencies: ["04FD8D001617E691"]
+			dependencies: ["12BAF2B7FB2E3643"]
 			id: "45A565804AFD4ABD"
 			tasks: [{
 				id: "25061AA1FB7F446E"
 				item: "gtceu:nq_fuelmk3_bucket"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -10.0d
+			x: 35.0d
+			y: -16.0d
 		}
 		{
 			dependencies: [
-				"237F84ED2C5EF2EF"
-				"04A3089CEEAE9986"
-				"04FD8D001617E691"
+				"7F81295FE18741A6"
+				"12BAF2B7FB2E3643"
 			]
-			id: "71CEB2AFBDDE7B31"
-			tasks: [{
-				id: "709E7379F28B1AB9"
-				item: "gtceu:ax_jiyanqi_bucket"
-				type: "item"
-			}]
-			x: 13.0d
-			y: -11.5d
-		}
-		{
-			dependencies: ["71CEB2AFBDDE7B31"]
-			id: "0C8A3A38C8A69F95"
-			tasks: [{
-				id: "5C7AEB6CCAB8FBF8"
-				item: "gtceu:bedrock_gas_bucket"
-				type: "item"
-			}]
-			x: 16.0d
-			y: -11.5d
-		}
-		{
-			dependencies: [
-				"71CEB2AFBDDE7B31"
-				"4E5E3B834FAA8C67"
-			]
-			dependency_requirement: "one_completed"
-			id: "736613239A0FDD32"
-			tasks: [{
-				id: "7373079B4D3DB9E6"
-				item: "gtceu:radioactive_metals_mix_dust"
-				type: "item"
-			}]
-			x: 16.0d
-			y: -10.0d
-		}
-		{
-			dependencies: ["0C8A3A38C8A69F95"]
-			id: "4E5E3B834FAA8C67"
-			tasks: [{
-				id: "698BB6EEFE70088E"
-				item: "gtceu:bedrock_gas_re_bucket"
-				type: "item"
-			}]
-			x: 19.0d
-			y: -11.5d
-		}
-		{
-			dependencies: ["4E5E3B834FAA8C67"]
-			id: "62C818606820AC3A"
-			subtitle: "{ftbquests.chapter.uv.quest23.subtitle}"
-			tasks: [{
-				id: "65A07E985B66B699"
-				item: "gtceu:dr_bedrock_gas_re_bucket"
-				type: "item"
-			}]
-			x: 16.0d
-			y: -13.0d
-		}
-		{
-			id: "79FF9CC1122C2362"
-			tasks: [
-				{
-					id: "1143DB72F6754EC9"
-					item: "gtceu:uranium_235_dust"
-					type: "item"
-				}
-				{
-					id: "470ED1315DB370DF"
-					item: "gtceu:plutonium_241_dust"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.uv.quest24.title}"
-			x: 13.0d
-			y: -10.0d
-		}
-		{
-			dependencies: [
-				"79FF9CC1122C2362"
-				"736613239A0FDD32"
-			]
-			id: "20538FF9D09E4A55"
-			tasks: [{
-				id: "17066A5D717349AA"
-				item: "gtceu:enrich_radioactive_waste_dust"
-				type: "item"
-			}]
-			x: 14.5d
-			y: -8.5d
-		}
-		{
-			dependencies: ["20538FF9D09E4A55"]
-			id: "799170F56DEEA43F"
-			tasks: [{
-				id: "618902A3F5A047AF"
-				item: "gtceu:radioactive_ion_solution_bucket"
-				type: "item"
-			}]
-			x: 13.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["799170F56DEEA43F"]
-			id: "109A8810A3C205AB"
-			tasks: [{
-				id: "62FB5785B1C372E4"
-				item: "gtceu:neutron_irradiation_of_radioactive_waste_bucket"
-				type: "item"
-			}]
-			x: 16.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["109A8810A3C205AB"]
-			id: "7565AACEF5040B8D"
-			tasks: [{
-				id: "0FE2F8513460444D"
-				item: "gtceu:radiation_dust_dust"
-				type: "item"
-			}]
-			x: 16.0d
-			y: -5.0d
-		}
-		{
-			dependencies: [
-				"7565AACEF5040B8D"
-				"21768F83603146C0"
-			]
-			id: "6286B016F7A21B39"
-			subtitle: "{ftbquests.chapter.uv.quest29.subtitle}"
-			tasks: [{
-				id: "15A68F85CEBA29F9"
-				item: "gtceu:radioactive_metal_ingot_ingot"
-				type: "item"
-			}]
-			x: 13.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["6286B016F7A21B39"]
-			id: "516FF6C64567223F"
-			tasks: [{
-				id: "6B5B2ED54030D4B0"
-				item: "gtceu:low_level_radioactive_dust_bucket"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["6286B016F7A21B39"]
-			id: "6A6ABE5772951DB4"
-			tasks: [{
-				id: "60AC5FD1474505E7"
-				item: "gtceu:high_level_radioactive_dust_bucket"
-				type: "item"
-			}]
-			x: 14.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["516FF6C64567223F"]
-			id: "239256DEE547E22D"
-			tasks: [{
-				id: "1A3432EA34CA16B5"
-				item: "gtceu:concentrated_low_level_radioactive_dust_bucket"
-				type: "item"
-			}]
-			x: 14.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["6A6ABE5772951DB4"]
-			id: "49E9D581D9A44DCF"
-			tasks: [{
-				id: "5EDB13733579DF02"
-				item: "gtceu:concentrated_high_level_radioactive_dust_bucket"
-				type: "item"
-			}]
-			x: 15.0d
-			y: -2.5d
-		}
-		{
-			dependencies: [
-				"49E9D581D9A44DCF"
-				"239256DEE547E22D"
-			]
-			description: ["{ftbquests.chapter.uv.quest34.description1}"]
-			id: "331F72B7D40A7538"
-			subtitle: "{ftbquests.chapter.uv.quest34.subtitle}"
-			tasks: [{
-				id: "040D2994DEAAE849"
-				item: "gtceu:aether_plasma_bucket"
-				type: "item"
-			}]
-			x: 16.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["331F72B7D40A7538"]
-			id: "782DCCEF9924E406"
-			tasks: [{
-				id: "73F5679696102B8F"
-				item: "gtceu:aether_bucket"
-				type: "item"
-			}]
-			x: 18.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["782DCCEF9924E406"]
-			id: "7F81295FE18741A6"
-			shape: "gear"
-			size: 2.0d
-			subtitle: "{ftbquests.chapter.uv.quest36.subtitle}"
-			tasks: [{
-				id: "6505A75DAEE23A90"
-				item: "gtceu:aether_ingot"
-				type: "item"
-			}]
-			x: 18.0d
-			y: -3.0d
-		}
-		{
-			id: "21768F83603146C0"
-			subtitle: "{ftbquests.chapter.uv.quest37.subtitle}"
-			tasks: [{
-				id: "045B63C91F2AB7C5"
-				item: "ctnhcore:decay_pools_machine"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -5.0d
-		}
-		{
-			id: "2F06653DB4F277D8"
-			tasks: [{
-				id: "29984565570288D2"
-				title: "{ftbquests.chapter.uv.quest39.task_+2997221853568862418.title}"
-				type: "checkmark"
-			}]
-			x: 14.5d
-			y: -12.5d
-		}
-		{
-			dependencies: ["7F81295FE18741A6"]
 			description: ["钻井液只需要输入一次，倘若输出过多的钻井液，它们会被销毁"]
 			id: "50B3C9E6ECB749A2"
 			shape: "gear"
@@ -488,23 +205,8 @@
 				item: "ctnhcore:void_miner"
 				type: "item"
 			}]
-			x: 18.0d
-			y: -5.0d
-		}
-		{
-			dependencies: [
-				"34F957A3E8E7D3FF"
-				"45A565804AFD4ABD"
-				"2F9F236DB91E21EB"
-			]
-			id: "59F93AD126E45FED"
-			tasks: [{
-				id: "377628159C116ECD"
-				title: "{ftbquests.chapter.uv.quest43.task_+3996425792615706317.title}"
-				type: "checkmark"
-			}]
-			x: 6.5d
-			y: -11.5d
+			x: 34.0d
+			y: -13.0d
 		}
 		{
 			id: "0FBFC9DC10435D74"
@@ -515,8 +217,8 @@
 				type: "item"
 			}]
 			title: "幽匿电路板的开端"
-			x: -5.0d
-			y: -2.0d
+			x: 45.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["18E2A4593690B3D1"]
@@ -527,18 +229,16 @@
 				item: "gtceu:highly_advanced_soc_wafer"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -9.5d
+			x: 46.0d
+			y: -20.0d
 		}
 		{
 			dependencies: [
 				"7C46A46BCA54FB18"
 				"0FBFC9DC10435D74"
 				"4DF22955275FF10F"
-				"325BB56C5CEBF98A"
-				"31D3411861096EE4"
 				"43F6AA3B97042202"
-				"6B17A79B51B495B6"
+				"325BB56C5CEBF98A"
 			]
 			id: "76A0F39E1949074E"
 			subtitle: "附着在电路板上"
@@ -547,8 +247,8 @@
 				item: "ctnhcore:sculk_cell"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -4.0d
+			x: 46.0d
+			y: -22.0d
 		}
 		{
 			id: "7C46A46BCA54FB18"
@@ -557,42 +257,38 @@
 				item: "avaritia:crystal_matrix_ingot"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -3.0d
+			x: 45.0d
+			y: -23.0d
 		}
 		{
-			dependencies: ["064E2DDB9392D78C"]
+			dependencies: ["3FCC69ED6F284B06"]
 			id: "4DF22955275FF10F"
 			tasks: [{
 				id: "7083E01A01B0AFAF"
 				item: "gtceu:sterilebiologicalculturemediumstocksolution_bucket"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["3FCC69ED6F284B06"]
-			id: "064E2DDB9392D78C"
-			tasks: [{
-				id: "42EAD9BD743EFEB9"
-				item: "gtceu:biologicalculturemediumstocksolution_bucket"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -6.0d
+			x: 46.0d
+			y: -24.0d
 		}
 		{
 			dependencies: ["68E2F33616B5A7A0"]
 			id: "3FCC69ED6F284B06"
 			subtitle: "这种材料似乎拥有快速传递通量的能力"
-			tasks: [{
-				id: "1193B78963D8F5E0"
-				item: "minecraft:sculk_vein"
-				type: "item"
-			}]
-			x: -12.0d
-			y: -4.0d
+			tasks: [
+				{
+					id: "1193B78963D8F5E0"
+					item: "minecraft:sculk_vein"
+					type: "item"
+				}
+				{
+					id: "6EAC0E1630A451D2"
+					item: "minecraft:sculk"
+					type: "item"
+				}
+			]
+			x: 45.0d
+			y: -24.0d
 		}
 		{
 			id: "68E2F33616B5A7A0"
@@ -602,11 +298,12 @@
 				item: "ctnhcore:cultivationroom"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -2.0d
+			x: 43.0d
+			y: -24.0d
 		}
 		{
-			dependencies: ["3FCC69ED6F284B06"]
+			dependencies: ["1193B78963D8F5E0"]
+			description: ["粉碎幽匿脉络或者幽匿块"]
 			id: "792A7D534B3F0A34"
 			subtitle: "生物材料"
 			tasks: [{
@@ -614,8 +311,8 @@
 				item: "gtceu:sculk_dust"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -4.0d
+			x: 50.0d
+			y: -22.0d
 		}
 		{
 			dependencies: ["792A7D534B3F0A34"]
@@ -626,8 +323,8 @@
 				item: "minecraft:echo_shard"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -6.0d
+			x: 49.0d
+			y: -22.0d
 		}
 		{
 			dependencies: ["792A7D534B3F0A34"]
@@ -638,27 +335,14 @@
 				item: "gtceu:hidden_alloy_ingot"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["5EDA18A58B5B8833"]
-			id: "61C38DAB7B738EEE"
-			subtitle: "很快┗|｀O′|┛ 嗷~~"
-			tasks: [{
-				id: "31D962A6585FD15C"
-				item: "gtceu:hidden_alloy_tiny_fluid_pipe"
-				type: "item"
-			}]
-			x: -14.5d
-			y: -8.0d
+			x: 49.0d
+			y: -24.0d
 		}
 		{
 			dependencies: [
-				"61C38DAB7B738EEE"
 				"5DA9CAEC38C8ACE8"
-				"6D075D4AB5360C03"
 				"4DF22955275FF10F"
+				"5EDA18A58B5B8833"
 			]
 			id: "67C98CFDC97AFF44"
 			tasks: [{
@@ -666,41 +350,8 @@
 				item: "kubejs:echo_circuit_board"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["5EDA18A58B5B8833"]
-			id: "6D075D4AB5360C03"
-			tasks: [{
-				id: "5802394C05EC8A06"
-				item: "gtceu:hidden_alloy_single_wire"
-				type: "item"
-			}]
-			x: -12.5d
-			y: -10.5d
-		}
-		{
-			dependencies: ["67C98CFDC97AFF44"]
-			id: "31D3411861096EE4"
-			tasks: [{
-				id: "7477FF367BB6C6BF"
-				item: "kubejs:echo_printed_circuit_board"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["68E2F33616B5A7A0"]
-			id: "6B17A79B51B495B6"
-			tasks: [{
-				id: "05ED4D4577E5A94A"
-				item: "minecraft:sculk"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -5.0d
+			x: 48.0d
+			y: -24.0d
 		}
 		{
 			dependencies: [
@@ -714,8 +365,8 @@
 				item: "kubejs:echo_processor"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 1.0d
+			x: 47.0d
+			y: -22.0d
 		}
 		{
 			dependencies: ["7C72C9094F33CC23"]
@@ -754,8 +405,8 @@
 				}
 			]
 			title: "又是贴片！"
-			x: -9.0d
-			y: 1.0d
+			x: 47.0d
+			y: -21.0d
 		}
 		{
 			id: "7C72C9094F33CC23"
@@ -765,24 +416,14 @@
 				item: "gtceu:kapton_k_plate"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["5DA9CAEC38C8ACE8"]
-			id: "70B05E068B3955F5"
-			tasks: [{
-				id: "51744A8C30974E58"
-				item: "gtceu:exquisite_echo_shard_gem"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 2.5d
+			x: 47.0d
+			y: -20.0d
 		}
 		{
 			dependencies: [
-				"70B05E068B3955F5"
 				"011E8AEDD9D3731D"
+				"5DA9CAEC38C8ACE8"
+				"67C98CFDC97AFF44"
 			]
 			id: "79F1B6B69D7ED6CB"
 			subtitle: "1:1，是不是很神奇？(其实并没有)"
@@ -791,13 +432,13 @@
 				item: "kubejs:echo_processor_assembly"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 2.5d
+			x: 48.0d
+			y: -22.0d
 		}
 		{
 			dependencies: [
-				"638A8EAAB6DEA4C2"
 				"79F1B6B69D7ED6CB"
+				"4351112175B0F270"
 			]
 			id: "706D808019B80CE8"
 			subtitle: "还是1：1！赚翻了好不啦！(其实并没有)"
@@ -806,19 +447,8 @@
 				item: "kubejs:echo_processor_computer"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["325BB56C5CEBF98A"]
-			id: "638A8EAAB6DEA4C2"
-			tasks: [{
-				id: "168A1E327AE59C81"
-				item: "gtceu:highly_advanced_soc"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 4.0d
+			x: 48.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["5EDA18A58B5B8833"]
@@ -828,8 +458,8 @@
 				item: "gtceu:dense_hidden_alloy_plate"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 5.5d
+			x: 51.0d
+			y: -24.0d
 		}
 		{
 			dependencies: [
@@ -837,19 +467,21 @@
 				"132CE8E9DC867DB4"
 			]
 			id: "33ED8AC84DBC5E71"
+			size: 2.0d
 			subtitle: "现在的顶点"
 			tasks: [{
 				id: "6451F6B5CA51C264"
 				item: "kubejs:echo_processor_mainframe"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 5.5d
+			x: 51.0d
+			y: -18.0d
 		}
 		{
 			dependencies: [
 				"7F81295FE18741A6"
 				"2B91C66AF05AEFE4"
+				"12BAF2B7FB2E3643"
 			]
 			id: "610A31DB73C17E42"
 			rewards: [{
@@ -859,15 +491,15 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "你滴转底炉回来辣！"
 			tasks: [{
 				id: "702449C7063C979C"
 				item: "ctnhcore:plasma_alloy_blast_smelter"
 				type: "item"
 			}]
-			x: 20.0d
-			y: -3.0d
+			x: 38.0d
+			y: -13.0d
 		}
 		{
 			id: "2B91C66AF05AEFE4"
@@ -877,8 +509,8 @@
 				item: "gtceu:mega_blast_furnace"
 				type: "item"
 			}]
-			x: 20.0d
-			y: -1.0d
+			x: 36.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["0C3AB83D2762EC3D"]
@@ -895,8 +527,127 @@
 				item: "gtmthings:uv_2a_wireless_energy_input_hatch"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: 40.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["43D2BB3A6307F4D4"]
+			id: "19618A0AF3E1A0B5"
+			subtitle: "警告：如果你没绑定电容库就使用这个玩意，你的游戏也会变成烟花"
+			tasks: [{
+				id: "4EBD1A8B2457F1E9"
+				item: "gtmthings:wireless_energy_monitor"
+				type: "item"
+			}]
+			x: 43.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["610A31DB73C17E42"]
+			id: "4FDEB75428302C94"
+			subtitle: "5倍加速"
+			tasks: [{
+				id: "5959E0A3F789F5B9"
+				item: "gtceu:compressed_adamantite_plasma_bucket"
+				type: "item"
+			}]
+			x: 36.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["610A31DB73C17E42"]
+			id: "7FC1D52CB7D8F3A3"
+			subtitle: "10倍加速！但是代价是什么？"
+			tasks: [{
+				id: "3B3C73B38022BBE1"
+				item: "gtceu:compressed_aether_plasma_bucket"
+				type: "item"
+			}]
+			x: 36.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["021B8F054C53AD36"]
+			description: ["需要给HPCA装上桥接组件，才能通过交换机连接起来以达到更高算力"]
+			icon: "gtceu:network_switch"
+			id: "1C276DAC38B004B1"
+			rewards: [{
+				id: "4083BF89C86EB8FC"
+				item: "gtceu:hpca_bridge_component"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "获得64算力的方法"
+			tasks: [
+				{
+					id: "7800D6CAE77BAF6E"
+					item: "gtceu:network_switch"
+					type: "item"
+				}
+				{
+					id: "48EE4BBE1558A4CE"
+					item: "gtceu:hpca_bridge_component"
+					type: "item"
+				}
+			]
+			x: 38.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["38559FFEC45C6B03"]
+			id: "0A1650016D17B7F3"
+			subtitle: "你也逃——不——掉——"
+			tasks: [{
+				id: "20A935E8E14ACEE7"
+				item: "gtceu:uv_assembler"
+				type: "item"
+			}]
+			x: 32.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0A1650016D17B7F3"]
+			id: "53F07756D65FCF89"
+			size: 1.5d
+			tasks: [{
+				id: "54AE603CA8973D87"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			x: 34.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["53F07756D65FCF89"]
+			id: "021B8F054C53AD36"
+			tasks: [{
+				id: "2181D2ADA113AA14"
+				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
+				type: "item"
+			}]
+			x: 36.0d
+			y: -18.0d
+		}
+		{
+			id: "6B61A32A2688A834"
+			subtitle: "{ftbquests.chapter.luv.quest31.subtitle}"
+			tasks: [{
+				id: "1A30057D21C7EEB0"
+				item: "ctnhcore:luv_compressed_fusion_reactor"
+				type: "item"
+			}]
+			x: 42.0d
+			y: -15.0d
+		}
+		{
+			id: "07ABDAE50C5C8D9A"
+			tasks: [{
+				id: "0E6F8B16FACD03E1"
+				item: "ctnhcore:zpm_compressed_fusion_reactor"
+				type: "item"
+			}]
+			x: 42.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["0FEA054082A7941F"]
@@ -914,126 +665,8 @@
 				item: "gtmthings:wireless_energy_binding_tool"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["43D2BB3A6307F4D4"]
-			id: "19618A0AF3E1A0B5"
-			subtitle: "警告：如果你没绑定电容库就使用这个玩意，你的游戏也会变成烟花"
-			tasks: [{
-				id: "4EBD1A8B2457F1E9"
-				item: "gtmthings:wireless_energy_monitor"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["610A31DB73C17E42"]
-			id: "4FDEB75428302C94"
-			subtitle: "5倍加速"
-			tasks: [{
-				id: "5959E0A3F789F5B9"
-				item: "gtceu:compressed_adamantite_plasma_bucket"
-				type: "item"
-			}]
-			x: 20.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["610A31DB73C17E42"]
-			id: "7FC1D52CB7D8F3A3"
-			subtitle: "10倍加速！但是代价是什么？"
-			tasks: [{
-				id: "3B3C73B38022BBE1"
-				item: "gtceu:compressed_aether_plasma_bucket"
-				type: "item"
-			}]
-			x: 22.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["021B8F054C53AD36"]
-			description: ["需要给HPCA装上桥接组件，才能通过交换机连接起来以达到更高算力"]
-			icon: "gtceu:network_switch"
-			id: "1C276DAC38B004B1"
-			rewards: [{
-				id: "4083BF89C86EB8FC"
-				item: "gtceu:hpca_bridge_component"
-				type: "item"
-			}]
-			size: 2.0d
-			subtitle: "获得64算力的方法"
-			tasks: [
-				{
-					id: "7800D6CAE77BAF6E"
-					item: "gtceu:network_switch"
-					type: "item"
-				}
-				{
-					id: "48EE4BBE1558A4CE"
-					item: "gtceu:hpca_bridge_component"
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["38559FFEC45C6B03"]
-			id: "0A1650016D17B7F3"
-			subtitle: "你也逃——不——掉——"
-			tasks: [{
-				id: "20A935E8E14ACEE7"
-				item: "gtceu:uv_assembler"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["0A1650016D17B7F3"]
-			id: "53F07756D65FCF89"
-			tasks: [{
-				id: "54AE603CA8973D87"
-				item: "gtceu:tritanium_coil_block"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["53F07756D65FCF89"]
-			id: "021B8F054C53AD36"
-			tasks: [{
-				id: "2181D2ADA113AA14"
-				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 2.0d
-		}
-		{
-			id: "6B61A32A2688A834"
-			subtitle: "{ftbquests.chapter.luv.quest31.subtitle}"
-			tasks: [{
-				id: "1A30057D21C7EEB0"
-				item: "ctnhcore:luv_compressed_fusion_reactor"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 2.0d
-		}
-		{
-			id: "07ABDAE50C5C8D9A"
-			tasks: [{
-				id: "0E6F8B16FACD03E1"
-				item: "ctnhcore:zpm_compressed_fusion_reactor"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 3.5d
+			x: 40.0d
+			y: -13.0d
 		}
 	]
 	title: "{ftbquests.chapter.uv.title}"

@@ -11,7 +11,7 @@
 		}
 	}
 	id: "387655B3E5BE4912"
-	order_index: 3
+	order_index: 2
 	quest_links: [
 		{
 			id: "652E0BAD6776556B"
@@ -29,6 +29,14 @@
 			x: 4.5d
 			y: -6.0d
 		}
+		{
+			id: "79A19D5BFE7B8EEE"
+			linked_quest: "4E153836BC53CDD1"
+			shape: "gear"
+			size: 3.0d
+			x: -4.0d
+			y: -6.0d
+		}
 	]
 	quests: [
 		{
@@ -40,8 +48,8 @@
 				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest66.task_+7009642118648602981.title}"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
 			id: "10B1EE4638BC3203"
@@ -63,8 +71,8 @@
 				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest65.task_+4300438545482601943.title}"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["156B500126054BC2"]
@@ -79,8 +87,8 @@
 				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest64.task_+4453349974852521174.title}"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -95,8 +103,8 @@
 				item: "createoreexcavation:sample_drill"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -110,23 +118,8 @@
 				item: "createoreexcavation:drilling_machine"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1162E347E7C00175"]
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest75.description1}"]
-			id: "4E153836BC53CDD1"
-			shape: "gear"
-			size: 3.0d
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest75.subtitle}"
-			tasks: [{
-				id: "2C454A9B147379F9"
-				item: "ctnhcore:martial_morality_eye"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -6.0d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
 			id: "189EA0629CFAD1AB"
@@ -135,8 +128,8 @@
 				item: "farmersdelight:organic_compost"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -3.0d
+			x: -3.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["189EA0629CFAD1AB"]
@@ -147,8 +140,8 @@
 				item: "farmersdelight:rich_soil"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -2.0d
+			x: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["41BB77968B763B18"]
@@ -158,8 +151,8 @@
 				item: "gtceu:rich_soil_dust"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.0d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["06B1BB32F96710A2"]
@@ -170,8 +163,8 @@
 				item: "gtceu:fermented_biomass_bucket"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 0.5d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -184,8 +177,8 @@
 				item: "gtceu:ethanol_mixture_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.0d
+			x: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["06B1BB32F96710A2"]
@@ -195,8 +188,8 @@
 				item: "gtceu:ethanol_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.5d
+			x: -3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3C2319F21ED52FAE"]
@@ -206,8 +199,8 @@
 				item: "gtceu:raw_bio_diesel_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.0d
+			x: -4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1162E347E7C00175"]
@@ -217,8 +210,8 @@
 				item: "createdieselgenerators:basin_lid"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -3.0d
+			x: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["75774FD66E513B5C"]
@@ -230,8 +223,8 @@
 				item: "gtceu:lv_miner"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: 4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3534E727B52EC2F2"]
@@ -243,8 +236,8 @@
 				item: "gtmthings:lv_digital_miner"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
 			id: "2F6F9A8648EB8899"
@@ -253,8 +246,8 @@
 				item: "gtmthings:mv_digital_miner"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			id: "136335555BE48105"
@@ -263,8 +256,8 @@
 				item: "gtmthings:hv_digital_miner"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 4.0d
+			y: -0.5d
 		}
 		{
 			id: "3979018285276884"
@@ -273,8 +266,8 @@
 				item: "gtceu:ev_large_miner"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -3.0d
+			x: 5.0d
+			y: -3.5d
 		}
 		{
 			id: "512D724945EF3D93"
@@ -283,8 +276,8 @@
 				item: "gtceu:iv_large_miner"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.5d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			id: "7F6ED86E26844364"
@@ -293,8 +286,8 @@
 				item: "gtceu:luv_large_miner"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 5.0d
+			y: -0.5d
 		}
 	]
 	title: "如何挖矿"

@@ -13,26 +13,26 @@
 			linked_quest: "11F898C7B0C925D5"
 			shape: "rsquare"
 			size: 2.0d
-			x: 1.0d
+			x: 0.5d
 			y: 12.0d
 		}
 		{
 			id: "73C8E06B594B5A87"
 			linked_quest: "0FEAC07F1404346A"
-			x: 13.0d
+			x: 12.5d
 			y: 13.0d
 		}
 		{
 			id: "65F7F2B42D3849C7"
 			linked_quest: "02115E4763B9F906"
-			x: 3.5d
-			y: 7.0d
+			x: 6.5d
+			y: 10.0d
 		}
 		{
 			id: "0BEDB38C49D6815C"
 			linked_quest: "7564DC3576C62D48"
-			x: 2.5d
-			y: 7.0d
+			x: 4.5d
+			y: 9.0d
 		}
 		{
 			id: "176E4746C691A2E2"
@@ -43,7 +43,7 @@
 		{
 			id: "7EA6409FA421A4C4"
 			linked_quest: "60DE45074FA207BF"
-			x: 13.0d
+			x: 12.5d
 			y: 11.0d
 		}
 	]
@@ -63,7 +63,7 @@
 				item: "gtceu:mv_machine_hull"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 12.0d
 		}
 		{
@@ -92,7 +92,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 2.5d
 			y: 14.0d
 		}
 		{
@@ -103,7 +103,7 @@
 				item: "gtceu:salt_dust"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 15.0d
 		}
 		{
@@ -114,7 +114,7 @@
 				item: "gtceu:hydrochloric_acid_bucket"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 16.0d
 		}
 		{
@@ -125,7 +125,7 @@
 				item: "gtceu:sodium_bisulfate_dust"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 16.0d
 		}
 		{
@@ -136,7 +136,7 @@
 				item: "gtceu:iron_iii_chloride_bucket"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 17.0d
 		}
 		{
@@ -147,7 +147,7 @@
 				item: "gtceu:sodium_persulfate_bucket"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 17.0d
 		}
 		{
@@ -158,7 +158,7 @@
 				item: "gtceu:salt_water_bucket"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 16.0d
 		}
 		{
@@ -178,7 +178,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.mv.quest9.title}"
-			x: 4.0d
+			x: 3.5d
 			y: 17.0d
 		}
 		{
@@ -193,7 +193,7 @@
 				item: "gtceu:pyrolyse_oven"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.5d
 			y: 14.0d
 		}
 		{
@@ -208,7 +208,7 @@
 				item: "gtceu:ethanol_bucket"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 15.0d
 		}
 		{
@@ -225,7 +225,7 @@
 				item: "gtceu:ethylene_bucket"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.5d
 			y: 16.0d
 		}
 		{
@@ -237,7 +237,7 @@
 				item: "gtceu:polyethylene_plate"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.5d
 			y: 16.0d
 		}
 		{
@@ -257,7 +257,7 @@
 				item: "gtceu:mv_cutter"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 10.0d
 		}
 		{
@@ -271,8 +271,8 @@
 				item: "gtceu:silicon_wafer"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 8.5d
+			x: 4.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7142680A93861DB2"]
@@ -282,7 +282,7 @@
 				item: "gtceu:ilc_wafer"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.5d
 			y: 12.0d
 		}
 		{
@@ -297,7 +297,7 @@
 				item: "gtceu:transistor"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: 15.0d
 		}
 		{
@@ -308,8 +308,8 @@
 				item: "gtceu:ram_wafer"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 10.0d
+			x: 10.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["5A460876CA0EC216"]
@@ -319,7 +319,7 @@
 				item: "gtceu:polyethylene_bucket"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: 16.0d
 		}
 		{
@@ -341,7 +341,7 @@
 				item: "gtceu:implosion_compressor"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 15.5d
 			y: 10.0d
 		}
 		{
@@ -366,8 +366,8 @@
 				type: "item"
 			}]
 			title: "末地权限"
-			x: 20.0d
-			y: 7.0d
+			x: 17.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["61306F7E5202C387"]
@@ -377,8 +377,8 @@
 				item: "gtceu:ender_eye_dust"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 8.5d
+			x: 17.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -391,8 +391,8 @@
 				item: "gtceu:ender_pearl_dust"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 8.5d
+			x: 16.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5A55D491F0E9F389"]
@@ -403,7 +403,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "36924FA5E1528AB2"
@@ -411,7 +411,7 @@
 				type: "dimension"
 			}]
 			x: 21.5d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -452,14 +452,14 @@
 			dependencies: ["4C152AA55BCD6945"]
 			description: ["现在~利用你学到的双仓升压去做神奇的事吧！"]
 			id: "3C1A31CEA3C10082"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "61073088E3E1F703"
 				item: "gtceu:mv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 8.5d
+			x: 10.5d
+			y: 8.0d
 		}
 		{
 			id: "61F3A1C4B771E811"
@@ -469,7 +469,7 @@
 				item: "gtceu:sulfuric_acid_bucket"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 16.0d
 		}
 		{
@@ -480,7 +480,7 @@
 				item: "ctnhcore:digestion_tank"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: 14.0d
 		}
 		{
@@ -495,7 +495,7 @@
 				item: "ctnhcore:fermenting_tank"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 14.0d
 		}
 		{
@@ -506,7 +506,7 @@
 				item: "gtceu:oil_bucket"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 17.0d
 		}
 		{
@@ -543,8 +543,8 @@
 				item: "gtceu:kanthal_dust"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 8.5d
+			x: 12.5d
+			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -567,7 +567,7 @@
 			}]
 			title: "天境权限"
 			x: 21.5d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["415AF3F977F4C3F9"]
@@ -586,7 +586,7 @@
 			}]
 			title: "{ftbquests.chapter.mv.quest43.title}"
 			x: 23.5d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
@@ -598,7 +598,7 @@
 				type: "item"
 			}]
 			x: 23.5d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
@@ -609,7 +609,7 @@
 				type: "item"
 			}]
 			x: 21.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -624,8 +624,8 @@
 				item: "gtceu:kanthal_ingot"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 7.0d
+			x: 12.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1FBD86C0CF681427"]
@@ -636,8 +636,8 @@
 				item: "gtceu:mv_chemical_bath"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 7.0d
+			x: 15.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -659,8 +659,8 @@
 				item: "gtceu:kanthal_coil_block"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 5.0d
+			x: 12.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -674,7 +674,7 @@
 				item: "gtceu:mv_laser_engraver"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: 12.0d
 		}
 		{
@@ -699,7 +699,7 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
+			x: 8.5d
 			y: 14.0d
 		}
 		{
@@ -710,7 +710,7 @@
 				item: "gtceu:cpu_wafer"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.5d
 			y: 14.0d
 		}
 		{
@@ -724,8 +724,8 @@
 				item: "gtceu:silicon_ingot"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 5.0d
+			x: 15.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -739,8 +739,8 @@
 				item: "gtceu:vanadium_steel_ingot"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 10.0d
+			x: 2.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3C1A31CEA3C10082"]
@@ -750,7 +750,7 @@
 				item: "gtceu:vibrant_alloy_ingot"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: 7.0d
 		}
 		{
@@ -762,8 +762,8 @@
 				item: "gtceu:vibrant_alloy_single_wire"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 6.0d
+			x: 9.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7142680A93861DB2"]
@@ -773,7 +773,7 @@
 				item: "gtceu:ulpic_wafer"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: 10.0d
 		}
 		{
@@ -790,7 +790,7 @@
 				item: "gtceu:phosphorus_boule"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 11.5d
 			y: 7.0d
 		}
 		{
@@ -801,7 +801,7 @@
 				item: "gtceu:basic_integrated_circuit"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 15.5d
 			y: 13.0d
 		}
 		{
@@ -815,7 +815,7 @@
 				item: "gtceu:good_integrated_circuit"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 15.5d
 			y: 12.0d
 		}
 		{
@@ -827,7 +827,7 @@
 				item: "gtceu:plastic_printed_circuit_board"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: 17.0d
 		}
 		{
@@ -849,7 +849,7 @@
 				item: "gtceu:advanced_integrated_circuit"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 15.5d
 			y: 11.0d
 		}
 		{
@@ -866,7 +866,7 @@
 				item: "kubejs:mana_integrated_circuit"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.0d
 			y: 11.0d
 		}
 		{
@@ -877,7 +877,7 @@
 				title: "{ftbquests.chapter.mv.quest68.task_+2025493845214559268.title}"
 				type: "checkmark"
 			}]
-			x: 20.0d
+			x: 18.5d
 			y: 10.0d
 		}
 		{
@@ -887,8 +887,8 @@
 				item: "enderio:void_chassis"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 10.5d
+			x: 4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -901,8 +901,8 @@
 				item: "enderio:soul_binder"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 8.0d
+			x: 6.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -915,8 +915,8 @@
 				item: "enderio:ensouled_chassis"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 10.0d
+			x: 4.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["199C34FF316CDB5D"]
@@ -926,8 +926,8 @@
 				item: "enderio:slice_and_splice"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 10.0d
+			x: 6.5d
+			y: 7.0d
 		}
 		{
 			id: "1CD250F70B566174"
@@ -936,8 +936,8 @@
 				item: "gtceu:soularium_ingot"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 9.5d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -956,8 +956,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 7.0d
+			x: 6.5d
+			y: 5.0d
 		}
 		{
 			id: "64B9355875C126ED"
@@ -967,13 +967,14 @@
 				item: "minecraft:zombie_head"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 9.0d
+			x: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
 				"64B9355875C126ED"
 				"2072672E99455E02"
+				"3231CBCCB4FFFA0B"
 			]
 			id: "4B0A7C665D98CEDD"
 			size: 1.0d
@@ -982,8 +983,8 @@
 				item: "enderio:z_logic_controller"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 10.0d
+			x: 8.5d
+			y: 7.0d
 		}
 		{
 			id: "23AD57EAE8D44BCB"
@@ -993,7 +994,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 7.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["23AD57EAE8D44BCB"]
@@ -1004,7 +1005,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			id: "4F752D5EC2FB511C"
@@ -1013,8 +1014,8 @@
 				item: "gtceu:raw_ruby"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.0d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4F752D5EC2FB511C"]
@@ -1025,8 +1026,8 @@
 				item: "gtceu:chromium_dust"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 8.5d
+			x: 2.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["24CB9175692BADFD"]
@@ -1036,8 +1037,8 @@
 				item: "ctnhcore:greenhouse"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 15.0d
+			x: 6.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["24CB9175692BADFD"]
@@ -1047,8 +1048,8 @@
 				item: "gtceu:mv_mixer"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 8.5d
+			x: 12.5d
+			y: 10.0d
 		}
 		{
 			id: "02F1CF840A21D33C"
@@ -1057,8 +1058,8 @@
 				item: "gtceu:mv_assembler"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 5.0d
+			x: 10.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5CC2A3C37EB99ED3"]
@@ -1069,7 +1070,7 @@
 				item: "gtceu:cpu_chip"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 15.5d
 			y: 14.0d
 		}
 		{
@@ -1080,7 +1081,7 @@
 				item: "gtceu:polyethylene_foil"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 13.5d
 			y: 16.0d
 		}
 		{
@@ -1092,7 +1093,7 @@
 				item: "gtceu:capacitor"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.5d
 			y: 16.0d
 		}
 		{
@@ -1103,8 +1104,8 @@
 				item: "minecraft:tnt"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 7.0d
+			x: 16.5d
+			y: 8.0d
 		}
 		{
 			id: "636A4080FF1A30CD"
@@ -1113,8 +1114,8 @@
 				item: "gtceu:toluene_bucket"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 5.0d
+			x: 16.5d
+			y: 6.0d
 		}
 		{
 			id: "78C09E2B5542CD21"
@@ -1142,7 +1143,7 @@
 				item: "gtceu:micro_processor"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 15.5d
 			y: 16.0d
 		}
 		{
@@ -1156,8 +1157,33 @@
 				item: "gtceu:mv_mixer"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 18.5d
 			y: 12.0d
+		}
+		{
+			dependencies: ["1162E347E7C00175"]
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest75.description1}"]
+			id: "4E153836BC53CDD1"
+			shape: "gear"
+			size: 3.0d
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest75.subtitle}"
+			tasks: [{
+				id: "2C454A9B147379F9"
+				item: "ctnhcore:martial_morality_eye"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 14.0d
+		}
+		{
+			id: "3231CBCCB4FFFA0B"
+			tasks: [{
+				id: "4B1EE75557AADC29"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
 		}
 	]
 	title: "{ftbquests.chapter.mv.title}"

@@ -5,7 +5,7 @@
 	group: "4D1B16DFEF4B34DD"
 	icon: "botania:mana_pylon"
 	id: "449FB885B9E16D50"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -96,7 +96,7 @@
 				item: "ctnhcore:mana_generator_turbine_tier1"
 				type: "item"
 			}]
-			x: -20.0d
+			x: -21.0d
 			y: -15.0d
 		}
 		{
@@ -106,7 +106,7 @@
 				item: "ctnhcore:mana_generator_turbine_tier2"
 				type: "item"
 			}]
-			x: -20.0d
+			x: -21.0d
 			y: -13.0d
 		}
 		{
@@ -116,8 +116,8 @@
 				item: "ctnhcore:mana_generator_turbine_tier3"
 				type: "item"
 			}]
-			x: -20.0d
-			y: -9.0d
+			x: -21.0d
+			y: -7.0d
 		}
 		{
 			id: "00847C1C4F45B42D"
@@ -131,10 +131,6 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"00847C1C4F45B42D"
-				"7A63464D71D0791E"
-			]
 			id: "707EC96A26FA8C17"
 			subtitle: "终极魔力发电"
 			tasks: [{
@@ -142,7 +138,7 @@
 				item: "ctnhcore:eye_of_quasar"
 				type: "item"
 			}]
-			x: -20.0d
+			x: -21.0d
 			y: -1.0d
 		}
 		{
@@ -152,7 +148,7 @@
 				item: "ctnhcore:mana_bender"
 				type: "item"
 			}]
-			x: -17.0d
+			x: -19.0d
 			y: -13.0d
 		}
 		{
@@ -162,7 +158,7 @@
 				item: "ctnhcore:mana_lathe"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -17.0d
 			y: -13.0d
 		}
 		{
@@ -172,7 +168,7 @@
 				item: "ctnhcore:mana_macerator"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -15.0d
 			y: -13.0d
 		}
 		{
@@ -182,7 +178,7 @@
 				item: "ctnhcore:mana_wiremill"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -13.0d
 			y: -13.0d
 		}
 		{
@@ -192,7 +188,7 @@
 				item: "ctnhcore:gaia_reactor"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -11.0d
 			y: -13.0d
 		}
 		{
@@ -203,8 +199,8 @@
 				item: "ctnhcore:mana_reactor"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -13.0d
+			x: -15.0d
+			y: -11.0d
 		}
 		{
 			id: "6DC84A820904811E"
@@ -214,7 +210,7 @@
 				item: "ctnhcore:mana_assembler"
 				type: "item"
 			}]
-			x: -17.0d
+			x: -19.0d
 			y: -11.0d
 		}
 		{
@@ -226,7 +222,7 @@
 				item: "ctnhcore:industrial_altar"
 				type: "item"
 			}]
-			x: -17.0d
+			x: -13.0d
 			y: -9.0d
 		}
 		{
@@ -247,7 +243,7 @@
 				item: "ctnhcore:meteor_capturer"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -13.0d
 			y: -7.0d
 		}
 		{
@@ -263,7 +259,7 @@
 				item: "ctnhcore:demon_will_generator"
 				type: "item"
 			}]
-			x: -20.0d
+			x: -15.0d
 			y: -7.0d
 		}
 		{
@@ -274,7 +270,7 @@
 				item: "ctnhcore:mana_seperator"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -17.0d
 			y: -11.0d
 		}
 		{
@@ -284,7 +280,7 @@
 				item: "ctnhcore:mana_mixer"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -19.0d
 			y: -7.0d
 		}
 		{
@@ -294,7 +290,7 @@
 				item: "ctnhcore:zenith_distillation_tower"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -15.0d
 			y: -5.0d
 		}
 		{
@@ -304,7 +300,7 @@
 				item: "ctnhcore:zenith_laser"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -9.0d
 			y: -5.0d
 		}
 		{
@@ -326,7 +322,7 @@
 				item: "ctnhcore:nicoll_dyson_beams"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -19.0d
 			y: -1.0d
 		}
 		{
@@ -336,7 +332,7 @@
 				item: "kubejs:mana_electronic_circuit"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -7.0d
 			y: -11.0d
 		}
 		{
@@ -346,7 +342,7 @@
 				item: "kubejs:mana_integrated_circuit"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -7.0d
 			y: -9.0d
 		}
 		{
@@ -358,7 +354,7 @@
 				item: "kubejs:blooded_micro_processor_mainframe"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -7.0d
 			y: -7.0d
 		}
 		{
@@ -369,7 +365,7 @@
 				item: "kubejs:will_nano_processor_mainframe"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -7.0d
 			y: -5.0d
 		}
 		{
@@ -380,25 +376,13 @@
 				item: "ctnhcore:water_power_station"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -19.0d
 			y: -15.0d
 		}
 		{
-			id: "61483B28B24A42BC"
-			subtitle: "终极巨构即将来临......"
-			tasks: [{
-				id: "6104315E84618F14"
-				item: "gtceu:uiv_machine_casing"
-				type: "item"
-			}]
-			title: "???"
-			x: -23.0d
-			y: 1.0d
-		}
-		{
 			dependencies: [
-				"0BE8E02ED6A5478C"
-				"04E158A2929EB69A"
+				"5D8512591C6E861A"
+				"31D858315A2595AE"
 			]
 			id: "237681239D5CE55C"
 			rewards: [{
@@ -412,17 +396,18 @@
 				title: "LV奖励"
 				type: "checkmark"
 			}]
-			x: 3.0d
+			x: -5.0d
 			y: -15.0d
 		}
 		{
 			dependencies: [
-				"7C8E9CFCEC8F2D55"
-				"507FDEED9E29DC25"
-				"65BB99AFC5684DFD"
-				"1A0002B217975F1E"
-				"0290089C36A2C35B"
-				"389A67C76B4B1821"
+				"42B0E04A51E87BCD"
+				"182E256E2FFC6D74"
+				"0B3956E5D4746EE9"
+				"1F7EB0384F2B2526"
+				"6F124A1EE50545A6"
+				"6A2153C8F5EB964D"
+				"237681239D5CE55C"
 			]
 			id: "31BC682B42A6B651"
 			min_required_dependencies: 5
@@ -462,21 +447,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "魔力反应器属于HV，你只需要完成5个"
 			tasks: [{
 				id: "30F128440E921AE5"
 				title: "MV阶段奖励"
 				type: "checkmark"
 			}]
 			title: "MV奖励"
-			x: 3.0d
+			x: -5.0d
 			y: -13.0d
 		}
 		{
 			dependencies: [
+				"429B1CAA540F19E4"
+				"0A8A155096FBEF88"
+				"09EE4358E8541CE0"
+				"7E3238CC6B23CA4E"
 				"31BC682B42A6B651"
-				"5C9D6A4D082F419F"
-				"69A119A432FC5309"
 			]
 			id: "74CB2CCC5BB25F0E"
 			rewards: [
@@ -497,6 +483,7 @@
 					type: "choice"
 				}
 				{
+					count: 8
 					id: "46EE9EACD2B32B61"
 					item: "kubejs:mana_electronic_circuit"
 					type: "item"
@@ -507,20 +494,18 @@
 				title: "HV奖励"
 				type: "checkmark"
 			}]
-			x: 3.0d
+			x: -5.0d
 			y: -11.0d
 		}
 		{
 			dependencies: [
-				"74CB2CCC5BB25F0E"
-				"6FBEBC861DD11681"
-				"4DB28093FEF7243E"
-				"4A0AC9C14C9F5EFD"
-				"0684030D5FD75087"
 				"70B56CBF3246D9F0"
-				"696B43A04E6D2F05"
-				"221A2FB97B12AE80"
-				"3BEF0330DD624962"
+				"0F7BE212796184DC"
+				"3C245078B57AE5F8"
+				"2272524E4A93B97B"
+				"2EFBA5E9DD8859A5"
+				"417819D361364A09"
+				"54F178E1BE071331"
 			]
 			id: "020376281C4F33C1"
 			rewards: [
@@ -549,18 +534,20 @@
 				title: "IV奖励"
 				type: "checkmark"
 			}]
-			x: 3.0d
+			x: -5.0d
 			y: -7.0d
 		}
 		{
 			dependencies: [
+				"25C2961D6BE4D39C"
+				"792D46A0721C7066"
+				"6AD120660D7FE626"
+				"637FF23EE91EC5CC"
+				"71231DDBE3BF8A26"
+				"2EE91503230A895E"
+				"46C052734670A9CA"
+				"296B425E09AA623B"
 				"020376281C4F33C1"
-				"00847C1C4F45B42D"
-				"7E307F732C41C8A4"
-				"250AF3302C00857F"
-				"5E9F399B23CEB8D0"
-				"601A414CAA3597EC"
-				"146C0A035CE91390"
 			]
 			description: ["已经快玩完&bBTNH了！"]
 			hide_details_until_startable: true
@@ -576,38 +563,39 @@
 				title: "LUV奖励"
 				type: "checkmark"
 			}]
-			x: 3.0d
+			x: -5.0d
 			y: -5.0d
 		}
 		{
 			dependencies: [
-				"0C248F430ED4DE66"
-				"30FB55695573D452"
-				"707EC96A26FA8C17"
+				"42BE3DD0D38E8F02"
+				"5A19FFA824CBEE20"
 			]
-			id: "781E3D9B19198AAF"
-			subtitle: "恭喜结局!"
-			tasks: [{
-				id: "43ABF78D449303E5"
-				title: "大法师的神迹"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: -1.0d
-		}
-		{
 			id: "114C52A3317D9D68"
-			rewards: [{
-				id: "1BA66007DCD34639"
-				item: {
-					Count: 1
-					id: "kubejs:ark_of_homo"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "1BA66007DCD34639"
+					item: {
+						Count: 1
+						id: "kubejs:ark_of_homo"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6950CA9A8E32D12B"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_umbrella"
+						tag: {
+							mode: { }
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "丛林的魔君的馈赠......但是代价是什么？"
 			tasks: [
 				{
@@ -621,7 +609,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: -5.0d
 			y: 1.0d
 		}
 		{
@@ -632,7 +620,7 @@
 				item: "ctnhcore:eternal_well_of_suffer"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -13.0d
 			y: -5.0d
 		}
 		{
@@ -688,16 +676,6 @@
 			y: -5.0d
 		}
 		{
-			id: "38C73C36429B1739"
-			tasks: [{
-				id: "78003AC14CB45F48"
-				item: "kubejs:mana_circuit_board"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -3.0d
-		}
-		{
 			id: "4C316712DF28094D"
 			subtitle: "便宜的UV板子"
 			tasks: [{
@@ -705,7 +683,7 @@
 				item: "kubejs:magic_quantum_processor_mainframe"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -7.0d
 			y: -1.0d
 		}
 		{
@@ -725,9 +703,87 @@
 				title: "魔力发电机器注意事项"
 				type: "checkmark"
 			}]
-			x: -20.0d
+			x: -21.0d
+			y: -17.0d
+		}
+		{
+			dependencies: [
+				"1552FB2BB783C291"
+				"739D51C5E20C9465"
+				"74CB2CCC5BB25F0E"
+			]
+			id: "54F178E1BE071331"
+			subtitle: "太简单了没有奖励）"
+			tasks: [{
+				id: "62E9BFDC287EBEF5"
+				title: "EV"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"0E1649E589BE053A"
+				"0C248F430ED4DE66"
+			]
+			id: "6FD8BB36F3D80C1B"
+			subtitle: "太简单了依旧没有奖励）"
+			tasks: [{
+				id: "017AA3EFFBA54587"
+				title: "Zpm"
+				type: "checkmark"
+			}]
+			title: "ZPM"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"47E929326624B2A9"
+				"52DF6FFC5E7C64C8"
+				"65EAC19545930BA7"
+				"403011FF1A5984E6"
+				"6FD8BB36F3D80C1B"
+			]
+			id: "5A19FFA824CBEE20"
+			rewards: [{
+				count: 16
+				id: "2867CEEA552B1136"
+				item: "ctnhcore:quasar_rune"
+				type: "item"
+			}]
+			tasks: [{
+				id: "137888E0857F9E17"
+				title: "UV"
+				type: "checkmark"
+			}]
+			title: "UV奖励"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			id: "25157022F0421268"
+			subtitle: "其实还有"
+			tasks: [{
+				id: "14310B0358BC0568"
+				item: "gtceu:uhv_machine_casing"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 1.0d
+		}
+		{
+			id: "2F497F4992DEF6E2"
+			tasks: [{
+				id: "1B550F421DF0E063"
+				title: "工业血魔法多方块也在这里"
+				type: "checkmark"
+			}]
+			title: "工业血魔法多方块在这里哦"
+			x: -17.0d
 			y: -17.0d
 		}
 	]
-	title: "魔法多方块/电路大杂烩"
+	title: "Mana多方块"
 }

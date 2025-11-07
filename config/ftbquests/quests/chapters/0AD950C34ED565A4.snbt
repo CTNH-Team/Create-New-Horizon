@@ -9,8 +9,8 @@
 	quest_links: [{
 		id: "3369652FDECC3484"
 		linked_quest: "14FF729916CDD0DA"
-		x: 0.0d
-		y: -0.5d
+		x: -2.0d
+		y: 0.5d
 	}]
 	quests: [
 		{
@@ -21,8 +21,8 @@
 				item: "legendarysurvivaloverhaul:cooling_coat_1"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -2.0d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2B8D29BCF9754837"]
@@ -32,8 +32,8 @@
 				item: "legendarysurvivaloverhaul:heating_coat_1"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.0d
+			x: -4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -46,8 +46,8 @@
 				item: "legendarysurvivaloverhaul:thermal_coat_1"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -0.5d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			description: ["{ftbquests.chapter.0AD950C34ED565A4.quest4.description1}"]
@@ -59,7 +59,7 @@
 				type: "checkmark"
 			}]
 			x: -6.0d
-			y: 0.5d
+			y: 4.5d
 		}
 		{
 			description: ["{ftbquests.chapter.0AD950C34ED565A4.quest5.description1}"]
@@ -71,7 +71,7 @@
 				type: "checkmark"
 			}]
 			x: -6.0d
-			y: -1.5d
+			y: -3.5d
 		}
 		{
 			id: "3EE3102F38FCF130"
@@ -81,7 +81,7 @@
 				item: "legendarysurvivaloverhaul:ice_fern_leaf"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: -3.5d
 		}
 		{
@@ -92,8 +92,8 @@
 				item: "legendarysurvivaloverhaul:sun_fern_leaf"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 2.5d
+			x: -4.0d
+			y: 4.5d
 		}
 		{
 			id: "01C3E477C4F072F1"
@@ -104,7 +104,7 @@
 				type: "checkmark"
 			}]
 			x: -6.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			id: "62FBC55C32CFFEAF"
@@ -113,8 +113,8 @@
 				item: "legendarysurvivaloverhaul:cooler"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			id: "641A050FDC6EBA95"
@@ -123,8 +123,8 @@
 				item: "legendarysurvivaloverhaul:heater"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
 			id: "3314F0D4098098AE"
@@ -144,8 +144,8 @@
 				type: "item"
 			}]
 			title: "御寒附魔"
-			x: 0.0d
-			y: 2.5d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
 			id: "5E0E38DFBE25B51D"
@@ -165,7 +165,7 @@
 				type: "item"
 			}]
 			title: "御暑附魔"
-			x: 0.0d
+			x: -2.0d
 			y: -3.5d
 		}
 		{
@@ -219,8 +219,8 @@
 				type: "item"
 			}]
 			title: "节气"
-			x: -3.5d
-			y: -6.5d
+			x: -4.0d
+			y: -5.5d
 		}
 		{
 			id: "4D39D33BB9765A01"
@@ -230,8 +230,8 @@
 				item: "eclipticseasons:hygrometer"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.5d
+			x: -2.0d
+			y: -5.5d
 		}
 		{
 			id: "602481325DFDBFA3"
@@ -241,8 +241,8 @@
 				item: "eclipticseasons:greenhouse_core_container"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -6.5d
+			x: 0.0d
+			y: -5.5d
 		}
 	]
 	title: "{ftbquests.chapter.0AD950C34ED565A4.title}"

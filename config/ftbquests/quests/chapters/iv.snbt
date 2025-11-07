@@ -6,23 +6,14 @@
 	icon: "gtceu:iv_machine_hull"
 	id: "6A50F0290F3D7CC7"
 	order_index: 4
-	quest_links: [
-		{
-			id: "5D162E9699779EE3"
-			linked_quest: "1CECBF50A30F23B0"
-			shape: "rsquare"
-			size: 2.0d
-			x: -8.5d
-			y: -10.0d
-		}
-		{
-			id: "60151DD292DF5E7A"
-			linked_quest: "3FAC0EBCE35BE621"
-			size: 2.0d
-			x: -8.5d
-			y: -13.0d
-		}
-	]
+	quest_links: [{
+		id: "5D162E9699779EE3"
+		linked_quest: "1CECBF50A30F23B0"
+		shape: "rsquare"
+		size: 2.0d
+		x: -8.5d
+		y: -10.0d
+	}]
 	quests: [
 		{
 			dependencies: ["1CECBF50A30F23B0"]
@@ -59,7 +50,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -13.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["0B92B29E066D2E88"]
@@ -70,13 +61,13 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "268301BDF1F3BF0C"
 				item: "gtceu:iv_assembler"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -11.5d
 		}
 		{
@@ -87,8 +78,8 @@
 				item: "ctnhcore:t3_chip"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -13.0d
+			x: -1.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["63F5094821C731CA"]
@@ -104,8 +95,8 @@
 				item: "ctnhcore:heavy_ingot_t3"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -13.0d
+			x: -2.0d
+			y: -12.5d
 		}
 		{
 			dependencies: [
@@ -140,8 +131,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -14.5d
+			x: -1.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["45FF43F43BAC87F0"]
@@ -159,8 +150,8 @@
 				title: "{ftbquests.chapter.iv.quest7.task_+1574147633237299094.title}"
 				type: "dimension"
 			}]
-			x: -1.0d
-			y: -16.0d
+			x: 0.0d
+			y: -14.5d
 		}
 		{
 			dependencies: [
@@ -174,13 +165,13 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "0476814271491E5A"
 				item: "gtceu:iv_circuit_assembler"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: -11.5d
 		}
 		{
@@ -194,8 +185,8 @@
 				item: "gtceu:quantum_processor"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -13.0d
+			x: -4.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["2674BCD150D5DFAD"]
@@ -213,7 +204,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -17.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["2813BC7AC57AFF93"]
@@ -230,7 +221,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -14.5d
+			y: -12.5d
 		}
 		{
 			id: "56B007C038EED6ED"
@@ -239,8 +230,8 @@
 				item: "gtceu:carbon_fibers"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -17.5d
+			x: -5.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["145F2710B4DEA996"]
@@ -251,7 +242,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -16.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["56B007C038EED6ED"]
@@ -262,7 +253,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -17.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["45FF43F43BAC87F0"]
@@ -280,8 +271,8 @@
 				title: "{ftbquests.chapter.iv.quest15.task_+3488244528875586400.title}"
 				type: "dimension"
 			}]
-			x: -2.0d
-			y: -16.0d
+			x: -1.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["3EE20D3AB81673F0"]
@@ -303,7 +294,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -14.5d
+			y: -13.5d
 		}
 		{
 			dependencies: [
@@ -323,7 +314,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -13.0d
+			y: -12.5d
 		}
 		{
 			dependencies: [
@@ -355,7 +346,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -14.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["7CBC37154BDED793"]
@@ -366,7 +357,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -16.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["2674BCD150D5DFAD"]
@@ -385,7 +376,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -17.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["2A6527B0F4AC3E2E"]
@@ -419,7 +410,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			size: 1.5d
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.iv.quest30.subtitle}"
 			tasks: [
 				{
@@ -449,8 +440,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.iv.quest30.title}"
-			x: 3.5d
-			y: -13.0d
+			x: 3.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["0B92B29E066D2E88"]
@@ -462,7 +453,7 @@
 				item: "gtceu:iv_mixer"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -10.0d
 		}
 		{
@@ -473,7 +464,7 @@
 				item: "gtceu:niobium_titanium_ingot"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: -11.5d
 		}
 		{
@@ -485,8 +476,8 @@
 				item: "gtceu:phthalic_acid_bucket"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -16.0d
+			x: 8.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["55F51D261FC8E78B"]
@@ -496,8 +487,8 @@
 				item: "gtceu:diphenyl_isophthalate_bucket"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -14.5d
+			x: 8.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["07968A97D7CE73D4"]
@@ -575,7 +566,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: -2.0d
 			y: -14.5d
 		}
 		{
@@ -586,8 +577,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.iv.quest36.title}"
-			x: 7.5d
-			y: -17.5d
+			x: 8.0d
+			y: -18.5d
 		}
 		{
 			dependencies: ["114C14B4DBCEF015"]
@@ -597,8 +588,8 @@
 				item: "gtceu:chlorobenzene_bucket"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -17.5d
+			x: 7.0d
+			y: -18.5d
 		}
 		{
 			dependencies: ["43B20673D75D06E6"]
@@ -608,8 +599,8 @@
 				item: "gtceu:nitrochlorobenzene_bucket"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -16.5d
+			x: 7.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["0C37AE7B071B9BCB"]
@@ -619,8 +610,8 @@
 				item: "gtceu:dichlorobenzidine_bucket"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -15.5d
+			x: 7.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["00FF6F56069347A8"]
@@ -630,8 +621,8 @@
 				item: "gtceu:diaminobenzidine_bucket"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -14.5d
+			x: 7.0d
+			y: -15.5d
 		}
 		{
 			dependencies: [
@@ -647,14 +638,14 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "61DEE7A0339B665E"
 				item: "gtceu:polybenzimidazole_bucket"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -13.0d
+			x: 7.5d
+			y: -13.5d
 		}
 		{
 			id: "1E676C9E66582185"
@@ -665,8 +656,8 @@
 				item: "gtceu:polybenzimidazole_plate"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -13.0d
+			x: 6.0d
+			y: -13.5d
 		}
 		{
 			id: "16FCF4B8CA8DE1BE"
@@ -675,8 +666,8 @@
 				item: "gtceu:sodium_sulfide_dust"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -17.5d
+			x: 6.0d
+			y: -15.5d
 		}
 		{
 			dependencies: [
@@ -695,8 +686,8 @@
 				item: "gtceu:polyphenylene_sulfide_bucket"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -17.5d
+			x: 6.0d
+			y: -18.5d
 		}
 		{
 			dependencies: [
@@ -711,7 +702,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			size: 1.25d
+			size: 1.0d
 			subtitle: "你需要LUV组装机"
 			tasks: [{
 				id: "12773E325CB750EF"
@@ -719,7 +710,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -14.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["2A6527B0F4AC3E2E"]
@@ -738,7 +729,7 @@
 				item: "gtceu:rhodium_plated_palladium_ingot"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: -10.0d
 		}
 		{
@@ -751,7 +742,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -16.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["2C77B86051EBAB43"]
@@ -761,8 +752,8 @@
 				item: "gtceu:indium_concentrate_bucket"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -17.5d
+			x: 0.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["4B4E46B469586692"]
@@ -773,14 +764,14 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -13.0d
+			y: -12.5d
 		}
 		{
 			dependencies: [
-				"0B92B29E066D2E88"
 				"69C0EA16863038E7"
 				"31057AC4F85B71CE"
 				"0C56A770E0AA5FE2"
+				"0D02E73EE9CEE252"
 			]
 			description: [
 				"{ftbquests.chapter.iv.quest61.description1}"
@@ -836,8 +827,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -9.0d
+			x: 0.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["50E59136344B029F"]
@@ -848,8 +839,8 @@
 				item: "gtceu:data_access_hatch"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -7.5d
+			x: 1.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["50E59136344B029F"]
@@ -860,8 +851,8 @@
 				item: "gtceu:iv_scanner"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -7.5d
+			x: -1.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5A8AE6B8EBFC49BE"]
@@ -876,18 +867,21 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -7.5d
+			x: 0.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["18F66388FB38E25C"]
+			dependencies: [
+				"18F66388FB38E25C"
+				"2A6527B0F4AC3E2E"
+			]
 			id: "0C56A770E0AA5FE2"
 			tasks: [{
 				id: "1E01BFAA13B2358E"
 				item: "gtceu:ruridit_ingot"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 3.0d
 			y: -8.5d
 		}
 		{
@@ -901,7 +895,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: -6.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -915,8 +909,8 @@
 				item: "gtceu:rare_earth_mixture_oh_bucket"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -6.5d
+			x: -7.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["12B29F2D149B5865"]
@@ -926,8 +920,8 @@
 				item: "gtceu:rare_earth_chloride_solution_bucket"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -6.5d
+			x: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5ABDB2643F74087B"]
@@ -937,8 +931,8 @@
 				item: "gtceu:rare_earth_chloride_boil_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -6.5d
+			x: -4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -951,8 +945,8 @@
 				item: "gtceu:rare_earth_crystals_dust"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -6.5d
+			x: -2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7459A5BE2474299F"]
@@ -970,8 +964,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.iv.quest83.title}"
-			x: -0.5d
-			y: -6.5d
+			x: 0.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -984,8 +978,8 @@
 				item: "gtceu:rare_earth_high_dust"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.5d
+			x: -1.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -998,8 +992,8 @@
 				item: "gtceu:rare_earth_middle_dust"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.5d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -1013,7 +1007,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -1026,8 +1020,8 @@
 				item: "gtceu:rare_earth_high_fluoride_bucket"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.5d
+			x: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1040,8 +1034,8 @@
 				item: "gtceu:rare_earth_middle_fluoride_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -2.5d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1055,7 +1049,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1069,7 +1063,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -1082,8 +1076,8 @@
 				item: "gtceu:rare_earth_middle_fluoride_steam_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -1096,8 +1090,8 @@
 				item: "gtceu:rare_earth_high_fluoride_steam_bucket"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -0.5d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -1124,7 +1118,7 @@
 				}
 			]
 			title: "轻，中，重？"
-			x: -0.5d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
@@ -1148,8 +1142,8 @@
 				}
 			]
 			title: "轻，中，重!"
-			x: 1.0d
-			y: 1.5d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["14EE5543DC5E4D5D"]
@@ -1160,8 +1154,8 @@
 				title: "{ftbquests.chapter.iv.quest95.task_+4822497201336899539.title}"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2AE97425476D5584"]
@@ -1200,8 +1194,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -0.5d
+			x: 3.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2AE97425476D5584"]
@@ -1245,8 +1239,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 1.5d
+			x: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2AE97425476D5584"]
@@ -1290,8 +1284,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -0.5d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			id: "0A2E14AD810C0644"
@@ -1307,8 +1301,8 @@
 				item: "ctnhcore:crystallizer"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -7.5d
+			x: -2.0d
+			y: -6.5d
 		}
 		{
 			id: "048E6F0643F91E9C"
@@ -1324,8 +1318,8 @@
 				item: "ctnhcore:ion_exchanger"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -4.5d
+			x: -3.0d
+			y: -3.5d
 		}
 		{
 			id: "7C0C6B00A4AA43B5"
@@ -1341,22 +1335,22 @@
 				item: "ctnhcore:vacuum_sintering_tower"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -2.5d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3B966B84827FDF0C"]
 			description: ["超大LUV超导"]
 			id: "209FAC261240DA4E"
-			size: 2.0d
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.iv.quest103.subtitle}"
 			tasks: [{
 				id: "2697C33C4F09597C"
 				item: "gtceu:indium_tin_barium_titanium_cuprate_ingot"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -16.0d
+			x: 3.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["1B08CB9E24BDF006"]
@@ -1373,8 +1367,8 @@
 				item: "gtceu:samarium_iron_arsenic_oxide_ingot"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1B08CB9E24BDF006"]
@@ -1390,8 +1384,8 @@
 				item: "gtceu:raw_crystal_chip"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.5d
+			x: 7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7C9A7E04E0F1FFFB"]
@@ -1407,8 +1401,8 @@
 				item: "gtceu:iv_field_generator"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.5d
+			x: 4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["474F529118B9CF93"]
@@ -1427,8 +1421,8 @@
 				item: "gtceu:crystal_cpu"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -0.5d
+			x: 7.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["474F529118B9CF93"]
@@ -1445,8 +1439,8 @@
 				item: "gtceu:raw_crystal_chip_parts"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -0.5d
+			x: 6.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1B08CB9E24BDF006"]
@@ -1463,8 +1457,8 @@
 				item: "gtceu:samarium_ingot"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -0.5d
+			x: 5.5d
+			y: 0.5d
 		}
 		{
 			id: "613B471B9179A7C6"
@@ -1480,8 +1474,8 @@
 				item: "ctnhcore:condensing_discrete"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -0.5d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -1504,8 +1498,8 @@
 				}
 			]
 			title: "闪锌和方铅"
-			x: 3.0d
-			y: -17.5d
+			x: -1.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["63F5094821C731CA"]
@@ -1520,7 +1514,6 @@
 			y: -11.5d
 		}
 		{
-			dependencies: ["63F5094821C731CA"]
 			description: ["不卡服的异步成型，可放置流体，可调用ae，真·无仓室模式"]
 			id: "4BDA824EB1819B9E"
 			size: 1.0d
@@ -1531,7 +1524,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -13.0d
+			y: -12.5d
 		}
 		{
 			id: "6F3903CF77D69F99"
@@ -1561,7 +1554,7 @@
 				item: "gtceu:butyraldehyde_bucket"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: -7.5d
 		}
 		{
@@ -1575,7 +1568,7 @@
 				item: "gtceu:polyvinyl_butyral_bucket"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: -8.5d
 		}
 		{
@@ -1593,7 +1586,7 @@
 				item: "gtceu:laminated_glass"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: -8.5d
 		}
 		{
@@ -1601,14 +1594,14 @@
 			description: ["终于可以爽用了）"]
 			id: "5871572C3F0A1CAB"
 			shape: "gear"
-			size: 2.0d
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.hv.quest121.subtitle}"
 			tasks: [{
 				id: "3E72DDEEAD18B789"
 				item: "ctnhcore:dimensional_gas_collection_chamber"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: -6.5d
 		}
 		{
@@ -1619,7 +1612,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -5.5d
+			y: -4.5d
 		}
 		{
 			id: "5F7C1F7E4EA0A9A1"
@@ -1629,7 +1622,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -7.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3B966B84827FDF0C"]
@@ -1640,7 +1633,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -14.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["4B4E46B469586692"]
@@ -1650,8 +1643,8 @@
 				item: "gtceu:qbit_cpu_wafer"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -14.5d
+			x: 3.0d
+			y: -13.5d
 		}
 		{
 			dependencies: [
@@ -1659,15 +1652,15 @@
 				"10EB5D760D9398F9"
 			]
 			id: "1FFC5A22F66B4A94"
-			size: 1.0d
+			size: 1.5d
 			subtitle: "填满你的AE"
 			tasks: [{
 				id: "036BA65946308F1A"
 				item: "ctnhcore:forest_sea_tree_farm"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -4.5d
+			x: 7.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["268301BDF1F3BF0C"]
@@ -1677,8 +1670,8 @@
 				item: "ctnhcore:ecological_star"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.5d
+			x: 7.5d
+			y: -1.5d
 		}
 		{
 			id: "3FCE466EEDE475AE"
@@ -1696,9 +1689,10 @@
 			]
 			title: "这是什么 橡胶 尝一口"
 			x: -3.0d
-			y: -16.0d
+			y: -14.5d
 		}
 		{
+			dependencies: ["0C56A770E0AA5FE2"]
 			id: "6FE33AD5BBE34157"
 			subtitle: "为什么集气室需要这个？"
 			tasks: [{
@@ -1706,7 +1700,7 @@
 				item: "gtceu:ruridit_gear"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -6.5d
 		}
 	]

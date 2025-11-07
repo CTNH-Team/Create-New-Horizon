@@ -49,8 +49,8 @@
 				item: "botania:pure_daisy"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.5d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["23F758E2421BF068"]
@@ -62,8 +62,8 @@
 				item: "botania:hydroangeas"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["17AE8CE55863D7D6"]
@@ -73,8 +73,8 @@
 				item: "botania:livingwood_log"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.5d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["17AE8CE55863D7D6"]
@@ -85,8 +85,8 @@
 				item: "botania:livingrock"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -0.5d
+			x: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0598D6FDA6319592"]
@@ -97,8 +97,8 @@
 				item: "botania:diluted_pool"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -0.5d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -124,8 +124,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 1.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["592F9BDCCCFCCAF6"]
@@ -136,8 +136,8 @@
 				item: "botania:mana_tablet"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.5d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["592F9BDCCCFCCAF6"]
@@ -148,8 +148,8 @@
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.5d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6963A4242BCCBADC"]
@@ -160,8 +160,8 @@
 				item: "botania:rune_water"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.5d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6963A4242BCCBADC"]
@@ -172,8 +172,8 @@
 				item: "botania:rune_fire"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.0d
+			x: 7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6963A4242BCCBADC"]
@@ -185,8 +185,8 @@
 				item: "botania:rune_earth"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 5.5d
+			x: 7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6963A4242BCCBADC"]
@@ -197,8 +197,8 @@
 				item: "botania:rune_air"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -208,30 +208,33 @@
 				"7182CCA0B17CC960"
 			]
 			id: "012D04F8C8D62292"
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.09F33579334F2607.quest15.subtitle}"
 			tasks: [{
 				id: "6ACE286DBE0D1D1A"
 				item: "botania:terra_plate"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 8.5d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["012D04F8C8D62292"]
 			id: "76036AE6CE23B158"
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.09F33579334F2607.quest16.subtitle}"
 			tasks: [{
 				id: "2EE13684076752DC"
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 8.5d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["76036AE6CE23B158"]
 			id: "4AB8CE1AF271F021"
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.09F33579334F2607.quest17.subtitle}"
 			tasks: [
 				{
@@ -253,8 +256,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.09F33579334F2607.quest17.title}"
-			x: 9.5d
-			y: 8.5d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4A30A1B474B1C450"]
@@ -264,12 +267,13 @@
 				item: "botania:mana_pool"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 1.5d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4AB8CE1AF271F021"]
 			id: "783EE6889DD2C460"
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.09F33579334F2607.quest19.subtitle}"
 			tasks: [
 				{
@@ -294,8 +298,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.09F33579334F2607.quest19.title}"
-			x: 12.0d
-			y: 8.5d
+			x: 18.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["783EE6889DD2C460"]
@@ -305,21 +309,22 @@
 				item: "botania:gaia_pylon"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 7.5d
+			x: 18.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["783EE6889DD2C460"]
 			description: ["{ftbquests.chapter.09F33579334F2607.quest21.description1}"]
 			id: "60DE45074FA207BF"
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.09F33579334F2607.quest21.subtitle}"
 			tasks: [{
 				id: "20E620ACA8915AB7"
 				item: "mythicbotany:mana_infuser"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 9.5d
+			x: 21.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["012D04F8C8D62292"]
@@ -330,8 +335,8 @@
 				item: "botania:rune_spring"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 10.5d
+			x: 10.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["012D04F8C8D62292"]
@@ -342,8 +347,8 @@
 				item: "botania:rune_summer"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 11.0d
+			x: 10.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["012D04F8C8D62292"]
@@ -354,8 +359,8 @@
 				item: "botania:rune_autumn"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 11.0d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["012D04F8C8D62292"]
@@ -366,19 +371,20 @@
 				item: "botania:rune_winter"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 10.5d
+			x: 10.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["60DE45074FA207BF"]
 			id: "2F98CF01C77BC29B"
+			size: 1.5d
 			tasks: [{
 				id: "7060B5A93878C81F"
 				item: "mythicbotany:alfsteel_ingot"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 9.5d
+			x: 24.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["564DF031F1983954"]
@@ -392,8 +398,8 @@
 				value: 1L
 			}]
 			title: "{ftbquests.chapter.09F33579334F2607.quest27.title}"
-			x: 14.5d
-			y: 5.5d
+			x: 18.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2755F78FE5290FC2"]
@@ -405,8 +411,8 @@
 				item: "botania:life_essence"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 6.5d
+			x: 18.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["20DD3B07D56B6A8D"]
@@ -417,8 +423,8 @@
 				item: "botania:endoflame"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			x: 7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["167F0DAD7D2B97C5"]
@@ -429,8 +435,8 @@
 				item: "botania:gourmaryllis"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 11.0d
+			x: 10.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2755F78FE5290FC2"]
@@ -456,8 +462,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: 4.5d
+			x: 16.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2755F78FE5290FC2"]
@@ -467,8 +473,8 @@
 				item: "botania:loki_ring"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 3.5d
+			x: 16.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2755F78FE5290FC2"]
@@ -479,8 +485,8 @@
 				item: "botania:thor_ring"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 16.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2755F78FE5290FC2"]
@@ -491,8 +497,8 @@
 				item: "botania:infinite_fruit"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 3.0d
+			x: 19.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2755F78FE5290FC2"]
@@ -503,8 +509,8 @@
 				item: "botania:king_key"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 3.5d
+			x: 19.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2755F78FE5290FC2"]
@@ -514,8 +520,8 @@
 				item: "botania:flugel_eye"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 4.5d
+			x: 19.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["783EE6889DD2C460"]
@@ -526,8 +532,8 @@
 				item: "botania:corporea_spark"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 10.5d
+			x: 17.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["783EE6889DD2C460"]
@@ -537,8 +543,8 @@
 				item: "botania:corporea_funnel"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 10.5d
+			x: 19.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4B6CBB1E8D1A6273"]
@@ -553,8 +559,8 @@
 				item: "botania:mana_spreader"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.5d
+			x: -1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["39E84FC673BD14E7"]
@@ -564,8 +570,8 @@
 				item: "botania:elven_spreader"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.5d
+			x: 1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -578,8 +584,8 @@
 				item: "botania:gaia_spreader"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -2.5d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["76036AE6CE23B158"]
@@ -600,8 +606,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: 7.0d
+			x: 12.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["76036AE6CE23B158"]
@@ -622,8 +628,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 7.0d
+			x: 11.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["76036AE6CE23B158"]
@@ -644,8 +650,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: 9.5d
+			x: 11.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["76036AE6CE23B158"]
@@ -666,8 +672,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 9.5d
+			x: 12.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2F98CF01C77BC29B"]
@@ -688,8 +694,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: 8.5d
+			x: 23.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2F98CF01C77BC29B"]
@@ -710,8 +716,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: 8.5d
+			x: 25.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2F98CF01C77BC29B"]
@@ -732,8 +738,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: 10.5d
+			x: 23.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2F98CF01C77BC29B"]
@@ -754,8 +760,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: 10.5d
+			x: 25.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -778,8 +784,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.09F33579334F2607.quest50.title}"
-			x: 19.5d
-			y: 9.5d
+			x: 27.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["66FE0D6835F9F659"]
@@ -799,8 +805,8 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
-			y: 9.5d
+			x: 29.5d
+			y: 0.0d
 		}
 		{
 			id: "524DFF1E4920F6DF"
@@ -809,8 +815,8 @@
 				item: "mythicbotany:gjallar_horn_full"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 11.0d
+			x: 26.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["66FE0D6835F9F659"]
@@ -821,8 +827,8 @@
 				item: "mythicbotany:kvasir_blood"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 7.5d
+			x: 27.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["741211A0D54252FF"]
@@ -833,8 +839,8 @@
 				item: "mythicbotany:kvasir_mead"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 5.5d
+			x: 27.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["657ACCF34EC60C41"]
@@ -846,8 +852,8 @@
 				title: "{ftbquests.chapter.09F33579334F2607.quest55.task_+5622980213569126231.title}"
 				type: "dimension"
 			}]
-			x: 19.5d
-			y: 3.5d
+			x: 27.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5A06FBB0DE96CEE2"]
@@ -857,8 +863,8 @@
 				item: "gtceu:raw_mana_fused"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 1.5d
+			x: 28.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["66FE0D6835F9F659"]
@@ -869,8 +875,8 @@
 				item: "mythicbotany:mana_collector"
 				type: "item"
 			}]
-			x: 21.0d
-			y: 8.0d
+			x: 28.0d
+			y: 2.0d
 		}
 		{
 			id: "2283BC646D1B4A65"
@@ -879,8 +885,8 @@
 				item: "botania:spark"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 8.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B6CBB1E8D1A6273"]
@@ -901,8 +907,8 @@
 				weak_nbt_match: true
 			}]
 			title: "{ftbquests.chapter.09F33579334F2607.quest59.title}"
-			x: 2.5d
-			y: -4.5d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			description: ["{ftbquests.chapter.09F33579334F2607.quest60.description1}"]
@@ -914,7 +920,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["257CFCFEE4F99D04"]
@@ -925,8 +931,8 @@
 				item: "kubejs:mana_resistor"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -0.5d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4AB8CE1AF271F021"]
@@ -937,8 +943,8 @@
 				item: "kubejs:advanced_mana_transistor"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 10.5d
+			x: 15.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["002DD1BBAD2D049F"]
@@ -949,8 +955,8 @@
 				item: "ctnhcore:mana_reactor"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -2.5d
+			x: 6.0d
+			y: -6.0d
 		}
 		{
 			id: "77961965EA86D0BF"
@@ -959,10 +965,11 @@
 				title: "{ftbquests.chapter.09F33579334F2607.quest64.task_+1779687495581715321.title}"
 				type: "checkmark"
 			}]
-			x: 17.0d
-			y: 11.5d
+			x: 24.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["783EE6889DD2C460"]
 			id: "0E0DFA3E505CDB54"
 			subtitle: "{ftbquests.chapter.09F33579334F2607.quest65.subtitle}"
 			tasks: [{
@@ -970,8 +977,8 @@
 				item: "botania:fabulous_pool"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 1.5d
+			x: 18.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["012D04F8C8D62292"]
@@ -982,8 +989,8 @@
 				item: "mythicbotany:wither_aconite"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 13.0d
+			x: 9.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["012D04F8C8D62292"]
@@ -994,8 +1001,8 @@
 				item: "botania:shulk_me_not"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 13.0d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["012D04F8C8D62292"]
@@ -1006,8 +1013,8 @@
 				item: "botania:rosa_arcana"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 13.0d
+			x: 8.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2755F78FE5290FC2"]
@@ -1018,8 +1025,8 @@
 				item: "ctnhcore:gaia_reactor"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 1.5d
+			x: 17.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3997A8293A186F50"]
@@ -1031,8 +1038,8 @@
 				item: "ctnhcore:blood_antiaris"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 7.5d
+			x: 17.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3997A8293A186F50"]
@@ -1043,8 +1050,8 @@
 				item: "ctnhcore:demon_flytrap"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 7.5d
+			x: 18.5d
+			y: 5.0d
 		}
 	]
 	title: "{ftbquests.chapter.09F33579334F2607.title}"

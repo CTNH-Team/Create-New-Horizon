@@ -11,7 +11,7 @@
 			id: "797E2E6DBDE8F61A"
 			linked_quest: "3F2A5A509F9DF84B"
 			x: 0.5d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			id: "260559B80CBCB8CB"
@@ -23,15 +23,14 @@
 			id: "1BC0D7E79DFD147D"
 			linked_quest: "699743A94DF7E0B8"
 			x: 0.5d
-			y: 13.0d
+			y: 12.5d
 		}
 		{
 			id: "73DE5C12F0317677"
 			linked_quest: "3123CD3DCE3598C8"
 			shape: "gear"
-			size: 1.5d
-			x: 0.4523809523809561d
-			y: 15.547619047619051d
+			x: 0.5d
+			y: 14.5d
 		}
 	]
 	quests: [
@@ -46,8 +45,8 @@
 				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest1.task_+5691378881168212196.title}"
 				type: "biome"
 			}]
-			x: -6.0d
-			y: -0.5d
+			x: 5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["04E2C1AE56B3C673"]
@@ -60,8 +59,8 @@
 				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest2.task_+4954353995213111933.title}"
 				type: "biome"
 			}]
-			x: -6.0d
-			y: 1.0d
+			x: 8.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["04E2C1AE56B3C673"]
@@ -80,8 +79,8 @@
 				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest3.task_+6406196328182632957.title}"
 				type: "biome"
 			}]
-			x: -6.0d
-			y: 2.5d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["04E2C1AE56B3C673"]
@@ -94,7 +93,7 @@
 				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest4.task_+1372263881676539890.title}"
 				type: "biome"
 			}]
-			x: -6.0d
+			x: 7.0d
 			y: 4.0d
 		}
 		{
@@ -108,8 +107,8 @@
 				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest5.task_+3131106879547851321.title}"
 				type: "biome"
 			}]
-			x: -6.0d
-			y: 5.5d
+			x: 8.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["12316D2A6DC56654"]
@@ -130,7 +129,7 @@
 				title: "Alex的洞穴"
 				type: "checkmark"
 			}]
-			x: -1.5d
+			x: 4.0d
 			y: 2.5d
 		}
 		{
@@ -142,12 +141,13 @@
 				item: "alexscaves:acid_bucket"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 2.5d
+			x: 7.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["60F22A89A32E0DD5"]
 			id: "04E2C1AE56B3C673"
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest8.subtitle}"
 			tasks: [{
 				icon: {
@@ -162,7 +162,7 @@
 				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest8.task_+107770596901933203.title}"
 				type: "structure"
 			}]
-			x: -3.5d
+			x: 7.0d
 			y: 2.5d
 		}
 		{
@@ -174,8 +174,8 @@
 				item: "alexscaves:azure_neodymium_ingot"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -1.0d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["201D7F340F8ED187"]
@@ -186,8 +186,8 @@
 				item: "alexscaves:scarlet_neodymium_ingot"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 0.0d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1D74C6CC8DEB6158"]
@@ -198,8 +198,8 @@
 				item: "alexscaves:dark_tatters"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 5.5d
+			x: 8.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["468D840ACABE38B9"]
@@ -210,8 +210,8 @@
 				item: "alexscaves:submarine"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 1.0d
+			x: 8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7A1D738315BBD040"]
@@ -222,8 +222,8 @@
 				item: "alexscaves:enigmatic_engine"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 1.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5420D60930DD31A7"]
@@ -234,12 +234,12 @@
 				item: "alexscaves:limestone"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 3.5d
+			x: 8.0d
+			y: 4.5d
 		}
 		{
 			id: "12316D2A6DC56654"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "126C851BA0B58A46"
 				title: "主世界的探险"
@@ -257,8 +257,8 @@
 				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest16.task_+5911583459869772930.title}"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: 2.5d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3F2A5A509F9DF84B"]
@@ -270,7 +270,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["238828C65F7A855D"]
@@ -280,8 +280,8 @@
 				item: "twilightforest:lich_trophy"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 8.0d
+			x: 3.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["13874B8308122CF2"]
@@ -291,8 +291,8 @@
 				item: "twilightforest:hydra_trophy"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 6.5d
+			x: 7.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3A53BC5047BB14E1"]
@@ -302,8 +302,8 @@
 				item: "twilightforest:minoshroom_trophy"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 6.5d
+			x: 5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0CEA4875BCF933DB"]
@@ -313,7 +313,7 @@
 				item: "twilightforest:ur_ghast_trophy"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.5d
 			y: 9.5d
 		}
 		{
@@ -324,8 +324,8 @@
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 8.0d
+			x: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3A53BC5047BB14E1"]
@@ -335,8 +335,8 @@
 				item: "twilightforest:alpha_yeti_trophy"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 8.0d
+			x: 5.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3A53BC5047BB14E1"]
@@ -346,7 +346,7 @@
 				item: "twilightforest:knight_phantom_trophy"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: 9.5d
 		}
 		{
@@ -357,8 +357,8 @@
 				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest25.task_+1698440165831738617.title}"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 11.5d
+			x: 3.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["699743A94DF7E0B8"]
@@ -368,8 +368,8 @@
 				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest26.task_+1472342019503045298.title}"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 13.0d
+			x: 3.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["699743A94DF7E0B8"]
@@ -379,8 +379,8 @@
 				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest27.task_+6101843974720713774.title}"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 14.5d
+			x: 3.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["78B3859F84F3AA0A"]
@@ -390,8 +390,8 @@
 				item: "alexscaves:tremorsaurus_egg"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 4.5d
+			x: 7.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["5420D60930DD31A7"]
@@ -407,7 +407,7 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
+			x: 6.0d
 			y: 4.5d
 		}
 		{
@@ -419,8 +419,8 @@
 				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest30.task_+4849619038766091867.title}"
 				type: "checkmark"
 			}]
-			x: -10.0d
-			y: 4.5d
+			x: 6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["36962504F695FCFC"]
@@ -430,8 +430,8 @@
 				item: "alexscaves:tremorzilla_egg"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 4.5d
+			x: 6.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["120B034131B4B115"]
@@ -442,8 +442,8 @@
 				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest32.task_+4732247460649746495.title}"
 				type: "checkmark"
 			}]
-			x: -16.0d
-			y: 4.5d
+			x: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7A1D738315BBD040"]
@@ -454,8 +454,8 @@
 				item: "alexscaves:pearl"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 1.0d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3F2A5A509F9DF84B"]
@@ -466,7 +466,7 @@
 				item: "twilightforest:cicada"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 3.5d
 			y: 7.5d
 		}
 		{
@@ -478,8 +478,8 @@
 				item: "twilightforest:fallen_leaves"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 8.5d
+			x: 3.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
@@ -489,7 +489,7 @@
 				item: "minecraft:chorus_fruit"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 3.5d
 			y: 10.5d
 		}
 		{
@@ -503,8 +503,8 @@
 				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest37.task_+4542079263145483533.title}"
 				type: "biome"
 			}]
-			x: -6.0d
-			y: 7.0d
+			x: 5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6C03C11D175B2B3D"]
@@ -514,8 +514,8 @@
 				item: "aether:bronze_dungeon_key"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 11.5d
+			x: 5.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["663D2E6A96084EEF"]
@@ -525,8 +525,8 @@
 				item: "aether:silver_dungeon_key"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 13.0d
+			x: 5.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -541,8 +541,8 @@
 				item: "ctnhcore:program_rocket_core_1"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 13.0d
+			x: 7.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["2E0A7083F7B737AF"]
@@ -552,8 +552,8 @@
 				item: "aether:gold_dungeon_key"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 14.5d
+			x: 5.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["6CABD9974D22EF12"]
@@ -564,8 +564,8 @@
 				item: "aether:sun_altar"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 14.5d
+			x: 7.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["12316D2A6DC56654"]
@@ -579,7 +579,7 @@
 				type: "dimension"
 			}]
 			x: 0.5d
-			y: 4.5d
+			y: 6.5d
 		}
 	]
 	title: "{ftbquests.chapter.2C8B1E40224C9A0C.title}"
