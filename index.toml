@@ -962,7 +962,7 @@ hash = "ddfc340bf22bec9f1361f5a01a14212f68e7522681d33c864b3a0f73a1a04d4f"
 
 [[files]]
 file = "config/fpsreducer/fpsreducer-client.toml"
-hash = "247a36ef8ad8b5fa987d97afb143c44cdbec497b98369ca1b09f4297ed42d9fb"
+hash = "e84ab1c1fb08def9ccba81542696eb828e767b2835cfacc6a713807dce27ede6"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -15667,16 +15667,6 @@ hash = "49af51a66ee830a52263491b8f6dbb59ea44c75ef6e67bec98dcc0bcff28ebb9"
 metafile = true
 
 [[files]]
-file = "mods/forge-config-api-port-fabric.pw.toml"
-hash = "46f3a2ac11fb5af9db76c196ce462696a3c4687f440f9628d97e898287160c51"
-metafile = true
-
-[[files]]
-file = "mods/forgified-fabric-api.pw.toml"
-hash = "11d3b8d8540ef8d37acb28b2a2cc6ce10ee863893ed9a5f1b4ed912c085e17d2"
-metafile = true
-
-[[files]]
 file = "mods/fps-reducer.pw.toml"
 hash = "a8db23e77b7f3810d2f59d2cd1144a1b0e48b846589778a915309553d9c95975"
 metafile = true
@@ -15902,11 +15892,6 @@ hash = "79467c6365a4b258f75ad6c188c3e62780cc411ecdfb264f48c0138e4e60acda"
 metafile = true
 
 [[files]]
-file = "mods/l2library.pw.toml"
-hash = "7a43f51a15aa9e515e00bc14e1a2eca26084372a9c0ddd7d38a520786b0351b3"
-metafile = true
-
-[[files]]
 file = "mods/ldlib.pw.toml"
 hash = "15c0a59c94602e702789fdfcb8a47d58fdd651d2c87600df257a3e7078f72d19"
 metafile = true
@@ -15994,6 +15979,11 @@ metafile = true
 [[files]]
 file = "mods/moffs-addonapi-dynload.pw.toml"
 hash = "5f3c58c297c293a98944840356180590bf7c1f439462823e0495efe8ce91a888"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "e72f73611904e14d915418f0e3c6cb483cdc600e211375c2eceb393fec5b80f1"
 metafile = true
 
 [[files]]
@@ -16378,7 +16368,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "951051200053b8a088d69802a640f6d4417977282e9883440c883d56bcbbe2b4"
+hash = "9a9588551b0727a913843c62733f17dc761a0a0ac9b7d5f15f95da917cb562aa"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"
