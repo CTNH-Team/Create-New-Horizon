@@ -89,7 +89,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.ev.quest5.subtitle}"
+			subtitle: "IV时代的重要材料"
 			tasks: [{
 				id: "4FF48202A50F0FF5"
 				item: "gtceu:tungsten_steel_ingot"
@@ -138,7 +138,7 @@
 			subtitle: "耗能*2.3 耗时400s"
 			tasks: [{
 				id: "4E17BDC99B8D09CB"
-				title: "{ftbquests.chapter.ev.quest12.task_+5627174933018511819.title}"
+				title: "氧化燃料"
 				type: "checkmark"
 			}]
 			x: -13.5d
@@ -147,10 +147,10 @@
 		{
 			hide_dependency_lines: true
 			id: "4E9FB13BA754C376"
-			subtitle: "{ftbquests.chapter.ev.quest13.subtitle}"
+			subtitle: "耗能*2.1 耗时400s"
 			tasks: [{
 				id: "5C0ADB9BDA74CA7E"
-				title: "{ftbquests.chapter.ev.quest13.task_+6632354863687977598.title}"
+				title: "硝化燃料"
 				type: "checkmark"
 			}]
 			x: -13.5d
@@ -159,10 +159,10 @@
 		{
 			hide_dependency_lines: true
 			id: "38B3EDAFED11EC22"
-			subtitle: "{ftbquests.chapter.ev.quest14.subtitle}"
+			subtitle: "耗能*2.2 耗时500s"
 			tasks: [{
 				id: "07D3DF8E64BEA8BB"
-				title: "{ftbquests.chapter.ev.quest14.task_+564040181020010683.title}"
+				title: "TRISO燃料"
 				type: "checkmark"
 			}]
 			x: -13.5d
@@ -171,10 +171,10 @@
 		{
 			hide_dependency_lines: true
 			id: "6D99A9917E0D8636"
-			subtitle: "{ftbquests.chapter.ev.quest15.subtitle}"
+			subtitle: "耗能*1.6 耗时1000s"
 			tasks: [{
 				id: "0FF291B04510FC84"
-				title: "{ftbquests.chapter.ev.quest15.task_+1149141041191910532.title}"
+				title: "锆合金燃料"
 				type: "checkmark"
 			}]
 			x: -13.5d
@@ -183,10 +183,10 @@
 		{
 			hide_dependency_lines: true
 			id: "1A4BF7BE5F6591F6"
-			subtitle: "{ftbquests.chapter.ev.quest16.subtitle}"
+			subtitle: "耗能*2.4 耗时750s"
 			tasks: [{
 				id: "7F84E8F8FCE98B8F"
-				title: "{ftbquests.chapter.ev.quest16.task_+9188725295835351951.title}"
+				title: "纯净燃料"
 				type: "checkmark"
 			}]
 			x: -13.5d
@@ -557,14 +557,14 @@
 				id: "3F9C90357F1D5B06"
 				type: "dimension"
 			}]
-			title: "{ftbquests.chapter.ev.quest51.title}"
+			title: "飞往火星"
 			x: -6.5d
 			y: -5.5d
 		}
 		{
 			id: "659495FD6AB169E3"
 			optional: true
-			subtitle: "{ftbquests.chapter.ev.quest52.subtitle}"
+			subtitle: "这是更加方便的来源"
 			tasks: [{
 				id: "1C8E2E06D5C1A5B1"
 				item: "alexscaves:uranium"
@@ -598,7 +598,7 @@
 				type: "random"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ev.quest54.subtitle}"
+			subtitle: "你的第一个Luv电路板"
 			tasks: [{
 				id: "22E3934505BEF43B"
 				item: "gtceu:nano_processor_mainframe"
@@ -609,7 +609,7 @@
 		}
 		{
 			id: "3A48040562E6B4D0"
-			subtitle: "{ftbquests.chapter.ev.quest55.subtitle}"
+			subtitle: "还记得软管滑轮吗?"
 			tasks: [{
 				id: "35FE06601CF9902F"
 				item: "alexscaves:acid_bucket"
@@ -621,7 +621,7 @@
 		{
 			id: "3A7EF62D9745F2D6"
 			invisible: true
-			subtitle: "{ftbquests.chapter.ev.quest56.subtitle}"
+			subtitle: "跳过任务线"
 			tasks: [{
 				count: 64L
 				id: "1992F6A776A09444"
@@ -673,7 +673,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.ev.quest59.subtitle}"
+			subtitle: "两种你将用到的晶圆"
 			tasks: [
 				{
 					id: "3D9CB29FE3E85462"
@@ -686,7 +686,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ev.quest59.title}"
+			title: "存储晶圆"
 			x: -9.5d
 			y: 0.5d
 		}
@@ -699,7 +699,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.ev.quest60.subtitle}"
+			subtitle: "节省材料!"
 			tasks: [
 				{
 					id: "750540F6596AC75E"
@@ -712,7 +712,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ev.quest60.title}"
+			title: "SOC"
 			x: -10.5d
 			y: 1.5d
 		}
@@ -725,7 +725,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.ev.quest61.subtitle}"
+			subtitle: "你可以开始做高速钢了"
 			tasks: [{
 				id: "6586F61697BFF631"
 				item: "gtceu:ev_mixer"
@@ -956,10 +956,10 @@
 		}
 		{
 			id: "287D7ADB01D8D58F"
-			subtitle: "{ftbquests.chapter.ev.quest80.subtitle}"
+			subtitle: "无论如何这很好用"
 			tasks: [{
 				id: "0775F71F199C0333"
-				title: "{ftbquests.chapter.ev.quest80.task_+537607443486343987.title}"
+				title: "只要你能做出来"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -968,7 +968,7 @@
 		{
 			id: "5D1450926BCF288B"
 			invisible: true
-			subtitle: "{ftbquests.chapter.ev.quest81.subtitle}"
+			subtitle: "跳过任务线"
 			tasks: [{
 				id: "2EFE7AC41D56E14C"
 				item: "gtceu:zirconium_dust"
@@ -991,7 +991,7 @@
 				type: "random"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ev.quest83.subtitle}"
+			subtitle: "开始铺设你的电网"
 			tasks: [{
 				id: "7308BC4380FE1F12"
 				item: "gtceu:power_substation"
@@ -1058,7 +1058,7 @@
 		}
 		{
 			id: "6B0754AD3F1AF0C2"
-			subtitle: "{ftbquests.chapter.ev.quest94.subtitle}"
+			subtitle: "跳过任务线"
 			tasks: [{
 				id: "4FA8E83E02A43D80"
 				item: "gtceu:graphite_dust"
@@ -1140,24 +1140,24 @@
 		}
 		{
 			id: "646A046E3DBA0C52"
-			subtitle: "{ftbquests.chapter.ev.quest100.subtitle}"
+			subtitle: "消耗更大，但是更快"
 			tasks: [{
 				id: "7F0475C3113799A2"
 				item: "gtceu:methane_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ev.quest100.title}"
+			title: "甲烷热解"
 			x: 1.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4DA5ABB79AABADE8"]
 			id: "104511D23BA0B12A"
-			subtitle: "{ftbquests.chapter.ev.quest101.subtitle}"
+			subtitle: "核电线比较复杂，需要仔细查询jei寻找最适合你的配方"
 			tasks: [
 				{
 					id: "6348C18E6134F96F"
-					title: "{ftbquests.chapter.ev.quest101.task_+7154180825338411375.title}"
+					title: "核电"
 					type: "checkmark"
 				}
 				{
@@ -1618,5 +1618,5 @@
 			y: 4.0d
 		}
 	]
-	title: "{ftbquests.chapter.ev.title}"
+	title: "&5EV&r时期"
 }

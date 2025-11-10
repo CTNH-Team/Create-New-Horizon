@@ -148,10 +148,10 @@
 				"619F43DB0B07651E"
 			]
 			id: "628F4826B5F6AC41"
-			subtitle: "{ftbquests.chapter.uv.quest12.subtitle}"
+			subtitle: "亦或是催化剂？"
 			tasks: [{
 				id: "3BBE2FA962B1B2F2"
-				title: "{ftbquests.chapter.uv.quest12.task_+4304930698364564210.title}"
+				title: "更好的等离子燃料"
 				type: "checkmark"
 			}]
 			x: 43.0d
@@ -199,7 +199,7 @@
 			id: "50B3C9E6ECB749A2"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.uv.quest42.subtitle}"
+			subtitle: "凭空产生，梦里才会有的东西吧？"
 			tasks: [{
 				id: "5C64C7AB92A674C4"
 				item: "ctnhcore:void_miner"
@@ -630,7 +630,7 @@
 		}
 		{
 			id: "6B61A32A2688A834"
-			subtitle: "{ftbquests.chapter.luv.quest31.subtitle}"
+			subtitle: "不仅无损超频，而且还可以无电压功率上限"
 			tasks: [{
 				id: "1A30057D21C7EEB0"
 				item: "ctnhcore:luv_compressed_fusion_reactor"
@@ -669,5 +669,5 @@
 			y: -13.0d
 		}
 	]
-	title: "{ftbquests.chapter.uv.title}"
+	title: "&3UV&r时期"
 }

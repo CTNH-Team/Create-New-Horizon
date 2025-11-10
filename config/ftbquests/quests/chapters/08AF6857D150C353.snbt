@@ -45,7 +45,7 @@
 				item: "ctpp:steel_mechanism"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.08AF6857D150C353.quest1.title}"
+			title: "钢铁构件"
 			x: -2.0d
 			y: 0.0d
 		}
@@ -76,9 +76,9 @@
 				"7D76859D3E40A235"
 				"64694E06DCC27AE1"
 			]
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest50.description1}"]
+			description: ["    给蒸汽引擎供水时，最好使用gt或者enderio的管道"]
 			id: "680EE95FED0F46F5"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest50.subtitle}"
+			subtitle: "你即将进入第一次工业革命！"
 			tasks: [{
 				id: "0FE3911E3029D145"
 				item: "create:steam_engine"
@@ -104,7 +104,7 @@
 				"1385760305EE11D6"
 			]
 			id: "62BAC5BC588E4CAA"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest53.subtitle}"
+			subtitle: "通过磁场洞穴中的青钕和赤钕，或者是植物魔法的磁化透镜磁化获得"
 			tasks: [{
 				id: "3CD9D89EFFFDDA64"
 				item: "gtceu:magnetic_iron_ingot"
@@ -122,7 +122,7 @@
 			dependency_requirement: "one_completed"
 			description: [""]
 			id: "2D9F762371DEDF70"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest55.subtitle}"
+			subtitle: "磁生电"
 			tasks: [
 				{
 					id: "18762930299222CA"
@@ -142,7 +142,7 @@
 			dependencies: ["41E48BCAEAD9D47E"]
 			description: ["1ALV和4ALV是唯二可以使用的两种转换器"]
 			id: "54A0B48F51F12647"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest56.subtitle}"
+			subtitle: "电气时代的基石"
 			tasks: [{
 				id: "3F5BE8B5242E5FC9"
 				item: "gtceu:lv_1a_energy_converter"
@@ -205,7 +205,7 @@
 				"7441815510F49119"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest68.description1}"]
+			description: ["    很酷，是吧？造出电路板的你终于可以迈入电力时代，感受科技的魅力吧！"]
 			id: "41E48BCAEAD9D47E"
 			rewards: [{
 				count: 16
@@ -214,7 +214,7 @@
 				type: "item"
 			}]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest68.subtitle}"
+			subtitle: "可以用来玩ctnh"
 			tasks: [{
 				id: "4642660A4797E594"
 				item: "gtceu:basic_electronic_circuit"
@@ -262,9 +262,9 @@
 		{
 			dependencies: ["3EFC30D1B3494B77"]
 			description: [
-				"{ftbquests.chapter.08AF6857D150C353.quest77.description1}"
-				"{ftbquests.chapter.08AF6857D150C353.quest77.description2}"
-				"{ftbquests.chapter.08AF6857D150C353.quest77.description3}"
+				"机械涡轮的基础应力输出量为&a8192su&r（ULV），应力输出仓每提升一级，最大并行数x4。"
+				"  应力输出还与转子和转子支架有关，转子支架每升一级，支架效率提升10%（ULV为100%），转子的效率取决于转子的材料。"
+				"最终涡轮的总效率为 &a支架效率x转子的涡轮效率x（1 - 电压高于HV后损失的百分比）&r"
 			]
 			icon: "ctpp:kinetic_steam_turbine"
 			id: "11CBD66BE7CCCAED"
@@ -274,7 +274,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest77.subtitle}"
+			subtitle: "一个好的涡轮转子，能够让你的涡轮发挥出最好的效果"
 			tasks: [
 				{
 					id: "4C40156588431040"
@@ -323,7 +323,7 @@
 		{
 			dependencies: ["3EFC30D1B3494B77"]
 			id: "4ADE322F099F1C88"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest78.subtitle}"
+			subtitle: "如果你已经被普通焦炉的速度搞的头昏脑涨，请试试高级焦炉"
 			tasks: [{
 				id: "7ED1ABAE538B0BC5"
 				item: "ctnhcore:advanced_coke_oven"
@@ -335,7 +335,7 @@
 		{
 			dependencies: ["62BAC5BC588E4CAA"]
 			id: "13388DB5A507AB34"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest55.description1}"
+			subtitle: "    越高级的磁铁发电的效率越高（也就是相同应力转化为RF的电量更多）"
 			tasks: [{
 				count: 12L
 				id: "5D54A22BD467C77B"
@@ -475,7 +475,7 @@
 			description: ["记得多放几个仓室哦~"]
 			id: "66616CA6C0C95B0B"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest96.subtitle}"
+			subtitle: "臭臭的"
 			tasks: [{
 				id: "767215D7A25C05EF"
 				item: "ctnhcore:meadow"
@@ -516,5 +516,5 @@
 			y: 2.0d
 		}
 	]
-	title: "{ftbquests.chapter.08AF6857D150C353.title}"
+	title: "钢铁雄心"
 }

@@ -24,7 +24,7 @@
 				item: "gtceu:mana_fused_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1FD18D8B41761626.quest1.title}"
+			title: "折磨的开始"
 			x: 4.5d
 			y: 5.0d
 		}
@@ -75,7 +75,7 @@
 				item: "gtceu:mana_fused_dust"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest5.subtitle}"
+			subtitle: "恭喜，但你只完成了第一步！"
 			tasks: [{
 				id: "3E127A4B3C054D74"
 				item: "gtceu:mana_plus_ingot"
@@ -134,7 +134,7 @@
 				item: "gtceu:mana_plus_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest9.subtitle}"
+			subtitle: "这只是一个中间过程"
 			tasks: [{
 				id: "7C61B5C4AD17B8CC"
 				item: "gtceu:mana_super_plus_ingot"
@@ -201,7 +201,7 @@
 				"那么是时候了，开始你的&1终极魔力飞升了&r。现在，让那群原始人精灵看看什么才是真正的奥术魔法"
 			]
 			id: "505115AA8810BBE5"
-			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest14.subtitle}"
+			subtitle: "结束了？"
 			tasks: [{
 				id: "595FDC11A1BB3987"
 				item: "gtceu:ultra_mana_ingot"
@@ -213,13 +213,13 @@
 		{
 			dependencies: ["505115AA8810BBE5"]
 			id: "398E09D8112F81E1"
-			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest15.subtitle}"
+			subtitle: "试试扭曲聚变吧！"
 			tasks: [{
 				id: "65F53323DD4FB014"
 				item: "gtceu:mana_radiation_mixture_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1FD18D8B41761626.quest15.title}"
+			title: "快捷产究极魔力方法"
 			x: 15.5d
 			y: 5.0d
 		}
@@ -245,7 +245,7 @@
 				item: "gtceu:zenith_essence_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1FD18D8B41761626.quest16.title}"
+			title: "飞升的开始"
 			x: 1.5d
 			y: 6.0d
 		}
@@ -269,7 +269,7 @@
 		{
 			dependencies: ["2946049E78C9A182"]
 			id: "138EAB42F677E309"
-			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest34.subtitle}"
+			subtitle: "BoTania:New Horizen"
 			tasks: [{
 				id: "4337258D7941F9EC"
 				item: "ctnhcore:horizen_rune"
@@ -281,7 +281,7 @@
 		{
 			dependencies: ["2946049E78C9A182"]
 			id: "4F195BAE507ADF5D"
-			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest36.subtitle}"
+			subtitle: "Per aspera ad astra"
 			tasks: [{
 				id: "146D2DB4D6834D17"
 				item: "ctnhcore:starlight_rune"
@@ -293,7 +293,7 @@
 		{
 			dependencies: ["2946049E78C9A182"]
 			id: "4A9C29237B3606F7"
-			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest37.subtitle}"
+			subtitle: "速度与人性的扭曲"
 			tasks: [{
 				id: "7330E5DED9726568"
 				item: "ctnhcore:twist_rune"
@@ -305,7 +305,7 @@
 		{
 			dependencies: ["2946049E78C9A182"]
 			id: "25F5C44403382FC0"
-			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest38.subtitle}"
+			subtitle: "生物和金融最原初的渴望"
 			tasks: [{
 				id: "282801EBD39A0BB4"
 				item: "ctnhcore:proliferation_rune"
@@ -325,7 +325,7 @@
 			description: ["符文的力量过于强大，以至于你几乎完全无法利用它......"]
 			id: "5D378302AE200883"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest39.subtitle}"
+			subtitle: "毁灭即为创造"
 			tasks: [{
 				id: "7BE68D46F0E9BDDB"
 				item: "ctnhcore:quasar_rune"
@@ -1483,5 +1483,5 @@
 			y: 5.0d
 		}
 	]
-	title: "{ftbquests.chapter.1FD18D8B41761626.title}"
+	title: "魔力飞升"
 }

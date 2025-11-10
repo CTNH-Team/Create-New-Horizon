@@ -78,7 +78,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.mv.quest2.subtitle}"
+			subtitle: "一种可持续性的产盐设备"
 			tasks: [
 				{
 					id: "16548D422CB417B8"
@@ -164,7 +164,7 @@
 		{
 			dependencies: ["577C0EA40EC89B14"]
 			id: "0C12A7FDA05C7439"
-			subtitle: "{ftbquests.chapter.mv.quest9.subtitle}"
+			subtitle: "重要的化工原料"
 			tasks: [
 				{
 					id: "4F0D06BA40466127"
@@ -177,7 +177,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mv.quest9.title}"
+			title: "氯碱产物"
 			x: 3.5d
 			y: 17.0d
 		}
@@ -218,7 +218,7 @@
 				"5F393B970A71BEF2"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.mv.quest13.description1}"]
+			description: ["乙烯的生产可以来源于生物和石油化工，在本整合包中增强了生物产线，不妨可以尝试一下"]
 			id: "5A460876CA0EC216"
 			tasks: [{
 				id: "54DEEDC89FC0497E"
@@ -407,7 +407,7 @@
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "36924FA5E1528AB2"
-				title: "{ftbquests.chapter.mv.quest27.task_+3932292998516345522.title}"
+				title: "前往末地"
 				type: "dimension"
 			}]
 			x: 21.5d
@@ -439,7 +439,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.mv.quest29.subtitle}"
+			subtitle: "HV时代的重要材料"
 			tasks: [{
 				id: "19B8A8E266098D32"
 				item: "gtceu:stainless_steel_ingot"
@@ -463,7 +463,7 @@
 		}
 		{
 			id: "61F3A1C4B771E811"
-			subtitle: "{ftbquests.chapter.mv.quest34.subtitle}"
+			subtitle: "硫粉处理后的产物"
 			tasks: [{
 				id: "74B53DE6E60BEE3B"
 				item: "gtceu:sulfuric_acid_bucket"
@@ -523,7 +523,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.mv.quest39.subtitle}"
+			subtitle: "铬粉需要经过几步处理，请仔细查阅jei"
 			tasks: [{
 				id: "439069F6CBE169E1"
 				item: "gtceu:chromium_dust"
@@ -581,17 +581,17 @@
 			tasks: [{
 				dimension: "aether:the_aether"
 				id: "115FCE926E206B92"
-				title: "{ftbquests.chapter.mv.quest43.task_+1251946349740452754.title}"
+				title: "访问天境"
 				type: "dimension"
 			}]
-			title: "{ftbquests.chapter.mv.quest43.title}"
+			title: "访问天境"
 			x: 23.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
 			id: "47477F45269D6DB4"
-			subtitle: "{ftbquests.chapter.mv.quest46.subtitle}"
+			subtitle: "将异彩化合物扔入虚空得到"
 			tasks: [{
 				id: "26892DF7590726FB"
 				item: "create:shadow_steel"
@@ -618,7 +618,7 @@
 				"3C1A31CEA3C10082"
 			]
 			id: "707A41CB0EED30D3"
-			subtitle: "{ftbquests.chapter.mv.quest48.subtitle}"
+			subtitle: "升级你的线圈！"
 			tasks: [{
 				id: "6F1536BDC8E4DB42"
 				item: "gtceu:kanthal_ingot"
@@ -756,7 +756,7 @@
 		{
 			dependencies: ["477E8A2397016E0B"]
 			id: "65C365115468BF4D"
-			subtitle: "{ftbquests.chapter.mv.quest60.subtitle}"
+			subtitle: "HV超导"
 			tasks: [{
 				id: "5819C06388775C03"
 				item: "gtceu:vibrant_alloy_single_wire"
@@ -874,7 +874,7 @@
 			id: "1C203FA12C28D5D2"
 			tasks: [{
 				id: "1C1BFFEBB2C0FC24"
-				title: "{ftbquests.chapter.mv.quest68.task_+2025493845214559268.title}"
+				title: "洗深板岩粉也有概率出铬粉"
 				type: "checkmark"
 			}]
 			x: 18.5d
@@ -1162,11 +1162,11 @@
 		}
 		{
 			dependencies: ["1162E347E7C00175"]
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest75.description1}"]
+			description: ["可以用蒸汽输入仓和输入总线输出总线，且蒸汽级输出总线最多10个"]
 			id: "4E153836BC53CDD1"
 			shape: "gear"
 			size: 3.0d
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest75.subtitle}"
+			subtitle: "原始人的第一个巨构"
 			tasks: [{
 				id: "2C454A9B147379F9"
 				item: "ctnhcore:martial_morality_eye"
@@ -1186,5 +1186,5 @@
 			y: 6.0d
 		}
 	]
-	title: "{ftbquests.chapter.mv.title}"
+	title: "&bMV&r时期"
 }

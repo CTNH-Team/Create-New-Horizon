@@ -42,10 +42,10 @@
 		{
 			dependencies: ["6EADC71354FF9E80"]
 			id: "6CA2F157BAE76D50"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest66.subtitle}"
+			subtitle: "机器运行需要大量应力，应力量与开采的矿脉和你希望开采的速度有关"
 			tasks: [{
 				id: "6147405E44AAA165"
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest66.task_+7009642118648602981.title}"
+				title: "应力输入"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -53,7 +53,7 @@
 		}
 		{
 			id: "10B1EE4638BC3203"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest67.subtitle}"
+			subtitle: "用这个来探测矿脉"
 			tasks: [{
 				id: "6A26DD0599CB6F4D"
 				item: "createoreexcavation:vein_finder"
@@ -65,10 +65,10 @@
 		{
 			dependencies: ["6EADC71354FF9E80"]
 			id: "65F3DFA4C8A1E5BE"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest65.subtitle}"
+			subtitle: "钻机运行需要输入润滑油，可通过石油化工获得"
 			tasks: [{
 				id: "3BAE3A1289E355D7"
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest65.task_+4300438545482601943.title}"
+				title: "流体输入"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -77,14 +77,14 @@
 		{
 			dependencies: ["156B500126054BC2"]
 			description: [
-				"{ftbquests.chapter.4408EF6F9E2E1624.quest64.description1}"
-				"{ftbquests.chapter.4408EF6F9E2E1624.quest64.description2}"
+				"此矿脉为虚拟的基岩矿脉，只能通过探矿仪或者采样器来探测得知，在有矿脉的区块布置矿物采掘器，可以源源不断地获得矿物。"
+				"&4当然，这种矿脉也不是取之不尽用之不竭的。&r"
 			]
 			id: "6EADC71354FF9E80"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest64.subtitle}"
+			subtitle: "不同于格雷矿脉"
 			tasks: [{
 				id: "3DCD7A350F944CD6"
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest64.task_+4453349974852521174.title}"
+				title: "矿脉"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -95,9 +95,9 @@
 				"65F3DFA4C8A1E5BE"
 				"6CA2F157BAE76D50"
 			]
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest80.description1}"]
+			description: ["    放在地上，在上面放一个充满气的铜背罐即可开始工作。用来收集图鉴的"]
 			id: "1C93DF12398AA4D3"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest80.subtitle}"
+			subtitle: "矿脉采样器"
 			tasks: [{
 				id: "086C0B12858B6581"
 				item: "createoreexcavation:sample_drill"
@@ -134,7 +134,7 @@
 		{
 			dependencies: ["189EA0629CFAD1AB"]
 			id: "41BB77968B763B18"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest31.subtitle}"
+			subtitle: "耐心等待收获的降临"
 			tasks: [{
 				id: "7F90E118B46EDCFA"
 				item: "farmersdelight:rich_soil"
@@ -157,7 +157,7 @@
 		{
 			dependencies: ["06B1BB32F96710A2"]
 			id: "2C18C2C4CA54D968"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest29.subtitle}"
+			subtitle: "MV阶段用得上"
 			tasks: [{
 				id: "2365A1402342CBDF"
 				item: "gtceu:fermented_biomass_bucket"
@@ -215,9 +215,9 @@
 		}
 		{
 			dependencies: ["75774FD66E513B5C"]
-			description: ["{ftbquests.chapter.lv.quest72.description1}"]
+			description: ["    将地下深处的矿石全部挖上来！注意它在工作时下方会生成采矿管道击碎一切阻挡他的东西且不返还，不要在下方放什么珍贵的东西。挖的是实体矿，挖没了就是挖没了。"]
 			id: "3534E727B52EC2F2"
-			subtitle: "{ftbquests.chapter.lv.quest72.subtitle}"
+			subtitle: "Diggy Diggy Hole！"
 			tasks: [{
 				id: "0D86590B09AEE101"
 				item: "gtceu:lv_miner"
@@ -228,9 +228,9 @@
 		}
 		{
 			dependencies: ["3534E727B52EC2F2"]
-			description: ["{ftbquests.chapter.lv.quest73.description1}"]
+			description: ["    由GTMThings提供的黑科技。速度更快且不会向下伸出采矿管道，直接挖取给定Y轴范围内的所有矿石！挖的还是实体矿，挖没了就是挖没了。"]
 			id: "3889F08007235A6C"
-			subtitle: "{ftbquests.chapter.lv.quest73.subtitle}"
+			subtitle: "它是怎么采上来的？"
 			tasks: [{
 				id: "110FE957A43551B9"
 				item: "gtmthings:lv_digital_miner"

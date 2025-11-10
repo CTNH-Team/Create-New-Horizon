@@ -11,10 +11,10 @@
 		{
 			icon: "gtceu:oil_medium_bucket"
 			id: "475A6C3B67F4D31C"
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest1.subtitle}"
+			subtitle: "来自Snow_city的笔记！"
 			tasks: [{
 				id: "731CCACD685E2B96"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest1.task_+8294727597277719446.title}"
+				title: "欢迎来到石化!"
 				type: "checkmark"
 			}]
 			x: -3.5d
@@ -22,8 +22,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.2CEAD5605C416218.quest2.description1}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest2.description2}"
+				"&l&b可以的话去看一下&nSnow_city&r&l&b写的石化简略教程！"
+				"https://www.mcmod.cn/post/4364.html"
 			]
 			icon: {
 				Count: 1
@@ -46,32 +46,32 @@
 				}
 			}
 			id: "4ADEDBFAAE364473"
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest2.subtitle}"
+			subtitle: "&o知识即为万物尺度，定将穷尽真理，根除谬误。"
 			tasks: [{
 				id: "786AC43ACCC0C0BE"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest2.task_+8676963388905013438.title}"
+				title: "我已出舱，感觉良好!"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest2.title}"
+			title: "哦，瞧瞧那黑色的黄金！"
 			x: -1.5d
 			y: -3.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.2CEAD5605C416218.quest3.description1}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest3.description2}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest3.description3}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest3.description4}"
+				"&l&0你能得到："
+				"&b&l成堆的各种有机物"
+				"&b&l够你烧到Luv的燃料"
+				"&b&l一种石油化工的宏伟成就感"
 			]
 			icon: "botania:cosmetic_thinking_hand"
 			id: "39A2B69213538581"
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest3.subtitle}"
+			subtitle: "又臭又长，一看就是条史线！"
 			tasks: [{
 				id: "58329466B8F858C7"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest3.task_+6355305193084049607.title}"
+				title: "I see!"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest3.title}"
+			title: "我能得到什么？"
 			x: -5.5d
 			y: -3.5d
 		}
@@ -81,16 +81,16 @@
 			size: 2.0d
 			tasks: [{
 				id: "29414775BE90922F"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest4.task_+2972735800075129391.title}"
+				title: "The era of the internal combustion engine!"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest4.title}"
+			title: "LV时期"
 			x: -9.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["228C7E019750CFF1"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest5.description1}"]
+			description: ["    在野外，你随处可见这种喷出来的油井。用泵或者软管滑轮将他们痛痛快快的抽出来吧！"]
 			icon: "gtceu:oil_medium_bucket"
 			id: "618C3E4E348D7A4B"
 			rewards: [{
@@ -99,19 +99,19 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5.subtitle}"
+			subtitle: "一切的开始"
 			tasks: [{
 				id: "15F4BBF99560B0AF"
 				item: "gtceu:oil_medium_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest5.title}"
+			title: "化工之源！"
 			x: -9.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["618C3E4E348D7A4B"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest6.description1}"]
+			description: ["     你需要这种机器将你得到的石油进行最初步的处理。有四种不同的产物，你可以按需选择自己喜欢的。"]
 			icon: "gtceu:lv_distillery"
 			id: "4510585A6279877F"
 			rewards: [{
@@ -120,13 +120,13 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest6.subtitle}"
+			subtitle: "最初级的处理"
 			tasks: [{
 				id: "6F2AAB2D0B181CE3"
 				item: "gtceu:lv_distillery"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest6.title}"
+			title: "蒸！"
 			x: -9.5d
 			y: 3.0d
 		}
@@ -139,7 +139,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest7.subtitle}"
+			subtitle: "可用作内燃机燃料"
 			tasks: [{
 				id: "5896B3E4B735A9CD"
 				item: "gtceu:sulfuric_light_fuel_bucket"
@@ -157,7 +157,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest8.subtitle}"
+			subtitle: "不能烧，因为太粘稠了"
 			tasks: [{
 				id: "3D679307B9AC424B"
 				item: "gtceu:sulfuric_heavy_fuel_bucket"
@@ -175,7 +175,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest9.subtitle}"
+			subtitle: "可用作燃气轮机燃料"
 			tasks: [{
 				id: "4F24EC3D220FEFFD"
 				item: "gtceu:sulfuric_naphtha_bucket"
@@ -193,7 +193,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest10.subtitle}"
+			subtitle: "可用作燃气轮机燃料"
 			tasks: [{
 				id: "1BF8BD75F4D0F91C"
 				item: "gtceu:sulfuric_gas_bucket"
@@ -204,7 +204,7 @@
 		}
 		{
 			dependencies: ["4510585A6279877F"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest11.description1}"]
+			description: ["    对着内燃机按U可查看各种燃料及其燃值！"]
 			id: "02DB7FB27F963B96"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -212,7 +212,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest11.subtitle}"
+			subtitle: "通过烧油的方式输出电！"
 			tasks: [{
 				id: "089524861B98D023"
 				item: "gtceu:lv_combustion"
@@ -223,7 +223,7 @@
 		}
 		{
 			dependencies: ["4510585A6279877F"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest12.description1}"]
+			description: ["    对着燃气轮机按U即可查看各种燃气及其燃值！"]
 			id: "4616AC2631FDDE37"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -231,7 +231,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest12.subtitle}"
+			subtitle: "通过燃烧气体的方式发电！"
 			tasks: [{
 				id: "4A5B582B12D88B1C"
 				item: "gtceu:lv_gas_turbine"
@@ -246,7 +246,7 @@
 				"4616AC2631FDDE37"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest13.description1}"]
+			description: ["    通过氢气与燃料内的硫反应形成硫化氢，从而实现燃料的脱硫。"]
 			id: "332BF376BDAB27DA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -254,13 +254,13 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest13.subtitle}"
+			subtitle: "我们不需要硫"
 			tasks: [{
 				id: "6CACA63A911242FC"
 				item: "gtceu:lv_chemical_reactor"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest13.title}"
+			title: "我爱化学"
 			x: -9.5d
 			y: 5.0d
 		}
@@ -273,7 +273,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest14.subtitle}"
+			subtitle: "不是废液"
 			tasks: [{
 				id: "56D1A0EC50CBE6CC"
 				item: "gtceu:hydrogen_sulfide_bucket"
@@ -284,7 +284,7 @@
 		}
 		{
 			dependencies: ["4AC6548D09A12203"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest15.description1}"]
+			description: ["    强大的电解机可以把硫化氢电解成硫粉和氢气，从而实现氢气的回收。"]
 			id: "79F44C472D79151F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -292,7 +292,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest15.subtitle}"
+			subtitle: "化学键，给我断！"
 			tasks: [{
 				id: "0A65F39BDDB64241"
 				item: "gtceu:lv_electrolyzer"
@@ -304,8 +304,8 @@
 		{
 			dependencies: ["79F44C472D79151F"]
 			description: [
-				"{ftbquests.chapter.2CEAD5605C416218.quest16.description1}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest16.description2}"
+				"    这样便实现了一个简单的氢循环，从而不需要输入额外的氢气。"
+				"    你问我一开始的氢气从哪来？给我电解水！"
 			]
 			id: "23FA40EA2E54603E"
 			rewards: [{
@@ -314,7 +314,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest16.subtitle}"
+			subtitle: "嗨嗨嗨，我又回来了"
 			tasks: [{
 				id: "10C32448D622EF93"
 				item: "gtceu:hydrogen_bucket"
@@ -332,7 +332,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest17.subtitle}"
+			subtitle: "一般的内燃机燃料"
 			tasks: [{
 				id: "10C522331E766862"
 				item: "gtceu:light_fuel_bucket"
@@ -350,7 +350,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest18.subtitle}"
+			subtitle: "还是不能烧，因为太粘稠了"
 			tasks: [{
 				id: "44B01AC3FA242AF5"
 				item: "gtceu:heavy_fuel_bucket"
@@ -368,7 +368,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest19.subtitle}"
+			subtitle: "一般的内燃机燃料"
 			tasks: [{
 				id: "018F258E7B148C75"
 				item: "gtceu:naphtha_bucket"
@@ -386,7 +386,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest20.subtitle}"
+			subtitle: "一般的燃气轮机燃料"
 			tasks: [{
 				id: "2C2E70C3DA3F42E5"
 				item: "gtceu:refinery_gas_bucket"
@@ -401,16 +401,16 @@
 			size: 2.0d
 			tasks: [{
 				id: "71DB850D53782BB8"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest21.task_+8204297438466943928.title}"
+				title: "虚空油田，兄弟!"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest21.title}"
+			title: "MV时期"
 			x: -5.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["04EFD393B5990E72"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest22.description1}"]
+			description: ["    到了MV时期，用电需求增加的你会觉得轻燃油之类的太不耐烧了！为此，你需要搅拌出柴油，你的第一种混合燃料！但是你需要MV电压的搅拌机才能打搅，挑自己喜欢的做吧。"]
 			id: "1CC3B42FE86A4743"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -418,7 +418,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest22.subtitle}"
+			subtitle: "提升燃值！"
 			tasks: [
 				{
 					id: "0E8DF40A39FEE802"
@@ -433,7 +433,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest22.title}"
+			title: "开始打搅！"
 			x: -6.5d
 			y: 1.0d
 		}
@@ -446,7 +446,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest23.subtitle}"
+			subtitle: "燃值翻0.5倍！"
 			tasks: [{
 				id: "3DA85AFE249DA5D3"
 				item: "gtceu:diesel_bucket"
@@ -464,7 +464,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest24.subtitle}"
+			subtitle: "你的第二种内燃机"
 			tasks: [{
 				id: "01F65F3A729FFEB3"
 				item: "gtceu:mv_combustion"
@@ -475,7 +475,7 @@
 		}
 		{
 			dependencies: ["04EFD393B5990E72"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest25.description1}"]
+			description: ["    想必你就会发现光是开采地表的油田太麻烦且产量低，不用担心！这台机器能从基岩之下采集源源不断的油，满足你的大量需求！"]
 			id: "62F220389305D060"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -483,7 +483,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest25.subtitle}"
+			subtitle: "基岩下面有什么？"
 			tasks: [
 				{
 					id: "3C218F4B8794DC63"
@@ -514,9 +514,9 @@
 		{
 			dependencies: ["62F220389305D060"]
 			description: [
-				"{ftbquests.chapter.2CEAD5605C416218.quest26.description1}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest26.description2}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest26.description3}"
+				"    如果你按照JEI上的多方块搭建提示来，会发现它需要两个能源仓。"
+				"    其实这不是必要需求，只是单纯可以像电力高炉一样双仓升压而已，所以我只设成了需求一个。"
+				"    &l&b但是若是你摆了两个能源仓，则两个能源仓分别都要通上2A的电！因为加了两个能源仓的多方快机器基础电压会提升一级，必须要供应升压所需的足够电量，否则机器将不会工作！"
 			]
 			icon: "botania:cosmetic_thinking_hand"
 			id: "644C47F8314F0DBC"
@@ -526,19 +526,19 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest26.subtitle}"
+			subtitle: "请仔细阅读！别光顾着拿奖励..."
 			tasks: [{
 				id: "36D28FA2F621CC2B"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest26.task_+3950377753234230315.title}"
+				title: "I know"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest26.title}"
+			title: "关于进阶流体钻机的搭建"
 			x: -5.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["644C47F8314F0DBC"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest27.description1}"]
+			description: ["    诶，这抽出来的油不对啊！恭喜！你会发现有四种油：轻油，重油，石油和原油（天然气纯纯废物）。这四种油蒸出不同产物的比例都不一样，详细请查阅JEI。如果你是个柴油6：1狂热拥护者，就抽原油吧。轻重燃油产出刚好6：1。"]
 			icon: "botania:cosmetic_thinking_hand"
 			id: "4594C3CB08FB0A4E"
 			rewards: [{
@@ -547,13 +547,13 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest27.subtitle}"
+			subtitle: "请仔细阅读！别光顾着拿奖励..."
 			tasks: [{
 				id: "36FD1A5427DD04EF"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest27.task_+3962352195904275695.title}"
+				title: "I know"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest27.title}"
+			title: "关于采出的油"
 			x: -5.5d
 			y: 4.0d
 		}
@@ -566,7 +566,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest28.subtitle}"
+			subtitle: "四天王之一"
 			tasks: [{
 				id: "5EA09EC7F57F8E9B"
 				item: "gtceu:oil_heavy_bucket"
@@ -584,7 +584,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest29.subtitle}"
+			subtitle: "四天王之一"
 			tasks: [{
 				id: "492E7C59270856E7"
 				item: "gtceu:oil_bucket"
@@ -602,7 +602,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest30.subtitle}"
+			subtitle: "四天王之一"
 			tasks: [{
 				id: "2A2EBA49242E2CCE"
 				item: "gtceu:oil_medium_bucket"
@@ -620,7 +620,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest31.subtitle}"
+			subtitle: "四天王之一"
 			tasks: [{
 				id: "009C156DFF3085B3"
 				item: "gtceu:oil_light_bucket"
@@ -638,7 +638,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest32.subtitle}"
+			subtitle: "你是什么东西，也配和四天王一起玩？"
 			tasks: [{
 				id: "17514DF9D5931A82"
 				item: "gtceu:natural_gas_bucket"
@@ -656,7 +656,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest33.subtitle}"
+			subtitle: "你还在用这个？祝君好运"
 			tasks: [{
 				id: "6A558713FDCA6611"
 				item: "gtceu:mv_gas_turbine"
@@ -671,18 +671,18 @@
 			size: 2.0d
 			tasks: [{
 				id: "215D02C397CABDA2"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest34.task_+2404080815174237602.title}"
+				title: "Our distillation tower is booming!"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest34.title}"
+			title: "HV时期"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4594C3CB08FB0A4E"]
 			description: [
-				"{ftbquests.chapter.2CEAD5605C416218.quest35.description1}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest35.description2}"
+				"    我怎么知道这个区块的油田是什么油呢？鉴于你现在无法做出HV探矿仪探测基岩流体，建议是在尝试的区块把钻机摆好，当它结构形成时会显示当前区块的油种类和数量。如果不是想要的就拆了，换个区块试。"
+				"    &l&b你嫌麻烦？&n你都玩GT了，还嫌麻烦？"
 			]
 			icon: "botania:cosmetic_thinking_hand"
 			id: "2B3A126F8C590A55"
@@ -692,21 +692,21 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest35.subtitle}"
+			subtitle: "笨方法！"
 			tasks: [{
 				id: "3B8FB6DD99CA612A"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest35.task_+4291850032791576874.title}"
+				title: "I know"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest35.title}"
+			title: "MV时期确认油种类和数量的方式"
 			x: -4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["4594C3CB08FB0A4E"]
 			description: [
-				"{ftbquests.chapter.2CEAD5605C416218.quest36.description1}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest36.description2}"
+				"    如果你想要的油距离你十万八千里...我们可以用无线流体传输覆盖板！这是gtmthings所提供的超大福利！造几个出来随便贴，再也不用拉着各种麻烦的线了！"
+				"    不过一个GT容器只能贴一个该板，或许你能想出一些间接介质来进行分流传输单液体？"
 			]
 			icon: "gtmthings:wireless_fluid_transfer_cover"
 			id: "47D645D2CF6F4696"
@@ -716,21 +716,21 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest36.subtitle}"
+			subtitle: "末影科技，小子！"
 			tasks: [{
 				id: "65408B9B64EB958A"
 				item: "gtmthings:wireless_fluid_transfer_cover"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest36.title}"
+			title: "远距离/跨纬度传输流体的方法之一"
 			x: -6.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1EDA02396B328A49"]
 			description: [
-				"{ftbquests.chapter.2CEAD5605C416218.quest37.description1}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest37.description2}"
+				"    它可以将石油同时进行四项蒸馏处理并&l&b没有任何损失&r！用它来积攒大量的四种初级处理油吧！"
+				"    &l&b注意！蒸馏塔处理配方产物有n个就需要盖n+1层，除第一层外每层都有且只能有一个输出仓！"
 			]
 			id: "117CC578D19D6CB0"
 			rewards: [{
@@ -739,19 +739,19 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest37.subtitle}"
+			subtitle: "我们的整合包正在蒸蒸日上哦！"
 			tasks: [{
 				id: "35ECDC9B95FE0CC8"
 				item: "gtceu:distillation_tower"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest37.title}"
+			title: "蒸蒸日上！"
 			x: -2.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1EDA02396B328A49"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest38.description1}"]
+			description: ["    更好的脱硫！不想搞四台小化反？大化反，启动！利用大化反能填充一堆输入输出仓的特性，来想好你的连线结构，搞出一个四脱硫合一的脱硫装置吧！相信你也能设计出对应的氢循环！"]
 			id: "60F804F953AB347A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -759,13 +759,13 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest38.subtitle}"
+			subtitle: "谁需要一堆小化反"
 			tasks: [{
 				id: "0CB6F0E3570A9536"
 				item: "gtceu:large_chemical_reactor"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest38.title}"
+			title: "我很爱化学"
 			x: -3.5d
 			y: 1.0d
 		}
@@ -778,13 +778,13 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest39.subtitle}"
+			subtitle: "偷窥一下基岩下面有什么"
 			tasks: [{
 				id: "00654C7916B861B7"
 				item: "gtceu:prospector.hv"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest39.title}"
+			title: "让我看看！"
 			x: 0.5d
 			y: 1.0d
 		}
@@ -797,7 +797,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest40.subtitle}"
+			subtitle: "柴油线重要原料"
 			tasks: [{
 				id: "4000C555F2D19DD2"
 				item: "gtceu:nitric_acid_bucket"
@@ -815,7 +815,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest41.subtitle}"
+			subtitle: "还差一步！"
 			tasks: [{
 				id: "391AD2AD6BBD8B53"
 				item: "gtceu:tetranitromethane_bucket"
@@ -833,7 +833,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest42.subtitle}"
+			subtitle: "再次提升燃值！"
 			tasks: [
 				{
 					id: "7986355C842E2C15"
@@ -848,13 +848,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest42.title}"
+			title: "再次打搅！"
 			x: -1.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["5425DE0071BA18F9"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest43.description1}"]
+			description: ["    这就是柴油系燃料的终点了。如果你想要最强燃料，只能推翻你所有的柴油系产线，从而追求汽油这种燃料..."]
 			id: "3D0B085FB6082A3C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -862,7 +862,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest43.subtitle}"
+			subtitle: "燃值翻0.5倍！"
 			tasks: [{
 				id: "60DA06A2C0D6F006"
 				item: "gtceu:cetane_boosted_diesel_bucket"
@@ -873,7 +873,7 @@
 		}
 		{
 			dependencies: ["117CC578D19D6CB0"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest44.description1}"]
+			description: ["    此时你可以造出石油裂化机来将石油脑进行轻度或重度（你自己觉得缺什么就怎么处理）蒸汽裂化，再在一台12层高的蒸馏塔来获得大量的化工原料！"]
 			id: "5B5DFEB9DE345B10"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -881,7 +881,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest44.subtitle}"
+			subtitle: "裂，给我裂！"
 			tasks: [{
 				id: "3F5C1C6A386784CF"
 				item: "gtceu:cracker"
@@ -892,7 +892,7 @@
 		}
 		{
 			dependencies: ["5B5DFEB9DE345B10"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest45.description1}"]
+			description: ["    裂解蒸馏石油脑让你得到了各式各样的副产！这些有机物中有些会影响到你的一些化工生产，可谓超有价值！想必你再也不会为甲苯或乙烯之类的有机物发愁了吧？"]
 			icon: "botania:cosmetic_thinking_hand"
 			id: "48A4A24B6CF5971A"
 			rewards: [{
@@ -901,13 +901,13 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest45.subtitle}"
+			subtitle: "有机物在手，天下我有"
 			tasks: [{
 				id: "1E724717F806DDBB"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest45.task_+2193894136753872315.title}"
+				title: "I know"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest45.title}"
+			title: "关于石化副产"
 			x: -2.5d
 			y: 5.0d
 		}
@@ -920,7 +920,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest46.subtitle}"
+			subtitle: "你的最后一种小内燃机"
 			tasks: [{
 				id: "5A32A66BA3C75CCB"
 				item: "gtceu:hv_combustion"
@@ -938,7 +938,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest47.subtitle}"
+			subtitle: "你去跟小孩吃一桌"
 			tasks: [{
 				id: "74B0DF686C7C3484"
 				item: "gtceu:hv_gas_turbine"
@@ -953,10 +953,10 @@
 			size: 2.0d
 			tasks: [{
 				id: "5AD80B6DF8A5239A"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest48.task_+6545994625333928858.title}"
+				title: "No, this shouldn't be the limit of petrification!"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest48.title}"
+			title: "EV时期"
 			x: 2.5d
 			y: -1.5d
 		}
@@ -969,7 +969,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest49.subtitle}"
+			subtitle: "超级加倍！"
 			tasks: [{
 				id: "6355DC86741BE21D"
 				item: "gtceu:hv_fluid_drilling_rig"
@@ -987,7 +987,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest50.subtitle}"
+			subtitle: "更好的布线！"
 			tasks: [
 				{
 					id: "5579937E6ABDE147"
@@ -1000,13 +1000,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest50.title}"
+			title: "四重仓"
 			x: 3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3D80BAEC0FF08BDD"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest51.description1}"]
+			description: ["    恭喜！能走到这你已经算个合格的石化人了，那么还有没有比高十六烷值柴油更高级的燃料呢？答案是当然！高辛烷值汽油，拥有着1桶3200000的恐怖燃值！但是它的制造不属于柴油系，你要把你的柴油产线通通推倒！"]
 			id: "211F0DB44621458D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1014,13 +1014,13 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest51.subtitle}"
+			subtitle: "准备好了吗孩子们？"
 			tasks: [{
 				id: "51C4207B1CE58024"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest51.task_+5891869925645320228.title}"
+				title: "I know"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest51.title}"
+			title: "高辛烷，启动！"
 			x: 2.5d
 			y: 1.0d
 		}
@@ -1033,7 +1033,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest52.subtitle}"
+			subtitle: "粗汽油原料"
 			tasks: [{
 				id: "2E0555D66D7377B5"
 				item: "gtceu:methanol_bucket"
@@ -1051,7 +1051,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest53.subtitle}"
+			subtitle: "粗汽油原料"
 			tasks: [{
 				id: "4E9C7E50E782699F"
 				item: "gtceu:acetone_bucket"
@@ -1069,7 +1069,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest54.subtitle}"
+			subtitle: "粗汽油原料"
 			tasks: [{
 				id: "597E7B965787262C"
 				item: "gtceu:naphtha_bucket"
@@ -1087,7 +1087,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest55.subtitle}"
+			subtitle: "粗汽油原料"
 			tasks: [{
 				id: "5B9CB12DD9D76C09"
 				item: "gtceu:refinery_gas_bucket"
@@ -1128,7 +1128,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest57.subtitle}"
+			subtitle: "汽油及高辛烷值汽油原料"
 			tasks: [{
 				id: "635BE8148B4175E3"
 				item: "gtceu:toluene_bucket"
@@ -1149,7 +1149,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest58.subtitle}"
+			subtitle: "高辛烷值汽油原料"
 			tasks: [{
 				id: "0A23CC5D2F013564"
 				item: "gtceu:gasoline_bucket"
@@ -1168,7 +1168,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest59.subtitle}"
+			subtitle: "高辛烷值汽油原料"
 			tasks: [{
 				id: "10185F70E40F97D5"
 				item: "gtceu:octane_bucket"
@@ -1187,7 +1187,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest60.subtitle}"
+			subtitle: "高辛烷值汽油原料"
 			tasks: [{
 				id: "71EBD702FE11E876"
 				item: "gtceu:nitrous_oxide_bucket"
@@ -1206,7 +1206,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest61.subtitle}"
+			subtitle: "高辛烷值汽油原料"
 			tasks: [{
 				id: "6ABC493A9F66D177"
 				item: "gtceu:ethyl_tertbutyl_ether_bucket"
@@ -1250,7 +1250,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest62.subtitle}"
+			subtitle: "恭喜！你已经是个合格的石化人了！"
 			tasks: [{
 				id: "5B43A3C938AA3D26"
 				item: "gtceu:high_octane_gasoline_bucket"
@@ -1264,7 +1264,7 @@
 				"3D80BAEC0FF08BDD"
 				"1756E4E4880B8FD4"
 			]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest63.description1}"]
+			description: ["    一台完全释放你油燃值的大机器！仅需一点点润滑油和充足的氧气，你可以消耗两倍的燃料产生三倍的燃值，相当于一桶燃料提升了一半燃值！合理的布线并运用你的电池箱，看着几千桶高辛烷，享受石油大亨的快感吧！"]
 			hide_dependency_lines: true
 			id: "321CEC3FB96A2E1E"
 			rewards: [{
@@ -1273,7 +1273,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest63.subtitle}"
+			subtitle: "让燃料充分燃烧！"
 			tasks: [{
 				id: "7F88D1EBAE8F1BC5"
 				item: "gtceu:large_combustion_engine"
@@ -1342,10 +1342,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest64.subtitle}"
+			subtitle: "给石化人的福利！"
 			tasks: [{
 				id: "2C8FEE06D731310A"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest64.task_+3211046772485992714.title}"
+				title: "Snow_city was touched by you and secretly gave you a reward. Don't tell anyone."
 				type: "checkmark"
 			}]
 			x: 2.5d
@@ -1357,16 +1357,16 @@
 			size: 2.0d
 			tasks: [{
 				id: "5A8E8F7FD742E5F1"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest65.task_+6525310689341531633.title}"
+				title: "Not a moment to mourn the retirement of high-octane gasoline, next up..."
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest65.title}"
+			title: "IV时期"
 			x: 6.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1318AF9D80910268"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest66.description1}"]
+			description: ["    极限内燃引擎，这是最后的内燃机了（不包括火箭燃料）。"]
 			id: "33BBD29D7E3DDB68"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1374,7 +1374,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest66.subtitle}"
+			subtitle: "让燃料极限燃烧！"
 			tasks: [{
 				id: "3B11A471541EE181"
 				item: "gtceu:extreme_combustion_engine"
@@ -1386,9 +1386,9 @@
 		{
 			dependencies: ["33BBD29D7E3DDB68"]
 			description: [
-				"{ftbquests.chapter.2CEAD5605C416218.quest67.description1}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest67.description2}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest67.description3}"
+				"    随着时代的快速飞升，高辛烷值汽油或许能保你到LuV，但不能保你一辈子。总会有更先进的能源获取方式的。"
+				"    但是，看着你曾经搭过的石油重工，多少会有点自豪吧！不必灰心，人总是要向前看的。"
+				"    也许你走的是不同的路，有各种各样的逃课方式，觉得走石化的这辈子有了，但是总会有人选择走的。无论你做什么选择，以后大概率都会后悔，因为得不到的才是最好的。所以，如果选了这条路，无论是主动还是被动，都请好好走下去吧，每个人都有无限的可能和光明的未来。"
 			]
 			hide_until_deps_visible: true
 			id: "4EA7875B6E1341B4"
@@ -1398,40 +1398,40 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest67.subtitle}"
+			subtitle: "献给做石化的你"
 			tasks: [{
 				id: "4E6D066D90F49F58"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest67.task_+5651180175072993112.title}"
+				title: "I know"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest67.title}"
+			title: "Snow_city的话"
 			x: 6.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["2F2FC8322B26C942"]
 			description: [
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description1}"
+				"&a以下是搭建一台抽油机的基本顺序&r："
 				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description2}"
+				"在离地 3 格（若稍后使用大号的抽油机曲柄则为 4 格）的位置放置一个抽油机轴承，作为抽油机臂的转轴；"
 				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description3}"
+				"搭建前臂，从抽油机轴承的具有粘性的一段水平延伸数格&4（至少1格）&r，在末端放置一个抽油机驴头；"
 				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description4}"
+				"在抽油机驴头正下方放置深至基岩层的竖直流体管道柱，在流体管道的上方放置抽油机油泵，在这一步中要确保抽油机油泵以及流体管道位于含油区块；"
 				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description5}"
+				"搭建后臂，即将前臂反向延长数格&4（至少4格）&r，在末端放置一个抽油机轴承；"
 				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description6}"
+				"使用扳手右击上一步放置的抽油机轴承，以转换其外观，并在其下方放置一个抽油机曲柄；"
 				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description7}"
+				"使用强力胶黏合从抽油机臂一端的抽油机驴头到另一端的抽油机轴承；"
 				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description8}"
+				"空手右击作为转轴的抽油机轴承，组装完成，输入旋转力并使用流体管道从抽油机油泵抽出原油即可。"
 				"{@pagebreak}"
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description9}"
+				"原油输出的速度和几个因素有关："
 				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description10}"
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description11}"
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description12}"
+				"1.输入的转速越高，抽取越快（注意转速到达一定数值之后，抽油机的转速不会再上升）"
+				"2.抽油机前臂：后臂的比值越大，抽取速度越快"
+				"3.大号抽油机比小号抽油机抽取速度快"
 			]
 			id: "0DA7785CF55ABAAB"
 			subtitle: "用探测器找油"
@@ -1463,7 +1463,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.08AF6857D150C353.quest4.title}"
+			title: "原油抽取"
 			x: -13.5d
 			y: 1.0d
 		}
@@ -1484,7 +1484,7 @@
 		{
 			dependencies: ["6397FCC9081360A5"]
 			id: "31105ADA8A75BD01"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest14.subtitle}"
+			subtitle: "可以烧，也可以留到MV后续处理"
 			tasks: [{
 				id: "00F4CFFD57E04AFB"
 				item: "gtceu:sulfuric_naphtha_bucket"
@@ -1496,7 +1496,7 @@
 		{
 			dependencies: ["6397FCC9081360A5"]
 			id: "327A7C4C3C7404CC"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest15.subtitle}"
+			subtitle: "可以烧，也可以留到MV后续处理"
 			tasks: [{
 				id: "423F14BBB55CD067"
 				item: "gtceu:sulfuric_heavy_fuel_bucket"
@@ -1544,7 +1544,7 @@
 		{
 			dependencies: ["7EF838EF4607A41D"]
 			id: "0AE0727C431D39A5"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest13.subtitle}"
+			subtitle: "留到MV进行处理"
 			tasks: [{
 				id: "4819ADF162A3E004"
 				item: "gtceu:oil_bucket"
@@ -1604,9 +1604,9 @@
 			y: 5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest20.description1}"]
+			description: ["猪牛羊马"]
 			id: "25373674A1A9932C"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest20.subtitle}"
+			subtitle: "屠刀杀部分动物获得"
 			tasks: [{
 				id: "4149619485BBB7D2"
 				item: "kubejs:tallow"
@@ -1660,6 +1660,6 @@
 			y: -1.5d
 		}
 	]
-	subtitle: ["{ftbquests.chapter.2CEAD5605C416218.subtitle0}"]
-	title: "{ftbquests.chapter.2CEAD5605C416218.title}"
+	subtitle: ["哦，瞧瞧那黑色的黄金！"]
+	title: "石油化工"
 }

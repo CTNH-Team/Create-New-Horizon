@@ -152,10 +152,10 @@
 			id: "173C1ED446EF4D39"
 			tasks: [{
 				id: "413A9E1E8D6A813B"
-				title: "{ftbquests.chapter.zpm.quest16.task_+4700243015173308731.title}"
+				title: "更多的等离子"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.zpm.quest16.title}"
+			title: "新物质和新等离子"
 			x: 21.5d
 			y: 1.5d
 		}
@@ -178,7 +178,7 @@
 				item: "gtceu:oxygen_plasma_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.zpm.quest18.title}"
+			title: "更好的等离子"
 			x: 21.0d
 			y: 0.5d
 		}
@@ -190,7 +190,7 @@
 				item: "gtceu:nitrogen_plasma_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.zpm.quest19.title}"
+			title: "更好的等离子"
 			x: 22.0d
 			y: 0.5d
 		}
@@ -210,7 +210,7 @@
 			id: "7FD9B0E41358497D"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.zpm.quest21.subtitle}"
+			subtitle: "UV的主要材料"
 			tasks: [{
 				id: "2AE6E9434C0E0615"
 				item: "gtceu:darmstadtium_ingot"
@@ -551,5 +551,5 @@
 			y: 2.5d
 		}
 	]
-	title: "{ftbquests.chapter.zpm.title}"
+	title: "&cZPM&r时期"
 }

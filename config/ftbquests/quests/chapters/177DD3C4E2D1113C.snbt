@@ -45,7 +45,7 @@
 		{
 			dependencies: ["591C04018820A1E3"]
 			id: "1FC5D2A60578FB55"
-			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest2.subtitle}"
+			subtitle: "熔炼可以从大量的贵金属中提取出一些珍惜的金元素"
 			tasks: [{
 				id: "72C6F20C922B2859"
 				item: "minecraft:gold_nugget"
@@ -90,7 +90,7 @@
 		{
 			dependencies: ["188AC9C2BFA0D221"]
 			id: "01622A02A8887530"
-			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest6.subtitle}"
+			subtitle: "经过处理后，可以提炼出更多的金"
 			tasks: [{
 				id: "2D42FEBF44F781A1"
 				item: "gtceu:tiny_gold_dust"
@@ -102,7 +102,7 @@
 		{
 			dependencies: ["188AC9C2BFA0D221"]
 			id: "21D904DC5BD2D857"
-			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest7.subtitle}"
+			subtitle: "可以回收铜，以及获得一些副产物"
 			tasks: [{
 				id: "426B548E21DBDC21"
 				item: "gtceu:copper_leach_dust"
@@ -114,7 +114,7 @@
 		{
 			dependencies: ["188AC9C2BFA0D221"]
 			id: "4009858927F160B3"
-			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest8.subtitle}"
+			subtitle: "提取出全部的金"
 			tasks: [{
 				id: "1167A4A08BE4673C"
 				item: "gtceu:chloroauric_acid_bucket"
@@ -137,7 +137,7 @@
 		}
 		{
 			id: "0C52DB44DF9EE06F"
-			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest10.subtitle}"
+			subtitle: "氧化铝来源广泛，可以副产于许多种矿物"
 			tasks: [{
 				id: "1A9A6FC700D18F86"
 				item: "gtceu:alumina_dust"
@@ -152,7 +152,7 @@
 				"5211BE1C25953D4A"
 			]
 			id: "32032DEB11135FEF"
-			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest11.subtitle}"
+			subtitle: "经过二者电解，可以降低铝粉制取所需要的电压"
 			tasks: [{
 				id: "11100205C8DEFAAE"
 				item: "gtceu:aluminium_dust"
@@ -188,7 +188,7 @@
 			dependencies: ["2224B60020D84572"]
 			id: "681DC7A75791D7E2"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest14.subtitle}"
+			subtitle: "一种含铝和氟的石头，来自暮色森林"
 			tasks: [{
 				id: "10BFE625088691A7"
 				item: "gtceu:cryolite_dust"
@@ -223,7 +223,7 @@
 		{
 			dependencies: ["53314CF3EED532FE"]
 			id: "689BE30CCFFF7850"
-			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest17.subtitle}"
+			subtitle: "铝土矿中含有少量金红石"
 			tasks: [{
 				id: "290B69816AF28B31"
 				item: "gtceu:tiny_rutile_dust"
@@ -257,7 +257,7 @@
 		{
 			dependencies: ["27E122BB40B8033B"]
 			id: "1059716CA13CA10E"
-			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest20.subtitle}"
+			subtitle: "副产物"
 			tasks: [{
 				id: "7291A77099CE5DEF"
 				item: "gtceu:red_mud_bucket"
@@ -291,7 +291,7 @@
 		{
 			dependencies: ["27E122BB40B8033B"]
 			id: "7E7D5E681C498055"
-			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest23.subtitle}"
+			subtitle: "铝元素提取"
 			tasks: [{
 				id: "270C7721F12B81FA"
 				item: "gtceu:pure_aluminium_hydroxide_solution_bucket"
@@ -303,7 +303,7 @@
 		{
 			dependencies: ["7E7D5E681C498055"]
 			id: "4E3F96D91F921735"
-			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest24.subtitle}"
+			subtitle: "在电力高炉内熔炼成氧化铝"
 			tasks: [{
 				id: "6208BF50F1AA52FF"
 				item: "gtceu:aluminium_hydroxide_dust"
@@ -761,7 +761,7 @@
 		}
 		{
 			id: "211AA05F2154A9FD"
-			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest66.subtitle}"
+			subtitle: "如果能获得这个......"
 			tasks: [{
 				id: "6E9203FCEAA5EE03"
 				item: "kubejs:metallurgical_catalyst"
@@ -786,7 +786,7 @@
 		}
 		{
 			id: "384D3729A3308C4F"
-			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest68.subtitle}"
+			subtitle: "可以帮你节省不少步骤"
 			tasks: [{
 				id: "26B53A05CB0F86A5"
 				item: "kubejs:bauxite_process_catalyst"
@@ -1061,7 +1061,7 @@
 		{
 			dependencies: ["44DF62D8F87E1E98"]
 			id: "1F24CDB4B265DAE8"
-			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest93.subtitle}"
+			subtitle: "你想要凯金处理产线吗？"
 			tasks: [{
 				id: "7E6DA58B61134C92"
 				item: "gtceu:trinium_sulfide_dust"
@@ -1287,7 +1287,7 @@
 			dependencies: ["27F0DABAEDC00D7A"]
 			id: "724B4D5BE66CEEEA"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.zpm.quest44.subtitle}"
+			subtitle: "新材料"
 			tasks: [{
 				id: "5AAC284D6B71B777"
 				item: "gtceu:flawless_tungstencu_diamond_plating_gem"
@@ -1310,7 +1310,7 @@
 		{
 			dependencies: ["56D0FDB6842D38C2"]
 			id: "52156F99511B7A7E"
-			subtitle: "{ftbquests.chapter.zpm.quest48.subtitle}"
+			subtitle: "开始你的传奇产线布置吧"
 			tasks: [{
 				id: "4F96B6D82E030080"
 				item: "ctnhcore:bedrock_drilling_rigs"
@@ -1404,7 +1404,7 @@
 				"3C9769EB35BB245D"
 			]
 			id: "2BB03484D6971028"
-			subtitle: "{ftbquests.chapter.zpm.quest58.subtitle}"
+			subtitle: "留到UV处理"
 			tasks: [{
 				id: "19B9754ACA92787A"
 				item: "gtceu:taranliquid_bucket"
@@ -1557,7 +1557,7 @@
 		{
 			dependencies: ["4B63F560AED06615"]
 			id: "1BEC6EF7F134246C"
-			subtitle: "{ftbquests.chapter.zpm.quest75.subtitle}"
+			subtitle: "继续分离来增产另外两种塔兰金属液体"
 			tasks: [{
 				id: "42E1C3E073E2B567"
 				item: "gtceu:taranium_half_life_liquid_helium3_bucket"
@@ -1592,7 +1592,7 @@
 			id: "46D6EADF05BA41A6"
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.zpm.quest78.subtitle}"
+			subtitle: "更快冷凝你的等离子体"
 			tasks: [{
 				id: "30E70EF8D3C1BB40"
 				item: "ctnhcore:plasma_condenser"
@@ -1644,7 +1644,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "219E9B48DE93781A"
-			subtitle: "{ftbquests.chapter.zpm.quest82.subtitle}"
+			subtitle: "很快就能出精金了！"
 			tasks: [{
 				id: "0BC89185D02D603B"
 				item: "gtceu:adamant_mud_dust"
@@ -1660,7 +1660,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "7FB819E46B3F2404"
-			subtitle: "{ftbquests.chapter.zpm.quest83.subtitle}"
+			subtitle: "UEV的时候再处理吧"
 			tasks: [{
 				id: "156369CEF2DBB2DA"
 				item: "gtceu:taranium_powder_dust"
@@ -1682,7 +1682,7 @@
 		}
 		{
 			id: "2EB87027F157815D"
-			subtitle: "{ftbquests.chapter.zpm.quest85.subtitle}"
+			subtitle: "稀土的萃取剂，也可以萃取精金"
 			tasks: [{
 				id: "3D229CD3DB82C461"
 				item: "gtceu:p507_extractant_bucket"
@@ -1698,7 +1698,7 @@
 			]
 			id: "73FEBDBA63D96DDA"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.zpm.quest86.subtitle}"
+			subtitle: "无损P507"
 			tasks: [{
 				id: "1DA28993B0247EA8"
 				item: "gtceu:adamantiteliquid_bucket"
@@ -1732,7 +1732,7 @@
 		{
 			dependencies: ["7A49E5931F2C7453"]
 			id: "3B20DB28F8A96FC0"
-			subtitle: "{ftbquests.chapter.zpm.quest89.subtitle}"
+			subtitle: "UHV的重要材料"
 			tasks: [{
 				id: "01CF780BB688157C"
 				item: "gtceu:adamantite_dust"
@@ -1763,7 +1763,7 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.zpm.quest91.subtitle}"
+			subtitle: "UHV线缆的主要材料"
 			tasks: [{
 				id: "7C005989A82F0622"
 				item: "gtceu:adamantite_ingot"
@@ -1867,7 +1867,7 @@
 				"5F669351E929DE13"
 			]
 			id: "62C818606820AC3A"
-			subtitle: "{ftbquests.chapter.uv.quest23.subtitle}"
+			subtitle: "UHV阶段可以处理"
 			tasks: [{
 				id: "65A07E985B66B699"
 				item: "gtceu:dr_bedrock_gas_re_bucket"
@@ -1890,7 +1890,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.uv.quest24.title}"
+			title: "放射性物质"
 			x: 11.5d
 			y: 15.5d
 		}
@@ -1944,7 +1944,7 @@
 		{
 			dependencies: ["7565AACEF5040B8D"]
 			id: "6286B016F7A21B39"
-			subtitle: "{ftbquests.chapter.uv.quest29.subtitle}"
+			subtitle: "你需要衰变罐"
 			tasks: [{
 				id: "15A68F85CEBA29F9"
 				item: "gtceu:radioactive_metal_ingot_ingot"
@@ -2002,9 +2002,9 @@
 				"49E9D581D9A44DCF"
 				"239256DEE547E22D"
 			]
-			description: ["{ftbquests.chapter.uv.quest34.description1}"]
+			description: ["你也可以拿来发电"]
 			id: "331F72B7D40A7538"
-			subtitle: "{ftbquests.chapter.uv.quest34.subtitle}"
+			subtitle: "等离子冷凝来加速产出以太的产出速率"
 			tasks: [{
 				id: "040D2994DEAAE849"
 				item: "gtceu:aether_plasma_bucket"
@@ -2148,11 +2148,11 @@
 				"7DED10B400A33933"
 				"4831A750BE325D1A"
 			]
-			description: ["{ftbquests.chapter.uhv.quest9.description1}"]
+			description: ["基岩处理的终点"]
 			id: "0921AD39C8509CE9"
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.uhv.quest9.subtitle}"
+			subtitle: "不是菜鸟证明？"
 			tasks: [{
 				id: "27C8F2426A80B994"
 				item: "gtceu:boundless_dust"
@@ -2166,7 +2166,7 @@
 			id: "7F81295FE18741A6"
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.uv.quest36.subtitle}"
+			subtitle: "UEV的主要材料"
 			tasks: [{
 				id: "6505A75DAEE23A90"
 				item: "gtceu:aether_ingot"
@@ -2295,5 +2295,5 @@
 			y: 11.5d
 		}
 	]
-	title: "{ftbquests.chapter.177DD3C4E2D1113C.title}"
+	title: "矿物处理"
 }

@@ -16,9 +16,9 @@
 	quests: [
 		{
 			dependencies: ["06B6C2C77135D570"]
-			description: ["{ftbquests.chapter.lv.quest1.description1}"]
+			description: ["    让各种奇奇怪怪的化学品相互反应！现阶段你可以用它来制作液态橡胶！"]
 			id: "544D7F95370F9235"
-			subtitle: "{ftbquests.chapter.lv.quest1.subtitle}"
+			subtitle: "更好的合成液态橡胶了，不是吗？"
 			tasks: [{
 				id: "7E3FAB1FDA39411F"
 				item: "gtceu:lv_chemical_reactor"
@@ -29,11 +29,11 @@
 		}
 		{
 			dependencies: ["476757E0C54B6ADE"]
-			description: ["{ftbquests.chapter.lv.quest2.description1}"]
+			description: ["    通过对&l&3&m复仇者&r各种原料进行Assemble来组装物品！好好看看一些元件的配方，用了组装机会使他们制作更简单！"]
 			id: "504A762FE1057233"
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.lv.quest2.subtitle}"
+			subtitle: "节省材料和你的肝硬化程度"
 			tasks: [{
 				id: "261F23C630F0BE7D"
 				item: "gtceu:lv_assembler"
@@ -44,11 +44,11 @@
 		}
 		{
 			dependencies: ["06B6C2C77135D570"]
-			description: ["{ftbquests.chapter.lv.quest3.description1}"]
+			description: ["    将一锭札成2根导线或8根细导线，不用再担心对材料的浪费了！"]
 			id: "7CF628053F84B8D1"
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.lv.quest3.subtitle}"
+			subtitle: "节省材料的一大杀器"
 			tasks: [{
 				id: "42A166BE2D478A86"
 				item: "gtceu:lv_wiremill"
@@ -63,7 +63,7 @@
 				"5D1419802A307F70"
 				"476757E0C54B6ADE"
 			]
-			description: ["{ftbquests.chapter.lv.quest6.description1}"]
+			description: ["    之后的电路板加工全要在这个机器内进行。并且注意，每个阶段的电路组装机需要高出当前阶段一级的电路板制作。比如LV的电路组装机需要MV电路板，MV电路组装机需要HV电路板，以此类推。"]
 			id: "0FEAC07F1404346A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -73,7 +73,7 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.lv.quest6.subtitle}"
+			subtitle: "在短时间内，你会大量使用这个机器"
 			tasks: [{
 				id: "253644418A2DE8E0"
 				item: "gtceu:lv_circuit_assembler"
@@ -84,9 +84,9 @@
 		}
 		{
 			dependencies: ["7F992D338D4783CE"]
-			description: ["{ftbquests.chapter.lv.quest7.description1}"]
+			description: ["    一种重要的电子元件，用于组装更高级的电路板！"]
 			id: "06A46967BFF56B33"
-			subtitle: "{ftbquests.chapter.lv.quest7.subtitle}"
+			subtitle: "禁止逆行"
 			tasks: [{
 				id: "6FDE07DCC765791F"
 				item: "gtceu:diode"
@@ -97,7 +97,7 @@
 		}
 		{
 			dependencies: ["41E48BCAEAD9D47E"]
-			description: ["{ftbquests.chapter.lv.quest10.description1}"]
+			description: ["    一切LV机器的基础，代表着无穷的可能性。相信你已经准备好了迎接你的新机器伙伴们！"]
 			id: "7AE674329D7E7944"
 			rewards: [{
 				id: "35BBCFC12AAADAA2"
@@ -105,7 +105,7 @@
 				type: "random"
 			}]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.lv.quest10.subtitle}"
+			subtitle: "发挥你天马行空的想象力！"
 			tasks: [{
 				id: "18CD5B920A9A957E"
 				item: "gtceu:lv_machine_hull"
@@ -119,10 +119,10 @@
 				"4EE1A14F591303FC"
 				"67AC086661177AFD"
 			]
-			description: ["{ftbquests.chapter.lv.quest11.description1}"]
+			description: ["    一种较为优质的电路基板，可以刻蚀一些更复杂的电路。"]
 			icon: "gtceu:phenolic_printed_circuit_board"
 			id: "0425D0789C2837CD"
-			subtitle: "{ftbquests.chapter.lv.quest11.subtitle}"
+			subtitle: "暂未有PCB工厂加盟"
 			tasks: [{
 				id: "762C762CF11786DD"
 				item: "gtceu:phenolic_printed_circuit_board"
@@ -133,7 +133,7 @@
 		}
 		{
 			dependencies: ["06B6C2C77135D570"]
-			description: ["{ftbquests.chapter.lv.quest13.description1}"]
+			description: ["    让粉与粉之间进行亲密的友好接触，从而合体！"]
 			id: "44E9D92283CBF029"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -142,7 +142,7 @@
 				type: "random"
 			}]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.lv.quest13.subtitle}"
+			subtitle: "开始打搅！"
 			tasks: [{
 				id: "767DB096DDB0DE58"
 				item: {
@@ -173,9 +173,9 @@
 				"0F5DE5970F41E7B3"
 				"471F881828CFF6A6"
 			]
-			description: ["{ftbquests.chapter.lv.quest14.description1}"]
+			description: ["    将镓粉与砷粉搅拌混合在一起，你得到了一种较为优质的半导体介质！你可以开始制作一些简易的二极管了。"]
 			id: "7F992D338D4783CE"
-			subtitle: "{ftbquests.chapter.lv.quest14.subtitle}"
+			subtitle: "优质半导体介质"
 			tasks: [{
 				id: "7ABC4356467197C7"
 				item: "gtceu:gallium_arsenide_dust"
@@ -189,7 +189,7 @@
 				"06A46967BFF56B33"
 				"0425D0789C2837CD"
 			]
-			description: ["{ftbquests.chapter.lv.quest15.description1}"]
+			description: ["    一种更好的电路板！凭借其强大的算力，你对机器的认知提升了一层！现在只需一种合适的外壳来制作你那些更为强大的MV机器。"]
 			id: "2D662EFDE7A39BB8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -197,7 +197,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.lv.quest15.subtitle}"
+			subtitle: "MV电路（手搓版）"
 			tasks: [{
 				id: "3D3B26CBE9800D76"
 				item: "gtceu:good_electronic_circuit"
@@ -208,9 +208,9 @@
 		}
 		{
 			dependencies: ["44E9D92283CBF029"]
-			description: ["{ftbquests.chapter.lv.quest16.description1}"]
+			description: ["    毫无疑问，你的电力高炉在加热时要防止自己被热融化掉，所以需要这种耐热合金来做外壳。"]
 			id: "4487EDC96DB1390B"
-			subtitle: "{ftbquests.chapter.lv.quest16.subtitle}"
+			subtitle: "耐烧王"
 			tasks: [{
 				id: "53FB702C104CE0FE"
 				item: "gtceu:invar_dust"
@@ -236,7 +236,7 @@
 				"146AF407393668B4"
 			]
 			description: [
-				"{ftbquests.chapter.lv.quest18.description1}"
+				"    这将是你第一次使用“双仓升压”的机制，当你使用两个LV能源仓供能时，由于&a一个LV能源仓可以接收2A的LV电&r，两个一起用就可以达到&a4ALV，也就是1AMV的电流&r，此时就可以&a实现MV电压配方&r的制作，这种多方块结构利用多个能源仓升压的机制将会是之后经常使用到的机制"
 				"    关于更加详细的升压机制讲解，请前往“存在即被感知”章节。"
 			]
 			icon: "gtceu:electric_blast_furnace"
@@ -249,7 +249,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.lv.quest18.subtitle}"
+			subtitle: "EBF，启动！"
 			tasks: [
 				{
 					count: 8L
@@ -263,7 +263,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.lv.quest18.title}"
+			title: "电力高炉"
 			x: 11.5d
 			y: 0.5d
 		}
@@ -272,7 +272,7 @@
 				"19869FD9D4BCCB9F"
 				"27BD70B6974D0C78"
 			]
-			description: ["{ftbquests.chapter.lv.quest19.description1}"]
+			description: ["    恭喜你！你已经对格雷的各种电力机器和多方块结构有了最基本的认识，现在你已步入了MV时代！"]
 			id: "11F898C7B0C925D5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -282,7 +282,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.lv.quest19.subtitle}"
+			subtitle: "MV时代的主要材料"
 			tasks: [{
 				id: "7133886D9DB3ED04"
 				item: "gtceu:aluminium_ingot"
@@ -296,9 +296,9 @@
 				"0F227314EC7719F8"
 				"5F53673A3EA0BDA4"
 			]
-			description: ["{ftbquests.chapter.lv.quest20.description1}"]
+			description: ["    下界的缺氧环境让其不易被氧化，你或许能去下界探探运气？"]
 			id: "27BD70B6974D0C78"
-			subtitle: "{ftbquests.chapter.lv.quest20.subtitle}"
+			subtitle: "氧气退散"
 			tasks: [{
 				id: "69DE50A0F6AA3F73"
 				item: "gtceu:aluminium_dust"
@@ -308,9 +308,9 @@
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.lv.quest21.description1}"]
+			description: ["    可通过电解机将其中的氧气剥离。但是现阶段的电压还不够大，你需要一些六氟铝酸钠作为催化剂才能电解。"]
 			id: "0F227314EC7719F8"
-			subtitle: "{ftbquests.chapter.lv.quest21.subtitle}"
+			subtitle: "被氧气玷污了"
 			tasks: [{
 				id: "3D8294EF7585258E"
 				item: "gtceu:alumina_dust"
@@ -321,9 +321,9 @@
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
-			description: ["{ftbquests.chapter.lv.quest22.description1}"]
+			description: ["    通过强大的电流来劈开化合物间的化学键！但是LV的功能不尽人意，很多配方需要MV以上才能电解。"]
 			id: "33C79B7B7E49940B"
-			subtitle: "{ftbquests.chapter.lv.quest22.subtitle}"
+			subtitle: "化学键，给我断！"
 			tasks: [{
 				id: "7D5FF56D85F70421"
 				item: "gtceu:lv_electrolyzer"
@@ -345,7 +345,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.lv.quest25.subtitle}"
+			subtitle: "概率！"
 			tasks: [{
 				id: "54DDAA9635F9C248"
 				item: "gtceu:exquisite_diamond_gem"
@@ -369,7 +369,7 @@
 				id: "0EFF9DC2EB4DEAD5"
 				type: "dimension"
 			}]
-			title: "{ftbquests.chapter.lv.quest26.title}"
+			title: "造访暮色森林"
 			x: 14.5d
 			y: 4.0d
 		}
@@ -383,7 +383,7 @@
 				type: "random"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.lv.quest27.subtitle}"
+			subtitle: "未来重要的电路板原材料"
 			tasks: [{
 				id: "6C9C6FAC41714B6E"
 				item: "gtceu:silicon_boule"
@@ -405,7 +405,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.lv.quest29.subtitle}"
+			subtitle: "此后重要的电路板原料"
 			tasks: [
 				{
 					id: "28B4B5B5A143CB87"
@@ -457,11 +457,11 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			description: [
-				"{ftbquests.chapter.lv.quest30.description1}"
-				"{ftbquests.chapter.lv.quest30.description2}"
+				"    做这个玩意其实并没有什么意义，因为大型蒸汽合金炉的速率远大于他，还不耗电。"
+				"    你不会做的，对吧？"
 			]
 			id: "38EA7D1DD910DBF5"
-			subtitle: "{ftbquests.chapter.lv.quest30.subtitle}"
+			subtitle: "大型蒸汽合金炉可以满足你对速度的需求"
 			tasks: [{
 				id: "716ECE6F74511EC0"
 				item: "gtceu:lv_alloy_smelter"
@@ -471,9 +471,9 @@
 			y: -2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.lv.quest34.description1}"]
+			description: ["    通过对闪锌矿进行副产物处理得知，详细请查阅JEI。"]
 			id: "0F5DE5970F41E7B3"
-			subtitle: "{ftbquests.chapter.lv.quest34.subtitle}"
+			subtitle: "藏在闪锌矿里"
 			tasks: [{
 				id: "0620DEC582086F00"
 				item: "gtceu:gallium_dust"
@@ -495,10 +495,10 @@
 			y: -3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.lv.quest36.description1}"]
+			description: ["    考验你翻阅JEI能力的时候到了。任务书不可能把所有事物全部都详细描述，更多时候还得靠自己的信息查阅能力。"]
 			id: "694839D0D1DCEF9A"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.lv.quest36.subtitle}"
+			subtitle: "多查查如何处理它们"
 			tasks: [
 				{
 					id: "20F48C51E90DF26B"
@@ -516,7 +516,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.lv.quest36.title}"
+			title: "一个让你更容易获得镓和砷的方法"
 			x: 7.5d
 			y: 5.5d
 		}
@@ -535,7 +535,7 @@
 			dependencies: ["2304A186EDD07CE0"]
 			description: ["    超导意味着EU传输过程中不会有任何损耗"]
 			id: "58E94DF9B0FE8012"
-			subtitle: "{ftbquests.chapter.lv.quest41.subtitle}"
+			subtitle: "LV超导"
 			tasks: [{
 				id: "06FD3C65BAAD729D"
 				item: "gtceu:conductive_alloy_single_wire"
@@ -562,7 +562,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.lv.quest42.subtitle}"
+			subtitle: "我要立即启动植物魔法"
 			tasks: [{
 				id: "621BD7226FA2140E"
 				item: "kubejs:mana_electronic_circuit"
@@ -607,7 +607,7 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			id: "21CD0FCABBCFB765"
-			subtitle: "{ftbquests.chapter.lv.quest57.subtitle}"
+			subtitle: "我觉得你不太会做小的电熔炉"
 			tasks: [{
 				id: "4545038EF9451F51"
 				item: "ctnhcore:large_steel_furnace"
@@ -629,11 +629,11 @@
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
-			description: ["{ftbquests.chapter.lv.quest59.description1}"]
+			description: ["    马达将电能以旋转的形式释放出来，你的大部分机械元件和机器都需要这个玩意。"]
 			id: "06B6C2C77135D570"
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.lv.quest59.subtitle}"
+			subtitle: "我觉得你不太会做小的电熔炉"
 			tasks: [{
 				id: "0AC25BBFE88E51DF"
 				item: "gtceu:lv_electric_motor"
@@ -644,10 +644,10 @@
 		}
 		{
 			dependencies: ["06B6C2C77135D570"]
-			description: ["{ftbquests.chapter.lv.quest60.description1}"]
+			description: ["    电力活塞将电能以往返直线运动的形式输出，你的一些机械元件和机器都需要这个玩意。"]
 			id: "46526928B48A390A"
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.lv.quest60.subtitle}"
+			subtitle: "我觉得你不太会做小的合金炉"
 			tasks: [{
 				id: "3F38AB3759708DDE"
 				item: "gtceu:lv_electric_piston"
@@ -658,10 +658,10 @@
 		}
 		{
 			dependencies: ["06B6C2C77135D570"]
-			description: ["{ftbquests.chapter.lv.quest61.description1}"]
+			description: ["    电动泵用电能实现对流体的泵送，你的部分机器需要这个玩意。"]
 			id: "1066897237999347"
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.lv.quest61.subtitle}"
+			subtitle: "你永远摆脱不了的东西#3"
 			tasks: [{
 				id: "50E08BABBAD19717"
 				item: "gtceu:lv_electric_pump"
@@ -672,10 +672,10 @@
 		}
 		{
 			dependencies: ["06B6C2C77135D570"]
-			description: ["{ftbquests.chapter.lv.quest62.description1}"]
+			description: ["    传送带用电能实现物品的来回转运，你的部分机器需要这个玩意。"]
 			id: "0FC2767827492600"
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.lv.quest62.subtitle}"
+			subtitle: "你永远摆脱不了的东西#4"
 			tasks: [{
 				id: "0C44386D9B309B7E"
 				item: "gtceu:lv_conveyor_module"
@@ -686,10 +686,10 @@
 		}
 		{
 			dependencies: ["46526928B48A390A"]
-			description: ["{ftbquests.chapter.lv.quest63.description1}"]
+			description: ["    机械臂使用电能来完成诸多较为精细的操作，部分机器需要这个玩意。"]
 			id: "476757E0C54B6ADE"
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.lv.quest63.subtitle}"
+			subtitle: "你永远摆脱不了的东西#5"
 			tasks: [{
 				id: "1A29A7EDDD906738"
 				item: "gtceu:lv_robot_arm"
@@ -700,9 +700,9 @@
 		}
 		{
 			dependencies: ["1066897237999347"]
-			description: ["{ftbquests.chapter.lv.quest65.description1}"]
+			description: ["    将流体灌入模具里来固化成对应的物品。你可以用它来造一些橡胶板或是别的什么东西？"]
 			id: "78F95FBF037F3AF9"
-			subtitle: "{ftbquests.chapter.lv.quest65.subtitle}"
+			subtitle: "固液转换#2"
 			tasks: [{
 				id: "12E94A563CB663BF"
 				item: "gtceu:lv_fluid_solidifier"
@@ -713,9 +713,9 @@
 		}
 		{
 			dependencies: ["1066897237999347"]
-			description: ["{ftbquests.chapter.lv.quest66.description1}"]
+			description: ["    可以用来填装电池的内芯，除此之外就无太大用途了。"]
 			id: "56FBDD2A2E7EA520"
-			subtitle: "{ftbquests.chapter.lv.quest66.subtitle}"
+			subtitle: "喂，给我来一罐锡罐！"
 			tasks: [{
 				id: "036975BEBAF48508"
 				item: "gtceu:lv_canner"
@@ -726,9 +726,9 @@
 		}
 		{
 			dependencies: ["0FC2767827492600"]
-			description: ["{ftbquests.chapter.lv.quest67.description1}"]
+			description: ["    注入水，蒸馏水或者润滑油来切割一些物品。比如增产你的木头，将你的螺丝钉变回螺栓以及将一个杆切成四个螺栓。更多用途请查阅JEI。"]
 			id: "3086126422B979F1"
-			subtitle: "{ftbquests.chapter.lv.quest67.subtitle}"
+			subtitle: "不听话就割掉"
 			tasks: [{
 				id: "0261258CEE57ECEF"
 				item: "gtceu:lv_cutter"
@@ -740,11 +740,11 @@
 		{
 			dependencies: ["06B6C2C77135D570"]
 			description: [
-				"{ftbquests.chapter.lv.quest68.description1}"
-				"{ftbquests.chapter.lv.quest68.description2}"
+				"    可以将粉碎矿石进行洗涤洗成纯净矿石并获得一些副产物。"
+				"    如果你不想要副产物只想要纯净矿石的话，可以拿着粉碎矿石右键盛水的炼药锅。"
 			]
 			id: "0EFE1DBB0AC3BC5F"
-			subtitle: "{ftbquests.chapter.lv.quest68.subtitle}"
+			subtitle: "嘻唰唰，嘻唰唰..."
 			tasks: [{
 				id: "5D8CAD8065EC23CE"
 				item: "gtceu:lv_ore_washer"
@@ -754,9 +754,9 @@
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.lv.quest69.description1}"]
+			description: ["    用于进行激光生成。但是石英岩还是太弱了，只能用于制作LV阶段的激光电子元件。"]
 			id: "7E7FF6EFEC19BE71"
-			subtitle: "{ftbquests.chapter.lv.quest69.subtitle}"
+			subtitle: "较粗糙的晶体"
 			tasks: [{
 				id: "398811ED256AF024"
 				item: "gtceu:quartzite_gem"
@@ -770,10 +770,10 @@
 				"7E7FF6EFEC19BE71"
 				"504A762FE1057233"
 			]
-			description: ["{ftbquests.chapter.lv.quest70.description1}"]
+			description: ["    发射器可以将电能以无线电或是激光的形式散发出去，一些机器和电子设备需要这个玩意。（试试将它摆在地上）"]
 			id: "5D1419802A307F70"
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.lv.quest70.subtitle}"
+			subtitle: "你永远摆脱不了的东西#5"
 			tasks: [{
 				id: "5B217A1C244EE0FD"
 				item: "gtceu:lv_emitter"
@@ -784,10 +784,10 @@
 		}
 		{
 			dependencies: ["7E7FF6EFEC19BE71"]
-			description: ["{ftbquests.chapter.lv.quest71.description1}"]
+			description: ["    传感器用于接受无线电信号。一些机器或电子设备需要这个玩意。"]
 			id: "75774FD66E513B5C"
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.lv.quest71.subtitle}"
+			subtitle: "你永远摆脱不了的东西#6"
 			tasks: [{
 				id: "292F1AC6522AA887"
 				item: "gtceu:lv_sensor"
@@ -798,9 +798,9 @@
 		}
 		{
 			dependencies: ["06B6C2C77135D570"]
-			description: ["{ftbquests.chapter.lv.quest74.description1}"]
+			description: ["    对粉碎矿石/洁净矿石进行热力离心来获取副产物。"]
 			id: "7BCFDC1800C8BBAD"
-			subtitle: "{ftbquests.chapter.lv.quest74.subtitle}"
+			subtitle: "IC2遗老"
 			tasks: [{
 				id: "4EF2E7983D186AD1"
 				item: "gtceu:lv_thermal_centrifuge"
@@ -811,9 +811,9 @@
 		}
 		{
 			dependencies: ["1066897237999347"]
-			description: ["{ftbquests.chapter.lv.quest75.description1}"]
+			description: ["    与洗矿机不同的是，它会使用部分化学液体对矿物进行浸洗来获取一些额外的副产物。"]
 			id: "027D2C1491F3A8A3"
-			subtitle: "{ftbquests.chapter.lv.quest75.subtitle}"
+			subtitle: "布豪，这不是水！"
 			tasks: [{
 				id: "038A20253FFF1ACC"
 				item: "gtceu:lv_chemical_bath"
@@ -1025,6 +1025,6 @@
 			y: -8.0d
 		}
 	]
-	subtitle: ["{ftbquests.chapter.lv.subtitle0}"]
-	title: "{ftbquests.chapter.lv.title}"
+	subtitle: ["工业起步"]
+	title: "&7LV&r时期"
 }

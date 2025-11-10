@@ -12,5 +12,5 @@
 		{ item: "gtceu:ev_super_tank", weight: 0.2f }
 		{ item: "gtceu:ev_super_chest", weight: 0.1f }
 	]
-	title: "{ftbquests.loot_table_7618519509353548779.title}"
+	title: "IV奖励"
 }

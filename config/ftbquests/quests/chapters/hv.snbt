@@ -94,7 +94,7 @@
 			id: "4D2FAC9783965D60"
 			tasks: [{
 				id: "7CCB2A5C53D2CDFE"
-				title: "{ftbquests.chapter.hv.quest5.task_+8992327657007009278.title}"
+				title: "深入地心"
 				type: "checkmark"
 			}]
 			x: -11.5d
@@ -112,7 +112,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.hv.quest6.subtitle}"
+			subtitle: "无损超频！"
 			tasks: [{
 				id: "6FD9026EFF3CC78B"
 				item: "gtceu:large_chemical_reactor"
@@ -193,10 +193,10 @@
 			y: 32.5d
 		}
 		{
-			description: ["{ftbquests.chapter.hv.quest15.description1}"]
+			description: ["    仔细观察发现，要想获得铂锭，铂系处理需要以谢尔顿矿开始，而谢尔顿矿只存在于外太空中，这样就产生了一个矛盾：&4造火箭需要上太空，上太空需要造火箭&r。这时，机智的你产生了一个想法，&a向外太空发射信号，向天祈求携带着外太空矿石的陨石落下&r，不就解决了这一问题吗？"]
 			hide_dependency_lines: true
 			id: "2758CA5AD758482C"
-			subtitle: "{ftbquests.chapter.hv.quest15.subtitle}"
+			subtitle: "坠星仪式！"
 			tasks: [{
 				id: "7B231156184BDCBE"
 				item: "gtceu:hv_emitter"
@@ -217,7 +217,7 @@
 			]
 			id: "1E21F35AB1E1A7ED"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.hv.quest16.subtitle}"
+			subtitle: "一堆板板"
 			tasks: [
 				{
 					id: "5228260E088B98CA"
@@ -235,7 +235,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hv.quest16.title}"
+			title: "强化材料"
 			x: -28.5d
 			y: 35.0d
 		}
@@ -293,11 +293,11 @@
 			id: "3123CD3DCE3598C8"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.hv.quest19.subtitle}"
+			subtitle: "这是ad的一小步，却是你的一大步"
 			tasks: [{
 				dimension: "ad_astra:moon"
 				id: "74AC1AB43328B3C5"
-				title: "{ftbquests.chapter.hv.quest19.task_+8407123965648614341.title}"
+				title: "探索月球"
 				type: "dimension"
 			}]
 			x: -7.5d
@@ -307,12 +307,12 @@
 			dependencies: ["609BE0CAB05D3EA6"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.hv.quest20.description1}"
-				"{ftbquests.chapter.hv.quest20.description2}"
+				"你想要大型火箭燃料引擎吗？"
+				"算了吧，这包里的火箭燃料合成方式就是屎。"
 			]
 			id: "1157261D1C6FA682"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.hv.quest20.subtitle}"
+			subtitle: "可以拿来喂内燃)"
 			tasks: [{
 				id: "1609294E625640DE"
 				item: "gtceu:rocket_fuel_bucket"
@@ -361,7 +361,7 @@
 		{
 			dependencies: ["17F0388258A83E1F"]
 			id: "29C2D8D206649CE5"
-			subtitle: "{ftbquests.chapter.hv.quest25.subtitle}"
+			subtitle: "你可以更高效的获取稀有气体了"
 			tasks: [{
 				id: "4357D0B40FF23BAF"
 				item: "gtceu:liquid_air_bucket"
@@ -384,7 +384,7 @@
 				type: "random"
 			}]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.hv.quest26.subtitle}"
+			subtitle: "可以直接用宇航服左键机器里的氧气"
 			tasks: [
 				{
 					id: "1535BCEA15D7660A"
@@ -503,7 +503,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.hv.quest29.subtitle}"
+			subtitle: "EV时代的重要材料"
 			tasks: [{
 				id: "45D0761160D1DB1D"
 				item: "gtceu:titanium_ingot"
@@ -544,10 +544,10 @@
 		{
 			dependencies: ["773CB6E376B56EA4"]
 			description: [
-				"{ftbquests.chapter.hv.quest32.description1}"
+				"    超净间是HV阶段往后大部分电路板合成所不可或缺的环境，所以尽可能做一个大的超净间吧。"
 				""
-				"{ftbquests.chapter.hv.quest32.description2}"
-				"{ftbquests.chapter.hv.quest32.description3}"
+				"&a二极管&r：允许电流通过"
+				"&a机械方块&r：允许AE2的频道通过"
 				"（注：本整合包内超净间的高度不能大于它的宽度或长度）"
 			]
 			id: "1AF8205ECB9C3737"
@@ -573,7 +573,7 @@
 			]
 			id: "607209201C6B08C3"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.hv.quest34.subtitle}"
+			subtitle: "有了这个才可以做EV阶段的机器"
 			tasks: [{
 				id: "528033D7775227C1"
 				item: "gtceu:micro_processor_computer"
@@ -605,12 +605,12 @@
 				"03B69B22A1106961"
 			]
 			description: [
-				"{ftbquests.chapter.hv.quest51.description1}"
+				"贴片二极管需要在获得铂之后才能制作"
 				"下次的高级贴片靠你咯~"
 			]
 			id: "1511963A19F70BC2"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.hv.quest51.subtitle}"
+			subtitle: "更加方便的贴片材料"
 			tasks: [
 				{
 					id: "510E93BFBA890CF9"
@@ -638,7 +638,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hv.quest51.title}"
+			title: "贴片！"
 			x: -19.5d
 			y: 29.0d
 		}
@@ -648,7 +648,7 @@
 				"071A728A18E21B3C"
 			]
 			id: "23822AE831A41F5D"
-			subtitle: "{ftbquests.chapter.hv.quest53.subtitle}"
+			subtitle: "远程传输神器"
 			tasks: [{
 				id: "2053627AA2187C74"
 				item: "gtceu:ender_fluid_link_cover"
@@ -669,7 +669,7 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.hv.quest58.subtitle}"
+			subtitle: "是时候缓解主世界工业区的帧数压力了"
 			tasks: [{
 				id: "20A0E9B6A5B2D2F0"
 				item: "javd:portal_block"
@@ -681,70 +681,70 @@
 		{
 			id: "3A0D1B6A8BB681C8"
 			invisible: true
-			subtitle: "{ftbquests.chapter.hv.quest59.subtitle}"
+			subtitle: "跳过任务线"
 			tasks: [{
 				count: 64L
 				id: "4E2EAEAFAAF5306A"
 				item: "gtceu:platinum_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hv.quest59.title}"
+			title: "铂的任务"
 			x: -6.0d
 			y: 17.0d
 		}
 		{
 			id: "2D0E2C949FAD45B3"
 			invisible: true
-			subtitle: "{ftbquests.chapter.hv.quest60.subtitle}"
+			subtitle: "跳过任务线"
 			tasks: [{
 				count: 64L
 				id: "5F3870CF15D508F8"
 				item: "gtceu:palladium_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hv.quest60.title}"
+			title: "钯的任务"
 			x: -6.0d
 			y: 15.0d
 		}
 		{
 			id: "2CF0374F90D4B470"
 			invisible: true
-			subtitle: "{ftbquests.chapter.hv.quest61.subtitle}"
+			subtitle: "跳过任务线"
 			tasks: [{
 				count: 64L
 				id: "660223EB3F113A6E"
 				item: "gtceu:ruthenium_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hv.quest61.title}"
+			title: "钌的任务"
 			x: -6.0d
 			y: 9.0d
 		}
 		{
 			id: "06D3380949C950AB"
 			invisible: true
-			subtitle: "{ftbquests.chapter.hv.quest70.subtitle}"
+			subtitle: "跳过任务线"
 			tasks: [{
 				count: 64L
 				id: "45CC34EA60CF9DB9"
 				item: "gtceu:rhodium_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hv.quest70.title}"
+			title: "铑的任务"
 			x: -6.0d
 			y: 7.0d
 		}
 		{
 			id: "68D549689E87C106"
 			invisible: true
-			subtitle: "{ftbquests.chapter.hv.quest75.subtitle}"
+			subtitle: "跳过任务线"
 			tasks: [{
 				count: 16L
 				id: "59AB4F7BD08AC5CA"
 				item: "gtceu:iridium_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hv.quest75.title}"
+			title: "铱的任务"
 			x: -6.0d
 			y: 13.0d
 		}
@@ -788,7 +788,7 @@
 				type: "random"
 			}]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.hv.quest78.subtitle}"
+			subtitle: "你的第一种IV电路！"
 			tasks: [{
 				id: "18213736BD2BD5B2"
 				item: "gtceu:micro_processor_mainframe"
@@ -823,14 +823,14 @@
 		{
 			id: "7CD360494125BA99"
 			invisible: true
-			subtitle: "{ftbquests.chapter.hv.quest81.subtitle}"
+			subtitle: "跳过任务线"
 			tasks: [{
 				count: 16L
 				id: "48299A65BAD100EC"
 				item: "gtceu:osmium_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hv.quest81.title}"
+			title: "锇的任务"
 			x: -6.0d
 			y: 11.0d
 		}
@@ -1026,7 +1026,7 @@
 		}
 		{
 			id: "6A2ECBA15C3DCCCF"
-			subtitle: "{ftbquests.chapter.hv.quest99.subtitle}"
+			subtitle: "不需要很多"
 			tasks: [{
 				id: "7EE96913B6D55662"
 				item: "gtceu:co_mn_br_catalyst_bucket"
@@ -1057,7 +1057,7 @@
 		}
 		{
 			dependencies: ["43DCA5278B555E39"]
-			description: ["{ftbquests.chapter.hv.quest102.description1}"]
+			description: ["建议使用shift+右键先查看全部结构，jei丢方块了"]
 			id: "05305E873C1C92B5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1067,7 +1067,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.hv.quest102.subtitle}"
+			subtitle: "如果你的钢多的用不完"
 			tasks: [{
 				id: "559B2DB8804016D0"
 				item: "ctnhcore:fuel_refining_factory"
@@ -1078,10 +1078,10 @@
 		}
 		{
 			id: "43DCA5278B555E39"
-			subtitle: "{ftbquests.chapter.hv.quest103.subtitle}"
+			subtitle: "要用腾炎块"
 			tasks: [{
 				id: "123036F8278EBAE3"
-				title: "{ftbquests.chapter.hv.quest103.task_+1310607931008269027.title}"
+				title: "第一个巨构"
 				type: "checkmark"
 			}]
 			x: -9.5d
@@ -1246,7 +1246,7 @@
 			subtitle: "    如果你发展了血魔法，还可以通过制作凋零电动刷怪笼来生产下界之星"
 			tasks: [{
 				id: "58460F9F5142F7EC"
-				title: "{ftbquests.chapter.hv.quest122.task_+6360788700644964332.title}"
+				title: "你需要很多下界之星，不是 ？"
 				type: "checkmark"
 			}]
 			x: -17.5d
@@ -1283,7 +1283,7 @@
 			]
 			description: [""]
 			id: "0F8A1D38DCB6CCE1"
-			subtitle: "{ftbquests.chapter.hv.quest125.subtitle}"
+			subtitle: "一生二"
 			tasks: [{
 				id: "619A4F44D2B82E20"
 				item: "minecraft:nether_star"
@@ -2472,5 +2472,5 @@
 			y: 27.0d
 		}
 	]
-	title: "{ftbquests.chapter.hv.title}"
+	title: "&6HV&r时期"
 }

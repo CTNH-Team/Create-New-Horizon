@@ -58,7 +58,7 @@
 			id: "0DA6DBCC41828D80"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.luv.quest1.subtitle}"
+			subtitle: "你已经达到LUV啦！"
 			tasks: [{
 				id: "2AB09D6B46C98218"
 				item: "gtceu:luv_machine_hull"
@@ -137,7 +137,7 @@
 			]
 			id: "019F2136970CA2E1"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.luv.quest15.subtitle}"
+			subtitle: "第一个UV电路！"
 			tasks: [{
 				id: "4DBEF1F18227075A"
 				item: "gtceu:crystal_processor_mainframe"
@@ -153,7 +153,7 @@
 			]
 			id: "14C08D2A44860C08"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.luv.quest16.subtitle}"
+			subtitle: "该给大机器们升压了"
 			tasks: [{
 				id: "2E07CD045DAB8CC0"
 				item: "gtceu:luv_energy_input_hatch"
@@ -231,7 +231,7 @@
 				item: "gtceu:luv_fusion_reactor"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.luv.quest21.title}"
+			title: "聚变时代"
 			x: -26.0d
 			y: 0.5d
 		}
@@ -412,7 +412,7 @@
 		{
 			dependencies: ["02DD2E6EEDC15505"]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.iv.quest51.description1}"]
+			description: ["处理详情见矿物处理章节"]
 			id: "45EF42ADC599589E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -420,7 +420,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.iv.quest51.subtitle}"
+			subtitle: "初步的硅岩处理"
 			tasks: [{
 				id: "6137B1F57C126749"
 				item: "gtceu:naquadah_dust"
@@ -456,7 +456,7 @@
 		{
 			dependencies: ["45EF42ADC599589E"]
 			id: "7350B8C1243D44CD"
-			subtitle: "{ftbquests.chapter.iv.quest115.subtitle}"
+			subtitle: "更好的SOC芯片"
 			tasks: [{
 				id: "075C311D1AD43284"
 				item: "gtceu:advanced_soc_wafer"
@@ -526,7 +526,7 @@
 				type: "random"
 			}]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.iv.quest54.subtitle}"
+			subtitle: "ZPM超导"
 			tasks: [{
 				id: "5CC8DC9DDD4A857B"
 				item: "gtceu:uranium_rhodium_dinaquadide_dust"
@@ -654,7 +654,7 @@
 		}
 		{
 			dependencies: ["364B921AAE54EF9C"]
-			description: ["{ftbquests.chapter.iv.quest70.description1}"]
+			description: ["注意，这个多方块可以装载很多数据仓"]
 			id: "27EC2E4B61A056E0"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -740,7 +740,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.iv.quest65.subtitle}"
+			subtitle: "ZPM的开始"
 			tasks: [{
 				id: "1EB0BDD610BF9EB0"
 				item: "gtceu:naquadah_alloy_ingot"
@@ -782,5 +782,5 @@
 			y: -3.5d
 		}
 	]
-	title: "{ftbquests.chapter.luv.title}"
+	title: "&dLuV&r时期"
 }

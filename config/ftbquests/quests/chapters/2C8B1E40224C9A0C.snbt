@@ -37,12 +37,12 @@
 		{
 			dependencies: ["04E2C1AE56B3C673"]
 			id: "201D7F340F8ED187"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest1.subtitle}"
+			subtitle: "探索磁场洞穴"
 			tasks: [{
 				biome: "alexscaves:magnetic_caves"
 				icon: "alexscaves:telecore"
 				id: "4EFBD6F02E3100E4"
-				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest1.task_+5691378881168212196.title}"
+				title: "Magnetic Cave"
 				type: "biome"
 			}]
 			x: 5.5d
@@ -51,12 +51,12 @@
 		{
 			dependencies: ["04E2C1AE56B3C673"]
 			id: "7A1D738315BBD040"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest2.subtitle}"
+			subtitle: "探索渊海陷窟"
 			tasks: [{
 				biome: "alexscaves:abyssal_chasm"
 				icon: "alexscaves:tripodfish"
 				id: "44C166B59837027D"
-				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest2.task_+4954353995213111933.title}"
+				title: "深渊"
 				type: "biome"
 			}]
 			x: 8.5d
@@ -65,7 +65,7 @@
 		{
 			dependencies: ["04E2C1AE56B3C673"]
 			id: "11EDB5B9EB1B6554"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest3.subtitle}"
+			subtitle: "探索毒化洞穴"
 			tasks: [{
 				biome: "alexscaves:toxic_caves"
 				icon: {
@@ -76,7 +76,7 @@
 					}
 				}
 				id: "58E7619E76BCD1FD"
-				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest3.task_+6406196328182632957.title}"
+				title: "辐射故居"
 				type: "biome"
 			}]
 			x: 7.0d
@@ -85,12 +85,12 @@
 		{
 			dependencies: ["04E2C1AE56B3C673"]
 			id: "5420D60930DD31A7"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest4.subtitle}"
+			subtitle: "探索原始洞穴"
 			tasks: [{
 				biome: "alexscaves:primordial_caves"
 				icon: "alexscaves:subterranodon_egg"
 				id: "130B42BAD56DC7F2"
-				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest4.task_+1372263881676539890.title}"
+				title: "原始暴动"
 				type: "biome"
 			}]
 			x: 7.0d
@@ -99,12 +99,12 @@
 		{
 			dependencies: ["04E2C1AE56B3C673"]
 			id: "1D74C6CC8DEB6158"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest5.subtitle}"
+			subtitle: "探索异寂空谷"
 			tasks: [{
 				biome: "alexscaves:forlorn_hollows"
 				icon: "alexscaves:pure_darkness"
 				id: "2B73ED1E1D3B4239"
-				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest5.task_+3131106879547851321.title}"
+				title: "异寂空谷"
 				type: "biome"
 			}]
 			x: 8.5d
@@ -135,7 +135,7 @@
 		{
 			dependencies: ["11EDB5B9EB1B6554"]
 			id: "79DC0E912343C094"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest7.subtitle}"
+			subtitle: "看似是废液，也许比你想象中更有用......"
 			tasks: [{
 				id: "26995EA872B9F0CF"
 				item: "alexscaves:acid_bucket"
@@ -148,7 +148,7 @@
 			dependencies: ["60F22A89A32E0DD5"]
 			id: "04E2C1AE56B3C673"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest8.subtitle}"
+			subtitle: "这是一个在任何地方都能生成的小木屋，在这里，你可以找到关于这个模组的一切（当然百科上也可以），想办法破解石板的奥秘，找到那些神秘的群系吧！"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -159,7 +159,7 @@
 				}
 				id: "017EE0C971925093"
 				structure: "alexscaves:underground_cabin"
-				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest8.task_+107770596901933203.title}"
+				title: "地下小屋"
 				type: "structure"
 			}]
 			x: 7.0d
@@ -168,7 +168,7 @@
 		{
 			dependencies: ["201D7F340F8ED187"]
 			id: "698DD6984BEF36DA"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest9.subtitle}"
+			subtitle: "楠磁铁（bushi）"
 			tasks: [{
 				id: "361EAFF63E4D234D"
 				item: "alexscaves:azure_neodymium_ingot"
@@ -180,7 +180,7 @@
 		{
 			dependencies: ["201D7F340F8ED187"]
 			id: "1385760305EE11D6"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest10.subtitle}"
+			subtitle: "钕磁铁，兄弟！"
 			tasks: [{
 				id: "6D445C64F687BD9D"
 				item: "alexscaves:scarlet_neodymium_ingot"
@@ -192,7 +192,7 @@
 		{
 			dependencies: ["1D74C6CC8DEB6158"]
 			id: "5BA57093B05FF586"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest11.subtitle}"
+			subtitle: "异化的产物"
 			tasks: [{
 				id: "6D53C642894096AF"
 				item: "alexscaves:dark_tatters"
@@ -204,7 +204,7 @@
 		{
 			dependencies: ["468D840ACABE38B9"]
 			id: "47B6886F0A21A4B3"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest12.subtitle}"
+			subtitle: "独眼巨人号青春版"
 			tasks: [{
 				id: "6A793431EE457282"
 				item: "alexscaves:submarine"
@@ -216,7 +216,7 @@
 		{
 			dependencies: ["7A1D738315BBD040"]
 			id: "468D840ACABE38B9"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest13.subtitle}"
+			subtitle: "击败幻海妖龙吧！"
 			tasks: [{
 				id: "0C87415E2C0F77A8"
 				item: "alexscaves:enigmatic_engine"
@@ -228,7 +228,7 @@
 		{
 			dependencies: ["5420D60930DD31A7"]
 			id: "33876D496195E626"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest14.subtitle}"
+			subtitle: "随处可见的石头，但你可能会需要他"
 			tasks: [{
 				id: "0C453A3D52229CC8"
 				item: "alexscaves:limestone"
@@ -251,10 +251,10 @@
 		{
 			dependencies: ["12316D2A6DC56654"]
 			id: "61AB8BCB4EAD5C58"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest16.subtitle}"
+			subtitle: "这里的所有结构的战利品全部进行了修改，可以帮助快速度过前期"
 			tasks: [{
 				id: "520A29D5F99CCC82"
-				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest16.task_+5911583459869772930.title}"
+				title: "地牢浮现之时"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -354,7 +354,7 @@
 			id: "6C03C11D175B2B3D"
 			tasks: [{
 				id: "1792125504A804F9"
-				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest25.task_+1698440165831738617.title}"
+				title: "滑行魔石"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -365,7 +365,7 @@
 			id: "663D2E6A96084EEF"
 			tasks: [{
 				id: "146ECF44145C3AB2"
-				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest26.task_+1472342019503045298.title}"
+				title: "瓦尔基里"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -376,7 +376,7 @@
 			id: "2E0A7083F7B737AF"
 			tasks: [{
 				id: "54AE1AC41C15F42E"
-				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest27.task_+6101843974720713774.title}"
+				title: "烈阳炽灵"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -413,10 +413,10 @@
 		{
 			dependencies: ["235CDBD3C87F0A42"]
 			id: "78B3859F84F3AA0A"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest30.subtitle}"
+			subtitle: "用原始大棒击晕撼地龙后，使用幽静沙拉驯服"
 			tasks: [{
 				id: "434D4ED2459FCE5B"
-				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest30.task_+4849619038766091867.title}"
+				title: "驯服撼地龙"
 				type: "checkmark"
 			}]
 			x: 6.5d
@@ -436,10 +436,10 @@
 		{
 			dependencies: ["120B034131B4B115"]
 			id: "21F2C28308352E7A"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest32.subtitle}"
+			subtitle: "在撼地斯拉蛋旁边点燃核弹"
 			tasks: [{
 				id: "41AC51FE3145C03F"
-				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest32.task_+4732247460649746495.title}"
+				title: "孵化撼地斯拉"
 				type: "checkmark"
 			}]
 			x: 7.5d
@@ -448,7 +448,7 @@
 		{
 			dependencies: ["7A1D738315BBD040"]
 			id: "3AB02AF64026B96B"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest33.subtitle}"
+			subtitle: "可以与深潜者交易，除此之外，所有的精致宝石均可以和他们交易"
 			tasks: [{
 				id: "703008396574629F"
 				item: "alexscaves:pearl"
@@ -460,7 +460,7 @@
 		{
 			dependencies: ["3F2A5A509F9DF84B"]
 			id: "109D9B13DA0712EA"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest34.subtitle}"
+			subtitle: "在树上找找"
 			tasks: [{
 				id: "6217A2416DDA188C"
 				item: "twilightforest:cicada"
@@ -472,7 +472,7 @@
 		{
 			dependencies: ["3F2A5A509F9DF84B"]
 			id: "665F5649CC81E199"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest35.subtitle}"
+			subtitle: "位于幽魂森林群系的地面上"
 			tasks: [{
 				id: "2F0C781E6A8E96B5"
 				item: "twilightforest:fallen_leaves"
@@ -495,12 +495,12 @@
 		{
 			dependencies: ["04E2C1AE56B3C673"]
 			id: "320660FB6EEB854B"
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest37.subtitle}"
+			subtitle: "探索糖果龋洞"
 			tasks: [{
 				biome: "alexscaves:candy_cavity"
 				icon: "alexscaves:gelatin_red"
 				id: "3F08B5065D745D0D"
-				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest37.task_+4542079263145483533.title}"
+				title: "糖果之梦"
 				type: "biome"
 			}]
 			x: 5.5d
@@ -571,16 +571,16 @@
 			dependencies: ["12316D2A6DC56654"]
 			hide_dependency_lines: false
 			id: "470B9D39E23E01F2"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest10.subtitle}"
+			subtitle: "最好在冬天去"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "39382193B16E173D"
-				title: "{ftbquests.chapter.08AF6857D150C353.quest10.task_+4123082377078380349.title}"
+				title: "访问下界"
 				type: "dimension"
 			}]
 			x: 0.5d
 			y: 6.5d
 		}
 	]
-	title: "{ftbquests.chapter.2C8B1E40224C9A0C.title}"
+	title: "大千世界"
 }

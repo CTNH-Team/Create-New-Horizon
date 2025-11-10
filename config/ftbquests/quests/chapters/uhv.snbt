@@ -18,7 +18,7 @@
 			id: "6D8963683034165D"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.uhv.quest1.subtitle}"
+			subtitle: "恭喜，你玩到了现在的最终阶段"
 			tasks: [{
 				id: "3BBDFB9C77C2C530"
 				item: "gtceu:uhv_machine_hull"
@@ -52,7 +52,7 @@
 		{
 			dependencies: ["4F639E4C01239DA8"]
 			id: "777F1D3EB722D4B7"
-			subtitle: "{ftbquests.chapter.uhv.quest11.subtitle}"
+			subtitle: "超好的SOC芯片"
 			tasks: [{
 				id: "02F0CB1D2A182125"
 				item: "gtceu:highly_advanced_soc_wafer"
@@ -63,10 +63,10 @@
 		}
 		{
 			id: "63A4FC58057C9E7D"
-			subtitle: "{ftbquests.chapter.uhv.quest12.subtitle}"
+			subtitle: "真正的终点"
 			tasks: [{
 				id: "1228D5231465172A"
-				title: "{ftbquests.chapter.uhv.quest12.task_+1308530038393870122.title}"
+				title: "基岩处理④"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -164,7 +164,7 @@
 			id: "6931CCEEE2282117"
 			tasks: [{
 				id: "28F2EC5F159FE317"
-				title: "{ftbquests.chapter.uhv.quest21.task_+2950680599009944343.title}"
+				title: "老朋友们"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -183,7 +183,7 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.uhv.quest22.subtitle}"
+			subtitle: "不是菜鸟证明！"
 			tasks: [{
 				id: "7BE6B053802692B5"
 				item: "gtceu:nan_certificate"
@@ -198,7 +198,7 @@
 			id: "1BC96CF2C5DB3D12"
 			shape: "circle"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.uv.quest38.subtitle}"
+			subtitle: "准备好，它可是你在UHV-UEV主要的磁化材料"
 			tasks: [{
 				id: "3DFC72E59BBA99F7"
 				item: "gtceu:samarium_dysprosium_terbium_permanent_magnet_alloy_ingot"
@@ -347,7 +347,7 @@
 			id: "674C9A48676C71F5"
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.uv.quest5.subtitle}"
+			subtitle: "很好的发电机,只消耗超能燃料"
 			tasks: [{
 				id: "6BC4FAF8A3F8141B"
 				item: "ctnhcore:naq_reactor_mk3"
@@ -375,5 +375,5 @@
 			y: 4.0d
 		}
 	]
-	title: "{ftbquests.chapter.uhv.title}"
+	title: "&4UHV&r时期"
 }

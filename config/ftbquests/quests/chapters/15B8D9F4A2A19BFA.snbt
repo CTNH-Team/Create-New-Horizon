@@ -111,7 +111,7 @@
 			id: "3C15632B9697C37D"
 			tasks: [{
 				id: "64A12577E02E56F8"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest6.task_+7251118071835678456.title}"
+				title: "LV阶段"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -211,7 +211,7 @@
 		}
 		{
 			id: "21742989261776EF"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest16.subtitle}"
+			subtitle: "吉祥物"
 			tasks: [{
 				id: "4A866FC012AACA73"
 				item: "ctnhcore:water_power_station"
@@ -307,7 +307,7 @@
 			id: "3D882DE9ACFD43EA"
 			tasks: [{
 				id: "536B45B8404BE1CB"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest26.task_+6010974785311072715.title}"
+				title: "MV阶段"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -317,7 +317,7 @@
 			id: "772551A724F97069"
 			tasks: [{
 				id: "6A0A6B2BC679BEB1"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest27.task_+7641037553545100977.title}"
+				title: "HV阶段"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -327,7 +327,7 @@
 			id: "5275FB66FC08D1A1"
 			tasks: [{
 				id: "48139C25B960D001"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest28.task_+5193666481126166529.title}"
+				title: "EV阶段"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -337,7 +337,7 @@
 			id: "6AAC4D8C7C7147AB"
 			tasks: [{
 				id: "34068A0143E04F57"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest29.task_+3748835477870890839.title}"
+				title: "IV阶段"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -348,7 +348,7 @@
 			id: "187E4ADFF4648D64"
 			tasks: [{
 				id: "32EE4FBEE51C583A"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest30.task_+3669958427659753530.title}"
+				title: "LuV阶段"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -358,7 +358,7 @@
 			id: "3363C23E39C4AD1C"
 			tasks: [{
 				id: "2A8B911352BA8C2F"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest31.task_+3065703483534117935.title}"
+				title: "ZPM阶段"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -368,7 +368,7 @@
 			id: "65EBA2AFB63D9C39"
 			tasks: [{
 				id: "2D85FD0B8C9499FE"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest32.task_+3280306129654290942.title}"
+				title: "UV阶段"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -378,7 +378,7 @@
 			id: "037FDD26FC9E9788"
 			tasks: [{
 				id: "304D93636CA5DA20"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest33.task_+3480600142261115424.title}"
+				title: "ULV阶段"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -386,16 +386,16 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest34.description1}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest34.description2}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest34.description3}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest34.description4}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest34.description5}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest34.description6}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest34.description7}"
+				"在不同的维度里，光伏发电的基础发电功率是不同的："
+				"    主世界、暮色森林、亚尔夫海姆：1x"
+				"    天境、火星及其轨道：2x"
+				"    月球及其轨道：4x"
+				"    金星及其轨道：6x"
+				"    水星及其轨道：16x"
+				"    霜原星及其轨道：32x"
 			]
 			id: "5E9C58D5439EF42D"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest34.subtitle}"
+			subtitle: "来看说明"
 			tasks: [{
 				id: "53158C408FB3D0E5"
 				item: "ctnhcore:photovoltaic_power_station_energetic"
@@ -671,7 +671,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.luv.quest36.subtitle}"
+			subtitle: "他可以承包你在LUV-ZPM时期的发电"
 			tasks: [{
 				id: "1D67A2915C631403"
 				item: "gtceu:plasma_large_turbine"
@@ -682,5 +682,5 @@
 			y: 7.0d
 		}
 	]
-	title: "如何产应力/发电"
+	title: "如何发电"
 }

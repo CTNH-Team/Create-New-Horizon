@@ -37,14 +37,14 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest1.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest1.description2}"
+				"    JEI是一个功能强大的mod，物品栏右边那一大串物品就是他的杰作。"
+				"    没使用过？不用担心！Snow_city遗留的笔记会尽可能的教你。"
 			]
 			id: "22ABF30D518BD58C"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest1.subtitle}"
+			subtitle: "Just Enough Item"
 			tasks: [{
 				id: "6A77E25CAB924BFF"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest1.task_+7671849377892289535.title}"
+				title: "何为JEI"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -52,14 +52,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest2.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest2.description3}"
+				"    在物品栏内或其他UI界面鼠标移到你想要查询的物品时，按下R键即可查看合成（或者在JEI查询界面左键也行）。"
+				"    最上方一行表示处理的类型，左边一列表示处理的机器。"
 			]
 			id: "095E8F5805EFE4D0"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest2.subtitle}"
+			subtitle: "默认按R"
 			tasks: [{
 				id: "2389CFC195589D70"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest2.task_+2560806293478088048.title}"
+				title: "1.查看合成"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -67,14 +67,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest3.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest3.description2}"
+				"    在物品栏内或其他UI界面鼠标移到你想要查询的物品时，按下U键即可查看用途（或者在JEI查询界面右键也行）。"
+				"    最上方一行表示处理的类型，左边一列表示处理的机器。"
 			]
 			id: "478515D31A125334"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest3.subtitle}"
+			subtitle: "默认按U"
 			tasks: [{
 				id: "3F5150BE598336CB"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest3.task_+4562516675978802891.title}"
+				title: "2.查看用途"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -82,26 +82,26 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest4.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4.description2}"
+				"    在物品栏内或其他UI界面鼠标移到你想要查询的物品时，按下A键即可收藏到书签。"
+				"    被收藏的物品会在左边显示，方便你更快捷的查找物品。"
 			]
 			id: "5069FEA1EBCBD315"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest4.subtitle}"
+			subtitle: "默认按A"
 			tasks: [{
 				id: "4BC5FA5A8A142EF1"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest4.task_+5460045390027173617.title}"
+				title: "3.收藏书签（附属）"
 				type: "checkmark"
 			}]
 			x: -0.5d
 			y: -4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.596370001FE6E99B.quest5.description1}"]
+			description: ["    在JEI配方页面中按下对应配方右下角的+键时，会将已有物品自动放置。"]
 			id: "3A9E38FE270C1517"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest5.subtitle}"
+			subtitle: "配方页右下角的+号"
 			tasks: [{
 				id: "207C44B7DD790F74"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest5.task_+2340821462811217780.title}"
+				title: "4.快速合成"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -109,16 +109,16 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest6.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest6.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest6.description3}"
+				"    对着矿石的粗矿按R即可查看其对应的矿脉和矿脉信息（在最上方一栏切换）。"
+				"    对着矿石的粗矿，粉碎矿石，含杂粉等形式按U即可查看其对应的矿石处理树（在最上方一栏切换）。"
+				"    一些能被粉碎/提取/电弧炉加工的物品查看配方时会有两种不同的页：机器/Ore xxx。虽然名字不一样，但都是由粉碎/提取/电弧炉加工的。一切以左边的机器列表为准。"
 				""
 			]
 			id: "21A041F23BC5B89D"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest6.subtitle}"
+			subtitle: "更多靠你自己去发现"
 			tasks: [{
 				id: "266D66828F20DE07"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest6.task_+2768982056835800583.title}"
+				title: "5.一些特殊的JEI页"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -126,18 +126,18 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest7.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7.description5}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7.description6}"
+				"    用GT扳手等之类GT工具在指向GT方块时一般会出现九宫格，来方便你通过一个面对所有面进行操作。"
+				"    以出现九宫格的面作正面为基准："
+				"    &l&4中间的大正方形对应正面&r"
+				"    &l&d上下左右的长方形对应上下左右面&r"
+				"    &l&3边角的四个小正方形对应背面&r"
+				"    &l&e&n注意：操作时养成副手不要放物品的好习惯，不然无法完成某些shift+右键的操作！"
 			]
 			id: "045C3E672C8506E1"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7.subtitle}"
+			subtitle: "GT操作学"
 			tasks: [{
 				id: "08A20B7A74665A88"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest7.task_+622072319097330312.title}"
+				title: "GT九宫格"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -145,26 +145,26 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest8.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest8.description2}"
+				"    GT管道遵循一些特殊的物理引擎，内部的物体会不间断的做无规则运动！"
+				"    若是想要规定管道流向，则要用扳手&b&lshift+右键&r管道对应的方向来让他强制流向一个方向，不会逆行。"
 			]
 			id: "65EC29CE941B8231"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest8.subtitle}"
+			subtitle: "原汁原味"
 			tasks: [{
 				id: "3FD99E175CCA6832"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest8.task_+4600882317513877554.title}"
+				title: "GT管道"
 				type: "checkmark"
 			}]
 			x: -4.5d
 			y: -2.5d
 		}
 		{
-			description: ["{ftbquests.chapter.596370001FE6E99B.quest9.description1}"]
+			description: ["    GT线缆需要用剪线钳对其进行连接/拆除操作。与管道不同的是，它不能进行强制流向操作。你需要使用二极管才能达成类似功能。"]
 			id: "1E46BA977152A462"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest9.subtitle}"
+			subtitle: "唐氏员工"
 			tasks: [{
 				id: "5908E87A0588E354"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest9.task_+6415633279965782868.title}"
+				title: "GT线缆"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -182,7 +182,7 @@
 			subtitle: "使劲超"
 			tasks: [{
 				id: "254299460AE15C49"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest11.task_+2684876853975538761.title}"
+				title: "关于超频"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -190,14 +190,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest12.description1}"
+				"    几乎所有的GT粗矿/原矿都有着研磨/洗矿/热力离心/离心这四个基础步骤，部分宝石类矿物还能筛选，还有一些矿能化学浸洗/磁选。不同的路有不同的副产物，根据自己的需求来决定。"
 				"    只有HV以上的机器执行研磨配方才有副产物，粉碎工厂无副产物"
 			]
 			id: "782151CC2B61160B"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest12.subtitle}"
+			subtitle: "走自己的路"
 			tasks: [{
 				id: "677C0A38D1E70213"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest12.task_+7456846322174722579.title}"
+				title: "关于矿石处理"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -205,14 +205,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest13.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest13.description2}"
+				" &l&4&n   一定要注意，先加水再加热，不然你的锅炉就会爆炸！！！切勿干烧！"
+				"    对于小锅炉而言，除底面外所有面连接GT管道后就会流出蒸汽。所以加水的管道最好接入锅炉下方，防止蒸汽堵塞。"
 			]
 			id: "115F1C7FD1E79C79"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest13.subtitle}"
+			subtitle: "禁止干烧！"
 			tasks: [{
 				id: "260B52B84D28856C"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest13.task_+2741375749707040108.title}"
+				title: "关于蒸汽锅炉"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -220,15 +220,15 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest14.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest14.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest14.description3}"
+				"    所有的蒸汽机器都不能处理流体类配方，所以不要在想为什么对应配方不工作了。"
+				"    用GT扳手右键对应面可对机器设置排气孔，若是排气孔被堵塞则机器会停止工作。"
+				"    用GT扳手shift+右键对应面可更改机器的正面朝向。"
 			]
 			id: "346272253393279F"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest14.subtitle}"
+			subtitle: "流体哒咩"
 			tasks: [{
 				id: "053633B1AAC908ED"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest14.task_+375544457099544813.title}"
+				title: "关于蒸汽机器"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -236,19 +236,19 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest15.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest15.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest15.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest15.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest15.description5}"
-				"{ftbquests.chapter.596370001FE6E99B.quest15.description6}"
-				"{ftbquests.chapter.596370001FE6E99B.quest15.description7}"
+				"    用能装液体的大部分容器直接对着流体栏左键即可放置/回收。"
+				"    原版桶：一次只能装1000mb，不可堆叠。"
+				"    空单元：一次只能装1000mb，可堆叠。可放在合成栏直接合成通用流体单元。"
+				"    通用流体单元：一次能装1~1000mb任意值，内容物种类体积相同时可堆叠。可放在合成栏直接合成空单元。"
+				"    铝等高级单元：除最大容量与通用流体单元不一样外其他均一样。"
+				"    GT桶：同上。"
+				"    部分流体的温度过高不能用低熔点的单元/桶拿取，请注意。"
 			]
 			id: "6B760684956D1BE1"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest15.subtitle}"
+			subtitle: "单元，爱你"
 			tasks: [{
 				id: "06169705E3B3B6EC"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest15.task_+438704065266038508.title}"
+				title: "关于流体的储存与拿取"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -256,31 +256,31 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest16.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest16.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest16.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest16.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest16.description5}"
-				"{ftbquests.chapter.596370001FE6E99B.quest16.description6}"
-				"{ftbquests.chapter.596370001FE6E99B.quest16.description7}"
+				"    部分GT工具除合成用途外，还有其他的作用。"
+				"    锻造锤：让机器静音/解除静音。"
+				"    螺丝刀：允许/禁止输出口的流体/物品自动流出。"
+				"    扳手：右键机器设置输出口，shift+右键设置机器正面朝向。对一些多方块控制器右键还能让其90°旋转。"
+				"    软锤：开机/关机机器。"
+				"    撬棍：拆除对应面的覆盖版。"
+				"    屠刀：拥有抢夺三和隐藏高斩首属性。"
 			]
 			id: "694E4397215D8F0C"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest16.subtitle}"
+			subtitle: "天下我有！"
 			tasks: [{
 				id: "23D5A764F9AC759B"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest16.task_+2582154013494244763.title}"
+				title: "GT工具"
 				type: "checkmark"
 			}]
 			x: -2.5d
 			y: 1.5d
 		}
 		{
-			description: ["{ftbquests.chapter.596370001FE6E99B.quest17.description1}"]
+			description: ["    对于部分GT机器来说，EIO导管无法将其内部液体导出。所以不要疑惑为什么导不出液体，用你那聪明的大脑相处其他方式吧。"]
 			id: "6A06571EE74A6F63"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest17.subtitle}"
+			subtitle: "EIO笑传之输输液"
 			tasks: [{
 				id: "73AEFABF6318C55A"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest17.task_+8335875660217632090.title}"
+				title: "EIO的BUG"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -288,15 +288,15 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest18.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest18.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest18.description3}"
+				"    打开小机器UI后左上角会有一行多出的栏，点击后能看到机器的3D环绕图。"
+				"    通过鼠标拖拽能切换视角方向。对着一面按左键设置物品输出，再按一次则会开启自动输出模式。右键设置流体输出，与物品同理。"
+				"    机器UI左下角有虚拟电路，设置后即可执行对应电路的配方。不同配方所需的虚拟电路JEI配方都有说明。"
 			]
 			id: "5378DE529B4826D5"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest18.subtitle}"
+			subtitle: "玩转输出！"
 			tasks: [{
 				id: "37492B461318B5BE"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest18.task_+3983762925354005950.title}"
+				title: "GT机器UI"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -304,25 +304,25 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest19.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest19.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest19.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest19.description4}"
+				"    对着多方块控制器按U即可查看对应多方块的搭建方式，会形成多方块的3D预览图。通过鼠标拖拽切换视角。"
+				"    预览图下方会显示搭建所需的方块及数量。点击对应的方块可在左侧查看这个位置的可替换方块列表。点击ALL按钮可按层逐一查看每层的样式。"
+				"    部分可拓展多方块（例如蒸馏塔）会多个[P:0]按钮，点击可查看不同的拓展样式。"
+				"    GT多方块允许两个相邻的多方块共同享用一些方块，从而并联节省材料。具体的并联方案由你跟据样式展开想象。有些方块无法被共用，详细查看Tooptips。"
 			]
 			id: "157616D257E25806"
 			subtitle: "当心终端乱放仓室"
 			tasks: [{
 				id: "6BBC98D7EA0A55A3"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest19.task_+7763247910791828899.title}"
+				title: "关于GT多方块的搭建"
 				type: "checkmark"
 			}]
 			x: -4.5d
 			y: 1.5d
 		}
 		{
-			description: ["{ftbquests.chapter.596370001FE6E99B.quest20.description1}"]
+			description: ["    有更多的建议可以联系我！&m虽然不一定改..."]
 			id: "7FC6F33F349AFB8B"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest20.subtitle}"
+			subtitle: "十分暴躁"
 			tasks: [{
 				id: "5FFB5BE2547D43DA"
 				item: {
@@ -347,7 +347,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.596370001FE6E99B.quest20.title}"
+			title: "一只Snow_city"
 			x: 3.5d
 			y: 1.5d
 		}
@@ -541,6 +541,6 @@
 			y: 3.5d
 		}
 	]
-	subtitle: ["{ftbquests.chapter.596370001FE6E99B.subtitle0}"]
-	title: "{ftbquests.chapter.596370001FE6E99B.title}"
+	subtitle: ["知识即为万物尺度，定将穷尽真理，根除谬误。"]
+	title: "存在即被感知"
 }

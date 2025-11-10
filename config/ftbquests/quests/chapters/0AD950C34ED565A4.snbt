@@ -50,24 +50,24 @@
 			y: 0.5d
 		}
 		{
-			description: ["{ftbquests.chapter.0AD950C34ED565A4.quest4.description1}"]
+			description: ["传说生存模组中，有两个很重要的概念，体温和室温（环境温度），其中室温在正常游戏难度下是&a不可见的&r，除非调至和平模式或者拥有温度计，而&a体温可以在经验条上方的状态栏中观察得到&r。正常情况下，体温会维持在正常范围内，一旦环境过热或者过冷，状态栏上面的小球周围就会显示出来，而保持过热或过冷状态太久，就会导致小球的颜色逐渐变红（蓝），当图标发生改变时，往往会伴随很多其他现象，如&4视线模糊，走不动路&r等等，此时如果还不及时回到正常温度下，就会&4迅速开始掉血直至死亡&r。"]
 			id: "3DEACC2059BBDB47"
-			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest4.subtitle}"
+			subtitle: "体温part"
 			tasks: [{
 				id: "3A403EB9C65CA260"
-				title: "{ftbquests.chapter.0AD950C34ED565A4.quest4.task_+4197423820327133792.title}"
+				title: "须知"
 				type: "checkmark"
 			}]
 			x: -6.0d
 			y: 4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.0AD950C34ED565A4.quest5.description1}"]
+			description: ["传说生存中的温度会受很多因素影响，如维度、海拔、群系、晨昏、干湿、季节等。特别的，在干燥炎热的群系中，昼夜温差会变大，出现白天很热，夜晚很冷的情况，不适宜居住。而海拔低于64的地方会减小昼夜温差，所以在洞穴中会有冬暖夏凉的效果。"]
 			id: "35C275383AEEE23D"
-			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest5.subtitle}"
+			subtitle: "外界温度part"
 			tasks: [{
 				id: "533FDBC115480B2E"
-				title: "{ftbquests.chapter.0AD950C34ED565A4.quest5.task_+5998754851013004078.title}"
+				title: "须知"
 				type: "checkmark"
 			}]
 			x: -6.0d
@@ -245,5 +245,5 @@
 			y: -5.5d
 		}
 	]
-	title: "{ftbquests.chapter.0AD950C34ED565A4.title}"
+	title: "传说生存"
 }
