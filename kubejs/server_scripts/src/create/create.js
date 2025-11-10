@@ -488,6 +488,19 @@ ServerEvents.recipes(event => {
 })
 
 ServerEvents.recipes(event => {
+    let transitional = 'gtceu:steam_machine_casing'
+    event.recipes.create.sequenced_assembly([
+            'gtceu:industrial_steam_casing'
+        ], 'gtceu:steam_machine_casing', [
+            event.recipes.createDeploying(transitional, [transitional, 'gtceu:brass_plate']),
+            event.recipes.createDeploying(transitional, [transitional, 'gtceu:brass_plate']),
+            event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:soldering_alloy', 144)]),
+            event.recipes.createPressing(transitional, [transitional]),
+        ]).transitionalItem(transitional)
+        .loops(1)
+})
+
+ServerEvents.recipes(event => {
         let transitional = 'create:blaze_cake'
         event.recipes.create.sequenced_assembly([
                 'kubejs:double_blaze_cake'
