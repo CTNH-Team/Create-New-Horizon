@@ -148,18 +148,18 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["首先声明：本篇不会给予你任何&4奖励&r。只是为了帮助你初步探索新生魔艺的流程（所以任务全可观看）希望你能&e充分发挥&r它的&e极限&r"]
+			description: ["{ftbquests.chapter.609746CF8BE6A11E.quest3601503243867800457.description1}"]
 			hide_dependent_lines: true
 			id: "31FB1C1E64284389"
 			shape: "circle"
 			size: 2.0d
-			subtitle: "帮助你初步入门魔艺"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest3601503243867800457.subtitle}"
 			tasks: [{
 				id: "438EA574FBB2C751"
-				title: "不熟悉吗？这是些个人建议"
+				title: "{ftbquests.chapter.609746CF8BE6A11E.quest3601503243867800457.task.4868010169091671889.title}"
 				type: "checkmark"
 			}]
-			title: "不熟悉吗？这是些个人建议"
+			title: "{ftbquests.chapter.609746CF8BE6A11E.quest3601503243867800457.title}"
 			x: 0.5d
 			y: -7.0d
 		}
@@ -168,10 +168,10 @@
 				"57A04137E648CACD"
 				"62B9FB13D5EF2F2D"
 			]
-			description: ["你得到了这本书，但是怎么这么空？"]
+			description: ["{ftbquests.chapter.609746CF8BE6A11E.quest8251690131677995561.description1}"]
 			id: "7283E47497436229"
 			shape: "rsquare"
-			subtitle: "“真正的大师，永远都怀着一颗学徒的心”"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest8251690131677995561.subtitle}"
 			tasks: [{
 				id: "72ABA9E4E7A90103"
 				item: "ars_nouveau:novice_spell_book"
@@ -183,14 +183,14 @@
 		{
 			dependencies: ["31FB1C1E64284389"]
 			description: [
-				"这本书会比mod维基好用（&6真的&r）"
-				"你总不会开局就把它丢了导致完成不了任务吧（悲）"
+				"{ftbquests.chapter.609746CF8BE6A11E.quest6314118385915972301.description1}"
+				"{ftbquests.chapter.609746CF8BE6A11E.quest6314118385915972301.description2}"
 			]
 			hide_dependency_lines: false
 			id: "57A04137E648CACD"
 			shape: "gear"
 			size: 2.5d
-			subtitle: "梦开始的地方！一定要保护好它"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest6314118385915972301.subtitle}"
 			tasks: [{
 				id: "7012B588E3B67C8F"
 				item: "ars_nouveau:worn_notebook"
@@ -205,7 +205,7 @@
 			id: "1372577346448371"
 			shape: "hexagon"
 			size: 1.2d
-			subtitle: "它没告诉你溜槽可以辅助自动化吧?"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest1401278586677396337.subtitle}"
 			tasks: [
 				{
 					id: "129690E69F60159D"
@@ -223,11 +223,11 @@
 		}
 		{
 			dependencies: ["1372577346448371"]
-			description: ["有些配方需要魔源哦，"]
+			description: ["{ftbquests.chapter.609746CF8BE6A11E.quest5271818851515232282.description1}"]
 			id: "492943506CC5F01A"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "可合成的物品变多了，有些是否需要自动化呢"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest5271818851515232282.subtitle}"
 			tasks: [
 				{
 					id: "59CA62A1C0787091"
@@ -253,7 +253,7 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "4A1D2B1F8003BF89"
-			subtitle: "普通的腰带，真正的魔法师会为它“附魔”"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest5340472147422986121.subtitle}"
 			tasks: [{
 				id: "0B7A00C8B25C9536"
 				item: "ars_nouveau:mundane_belt"
@@ -267,7 +267,7 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "05EE0A8A9540B9E0"
-			subtitle: "魔法师激发它的潜力"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest427290604972587488.subtitle}"
 			tasks: [{
 				id: "6CB53025D8F51E7F"
 				item: "ars_nouveau:ring_of_potential"
@@ -281,7 +281,7 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "11F16BF08F3934B6"
-			subtitle: "很幽默，不过有趣的永远在后头"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest1292933248971257014.subtitle}"
 			tasks: [{
 				id: "3B293001CF723687"
 				item: "ars_nouveau:dull_trinket"
@@ -299,7 +299,7 @@
 				structure: "ars_nouveau:hunter_wilden_den"
 				type: "structure"
 			}]
-			title: "“友好”访问"
+			title: "{ftbquests.chapter.609746CF8BE6A11E.quest988304115568916755.title}"
 			x: 4.5d
 			y: -2.0d
 		}
@@ -312,7 +312,7 @@
 				structure: "ars_nouveau:stalker_wilden_den"
 				type: "structure"
 			}]
-			title: "不如幻翼"
+			title: "{ftbquests.chapter.609746CF8BE6A11E.quest2487774627357479609.title}"
 			x: 3.0d
 			y: -2.0d
 		}
@@ -325,7 +325,7 @@
 				structure: "ars_nouveau:guardian_wilden_den"
 				type: "structure"
 			}]
-			title: "小心尖刺！"
+			title: "{ftbquests.chapter.609746CF8BE6A11E.quest4995234751437536511.title}"
 			x: 1.5d
 			y: -2.0d
 		}
@@ -334,21 +334,21 @@
 			hide_dependency_lines: true
 			id: "684C275A7140AE9D"
 			size: 1.0d
-			subtitle: "其实不重要"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest7515425147575119517.subtitle}"
 			tasks: [{
 				id: "1CA8FC0C2787A957"
-				title: "神秘结构？"
+				title: "{ftbquests.chapter.609746CF8BE6A11E.quest7515425147575119517.task.2065177558282381655.title}"
 				type: "checkmark"
 			}]
-			title: "神秘结构？"
+			title: "{ftbquests.chapter.609746CF8BE6A11E.quest7515425147575119517.title}"
 			x: 3.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["492943506CC5F01A"]
-			description: ["耕种它，直到收获"]
+			description: ["{ftbquests.chapter.609746CF8BE6A11E.quest6063349005590420597.description1}"]
 			id: "542557CBAB6F5C75"
-			subtitle: "聚天地魔源，得天地精华"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest6063349005590420597.subtitle}"
 			tasks: [{
 				id: "5C2C6D361453686A"
 				item: "ars_nouveau:magebloom_crop"
@@ -359,9 +359,9 @@
 		}
 		{
 			dependencies: ["542557CBAB6F5C75"]
-			description: ["看看你能用它做什么吧！用它制成的盔甲能自我修复！"]
+			description: ["{ftbquests.chapter.609746CF8BE6A11E.quest7113993149020581677.description1}"]
 			id: "62B9FB13D5EF2F2D"
-			subtitle: "道士的法袍不是定做的，是自己造出来的"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest7113993149020581677.subtitle}"
 			tasks: [{
 				id: "20CC3438EF1FCBF8"
 				item: "ars_nouveau:magebloom_fiber"
@@ -372,9 +372,9 @@
 		}
 		{
 			dependencies: ["49B0B12549BE9575"]
-			description: ["根据个人需求选择更好的魔源获取方式哦！"]
+			description: ["{ftbquests.chapter.609746CF8BE6A11E.quest4309260135644766198.description1}"]
 			id: "3BCD91430DDB9FF6"
-			subtitle: "最简单的魔源装置"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest4309260135644766198.subtitle}"
 			tasks: [{
 				id: "3F5745009157F2B6"
 				item: "ars_nouveau:agronomic_sourcelink"
@@ -385,11 +385,11 @@
 		}
 		{
 			dependencies: ["57A04137E648CACD"]
-			description: ["两个功能：存放魔源/传输魔源"]
+			description: ["{ftbquests.chapter.609746CF8BE6A11E.quest5309938734378947957.description1}"]
 			id: "49B0B12549BE9575"
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "自动化的第一步"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest5309938734378947957.subtitle}"
 			tasks: [{
 				id: "3E916AE82C47E517"
 				item: "ars_nouveau:source_jar"
@@ -401,7 +401,7 @@
 		{
 			dependencies: ["49B0B12549BE9575"]
 			id: "4577953534E40102"
-			subtitle: "自动化的核心装置！"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest5005633566598758658.subtitle}"
 			tasks: [{
 				id: "290F27C801CEFDB0"
 				item: "ars_nouveau:basic_spell_turret"
@@ -413,7 +413,7 @@
 		{
 			dependencies: ["4577953534E40102"]
 			id: "14BBFCA2874451CD"
-			subtitle: "给他魔源和法术 它自己会动"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest1494065476387754445.subtitle}"
 			tasks: [{
 				id: "59BC3033C6588871"
 				item: "ars_nouveau:timer_spell_turret"
@@ -424,9 +424,9 @@
 		}
 		{
 			dependencies: ["49B0B12549BE9575"]
-			description: ["它的进阶造物用途更多！"]
+			description: ["{ftbquests.chapter.609746CF8BE6A11E.quest6088076202375109758.description1}"]
 			id: "547D310CD013DC7E"
-			subtitle: "点对点"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest6088076202375109758.subtitle}"
 			tasks: [{
 				id: "69848FA507ACD143"
 				item: "ars_nouveau:relay"
@@ -438,7 +438,7 @@
 		{
 			dependencies: ["69E5FC6BA4241143"]
 			id: "03481B4E3F73BFB9"
-			subtitle: "改改衣服更适合自己"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest236469003322900409.subtitle}"
 			tasks: [{
 				id: "0AFB7F9F5BCE7240"
 				item: "ars_nouveau:alteration_table"
@@ -452,7 +452,7 @@
 			id: "69E5FC6BA4241143"
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "它能让你的法术书填点内容"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest7630782682894700867.subtitle}"
 			tasks: [{
 				id: "28270A4E5EACC918"
 				item: "ars_nouveau:scribes_table"
@@ -466,7 +466,7 @@
 			description: [""]
 			id: "21D441CD4FF09657"
 			size: 1.0d
-			subtitle: "友谊的象征！"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest2437645648379549271.subtitle}"
 			tasks: [{
 				id: "309F41BC509D1E8A"
 				item: "ars_nouveau:drygmy_shard"
@@ -479,7 +479,7 @@
 			dependencies: ["21D441CD4FF09657"]
 			id: "01326423CB3560EA"
 			size: 1.0d
-			subtitle: "德格米的精致手办"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest86241447769366762.subtitle}"
 			tasks: [
 				{
 					id: "2793944AB203AACF"
@@ -500,7 +500,7 @@
 			id: "15FD6C3C504D6DFF"
 			shape: "hexagon"
 			size: 1.2d
-			subtitle: "做法之事，书中自有详解"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest1584541650205371903.subtitle}"
 			tasks: [{
 				id: "67FAFBD3E61C4A3F"
 				item: "ars_nouveau:ritual_brazier"
@@ -512,7 +512,7 @@
 		{
 			dependencies: ["62B9FB13D5EF2F2D"]
 			id: "19A600CF4DFAAABC"
-			subtitle: "看书吧"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest1848165587448670908.subtitle}"
 			tasks: [{
 				id: "0E59C9741EB1DE14"
 				item: "ars_nouveau:blank_parchment"
@@ -524,7 +524,7 @@
 		{
 			dependencies: ["19A600CF4DFAAABC"]
 			id: "3F12505DC89D8C1E"
-			subtitle: "它通常的用途是造大型传送门"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest4544783337698200606.subtitle}"
 			tasks: [{
 				id: "1C42B6144C0C8EDC"
 				item: {
@@ -541,7 +541,7 @@
 			dependencies: ["21D441CD4FF09657"]
 			id: "7330DFCA691A419E"
 			size: 1.0d
-			subtitle: "我来助你！"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest8300380173683540382.subtitle}"
 			tasks: [{
 				id: "1E8BB40367F3BEB5"
 				item: "ars_nouveau:drygmy_charm"
@@ -556,11 +556,11 @@
 				"7330DFCA691A419E"
 			]
 			dependency_requirement: "one_completed"
-			description: ["只要把收容罐/生物放到他附近&4（10格半径）&r，它便能根据生物战利品表向附近的存储装置生产战利品！"]
+			description: ["{ftbquests.chapter.609746CF8BE6A11E.quest3836959376914867793.description1}"]
 			id: "353F9E39669D6651"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "道爷我成啦！"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest3836959376914867793.subtitle}"
 			tasks: [{
 				icon: "ars_nouveau:drygmy_stone"
 				id: "75AE5D99301D8B61"
@@ -569,16 +569,16 @@
 				to_observe: "ars_nouveau:drygmy_stone"
 				type: "observation"
 			}]
-			title: "德格米石阵！"
+			title: "{ftbquests.chapter.609746CF8BE6A11E.quest3836959376914867793.title}"
 			x: 8.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["432B63898EB4DBC2"]
-			description: ["给它&4&m画饼&r&r前面放置金块应力产出更大"]
+			description: ["{ftbquests.chapter.609746CF8BE6A11E.quest2441232243954900111.description1}"]
 			hide_dependency_lines: true
 			id: "21E0FFCAAB295C8F"
-			subtitle: "不是哥们？"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest2441232243954900111.subtitle}"
 			tasks: [{
 				id: "26D05A8C8A19CA2E"
 				item: "ars_creo:starbuncle_wheel"
@@ -590,7 +590,7 @@
 		{
 			dependencies: ["15FD6C3C504D6DFF"]
 			id: "5DF0C2FE40307712"
-			subtitle: "60格（半径）内让你飞起来！"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest6769124637192255250.subtitle}"
 			tasks: [{
 				id: "04425BD392AFA9CB"
 				item: "ars_nouveau:ritual_flight"
@@ -603,7 +603,7 @@
 			dependencies: ["15FD6C3C504D6DFF"]
 			hide_dependent_lines: true
 			id: "096B44A2B2FAC6B9"
-			subtitle: "刷战利品/大boss用"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest678711634427561657.subtitle}"
 			tasks: [{
 				id: "11B27247425D4EA0"
 				item: "ars_nouveau:ritual_wilden_summon"
@@ -620,7 +620,7 @@
 			id: "567F6D78E2B26F47"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "这是原版魔艺的终点，但听说有更高级的法术书哦"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest6232820775270903623.subtitle}"
 			tasks: [{
 				id: "7A4A639C6BA4E8E8"
 				item: "ars_nouveau:archmage_spell_book"
@@ -632,29 +632,29 @@
 		{
 			dependencies: ["31FB1C1E64284389"]
 			description: [
-				"常见的魔法生物（新生魔艺）有:&a星宝石兽&r、&c德格米&r、风转草。"
-				"比较特殊的：薇克精,&c书龙&r，树/紫水晶傀儡."
-				"[\"\",{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest33.rich_description1\"},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest33.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"57A04137E648CACD\"}},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest33.rich_description3\"}]"
+				"{ftbquests.chapter.609746CF8BE6A11E.quest5508997157657764005.description1}"
+				"{ftbquests.chapter.609746CF8BE6A11E.quest5508997157657764005.description2}"
+				"[\"\",{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest5508997157657764005.rich_description1\"},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest5508997157657764005.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"57A04137E648CACD\"},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest5508997157657764005.rich_description3\"}}]"
 			]
 			icon: "ars_nouveau:drygmy_shard"
 			id: "4C73E3BA1AD3E0A5"
 			min_width: 230
 			shape: "gear"
 			size: 2.5d
-			subtitle: "小小的也很可爱~"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest5508997157657764005.subtitle}"
 			tasks: [{
 				id: "4E26186C16172564"
-				title: "你需要知道的事"
+				title: "{ftbquests.chapter.609746CF8BE6A11E.quest5508997157657764005.task.5631215236579534180.title}"
 				type: "checkmark"
 			}]
-			title: "魔法生物！"
+			title: "{ftbquests.chapter.609746CF8BE6A11E.quest5508997157657764005.title}"
 			x: 6.0d
 			y: 1.25d
 		}
 		{
 			dependencies: ["4C73E3BA1AD3E0A5"]
 			id: "4F0DD37CC88A8918"
-			subtitle: "是有钱人，合它胃口"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest5696441636587473176.subtitle}"
 			tasks: [{
 				id: "736E1A0C395B062E"
 				item: "ars_nouveau:starbuncle_shards"
@@ -666,21 +666,21 @@
 		{
 			dependencies: ["49B0B12549BE9575"]
 			id: "7CDCF7297160337B"
-			subtitle: "为什么不让你的魔法小伙伴们帮忙呢"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest8997337912947258235.subtitle}"
 			tasks: [{
 				id: "2225751D33986858"
-				title: "我和我的动物朋友"
+				title: "{ftbquests.chapter.609746CF8BE6A11E.quest8997337912947258235.task.2460501539707971672.title}"
 				type: "checkmark"
 			}]
-			title: "自动化的一些建议"
+			title: "{ftbquests.chapter.609746CF8BE6A11E.quest8997337912947258235.title}"
 			x: -0.8d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4F0DD37CC88A8918"]
-			description: ["[\"\",{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest36.rich_description1\"},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest36.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"19A600CF4DFAAABC\"}},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest36.rich_description3\"}]"]
+			description: ["[\"\",{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest4840071666995616706.rich_description1\"},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest4840071666995616706.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"19A600CF4DFAAABC\"},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest4840071666995616706.rich_description3\"}}]"]
 			id: "432B63898EB4DBC2"
-			subtitle: "会自动导航的运输机"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest4840071666995616706.subtitle}"
 			tasks: [{
 				id: "0C17229B81D9DCE6"
 				item: {
@@ -696,7 +696,7 @@
 		{
 			dependencies: ["03481B4E3F73BFB9"]
 			id: "3F01E6F7C41E2231"
-			subtitle: "你总得知道用什么改"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest4540163851187790385.subtitle}"
 			tasks: [{
 				id: "3C365B4CEE8B7E7C"
 				item: "ars_nouveau:blank_thread"
@@ -708,7 +708,7 @@
 		{
 			dependencies: ["4C73E3BA1AD3E0A5"]
 			id: "74CCAA3EFE10AF43"
-			subtitle: "是的，它很复杂"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest8416288991175814979.subtitle}"
 			tasks: [{
 				id: "41A15DFD10373B9E"
 				item: "ars_nouveau:wixie_shards"
@@ -720,7 +720,7 @@
 		{
 			dependencies: ["74CCAA3EFE10AF43"]
 			id: "092A33444A187075"
-			subtitle: "自动合成/酿造小帮手（只能是原版类配方）"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest660396663757107317.subtitle}"
 			tasks: [{
 				id: "7F59C872B5FE850E"
 				item: "ars_nouveau:wixie_charm"
@@ -732,7 +732,7 @@
 		{
 			dependencies: ["432B63898EB4DBC2"]
 			id: "02C6F7DBFB72081C"
-			subtitle: "帽子不错"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest200119757653018652.subtitle}"
 			tasks: [{
 				id: "1B342CE9192A1059"
 				item: "ars_nouveau:wixie_hat"
@@ -744,7 +744,7 @@
 		{
 			dependencies: ["4C73E3BA1AD3E0A5"]
 			id: "26D2332315757194"
-			subtitle: "会飞的书（误）"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest2797354544327389588.subtitle}"
 			tasks: [{
 				id: "7B6FDA7F5A3B44E4"
 				item: "ars_nouveau:bookwyrm_charm"
@@ -757,7 +757,7 @@
 			dependencies: ["4C73E3BA1AD3E0A5"]
 			hide_dependency_lines: true
 			id: "6C828C4D3DC5352E"
-			subtitle: "会有用的"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest7818966166445307182.subtitle}"
 			tasks: [{
 				id: "4C1DA11B6FDC7BFC"
 				item: "ars_nouveau:whirlisprig_charm"
@@ -791,7 +791,7 @@
 		{
 			dependencies: ["31FB1C1E64284389"]
 			id: "5EC0E140D4915E31"
-			subtitle: "魔艺的“扳手”"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest6827704703654125105.subtitle}"
 			tasks: [{
 				id: "7A8F2FEB7FC821CB"
 				item: {
@@ -808,7 +808,7 @@
 			dependencies: ["31FB1C1E64284389"]
 			hide_dependency_lines: true
 			id: "3FF74491A0FB5FAE"
-			subtitle: "后者能通过前者施法，能碰撞出什么火花？"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest4609228135898767278.subtitle}"
 			tasks: [
 				{
 					id: "1E9E79B4508B1120"
@@ -832,7 +832,7 @@
 			dependencies: ["4C73E3BA1AD3E0A5"]
 			hide_dependency_lines: true
 			id: "7F49CF8B3E9122E7"
-			subtitle: "你是？"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest9172090313073828583.subtitle}"
 			tasks: [{
 				id: "5F0E0DB91B93DAEE"
 				item: "ars_nouveau:amethyst_golem_charm"
@@ -844,7 +844,7 @@
 		{
 			dependencies: ["15FD6C3C504D6DFF"]
 			id: "259A978C21F77862"
-			subtitle: "书龙也要用这个！"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest2709644753937856610.subtitle}"
 			tasks: [{
 				id: "6FE50A14634B9ABE"
 				item: "ars_nouveau:ritual_awakening"
@@ -856,7 +856,7 @@
 		{
 			dependencies: ["432B63898EB4DBC2"]
 			id: "1EB19516042262AF"
-			subtitle: "酷哥们"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest2211712813806805679.subtitle}"
 			tasks: [{
 				id: "4437DBDC35BBA230"
 				item: "ars_nouveau:starbuncle_shades"
@@ -868,7 +868,7 @@
 		{
 			dependencies: ["3BCD91430DDB9FF6"]
 			id: "5A15D72DC69B1FDE"
-			subtitle: "善用工具书）"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest6491331029529993182.subtitle}"
 			tasks: [
 				{
 					id: "1EA5F85F444EB200"
@@ -891,7 +891,7 @@
 					type: "item"
 				}
 			]
-			title: "选择适合自己的使用！"
+			title: "{ftbquests.chapter.609746CF8BE6A11E.quest6491331029529993182.title}"
 			x: -0.8d
 			y: 3.5d
 		}
@@ -899,7 +899,7 @@
 			dependencies: ["492943506CC5F01A"]
 			hide_dependency_lines: true
 			id: "0EC027D1967A2E13"
-			subtitle: "大点的药水瓶"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest1062893293185674771.subtitle}"
 			tasks: [{
 				id: "50FA141C75B06CF4"
 				item: {
@@ -917,16 +917,16 @@
 		{
 			dependencies: ["69E5FC6BA4241143"]
 			id: "7F8EBE79547FCAD6"
-			subtitle: "尽力把所有魔符集齐吧"
+			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest9191493317827742422.subtitle}"
 			tasks: [{
 				id: "0A13EEE25E4D8ADC"
 				item: "ars_nouveau:glyph_extract"
 				type: "item"
 			}]
-			title: "魔法笑传之抄抄背（）"
+			title: "{ftbquests.chapter.609746CF8BE6A11E.quest9191493317827742422.title}"
 			x: -8.0d
 			y: 0.5d
 		}
 	]
-	title: "新生魔艺"
+	title: "{ftbquests.chapter.609746CF8BE6A11E.title}"
 }

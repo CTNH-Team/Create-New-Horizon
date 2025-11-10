@@ -10,7 +10,7 @@
 	quests: [
 		{
 			id: "78A26DEDD6AFF600"
-			subtitle: "收集野外的神秘花"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest8692631099055011328.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "419787730C10AEAE"
@@ -21,17 +21,17 @@
 						value: "botania:petals"
 					}
 				}
-				title: "任意花瓣"
+				title: "{ftbquests.chapter.09F33579334F2607.quest8692631099055011328.task.4726395262142033582.title}"
 				type: "item"
 			}]
-			title: "魔法的起步"
+			title: "{ftbquests.chapter.09F33579334F2607.quest8692631099055011328.title}"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["78A26DEDD6AFF600"]
 			id: "23F758E2421BF068"
-			subtitle: "有一股魔力聚集在这个台子里"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest2591637839369990248.subtitle}"
 			tasks: [{
 				id: "5B819720754431C8"
 				item: "botania:apothecary_default"
@@ -43,7 +43,7 @@
 		{
 			dependencies: ["23F758E2421BF068"]
 			id: "17AE8CE55863D7D6"
-			subtitle: "记住，最后扔蕨完成合成"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest1706456225478334422.subtitle}"
 			tasks: [{
 				id: "206312D77F042785"
 				item: "botania:pure_daisy"
@@ -54,9 +54,9 @@
 		}
 		{
 			dependencies: ["23F758E2421BF068"]
-			description: ["    在3*3的范围内的相同高度上有水源方块的话，水绣球就会自动产生少量的魔力，&a别忘了将它和一个魔力发射器绑定起来&r。"]
+			description: ["{ftbquests.chapter.09F33579334F2607.quest3010929550999786350.description1}"]
 			id: "29C8F8795B11936E"
-			subtitle: "水力发电机"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest3010929550999786350.subtitle}"
 			tasks: [{
 				id: "568AA36AF9A1B955"
 				item: "botania:hydroangeas"
@@ -79,7 +79,7 @@
 		{
 			dependencies: ["17AE8CE55863D7D6"]
 			id: "0598D6FDA6319592"
-			subtitle: "艾尔夫海姆有大量活石"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest403308551552996754.subtitle}"
 			tasks: [{
 				id: "3BEA8805B0E3B1F4"
 				item: "botania:livingrock"
@@ -91,7 +91,7 @@
 		{
 			dependencies: ["0598D6FDA6319592"]
 			id: "257CFCFEE4F99D04"
-			subtitle: "前期你只能用这个"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest2701312048208911620.subtitle}"
 			tasks: [{
 				id: "2664B9D32E748860"
 				item: "botania:diluted_pool"
@@ -106,7 +106,7 @@
 				"257CFCFEE4F99D04"
 			]
 			id: "592F9BDCCCFCCAF6"
-			subtitle: "魔力的产物"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest6426526565915216630.subtitle}"
 			tasks: [
 				{
 					id: "6771C91FEB6ACE8B"
@@ -130,7 +130,7 @@
 		{
 			dependencies: ["592F9BDCCCFCCAF6"]
 			id: "4A30A1B474B1C450"
-			subtitle: "一块？电池？"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest5345950554112771152.subtitle}"
 			tasks: [{
 				id: "0E08181BB2C5D68A"
 				item: "botania:mana_tablet"
@@ -142,7 +142,7 @@
 		{
 			dependencies: ["592F9BDCCCFCCAF6"]
 			id: "6963A4242BCCBADC"
-			subtitle: "植魔科技的核心"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest7594093871937403612.subtitle}"
 			tasks: [{
 				id: "0CD07CA5A0411A8A"
 				item: "botania:runic_altar"
@@ -154,7 +154,7 @@
 		{
 			dependencies: ["6963A4242BCCBADC"]
 			id: "17B87AE00C7626AF"
-			subtitle: "蕴含水之魔力"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest1709251161287435951.subtitle}"
 			tasks: [{
 				id: "13CC5F30DC0FB2FD"
 				item: "botania:rune_water"
@@ -166,7 +166,7 @@
 		{
 			dependencies: ["6963A4242BCCBADC"]
 			id: "20DD3B07D56B6A8D"
-			subtitle: "蕴含火之魔力"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest2368113883898145421.subtitle}"
 			tasks: [{
 				id: "22266D8EA38E20A3"
 				item: "botania:rune_fire"
@@ -177,9 +177,9 @@
 		}
 		{
 			dependencies: ["6963A4242BCCBADC"]
-			description: ["记得使用Alexs’ caves的石灰岩"]
+			description: ["{ftbquests.chapter.09F33579334F2607.quest8179324863802820960.description1}"]
 			id: "7182CCA0B17CC960"
-			subtitle: "蕴含地之魔力"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest8179324863802820960.subtitle}"
 			tasks: [{
 				id: "25C4E5A716AB7F83"
 				item: "botania:rune_earth"
@@ -191,7 +191,7 @@
 		{
 			dependencies: ["6963A4242BCCBADC"]
 			id: "6755E680AD4602D5"
-			subtitle: "蕴含风之魔力"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest7446110999264232149.subtitle}"
 			tasks: [{
 				id: "44A580D64D4616F6"
 				item: "botania:rune_air"
@@ -209,7 +209,7 @@
 			]
 			id: "012D04F8C8D62292"
 			size: 1.5d
-			subtitle: "请使用火花传输魔力"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest84729434557784722.subtitle}"
 			tasks: [{
 				id: "6ACE286DBE0D1D1A"
 				item: "botania:terra_plate"
@@ -222,7 +222,7 @@
 			dependencies: ["012D04F8C8D62292"]
 			id: "76036AE6CE23B158"
 			size: 1.5d
-			subtitle: "似乎是一个魔力的集合体"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest8503758060939096408.subtitle}"
 			tasks: [{
 				id: "2EE13684076752DC"
 				item: "botania:terrasteel_ingot"
@@ -235,7 +235,7 @@
 			dependencies: ["76036AE6CE23B158"]
 			id: "4AB8CE1AF271F021"
 			size: 1.0d
-			subtitle: "打开与精灵世界交易的大门"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest5384279969653452833.subtitle}"
 			tasks: [
 				{
 					id: "18E11B719DB17BBE"
@@ -255,7 +255,7 @@
 					type: "item"
 				}
 			]
-			title: "精灵门"
+			title: "{ftbquests.chapter.09F33579334F2607.quest5384279969653452833.title}"
 			x: 15.0d
 			y: 0.0d
 		}
@@ -274,7 +274,7 @@
 			dependencies: ["4AB8CE1AF271F021"]
 			id: "783EE6889DD2C460"
 			size: 1.5d
-			subtitle: "这是你交易得到的"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest8664616207545189472.subtitle}"
 			tasks: [
 				{
 					id: "2C39F093F3F3687A"
@@ -297,7 +297,7 @@
 					type: "item"
 				}
 			]
-			title: "精灵产物"
+			title: "{ftbquests.chapter.09F33579334F2607.quest8664616207545189472.title}"
 			x: 18.0d
 			y: 0.0d
 		}
@@ -314,10 +314,10 @@
 		}
 		{
 			dependencies: ["783EE6889DD2C460"]
-			description: ["自动化使用供应器的产物返回模式"]
+			description: ["{ftbquests.chapter.09F33579334F2607.quest6980092370173953983.description1}"]
 			id: "60DE45074FA207BF"
 			size: 1.0d
-			subtitle: "请在上面放火花和火花聚集"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest6980092370173953983.subtitle}"
 			tasks: [{
 				id: "20E620ACA8915AB7"
 				item: "mythicbotany:mana_infuser"
@@ -329,7 +329,7 @@
 		{
 			dependencies: ["012D04F8C8D62292"]
 			id: "34535196790E1A26"
-			subtitle: "暮色高大橡树在暮色的废弃结构和安德鲁房子概率大些"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest3770447019757148710.subtitle}"
 			tasks: [{
 				id: "1BAD87101F7510F3"
 				item: "botania:rune_spring"
@@ -341,7 +341,7 @@
 		{
 			dependencies: ["012D04F8C8D62292"]
 			id: "167F0DAD7D2B97C5"
-			subtitle: "蕴含夏之魔力"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest1621029429657180101.subtitle}"
 			tasks: [{
 				id: "265E7AEAB6C9F1D9"
 				item: "botania:rune_summer"
@@ -353,7 +353,7 @@
 		{
 			dependencies: ["012D04F8C8D62292"]
 			id: "7AC7D7F2444B31EC"
-			subtitle: "蕴含秋之魔力"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest8847277428520464876.subtitle}"
 			tasks: [{
 				id: "1FC1E9647E523D68"
 				item: "botania:rune_autumn"
@@ -365,7 +365,7 @@
 		{
 			dependencies: ["012D04F8C8D62292"]
 			id: "213DE50DC3B65FA3"
-			subtitle: "蕴含冬之魔力"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest2395322424111816611.subtitle}"
 			tasks: [{
 				id: "6E8C9E2BAAAAB6C3"
 				item: "botania:rune_winter"
@@ -389,7 +389,7 @@
 		{
 			dependencies: ["564DF031F1983954"]
 			id: "2755F78FE5290FC2"
-			subtitle: "这可不是一个小喽啰"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest2834443737896652738.subtitle}"
 			tasks: [{
 				entity: "botania:doppleganger"
 				icon: "botania:gaia_head"
@@ -397,7 +397,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "击败盖亚"
+			title: "{ftbquests.chapter.09F33579334F2607.quest2834443737896652738.title}"
 			x: 18.0d
 			y: 2.5d
 		}
@@ -405,7 +405,7 @@
 			dependencies: ["2755F78FE5290FC2"]
 			hide_dependent_lines: true
 			id: "3997A8293A186F50"
-			subtitle: "一种高级原材料"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest4149970476667006800.subtitle}"
 			tasks: [{
 				id: "57A9366845A0CB5A"
 				item: "botania:life_essence"
@@ -417,7 +417,7 @@
 		{
 			dependencies: ["20DD3B07D56B6A8D"]
 			id: "16BA40E467148F05"
-			subtitle: "火力发电机"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest1637692764228718341.subtitle}"
 			tasks: [{
 				id: "5E879811AE7F9DE5"
 				item: "botania:endoflame"
@@ -429,7 +429,7 @@
 		{
 			dependencies: ["167F0DAD7D2B97C5"]
 			id: "2A2F55330B0A2B24"
-			subtitle: "食物发电机"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest3039741951215282980.subtitle}"
 			tasks: [{
 				id: "7E0BDAB1371AC4AD"
 				item: "botania:gourmaryllis"
@@ -441,11 +441,11 @@
 		{
 			dependencies: ["2755F78FE5290FC2"]
 			description: [
-				"免疫窒息.饥饿.灼烧.摔落伤害"
-				"添加20滴血，免疫热锭灼烧"
+				"{ftbquests.chapter.09F33579334F2607.quest4201765301614265356.description1}"
+				"{ftbquests.chapter.09F33579334F2607.quest4201765301614265356.description2}"
 			]
 			id: "3A4FAB47A847C40C"
-			subtitle: "伟大！无需多言！"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest4201765301614265356.subtitle}"
 			tasks: [{
 				id: "6548E5AA989E6466"
 				item: {
@@ -479,7 +479,7 @@
 		{
 			dependencies: ["2755F78FE5290FC2"]
 			id: "5A6CF2F3FC1CF713"
-			subtitle: "我是雷神托尔！为了北方神的荣耀！"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest6515849890618996499.subtitle}"
 			tasks: [{
 				id: "68B8A92FA908F442"
 				item: "botania:thor_ring"
@@ -491,7 +491,7 @@
 		{
 			dependencies: ["2755F78FE5290FC2"]
 			id: "263BAC17F57E2F18"
-			subtitle: "感觉不如永恒牛排塞背包，无冷却食用"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest2754984815970103064.subtitle}"
 			tasks: [{
 				id: "69F550DA8A63DAAA"
 				item: "botania:infinite_fruit"
@@ -503,7 +503,7 @@
 		{
 			dependencies: ["2755F78FE5290FC2"]
 			id: "42058EDD69B335F4"
-			subtitle: "削的真惨"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest4757365662999066100.subtitle}"
 			tasks: [{
 				id: "5B88256139C4B757"
 				item: "botania:king_key"
@@ -526,7 +526,7 @@
 		{
 			dependencies: ["783EE6889DD2C460"]
 			id: "4EEA2B73C3ED8936"
-			subtitle: "无线物流！"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest5686405255717030198.subtitle}"
 			tasks: [{
 				id: "799641EBC0E31345"
 				item: "botania:corporea_spark"
@@ -549,11 +549,11 @@
 		{
 			dependencies: ["4B6CBB1E8D1A6273"]
 			description: [
-				"    先放魔力发射器，再放产能花，&a产能花会自动绑定到魔力发射器上&r，如果没有自动绑定，请利用森林法杖的绑定模式链接产能花和魔力发射器。"
-				"    先对魔力发射器右键，随后右键你想让它指向的方块，魔力发射器就会转向对应的方向，所以要想让魔力发射器向魔力池内发射魔力，需要右键魔力发射器和魔力池，使得魔力发射器对准魔力池。"
+				"{ftbquests.chapter.09F33579334F2607.quest4172672768522654951.description1}"
+				"{ftbquests.chapter.09F33579334F2607.quest4172672768522654951.description2}"
 			]
 			id: "39E84FC673BD14E7"
-			subtitle: "传输魔力的手段"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest4172672768522654951.subtitle}"
 			tasks: [{
 				id: "74E2E50E5FA3842B"
 				item: "botania:mana_spreader"
@@ -769,7 +769,7 @@
 				"524DFF1E4920F6DF"
 			]
 			id: "66FE0D6835F9F659"
-			subtitle: "按住W开始思索"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest7421383977186489945.subtitle}"
 			tasks: [
 				{
 					id: "599A7A2A62CFD33A"
@@ -783,19 +783,19 @@
 					type: "item"
 				}
 			]
-			title: "符文仪式"
+			title: "{ftbquests.chapter.09F33579334F2607.quest7421383977186489945.title}"
 			x: 27.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["66FE0D6835F9F659"]
 			description: [
-				"在发展血魔法前，你还需要做出盖亚反应器，你会需要它的"
-				"找到alex的所有洞穴"
+				"{ftbquests.chapter.09F33579334F2607.quest147025639088844427.description1}"
+				"{ftbquests.chapter.09F33579334F2607.quest147025639088844427.description2}"
 			]
 			id: "020A570A2EC3EE8B"
 			size: 2.0d
-			subtitle: "这是一把匕首，用来自尽（不是）"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest147025639088844427.subtitle}"
 			tasks: [{
 				id: "37F754C7A1B5B69C"
 				item: {
@@ -821,7 +821,7 @@
 		{
 			dependencies: ["66FE0D6835F9F659"]
 			id: "741211A0D54252FF"
-			subtitle: "榨干奸商"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest8363766840450765567.subtitle}"
 			tasks: [{
 				id: "5C67F57060DC2042"
 				item: "mythicbotany:kvasir_blood"
@@ -833,7 +833,7 @@
 		{
 			dependencies: ["741211A0D54252FF"]
 			id: "657ACCF34EC60C41"
-			subtitle: "喝下这个，就能穿过精灵门，来到亚尔夫海姆的世界"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest7312382290360142913.subtitle}"
 			tasks: [{
 				id: "23ABD71DB6B3AF7A"
 				item: "mythicbotany:kvasir_mead"
@@ -849,7 +849,7 @@
 				dimension: "mythicbotany:alfheim"
 				icon: "mythicbotany:dreamwood_leaves"
 				id: "4E08D6B660D67F57"
-				title: "亚尔夫海姆"
+				title: "{ftbquests.chapter.09F33579334F2607.quest6487149050341019362.task.5622980213569126231.title}"
 				type: "dimension"
 			}]
 			x: 27.0d
@@ -869,7 +869,7 @@
 		{
 			dependencies: ["66FE0D6835F9F659"]
 			id: "2F39BCEEF1030C95"
-			subtitle: "OP"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest3402958727886867605.subtitle}"
 			tasks: [{
 				id: "112A515985E6106D"
 				item: "mythicbotany:mana_collector"
@@ -891,7 +891,7 @@
 		{
 			dependencies: ["4B6CBB1E8D1A6273"]
 			id: "58381072DABDC825"
-			subtitle: "植物魔法的扳手"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest6356848959515641893.subtitle}"
 			tasks: [{
 				id: "78EAB28C61D7CA6E"
 				item: {
@@ -906,14 +906,14 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "森林法杖"
+			title: "{ftbquests.chapter.09F33579334F2607.quest6356848959515641893.title}"
 			x: 1.0d
 			y: -4.0d
 		}
 		{
-			description: ["遇到不懂的问题可以好好看看这本书"]
+			description: ["{ftbquests.chapter.09F33579334F2607.quest4813431610612774428.description1}"]
 			id: "42CCBE8C1535F61C"
-			subtitle: "植物魔法教科书"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest4813431610612774428.subtitle}"
 			tasks: [{
 				id: "06C6CA8458F20210"
 				item: "botania:lexicon"
@@ -925,7 +925,7 @@
 		{
 			dependencies: ["257CFCFEE4F99D04"]
 			id: "3F7321AAB8DE3079"
-			subtitle: "注魔系列元件"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest4572035063840911481.subtitle}"
 			tasks: [{
 				id: "4768030EFF5870E2"
 				item: "kubejs:mana_resistor"
@@ -937,7 +937,7 @@
 		{
 			dependencies: ["4AB8CE1AF271F021"]
 			id: "353D5BC83F0AC9ED"
-			subtitle: "高级注魔系列元件"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest3836323373198789101.subtitle}"
 			tasks: [{
 				id: "503E1C04803B8AE4"
 				item: "kubejs:advanced_mana_transistor"
@@ -949,7 +949,7 @@
 		{
 			dependencies: ["002DD1BBAD2D049F"]
 			id: "29A976DE3BC32AD2"
-			subtitle: "工业时代"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest3002061323476609746.subtitle}"
 			tasks: [{
 				id: "50B23C8832458101"
 				item: "ctnhcore:mana_reactor"
@@ -962,7 +962,7 @@
 			id: "77961965EA86D0BF"
 			tasks: [{
 				id: "18B2B859195A4B79"
-				title: "精灵模板在艾尔夫海姆使用源质钢剑杀女巫获得"
+				title: "{ftbquests.chapter.09F33579334F2607.quest8617102862537117887.task.1779687495581715321.title}"
 				type: "checkmark"
 			}]
 			x: 24.0d
@@ -971,7 +971,7 @@
 		{
 			dependencies: ["783EE6889DD2C460"]
 			id: "0E0DFA3E505CDB54"
-			subtitle: "已被加强10倍魔力存储量！"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest1012740636771408724.subtitle}"
 			tasks: [{
 				id: "312AEDB38E3EC3F9"
 				item: "botania:fabulous_pool"
@@ -983,7 +983,7 @@
 		{
 			dependencies: ["012D04F8C8D62292"]
 			id: "5CBD492382663563"
-			subtitle: "它需要吞噬下界之星"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest6682577838948103523.subtitle}"
 			tasks: [{
 				id: "62D888B36EB79FB8"
 				item: "mythicbotany:wither_aconite"
@@ -995,7 +995,7 @@
 		{
 			dependencies: ["012D04F8C8D62292"]
 			id: "624C3E50891C8F25"
-			subtitle: "看样子你需要弄到一些潜影贝"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest7083104829565603621.subtitle}"
 			tasks: [{
 				id: "45664DE1D2B98116"
 				item: "botania:shulk_me_not"
@@ -1007,7 +1007,7 @@
 		{
 			dependencies: ["012D04F8C8D62292"]
 			id: "54055844D167421C"
-			subtitle: "销毁屠宰场产生的过量经验"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest6054342326663725596.subtitle}"
 			tasks: [{
 				id: "3365CF2A5AEECCB4"
 				item: "botania:rosa_arcana"
@@ -1019,7 +1019,7 @@
 		{
 			dependencies: ["2755F78FE5290FC2"]
 			id: "09AB5A78764CC3F7"
-			subtitle: "神"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest696750040786191351.subtitle}"
 			tasks: [{
 				id: "7381CFE03BF65333"
 				item: "ctnhcore:gaia_reactor"
@@ -1030,9 +1030,9 @@
 		}
 		{
 			dependencies: ["3997A8293A186F50"]
-			description: ["可以吸收3x3范围内的生命源质，并转化为魔力，其工作原理类似于炽玫瑰"]
+			description: ["{ftbquests.chapter.09F33579334F2607.quest5885657729452113362.description1}"]
 			id: "51AE0E8579867DD2"
-			subtitle: "更像是彼岸花"
+			subtitle: "{ftbquests.chapter.09F33579334F2607.quest5885657729452113362.subtitle}"
 			tasks: [{
 				id: "79F1C9EB2382F18E"
 				item: "ctnhcore:blood_antiaris"
@@ -1043,7 +1043,7 @@
 		}
 		{
 			dependencies: ["3997A8293A186F50"]
-			description: ["会消耗魔力伤害周围半径5格内的怪物，若将其杀死，则会提取其恶魔意志并释放与空气中。"]
+			description: ["{ftbquests.chapter.09F33579334F2607.quest4050974025083569566.description1}"]
 			id: "3837F369AF70C59E"
 			tasks: [{
 				id: "3892EB97C6335AEB"
@@ -1054,5 +1054,5 @@
 			y: 5.0d
 		}
 	]
-	title: "植物魔法"
+	title: "{ftbquests.chapter.09F33579334F2607.title}"
 }

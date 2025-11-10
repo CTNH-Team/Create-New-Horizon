@@ -50,13 +50,13 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "这是你上手本模组最好的工具"
+			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest1385136508119086098.subtitle}"
 			tasks: [{
 				id: "59F24DF7703134AE"
-				title: "阴影编年史"
+				title: "{ftbquests.chapter.046724C96F783FC2.quest1385136508119086098.task.6481328538874098862.title}"
 				type: "checkmark"
 			}]
-			title: "一段旅途的起点"
+			title: "{ftbquests.chapter.046724C96F783FC2.quest1385136508119086098.title}"
 			x: -0.5d
 			y: 0.0d
 		}
@@ -76,7 +76,7 @@
 		{
 			dependencies: ["47E83B3FF8355CCC"]
 			id: "2A9C751134DC1A4E"
-			subtitle: "下界系列书架"
+			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest3070457762721569358.subtitle}"
 			tasks: [{
 				id: "211B992781C85A51"
 				item: "apotheosis:hellshelf"
@@ -98,7 +98,7 @@
 		{
 			dependencies: ["47E83B3FF8355CCC"]
 			id: "6746637E7BE5AA2D"
-			subtitle: "海洋系列书架"
+			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest7441744829172001325.subtitle}"
 			tasks: [{
 				id: "4DBC50D6EDC94BE2"
 				item: "apotheosis:seashelf"
@@ -135,7 +135,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "附魔等级到达60以后，通过灌注附魔升级获得"
+			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest6990981761214593870.subtitle}"
 			tasks: [{
 				id: "14A11634C17D43D8"
 				item: "apotheosis:deepshelf"
@@ -244,7 +244,7 @@
 		}
 		{
 			dependencies: ["15F5B37127D13699"]
-			description: ["&m白璃的小礼物"]
+			description: ["{ftbquests.chapter.046724C96F783FC2.quest3090078428063263118.description1}"]
 			id: "2AE229F558CEE98E"
 			rewards: [{
 				count: 2
@@ -263,14 +263,14 @@
 		}
 		{
 			dependencies: ["2AE229F558CEE98E"]
-			description: ["    想要通过附魔台获得此魔咒，首先需要使最大附魔等级大于140（&e位阶&rx2x（1+&c量子化&r））,其次需要&5阿卡那&r尽可能的高，同时，还需要奥术宝藏深暗书架以解锁宝藏附魔。"]
+			description: ["{ftbquests.chapter.046724C96F783FC2.quest6628722070576829782.description1}"]
 			id: "5BFDF39A4B861556"
 			shape: "gear"
 			size: 1.0d
-			subtitle: "有了这个附魔。你就可以随意驰骋于宇宙之中了"
+			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest6628722070576829782.subtitle}"
 			tasks: [{
 				id: "68233A92F4015C0B"
-				title: "真空密封！"
+				title: "{ftbquests.chapter.046724C96F783FC2.quest6628722070576829782.task.7503905806962744331.title}"
 				type: "checkmark"
 			}]
 			x: 16.5d
@@ -451,7 +451,7 @@
 			id: "70EEEE7E5F39EDCC"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "利用精准采集II的工具可以采集获得"
+			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest8137703803235986892.subtitle}"
 			tasks: [{
 				id: "2616D43437FC37B5"
 				item: "minecraft:spawner"
@@ -533,7 +533,7 @@
 		}
 		{
 			dependencies: ["3B3F3B50CF1C343C"]
-			description: ["&m白璃的小礼物x2"]
+			description: ["{ftbquests.chapter.046724C96F783FC2.quest6126204094506150153.description1}"]
 			id: "5504A62A7A952909"
 			rewards: [{
 				count: 2
@@ -628,10 +628,10 @@
 		}
 		{
 			id: "481BEB39783A1A4A"
-			subtitle: "注：地球恩惠附魔将不会有任何作用"
+			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest5196005227164736074.subtitle}"
 			tasks: [{
 				id: "486CCED9102906F6"
-				title: "地球恩惠效果已被移除"
+				title: "{ftbquests.chapter.046724C96F783FC2.quest5196005227164736074.task.5218773499889911542.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -649,5 +649,5 @@
 			y: 4.0d
 		}
 	]
-	title: "神化"
+	title: "{ftbquests.chapter.046724C96F783FC2.title}"
 }

@@ -1,11 +1,11 @@
 {
 	chapter_groups: [
-		{ id: "045BDEA2D2692FE0", title: "α 实用技术" }
-		{ id: "203B37D7B3ACCD4B", title: "β 工业星火" }
-		{ id: "19912BEA87D24FE0", title: "θ 电力时代" }
-		{ id: "4CD84F8DB1FF8B7E", title: "λ 科技发展" }
-		{ id: "32DB92B5A6E4493B", title: "ψ 大魔导师" }
-		{ id: "4D1B16DFEF4B34DD", title: "μ 产能增幅" }
-		{ id: "2B1FA8C1F8DA2844", title: "τ 成就大厅" }
+		{ id: "045BDEA2D2692FE0", title: "{ftbquests.chapter_groups.314089389928558560.title}" }
+		{ id: "203B37D7B3ACCD4B", title: "{ftbquests.chapter_groups.2322511432411565387.title}" }
+		{ id: "19912BEA87D24FE0", title: "{ftbquests.chapter_groups.1842302008872292320.title}" }
+		{ id: "4CD84F8DB1FF8B7E", title: "{ftbquests.chapter_groups.5537263211847322494.title}" }
+		{ id: "32DB92B5A6E4493B", title: "{ftbquests.chapter_groups.3664684030682745147.title}" }
+		{ id: "4D1B16DFEF4B34DD", title: "{ftbquests.chapter_groups.5556059716339840221.title}" }
+		{ id: "2B1FA8C1F8DA2844", title: "{ftbquests.chapter_groups.3107387818966132804.title}" }
 	]
 }

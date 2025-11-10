@@ -3,5 +3,5 @@
 	loot_size: 1
 	order_index: 5
 	rewards: [ ]
-	title: "LUV奖励"
+	title: "{ftbquests.loot_table.846882859033216508.title}"
 }

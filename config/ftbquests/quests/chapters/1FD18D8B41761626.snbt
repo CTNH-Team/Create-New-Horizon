@@ -11,27 +11,27 @@
 		{
 			dependencies: ["2946049E78C9A182"]
 			description: [
-				"是的，亚尔夫海姆那堆蕴魔粉绝对有着我们难以理解的力量，既然我们已经统一了魔力，是时候纯化这些魔力了！"
-				"虽然有一点小麻烦，但是在&4恶魔科技&r的帮助下，没什么困难的！"
-				"&5（第一阶段其实不需要天顶源质，但你还是需要在IV阶段进行）&r"
+				"{ftbquests.chapter.1FD18D8B41761626.quest154354938967113366.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest154354938967113366.description2}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest154354938967113366.description3}"
 			]
 			id: "022460FFCA763E96"
 			shape: "circle"
 			size: 1.5d
-			subtitle: "究极魔力线开端"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest154354938967113366.subtitle}"
 			tasks: [{
 				id: "3DDAF18E5E827A2D"
 				item: "gtceu:mana_fused_dust"
 				type: "item"
 			}]
-			title: "折磨的开始"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest154354938967113366.title}"
 			x: 4.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["022460FFCA763E96"]
 			id: "643B14A93A2A1547"
-			subtitle: "分一分杂质"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest7222389144476587335.subtitle}"
 			tasks: [{
 				id: "127DC2988244C401"
 				item: "gtceu:mana_fused_mixed_dust"
@@ -43,7 +43,7 @@
 		{
 			dependencies: ["643B14A93A2A1547"]
 			id: "0E01AD0627C7DC87"
-			subtitle: "不沾一点血液"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest1009278033456520327.subtitle}"
 			tasks: [{
 				id: "43B6D94DAD297509"
 				item: "gtceu:mana_fused_lp_mixed_dust"
@@ -56,7 +56,7 @@
 			dependencies: ["0E01AD0627C7DC87"]
 			dependency_requirement: "one_completed"
 			id: "2D580EC0F98308F5"
-			subtitle: "这就是恶魔技术！"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest3267377751639918837.subtitle}"
 			tasks: [{
 				id: "0140A66B88A010BA"
 				item: "gtceu:mana_fused_demon_mixed_dust"
@@ -67,7 +67,7 @@
 		}
 		{
 			dependencies: ["2D580EC0F98308F5"]
-			description: ["是的，你成功获取了富集魔力锭，但这只是开始，你想试试这种物质的极限在哪里，也许极高的魔力浓度能让它显示出一些特殊的效应？"]
+			description: ["{ftbquests.chapter.1FD18D8B41761626.quest8735299088292847059.description1}"]
 			id: "793A043D3C7D1DD3"
 			rewards: [{
 				count: 32
@@ -75,7 +75,7 @@
 				item: "gtceu:mana_fused_dust"
 				type: "item"
 			}]
-			subtitle: "恭喜，但你只完成了第一步！"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest8735299088292847059.subtitle}"
 			tasks: [{
 				id: "3E127A4B3C054D74"
 				item: "gtceu:mana_plus_ingot"
@@ -87,7 +87,7 @@
 		{
 			dependencies: ["793A043D3C7D1DD3"]
 			id: "11E7A04526A80439"
-			subtitle: "注魔，注魔"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest1290176037126669369.subtitle}"
 			tasks: [{
 				id: "21CB1691B4D53C82"
 				item: "gtceu:mana_unstable_plus_dust"
@@ -98,9 +98,9 @@
 		}
 		{
 			dependencies: ["11E7A04526A80439"]
-			description: ["你再把这玩意扔魔力反应器恐怕你的基地要上天了，用土法老方来解决吧:XD"]
+			description: ["{ftbquests.chapter.1FD18D8B41761626.quest6327186243176113522.description1}"]
 			id: "57CEAE5D84402572"
-			subtitle: "太有魔法了"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest6327186243176113522.subtitle}"
 			tasks: [{
 				id: "18A170147B873D26"
 				item: "gtceu:mana_infused_plus_dust"
@@ -112,7 +112,7 @@
 		{
 			dependencies: ["57CEAE5D84402572"]
 			id: "0B1DD6CF9FC1B153"
-			subtitle: "给他稳定一下"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest801032495968661843.subtitle}"
 			tasks: [{
 				id: "128136843E1A6DF4"
 				item: "gtceu:mana_stable_plus_dust"
@@ -124,8 +124,8 @@
 		{
 			dependencies: ["0B1DD6CF9FC1B153"]
 			description: [
-				"好吧，你眼前的这个锭是在.....跳动吗？你不太好形容，不过你确实做到了，你把大量魔力灌注在里面，成功制作了这种高能锭"
-				"&6也许你把它丢进水里，能炸出一个非常好看的水花！&r"
+				"{ftbquests.chapter.1FD18D8B41761626.quest4201327793257576934.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest4201327793257576934.description2}"
 			]
 			id: "3A4E1D5E4E17F9E6"
 			rewards: [{
@@ -134,7 +134,7 @@
 				item: "gtceu:mana_plus_ingot"
 				type: "item"
 			}]
-			subtitle: "这只是一个中间过程"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest4201327793257576934.subtitle}"
 			tasks: [{
 				id: "7C61B5C4AD17B8CC"
 				item: "gtceu:mana_super_plus_ingot"
@@ -146,7 +146,7 @@
 		{
 			dependencies: ["3A4E1D5E4E17F9E6"]
 			id: "3E4085419CE0ADB1"
-			subtitle: "把我们能想到的所有东西丢进去，就是这样！"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest4485731745712352689.subtitle}"
 			tasks: [{
 				id: "6D46D146C4A512FC"
 				item: "gtceu:unknown_super_mana_dust"
@@ -158,7 +158,7 @@
 		{
 			dependencies: ["3E4085419CE0ADB1"]
 			id: "349F87134F6B153F"
-			subtitle: "魔力盖革指示器嗡嗡作响"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest3791897928275793215.subtitle}"
 			tasks: [{
 				id: "328AE3DDC08D9528"
 				item: "gtceu:twist_mana_dust"
@@ -170,7 +170,7 @@
 		{
 			dependencies: ["349F87134F6B153F"]
 			id: "11BB717A9D64F679"
-			subtitle: "你完全弄不懂这个的分子结构了......"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest1277739690730255993.subtitle}"
 			tasks: [{
 				id: "3C8A23A61FA2FC3B"
 				item: "gtceu:twist_power_mana_dust"
@@ -182,7 +182,7 @@
 		{
 			dependencies: ["11BB717A9D64F679"]
 			id: "130A19F7C214261C"
-			subtitle: "都让开，要炸了！"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest1371937588391454236.subtitle}"
 			tasks: [{
 				id: "362E7CEA9551D3F8"
 				item: "kubejs:encapsulated_twist_mana"
@@ -194,14 +194,14 @@
 		{
 			dependencies: ["130A19F7C214261C"]
 			description: [
-				"是的，你终于，制成了这种&1终极魔力&r。它在你的手中跳动，是如此的完美。空间也为之颤动，魔力的立场自这个锭散开....."
+				"{ftbquests.chapter.1FD18D8B41761626.quest5787430818319219685.description1}"
 				""
-				"过量魔力和放射性物质的注入却得到了这么一个完美的物质.....稳定，而又富含能量，连空间都要为你的奇迹让步......这绝对是你法师历史上最伟大的一笔。"
+				"{ftbquests.chapter.1FD18D8B41761626.quest5787430818319219685.description2}"
 				""
-				"那么是时候了，开始你的&1终极魔力飞升了&r。现在，让那群原始人精灵看看什么才是真正的奥术魔法"
+				"{ftbquests.chapter.1FD18D8B41761626.quest5787430818319219685.description3}"
 			]
 			id: "505115AA8810BBE5"
-			subtitle: "结束了？"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest5787430818319219685.subtitle}"
 			tasks: [{
 				id: "595FDC11A1BB3987"
 				item: "gtceu:ultra_mana_ingot"
@@ -213,13 +213,13 @@
 		{
 			dependencies: ["505115AA8810BBE5"]
 			id: "398E09D8112F81E1"
-			subtitle: "试试扭曲聚变吧！"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest4147263130460717537.subtitle}"
 			tasks: [{
 				id: "65F53323DD4FB014"
 				item: "gtceu:mana_radiation_mixture_bucket"
 				type: "item"
 			}]
-			title: "快捷产究极魔力方法"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest4147263130460717537.title}"
 			x: 15.5d
 			y: 5.0d
 		}
@@ -230,34 +230,34 @@
 				"055C47EC41367A36"
 			]
 			description: [
-				"终于，在研究了这么多魔法之后，你已经初步搞懂了这些魔法的本质——&4无论是血魔法，植物魔法，还是附魔魔法，他们本质都是那种物质——对，就是魔力！&r"
+				"{ftbquests.chapter.1FD18D8B41761626.quest2974069682602615170.description1}"
 				""
-				"额，这样说是不是有点蠢？不管了，反正你发现，这些魔法本质上都是一套通用魔力系统的各种分支。如果把这些魔法结合起来，你也许就能获得更加强大的魔法了！"
+				"{ftbquests.chapter.1FD18D8B41761626.quest2974069682602615170.description2}"
 				""
-				"既然我们已经征服泰拉，那我们就将目标定在那&5天顶&r吧！"
+				"{ftbquests.chapter.1FD18D8B41761626.quest2974069682602615170.description3}"
 			]
 			id: "2946049E78C9A182"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "魔力大一统！"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest2974069682602615170.subtitle}"
 			tasks: [{
 				id: "45AD3D942D22D283"
 				item: "gtceu:zenith_essence_bucket"
 				type: "item"
 			}]
-			title: "飞升的开始"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest2974069682602615170.title}"
 			x: 1.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["505115AA8810BBE5"]
 			description: [
-				"这真的是聚变吗？粒子在这台机器中颤动，随你心愿地扭曲成各种物质.....它们甚至可以按照字母来进行随意组合.....你完全无法理解它的工作方式."
+				"{ftbquests.chapter.1FD18D8B41761626.quest1133722246112132636.description1}"
 				""
-				"你对这台机器还不够完善，所以你还不能进行更高能量的聚变，未来这台机器的改进版也许可以让你彻底领悟这台机器的奥妙"
+				"{ftbquests.chapter.1FD18D8B41761626.quest1133722246112132636.description2}"
 			]
 			id: "0FBBCA604978BE1C"
-			subtitle: "我们无法理解物质在里面究竟发生了什么"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest1133722246112132636.subtitle}"
 			tasks: [{
 				id: "078E8177E722D0E6"
 				item: "ctnhcore:twisted_fusion_mk1"
@@ -269,7 +269,7 @@
 		{
 			dependencies: ["2946049E78C9A182"]
 			id: "138EAB42F677E309"
-			subtitle: "BoTania:New Horizen"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest1409252037504787209.subtitle}"
 			tasks: [{
 				id: "4337258D7941F9EC"
 				item: "ctnhcore:horizen_rune"
@@ -281,7 +281,7 @@
 		{
 			dependencies: ["2946049E78C9A182"]
 			id: "4F195BAE507ADF5D"
-			subtitle: "Per aspera ad astra"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest5699687607646740317.subtitle}"
 			tasks: [{
 				id: "146D2DB4D6834D17"
 				item: "ctnhcore:starlight_rune"
@@ -293,7 +293,7 @@
 		{
 			dependencies: ["2946049E78C9A182"]
 			id: "4A9C29237B3606F7"
-			subtitle: "速度与人性的扭曲"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest5376217287541262071.subtitle}"
 			tasks: [{
 				id: "7330E5DED9726568"
 				item: "ctnhcore:twist_rune"
@@ -305,7 +305,7 @@
 		{
 			dependencies: ["2946049E78C9A182"]
 			id: "25F5C44403382FC0"
-			subtitle: "生物和金融最原初的渴望"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest2735308145088278464.subtitle}"
 			tasks: [{
 				id: "282801EBD39A0BB4"
 				item: "ctnhcore:proliferation_rune"
@@ -322,10 +322,10 @@
 				"138EAB42F677E309"
 				"2B89ABEE85CE3532"
 			]
-			description: ["符文的力量过于强大，以至于你几乎完全无法利用它......"]
+			description: ["{ftbquests.chapter.1FD18D8B41761626.quest6716981416780892291.description1}"]
 			id: "5D378302AE200883"
 			size: 2.0d
-			subtitle: "毁灭即为创造"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest6716981416780892291.subtitle}"
 			tasks: [{
 				id: "7BE68D46F0E9BDDB"
 				item: "ctnhcore:quasar_rune"
@@ -336,9 +336,9 @@
 		}
 		{
 			dependencies: ["505115AA8810BBE5"]
-			description: ["这时候叫类星体完全不现实，你只是起了一个很厉害的名字而已，它其实只是硅岩线圈的升级版"]
+			description: ["{ftbquests.chapter.1FD18D8B41761626.quest7063183554102505776.description1}"]
 			id: "6205780525A93130"
-			subtitle: "盗版类星体"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest7063183554102505776.subtitle}"
 			tasks: [{
 				id: "47AE21F787CD1C48"
 				item: "ctnhcore:ulta_mana_coil_block"
@@ -350,19 +350,19 @@
 		{
 			dependencies: ["6205780525A93130"]
 			description: [
-				"在经历114514次失败后，你终于完成了你的疯狂作品：你把1亿亿的魔力灌注到了一个方块里面，企图利用魔力的现实扭曲能力获得永恒的力量和能源，你成功了！但是似乎事情不是向你想的那样"
+				"{ftbquests.chapter.1FD18D8B41761626.quest8639817260949098733.description1}"
 				""
-				"无数的能量喷涌而来，好在你针对魔力的类星体外壳仍然能让结构保持稳定。你看到了一样东西：类星体，星系的核心。但是这并不是你制作出来的，你打开了一扇大门，这扇大门直通亚尔夫海姆恒星系的中心"
+				"{ftbquests.chapter.1FD18D8B41761626.quest8639817260949098733.description2}"
 				""
-				"那里有无数的魔力，无数的能量，你改进了那扇门，现在你可以把燃料经过一些巧妙的方式投入类星体，然后转化成你能使用的能量，这几乎是对燃料的99%利用，甚至在哪些气体流里面你发现你燃料的重大损失"
+				"{ftbquests.chapter.1FD18D8B41761626.quest8639817260949098733.description3}"
 				""
-				"或者你也可以扩大大门，将一切庸俗魔力之物丢进，企图辰星给与你无尽的能量"
+				"{ftbquests.chapter.1FD18D8B41761626.quest8639817260949098733.description4}"
 				""
-				"&4那群没脑子的精灵还在彩虹桥上拿魔力玩他们的无聊神明过家家，真正的魔法使早已经领悟到科技与魔力结合的真谛&r"
+				"{ftbquests.chapter.1FD18D8B41761626.quest8639817260949098733.description5}"
 			]
 			id: "77E6CC05EB28D0ED"
 			size: 2.0d
-			subtitle: "打开大门"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest8639817260949098733.subtitle}"
 			tasks: [{
 				id: "6E047BF6E84B92CC"
 				item: "ctnhcore:eye_of_quasar"
@@ -378,10 +378,10 @@
 				"5C25C08B7402366E"
 			]
 			dependency_requirement: "one_completed"
-			description: ["精灵精炼厂相比于普通的配方有着更好的产率和无损超频，但是并不代表你不可以再使用魔力反应器来产燃料"]
+			description: ["{ftbquests.chapter.1FD18D8B41761626.quest6286292086579387061.description1}"]
 			id: "573D6558B6E9DAB5"
 			size: 1.5d
-			subtitle: "开始精炼你的燃料吧！"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest6286292086579387061.subtitle}"
 			tasks: [{
 				id: "618C3088E8BDE88C"
 				item: "ctnhcore:magic_fuel_generator"
@@ -393,7 +393,7 @@
 		{
 			dependency_requirement: "one_started"
 			id: "51C5F938AB8D5F73"
-			subtitle: "这个其实不需要精炼厂就能用"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest5892389709275815795.subtitle}"
 			tasks: [{
 				id: "12B0D2EB13E934A4"
 				item: "gtceu:elf_active_fuel_bucket"
@@ -414,7 +414,7 @@
 		}
 		{
 			id: "5C25C08B7402366E"
-			subtitle: "比魔力稍微好一点，组成其实都是精灵世界的空气组成"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest6639924930806953582.subtitle}"
 			tasks: [{
 				id: "22B943FA252E83D3"
 				item: "gtceu:elf_fuel_bucket"
@@ -427,7 +427,7 @@
 			dependencies: ["573D6558B6E9DAB5"]
 			hide_details_until_startable: true
 			id: "12C8D92392C3372E"
-			subtitle: "便宜的合成材料"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest1353570434834183982.subtitle}"
 			tasks: [{
 				id: "55B9157CC316C4BC"
 				item: "gtceu:blood_fuel_bucket"
@@ -439,7 +439,7 @@
 		{
 			dependencies: ["12C8D92392C3372E"]
 			id: "11EF3B1D40A11CBD"
-			subtitle: "可循环燃料！适合给超级懒人用"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest1292316614903012541.subtitle}"
 			tasks: [{
 				id: "43A13CFDEE4E962D"
 				item: "gtceu:blood_fuel_active_bucket"
@@ -462,7 +462,7 @@
 		{
 			dependencies: ["2EC83F16FBFE1C74"]
 			id: "09A592A17FB59C3E"
-			subtitle: "精炼后发电更优质！"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest695122939828608062.subtitle}"
 			tasks: [{
 				id: "51FB3B7744D74CDE"
 				item: "gtceu:starlight_fuel_active_bucket"
@@ -474,7 +474,7 @@
 		{
 			dependencies: ["573D6558B6E9DAB5"]
 			id: "4E941FACDD388ACD"
-			subtitle: "无论是原质还是激发都很不错"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest5662185458817862349.subtitle}"
 			tasks: [{
 				id: "696FB4A34E0B0662"
 				item: "gtceu:mana_up_fuel_bucket"
@@ -497,7 +497,7 @@
 		{
 			dependencies: ["573D6558B6E9DAB5"]
 			id: "13269998C6FC824A"
-			subtitle: "超级燃料"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest1379959217288151626.subtitle}"
 			tasks: [{
 				id: "7DB1AEFC11F47C0F"
 				item: "gtceu:star_fuel_bucket"
@@ -510,7 +510,7 @@
 			dependencies: ["13269998C6FC824A"]
 			dependency_requirement: "all_started"
 			id: "6BAC103C397BD1C9"
-			subtitle: "ZPM/UV/UHV究极燃料"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest7758594108901020105.subtitle}"
 			tasks: [{
 				id: "54E8A2CAD2119BF0"
 				item: "gtceu:star_fuel_active_bucket"
@@ -527,7 +527,7 @@
 				item: "gtceu:star_fuel_exhausted_bucket"
 				type: "item"
 			}]
-			title: "回收燃料，可以获得一些老燃料"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest4410426193392521264.title}"
 			x: 11.5d
 			y: 6.0d
 		}
@@ -539,14 +539,14 @@
 				item: "gtceu:star_fuel_exhausted_bucket"
 				type: "item"
 			}]
-			title: "留下燃料，进入终极燃料线"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest5829189603227134602.title}"
 			x: 13.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["50E5710F4CC0EA8A"]
 			id: "484BB98965D48FBF"
-			subtitle: "还没做"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest5209461393754197951.subtitle}"
 			tasks: [{
 				id: "016E6B52CEAD9FE6"
 				item: "gtceu:agn_fuel_bucket"
@@ -573,19 +573,19 @@
 				"57B52F859023B1C5"
 			]
 			description: [
-				"利用类星体符文的力量，你成功复现了这伟大的创造——一个利用魔力制成的恒星的超级装置"
+				"{ftbquests.chapter.1FD18D8B41761626.quest8832542085541002249.description1}"
 				""
-				"好吧，我承认，这种能量还不足以达到恒星级别，但是这种极高浓度带来的魔力的现实扭曲效应倒给了你不少方便——你现在可以一步完成以前繁琐的魔力步骤，或者把那些可恶的不纯硅岩变成纯的"
+				"{ftbquests.chapter.1FD18D8B41761626.quest8832542085541002249.description2}"
 				""
-				"至于另一个作用......你把它瞄准了那浩瀚的星空。"
+				"{ftbquests.chapter.1FD18D8B41761626.quest8832542085541002249.description3}"
 				""
-				"那里还有一个永恒的敌人，当它来临之时，我们将让它们领略戴森光束的光芒"
+				"{ftbquests.chapter.1FD18D8B41761626.quest8832542085541002249.description4}"
 				""
-				"&4以前我们只是威慑下的渺小虫子，现在我们就是威慑本身&r"
+				"{ftbquests.chapter.1FD18D8B41761626.quest8832542085541002249.description5}"
 			]
 			id: "7A937E3AE05BFC09"
 			size: 2.0d
-			subtitle: "魔力恒星聚焦装置——我们应该把重点放在“魔力恒星”还是“聚焦”？"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest8832542085541002249.subtitle}"
 			tasks: [{
 				id: "556C251FB762ABCD"
 				item: "ctnhcore:nicoll_dyson_beams"
@@ -595,25 +595,25 @@
 			y: 5.0d
 		}
 		{
-			description: ["你在花朵中发现了大量的这种.....魔力，也许你能利用花朵将其收集，用于魔导之中"]
+			description: ["{ftbquests.chapter.1FD18D8B41761626.quest4801197584388246427.description1}"]
 			id: "42A147C3E1ECCB9B"
-			subtitle: "植物魔法的开端"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest4801197584388246427.subtitle}"
 			tasks: [{
 				id: "2CA14AB2B9DE10AE"
 				item: "botania:pure_daisy"
 				type: "item"
 			}]
-			title: "植物灵气"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest4801197584388246427.title}"
 			x: -9.5d
 			y: 4.0d
 		}
 		{
 			description: [
-				"通过对植物魔力和魔源的研究，你意识到这种名为“魔力”的存在也许存在于世间万物之中，并且在生物体内展现出非凡的活性......&4那么如果我们把生物体本身拿来产魔呢？"
-				"&r&4他们也许不理解，但他们必须服从"
+				"{ftbquests.chapter.1FD18D8B41761626.quest8084347567075916656.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest8084347567075916656.description2}"
 			]
 			id: "70315F47905A7B70"
-			subtitle: "血魔法的开端"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest8084347567075916656.subtitle}"
 			tasks: [{
 				id: "448FF94664963DA4"
 				item: {
@@ -623,14 +623,14 @@
 				}
 				type: "item"
 			}]
-			title: "必要的牺牲"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest8084347567075916656.title}"
 			x: -9.5d
 			y: 8.0d
 		}
 		{
-			description: ["这本破旧的笔记本给了还未进入工业化时代的你很多灵感，也许利用世界中存在的魔源，你就可以在前期搭建自动化产线"]
+			description: ["{ftbquests.chapter.1FD18D8B41761626.quest2972061679655664624.description1}"]
 			id: "293EE259DA6D3BF0"
-			subtitle: "新生魔艺"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest2972061679655664624.subtitle}"
 			tasks: [{
 				id: "69E0A4AB6A39A886"
 				item: "ars_nouveau:worn_notebook"
@@ -642,11 +642,11 @@
 		{
 			dependencies: ["42A147C3E1ECCB9B"]
 			description: [
-				"通过精灵的技术，你终于掌握了这种金属："
-				"这种金属的蕴魔量也许没有盖亚魂锭高，但是它的&9魔力承载力&r却远优于你的不锈钢或者其他魔力材料，也许使用这种金属就可以制作一些使用&9高浓度魔力&r的机器？"
+				"{ftbquests.chapter.1FD18D8B41761626.quest1958843854923769890.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest1958843854923769890.description2}"
 			]
 			id: "1B2F361B8F302822"
-			subtitle: "坚韧的载魔容器"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest1958843854923769890.subtitle}"
 			tasks: [{
 				id: "3A3AEA90BBE4EE9F"
 				item: "mythicbotany:alfsteel_ingot"
@@ -658,14 +658,14 @@
 		{
 			dependencies: ["1B2F361B8F302822"]
 			description: [
-				"从你刚拿起活木法杖的那一刻，身为三体战争前格雷星际公司机械动力分部的优秀员工你就一直在思考一个问题：这个魔力到底能不能自动化？"
-				"事实是肯定的，魔力反应器（Mana Reactor,向电高学习总不能叫MR吧）是一座巨型工业化魔力自动处理机器，你只要把魔力以液态形式注入机器中，魔力在机器罐内就可以自动反应。毫无疑问，这将成为你魔导事业中伟大的一步"
-				"当然这台机器还是有缺陷的，比如你仍然无法找到高效量产精灵钢的方法。&1也许我们其实还缺少了什么东西？"
+				"{ftbquests.chapter.1FD18D8B41761626.quest150800008792215133.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest150800008792215133.description2}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest150800008792215133.description3}"
 			]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			id: "0217BFCF1C2F8E5D"
-			subtitle: "工业时代"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest150800008792215133.subtitle}"
 			tasks: [{
 				id: "06A4C2EC0CDD83F2"
 				item: "ctnhcore:mana_reactor"
@@ -677,37 +677,37 @@
 		{
 			dependencies: ["0217BFCF1C2F8E5D"]
 			description: [
-				"终于，通过某些&4邪恶的仪式&r你逆向了精灵门传送技术，准备给精灵们来点小小的工业时代震撼。"
-				"但是，当你真正进入这个世界中,才发现这里除了疯了的精灵之外似乎已无人烟。"
-				"当然你不在乎这个，至少你发生这里的空气还挺值得抽，而且这里拥有着一种蕴含着丰富魔力的矿石-&b蕴魔矿&r"
-				"你现在没法处理这个玩意，但是你可以粗暴的粉碎它，把它扔进你的催化剂或者机器中"
+				"{ftbquests.chapter.1FD18D8B41761626.quest9192318273870202503.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest9192318273870202503.description2}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest9192318273870202503.description3}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest9192318273870202503.description4}"
 			]
 			id: "7F91ACC4605D8687"
-			subtitle: "精灵世界有没有毁灭管我什么事，毁灭这东西能自动化吗？"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest9192318273870202503.subtitle}"
 			tasks: [{
 				id: "6A9F65D4C2E0F7F9"
 				item: "gtceu:raw_mana_fused"
 				type: "item"
 			}]
-			title: "废墟与蕴魔"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest9192318273870202503.title}"
 			x: -3.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7F91ACC4605D8687"]
 			description: [
-				"以往的研究表明你对魔力的利用率不到1%%——当然这群花比你还低"
+				"{ftbquests.chapter.1FD18D8B41761626.quest2057327972247131753.description1}"
 				""
-				"但是精灵的研究表明：如果给产魔花提供适当的环境，那么它的产魔效率就能大幅提高。"
+				"{ftbquests.chapter.1FD18D8B41761626.quest2057327972247131753.description2}"
 				""
-				"&9那么就给它们创造一个完美的环境吧，为了工业化这只是微不足道的代价&r"
+				"{ftbquests.chapter.1FD18D8B41761626.quest2057327972247131753.description3}"
 				""
-				"&4永恒之花的核心只能通过任务获得，想量产这个巨构你要等到UV了&r"
+				"{ftbquests.chapter.1FD18D8B41761626.quest2057327972247131753.description4}"
 			]
 			id: "1C8D18E3FC43D669"
 			shape: "square"
 			size: 1.5d
-			subtitle: "永恒之花"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest2057327972247131753.subtitle}"
 			tasks: [{
 				id: "7B348F99DD55B811"
 				item: "ctnhcore:eternal_garden"
@@ -718,8 +718,8 @@
 		}
 		{
 			description: [
-				"这个东西可能是百年前精灵的&a彩虹桥战争&r中某位神明留下的东西，现在你需要一点花一点资源，并请我喝一杯来换取它"
-				"&4附赠的材料清单可以让你更好的收集材料，别看JEI,JEI丢了大量方块&r"
+				"{ftbquests.chapter.1FD18D8B41761626.quest4504416659343156433.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest4504416659343156433.description2}"
 			]
 			icon: "kubejs:heart_of_flower"
 			id: "3E82E716148024D1"
@@ -771,13 +771,13 @@
 					type: "item"
 				}
 			]
-			title: "没法量产，至少有一个"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest4504416659343156433.title}"
 			x: -3.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["3E82E716148024D1"]
-			description: ["但你可以花一些&4便宜材料&r跟我换，这个很划算，不是吗("]
+			description: ["{ftbquests.chapter.1FD18D8B41761626.quest8905676194698242628.description1}"]
 			hide_text_until_complete: false
 			id: "7B97515095A42A44"
 			rewards: [
@@ -836,7 +836,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "不是？这花园材料是不是有些离谱了？"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest8905676194698242628.subtitle}"
 			tasks: [
 				{
 					consume_items: true
@@ -870,7 +870,7 @@
 							value: "botania:mystical_flowers"
 						}
 					}
-					title: "Any #botania:mystical_flowers"
+					title: "{ftbquests.chapter.1FD18D8B41761626.quest8905676194698242628.task.700220998605343371.title}"
 					type: "item"
 				}
 				{
@@ -890,24 +890,24 @@
 							value: "gtceu:circuits/hv"
 						}
 					}
-					title: "Any #gtceu:circuits/hv"
+					title: "{ftbquests.chapter.1FD18D8B41761626.quest8905676194698242628.task.5095570243872347895.title}"
 					type: "item"
 				}
 			]
-			title: "过于昂贵的环境"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest8905676194698242628.title}"
 			x: -5.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1C8D18E3FC43D669"]
 			description: [
-				"有些公式比较麻烦，你也许需要去让AI给你分析一下，或者问万能的群友"
-				"以及多看任务书，我都把核心放进任务书里你总不能还不看吧？"
+				"{ftbquests.chapter.1FD18D8B41761626.quest7750737290108736693.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest7750737290108736693.description2}"
 			]
 			id: "6B9026800C4E14B5"
 			tasks: [{
 				id: "4B11DD56119453E5"
-				title: "花朵养殖第一课：学会看任务书和问AI"
+				title: "{ftbquests.chapter.1FD18D8B41761626.quest7750737290108736693.task.5409347989180535781.title}"
 				type: "checkmark"
 			}]
 			x: -3.5d
@@ -922,7 +922,7 @@
 				item: "kubejs:bauxite_process_catalyst"
 				type: "item"
 			}]
-			subtitle: "你会需要它的，顺便还你你的铝土催化剂"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest1275502383503727300.subtitle}"
 			tasks: [{
 				id: "62A169CAD8227356"
 				item: "kubejs:elf_catalyst"
@@ -933,9 +933,9 @@
 		}
 		{
 			dependencies: ["6B9026800C4E14B5"]
-			description: ["初始并行为8，电压每比HV高一级，就增加4并行"]
+			description: ["{ftbquests.chapter.1FD18D8B41761626.quest4637262837367929045.description1}"]
 			id: "405ADDFB376F78D5"
-			subtitle: "最简单的模型"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest4637262837367929045.subtitle}"
 			tasks: [{
 				id: "55357AC4ED0A195E"
 				item: "botania:hydroangeas"
@@ -947,17 +947,17 @@
 		{
 			dependencies: ["6B9026800C4E14B5"]
 			description: [
-				"彼方兰并没有想象中的那么狼吞虎咽，其实它是一朵绅士花，讲究营养均衡。"
-				"喂食彼方兰的物品都有其&4营养值&r。营养值并不会显性显示，而是根据（食物回复饥饿值+饱和度/2）来计算其营养值"
-				"彼方兰非常挑食，在对其的最近5次喂食中，每有一个重复营养值的食物，它的产出就会下降 公式为：最终产出乘以 1-重复的食物数量^2*0.05"
-				"彼方兰的营养均衡表示为：最近五次喂食中的营养值之和为64为最佳（x1+x2+x3+x4+x5=64）"
-				"如果营养值之和等于64，则拥有8倍的产出和翻倍的运行速度"
-				"如果营养值之和低于64，则最终产出乘以 1+7*（营养值之和/64）"
-				"如果营养值之和大于64，则拥有8倍的最终产出，但是运行时间乘以(1+0.1*（营养值之和-64）)"
-				"彼方兰的并行为8，其无论多少并行都只计算一次营养值"
+				"{ftbquests.chapter.1FD18D8B41761626.quest4308634133816655300.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest4308634133816655300.description2}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest4308634133816655300.description3}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest4308634133816655300.description4}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest4308634133816655300.description5}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest4308634133816655300.description6}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest4308634133816655300.description7}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest4308634133816655300.description8}"
 			]
 			id: "3BCB57EAA543BDC4"
-			subtitle: "营养均衡"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest4308634133816655300.subtitle}"
 			tasks: [{
 				id: "077B86C7ECD102DA"
 				item: "botania:gourmaryllis"
@@ -969,13 +969,13 @@
 		{
 			dependencies: ["6B9026800C4E14B5"]
 			description: [
-				"与核堆有异曲同工之妙，火红莲在吃掉燃料时可以堆热，其产魔效率将乘以sqrt(-(12500-当前热量)^2+12501^2)/100"
-				"这个公式表明你必须把温度控制在12500K上下，否则你的产能都会受到影响。"
-				"幸运的是，在每次配方执行前，你可以输入100mb极寒之凌冰来降温1000K,我同样准备了24号电路板的空配方来帮你降温"
-				"火红莲的并行为8，并行不影响堆热和降温"
+				"{ftbquests.chapter.1FD18D8B41761626.quest6329388566983109781.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest6329388566983109781.description2}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest6329388566983109781.description3}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest6329388566983109781.description4}"
 			]
 			id: "57D6815DFC726C95"
-			subtitle: "热力发“电”"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest6329388566983109781.subtitle}"
 			tasks: [{
 				id: "470C67AB74A913F0"
 				item: "botania:endoflame"
@@ -987,12 +987,12 @@
 		{
 			dependencies: ["6B9026800C4E14B5"]
 			description: [
-				"没有什么比这朵花更简单粗暴了——吃掉下界之星，运行超长时间，产出大量魔力"
-				"我嘞个去这花怎么会给人造成伤害"
-				"具有4并行"
+				"{ftbquests.chapter.1FD18D8B41761626.quest7635038892200561882.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest7635038892200561882.description2}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest7635038892200561882.description3}"
 			]
 			id: "69F51B6B97E80CDA"
-			subtitle: "轮椅——但是带凋零！"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest7635038892200561882.subtitle}"
 			tasks: [{
 				id: "576D371A970DF17F"
 				item: "mythicbotany:wither_aconite"
@@ -1004,31 +1004,31 @@
 		{
 			dependencies: ["6B9026800C4E14B5"]
 			description: [
-				"从59废墟走出来的雨德花已经变得强大无比，它能在雷雨天召唤闪电之力轰击花园，然后一次性获取巨量魔力。"
-				"当然这朵花的电压需求非常的高，如果你没有这么高的电压，只能使用那个普通配方了"
-				"12号电路板配方：召唤一次雷电，产出100000ml 液态魔力，只能在雷雨天使用"
-				"24号电路板配方：一般情况下产出10ml魔力，在下雨天产出200ml魔力，在雷雨天产出800ml魔力"
+				"{ftbquests.chapter.1FD18D8B41761626.quest2901861331237524363.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest2901861331237524363.description2}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest2901861331237524363.description3}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest2901861331237524363.description4}"
 			]
 			id: "28457B818BDAD38B"
-			subtitle: "闪电之力"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest2901861331237524363.subtitle}"
 			tasks: [{
 				id: "277882B7B3951D1C"
 				item: "mythicbotany:raindeletia"
 				type: "item"
 			}]
-			title: "雷德花"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest2901861331237524363.title}"
 			x: -1.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["6B9026800C4E14B5"]
 			description: [
-				"&4这朵花疯了&r它竟然会吃同类，它会检测所有有花朵标签的花，然后把它们吃掉"
-				"不过你不用担心它会很危险，每次它都有1*吃掉的其他花朵数%把自己给吃掉"
-				"(未来时装）"
+				"{ftbquests.chapter.1FD18D8B41761626.quest7600964751574187063.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest7600964751574187063.description2}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest7600964751574187063.description3}"
 			]
 			id: "697C0D2B7FD83C37"
-			subtitle: "狂花日记"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest7600964751574187063.subtitle}"
 			tasks: [{
 				id: "3991069812F55877"
 				item: "botania:munchdew"
@@ -1040,25 +1040,25 @@
 		{
 			dependencies: ["6B9026800C4E14B5"]
 			description: [
-				"炽玫瑰有着与水绣球一样的计算公式，只是改成了吃岩浆"
-				"&4坏消息：炽玫瑰还会额外点燃周围的一切掉落物，最好不要把你的CT洗矿机放旁边"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3520514749607195867.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3520514749607195867.description2}"
 			]
 			id: "30DB618324DC34DB"
-			subtitle: "升级版水绣球"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest3520514749607195867.subtitle}"
 			tasks: [{
 				id: "1EE57E9497EC1AAC"
 				item: "botania:thermalily"
 				type: "item"
 			}]
-			title: "火绣球"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest3520514749607195867.title}"
 			x: -3.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["57A04137E648CACD"]
-			description: ["多么美丽的宝石，虽然相对于植物魔法的工业魔力储存器来说其效果还是较弱。但也许在未来会有其独特的作用"]
+			description: ["{ftbquests.chapter.1FD18D8B41761626.quest7298587857428953891.description1}"]
 			id: "6549CAFC9C083B23"
-			subtitle: "神奇的存在"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest7298587857428953891.subtitle}"
 			tasks: [{
 				id: "7DC373A436ED98A8"
 				item: "ars_nouveau:source_gem_block"
@@ -1073,12 +1073,12 @@
 				"0217BFCF1C2F8E5D"
 			]
 			description: [
-				"盖亚守护者会在你启动盖亚仪式中作为考验与你作战.....嗯......听起来就像&4一台自动化机器？&r"
-				"好吧，如果我们能对召唤仪式做点手脚，就可以在不召唤出其本体的情况下源源不断地抽走它的力量......这个过程也许最后能达到&4零成本&r"
+				"{ftbquests.chapter.1FD18D8B41761626.quest699402256998063071.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest699402256998063071.description2}"
 			]
 			hide_details_until_startable: false
 			id: "09B4C6A5AB79DBDF"
-			subtitle: "盖亚保护协会表示谴责"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest699402256998063071.subtitle}"
 			tasks: [{
 				id: "5E67E5ADDE66A448"
 				item: "ctnhcore:gaia_reactor"
@@ -1090,38 +1090,38 @@
 		{
 			dependencies: ["70315F47905A7B70"]
 			description: [
-				"作为血法师的你必须考虑这个问题：哪里去弄到这么多源质？"
-				"本篇的分支章节将给你提供一些可行的方案，&1但你也可以自己去研究一些高效产源质方案&r"
-				"（哦，忘了，你还需要巨量的黑钢，希望你已经升级了你的土高炉）"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3322505160387731654.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3322505160387731654.description2}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3322505160387731654.description3}"
 			]
 			id: "2E1BE8D7095020C6"
-			subtitle: "更多，更多！"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest3322505160387731654.subtitle}"
 			tasks: [{
 				id: "5645781F78F8E2AE"
 				item: "bloodmagic:altar"
 				type: "item"
 			}]
-			title: "需要大量的源质！"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest3322505160387731654.title}"
 			x: -7.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["2E1BE8D7095020C6"]
 			description: [
-				"利用牺牲匕首扎自己的仪式作为灌注生命源质的方法永不过时，不过你也许需要准备一些东西，这样你就不用在&4永远的痛苦和复活界面&r里挣扎"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3403069691030873594.description1}"
 				""
-				"1.熏香坛"
-				"将熏香坛放在你的祭坛旁边吧，这样你的牺牲匕首就会被转化（注意材质变化），这时候长按右键就可以一次性献祭大量的LP"
-				"这个祭坛还有其他增产用法，如果你愿意的话可以去查一下MCMOD"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3403069691030873594.description2}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3403069691030873594.description3}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3403069691030873594.description4}"
 				""
-				"2.dummy(伤害测试假人)"
-				"假人有什么用的？答案是配合神话的&4吸血宝石&r（比如地狱领主），这样你就可以通过砍这个假人回血了。不用担心这个假人被砍死或者回血少。这里不是泰拉瑞亚，没有限制回血量。这个包也没有装无尽贪婪，砍烂这个东西是不太可能的"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3403069691030873594.description5}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3403069691030873594.description6}"
 				""
-				"3.时间之瓶"
-				"我觉得你会用这个，不过别加速太多&4你的手速翻不了256倍&r"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3403069691030873594.description7}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3403069691030873594.description8}"
 			]
 			id: "2F3A21DA8FCB25FA"
-			subtitle: "我即永动机"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest3403069691030873594.subtitle}"
 			tasks: [
 				{
 					id: "4AFB09FB216ABE7D"
@@ -1134,25 +1134,25 @@
 					type: "item"
 				}
 			]
-			title: "自己就是最好的血之来源"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest3403069691030873594.title}"
 			x: -7.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["2E1BE8D7095020C6"]
 			description: [
-				"要使用电动苦难之井，你需要取参照&1敌对神经网络&r来获取一个模型，模型等级越高产出越高&4不过敌对神经网络的功能也只剩下这一个了，其他的都被ban了，乖乖用屠宰场吧&r"
-				"然后你会收集到大量的生命源质，然后再找个什么EIO导管或者AE输入进祭坛，是不是很简单？"
-				"&4然而血魔法限制了外来源质输入速度，也就是你把液体输入到祭坛的速度是有上限的，对自动化非常的不友好。&r&5转位符文每一个都可以将速度上限提升2%&r。这实在是太贵了，但是为了自动化你也无能为力"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3201136641055866546.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3201136641055866546.description2}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3201136641055866546.description3}"
 			]
 			id: "2C6CB8D08F9F3EB2"
-			subtitle: "到底是谁设计出来的转位符文？！"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest3201136641055866546.subtitle}"
 			tasks: [{
 				id: "3013158417965E9C"
 				item: "ctnhcore:hv_digital_well_of_suffer"
 				type: "item"
 			}]
-			title: "永恒的苦难，但是是电动的"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest3201136641055866546.title}"
 			x: -6.5d
 			y: 6.0d
 		}
@@ -1161,7 +1161,7 @@
 			id: "09FEF19FA3F149D9"
 			tasks: [{
 				id: "034AF4903D1B322E"
-				title: "其实血魔法原版还有砍怪输入血和苦难之井仪式，但是有更好的选择这俩开发空间真的不大"
+				title: "{ftbquests.chapter.1FD18D8B41761626.quest720278658378451417.task.237270830728032814.title}"
 				type: "checkmark"
 			}]
 			x: -8.5d
@@ -1170,11 +1170,11 @@
 		{
 			dependencies: ["2E1BE8D7095020C6"]
 			description: [
-				"你已经通过仪式完成了第一步：进入那&4深刻&r的领域......不过还是太浅了，你需要更加深入，&4深入那无底深渊&r"
-				"那恶魔领域的果实具有吸食血液的力量，与你一样贪婪，也许&4站在它的上方，成为它的养料&r，你就可以培育出&4更加迷人的花朵&r"
+				"{ftbquests.chapter.1FD18D8B41761626.quest9016480898157790039.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest9016480898157790039.description2}"
 			]
 			id: "7D20F99B02CA4357"
-			subtitle: "为了无尽门扉"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest9016480898157790039.subtitle}"
 			tasks: [{
 				id: "7E9A2E9294C1DAB8"
 				item: "bloodmagic:weak_tau"
@@ -1186,13 +1186,13 @@
 		{
 			dependencies: ["7F91ACC4605D8687"]
 			description: [
-				"你的植物魔法产线欣欣向荣，花朵集魔阵列也在为你提供着无穷无尽的魔力与液态魔力。魔力涡轮嗡嗡作响，你简易的魔力燃料郑以惊人的热值为你产生EU......"
+				"{ftbquests.chapter.1FD18D8B41761626.quest6877369822642833043.description1}"
 				""
-				"是时候该对这些植物的魔法作一些理论总结了。你注意到这种魔力其实逸散在整个世界之中，无论是人还是植物都能成为其载体。在这个世界和亚尔夫海姆的植物进化史中这些植物逐渐获得了一定的智慧和充足利用这些逸散魔力的能力。基于此创造出了植物魔法的魔力理论。"
+				"{ftbquests.chapter.1FD18D8B41761626.quest6877369822642833043.description2}"
 				""
-				"至于那些精灵，亚尔夫海姆似乎已经成为了死地。精灵议会仍然在以神秘的手段与你交易，一切都指向彩虹桥，那个最终精灵的归所，可惜你现在没有办法去向那里。不过这些精灵对魔力的理解仍然局限于“魔法”本身，他们可能真的不知道能量守恒是什么。"
+				"{ftbquests.chapter.1FD18D8B41761626.quest6877369822642833043.description3}"
 				""
-				"对于魔力的研究仍然在继续着，也许你该把视野转向&4其他的魔法&r来获得更多线索"
+				"{ftbquests.chapter.1FD18D8B41761626.quest6877369822642833043.description4}"
 			]
 			hide_details_until_startable: false
 			id: "5F71536A739E0693"
@@ -1201,21 +1201,21 @@
 				item: "gtceu:mana_bucket"
 				type: "item"
 			}]
-			title: "植物魔法：中点结论"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest6877369822642833043.title}"
 			x: -1.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7D20F99B02CA4357"]
 			description: [
-				"啊哈，终于不用再使用那个坑爹的限速仪式了！通过恶魔锭对血的精妙利用，你终于制作了这台自动化祭坛！"
+				"{ftbquests.chapter.1FD18D8B41761626.quest386262748078963254.description1}"
 				""
-				"当然你也意识到一件事情：那就是那些液态的生命源质不能直接利用！&4这个破祭坛还是需要一个配方来转化源质&r，不过至少给你打了75折，不是第二杯半价！"
+				"{ftbquests.chapter.1FD18D8B41761626.quest386262748078963254.description2}"
 				""
-				"&4哦你可能会意识到0号电路板那个免费注血为什么不能自动切换，所以万事都有代价，你现在付出的就是免费的代价，试试用付费的1号电路板&r"
+				"{ftbquests.chapter.1FD18D8B41761626.quest386262748078963254.description3}"
 			]
 			id: "055C47EC41367A36"
-			subtitle: "小而巧"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest386262748078963254.subtitle}"
 			tasks: [{
 				id: "6EAB01420115B37B"
 				item: "ctnhcore:industrial_altar"
@@ -1230,11 +1230,11 @@
 				"310339D1792AF716"
 			]
 			description: [
-				"血之祭坛后的又一力作，我敢保证那群诡计多端的恶魔都没有想到如此巧妙的方法！这台机器可以自动吸收周围的恶魔意志，然后为己所用！"
-				"唯一可惜的是自动化恶魔意志似乎比较麻烦，不过你都有神话刷怪笼和时间瓶了，&4拿着你抢夺9的感知之剑砍砍砍吧！&r"
+				"{ftbquests.chapter.1FD18D8B41761626.quest6451833807359865578.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest6451833807359865578.description2}"
 			]
 			id: "598984AA1D8A72EA"
-			subtitle: "狱火，你降临罢！"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest6451833807359865578.subtitle}"
 			tasks: [{
 				id: "3C5A68FF84FA96D4"
 				item: "ctnhcore:hellforge"
@@ -1246,14 +1246,14 @@
 		{
 			dependencies: ["598984AA1D8A72EA"]
 			description: [
-				"看看你都做了什么，你对魔法无止境的利用最终招来了天谴——&4什么，你把这都自动化了？撒旦来了都要找你来振兴炼狱工业&r"
+				"{ftbquests.chapter.1FD18D8B41761626.quest4850402264609311294.description1}"
 				""
-				"这台机器可以为你带来无穷无尽的矿石——只需要一点简单的资源。"
+				"{ftbquests.chapter.1FD18D8B41761626.quest4850402264609311294.description2}"
 				""
-				"&4这个机器说的破坏机器结构的tips不是给你看的，是给我们这些写配方的怨种自己看的，这个包没有那种配方"
+				"{ftbquests.chapter.1FD18D8B41761626.quest4850402264609311294.description3}"
 			]
 			id: "435017293FC9CA3E"
-			subtitle: "地-爆-天-星!"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest4850402264609311294.subtitle}"
 			tasks: [{
 				id: "70227DB5E4FE6C5F"
 				item: "ctnhcore:meteor_capturer"
@@ -1265,7 +1265,7 @@
 		{
 			dependencies: ["598984AA1D8A72EA"]
 			id: "509D1DAF6239E102"
-			subtitle: "盖亚被抽干之后，你还需要新的怨种"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest5808831733482250498.subtitle}"
 			tasks: [{
 				id: "0C191C29FDBF2158"
 				item: "ctnhcore:demon_will_generator"
@@ -1277,15 +1277,15 @@
 		{
 			dependencies: ["2946049E78C9A182"]
 			description: [
-				"精灵们的符文已经过时了，在你成功调制出这伟大的魔力载体后，你已经展开了新的视野（不是BTNH!）那么是时候该创造属于你自己的符文了！"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3137227656375711026.description1}"
 				""
-				"这些符文是之前符文的全面强化版，它们有着更加强大的能量，并且可以让魔力涡轮发挥更强大的力量，在未来也是重要的合成材料"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3137227656375711026.description2}"
 			]
 			id: "2B89ABEE85CE3532"
-			subtitle: "我们可以创造一切"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest3137227656375711026.subtitle}"
 			tasks: [{
 				id: "5DB8AA79C819B4F9"
-				title: "这次，该我们自己创造符文了"
+				title: "{ftbquests.chapter.1FD18D8B41761626.quest3137227656375711026.task.6753335081266951417.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -1294,19 +1294,19 @@
 		{
 			dependencies: ["2946049E78C9A182"]
 			description: [
-				"你对天顶源质的掌控让你能够制造一批新的魔力机器"
+				"{ftbquests.chapter.1FD18D8B41761626.quest6322412298810651291.description1}"
 				""
-				"天顶聚焦蒸馏塔，用天顶之眼聚焦魔力能量，用魔力场来帮助你蒸馏，&5你不需要在每一排摆放一个输出仓&r，魔力会自行引导这些气体有序排放"
+				"{ftbquests.chapter.1FD18D8B41761626.quest6322412298810651291.description2}"
 				""
-				"天顶相位蚀刻机，对比普通的激光蚀刻机，它的魔力之力可以引导芯片变回它最初的样子——晶圆，这违反太多东西了，所以我们未来会在配方里加一个晶圆"
+				"{ftbquests.chapter.1FD18D8B41761626.quest6322412298810651291.description3}"
 				""
-				"天顶共振组装机，好吧那个把通用芯片变成共振一点都不科学，但是通用本来就不科学是吗？"
+				"{ftbquests.chapter.1FD18D8B41761626.quest6322412298810651291.description4}"
 				""
-				"&4他们全部是无损超频&r"
-				"另外，如果你的电压达到了很高的水准，也许你可以试着使用天穹之星引导陨石，也许可以获得一些不一样的东西"
+				"{ftbquests.chapter.1FD18D8B41761626.quest6322412298810651291.description5}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest6322412298810651291.description6}"
 			]
 			id: "57BDB87CFA2B729B"
-			subtitle: "超越现实"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest6322412298810651291.subtitle}"
 			tasks: [
 				{
 					id: "69D63744BB6B2855"
@@ -1324,7 +1324,7 @@
 					type: "item"
 				}
 			]
-			title: "我即穹顶"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest6322412298810651291.title}"
 			x: 1.5d
 			y: 8.0d
 		}
@@ -1362,9 +1362,9 @@
 			y: 8.0d
 		}
 		{
-			description: ["创造即为无穷"]
+			description: ["{ftbquests.chapter.1FD18D8B41761626.quest2703960641553521536.description1}"]
 			id: "258665E0966F5B80"
-			subtitle: "我们无所不能"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest2703960641553521536.subtitle}"
 			tasks: [{
 				id: "466A28934754D01F"
 				item: "ctnhcore:twisted_fusion_mkinfinity"
@@ -1375,21 +1375,21 @@
 		}
 		{
 			description: [
-				"&m&e无穷大的基数是无穷大的怀抱&r"
-				"&m&a递归的方程式是世界的递归&r"
-				"&6&m正确的创造是错误的镜子&r"
-				"&2&m永恒的指向是须臾的路径&r"
-				"&1&m错乱的世界歌颂着虚无的真谛&r"
-				"&c&m万物的梦乡是质数的疯狂&r"
-				"&8&m扭曲的庭院是基于U和W的嚎叫&r"
-				"&8&n真理的意义是无穷的衔尾&r"
-				"&4&mERROR是ERROR的ERROR&r"
-				"&0&m不相信你能做出来这个的作者正在增加所有材料的花费&r"
-				"&4本应如此&r"
+				"{ftbquests.chapter.1FD18D8B41761626.quest741942328495848341.description1}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest741942328495848341.description2}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest741942328495848341.description3}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest741942328495848341.description4}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest741942328495848341.description5}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest741942328495848341.description6}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest741942328495848341.description7}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest741942328495848341.description8}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest741942328495848341.description9}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest741942328495848341.description10}"
+				"{ftbquests.chapter.1FD18D8B41761626.quest741942328495848341.description11}"
 			]
 			id: "0A4BE89DE5D23B95"
 			size: 2.0d
-			subtitle: "这不可能，这不可能！"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest741942328495848341.subtitle}"
 			tasks: [{
 				id: "2BDD31473FCEC105"
 				item: "ctnhcore:twisted_fusion_mkalephnull"
@@ -1400,9 +1400,9 @@
 		}
 		{
 			dependencies: ["6B9026800C4E14B5"]
-			description: ["它能吃掉咀叶花，乐"]
+			description: ["{ftbquests.chapter.1FD18D8B41761626.quest1251026019444249361.description1}"]
 			id: "115C898955BED311"
-			subtitle: "食物链"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest1251026019444249361.subtitle}"
 			tasks: [{
 				id: "54D465E887B0AD78"
 				item: "botania:rafflowsia"
@@ -1414,12 +1414,12 @@
 		{
 			dependencies: ["6B9026800C4E14B5"]
 			description: [
-				"与原版勿落草一样，在花园中的勿落草会检测很大范围内（与凋零菟葵等范围一致）的带有漂浮状态的生物，然后对其造成200点魔法伤害（尤其是你！）"
+				"{ftbquests.chapter.1FD18D8B41761626.quest6437179301190435000.description1}"
 				""
-				"每一个被检测到的生物都会使物落草的倍率乘以√2，最多可以获得2^16次方的倍乘！不过每个生物也会延长1s运行时间，但是谁在意呢？"
+				"{ftbquests.chapter.1FD18D8B41761626.quest6437179301190435000.description2}"
 			]
 			id: "5955747802F400B8"
-			subtitle: "FLY BROKEN ENTITIES"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest6437179301190435000.subtitle}"
 			tasks: [{
 				id: "4C63FB72C668D1AA"
 				item: "botania:shulk_me_not"
@@ -1430,22 +1430,22 @@
 		}
 		{
 			description: [
-				"好吧我知道你晕头转向的，让我来告诉你你要在这里干什么。"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3531730104632407830.description1}"
 				""
-				"首先你要找到一个特殊的锁，普通的钥匙打不开，你需要做一个标点，因为这个锁只有一个。"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3531730104632407830.description2}"
 				""
-				"然后你要绕几百圈，直到你进入一个房间时在左下角显示了一行特殊的文字，恭喜你，钥匙就在这里了！拿着它去打开那把锁吧（你一定做过标记了对吧：XD）"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3531730104632407830.description3}"
 				""
-				"当你打开了锁后，就可以进矿坑探索了，留意下你脚下的那群建筑材料，你的恶魔机器需要这些东西"
+				"{ftbquests.chapter.1FD18D8B41761626.quest3531730104632407830.description4}"
 			]
 			id: "310339D1792AF716"
-			subtitle: "真的是无尽"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest3531730104632407830.subtitle}"
 			tasks: [{
 				id: "252552F8F81B3A05"
 				item: "bloodmagic:ingot_hellforged"
 				type: "item"
 			}]
-			title: "无尽门扉在召唤"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest3531730104632407830.title}"
 			x: -3.5d
 			y: 8.0d
 		}
@@ -1476,12 +1476,12 @@
 			}]
 			tasks: [{
 				id: "0F04B2D6178184B5"
-				title: "戴森光束JEI丢方块了，用这本蓝图吧"
+				title: "{ftbquests.chapter.1FD18D8B41761626.quest6320009902779773381.task.1082186443062871221.title}"
 				type: "checkmark"
 			}]
 			x: 17.5d
 			y: 5.0d
 		}
 	]
-	title: "魔力飞升"
+	title: "{ftbquests.chapter.1FD18D8B41761626.title}"
 }

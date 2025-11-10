@@ -23,7 +23,7 @@
 			id: "223723ED95F15CBF"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "可以尝尝"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest2465478824338480319.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "76899A5326B419A7"
@@ -451,7 +451,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "剔骨刀"
+			title: "{ftbquests.chapter.142AC829C9062F15.quest1792757674758980169.title}"
 			x: 7.0d
 			y: 18.5d
 		}
@@ -491,7 +491,7 @@
 					type: "item"
 				}
 			]
-			title: "血肉掠夺"
+			title: "{ftbquests.chapter.142AC829C9062F15.quest7089273043958266387.title}"
 			x: 10.0d
 			y: 18.5d
 		}
@@ -512,9 +512,9 @@
 		}
 		{
 			dependencies: ["27675B2A83F65B2E"]
-			description: ["“生物”与“机械”结合的开始"]
+			description: ["{ftbquests.chapter.142AC829C9062F15.quest149003923388758278.description1}"]
 			id: "02115E4763B9F906"
-			subtitle: "这科学吗"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest149003923388758278.subtitle}"
 			tasks: [{
 				id: "3096BAC653706631"
 				item: "biomancy:primordial_core"
@@ -526,17 +526,17 @@
 		{
 			dependencies: ["62622845DCE27A13"]
 			description: [
-				"粉碎轮粉碎生物也会产生“血肉掠夺”产物，产量正比于粉碎轮转速；"
-				"除此之外，如果对应生物具有“生物粉碎”配方，还会产生对应产物，可通过jei查询"
+				"{ftbquests.chapter.142AC829C9062F15.quest1627713561085619478.description1}"
+				"{ftbquests.chapter.142AC829C9062F15.quest1627713561085619478.description2}"
 			]
 			id: "1696CCDC1C982D16"
-			subtitle: "是不是觉得打怪太慢了"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest1627713561085619478.subtitle}"
 			tasks: [{
 				id: "6298993466FEF813"
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			title: "高效肢解"
+			title: "{ftbquests.chapter.142AC829C9062F15.quest1627713561085619478.title}"
 			x: 10.0d
 			y: 16.5d
 		}
@@ -548,7 +548,7 @@
 			id: "15F6F741F83DADF6"
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "血肉苦弱"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest1582724181777034742.subtitle}"
 			tasks: [{
 				id: "0D1C516B794C6B35"
 				item: "ctnhbio:lv_bioelectric_forge"
@@ -559,39 +559,39 @@
 		}
 		{
 			description: [
-				"活体机器操作规范（修订版）​​"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description1}"
 				""
-				"​​&4注：本设备兼具生物与机器双重特性，操作人员须同时掌握基础机器知识（电压/超频）与生物特性（生命值/药水）&r"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description2}"
 				""
-				"​​操作指引​​"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description3}"
 				""
-				"1.能量与营养供给​​"
-				"•活体机器运行期间同步消耗营养值（Nutrition）与电力（EU）。"
-				"•补充方式："
-				"▸ 将营养膏或营养液置入设备输入槽；"
-				"▸ 手持食物右键点击设备直接喂食。"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description4}"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description5}"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description6}"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description7}"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description8}"
 				""
-				"2.药水效果触发条件​​"
-				"•特定配方需设备处于指定药水状态（如迅捷、力量等）。"
-				"•施加方式："
-				"▸ 使用喷溅型药水泼洒设备；"
-				"▸ 或通过管道输入格雷科技（GT）标准药水流体。"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description9}"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description10}"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description11}"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description12}"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description13}"
 				""
 				"{@pagebreak}"
-				"3.电压风险警示​​"
-				"&6•允许临时超频：所有活体机器可短时执行高于额定电压1级的配方，但会导致机体损伤。&r"
-				"•操作人员必须实时监控设备生命值，必要时执行维护程序。​​"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description14}"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description15}"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description16}"
 				""
-				"4.禁止行为​​"
-				"•严禁攻击设备！物理打击不会提升效率。"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description17}"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description18}"
 				""
-				"&m5.异常处理&r​​"
-				"&m•活体组织必须与金属框架结合。若发现游离态活体组织：&r"
-				"&m▸ 立即清除；&r"
-				"&m▸ 记录异常形态及发生时间；&r"
-				"&m▸ 向【█̸͒̚█̷̛̾█̴̂̕】部门提交报告。"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description19}"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description20}"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description21}"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description22}"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description23}"
 				""
-				"&r——摘自《泛银河格雷科技有限公司员工手册》"
+				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description24}"
 			]
 			id: "3A0DF5CC0ED15F67"
 			rewards: [{
@@ -602,12 +602,12 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "这是哪个部门研究出来的？"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.subtitle}"
 			tasks: [{
 				id: "139ED399738E942B"
 				type: "checkmark"
 			}]
-			title: "活体机器操作规范(1)"
+			title: "{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.title}"
 			x: 16.0d
 			y: 16.5d
 		}
@@ -628,7 +628,7 @@
 				"5DB9849BC92C0BB1"
 			]
 			id: "2A07853B97390E58"
-			subtitle: "更高程度利用食物"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest3028535765416611416.subtitle}"
 			tasks: [{
 				id: "0B295155171326D1"
 				item: "biomancy:digester"
@@ -639,9 +639,9 @@
 		}
 		{
 			dependencies: ["5DB9849BC92C0BB1"]
-			description: ["更高效地处理矿物，省去繁琐的步骤"]
+			description: ["{ftbquests.chapter.142AC829C9062F15.quest2347949193765232158.description1}"]
 			id: "2095975A0D0A9E1E"
-			subtitle: "不要电的单步矿处"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest2347949193765232158.subtitle}"
 			tasks: [{
 				id: "1861D9204F97212D"
 				item: "ctnhbio:lv_decomposer"
@@ -654,7 +654,7 @@
 			dependencies: ["2A07853B97390E58"]
 			description: [""]
 			id: "09542A8A75F69EA5"
-			subtitle: "它其实是个美食家"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest672209018557996709.subtitle}"
 			tasks: [{
 				id: "1E6F8C00F696B134"
 				item: "ctnhbio:lv_digester"
@@ -665,10 +665,10 @@
 		}
 		{
 			dependencies: ["15F6F741F83DADF6"]
-			description: ["你只要激励你的lv生物电炉：一台机器的上限不取决于电压，而取决于机器自己。它就能执行mv配方了"]
+			description: ["{ftbquests.chapter.142AC829C9062F15.quest6655885914881403467.description1}"]
 			id: "5C5E74F9A6082A4B"
 			size: 1.5d
-			subtitle: "pua你的lv生物电炉"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest6655885914881403467.subtitle}"
 			tasks: [{
 				id: "1CAEE9A7A9C283D1"
 				item: "ctnhbio:mv_bioelectric_forge"
@@ -741,17 +741,17 @@
 					type: "item"
 				}
 			]
-			title: "湿件元件"
+			title: "{ftbquests.chapter.142AC829C9062F15.quest2075006826964288253.title}"
 			x: 25.0d
 			y: 18.5d
 		}
 		{
 			description: [
-				"向原初温床献上血肉和治疗药水，会产生各种肉块；"
-				"向普通肉块（不是饥饿肉块，也不是原初肉块）使用活体注射器注射原初血清，它将会展现生命的原初形态"
+				"{ftbquests.chapter.142AC829C9062F15.quest6837427896851735461.description1}"
+				"{ftbquests.chapter.142AC829C9062F15.quest6837427896851735461.description2}"
 			]
 			id: "5EE36C722931A3A5"
-			subtitle: "培养"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest6837427896851735461.subtitle}"
 			tasks: [{
 				id: "6C52488BDCD9AF38"
 				item: "biomancy:primordial_cradle"
@@ -807,12 +807,12 @@
 				"7E1DEFB53BF4D305"
 			]
 			description: [
-				"运行配方即可朝特定方向分化；"
-				"至于分化结果......"
+				"{ftbquests.chapter.142AC829C9062F15.quest3824490386545591892.description1}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3824490386545591892.description2}"
 			]
 			id: "351351BE58F24654"
 			size: 1.5d
-			subtitle: "活体多方块机器"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest3824490386545591892.subtitle}"
 			tasks: [{
 				id: "0F55B60324E4BAFD"
 				item: "ctnhbio:great_flesh"
@@ -822,7 +822,7 @@
 			y: 22.0d
 		}
 		{
-			description: ["用有机试管容纳血清，手持活体注射器并按下对应功能键打开注射槽ui，即可装入血清"]
+			description: ["{ftbquests.chapter.142AC829C9062F15.quest6469336787017347653.description1}"]
 			id: "59C7B38822893245"
 			tasks: [
 				{
@@ -851,7 +851,7 @@
 				"50800D463AF3C2EB"
 			]
 			dependency_requirement: "one_completed"
-			description: ["将缸中之脑紧贴个人计算机以提供算力"]
+			description: ["{ftbquests.chapter.142AC829C9062F15.quest4752842999807315618.description1}"]
 			id: "41F57D86D4B78EA2"
 			tasks: [{
 				id: "46258DC00D4D5B66"
@@ -863,8 +863,8 @@
 		}
 		{
 			description: [
-				"活体多方块机器的&6一部分&r结构方块无法被制作，而是依靠自己生长；"
-				"使用食物右键主方块可提醒其生长"
+				"{ftbquests.chapter.142AC829C9062F15.quest9087683184777548549.description1}"
+				"{ftbquests.chapter.142AC829C9062F15.quest9087683184777548549.description2}"
 			]
 			id: "7E1DEFB53BF4D305"
 			rewards: [
@@ -894,19 +894,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "你管这叫机器？"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest9087683184777548549.subtitle}"
 			tasks: [{
 				id: "27ED04AC6B62824B"
 				type: "checkmark"
 			}]
-			title: "活体多方块机器"
+			title: "{ftbquests.chapter.142AC829C9062F15.quest9087683184777548549.title}"
 			x: 31.0d
 			y: 20.5d
 		}
 		{
 			dependencies: ["019F2136970CA2E1"]
 			id: "53E534A981177FEC"
-			subtitle: "需要UV电路板"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest6045295977434677228.subtitle}"
 			tasks: [{
 				id: "0460393FCE082088"
 				item: "ctnhbio:synaptic_casing"
@@ -927,9 +927,9 @@
 		}
 		{
 			dependencies: ["1696CCDC1C982D16"]
-			description: ["放入带有“抽筋剥骨”附魔的武器即可自动产出血肉掠夺战利品。（赶紧用，以后说不定会削）"]
+			description: ["{ftbquests.chapter.142AC829C9062F15.quest8098721030194086492.description1}"]
 			id: "70646FDE3BB4425C"
-			subtitle: "真正的轮椅"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest8098721030194086492.subtitle}"
 			tasks: [{
 				id: "314C7C36795D14E3"
 				item: "ctnhcore:slaughter_house"
@@ -941,11 +941,11 @@
 		{
 			dependencies: ["213B6C166AFD2A8E"]
 			description: [
-				"用于生产一些血清，以及鲜活血肉、原初核心的增殖"
-				"除此之外，还能快速生产一些有机物"
+				"{ftbquests.chapter.142AC829C9062F15.quest5822252284539946635.description1}"
+				"{ftbquests.chapter.142AC829C9062F15.quest5822252284539946635.description2}"
 			]
 			id: "50CCCB9AECB5C68B"
-			subtitle: "生物反应（太科学了）"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest5822252284539946635.subtitle}"
 			tasks: [{
 				id: "1C905E71F305BE8D"
 				item: "ctnhbio:lv_bioreactor"
@@ -956,10 +956,10 @@
 		}
 		{
 			dependencies: ["1CCBE7B71BB782FD"]
-			description: ["                      &l&o&m&4永 远"]
+			description: ["{ftbquests.chapter.142AC829C9062F15.quest7280834197158641215.description1}"]
 			id: "650AB82076283E3F"
 			size: 1.0d
-			subtitle: "我会一直看着你"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest7280834197158641215.subtitle}"
 			tasks: [{
 				id: "6AC48565CB999E4F"
 				item: "gtceu:wetware_processor"
@@ -1034,5 +1034,5 @@
 			y: 22.0d
 		}
 	]
-	title: "血肉重铸"
+	title: "{ftbquests.chapter.142AC829C9062F15.title}"
 }

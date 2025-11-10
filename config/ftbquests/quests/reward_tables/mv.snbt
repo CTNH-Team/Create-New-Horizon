@@ -14,5 +14,5 @@
 		{ item: "gtceu:mv_super_chest", weight: 0.1f }
 		{ item: "gtceu:mv_super_tank", weight: 0.1f }
 	]
-	title: "HV奖励"
+	title: "{ftbquests.loot_table.723892772024061161.title}"
 }

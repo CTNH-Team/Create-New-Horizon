@@ -15,5 +15,5 @@
 		{ count: 2, item: "farmersdelight:cooked_bacon", weight: 10.0f }
 		{ item: "culturaldelights:hearty_salad", weight: 5.0f }
 	]
-	title: "LV奖励"
+	title: "{ftbquests.loot_table.601634794626000726.title}"
 }

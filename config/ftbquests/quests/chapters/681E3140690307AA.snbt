@@ -88,10 +88,10 @@
 			id: "44C7FE559ECFB2EB"
 			shape: "gear"
 			size: 3.0d
-			subtitle: "本整合包目前处于内测状态，许多机制未完善，请酌情游玩，如有建议欢迎提出"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest4956209558634607339.subtitle}"
 			tasks: [{
 				id: "5CE79CE60BD5FC4D"
-				title: "欢迎来到CTNH!"
+				title: "{ftbquests.chapter.681E3140690307AA.quest4956209558634607339.task.6694491882964515917.title}"
 				type: "checkmark"
 			}]
 			x: -6.0d
@@ -100,9 +100,9 @@
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
 			description: [
-				"    在本整合包中，添加了传说生存模组，温度会随着&a群系、季节、维度、周围的方块&r变化而变化。&4过高和过低的温度都会导致危险&r，所以请时刻注意自身的温度情况，别忘了制作温度计哦。更多信息请前往“冷汗”章节。"
-				"    别怪我没提醒你，冬天会很冷的。"
-				"     &m如果你实在讨厌温度，可以通过设置关掉，方法自行查询&r"
+				"{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.description1}"
+				"{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.description2}"
+				"{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.description3}"
 			]
 			icon: {
 				Count: 1
@@ -125,43 +125,43 @@
 				}
 				type: "item"
 			}]
-			subtitle: "重要！！！"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.subtitle}"
 			tasks: [{
 				id: "1769E6600040B278"
-				title: "传说生存"
+				title: "{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.task.1687132835422450296.title}"
 				type: "checkmark"
 			}]
-			title: "传说生存"
+			title: "{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.title}"
 			x: -6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			description: [" &e   格雷科技（GregTech）&r，在本整合包的任务中将其简称为&bGT&r。"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest7424705013280162603.description1}"]
 			icon: "gtceu:gregification_hazard_sign_block"
 			id: "6709D9DF2EA0432B"
 			size: 1.0d
-			subtitle: "格雷科技是本整合包的主线科技，也许你曾听说过它的大名，但是不要担心，只要一步一步遵循任务线进行，一定能给你带来一个良好的游戏体验！"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7424705013280162603.subtitle}"
 			tasks: [{
 				id: "0159C516B579DCAF"
-				title: "格雷科技"
+				title: "{ftbquests.chapter.681E3140690307AA.quest7424705013280162603.task.97325568289791151.title}"
 				type: "checkmark"
 			}]
-			title: "格雷科技（GT）"
+			title: "{ftbquests.chapter.681E3140690307AA.quest7424705013280162603.title}"
 			x: -7.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			description: [" &e   机械动力（Create）&r，在本整合包的任务中会将其简称为&bCT&r。"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest7929003364368250376.description1}"]
 			hide_dependency_lines: false
 			icon: "create:wrench"
 			id: "6E097A8CDC0BF608"
 			size: 1.0d
-			subtitle: "没错，就是它"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7929003364368250376.subtitle}"
 			tasks: [{
 				id: "09D536FDA05E00B8"
-				title: "机械动力"
+				title: "{ftbquests.chapter.681E3140690307AA.quest7929003364368250376.task.708532979325862072.title}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -171,10 +171,10 @@
 			dependencies: ["44C7FE559ECFB2EB"]
 			icon: "botania:livingrock"
 			id: "39CA84C1EBF5FF02"
-			subtitle: "一个很棒的魔法模组，会融入主线之中"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest4164286773879766786.subtitle}"
 			tasks: [{
 				id: "3779765761C83EA7"
-				title: "植物魔法"
+				title: "{ftbquests.chapter.681E3140690307AA.quest4164286773879766786.task.3997356261942771367.title}"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -184,10 +184,10 @@
 			dependencies: ["44C7FE559ECFB2EB"]
 			icon: "bloodmagic:daggerofsacrifice"
 			id: "021CE5551CB203F9"
-			subtitle: "同样是很棒的模组，也会融入主线之中"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest152248641140163577.subtitle}"
 			tasks: [{
 				id: "5573A2DD9A403E16"
-				title: "血魔法"
+				title: "{ftbquests.chapter.681E3140690307AA.quest152248641140163577.task.6157444188204973590.title}"
 				type: "checkmark"
 			}]
 			x: -7.5d
@@ -196,19 +196,17 @@
 		{
 			dependencies: ["1B4FFE71B4C66E14"]
 			description: [
-				"对gt矿物的连锁默认被禁用了"
-				"如果你想要GT连锁，请通过游戏内进入CTNHCore的Config界面进行调节"
-				"{image:ftbquests:textures/basic/mods.png width:180 height:100 align:center}"
-				"{image:ftbquests:textures/basic/config.png width:180 height:100 align:center}"
+				"{ftbquests.chapter.681E3140690307AA.quest5409354400373917434.description1}"
+				"{ftbquests.chapter.681E3140690307AA.quest5409354400373917434.description2}"
 			]
 			id: "4B11E32ACA7BC6FA"
-			subtitle: "默认按~启用"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest5409354400373917434.subtitle}"
 			tasks: [{
 				id: "6344812C1EC2C585"
-				title: "还有更多"
+				title: "{ftbquests.chapter.681E3140690307AA.quest5409354400373917434.task.7152984134665815429.title}"
 				type: "checkmark"
 			}]
-			title: "连锁挖矿"
+			title: "{ftbquests.chapter.681E3140690307AA.quest5409354400373917434.title}"
 			x: -3.5d
 			y: 11.0d
 		}
@@ -282,7 +280,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "你需要一些保护"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest6997411179978363306.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "2B699EAFD14FE1D7"
@@ -294,7 +292,7 @@
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
-			description: ["格雷修改了原版的所有矿物生成，&4贸然的下矿会让你一无所获&r。使用探矿仪，找到含有铁、铜、锡等前期金属的矿脉，探矿仪中的数值表示该区块内含有这种矿物的总数量，&a而矿物生成的y轴请查看jei&r。在对应区块寻找矿物，效率会高很多。有时候你会在地面上找到一些&a矿石标记物&r，别犹豫，下面也许就是大片的矿石！"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest1968071326501858836.description1}"]
 			id: "1B4FFE71B4C66E14"
 			rewards: [
 				{
@@ -355,10 +353,10 @@
 			]
 			shape: "square"
 			size: 1.0d
-			subtitle: "别随便下矿洞！"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest1968071326501858836.subtitle}"
 			tasks: [{
 				id: "02CB7B2250363B17"
-				title: "挖矿"
+				title: "{ftbquests.chapter.681E3140690307AA.quest1968071326501858836.task.201389995652954903.title}"
 				type: "checkmark"
 			}]
 			x: -3.5d
@@ -367,8 +365,8 @@
 		{
 			dependencies: ["6F405D2508EED283"]
 			description: [
-				"建议你早点考虑吃喝，生活调味料给你补充的红心会让你舒服不少"
-				"早点弄一下农夫乐事，一直吃低饱和度的食物没有意义"
+				"{ftbquests.chapter.681E3140690307AA.quest4708418189553178834.description1}"
+				"{ftbquests.chapter.681E3140690307AA.quest4708418189553178834.description2}"
 			]
 			id: "4157A965AA4E18D2"
 			rewards: [
@@ -398,17 +396,17 @@
 				item: "minecraft:wheat_seeds"
 				type: "item"
 			}]
-			title: "种田"
+			title: "{ftbquests.chapter.681E3140690307AA.quest4708418189553178834.title}"
 			x: -6.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["4B11E32ACA7BC6FA"]
-			description: ["不一定非要挖相同的矿石，此任务仅起到指示作用"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest7366137071699786477.description1}"]
 			icon: "gtceu:raw_magnetite"
 			id: "6639C6A3A5807AED"
 			optional: true
-			subtitle: "一些前期需要的矿石"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7366137071699786477.subtitle}"
 			tasks: [
 				{
 					count: 16L
@@ -447,7 +445,7 @@
 					type: "item"
 				}
 			]
-			title: "矿物"
+			title: "{ftbquests.chapter.681E3140690307AA.quest7366137071699786477.title}"
 			x: -3.5d
 			y: 13.0d
 		}
@@ -456,7 +454,7 @@
 			icon: "minecraft:iron_ingot"
 			id: "5BA86B01337A91D5"
 			size: 1.5d
-			subtitle: "整合包里最没用的一些东西"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest6604646506441642453.subtitle}"
 			tasks: [
 				{
 					count: 16L
@@ -471,7 +469,7 @@
 					type: "item"
 				}
 			]
-			title: "矿物锭"
+			title: "{ftbquests.chapter.681E3140690307AA.quest6604646506441642453.title}"
 			x: -2.0d
 			y: 9.0d
 		}
@@ -489,7 +487,7 @@
 			}]
 			shape: "square"
 			size: 1.5d
-			subtitle: "做这东西花了我老半天"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest703481221057588588.subtitle}"
 			tasks: [{
 				id: "58CDFF594C3E0249"
 				item: "minecraft:crafting_table"
@@ -507,7 +505,7 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			subtitle: "有很多你熟悉的东西需要燧石来合成"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest2865147824837070398.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "4F80DC03536AE638"
@@ -520,8 +518,8 @@
 		{
 			dependencies: ["5BA86B01337A91D5"]
 			description: [
-				"早期安山合金的合成很昂贵，可以省着使用，后面会有更便宜的制作方式，注意查看jei."
-				"&a你的第一块合金，同时也是开启机械动力的钥匙&r"
+				"{ftbquests.chapter.681E3140690307AA.quest9198886268426787312.description1}"
+				"{ftbquests.chapter.681E3140690307AA.quest9198886268426787312.description2}"
 			]
 			id: "7FA90252C6CC19F0"
 			rewards: [{
@@ -532,7 +530,7 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest17.subtitle}（收集安山岩了吗~）"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest9198886268426787312.subtitle}"
 			tasks: [{
 				id: "19245BF7A4D48BFB"
 				item: "gtceu:andesite_alloy_ingot"
@@ -544,8 +542,8 @@
 		{
 			dependencies: ["42BC9DB741D0AD70"]
 			description: [
-				"每一个伟大的梦想，都起源于一个微不足道的开始"
-				"&oThe title is a Chinese saying about how to play MC(要致富，先撸树). I think you know what it is saying, isn't it?&r"
+				"{ftbquests.chapter.681E3140690307AA.quest3709779824798157318.description1}"
+				"{ftbquests.chapter.681E3140690307AA.quest3709779824798157318.description2}"
 			]
 			id: "337BC9186C014A06"
 			tasks: [{
@@ -557,23 +555,23 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "任何 #minecraft:logs"
+				title: "{ftbquests.chapter.681E3140690307AA.quest3709779824798157318.task.6034142910915454761.title}"
 				type: "item"
 			}]
-			title: "要致富，先撸树"
+			title: "{ftbquests.chapter.681E3140690307AA.quest3709779824798157318.title}"
 			x: -11.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			description: ["许多物品的配方可能与原版发生了一些变动，请大家在游玩时注意多查看jei。同时，对于科技包的新手，每一个任务的描述都是十分重要的，可以&a帮助你更快理解游戏的基本玩法和流程&r，也请大家多多关注！"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest2283955469469063356.description1}"]
 			hide_dependency_lines: true
 			id: "1FB23D66088398BC"
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				id: "519EA59FDB4B479F"
-				title: "多查查JEI"
+				title: "{ftbquests.chapter.681E3140690307AA.quest2283955469469063356.task.5881320269389973407.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -581,16 +579,16 @@
 		}
 		{
 			description: [
-				"    如你所见，目前整合包的内容&c还有相当多不完整的地方&r，目前的开发组主力只有两位在校大学生，平时时间也不会太多，而且大量的时间花在新机制、新多方块、新产线的设计上，这也导致&c整合包的任务、美工、建筑等方面的不足&r。"
-				"    如果你有一定的美术天赋，或者对哪些物品的材质有想法或者不满意，可以加群或者联系作者提供你的作品。如果你对整合包流程十分熟悉，觉得作者现在写的任务不合理，也可以使用github提供你的修改（&a任务的编辑是可视化的界面，简单易上手，相信你一定能够做好&r）。"
-				"    最后，哪怕你啥也不会，但是有很多新奇的点子，也随时欢迎你加群和大家交流或者提供给作者，每个人的创意都是独一无二的，相信你的创意也可以得到大家的支持。如果你对这些都没有兴趣，那么，请尽情享受本整合包吧！"
+				"{ftbquests.chapter.681E3140690307AA.quest6850658799136810458.description1}"
+				"{ftbquests.chapter.681E3140690307AA.quest6850658799136810458.description2}"
+				"{ftbquests.chapter.681E3140690307AA.quest6850658799136810458.description3}"
 			]
 			id: "5F126DE1A7F425DA"
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				id: "686C86F01CDB3AD7"
-				title: "欢迎加入共创计划!"
+				title: "{ftbquests.chapter.681E3140690307AA.quest6850658799136810458.task.7524537443263658711.title}"
 				type: "checkmark"
 			}]
 			x: -11.0d
@@ -598,9 +596,9 @@
 		}
 		{
 			dependencies: ["09C344717F4BAD6C"]
-			description: ["方便你前期不会被摔死）"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest4102976794901859499.description1}"]
 			id: "38F0B3A80DCBCCAB"
-			subtitle: "钩爪，可以升级,按C使用"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest4102976794901859499.subtitle}"
 			tasks: [{
 				id: "30F5D34763CCF5B5"
 				item: "rehooked:wood_hook"
@@ -613,10 +611,10 @@
 			dependencies: ["44C7FE559ECFB2EB"]
 			icon: "ars_nouveau:novice_spell_book"
 			id: "414BFFE0E7A3C868"
-			subtitle: "强力的魔法mod "
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest4705135577142642792.subtitle}"
 			tasks: [{
 				id: "4FF903F607617ED3"
-				title: "新生魔艺"
+				title: "{ftbquests.chapter.681E3140690307AA.quest4705135577142642792.task.5762641553417928403.title}"
 				type: "checkmark"
 			}]
 			x: -8.0d
@@ -624,7 +622,7 @@
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			description: ["  生物与科技的结合"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest3082875371577211523.description1}"]
 			icon: "biomancy:primordial_core"
 			id: "2AC892D111A8FA83"
 			rewards: [{
@@ -648,23 +646,23 @@
 				}
 				type: "item"
 			}]
-			subtitle: "有点克，有点..."
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest3082875371577211523.subtitle}"
 			tasks: [{
 				id: "5A99B7C4816A6CF4"
 				item: "biomancy:living_flesh"
 				type: "item"
 			}]
-			title: "血肉重铸"
+			title: "{ftbquests.chapter.681E3140690307AA.quest3082875371577211523.title}"
 			x: -6.0d
 			y: 4.0d
 		}
 		{
 			id: "42BC9DB741D0AD70"
 			size: 2.0d
-			subtitle: "这是你主线上的第一个任务"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest4808891912533618032.subtitle}"
 			tasks: [{
 				id: "51D08D5ED0A791B8"
-				title: "从此开始你的CTNH之旅"
+				title: "{ftbquests.chapter.681E3140690307AA.quest4808891912533618032.task.5895367350595064248.title}"
 				type: "checkmark"
 			}]
 			x: -12.5d
@@ -673,7 +671,7 @@
 		{
 			dependencies: ["09C344717F4BAD6C"]
 			id: "7500E7310C70727B"
-			subtitle: "你知道应该怎么做"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest8430992700285678203.subtitle}"
 			tasks: [{
 				id: "2FCDC90FC081C247"
 				item: {
@@ -691,7 +689,7 @@
 		{
 			dependencies: ["09C344717F4BAD6C"]
 			id: "31554E021ECE6572"
-			subtitle: "用这把剑杀掉的动物可以直接掉落熟肉，非常方便"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest3554833251892618610.subtitle}"
 			tasks: [{
 				id: "640D0069BFD1C069"
 				item: {
@@ -720,9 +718,9 @@
 		}
 		{
 			dependencies: ["4157A965AA4E18D2"]
-			description: ["其实你可以直接去村庄劫掠"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest7120109138277471972.description1}"]
 			id: "62CFB5898D0A96E4"
-			subtitle: "一分耕耘，一分收获"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7120109138277471972.subtitle}"
 			tasks: [{
 				id: "7FCC30F090B016F5"
 				item: {
@@ -739,7 +737,7 @@
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
-			description: ["本整合包里地形多样，群系丰富，不少可以收集的自然资源在未来都能给你提供很大的帮助(某些神秘结构也可以给你带来前期的物资)，请尽情探索吧！"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest9168551319999992454.description1}"]
 			id: "7F3D3CD93589D286"
 			rewards: [{
 				id: "799312A73A8C9467"
@@ -753,10 +751,10 @@
 				}
 				type: "item"
 			}]
-			subtitle: "见[大千世界]章节"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest9168551319999992454.subtitle}"
 			tasks: [{
 				id: "2BC1BCB3ECAB5715"
-				title: "在急着推进主线之前，先感受一下这个世界吧"
+				title: "{ftbquests.chapter.681E3140690307AA.quest9168551319999992454.task.3153008695091877653.title}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -769,27 +767,27 @@
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
 				id: "3101F2CBA1F36E54"
-				title: "杀死十只僵尸"
+				title: "{ftbquests.chapter.681E3140690307AA.quest6029002994023634697.task.3531370539244547668.title}"
 				type: "kill"
 				value: 10L
 			}]
-			title: "僵尸猎人"
+			title: "{ftbquests.chapter.681E3140690307AA.quest6029002994023634697.title}"
 			x: -11.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["31554E021ECE6572"]
 			id: "323BCD9A004CC866"
-			subtitle: "可以获得大量的线"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest3619712786836015206.subtitle}"
 			tasks: [{
 				entity: "minecraft:spider"
 				icon: "minecraft:spider_eye"
 				id: "65D03000C99C3EA4"
-				title: "杀死十只蜘蛛"
+				title: "{ftbquests.chapter.681E3140690307AA.quest3619712786836015206.task.7336416572927131300.title}"
 				type: "kill"
 				value: 10L
 			}]
-			title: "蜘蛛猎人"
+			title: "{ftbquests.chapter.681E3140690307AA.quest3619712786836015206.title}"
 			x: -8.5d
 			y: 12.0d
 		}
@@ -800,11 +798,11 @@
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
 				id: "47626D7974245604"
-				title: "杀死十只骷髅"
+				title: "{ftbquests.chapter.681E3140690307AA.quest5253257581466543377.task.5143794092817536516.title}"
 				type: "kill"
 				value: 10L
 			}]
-			title: "骷髅猎人"
+			title: "{ftbquests.chapter.681E3140690307AA.quest5253257581466543377.title}"
 			x: -8.0d
 			y: 11.0d
 		}
@@ -814,7 +812,7 @@
 				"77DF7C0A366D69B4"
 			]
 			id: "63F7EE58C223B854"
-			subtitle: "帮你平安度过黑夜"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7203488193984051284.subtitle}"
 			tasks: [{
 				id: "450DB2BE1C29E8D2"
 				item: {
@@ -824,7 +822,7 @@
 						value: "minecraft:beds"
 					}
 				}
-				title: "床"
+				title: "{ftbquests.chapter.681E3140690307AA.quest7203488193984051284.task.4975829692900305106.title}"
 				type: "item"
 			}]
 			x: -9.5d
@@ -833,7 +831,7 @@
 		{
 			dependencies: ["31554E021ECE6572"]
 			id: "0E5EEE6DC4DC4DD8"
-			subtitle: "这是迫不得已的"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest1035527119563410904.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "3BD752787B356821"
@@ -844,19 +842,19 @@
 						value: "minecraft:wool"
 					}
 				}
-				title: "羊毛"
+				title: "{ftbquests.chapter.681E3140690307AA.quest1035527119563410904.task.4312005845647190049.title}"
 				type: "item"
 			}]
 			x: -9.5d
 			y: 12.0d
 		}
 		{
-			description: ["如果你在晚上遇到一道闪电从天而降，那就是神化小Boss刷新了"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest3316999228744158829.description1}"]
 			id: "2E0859396D8A4E6D"
-			subtitle: "打得过就打，打不过就跑"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest3316999228744158829.subtitle}"
 			tasks: [{
 				id: "08A4E2132E7F1A97"
-				title: "神化小Boss"
+				title: "{ftbquests.chapter.681E3140690307AA.quest3316999228744158829.task.622871220496308887.title}"
 				type: "checkmark"
 			}]
 			x: -8.0d
@@ -870,7 +868,7 @@
 				item: "farmersdelight:stove"
 				type: "item"
 			}]
-			subtitle: "开始做饭！"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest3442258881257186127.subtitle}"
 			tasks: [{
 				id: "365616DAF25D746D"
 				item: {
@@ -888,7 +886,7 @@
 		{
 			dependencies: ["5BA86B01337A91D5"]
 			id: "0509C060962EF04C"
-			subtitle: "用铁锭烧制得到"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest363032766049087564.subtitle}"
 			tasks: [{
 				id: "6AE261E7034F3EA3"
 				item: "gtceu:hot_high_temp_wrought_precursor_ingot"
@@ -911,10 +909,10 @@
 		{
 			dependencies: ["1B4FFE71B4C66E14"]
 			description: [
-				"  右键打开，放在物品栏中或装备在饰品栏“背包”位置时可通过快捷键（默认为B）打开。"
-				"  shift+右键可以将背包放置在地上（或拿起），此时可以通过右键打开（就像箱子），也可以通过任何物流手段进行物品的输入输出。"
-				"  背包的数据并不依赖于背包物品存在。若背包不慎丢失，可通过 /sophisticatedbackpacks list 指令查看所有背包并恢复。"
-				"  更多用法可前往“存储的艺术”章节查看。"
+				"{ftbquests.chapter.681E3140690307AA.quest344405779177474510.description1}"
+				"{ftbquests.chapter.681E3140690307AA.quest344405779177474510.description2}"
+				"{ftbquests.chapter.681E3140690307AA.quest344405779177474510.description3}"
+				"{ftbquests.chapter.681E3140690307AA.quest344405779177474510.description4}"
 			]
 			id: "04C7933B3E7709CE"
 			rewards: [{
@@ -922,12 +920,12 @@
 				item: "sophisticatedbackpacks:gold_backpack"
 				type: "item"
 			}]
-			subtitle: "唯一真神"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest344405779177474510.subtitle}"
 			tasks: [{
 				id: "40600AC46CAF10C4"
 				type: "checkmark"
 			}]
-			title: "背起行囊"
+			title: "{ftbquests.chapter.681E3140690307AA.quest344405779177474510.title}"
 			x: -3.5d
 			y: 7.0d
 		}
@@ -939,7 +937,7 @@
 				item: "solcarrot:food_book"
 				type: "item"
 			}]
-			subtitle: "成为美食家吧"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest8557223811932364050.subtitle}"
 			tasks: [{
 				id: "06AAAB63BC2803F0"
 				item: {
@@ -951,26 +949,26 @@
 				}
 				type: "item"
 			}]
-			title: "农夫乐事"
+			title: "{ftbquests.chapter.681E3140690307AA.quest8557223811932364050.title}"
 			x: -4.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7F3D3CD93589D286"]
 			description: [
-				"在本整合包中，下界、末地、天境和暮色森林均需要对应权限才能进入。通过推进科技、完成相应任务可解锁权限。"
-				"外星维度则无限制。"
+				"{ftbquests.chapter.681E3140690307AA.quest8940181180505538206.description1}"
+				"{ftbquests.chapter.681E3140690307AA.quest8940181180505538206.description2}"
 			]
 			id: "7C11E76AA3AA3E9E"
-			subtitle: "怎么去不了下界了？"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest8940181180505538206.subtitle}"
 			tasks: [{
 				id: "5A1A87B1DFA5172C"
-				title: "维度封锁"
+				title: "{ftbquests.chapter.681E3140690307AA.quest8940181180505538206.task.6492651010839090988.title}"
 				type: "checkmark"
 			}]
 			x: -5.0d
 			y: 7.0d
 		}
 	]
-	title: "原始人，起洞！！"
+	title: "{ftbquests.chapter.681E3140690307AA.title}"
 }

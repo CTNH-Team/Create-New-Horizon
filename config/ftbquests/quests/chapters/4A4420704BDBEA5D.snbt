@@ -580,7 +580,7 @@
 			id: "47CDA003DB1FB37D"
 			tasks: [{
 				id: "590F411E8E0007AA"
-				title: "镧系"
+				title: "{ftbquests.chapter.4A4420704BDBEA5D.quest5173967485340201853.task.6417419593513437098.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -1060,7 +1060,7 @@
 			id: "163D59768F24C838"
 			tasks: [{
 				id: "578A5263CE574066"
-				title: "锕系"
+				title: "{ftbquests.chapter.4A4420704BDBEA5D.quest1602535408156330040.task.6307944816702865510.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -1217,5 +1217,5 @@
 			y: 3.0d
 		}
 	]
-	title: "元素周期表"
+	title: "{ftbquests.chapter.4A4420704BDBEA5D.title}"
 }

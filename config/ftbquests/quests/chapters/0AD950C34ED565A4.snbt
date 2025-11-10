@@ -50,24 +50,24 @@
 			y: 0.5d
 		}
 		{
-			description: ["传说生存模组中，有两个很重要的概念，体温和室温（环境温度），其中室温在正常游戏难度下是&a不可见的&r，除非调至和平模式或者拥有温度计，而&a体温可以在经验条上方的状态栏中观察得到&r。正常情况下，体温会维持在正常范围内，一旦环境过热或者过冷，状态栏上面的小球周围就会显示出来，而保持过热或过冷状态太久，就会导致小球的颜色逐渐变红（蓝），当图标发生改变时，往往会伴随很多其他现象，如&4视线模糊，走不动路&r等等，此时如果还不及时回到正常温度下，就会&4迅速开始掉血直至死亡&r。"]
+			description: ["{ftbquests.chapter.0AD950C34ED565A4.quest4461602820180400967.description1}"]
 			id: "3DEACC2059BBDB47"
-			subtitle: "体温part"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest4461602820180400967.subtitle}"
 			tasks: [{
 				id: "3A403EB9C65CA260"
-				title: "须知"
+				title: "{ftbquests.chapter.0AD950C34ED565A4.quest4461602820180400967.task.4197423820327133792.title}"
 				type: "checkmark"
 			}]
 			x: -6.0d
 			y: 4.5d
 		}
 		{
-			description: ["传说生存中的温度会受很多因素影响，如维度、海拔、群系、晨昏、干湿、季节等。特别的，在干燥炎热的群系中，昼夜温差会变大，出现白天很热，夜晚很冷的情况，不适宜居住。而海拔低于64的地方会减小昼夜温差，所以在洞穴中会有冬暖夏凉的效果。"]
+			description: ["{ftbquests.chapter.0AD950C34ED565A4.quest3873787513859400253.description1}"]
 			id: "35C275383AEEE23D"
-			subtitle: "外界温度part"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest3873787513859400253.subtitle}"
 			tasks: [{
 				id: "533FDBC115480B2E"
-				title: "须知"
+				title: "{ftbquests.chapter.0AD950C34ED565A4.quest3873787513859400253.task.5998754851013004078.title}"
 				type: "checkmark"
 			}]
 			x: -6.0d
@@ -75,7 +75,7 @@
 		}
 		{
 			id: "3EE3102F38FCF130"
-			subtitle: "出现在寒冷的原版群系"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest4531483445070459184.subtitle}"
 			tasks: [{
 				id: "29D5BD22E2572F06"
 				item: "legendarysurvivaloverhaul:ice_fern_leaf"
@@ -86,7 +86,7 @@
 		}
 		{
 			id: "2B8D29BCF9754837"
-			subtitle: "出现在炎热的原版群系"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest3138210406962907191.subtitle}"
 			tasks: [{
 				id: "194A7BA8228F4799"
 				item: "legendarysurvivaloverhaul:sun_fern_leaf"
@@ -97,10 +97,10 @@
 		}
 		{
 			id: "01C3E477C4F072F1"
-			subtitle: "在本模组中，跑动会使得体温上升"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest127196417552839409.subtitle}"
 			tasks: [{
 				id: "6F7812986A136456"
-				title: "跑动"
+				title: "{ftbquests.chapter.0AD950C34ED565A4.quest127196417552839409.task.8032190381239264342.title}"
 				type: "checkmark"
 			}]
 			x: -6.0d
@@ -128,7 +128,7 @@
 		}
 		{
 			id: "3314F0D4098098AE"
-			subtitle: "每一级附魔减少5%降温变化（可叠加）"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest3680831588951693486.subtitle}"
 			tasks: [{
 				id: "63049FEE2FCDC622"
 				item: {
@@ -143,13 +143,13 @@
 				}
 				type: "item"
 			}]
-			title: "御寒附魔"
+			title: "{ftbquests.chapter.0AD950C34ED565A4.quest3680831588951693486.title}"
 			x: -2.0d
 			y: 4.5d
 		}
 		{
 			id: "5E0E38DFBE25B51D"
-			subtitle: "每一级附魔减缓5%升温变化（可叠加）"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest6777417022858179869.subtitle}"
 			tasks: [{
 				id: "6DB6BD5045DB21E3"
 				item: {
@@ -164,67 +164,67 @@
 				}
 				type: "item"
 			}]
-			title: "御暑附魔"
+			title: "{ftbquests.chapter.0AD950C34ED565A4.quest6777417022858179869.title}"
 			x: -2.0d
 			y: -3.5d
 		}
 		{
 			description: [
-				"二十四节气是中国古代订立的一种用来指导农事的补充历法，反映了黄河流域一年中自然现象和农事季节的变化规律。它是中华民族长期经验的积累和智慧的结晶，于2016年被列入联合国教科文组织人类非物质文化遗产代表作名录。"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description1}"
 				""
-				"二十四节气的分类"
-				"二十四节气根据太阳在黄道（地球绕太阳公转的轨道）上的位置划分，每15°为一个节气，全年共24个，分为四类："
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description2}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description3}"
 				""
-				"表示季节变化（8个）："
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description4}"
 				""
-				"立春、立夏、立秋、立冬：表示四季的开始。"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description5}"
 				""
-				"春分、秋分：昼夜平分。"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description6}"
 				""
-				"夏至、冬至：一年中白昼最长和最短的日子。"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description7}"
 				""
-				"反映气温变化（5个）："
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description8}"
 				""
-				"小暑、大暑：夏季炎热程度。"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description9}"
 				""
-				"处暑：暑热结束。"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description10}"
 				""
-				"小寒、大寒：冬季寒冷程度。"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description11}"
 				""
-				"反映降水现象（7个）："
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description12}"
 				""
-				"雨水：降雨开始。"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description13}"
 				""
-				"谷雨：雨生百谷。"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description14}"
 				""
-				"白露、寒露、霜降：气温下降，水汽凝结。"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description15}"
 				""
-				"小雪、大雪：降雪程度。"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description16}"
 				""
-				"反映物候现象（4个）："
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description17}"
 				""
-				"惊蛰：春雷惊醒冬眠动物。"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description18}"
 				""
-				"清明：天气晴朗，草木萌发。"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description19}"
 				""
-				"小满：麦类作物籽粒开始饱满。"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description20}"
 				""
-				"芒种：麦类等有芒作物成熟。"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description21}"
 			]
 			id: "30DC07EEEACB1DE1"
-			subtitle: "二十四节气！"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.subtitle}"
 			tasks: [{
 				id: "4757E453136C8F72"
 				item: "eclipticseasons:calendar"
 				type: "item"
 			}]
-			title: "节气"
+			title: "{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.title}"
 			x: -4.0d
 			y: -5.5d
 		}
 		{
 			id: "4D39D33BB9765A01"
-			subtitle: "湿度计可以检测群系的湿度，从而判断是否适合农作物生长"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest5564711068061030913.subtitle}"
 			tasks: [{
 				id: "2826B7835A9B1DCB"
 				item: "eclipticseasons:hygrometer"
@@ -235,7 +235,7 @@
 		}
 		{
 			id: "602481325DFDBFA3"
-			subtitle: "用温室来种植不合季节的作物"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest6927804180127924131.subtitle}"
 			tasks: [{
 				id: "58021DCFAA21B290"
 				item: "eclipticseasons:greenhouse_core_container"
@@ -245,5 +245,5 @@
 			y: -5.5d
 		}
 	]
-	title: "传说生存"
+	title: "{ftbquests.chapter.0AD950C34ED565A4.title}"
 }

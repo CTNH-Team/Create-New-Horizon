@@ -18,7 +18,7 @@
 			id: "6D8963683034165D"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "恭喜，你玩到了现在的最终阶段"
+			subtitle: "{ftbquests.chapter.uhv.quest7892949121079973469.subtitle}"
 			tasks: [{
 				id: "3BBDFB9C77C2C530"
 				item: "gtceu:uhv_machine_hull"
@@ -52,7 +52,7 @@
 		{
 			dependencies: ["4F639E4C01239DA8"]
 			id: "777F1D3EB722D4B7"
-			subtitle: "超好的SOC芯片"
+			subtitle: "{ftbquests.chapter.uhv.quest8610633167753368759.subtitle}"
 			tasks: [{
 				id: "02F0CB1D2A182125"
 				item: "gtceu:highly_advanced_soc_wafer"
@@ -63,10 +63,10 @@
 		}
 		{
 			id: "63A4FC58057C9E7D"
-			subtitle: "真正的终点"
+			subtitle: "{ftbquests.chapter.uhv.quest7180141160914787965.subtitle}"
 			tasks: [{
 				id: "1228D5231465172A"
-				title: "基岩处理④"
+				title: "{ftbquests.chapter.uhv.quest7180141160914787965.task.1308530038393870122.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -164,7 +164,7 @@
 			id: "6931CCEEE2282117"
 			tasks: [{
 				id: "28F2EC5F159FE317"
-				title: "老朋友们"
+				title: "{ftbquests.chapter.uhv.quest7580064974209818903.task.2950680599009944343.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -172,7 +172,7 @@
 		}
 		{
 			dependencies: ["6931CCEEE2282117"]
-			description: ["    这曾是CTNH1.2.1版本的毕业证明。"]
+			description: ["{ftbquests.chapter.uhv.quest1566483953428500387.description1}"]
 			icon: "gtceu:nan_certificate"
 			id: "15BD44DB26748FA3"
 			rewards: [{
@@ -183,13 +183,13 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "不是菜鸟证明！"
+			subtitle: "{ftbquests.chapter.uhv.quest1566483953428500387.subtitle}"
 			tasks: [{
 				id: "7BE6B053802692B5"
 				item: "gtceu:nan_certificate"
 				type: "item"
 			}]
-			title: "1.2.1  毕业证明"
+			title: "{ftbquests.chapter.uhv.quest1566483953428500387.title}"
 			x: 1.0d
 			y: 4.0d
 		}
@@ -198,7 +198,7 @@
 			id: "1BC96CF2C5DB3D12"
 			shape: "circle"
 			size: 2.0d
-			subtitle: "准备好，它可是你在UHV-UEV主要的磁化材料"
+			subtitle: "{ftbquests.chapter.uhv.quest2002251299300261138.subtitle}"
 			tasks: [{
 				id: "3DFC72E59BBA99F7"
 				item: "gtceu:samarium_dysprosium_terbium_permanent_magnet_alloy_ingot"
@@ -210,8 +210,8 @@
 		{
 			dependencies: ["6D8963683034165D"]
 			description: [
-				"至少是现在，即使使用保护气，你还需要高达15000秒的时间才能烧完这个金属，去使用等离子合金炉，拉满你所有的速度来挑战这种合金吧"
-				"未来也许会有其他方法？超维度等离子锻炉？谁知道CTNH会不会有这个东西？"
+				"{ftbquests.chapter.uhv.quest2802313408943137721.description1}"
+				"{ftbquests.chapter.uhv.quest2802313408943137721.description2}"
 			]
 			id: "26E3D132B95EA3B9"
 			rewards: [{
@@ -219,7 +219,7 @@
 				item: "gtceu:quantum_alloy_ingot"
 				type: "item"
 			}]
-			subtitle: "在世界的终末才能炖完的合金"
+			subtitle: "{ftbquests.chapter.uhv.quest2802313408943137721.subtitle}"
 			tasks: [{
 				id: "795267626FCFBDB6"
 				item: "gtceu:molten_quantum_alloy_bucket"
@@ -234,9 +234,9 @@
 				"26E3D132B95EA3B9"
 			]
 			description: [
-				"注意：这个方程确实有基础值，你可以查kjs来看到add_data里填写的基础值，但是为了给你点小惊喜，这个机器会在基础值的很大范围内随机波动。所以承受这次折磨吧：XD"
+				"{ftbquests.chapter.uhv.quest517314525678157241.description1}"
 				""
-				"&4PS:我并不保证它的稳定性，如果有BUG无法使用请向我反馈&r"
+				"{ftbquests.chapter.uhv.quest517314525678157241.description2}"
 			]
 			id: "072DDED1FC323DB9"
 			rewards: [{
@@ -245,7 +245,7 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "来吧，你必须挑战"
+			subtitle: "{ftbquests.chapter.uhv.quest517314525678157241.subtitle}"
 			tasks: [{
 				id: "6C94783B028F4EFB"
 				item: "ctnhcore:neruo_martix_compiler"
@@ -260,13 +260,13 @@
 				"2FA53E0988807E71"
 			]
 			description: [
-				"你的焊锡理所当然地不能再支撑住接下来的建筑了，你需要一种可以根据情况自主调整的合金。"
+				"{ftbquests.chapter.uhv.quest8561211817482641647.description1}"
 				""
-				"可惜这里没有活性突变焊料，不过你已经想好了更疯狂的存在——活体金属"
+				"{ftbquests.chapter.uhv.quest8561211817482641647.description2}"
 				""
-				"制作它需要先制作出未编译的版本，然后使用数据集和电路板来辅助编译，然后使用燃料来进行激活。塔兰燃料作为高能燃料固然不错，但是充能硅岩基MKIII燃料的巨大能量能迅速加速这一过程"
+				"{ftbquests.chapter.uhv.quest8561211817482641647.description3}"
 				""
-				"当然你要先用编译器来获得数据集，你将在这之前被困于无尽的小作文地狱，Have Fun!(not)"
+				"{ftbquests.chapter.uhv.quest8561211817482641647.description4}"
 			]
 			id: "76CF88C9EBEDE0EF"
 			rewards: [{
@@ -275,7 +275,7 @@
 				type: "item"
 			}]
 			size: 2.0d
-			subtitle: "这确实很疯狂，但确实够疯狂"
+			subtitle: "{ftbquests.chapter.uhv.quest8561211817482641647.subtitle}"
 			tasks: [
 				{
 					id: "62D2FA9556F610E5"
@@ -297,13 +297,13 @@
 					type: "item"
 				}
 			]
-			title: "蠕动，蠕动......"
+			title: "{ftbquests.chapter.uhv.quest8561211817482641647.title}"
 			x: 7.0d
 			y: -2.0d
 		}
 		{
 			id: "2FA53E0988807E71"
-			subtitle: "如果给它加上通流琥珀金的话它的化学式能突破4行吗"
+			subtitle: "{ftbquests.chapter.uhv.quest3433218501605621361.subtitle}"
 			tasks: [{
 				id: "261ECDFDB31BA34D"
 				item: "gtceu:radiation_sight_alloy_inf_bucket"
@@ -316,7 +316,7 @@
 			id: "2DBA5445319926BE"
 			shape: "circle"
 			size: 1.0d
-			subtitle: "锗从冶炼炉里来"
+			subtitle: "{ftbquests.chapter.uhv.quest3295038733536536254.subtitle}"
 			tasks: [{
 				id: "25A8BD7CF4103101"
 				item: "gtceu:abyssalalloy_ingot"
@@ -330,7 +330,7 @@
 			id: "0C5E045DBD9D132E"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "UHV线圈"
+			subtitle: "{ftbquests.chapter.uhv.quest891154576925594414.subtitle}"
 			tasks: [{
 				id: "7FDBB66A6463D160"
 				item: "ctnhcore:abyssalalloy_coil_block"
@@ -347,7 +347,7 @@
 			id: "674C9A48676C71F5"
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "很好的发电机,只消耗超能燃料"
+			subtitle: "{ftbquests.chapter.uhv.quest7443493919900070389.subtitle}"
 			tasks: [{
 				id: "6BC4FAF8A3F8141B"
 				item: "ctnhcore:naq_reactor_mk3"
@@ -363,9 +363,9 @@
 				"5409D4773E7C8529"
 				"6429ECAF0856240D"
 			]
-			description: ["    新的毕业证明还没做出来，做个这个意思一下吧"]
+			description: ["{ftbquests.chapter.uhv.quest8283170895604053017.description1}"]
 			id: "72F3BC0B1E557419"
-			subtitle: "新的菜鸟证明？"
+			subtitle: "{ftbquests.chapter.uhv.quest8283170895604053017.subtitle}"
 			tasks: [{
 				id: "0BA949F8EA6C8EAD"
 				item: "gtceu:uhv_circuit_assembler"
@@ -375,5 +375,5 @@
 			y: 4.0d
 		}
 	]
-	title: "&4UHV&r时期"
+	title: "{ftbquests.chapter.uhv.title}"
 }

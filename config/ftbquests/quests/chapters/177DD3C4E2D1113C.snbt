@@ -45,7 +45,7 @@
 		{
 			dependencies: ["591C04018820A1E3"]
 			id: "1FC5D2A60578FB55"
-			subtitle: "熔炼可以从大量的贵金属中提取出一些珍惜的金元素"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest2289467596085984085.subtitle}"
 			tasks: [{
 				id: "72C6F20C922B2859"
 				item: "minecraft:gold_nugget"
@@ -90,7 +90,7 @@
 		{
 			dependencies: ["188AC9C2BFA0D221"]
 			id: "01622A02A8887530"
-			subtitle: "经过处理后，可以提炼出更多的金"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest99688332661388592.subtitle}"
 			tasks: [{
 				id: "2D42FEBF44F781A1"
 				item: "gtceu:tiny_gold_dust"
@@ -102,7 +102,7 @@
 		{
 			dependencies: ["188AC9C2BFA0D221"]
 			id: "21D904DC5BD2D857"
-			subtitle: "可以回收铜，以及获得一些副产物"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest2438986017677695063.subtitle}"
 			tasks: [{
 				id: "426B548E21DBDC21"
 				item: "gtceu:copper_leach_dust"
@@ -114,7 +114,7 @@
 		{
 			dependencies: ["188AC9C2BFA0D221"]
 			id: "4009858927F160B3"
-			subtitle: "提取出全部的金"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest4614366117344927923.subtitle}"
 			tasks: [{
 				id: "1167A4A08BE4673C"
 				item: "gtceu:chloroauric_acid_bucket"
@@ -137,7 +137,7 @@
 		}
 		{
 			id: "0C52DB44DF9EE06F"
-			subtitle: "氧化铝来源广泛，可以副产于许多种矿物"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest888013165401399407.subtitle}"
 			tasks: [{
 				id: "1A9A6FC700D18F86"
 				item: "gtceu:alumina_dust"
@@ -152,7 +152,7 @@
 				"5211BE1C25953D4A"
 			]
 			id: "32032DEB11135FEF"
-			subtitle: "经过二者电解，可以降低铝粉制取所需要的电压"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest3603774614453575663.subtitle}"
 			tasks: [{
 				id: "11100205C8DEFAAE"
 				item: "gtceu:aluminium_dust"
@@ -188,7 +188,7 @@
 			dependencies: ["2224B60020D84572"]
 			id: "681DC7A75791D7E2"
 			size: 1.5d
-			subtitle: "一种含铝和氟的石头，来自暮色森林"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest7502372075811756002.subtitle}"
 			tasks: [{
 				id: "10BFE625088691A7"
 				item: "gtceu:cryolite_dust"
@@ -223,7 +223,7 @@
 		{
 			dependencies: ["53314CF3EED532FE"]
 			id: "689BE30CCFFF7850"
-			subtitle: "铝土矿中含有少量金红石"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest7537868045503395920.subtitle}"
 			tasks: [{
 				id: "290B69816AF28B31"
 				item: "gtceu:tiny_rutile_dust"
@@ -257,7 +257,7 @@
 		{
 			dependencies: ["27E122BB40B8033B"]
 			id: "1059716CA13CA10E"
-			subtitle: "副产物"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest1178097488909607182.subtitle}"
 			tasks: [{
 				id: "7291A77099CE5DEF"
 				item: "gtceu:red_mud_bucket"
@@ -291,7 +291,7 @@
 		{
 			dependencies: ["27E122BB40B8033B"]
 			id: "7E7D5E681C498055"
-			subtitle: "铝元素提取"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest9114545022111940693.subtitle}"
 			tasks: [{
 				id: "270C7721F12B81FA"
 				item: "gtceu:pure_aluminium_hydroxide_solution_bucket"
@@ -303,7 +303,7 @@
 		{
 			dependencies: ["7E7D5E681C498055"]
 			id: "4E3F96D91F921735"
-			subtitle: "在电力高炉内熔炼成氧化铝"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest5638391117772887861.subtitle}"
 			tasks: [{
 				id: "6208BF50F1AA52FF"
 				item: "gtceu:aluminium_hydroxide_dust"
@@ -420,7 +420,7 @@
 					type: "item"
 				}
 			]
-			title: "氧化物粉"
+			title: "{ftbquests.chapter.177DD3C4E2D1113C.quest6007855411578440570.title}"
 			x: 2.5d
 			y: -1.0d
 		}
@@ -439,7 +439,7 @@
 					type: "item"
 				}
 			]
-			title: "氯化物粉"
+			title: "{ftbquests.chapter.177DD3C4E2D1113C.quest6375718110002759453.title}"
 			x: 4.5d
 			y: -1.0d
 		}
@@ -459,7 +459,7 @@
 					type: "item"
 				}
 			]
-			title: "铪、锆粉"
+			title: "{ftbquests.chapter.177DD3C4E2D1113C.quest524902605712084958.title}"
 			x: 6.5d
 			y: -1.0d
 		}
@@ -489,7 +489,7 @@
 					type: "item"
 				}
 			]
-			title: "物料桶"
+			title: "{ftbquests.chapter.177DD3C4E2D1113C.quest9175423558530348558.title}"
 			x: 1.5d
 			y: -2.0d
 		}
@@ -761,7 +761,7 @@
 		}
 		{
 			id: "211AA05F2154A9FD"
-			subtitle: "如果能获得这个......"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest2385395283087632893.subtitle}"
 			tasks: [{
 				id: "6E9203FCEAA5EE03"
 				item: "kubejs:metallurgical_catalyst"
@@ -786,7 +786,7 @@
 		}
 		{
 			id: "384D3729A3308C4F"
-			subtitle: "可以帮你节省不少步骤"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest4056959491301739599.subtitle}"
 			tasks: [{
 				id: "26B53A05CB0F86A5"
 				item: "kubejs:bauxite_process_catalyst"
@@ -1061,7 +1061,7 @@
 		{
 			dependencies: ["44DF62D8F87E1E98"]
 			id: "1F24CDB4B265DAE8"
-			subtitle: "你想要凯金处理产线吗？"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest2244144690308176616.subtitle}"
 			tasks: [{
 				id: "7E6DA58B61134C92"
 				item: "gtceu:trinium_sulfide_dust"
@@ -1127,7 +1127,7 @@
 			dependencies: ["66254C468CBF061D"]
 			id: "17292A9A316E61BF"
 			size: 1.5d
-			subtitle: "天然碱用于做碳酸钠溶液"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest1668911978660127167.subtitle}"
 			tasks: [
 				{
 					id: "31E91C127B4C0B4F"
@@ -1185,7 +1185,7 @@
 					type: "item"
 				}
 			]
-			title: "氧化物粉"
+			title: "{ftbquests.chapter.177DD3C4E2D1113C.quest5751944026190583496.title}"
 			x: 4.5d
 			y: -5.0d
 		}
@@ -1204,10 +1204,10 @@
 			size: 1.25d
 			tasks: [{
 				id: "44F47B8D65B5C52E"
-				title: "硅岩处理"
+				title: "{ftbquests.chapter.177DD3C4E2D1113C.quest3830996903712428723.task.4968732136123516206.title}"
 				type: "checkmark"
 			}]
-			title: "⑦—硅岩处理"
+			title: "{ftbquests.chapter.177DD3C4E2D1113C.quest3830996903712428723.title}"
 			x: -5.5d
 			y: 4.0d
 		}
@@ -1216,10 +1216,10 @@
 			size: 1.25d
 			tasks: [{
 				id: "517256A02DD45B46"
-				title: "锆处理"
+				title: "{ftbquests.chapter.177DD3C4E2D1113C.quest5985679305533771770.task.5868848510380825414.title}"
 				type: "checkmark"
 			}]
-			title: "⑤—铪、锆处理"
+			title: "{ftbquests.chapter.177DD3C4E2D1113C.quest5985679305533771770.title}"
 			x: -5.5d
 			y: -1.0d
 		}
@@ -1228,10 +1228,10 @@
 			size: 1.25d
 			tasks: [{
 				id: "3E13A1E145A77726"
-				title: "钽处理"
+				title: "{ftbquests.chapter.177DD3C4E2D1113C.quest7360373031899694621.task.4473096843817350950.title}"
 				type: "checkmark"
 			}]
-			title: "③—钽、铌处理"
+			title: "{ftbquests.chapter.177DD3C4E2D1113C.quest7360373031899694621.title}"
 			x: -5.5d
 			y: -5.0d
 		}
@@ -1240,10 +1240,10 @@
 			size: 1.25d
 			tasks: [{
 				id: "6DC2375E43F5A239"
-				title: "金处理"
+				title: "{ftbquests.chapter.177DD3C4E2D1113C.quest7289079456542114292.task.7908944773622637113.title}"
 				type: "checkmark"
 			}]
-			title: "①—金处理"
+			title: "{ftbquests.chapter.177DD3C4E2D1113C.quest7289079456542114292.title}"
 			x: -5.5d
 			y: -9.0d
 		}
@@ -1252,10 +1252,10 @@
 			size: 1.25d
 			tasks: [{
 				id: "65A4BB9B0A3398D9"
-				title: "铀处理"
+				title: "{ftbquests.chapter.177DD3C4E2D1113C.quest6325520936732621317.task.7324185168576747737.title}"
 				type: "checkmark"
 			}]
-			title: "⑥—铀处理"
+			title: "{ftbquests.chapter.177DD3C4E2D1113C.quest6325520936732621317.title}"
 			x: 8.5d
 			y: -1.0d
 		}
@@ -1264,10 +1264,10 @@
 			size: 1.25d
 			tasks: [{
 				id: "2CC82FCC9BE071EE"
-				title: "铝土处理"
+				title: "{ftbquests.chapter.177DD3C4E2D1113C.quest3778826996940011374.task.3226881688845971950.title}"
 				type: "checkmark"
 			}]
-			title: "④—铝土处理"
+			title: "{ftbquests.chapter.177DD3C4E2D1113C.quest3778826996940011374.title}"
 			x: 8.5d
 			y: -5.0d
 		}
@@ -1276,10 +1276,10 @@
 			size: 1.25d
 			tasks: [{
 				id: "7D9A1585FEC955A0"
-				title: "铝处理"
+				title: "{ftbquests.chapter.177DD3C4E2D1113C.quest2460291408118433138.task.9050570066403874208.title}"
 				type: "checkmark"
 			}]
-			title: "②—铝处理"
+			title: "{ftbquests.chapter.177DD3C4E2D1113C.quest2460291408118433138.title}"
 			x: 8.5d
 			y: -9.0d
 		}
@@ -1287,7 +1287,7 @@
 			dependencies: ["27F0DABAEDC00D7A"]
 			id: "724B4D5BE66CEEEA"
 			size: 1.5d
-			subtitle: "新材料"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest8235761400680345322.subtitle}"
 			tasks: [{
 				id: "5AAC284D6B71B777"
 				item: "gtceu:flawless_tungstencu_diamond_plating_gem"
@@ -1310,7 +1310,7 @@
 		{
 			dependencies: ["56D0FDB6842D38C2"]
 			id: "52156F99511B7A7E"
-			subtitle: "开始你的传奇产线布置吧"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest5914756389902449278.subtitle}"
 			tasks: [{
 				id: "4F96B6D82E030080"
 				item: "ctnhcore:bedrock_drilling_rigs"
@@ -1404,7 +1404,7 @@
 				"3C9769EB35BB245D"
 			]
 			id: "2BB03484D6971028"
-			subtitle: "留到UV处理"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest3148073884672528424.subtitle}"
 			tasks: [{
 				id: "19B9754ACA92787A"
 				item: "gtceu:taranliquid_bucket"
@@ -1557,7 +1557,7 @@
 		{
 			dependencies: ["4B63F560AED06615"]
 			id: "1BEC6EF7F134246C"
-			subtitle: "继续分离来增产另外两种塔兰金属液体"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest2012105144710472812.subtitle}"
 			tasks: [{
 				id: "42E1C3E073E2B567"
 				item: "gtceu:taranium_half_life_liquid_helium3_bucket"
@@ -1592,7 +1592,7 @@
 			id: "46D6EADF05BA41A6"
 			shape: "gear"
 			size: 1.0d
-			subtitle: "更快冷凝你的等离子体"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest5104525471265735078.subtitle}"
 			tasks: [{
 				id: "30E70EF8D3C1BB40"
 				item: "ctnhcore:plasma_condenser"
@@ -1644,7 +1644,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "219E9B48DE93781A"
-			subtitle: "很快就能出精金了！"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest2422544386846062618.subtitle}"
 			tasks: [{
 				id: "0BC89185D02D603B"
 				item: "gtceu:adamant_mud_dust"
@@ -1660,7 +1660,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "7FB819E46B3F2404"
-			subtitle: "UEV的时候再处理吧"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest9203134307374146564.subtitle}"
 			tasks: [{
 				id: "156369CEF2DBB2DA"
 				item: "gtceu:taranium_powder_dust"
@@ -1682,7 +1682,7 @@
 		}
 		{
 			id: "2EB87027F157815D"
-			subtitle: "稀土的萃取剂，也可以萃取精金"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest3366564038314525021.subtitle}"
 			tasks: [{
 				id: "3D229CD3DB82C461"
 				item: "gtceu:p507_extractant_bucket"
@@ -1698,7 +1698,7 @@
 			]
 			id: "73FEBDBA63D96DDA"
 			size: 1.0d
-			subtitle: "无损P507"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest8358326566682979802.subtitle}"
 			tasks: [{
 				id: "1DA28993B0247EA8"
 				item: "gtceu:adamantiteliquid_bucket"
@@ -1732,7 +1732,7 @@
 		{
 			dependencies: ["7A49E5931F2C7453"]
 			id: "3B20DB28F8A96FC0"
-			subtitle: "UHV的重要材料"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest4260646216509517760.subtitle}"
 			tasks: [{
 				id: "01CF780BB688157C"
 				item: "gtceu:adamantite_dust"
@@ -1763,7 +1763,7 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "UHV线缆的主要材料"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest6768935106672262753.subtitle}"
 			tasks: [{
 				id: "7C005989A82F0622"
 				item: "gtceu:adamantite_ingot"
@@ -1789,7 +1789,7 @@
 				"2C77397CCBCBE7EF"
 			]
 			id: "68F1E652B8BA5A07"
-			subtitle: "把两个最硬的东西混起来会发生什么？"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest7562078492292700679.subtitle}"
 			tasks: [{
 				id: "2A773B7AF70575BE"
 				item: "gtceu:bedrock_neutronium_dust"
@@ -1803,7 +1803,7 @@
 			size: 1.25d
 			tasks: [{
 				id: "7C7167A73FAF2133"
-				title: "⑧—基岩处理"
+				title: "{ftbquests.chapter.177DD3C4E2D1113C.quest2878040658277305722.task.8967062301097009459.title}"
 				type: "checkmark"
 			}]
 			x: -15.5d
@@ -1867,7 +1867,7 @@
 				"5F669351E929DE13"
 			]
 			id: "62C818606820AC3A"
-			subtitle: "UHV阶段可以处理"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest7117966013401967674.subtitle}"
 			tasks: [{
 				id: "65A07E985B66B699"
 				item: "gtceu:dr_bedrock_gas_re_bucket"
@@ -1890,7 +1890,7 @@
 					type: "item"
 				}
 			]
-			title: "放射性物质"
+			title: "{ftbquests.chapter.177DD3C4E2D1113C.quest8790917350698001250.title}"
 			x: 11.5d
 			y: 15.5d
 		}
@@ -1944,7 +1944,7 @@
 		{
 			dependencies: ["7565AACEF5040B8D"]
 			id: "6286B016F7A21B39"
-			subtitle: "你需要衰变罐"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest7099555475286530873.subtitle}"
 			tasks: [{
 				id: "15A68F85CEBA29F9"
 				item: "gtceu:radioactive_metal_ingot_ingot"
@@ -2002,9 +2002,9 @@
 				"49E9D581D9A44DCF"
 				"239256DEE547E22D"
 			]
-			description: ["你也可以拿来发电"]
+			description: ["{ftbquests.chapter.177DD3C4E2D1113C.quest3683789154074391864.description1}"]
 			id: "331F72B7D40A7538"
-			subtitle: "等离子冷凝来加速产出以太的产出速率"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest3683789154074391864.subtitle}"
 			tasks: [{
 				id: "040D2994DEAAE849"
 				item: "gtceu:aether_plasma_bucket"
@@ -2063,7 +2063,7 @@
 				item: "gtceu:oracle_dust"
 				type: "item"
 			}]
-			title: "神谕之粉"
+			title: "{ftbquests.chapter.177DD3C4E2D1113C.quest2095313032937891598.title}"
 			x: 29.5d
 			y: 10.5d
 		}
@@ -2148,11 +2148,11 @@
 				"7DED10B400A33933"
 				"4831A750BE325D1A"
 			]
-			description: ["基岩处理的终点"]
+			description: ["{ftbquests.chapter.177DD3C4E2D1113C.quest657997484258270441.description1}"]
 			id: "0921AD39C8509CE9"
 			shape: "gear"
 			size: 1.0d
-			subtitle: "不是菜鸟证明？"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest657997484258270441.subtitle}"
 			tasks: [{
 				id: "27C8F2426A80B994"
 				item: "gtceu:boundless_dust"
@@ -2166,7 +2166,7 @@
 			id: "7F81295FE18741A6"
 			shape: "gear"
 			size: 1.0d
-			subtitle: "UEV的主要材料"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest9187670206594892198.subtitle}"
 			tasks: [{
 				id: "6505A75DAEE23A90"
 				item: "gtceu:aether_ingot"
@@ -2193,7 +2193,7 @@
 				"1D140C1A1D82670E"
 				"7F81295FE18741A6"
 			]
-			description: ["&d&l&o&n感谢所有游玩ctnh整合包的玩家、是你们给了我们创作的动力、今后我们也会一步一步、脚踏实地的产出更优质的内容哦~"]
+			description: ["{ftbquests.chapter.177DD3C4E2D1113C.quest4729798205340816512.description1}"]
 			icon: {
 				Count: 1
 				id: "minecraft:player_head"
@@ -2254,10 +2254,10 @@
 				}
 			]
 			size: 3.0d
-			subtitle: "你真的很能处理"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest4729798205340816512.subtitle}"
 			tasks: [{
 				id: "32C420FD05D1D9CD"
-				title: "Yuriko想对你说"
+				title: "{ftbquests.chapter.177DD3C4E2D1113C.quest4729798205340816512.task.3658085068428138957.title}"
 				type: "checkmark"
 			}]
 			x: 33.0d
@@ -2267,10 +2267,10 @@
 			id: "12BAF2B7FB2E3643"
 			tasks: [{
 				id: "6D888DD2B4AB01D4"
-				title: "stage—2"
+				title: "{ftbquests.chapter.177DD3C4E2D1113C.quest1349657910357931587.task.7892714283080548820.title}"
 				type: "checkmark"
 			}]
-			title: "UV处理"
+			title: "{ftbquests.chapter.177DD3C4E2D1113C.quest1349657910357931587.title}"
 			x: 5.5d
 			y: 15.5d
 		}
@@ -2278,7 +2278,7 @@
 			id: "5F669351E929DE13"
 			tasks: [{
 				id: "1A2D771D11092AFB"
-				title: "UHV处理"
+				title: "{ftbquests.chapter.177DD3C4E2D1113C.quest6874343861241110035.task.1886294785661676283.title}"
 				type: "checkmark"
 			}]
 			x: 17.5d
@@ -2288,12 +2288,12 @@
 			id: "7C250EA72ABD6BB4"
 			tasks: [{
 				id: "4FBFA0E1DDC049BA"
-				title: "UEV处理"
+				title: "{ftbquests.chapter.177DD3C4E2D1113C.quest8945572345980742580.task.5746488541496494522.title}"
 				type: "checkmark"
 			}]
 			x: 17.5d
 			y: 11.5d
 		}
 	]
-	title: "矿物处理"
+	title: "{ftbquests.chapter.177DD3C4E2D1113C.title}"
 }

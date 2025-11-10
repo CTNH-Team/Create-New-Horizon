@@ -7,5 +7,5 @@
 		{ count: 8, item: "ae2:calculation_processor" }
 		{ count: 8, item: "ae2:engineering_processor" }
 	]
-	title: "ae精选"
+	title: "{ftbquests.loot_table.6682378568521982947.title}"
 }

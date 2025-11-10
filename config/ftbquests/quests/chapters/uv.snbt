@@ -148,10 +148,10 @@
 				"619F43DB0B07651E"
 			]
 			id: "628F4826B5F6AC41"
-			subtitle: "亦或是催化剂？"
+			subtitle: "{ftbquests.chapter.uv.quest7101974468485360705.subtitle}"
 			tasks: [{
 				id: "3BBE2FA962B1B2F2"
-				title: "更好的等离子燃料"
+				title: "{ftbquests.chapter.uv.quest7101974468485360705.task.4304930698364564210.title}"
 				type: "checkmark"
 			}]
 			x: 43.0d
@@ -195,11 +195,11 @@
 				"7F81295FE18741A6"
 				"12BAF2B7FB2E3643"
 			]
-			description: ["钻井液只需要输入一次，倘若输出过多的钻井液，它们会被销毁"]
+			description: ["{ftbquests.chapter.uv.quest5815213537516538274.description1}"]
 			id: "50B3C9E6ECB749A2"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "凭空产生，梦里才会有的东西吧？"
+			subtitle: "{ftbquests.chapter.uv.quest5815213537516538274.subtitle}"
 			tasks: [{
 				id: "5C64C7AB92A674C4"
 				item: "ctnhcore:void_miner"
@@ -210,20 +210,20 @@
 		}
 		{
 			id: "0FBFC9DC10435D74"
-			subtitle: "准备好足够的培养皿吧 "
+			subtitle: "{ftbquests.chapter.uv.quest1134847578123492724.subtitle}"
 			tasks: [{
 				id: "0093928D3E52E2E4"
 				item: "gtceu:petri_dish"
 				type: "item"
 			}]
-			title: "幽匿电路板的开端"
+			title: "{ftbquests.chapter.uv.quest1134847578123492724.title}"
 			x: 45.0d
 			y: -21.0d
 		}
 		{
 			dependencies: ["18E2A4593690B3D1"]
 			id: "325BB56C5CEBF98A"
-			subtitle: "更好的Soc，可以直接制作湿件处理器"
+			subtitle: "{ftbquests.chapter.uv.quest3628693401797130634.subtitle}"
 			tasks: [{
 				id: "72587F7365E457B7"
 				item: "gtceu:highly_advanced_soc_wafer"
@@ -241,7 +241,7 @@
 				"325BB56C5CEBF98A"
 			]
 			id: "76A0F39E1949074E"
-			subtitle: "附着在电路板上"
+			subtitle: "{ftbquests.chapter.uv.quest8548099953103800142.subtitle}"
 			tasks: [{
 				id: "409AC1430F7A281D"
 				item: "ctnhcore:sculk_cell"
@@ -274,7 +274,7 @@
 		{
 			dependencies: ["68E2F33616B5A7A0"]
 			id: "3FCC69ED6F284B06"
-			subtitle: "这种材料似乎拥有快速传递通量的能力"
+			subtitle: "{ftbquests.chapter.uv.quest4597165788131511046.subtitle}"
 			tasks: [
 				{
 					id: "1193B78963D8F5E0"
@@ -292,7 +292,7 @@
 		}
 		{
 			id: "68E2F33616B5A7A0"
-			subtitle: "你需要大量的幽匿脉络"
+			subtitle: "{ftbquests.chapter.uv.quest7557870538315900832.subtitle}"
 			tasks: [{
 				id: "60CB612E1591EBF7"
 				item: "ctnhcore:cultivationroom"
@@ -303,9 +303,9 @@
 		}
 		{
 			dependencies: ["1193B78963D8F5E0"]
-			description: ["粉碎幽匿脉络或者幽匿块"]
+			description: ["{ftbquests.chapter.uv.quest8730928624309307956.description1}"]
 			id: "792A7D534B3F0A34"
-			subtitle: "生物材料"
+			subtitle: "{ftbquests.chapter.uv.quest8730928624309307956.subtitle}"
 			tasks: [{
 				id: "1D00EB8CDD9D7A5D"
 				item: "gtceu:sculk_dust"
@@ -317,7 +317,7 @@
 		{
 			dependencies: ["792A7D534B3F0A34"]
 			id: "5DA9CAEC38C8ACE8"
-			subtitle: "这何尝又不是一直晶体材料？"
+			subtitle: "{ftbquests.chapter.uv.quest6749148632505167080.subtitle}"
 			tasks: [{
 				id: "1F44B10D9F469443"
 				item: "minecraft:echo_shard"
@@ -329,7 +329,7 @@
 		{
 			dependencies: ["792A7D534B3F0A34"]
 			id: "5EDA18A58B5B8833"
-			subtitle: "新一届耐烧王比赛，开幕！"
+			subtitle: "{ftbquests.chapter.uv.quest6834802483774851123.subtitle}"
 			tasks: [{
 				id: "0218F2831F5332AC"
 				item: "gtceu:hidden_alloy_ingot"
@@ -359,7 +359,7 @@
 				"589FD2E6A654B2C5"
 			]
 			id: "011E8AEDD9D3731D"
-			subtitle: "直接制成ZPM电路！"
+			subtitle: "{ftbquests.chapter.uv.quest80654597505643293.subtitle}"
 			tasks: [{
 				id: "4C14CBFEB8D1D7C6"
 				item: "kubejs:echo_processor"
@@ -371,7 +371,7 @@
 		{
 			dependencies: ["7C72C9094F33CC23"]
 			id: "589FD2E6A654B2C5"
-			subtitle: "新的材料"
+			subtitle: "{ftbquests.chapter.uv.quest6386054684709532357.subtitle}"
 			tasks: [
 				{
 					count: 64L
@@ -404,13 +404,13 @@
 					type: "item"
 				}
 			]
-			title: "又是贴片！"
+			title: "{ftbquests.chapter.uv.quest6386054684709532357.title}"
 			x: 47.0d
 			y: -21.0d
 		}
 		{
 			id: "7C72C9094F33CC23"
-			subtitle: "这是什么东西？以前有吗？"
+			subtitle: "{ftbquests.chapter.uv.quest8967450849868762147.subtitle}"
 			tasks: [{
 				id: "47825706E3C7DD15"
 				item: "gtceu:kapton_k_plate"
@@ -426,7 +426,7 @@
 				"67C98CFDC97AFF44"
 			]
 			id: "79F1B6B69D7ED6CB"
-			subtitle: "1:1，是不是很神奇？(其实并没有)"
+			subtitle: "{ftbquests.chapter.uv.quest8787005243419186891.subtitle}"
 			tasks: [{
 				id: "3BA39A876DF0F2AE"
 				item: "kubejs:echo_processor_assembly"
@@ -441,7 +441,7 @@
 				"4351112175B0F270"
 			]
 			id: "706D808019B80CE8"
-			subtitle: "还是1：1！赚翻了好不啦！(其实并没有)"
+			subtitle: "{ftbquests.chapter.uv.quest8101272592385051880.subtitle}"
 			tasks: [{
 				id: "40778AB101D44448"
 				item: "kubejs:echo_processor_computer"
@@ -468,7 +468,7 @@
 			]
 			id: "33ED8AC84DBC5E71"
 			size: 2.0d
-			subtitle: "现在的顶点"
+			subtitle: "{ftbquests.chapter.uv.quest3741799458317033073.subtitle}"
 			tasks: [{
 				id: "6451F6B5CA51C264"
 				item: "kubejs:echo_processor_mainframe"
@@ -492,7 +492,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "你滴转底炉回来辣！"
+			subtitle: "{ftbquests.chapter.uv.quest6992456190055775810.subtitle}"
 			tasks: [{
 				id: "702449C7063C979C"
 				item: "ctnhcore:plasma_alloy_blast_smelter"
@@ -503,7 +503,7 @@
 		}
 		{
 			id: "2B91C66AF05AEFE4"
-			subtitle: "感觉......不如.....超级电高"
+			subtitle: "{ftbquests.chapter.uv.quest3139508577855270884.subtitle}"
 			tasks: [{
 				id: "709288CE4DFD43B5"
 				item: "gtceu:mega_blast_furnace"
@@ -515,13 +515,13 @@
 		{
 			dependencies: ["0C3AB83D2762EC3D"]
 			description: [
-				"好了，我知道你很兴奋，不过我建议你先看一下任务的无线教程，不然你的存档可能会被无线害的灰飞烟灭"
-				"&4记得先备份你的存档:XD&r"
+				"{ftbquests.chapter.uv.quest1146734829747278879.description1}"
+				"{ftbquests.chapter.uv.quest1146734829747278879.description2}"
 			]
 			id: "0FEA054082A7941F"
 			shape: "circle"
 			size: 2.0d
-			subtitle: "万亿GT牢员工呼唤的真正无线终于到来（先看看这个任务）"
+			subtitle: "{ftbquests.chapter.uv.quest1146734829747278879.subtitle}"
 			tasks: [{
 				id: "505E009729BAE011"
 				item: "gtmthings:uv_2a_wireless_energy_input_hatch"
@@ -533,7 +533,7 @@
 		{
 			dependencies: ["43D2BB3A6307F4D4"]
 			id: "19618A0AF3E1A0B5"
-			subtitle: "警告：如果你没绑定电容库就使用这个玩意，你的游戏也会变成烟花"
+			subtitle: "{ftbquests.chapter.uv.quest1828894703335088309.subtitle}"
 			tasks: [{
 				id: "4EBD1A8B2457F1E9"
 				item: "gtmthings:wireless_energy_monitor"
@@ -545,7 +545,7 @@
 		{
 			dependencies: ["610A31DB73C17E42"]
 			id: "4FDEB75428302C94"
-			subtitle: "5倍加速"
+			subtitle: "{ftbquests.chapter.uv.quest5755238945905454228.subtitle}"
 			tasks: [{
 				id: "5959E0A3F789F5B9"
 				item: "gtceu:compressed_adamantite_plasma_bucket"
@@ -557,7 +557,7 @@
 		{
 			dependencies: ["610A31DB73C17E42"]
 			id: "7FC1D52CB7D8F3A3"
-			subtitle: "10倍加速！但是代价是什么？"
+			subtitle: "{ftbquests.chapter.uv.quest9205873501361730467.subtitle}"
 			tasks: [{
 				id: "3B3C73B38022BBE1"
 				item: "gtceu:compressed_aether_plasma_bucket"
@@ -568,7 +568,7 @@
 		}
 		{
 			dependencies: ["021B8F054C53AD36"]
-			description: ["需要给HPCA装上桥接组件，才能通过交换机连接起来以达到更高算力"]
+			description: ["{ftbquests.chapter.uv.quest2028710743606559921.description1}"]
 			icon: "gtceu:network_switch"
 			id: "1C276DAC38B004B1"
 			rewards: [{
@@ -577,7 +577,7 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "获得64算力的方法"
+			subtitle: "{ftbquests.chapter.uv.quest2028710743606559921.subtitle}"
 			tasks: [
 				{
 					id: "7800D6CAE77BAF6E"
@@ -596,7 +596,7 @@
 		{
 			dependencies: ["38559FFEC45C6B03"]
 			id: "0A1650016D17B7F3"
-			subtitle: "你也逃——不——掉——"
+			subtitle: "{ftbquests.chapter.uv.quest726856356922374131.subtitle}"
 			tasks: [{
 				id: "20A935E8E14ACEE7"
 				item: "gtceu:uv_assembler"
@@ -630,7 +630,7 @@
 		}
 		{
 			id: "6B61A32A2688A834"
-			subtitle: "不仅无损超频，而且还可以无电压功率上限"
+			subtitle: "{ftbquests.chapter.uv.quest7737645036229666868.subtitle}"
 			tasks: [{
 				id: "1A30057D21C7EEB0"
 				item: "ctnhcore:luv_compressed_fusion_reactor"
@@ -652,14 +652,14 @@
 		{
 			dependencies: ["0FEA054082A7941F"]
 			description: [
-				"用这个东西右键你的电容库来完成绑定，注意：&4切记要先绑定再使用无线，否则你的存档可能会变成牢大&r"
+				"{ftbquests.chapter.uv.quest4887174405094372564.description1}"
 				""
-				"无线电将自带近乎无限（unsigned long long)上限的存储，&4其可存储的能量上限与你绑定的电容库无关&r，使用任何无线输出电力部件（无线动力仓等）将直接将电数输入到无线电网，反之消耗电的部件将直接从电网拉取电力"
+				"{ftbquests.chapter.uv.quest4887174405094372564.description2}"
 				""
-				"电容库容量仅与&4你单次最多可以往电网中输入的电量有关&r，你的电容库容量越大，可单次输入的电量越大。&4电容库存储的电量与无线电网的任何属性和数值无关&r"
+				"{ftbquests.chapter.uv.quest4887174405094372564.description3}"
 			]
 			id: "43D2BB3A6307F4D4"
-			subtitle: "绑定"
+			subtitle: "{ftbquests.chapter.uv.quest4887174405094372564.subtitle}"
 			tasks: [{
 				id: "65A31AC9A67F9236"
 				item: "gtmthings:wireless_energy_binding_tool"
@@ -669,5 +669,5 @@
 			y: -13.0d
 		}
 	]
-	title: "&3UV&r时期"
+	title: "{ftbquests.chapter.uv.title}"
 }
