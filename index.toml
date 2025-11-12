@@ -7690,7 +7690,7 @@ hash = "b5fbe710f982820d39f3a0a0f3eb470078c73b40e5605f209ff13c44006e459a"
 
 [[files]]
 file = "kubejs/client_scripts/src/ban.js"
-hash = "424ee5fe945f8af7f8d157189b4c26520ecd99c26a1c4af80b35230aef527c3d"
+hash = "7e5abdaffca7bf6ac1a26b82a4dd5451ab54781a04d14c4a3ed9913a9117e57d"
 
 [[files]]
 file = "kubejs/client_scripts/src/example.js"
@@ -14742,7 +14742,7 @@ hash = "99999009e4e5de739a5f0c93dedab303327619db67c0cc2afc076a364894bb85"
 
 [[files]]
 file = "kubejs/server_scripts/src/ae2.js"
-hash = "3f8b02d09bfe45373f67e9ead592a73cc3eacc42d265d7aa2f8053c374435cdf"
+hash = "f60743980a081e2402753a43f503731c447082edd0a4d8056da711dd1633367b"
 
 [[files]]
 file = "kubejs/server_scripts/src/apothesis/spawner.js"
@@ -15066,7 +15066,7 @@ hash = "71462d20e8676fbc4504fd1e207ece54016c312d8a83d8fceb412f4b083c7163"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "94a897b4ba317e222b43a68fb60a3b5a38384a4dfeb788449af513ae3b57549c"
+hash = "681cd2be821781ea6650cca19a704461f4258e8bd5b3bdd2f19cba33410a8db6"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedbackpacks.js"
@@ -15094,7 +15094,7 @@ hash = "cf7dc092f34491a9eaf8f5266143773e4a24f7829bdb31c9734b4aea4dd41094"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/tinkers.js"
-hash = "5e5fb7f9b3ae056866ae5e78c8ae7d92870e32532be3b412fadf1db832f8ea57"
+hash = "bd34add5bdd487f7a3e06e29e4c92480b553086dd1888fa2150c2d042121af82"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/toolparts_register.js"
@@ -15508,7 +15508,7 @@ metafile = true
 
 [[files]]
 file = "mods/ctnh-core.pw.toml"
-hash = "c42479a44b1e27d67bf3f8d5f83b6f75a2a01437f0be5259fcbaa1b6ca99b52c"
+hash = "ec4dffb5d6f00a7bfc83fa99bd8f3df0b6c80b0d7777071ba51e480254fbbce5"
 metafile = true
 
 [[files]]
@@ -16377,7 +16377,3 @@ hash = "1b0e56cbb6c6c613060aaf6c086e0bfac5b868a6a0f549179cab6aa968b9064b"
 [[files]]
 file = "resourcepacks/AE2LightMode-1.20.1.zip"
 hash = "0d6ab87530c4cbab002cc66875432c61d43177b944ff998c66ddb7afb3d1bed0"
-
-[[files]]
-file = "resourcepacks/Minecraft-Mod-Language-Package-1.20.zip"
-hash = "6dbe4c46a5c2e4015f307c6feb0ee0055a5a2143f9e717a3a1b1fb90c842dbb7"
