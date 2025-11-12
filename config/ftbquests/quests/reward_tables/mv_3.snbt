@@ -6,7 +6,7 @@
 		{ count: 16, item: "gtceu:aluminium_ingot" }
 		{ count: 4, item: "gtceu:mv_electric_motor" }
 		{ count: 15, item: "gtceu:copper_single_cable" }
-		{ item: "gtceu:silicon_boule" }
+		{ item: "gtceu:silicon_boule", weight: 2.0f }
 		{ count: 64, item: "gtceu:aluminium_dust" }
 		{ count: 16, item: "gtceu:stainless_steel_dust" }
 		{ count: 4, item: "gtceu:chromium_dust" }
@@ -14,6 +14,7 @@
 		{ count: 8, item: "gtceu:steel_fluid_cell" }
 		{ item: "gtceu:lv_super_chest", weight: 0.1f }
 		{ item: "gtceu:lv_super_tank", weight: 0.1f }
+		{ count: 2, item: "gtceu:aluminium_drum", weight: 0.5f }
 	]
 	title: "{ftbquests.loot_table.5863108397808417557.title}"
 }

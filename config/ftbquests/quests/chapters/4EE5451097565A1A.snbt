@@ -576,80 +576,6 @@
 		}
 		{
 			can_repeat: true
-			icon: {
-				Count: 1
-				id: "gtceu:rose_gold_mining_hammer"
-				tag: {
-					Damage: 0
-					DisallowContainerItem: 0b
-					Enchantments: [{
-						id: "minecraft:fortune"
-						lvl: 2s
-					}]
-					GT.Behaviours: {
-						AoEColumn: 1
-						AoELayer: 0
-						AoERow: 1
-						MaxAoEColumn: 1
-						MaxAoELayer: 0
-						MaxAoERow: 1
-						TorchPlacing: 1b
-					}
-					GT.Tool: {
-						HarvestLevel: 2
-						MaxDamage: 2303
-						ToolSpeed: 8.8f
-					}
-					HideFlags: 2
-				}
-			}
-			id: "472FEB1301D00DA4"
-			rewards: [{
-				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:rose_gold_mining_hammer\",nbt:{DisallowContainerItem:0b,Enchantments:[{id:\"minecraft:fortune\",lvl:2s}],GT.Behaviours:{AoEColumn:1,AoELayer:0,AoERow:1,MaxAoEColumn:1,MaxAoELayer:0,MaxAoERow:1,TorchPlacing:1b},GT.Tool:{AttackDamage:3.5f,AttackSpeed:-3.2f,Damage:0,HarvestLevel:2,MaxDamage:2303,ToolSpeed:8.8f},HideFlags:2}}]}"
-				elevate_perms: true
-				exclude_from_claim_all: true
-				icon: {
-					Count: 1
-					id: "gtceu:rose_gold_mining_hammer"
-					tag: {
-						Damage: 0
-						DisallowContainerItem: 0b
-						Enchantments: [{
-							id: "minecraft:fortune"
-							lvl: 2s
-						}]
-						GT.Behaviours: {
-							AoEColumn: 1
-							AoELayer: 0
-							AoERow: 1
-							MaxAoEColumn: 1
-							MaxAoELayer: 0
-							MaxAoERow: 1
-							TorchPlacing: 1b
-						}
-						GT.Tool: {
-							HarvestLevel: 2
-							MaxDamage: 2303
-							ToolSpeed: 8.8f
-						}
-						HideFlags: 2
-					}
-				}
-				id: "2C872C54F5AF6A72"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest5129576967465602468.reward.3208582002935556722.title}"
-				type: "command"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "440FD5A96B0DF23D"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest5129576967465602468.task.4904373442852024893.title}"
-				type: "checkmark"
-			}]
-			x: -12.5d
-			y: 1.5d
-		}
-		{
-			can_repeat: true
 			dependencies: ["6CDD36A3C742B7F2"]
 			icon: "ctpp:basic_mechanism"
 			id: "21F87196C3E7DF8A"
@@ -770,41 +696,6 @@
 		}
 		{
 			can_repeat: true
-			icon: {
-				Count: 1
-				id: "kubejs:broken_temperature_keeping_device"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "78A53D83556FC26B"
-			rewards: [{
-				auto: "enabled"
-				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"kubejs:broken_temperature_keeping_device\",nbt:{Damage:0}}]}"
-				elevate_perms: true
-				exclude_from_claim_all: true
-				icon: {
-					Count: 1
-					id: "kubejs:broken_temperature_keeping_device"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "60A0B8E8ED0033CF"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest8693422289992008299.reward.6962768334462923727.title}"
-				type: "command"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "56C5802444F84C2B"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest8693422289992008299.task.6252544550938102827.title}"
-				type: "checkmark"
-			}]
-			x: -12.5d
-			y: 4.5d
-		}
-		{
-			can_repeat: true
 			icon: "minecraft:bread"
 			id: "2601E4DB1C67209B"
 			rewards: [{
@@ -860,6 +751,121 @@
 			}]
 			x: -9.5d
 			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1B4FFE71B4C66E14"]
+			icon: {
+				Count: 1
+				id: "gtceu:rose_gold_mining_hammer"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					Enchantments: [{
+						id: "minecraft:fortune"
+						lvl: 2s
+					}]
+					GT.Behaviours: {
+						AoEColumn: 1
+						AoELayer: 0
+						AoERow: 1
+						MaxAoEColumn: 1
+						MaxAoELayer: 0
+						MaxAoERow: 1
+						TorchPlacing: 1b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [{
+							id: "minecraft:fortune"
+							lvl: 2s
+						}]
+						HarvestLevel: 2
+						MaxDamage: 2303
+						ToolSpeed: 8.8f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "472FEB1301D00DA4"
+			rewards: [{
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:rose_gold_mining_hammer\",nbt:{DisallowContainerItem:0b,Enchantments:[{id:\"minecraft:fortune\",lvl:2s}],GT.Behaviours:{AoEColumn:1,AoELayer:0,AoERow:1,MaxAoEColumn:1,MaxAoELayer:0,MaxAoERow:1,TorchPlacing:1b},GT.Tool:{AttackDamage:3.5f,AttackSpeed:-3.2f,Damage:0,HarvestLevel:2,MaxDamage:2303,ToolSpeed:8.8f},HideFlags:2}}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "gtceu:rose_gold_mining_hammer"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						Enchantments: [{
+							id: "minecraft:fortune"
+							lvl: 2s
+						}]
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 0
+							AoERow: 1
+							MaxAoEColumn: 1
+							MaxAoELayer: 0
+							MaxAoERow: 1
+							TorchPlacing: 1b
+						}
+						GT.Tool: {
+							HarvestLevel: 2
+							MaxDamage: 2303
+							ToolSpeed: 8.8f
+						}
+						HideFlags: 2
+					}
+				}
+				id: "2C872C54F5AF6A72"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest5129576967465602468.reward.3208582002935556722.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "440FD5A96B0DF23D"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest5129576967465602468.task.4904373442852024893.title}"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1B4FFE71B4C66E14"]
+			icon: {
+				Count: 1
+				id: "kubejs:broken_temperature_keeping_device"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "78A53D83556FC26B"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"kubejs:broken_temperature_keeping_device\",nbt:{Damage:0}}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "kubejs:broken_temperature_keeping_device"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "60A0B8E8ED0033CF"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest8693422289992008299.reward.6962768334462923727.title}"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "56C5802444F84C2B"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest8693422289992008299.task.6252544550938102827.title}"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 6.5d
 		}
 	]
 	title: "{ftbquests.chapter.4EE5451097565A1A.title}"

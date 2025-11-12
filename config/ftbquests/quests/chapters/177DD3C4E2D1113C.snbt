@@ -1762,7 +1762,7 @@
 				item: "gtceu:adamantite_block"
 				type: "item"
 			}]
-			size: 1.0d
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest6768935106672262753.subtitle}"
 			tasks: [{
 				id: "7C005989A82F0622"
@@ -2057,7 +2057,7 @@
 		{
 			dependencies: ["05A23C4F88D2D450"]
 			id: "1D140C1A1D82670E"
-			size: 1.0d
+			size: 2.0d
 			tasks: [{
 				id: "3BCF1A5D84EA8AE9"
 				item: "gtceu:oracle_dust"
@@ -2151,7 +2151,7 @@
 			description: ["{ftbquests.chapter.177DD3C4E2D1113C.quest657997484258270441.description1}"]
 			id: "0921AD39C8509CE9"
 			shape: "gear"
-			size: 1.0d
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest657997484258270441.subtitle}"
 			tasks: [{
 				id: "27C8F2426A80B994"
@@ -2165,7 +2165,7 @@
 			dependencies: ["782DCCEF9924E406"]
 			id: "7F81295FE18741A6"
 			shape: "gear"
-			size: 1.0d
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest9187670206594892198.subtitle}"
 			tasks: [{
 				id: "6505A75DAEE23A90"

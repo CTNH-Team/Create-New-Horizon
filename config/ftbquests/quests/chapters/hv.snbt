@@ -196,6 +196,12 @@
 			description: ["{ftbquests.chapter.hv.quest2835238456938481708.description1}"]
 			hide_dependency_lines: true
 			id: "2758CA5AD758482C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64AE7CCF2826B6CE"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.hv.quest2835238456938481708.subtitle}"
 			tasks: [{
 				id: "7B231156184BDCBE"
@@ -495,12 +501,20 @@
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.hv.quest2877535078427154527.description1}"]
 			id: "27EF0EE87260585F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "43A653474391B0E1"
-				table_id: 723892772024061161L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A097E1EB62009B0"
+					table_id: 723892772024061161L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00B3AD8944E7ED8B"
+					table_id: 971429564947815603L
+					type: "loot"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.hv.quest2877535078427154527.subtitle}"
@@ -572,6 +586,12 @@
 				"36B5DCFEE8A73F25"
 			]
 			id: "607209201C6B08C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56C52B2DF4EDD74C"
+				table_id: 723892772024061161L
+				type: "choice"
+			}]
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.hv.quest6949627208506476739.subtitle}"
 			tasks: [{
@@ -648,6 +668,12 @@
 				"071A728A18E21B3C"
 			]
 			id: "23822AE831A41F5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39B87BB4B8872225"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.hv.quest2558654715053481821.subtitle}"
 			tasks: [{
 				id: "2053627AA2187C74"
@@ -781,12 +807,20 @@
 				"607209201C6B08C3"
 			]
 			id: "216D57DF2B38AB9D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1994EEE16F3D4320"
-				table_id: 971429564947815603L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74176BC8ACC9EDA2"
+					table_id: 971429564947815603L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4225276A56C15E64"
+					table_id: 7618519509353548779L
+					type: "loot"
+				}
+			]
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.hv.quest2408677991727541149.subtitle}"
 			tasks: [{
@@ -1123,6 +1157,12 @@
 		{
 			dependencies: ["773CB6E376B56EA4"]
 			id: "5F9A3ADA66BADAAB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17C0AD6C42477556"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7305CCE440010B2E"
 				item: "gtceu:hv_laser_engraver"
@@ -1160,6 +1200,12 @@
 				"1AF8205ECB9C3737"
 			]
 			id: "43FD6E0F20509E3B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60CD01F4AFDB1BC2"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "3F691723233B4718"
@@ -1283,6 +1329,12 @@
 			]
 			description: [""]
 			id: "0F8A1D38DCB6CCE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "271DCAE7EB2D4775"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.hv.quest1119739587413331169.subtitle}"
 			tasks: [{
 				id: "619A4F44D2B82E20"
@@ -1299,6 +1351,12 @@
 				"{ftbquests.chapter.hv.quest5898372019125751491.description2}"
 			]
 			id: "51DB3A19B9180EC3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FD321D044023722"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.hv.quest5898372019125751491.subtitle}"
 			tasks: [
 				{
@@ -2282,6 +2340,12 @@
 				"3A1D7A26A80646CB"
 			]
 			id: "4ACA21BD665C39DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A5B6B10F396CA47"
+				table_id: 723892772024061161L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0C79140C6DE45F49"
 				item: "gtceu:hv_energy_input_hatch"
@@ -2371,6 +2435,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "03B69B22A1106961"
+			subtitle: "任意一个方法都可以开启这个任务"
 			tasks: [{
 				id: "0640A540D2D18B1B"
 				item: "gtceu:tantalum_dust"
@@ -2382,6 +2447,20 @@
 		{
 			dependencies: ["071A728A18E21B3C"]
 			id: "6680806967633AD8"
+			rewards: [
+				{
+					count: 2
+					id: "15967A40B9EC7A4C"
+					item: "ae2:fluid_cell_housing"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "115638E2918B45AF"
+					item: "ae2:item_cell_housing"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.hv.quest7386044579082091224.subtitle}"
 			tasks: [
 				{
@@ -2395,7 +2474,7 @@
 					type: "item"
 				}
 			]
-			x: -18.5d
+			x: -20.5d
 			y: 27.0d
 		}
 		{
@@ -2457,7 +2536,7 @@
 				item: "ae2:blank_pattern"
 				type: "item"
 			}]
-			x: -21.0d
+			x: -18.5d
 			y: 27.0d
 		}
 		{

@@ -514,6 +514,12 @@
 			dependencies: ["27675B2A83F65B2E"]
 			description: ["{ftbquests.chapter.142AC829C9062F15.quest149003923388758278.description1}"]
 			id: "02115E4763B9F906"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01CC18A526D4218C"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest149003923388758278.subtitle}"
 			tasks: [{
 				id: "3096BAC653706631"

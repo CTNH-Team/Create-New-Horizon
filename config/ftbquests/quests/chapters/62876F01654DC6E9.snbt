@@ -10,7 +10,7 @@
 		image: "botania:item/cosmetic_thinking_hand"
 		rotation: 0.0d
 		width: 10.0d
-		x: -7.5d
+		x: -8.0d
 		y: 2.0d
 	}]
 	order_index: 0
@@ -24,7 +24,7 @@
 				item: "create:brown_toolbox"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -75,7 +75,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -1.0d
 		}
 		{
@@ -85,7 +85,7 @@
 				item: "angelblockrenewed:angel_block"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
@@ -145,6 +145,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["354BCEEA324D9A1E"]
 			id: "02266C52DC0FAF30"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest154930340325994288.subtitle}"
@@ -153,7 +154,7 @@
 				item: "gtceu:prospector.hv"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: 7.0d
 		}
 		{
@@ -164,7 +165,7 @@
 				item: "botania:flower_bag"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: -3.0d
 		}
 		{
@@ -175,7 +176,7 @@
 				item: "crafting_on_a_stick:crafting_table"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -3.0d
 		}
 		{
@@ -186,7 +187,7 @@
 				item: "botania:magnet_ring"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -2.0d
 		}
 		{
@@ -217,7 +218,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: -3.0d
 		}
 		{
@@ -228,7 +229,7 @@
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -3.0d
 		}
 		{
@@ -248,7 +249,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: -1.0d
 		}
 		{
@@ -259,7 +260,7 @@
 				title: "{ftbquests.chapter.62876F01654DC6E9.quest5977569733957665943.task.7813230451426757880.title}"
 				type: "checkmark"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: -2.0d
 		}
 		{
@@ -271,7 +272,7 @@
 				item: "artifacts:eternal_steak"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: -3.0d
 		}
 		{
@@ -283,7 +284,7 @@
 				item: "artifacts:digging_claws"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: -3.0d
 		}
 		{
@@ -295,7 +296,7 @@
 				item: "artifacts:cloud_in_a_bottle"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: -3.0d
 		}
 		{
@@ -307,7 +308,7 @@
 				item: "artifacts:kitty_slippers"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: -1.0d
 		}
 		{
@@ -319,7 +320,7 @@
 				item: "artifacts:running_shoes"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: -1.0d
 		}
 		{
@@ -331,7 +332,7 @@
 				item: "artifacts:anglers_hat"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: -2.0d
 		}
 		{
@@ -350,10 +351,11 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
+			x: 11.0d
 			y: -1.0d
 		}
 		{
+			dependencies: ["3DA8CECF83D9749B"]
 			description: ["{ftbquests.chapter.62876F01654DC6E9.quest5640896050278613748.description1}"]
 			id: "4E487D122BC2C2F4"
 			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest5640896050278613748.subtitle}"
@@ -395,10 +397,11 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 1.0d
 			y: 6.0d
 		}
 		{
+			dependencies: ["3DA8CECF83D9749B"]
 			description: [
 				"{ftbquests.chapter.62876F01654DC6E9.quest5450399848499605073.description1}"
 				"{ftbquests.chapter.62876F01654DC6E9.quest5450399848499605073.description2}"
@@ -503,11 +506,14 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 1.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["337BC9186C014A06"]
+			dependencies: [
+				"337BC9186C014A06"
+				"361E2687EA72F10B"
+			]
 			description: [
 				"{ftbquests.chapter.62876F01654DC6E9.quest8637758993624558004.description1}"
 				"{ftbquests.chapter.62876F01654DC6E9.quest8637758993624558004.description2}"
@@ -531,10 +537,11 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 6.0d
 		}
 		{
+			dependencies: ["361E2687EA72F10B"]
 			id: "079E580DEBE59896"
 			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest548973021401290902.subtitle}"
 			tasks: [{
@@ -563,10 +570,11 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: 6.0d
+			x: 5.0d
+			y: 8.0d
 		}
 		{
+			dependencies: ["354BCEEA324D9A1E"]
 			id: "01FF1DC87906AE75"
 			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest143866459960290933.subtitle}"
 			tasks: [{
@@ -597,10 +605,11 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: 8.0d
 		}
 		{
+			dependencies: ["354BCEEA324D9A1E"]
 			id: "0A86E1B3B2AF9DEA"
 			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest758541749171756522.subtitle}"
 			tasks: [{
@@ -626,8 +635,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 8.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			id: "74578688D5974E8A"
@@ -637,7 +646,7 @@
 				item: "create:goggles"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -2.0d
 		}
 		{
@@ -654,7 +663,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: -1.0d
 		}
 		{
@@ -669,7 +678,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -1204,7 +1213,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.62876F01654DC6E9.quest8968048107038518080.title}"
-			x: 2.5d
+			x: 3.0d
 			y: 2.5d
 		}
 		{
@@ -1220,7 +1229,7 @@
 				item: "immersive_aircraft:airship"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 1.0d
 		}
 		{
@@ -1236,7 +1245,7 @@
 				item: "immersive_aircraft:biplane"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -1252,7 +1261,7 @@
 				item: "immersive_aircraft:gyrodyne"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 2.5d
 		}
 		{
@@ -1268,7 +1277,7 @@
 				item: "immersive_aircraft:cargo_airship"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 4.0d
 		}
 		{
@@ -1284,7 +1293,7 @@
 				item: "immersive_aircraft:quadrocopter"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 4.0d
 		}
 		{
@@ -1302,7 +1311,7 @@
 				item: "immersive_aircraft:heavy_crossbow"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 1.0d
 		}
 		{
@@ -1314,7 +1323,7 @@
 				title: "{ftbquests.chapter.62876F01654DC6E9.quest502916239319935302.task.7911960932782626717.title}"
 				type: "checkmark"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: 2.5d
 		}
 		{
@@ -1330,7 +1339,7 @@
 				item: "immersive_aircraft:eco_engine"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.5d
 			y: 1.0d
 		}
 		{
@@ -1346,7 +1355,7 @@
 				item: "immersive_aircraft:nether_engine"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.5d
 			y: 4.0d
 		}
 		{
@@ -1366,7 +1375,7 @@
 				item: "immersive_aircraft:enhanced_propeller"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 13.5d
 			y: 4.0d
 		}
 		{
@@ -1382,7 +1391,7 @@
 				item: "immersive_aircraft:steel_boiler"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 14.5d
 			y: 4.0d
 		}
 		{
@@ -1398,7 +1407,7 @@
 				item: "immersive_aircraft:industrial_gears"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: 2.0d
 		}
 		{
@@ -1414,7 +1423,7 @@
 				item: "immersive_aircraft:sturdy_pipes"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 14.5d
 			y: 1.0d
 		}
 		{
@@ -1430,7 +1439,7 @@
 				item: "immersive_aircraft:gyroscope"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 4.0d
 		}
 		{
@@ -1446,7 +1455,7 @@
 				item: "immersive_aircraft:hull_reinforcement"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 13.5d
 			y: 1.0d
 		}
 		{
@@ -1457,7 +1466,7 @@
 				item: "immersive_aircraft:improved_landing_gear"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: 3.0d
 		}
 		{
@@ -1485,7 +1494,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -1502,12 +1511,20 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: -3.0d
 		}
 		{
+			dependencies: ["2460426DE77EF0F4"]
+			description: ["点击右上角的🔗图标可以跳转"]
 			icon: "gtceu:causality_hazard_sign_block"
 			id: "6580B42C94E67713"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D731708D168E605"
+				table_id: 1576725829474885042L
+				type: "random"
+			}]
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest7314043898419377939.subtitle}"
 			tasks: [{
@@ -1515,6 +1532,7 @@
 				title: "{ftbquests.chapter.62876F01654DC6E9.quest7314043898419377939.task.8986911384098340477.title}"
 				type: "checkmark"
 			}]
+			title: "GT全套工具"
 			x: -2.5d
 			y: 7.0d
 		}
@@ -1555,6 +1573,39 @@
 			}]
 			x: 17.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["361E2687EA72F10B"]
+			id: "354BCEEA324D9A1E"
+			tasks: [{
+				id: "36731532483C8C5C"
+				title: "电动工具"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6580B42C94E67713"]
+			id: "3DA8CECF83D9749B"
+			tasks: [{
+				id: "734151BB2F087258"
+				title: "基础工具"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3DA8CECF83D9749B"]
+			id: "361E2687EA72F10B"
+			tasks: [{
+				id: "343095F532963225"
+				title: "神秘工具"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 7.0d
 		}
 	]
 	title: "{ftbquests.chapter.62876F01654DC6E9.title}"

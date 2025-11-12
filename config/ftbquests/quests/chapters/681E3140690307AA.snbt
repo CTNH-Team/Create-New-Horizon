@@ -108,7 +108,7 @@
 				Count: 1
 				ForgeCaps: {
 					Parent: {
-						temperature: 35.6f
+						temperature: 29.8f
 					}
 				}
 				id: "legendarysurvivaloverhaul:thermometer"
@@ -125,7 +125,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.subtitle}"
+			subtitle: "重要！！！（体温维持器可以在小市场购买）"
 			tasks: [{
 				id: "1769E6600040B278"
 				title: "{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.task.1687132835422450296.title}"
@@ -200,6 +200,11 @@
 				"{ftbquests.chapter.681E3140690307AA.quest5409354400373917434.description2}"
 			]
 			id: "4B11E32ACA7BC6FA"
+			rewards: [{
+				id: "27087F6F952C831D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest5409354400373917434.subtitle}"
 			tasks: [{
 				id: "6344812C1EC2C585"
@@ -353,7 +358,7 @@
 			]
 			shape: "square"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest1968071326501858836.subtitle}"
+			subtitle: "别随便下矿洞（矿锤可以在小市场购买）"
 			tasks: [{
 				id: "02CB7B2250363B17"
 				title: "{ftbquests.chapter.681E3140690307AA.quest1968071326501858836.task.201389995652954903.title}"
@@ -453,6 +458,20 @@
 			dependencies: ["1B4FFE71B4C66E14"]
 			icon: "minecraft:iron_ingot"
 			id: "5BA86B01337A91D5"
+			rewards: [
+				{
+					count: 6
+					id: "483BC3FCAAF458B6"
+					item: "minecraft:raw_iron_block"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "3A2FD8CBEF8FACD5"
+					item: "minecraft:raw_copper_block"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest6604646506441642453.subtitle}"
 			tasks: [
@@ -470,7 +489,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.681E3140690307AA.quest6604646506441642453.title}"
-			x: -2.0d
+			x: -1.5d
 			y: 9.0d
 		}
 		{
@@ -530,13 +549,13 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest9198886268426787312.subtitle}"
+			subtitle: "收集安山岩了吗~"
 			tasks: [{
 				id: "19245BF7A4D48BFB"
 				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 9.0d
 		}
 		{
@@ -546,6 +565,11 @@
 				"{ftbquests.chapter.681E3140690307AA.quest3709779824798157318.description2}"
 			]
 			id: "337BC9186C014A06"
+			rewards: [{
+				id: "7AB979CCE51A3B59"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
 			tasks: [{
 				id: "53BD9501D90EA729"
 				item: {
@@ -720,6 +744,24 @@
 			dependencies: ["4157A965AA4E18D2"]
 			description: ["{ftbquests.chapter.681E3140690307AA.quest7120109138277471972.description1}"]
 			id: "62CFB5898D0A96E4"
+			rewards: [{
+				id: "58B9A790455D3D3D"
+				item: {
+					Count: 1
+					id: "gtceu:diamond_hoe"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							MaxDamage: 767
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7120109138277471972.subtitle}"
 			tasks: [{
 				id: "7FCC30F090B016F5"
@@ -763,6 +805,11 @@
 		{
 			dependencies: ["31554E021ECE6572"]
 			id: "53AB5247B08B9709"
+			rewards: [{
+				id: "606E9A83A9A81D40"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
 			tasks: [{
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
@@ -778,6 +825,11 @@
 		{
 			dependencies: ["31554E021ECE6572"]
 			id: "323BCD9A004CC866"
+			rewards: [{
+				id: "399754B0FFC81EC9"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest3619712786836015206.subtitle}"
 			tasks: [{
 				entity: "minecraft:spider"
@@ -794,6 +846,11 @@
 		{
 			dependencies: ["31554E021ECE6572"]
 			id: "48E751EFF8F0E511"
+			rewards: [{
+				id: "084022A2C312CC23"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
 			tasks: [{
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
@@ -851,6 +908,12 @@
 		{
 			description: ["{ftbquests.chapter.681E3140690307AA.quest3316999228744158829.description1}"]
 			id: "2E0859396D8A4E6D"
+			rewards: [{
+				count: 4
+				id: "7E11B474CDC7B0D5"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest3316999228744158829.subtitle}"
 			tasks: [{
 				id: "08A4E2132E7F1A97"
@@ -880,7 +943,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 7.0d
 		}
 		{
@@ -892,7 +955,7 @@
 				item: "gtceu:hot_high_temp_wrought_precursor_ingot"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 11.0d
 		}
 		{
@@ -903,7 +966,7 @@
 				item: "gtceu:wrought_iron_ingot"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 13.0d
 		}
 		{
@@ -960,6 +1023,11 @@
 				"{ftbquests.chapter.681E3140690307AA.quest8940181180505538206.description2}"
 			]
 			id: "7C11E76AA3AA3E9E"
+			rewards: [{
+				id: "4F6B5982F58A6F9B"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest8940181180505538206.subtitle}"
 			tasks: [{
 				id: "5A1A87B1DFA5172C"

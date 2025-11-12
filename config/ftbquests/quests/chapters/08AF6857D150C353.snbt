@@ -78,6 +78,12 @@
 			]
 			description: ["{ftbquests.chapter.08AF6857D150C353.quest7498187027826820853.description1}"]
 			id: "680EE95FED0F46F5"
+			rewards: [{
+				count: 3
+				id: "5B9F1C78CCD1554B"
+				item: "create:steam_engine"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest7498187027826820853.subtitle}"
 			tasks: [{
 				id: "0FE3911E3029D145"
@@ -110,8 +116,8 @@
 				item: "gtceu:magnetic_iron_ingot"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -120,8 +126,13 @@
 				"1407C9F660BC9038"
 			]
 			dependency_requirement: "one_completed"
-			description: [""]
 			id: "2D9F762371DEDF70"
+			rewards: [{
+				count: 6
+				id: "078D44B3D237F794"
+				item: "create_new_age:electrical_connector"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest3287476147610115952.subtitle}"
 			tasks: [
 				{
@@ -142,6 +153,11 @@
 			dependencies: ["41E48BCAEAD9D47E"]
 			description: ["{ftbquests.chapter.08AF6857D150C353.quest6098072423107733063.description1}"]
 			id: "54A0B48F51F12647"
+			rewards: [{
+				id: "139E616ADE2C0E97"
+				item: "gtceu:lv_4a_energy_converter"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest6098072423107733063.subtitle}"
 			tasks: [{
 				id: "3F5BE8B5242E5FC9"
@@ -207,12 +223,20 @@
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.08AF6857D150C353.quest4748073610795144318.description1}"]
 			id: "41E48BCAEAD9D47E"
-			rewards: [{
-				count: 16
-				id: "52CA0458C327CBF5"
-				item: "kubejs:general_circuit_lv"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "52CA0458C327CBF5"
+					item: "kubejs:general_circuit_lv"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BCCC29AEF92CFD7"
+					table_id: 1370906070305640911L
+					type: "choice"
+				}
+			]
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest4748073610795144318.subtitle}"
 			tasks: [{
@@ -268,12 +292,20 @@
 			]
 			icon: "ctpp:kinetic_steam_turbine"
 			id: "11CBD66BE7CCCAED"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "162551D8AEA3417B"
-				table_id: 601634794626000726L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "162551D8AEA3417B"
+					table_id: 601634794626000726L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DA74EE043E2B34B"
+					table_id: 1370906070305640911L
+					type: "loot"
+				}
+			]
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest1282354277855841005.subtitle}"
 			tasks: [
 				{
@@ -323,6 +355,12 @@
 		{
 			dependencies: ["3EFC30D1B3494B77"]
 			id: "4ADE322F099F1C88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C9536F231C5546D"
+				table_id: 1370906070305640911L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest5394804581242707080.subtitle}"
 			tasks: [{
 				id: "7ED1ABAE538B0BC5"
@@ -369,6 +407,12 @@
 		{
 			dependencies: ["3EFC30D1B3494B77"]
 			id: "20F1A65CC925BA92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25D106B6966707FD"
+				table_id: 1370906070305640911L
+				type: "random"
+			}]
 			tasks: [{
 				id: "43D7723E8AA739B8"
 				item: "ctnhcore:mechanical_mixer"
@@ -380,6 +424,12 @@
 		{
 			dependencies: ["3EFC30D1B3494B77"]
 			id: "2F56493CC7A0B409"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "613FF53AF56C6305"
+				table_id: 1370906070305640911L
+				type: "random"
+			}]
 			tasks: [{
 				id: "70E2952C1068F302"
 				item: "ctnhcore:mechanical_pressor"
@@ -391,6 +441,12 @@
 		{
 			dependencies: ["3EFC30D1B3494B77"]
 			id: "2667FDA7BF75AD5B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C7507EB5EA64CF3"
+				table_id: 1370906070305640911L
+				type: "random"
+			}]
 			tasks: [{
 				id: "707374B426943A86"
 				item: "ctnhcore:mechanical_lathe"
@@ -402,6 +458,12 @@
 		{
 			dependencies: ["3EFC30D1B3494B77"]
 			id: "6EBBF119E9F36BEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4157A527A13E226A"
+				table_id: 1370906070305640911L
+				type: "random"
+			}]
 			tasks: [{
 				id: "34AC2E8B87F4AFC2"
 				item: "ctnhcore:mechanical_centrifuge"
@@ -422,12 +484,20 @@
 				"{ftbquests.chapter.08AF6857D150C353.quest6099158473157622276.description3}"
 			]
 			id: "54A490510D5FBA04"
-			rewards: [{
-				count: 32
-				id: "5E5DD8CED10318A7"
-				item: "gtceu:conductive_alloy_double_wire"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "5E5DD8CED10318A7"
+					item: "gtceu:conductive_alloy_double_wire"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FF209ACF214F7AB"
+					table_id: 601634794626000726L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest6099158473157622276.subtitle}"
 			tasks: [{
@@ -462,6 +532,12 @@
 		{
 			dependencies: ["3EFC30D1B3494B77"]
 			id: "4A7E0535E96D1CD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "215FF35F5048525B"
+				table_id: 1370906070305640911L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6624B34D59B2B174"
 				item: "ctnhcore:mechanical_sifter"
@@ -474,6 +550,12 @@
 			dependencies: ["3EFC30D1B3494B77"]
 			description: ["{ftbquests.chapter.08AF6857D150C353.quest7377297128064375563.description1}"]
 			id: "66616CA6C0C95B0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45382EFE76C49A6F"
+				table_id: 1370906070305640911L
+				type: "random"
+			}]
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest7377297128064375563.subtitle}"
 			tasks: [{

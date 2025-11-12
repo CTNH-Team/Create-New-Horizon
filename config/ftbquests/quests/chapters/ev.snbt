@@ -20,9 +20,9 @@
 			id: "799C99EA04D07344"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4E1063AD177E827C"
+				id: "7764BFD3ADAB156F"
 				table_id: 971429564947815603L
-				type: "random"
+				type: "loot"
 			}]
 			size: 1.5d
 			tasks: [{
@@ -36,6 +36,12 @@
 		{
 			dependencies: ["799C99EA04D07344"]
 			id: "375C2E3997D94721"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BEADC63BAC23FB5"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0E4B2E423B92D9B5"
 				item: "gtceu:ev_chemical_bath"
@@ -81,12 +87,20 @@
 				"42F6C23B961B60BD"
 			]
 			id: "1CECBF50A30F23B0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "259A2865BCF9669F"
-				table_id: 971429564947815603L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "545F20E93A2DBFB4"
+					table_id: 971429564947815603L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00BF18B28295158F"
+					table_id: 7618519509353548779L
+					type: "loot"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.ev.quest2084251080619664304.subtitle}"
@@ -121,6 +135,7 @@
 			y: 2.5d
 		}
 		{
+			description: ["&m0个人想玩谢谢（"]
 			id: "4DA5ABB79AABADE8"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.ev.quest5595066917140016616.subtitle}"
@@ -225,7 +240,7 @@
 				item: "gtceu:uranium_hexafluoride_bucket"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -9.5d
 			y: 6.0d
 		}
 		{
@@ -236,7 +251,7 @@
 				item: "gtceu:uranium_dioxide_dust"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -8.5d
 			y: 6.0d
 		}
 		{
@@ -258,7 +273,7 @@
 				item: "gtceu:uranium_dust"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -9.5d
 			y: 10.0d
 		}
 		{
@@ -270,7 +285,7 @@
 				item: "gtceu:raw_uraninite"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -7.5d
 			y: 6.0d
 		}
 		{
@@ -310,6 +325,12 @@
 		{
 			dependencies: ["799C99EA04D07344"]
 			id: "7951D4BC59BDAA1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "059EC86211BB3BCC"
+				table_id: 971429564947815603L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7BDAB4A27CD55384"
 				item: "gtceu:ev_circuit_assembler"
@@ -467,6 +488,12 @@
 		{
 			dependencies: ["799C99EA04D07344"]
 			id: "2B4A57C7F61E03A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49DAD8774C796529"
+				table_id: 971429564947815603L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7B61C508405AE48C"
 				item: "gtceu:ev_assembler"
@@ -570,8 +597,8 @@
 				item: "alexscaves:uranium"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 7.0d
+			x: -8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["3F9F778AB07809D0"]
@@ -615,8 +642,8 @@
 				item: "alexscaves:acid_bucket"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 7.0d
+			x: -10.5d
+			y: 9.0d
 		}
 		{
 			id: "3A7EF62D9745F2D6"
@@ -656,6 +683,12 @@
 				"6525B3E4F6052069"
 			]
 			id: "734982C31DFC1821"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77BF485BC9D6E659"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5A228E48EE9B484E"
 				item: "gtceu:ev_laser_engraver"
@@ -721,9 +754,9 @@
 			id: "332007D978CB3C6C"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "36276383B8435AFF"
+				id: "45AFF1244D377D36"
 				table_id: 971429564947815603L
-				type: "random"
+				type: "loot"
 			}]
 			subtitle: "{ftbquests.chapter.ev.quest3683953125804948588.subtitle}"
 			tasks: [{
@@ -753,9 +786,9 @@
 			id: "38941407A9F43B7E"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3EBA4434AF1FE59E"
+				id: "0D979A5FDFA6B3EF"
 				table_id: 971429564947815603L
-				type: "random"
+				type: "loot"
 			}]
 			shape: "pentagon"
 			size: 1.0d
@@ -1181,8 +1214,13 @@
 		}
 		{
 			dependencies: ["001B1FD0183C089D"]
-			description: [""]
 			id: "3B3194C22AA50A4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34896FB98A9FD260"
+				table_id: 971429564947815603L
+				type: "choice"
+			}]
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.ev.quest4265353883756595787.subtitle}"
 			tasks: [{
@@ -1215,7 +1253,7 @@
 				item: "gtceu:americium_dust"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.0d
 			y: 13.5d
 		}
 		{
@@ -1226,7 +1264,7 @@
 				item: "gtceu:americium_waste"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: 12.0d
 		}
 		{
@@ -1237,7 +1275,7 @@
 				item: "gtceu:plutonium_dust"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.5d
 			y: 13.5d
 		}
 		{
@@ -1248,7 +1286,7 @@
 				item: "gtceu:curium_dust"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: 13.5d
 		}
 		{
@@ -1259,7 +1297,7 @@
 				item: "gtceu:neptunium_dust"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -8.5d
 			y: 12.0d
 		}
 		{
@@ -1271,7 +1309,7 @@
 				item: "gtceu:neptunium_waste"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.5d
 			y: 12.0d
 		}
 		{
@@ -1282,7 +1320,7 @@
 				item: "gtceu:curium_waste"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.0d
 			y: 12.0d
 		}
 		{
@@ -1293,7 +1331,7 @@
 				item: "gtceu:berkelium_dust"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.0d
 			y: 13.5d
 		}
 		{
@@ -1304,7 +1342,7 @@
 				item: "gtceu:berkelium_waste"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 12.0d
 		}
 		{
@@ -1315,7 +1353,7 @@
 				item: "gtceu:californium_dust"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 13.5d
 		}
 		{
@@ -1326,7 +1364,7 @@
 				item: "gtceu:californium_waste"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 12.0d
 		}
 		{
@@ -1337,7 +1375,7 @@
 				item: "gtceu:einsteinium_dust"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 13.5d
 		}
 		{
@@ -1348,7 +1386,7 @@
 				item: "gtceu:einsteinium_waste"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: 12.0d
 		}
 		{
@@ -1359,7 +1397,7 @@
 				item: "gtceu:fermium_dust"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: 13.5d
 		}
 		{
@@ -1370,7 +1408,7 @@
 				item: "gtceu:fermium_waste"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: 12.0d
 		}
 		{
@@ -1381,7 +1419,7 @@
 				item: "gtceu:mendelevium_dust"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: 13.5d
 		}
 		{
@@ -1392,7 +1430,7 @@
 				item: "gtceu:mendelevium_waste"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: 12.0d
 		}
 		{
@@ -1403,11 +1441,17 @@
 				item: "gtceu:plutonium_raw_waste"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.0d
 			y: 12.0d
 		}
 		{
 			id: "500612E5FCC5C9E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02422AAF3CE9D6FA"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.ev.quest5766317151892130272.subtitle}"
 			tasks: [{
 				id: "65F55CB7ADF9E8AB"
@@ -1457,6 +1501,12 @@
 		}
 		{
 			id: "064670FD1A53F477"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C8400D787FF46D1"
+				table_id: 971429564947815603L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "120EE0CCCC649A40"
 				item: "ctnhcore:decay_pools_machine"
@@ -1472,12 +1522,18 @@
 				item: "gtceu:uranium_fuel"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -10.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["6F6CE9819AC46724"]
 			id: "026EEA8EEAA6BFB1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "380CD97A1D7AE916"
+				table_id: 971429564947815603L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "503AA7626F80065B"
 				item: "gtceu:molybdenum_disilicide_coil_block"
@@ -1489,6 +1545,12 @@
 		{
 			dependencies: ["799C99EA04D07344"]
 			id: "42F6C23B961B60BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2156FD48B719F862"
+				table_id: 971429564947815603L
+				type: "loot"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "7DC2605CF7ED41B8"
@@ -1522,6 +1584,12 @@
 				"001B1FD0183C089D"
 			]
 			id: "20450C09CB05AD11"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FC7F00BA37B8835"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6B8B74164EB58BD2"
 				item: "gtceu:ev_energy_input_hatch"
@@ -1545,6 +1613,12 @@
 		{
 			dependencies: ["20450C09CB05AD11"]
 			id: "5AA96CC00DE1D3C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "123F647680BE01F0"
+				table_id: 971429564947815603L
+				type: "loot"
+			}]
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.ev.quest6532872306600039366.subtitle}"
 			tasks: [{

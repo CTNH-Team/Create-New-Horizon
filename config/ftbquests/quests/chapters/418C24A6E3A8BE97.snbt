@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "418C24A6E3A8BE97"
 	group: "4CD84F8DB1FF8B7E"
+	icon: "ctnhcore:space_photovoltai_cbase_station"
 	id: "418C24A6E3A8BE97"
 	order_index: 3
 	quest_links: [ ]

@@ -188,6 +188,12 @@
 				"{ftbquests.chapter.mv.quest1730859508366117970.description2}"
 			]
 			id: "18053F8D68450C52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19867F940295DACD"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "70B7E658DC504E19"
 				item: "gtceu:pyrolyse_oven"
@@ -314,6 +320,12 @@
 		{
 			dependencies: ["5A460876CA0EC216"]
 			id: "6A93AEE55399519D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CE6F324012C1F37"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3FAAF27C803FB471"
 				item: "gtceu:polyethylene_bucket"
@@ -420,6 +432,12 @@
 				"1DA7DEEECA317293"
 			]
 			id: "0B95FAC22EC46105"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C0A89D0B52DCF5D"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3F1AA7394457B3DF"
 				item: "gtceu:stainless_steel_dust"
@@ -431,12 +449,20 @@
 		{
 			dependencies: ["0B95FAC22EC46105"]
 			id: "36968F23015BC87A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "72FC4B69AF16AD64"
-				table_id: 5863108397808417557L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20F57A002B9D52B3"
+					table_id: 5863108397808417557L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45345D2AA508BD9E"
+					table_id: 723892772024061161L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.mv.quest3933488705064126586.subtitle}"
@@ -452,6 +478,11 @@
 			dependencies: ["4C152AA55BCD6945"]
 			description: ["{ftbquests.chapter.mv.quest4330828755250512002.description1}"]
 			id: "3C1A31CEA3C10082"
+			rewards: [{
+				id: "2ABC57832E0DBABA"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "61073088E3E1F703"
@@ -475,6 +506,12 @@
 		{
 			dependencies: ["1FBD86C0CF681427"]
 			id: "64F3856504BEA9F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A9D7E8EA7EBAD39"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3D318027CEAAF7BA"
 				item: "ctnhcore:digestion_tank"
@@ -490,6 +527,12 @@
 			]
 			id: "36B9FCEC9579E090"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34FC43BEE4646450"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0B16B111E31DE41D"
 				item: "ctnhcore:fermenting_tank"
@@ -517,12 +560,20 @@
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.mv.quest2962527325485617673.description1}"]
 			id: "291D02E808F55209"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5FFDFD18FCE09799"
-				table_id: 5863108397808417557L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5FFDFD18FCE09799"
+					table_id: 5863108397808417557L
+					type: "random"
+				}
+				{
+					count: 6
+					id: "4A0C53A29F9DA1A9"
+					item: "gtceu:chromium_dust"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.mv.quest2962527325485617673.subtitle}"
 			tasks: [{
 				id: "439069F6CBE169E1"
@@ -618,6 +669,12 @@
 				"3C1A31CEA3C10082"
 			]
 			id: "707A41CB0EED30D3"
+			rewards: [{
+				count: 2
+				id: "4C7683CC5B48E491"
+				item: "gtceu:kanthal_block"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.mv.quest8104862819791220947.subtitle}"
 			tasks: [{
 				id: "6F1536BDC8E4DB42"
@@ -631,6 +688,12 @@
 			dependencies: ["1FBD86C0CF681427"]
 			hide_dependency_lines: true
 			id: "05DE915B25451CF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33DB5602C7F28E85"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6C3C5441702781F5"
 				item: "gtceu:mv_chemical_bath"
@@ -668,6 +731,12 @@
 				"01377F6FDB479DC4"
 			]
 			id: "7142680A93861DB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AE56F99AE12D497"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "10A74E679FA94C6B"
@@ -719,6 +788,12 @@
 				"667964AF2027E5BD"
 			]
 			id: "6D2CFD7C56F6A2B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7470DD7C9E45CCB6"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "19B0A02601FB3654"
 				item: "gtceu:silicon_ingot"
@@ -734,6 +809,12 @@
 				"59B39491E1FAA6E0"
 			]
 			id: "5FCD87E61592F357"
+			rewards: [{
+				count: 9
+				id: "236A88D3A0172090"
+				item: "gtceu:vanadium_steel_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "42DFAF361A5675C7"
 				item: "gtceu:vanadium_steel_ingot"
@@ -859,6 +940,11 @@
 			]
 			description: [""]
 			id: "761AC9761D80AC19"
+			rewards: [{
+				id: "681C287F669124F3"
+				item: "kubejs:mana_integrated_circuit"
+				type: "item"
+			}]
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.mv.quest8510335955008269337.subtitle}"
 			tasks: [{
@@ -977,6 +1063,12 @@
 				"3231CBCCB4FFFA0B"
 			]
 			id: "4B0A7C665D98CEDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0045711005515BF9"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "484DFA560F39E5B2"
@@ -1031,7 +1123,15 @@
 		}
 		{
 			dependencies: ["24CB9175692BADFD"]
+			description: ["建议多做一点，很好用"]
 			id: "78A828D153F91AC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "797913C264189474"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "集成种植"
 			tasks: [{
 				id: "010A88ADBD0BB387"
 				item: "ctnhcore:greenhouse"
@@ -1043,6 +1143,12 @@
 		{
 			dependencies: ["24CB9175692BADFD"]
 			id: "2418F847F2BC0F05"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02001B4B4BDD1558"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "67FA403BBBE0D61E"
 				item: "gtceu:mv_mixer"
@@ -1052,6 +1158,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["24CB9175692BADFD"]
 			id: "02F1CF840A21D33C"
 			tasks: [{
 				id: "373ACC015DF8DEE7"
@@ -1136,6 +1243,20 @@
 			]
 			description: ["{ftbquests.chapter.mv.quest4016657970085263368.description1}"]
 			id: "37BE0924832C7808"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40E2717DF4E1E494"
+					table_id: 5863108397808417557L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2802B170748AF19B"
+					table_id: 723892772024061161L
+					type: "random"
+				}
+			]
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.mv.quest4016657970085263368.subtitle}"
 			tasks: [{
@@ -1152,6 +1273,12 @@
 				"2E117BBA1E035855"
 			]
 			id: "1DA7DEEECA317293"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A9E77294A8E0C45"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "681FCB9486BA2741"
 				item: "gtceu:mv_mixer"

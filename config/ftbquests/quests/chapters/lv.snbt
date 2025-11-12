@@ -31,6 +31,12 @@
 			dependencies: ["476757E0C54B6ADE"]
 			description: ["{ftbquests.chapter.lv.quest5785566619321594419.description1}"]
 			id: "504A762FE1057233"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23DD99C0BBBDA092"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.lv.quest5785566619321594419.subtitle}"
@@ -46,6 +52,12 @@
 			dependencies: ["06B6C2C77135D570"]
 			description: ["{ftbquests.chapter.lv.quest9004428507979495633.description1}"]
 			id: "7CF628053F84B8D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "131D5C721AA4E090"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.lv.quest9004428507979495633.subtitle}"
@@ -175,6 +187,12 @@
 			]
 			description: ["{ftbquests.chapter.lv.quest9194429813690434510.description1}"]
 			id: "7F992D338D4783CE"
+			rewards: [{
+				count: 32
+				id: "78C1FCB200E01152"
+				item: "gtceu:small_gallium_arsenide_dust"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.lv.quest9194429813690434510.subtitle}"
 			tasks: [{
 				id: "7ABC4356467197C7"
@@ -191,12 +209,20 @@
 			]
 			description: ["{ftbquests.chapter.lv.quest3271353847379106744.description1}"]
 			id: "2D662EFDE7A39BB8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6D415A34E49B3976"
-				table_id: 601634794626000726L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D415A34E49B3976"
+					table_id: 601634794626000726L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "07348189FF48C1F0"
+					item: "gtceu:good_electronic_circuit"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.lv.quest3271353847379106744.subtitle}"
 			tasks: [{
 				id: "3D3B26CBE9800D76"
@@ -274,12 +300,20 @@
 			]
 			description: ["{ftbquests.chapter.lv.quest1294952876300903893.description1}"]
 			id: "11F898C7B0C925D5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2365E293E946822F"
-				table_id: 601634794626000726L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "39A2AA56B31EACBB"
+					table_id: 5863108397808417557L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09CFE11E176B6914"
+					table_id: 601634794626000726L
+					type: "choice"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.lv.quest1294952876300903893.subtitle}"
@@ -607,6 +641,12 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			id: "21CD0FCABBCFB765"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A53443E2EA4E2B0"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.lv.quest2435620336886069093.subtitle}"
 			tasks: [{
 				id: "4545038EF9451F51"
@@ -619,6 +659,12 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			id: "4B7A35D369A217E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C483EB06F82C6B6"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
 			tasks: [{
 				id: "249CF4CBD68E1772"
 				item: "ctnhcore:large_steel_alloy_furnace"
@@ -631,6 +677,12 @@
 			dependencies: ["7AE674329D7E7944"]
 			description: ["{ftbquests.chapter.lv.quest483788171842540912.description1}"]
 			id: "06B6C2C77135D570"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14362A566DDAF8F0"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
 			shape: "octagon"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.lv.quest483788171842540912.subtitle}"
@@ -914,6 +966,12 @@
 				"{ftbquests.chapter.lv.quest2104829730679445564.description6}"
 			]
 			id: "1D35DB7CF9D4583C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F9B427AE03A8B9E"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
 			tasks: [{
 				count: 16L
 				id: "3393C24C922E674E"
@@ -938,6 +996,12 @@
 				"{ftbquests.chapter.lv.quest1471256540151703732.description10}"
 			]
 			id: "146AF407393668B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7495C7C2E3EAFD21"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.lv.quest1471256540151703732.subtitle}"
 			tasks: [
 				{

@@ -7,7 +7,12 @@
 	icon: "vintageimprovements:centrifuge"
 	id: "4408EF6F9E2E1624"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "5E7E3634928ED1B2"
+		linked_quest: "6580B42C94E67713"
+		x: 4.5d
+		y: 7.5d
+	}]
 	quests: [
 		{
 			dependencies: ["6D9003172EF921C9"]
@@ -66,12 +71,20 @@
 			dependencies: ["15AE530D8337DCEE"]
 			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest6239685670408716742.description1}"]
 			id: "5697D10ED6CE81C6"
-			rewards: [{
-				count: 8
-				id: "13C72EC91DD7A1CD"
-				item: "create:white_sail"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "13C72EC91DD7A1CD"
+					item: "create:white_sail"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "086C14F59DA454A9"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+			]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest6239685670408716742.subtitle}"
 			tasks: [{
 				id: "7381565C9306947F"
@@ -84,11 +97,19 @@
 		{
 			dependencies: ["7E591C0E7278D12F"]
 			id: "7E5199B7F22F5DED"
-			rewards: [{
-				id: "3CF74CD75421697C"
-				item: "create:water_wheel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3CF74CD75421697C"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44D01984A59C6D67"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+			]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest9102225337213738477.subtitle}"
 			tasks: [{
 				id: "0652930EFB9D841B"
@@ -113,12 +134,20 @@
 		{
 			dependencies: ["6DB370790E927958"]
 			id: "2460426DE77EF0F4"
-			rewards: [{
-				count: 4
-				id: "231B636B2463F918"
-				item: "gtceu:iron_plate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "231B636B2463F918"
+					item: "gtceu:iron_plate"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E2C9DED716A4E75"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "51212E2B1DE37DEA"
 				item: "gtceu:iron_plate"
@@ -172,6 +201,12 @@
 		{
 			dependencies: ["15AE530D8337DCEE"]
 			id: "788E6B0608C95DA7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6ADC90DEDE94BB3B"
+				table_id: 6833002641825410426L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest8686998404905655719.subtitle}"
 			tasks: [{
 				id: "1FF3F5EBC8412F3E"
@@ -203,6 +238,20 @@
 		{
 			dependencies: ["53B3B59D47455ACE"]
 			id: "6168741C8B4F4F31"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6929F54AEC002BA1"
+					table_id: 3492588397256202932L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "457435288F4FC14C"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+			]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest7018987685202054961.subtitle}"
 			tasks: [{
 				id: "4EBB397405BF419A"
@@ -220,6 +269,20 @@
 			]
 			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest3117348098582827713.description1}"]
 			id: "2B430B944944D2C1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21C7305C636ADE6F"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "269189C5EECD14C2"
+					table_id: 3492588397256202932L
+					type: "random"
+				}
+			]
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest3117348098582827713.subtitle}"
 			tasks: [
@@ -242,6 +305,12 @@
 		{
 			dependencies: ["15AE530D8337DCEE"]
 			id: "5BB3CF765E9C93D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22F42B9E817F6553"
+				table_id: 6833002641825410426L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest6607853185583059924.subtitle}"
 			tasks: [{
 				id: "769D434A8C5E8C0E"
@@ -273,6 +342,12 @@
 					id: "073A041FA193D23D"
 					item: "ctnhcore:testing_terminal"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "098296914AAD67B4"
+					table_id: 6833002641825410426L
+					type: "random"
 				}
 			]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest2723234091595661892.subtitle}"
@@ -370,6 +445,12 @@
 			]
 			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest3618057582376171936.description1}"]
 			id: "3235EC33AE70B9A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C161BDCD2872474"
+				table_id: 6833002641825410426L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest3618057582376171936.subtitle}"
 			tasks: [{
 				id: "236137F11A4DC73E"
@@ -458,20 +539,34 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest7894813544887689673.subtitle}"
 			tasks: [{
 				id: "2432B1FD7CD5EFE3"
 				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["33452CB4AAC5EE5F"]
 			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest7118115916349668051.description1}"]
 			id: "62C8A0B668137AD3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6479760B5E64C035"
+					table_id: 6665810253403300519L
+					type: "choice"
+				}
+				{
+					count: 4
+					id: "08BDE824CC94195E"
+					item: "ctpp:lv_kinetic_output_box"
+					type: "item"
+				}
+			]
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest7118115916349668051.subtitle}"
 			tasks: [{
@@ -503,6 +598,12 @@
 			]
 			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest1513054001657925850.description1}"]
 			id: "14FF729916CDD0DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0546C9A1C363FF1F"
+				table_id: 3492588397256202932L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest1513054001657925850.subtitle}"
 			tasks: [{
 				id: "6F0BB0D33A2273A7"
@@ -515,6 +616,20 @@
 		{
 			dependencies: ["7C9B89066D34939E"]
 			id: "1BA3FA0F7BFCF9D8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01F9580C12D97E4F"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B3CAC3D73219EBC"
+					table_id: 3492588397256202932L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "7470F7D26D4285A0"
 				item: "create:polished_rose_quartz"
@@ -526,6 +641,12 @@
 		{
 			dependencies: ["1BA3FA0F7BFCF9D8"]
 			id: "57B6D6BFE7577AFA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C55B0F9A4B961BE"
+				table_id: 3492588397256202932L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7BB5DC7882DD64DB"
 				item: "create:electron_tube"
@@ -537,6 +658,20 @@
 		{
 			dependencies: ["57B6D6BFE7577AFA"]
 			id: "4202B676480913ED"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "687C822896149EED"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FD57E82A74D13B8"
+					table_id: 3492588397256202932L
+					type: "random"
+				}
+			]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest4756564775587615725.subtitle}"
 			tasks: [{
 				id: "1853003D8D148DE4"
@@ -594,6 +729,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "6CDD36A3C742B7F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B5F77FC2F9EA1BF"
+				table_id: 6665810253403300519L
+				type: "random"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest7844486202999879666.subtitle}"
@@ -625,6 +766,12 @@
 			dependencies: ["6CDD36A3C742B7F2"]
 			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest1183814833145085336.description1}"]
 			id: "106DC15191737D98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02A4B7A02F5E0AB7"
+				table_id: 6665810253403300519L
+				type: "random"
+			}]
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest1183814833145085336.subtitle}"
 			tasks: [{
@@ -639,6 +786,12 @@
 			dependencies: ["106DC15191737D98"]
 			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest5669541773425745474.description1}"]
 			id: "4EAE423454479E42"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E9E14B065DC4B47"
+				table_id: 6665810253403300519L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest5669541773425745474.subtitle}"
 			tasks: [{
 				id: "559D90EBE8B478FD"
@@ -738,6 +891,12 @@
 			dependencies: ["106DC15191737D98"]
 			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest3253266530309751340.description1}"]
 			id: "2D25ECAC3AC7C22C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CD80BD17BCB59E0"
+				table_id: 6665810253403300519L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest3253266530309751340.subtitle}"
 			tasks: [{
 				id: "5CE1B7D9315320A8"
@@ -750,6 +909,12 @@
 		{
 			dependencies: ["3AE55A55A5EBBA5A"]
 			id: "44EDCCEAD0112C8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1ED265B421758FB2"
+				table_id: 6665810253403300519L
+				type: "choice"
+			}]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest4966851272944725132.subtitle}"
 			tasks: [{
 				id: "07995972E46CC2CF"
@@ -811,6 +976,12 @@
 				"3509D7B8E361DF68"
 			]
 			id: "6F4DA29DA86EAFCD"
+			rewards: [{
+				count: 8
+				id: "1364BD1E078F2A13"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest8020245309436112845.subtitle}"
 			tasks: [{
 				id: "11D46D61E3278B77"
@@ -865,6 +1036,26 @@
 		{
 			dependencies: ["105D45F86A0B3A55"]
 			id: "1162E347E7C00175"
+			rewards: [
+				{
+					count: 16
+					id: "59C070A007BBCB33"
+					item: "ctnhcore:refined_iron_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "254BC8FCDD4FA0B1"
+					table_id: 1576725829474885042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FBF48BB3032B01A"
+					table_id: 6665810253403300519L
+					type: "choice"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest1252813544332722549.subtitle}"
@@ -879,6 +1070,12 @@
 		{
 			dependencies: ["15AE530D8337DCEE"]
 			id: "713CA44106751CCA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78BF8F153388A157"
+				table_id: 6833002641825410426L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest8159577224076664010.subtitle}"
 			tasks: [{
 				id: "5D1BAF9CE51E4E1A"
@@ -928,6 +1125,12 @@
 		{
 			dependencies: ["106DC15191737D98"]
 			id: "5B9EBE5F72944F67"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B05DBB7AA9BAC56"
+				table_id: 6665810253403300519L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest6601923420925218663.subtitle}"
 			tasks: [{
 				id: "38330AE664405CCF"
@@ -956,6 +1159,20 @@
 			dependencies: ["6A9845F85704E2D4"]
 			dependency_requirement: "one_completed"
 			id: "06C3AF2D5D8F694A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6873315E7843BE92"
+					table_id: 3492588397256202932L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11919ADA4944A57C"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "06DC5E54CC23C978"
 				item: "gtceu:iron_spring"
@@ -998,6 +1215,20 @@
 				"{ftbquests.chapter.4408EF6F9E2E1624.quest3821822947889373032.description2}"
 			]
 			id: "3509D7B8E361DF68"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54DA345C4BD7ECD2"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39E205E52B3CFA9E"
+					table_id: 3492588397256202932L
+					type: "random"
+				}
+			]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest3821822947889373032.subtitle}"
 			tasks: [
 				{
@@ -1063,12 +1294,26 @@
 				"{ftbquests.chapter.4408EF6F9E2E1624.quest1179175610674264661.description3}"
 			]
 			id: "105D45F86A0B3A55"
-			rewards: [{
-				count: 19
-				id: "1D10295310EE5017"
-				item: "createmetallurgy:industrial_crucible"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 19
+					id: "1D10295310EE5017"
+					item: "createmetallurgy:industrial_crucible"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6379FB7ED9E6FF7F"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F0C84E7149781DA"
+					table_id: 3492588397256202932L
+					type: "random"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest1179175610674264661.subtitle}"
@@ -1092,6 +1337,20 @@
 		{
 			dependencies: ["5E5F4837CC1F047A"]
 			id: "4CDCD4A5CB57415D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B23917618223F40"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22E591B021CAEB1A"
+					table_id: 3492588397256202932L
+					type: "random"
+				}
+			]
 			size: 1.5d
 			tasks: [
 				{
@@ -1150,12 +1409,26 @@
 		{
 			dependencies: ["53B3B59D47455ACE"]
 			id: "789BB6304FC5B584"
-			rewards: [{
-				count: 64
-				id: "19501FA92690579D"
-				item: "create:fluid_pipe"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "19501FA92690579D"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "163FF5B787A6DA08"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24BCBBA50855BA2C"
+					table_id: 3492588397256202932L
+					type: "random"
+				}
+			]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest8690740224554546564.subtitle}"
 			tasks: [{
 				id: "586FCED7C02EE5D7"
@@ -1187,6 +1460,12 @@
 				"79BE8625F8D33E1C"
 			]
 			id: "37C84B86D958F123"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "521968B397C486DE"
+				table_id: 3492588397256202932L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest4019545709972353315.subtitle}"
 			tasks: [{
 				id: "49BF6627F311BAC2"
@@ -1309,6 +1588,20 @@
 		{
 			dependencies: ["6168741C8B4F4F31"]
 			id: "4BFCE509589207BC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45A2450CDD80AF80"
+					table_id: 3492588397256202932L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "214A0DEBA4366198"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "0524278F58E281E3"
@@ -1327,13 +1620,21 @@
 			]
 			icon: "minecraft:netherrack"
 			id: "1E11A492F4576DBA"
-			rewards: [{
-				command: "/gamephase add @p nether"
-				elevate_perms: true
-				id: "73102DDDEA76B9E4"
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest2166693846813470138.reward.8291177345133754852.title}"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/gamephase add @p nether"
+					elevate_perms: true
+					id: "73102DDDEA76B9E4"
+					title: "{ftbquests.chapter.4408EF6F9E2E1624.quest2166693846813470138.reward.8291177345133754852.title}"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A07F52834B0F819"
+					table_id: 6665810253403300519L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest2166693846813470138.subtitle}"
@@ -1436,150 +1737,6 @@
 			y: 16.5d
 		}
 		{
-			dependencies: ["2460426DE77EF0F4"]
-			id: "35F4C20ACB393416"
-			tasks: [
-				{
-					id: "22C6F31A7C1D7197"
-					item: {
-						Count: 1
-						id: "gtceu:iron_hammer"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								DefaultEnchantments: [ ]
-								HarvestLevel: 2
-								MaxDamage: 255
-								ToolSpeed: 6.0f
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "180DC456A5C56155"
-					item: {
-						Count: 1
-						id: "gtceu:wrought_iron_mortar"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								DefaultEnchantments: [ ]
-								MaxDamage: 383
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4D7FC4C056A21799"
-					item: {
-						Count: 1
-						id: "gtceu:iron_file"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								DefaultEnchantments: [ ]
-								MaxDamage: 255
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "06F54884B5ACDDA1"
-					item: {
-						Count: 1
-						id: "gtceu:iron_wire_cutter"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								DefaultEnchantments: [ ]
-								HarvestLevel: 2
-								MaxDamage: 255
-								ToolSpeed: 6.0f
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "131C7D5C3C974890"
-					item: {
-						Count: 1
-						id: "gtceu:iron_saw"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: {
-								HarvestIce: 1b
-							}
-							GT.Tool: {
-								DefaultEnchantments: [ ]
-								MaxDamage: 255
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "318A167BE182798A"
-					item: {
-						Count: 1
-						id: "gtceu:iron_screwdriver"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								DefaultEnchantments: [ ]
-								MaxDamage: 255
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "13B87AB56D94ACDE"
-					item: {
-						Count: 1
-						id: "gtceu:iron_wrench"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: {
-								Mode: 2b
-							}
-							GT.Tool: {
-								DefaultEnchantments: [ ]
-								HarvestLevel: 2
-								MaxDamage: 255
-								ToolSpeed: 6.0f
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 7.5d
-		}
-		{
 			dependencies: ["525ACD2BD801E168"]
 			id: "79BE8625F8D33E1C"
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest8772596621810810396.subtitle}"
@@ -1620,6 +1777,38 @@
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest6514146733366147687.title}"
 			x: 2.0d
 			y: 14.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6D9003172EF921C9"]
+			id: "3337D2DFE0E2FF14"
+			rewards: [{
+				id: "6D8FA1750FD17BCB"
+				item: {
+					Count: 1
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+						Potion: "minecraft:long_night_vision"
+						RepairCost: 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "072A55142248DAD8"
+				item: "gtceu:andesite_alloy_ingot"
+				type: "item"
+			}]
+			title: "换夜视护符咯"
+			x: -1.0d
+			y: 7.5d
 		}
 	]
 	title: "{ftbquests.chapter.4408EF6F9E2E1624.title}"
