@@ -213,7 +213,10 @@ ServerEvents.recipes(event => {
         'ad_astra:oxygen_distributor',
         'ad_astra:gravity_normalizer',
         //烧硅岩粒
-        'gtceu:electric_blast_furnace/naq_ingot'
+        'gtceu:electric_blast_furnace/naq_ingot',
+        //安山合金块
+        'create:crafting/materials/andesite_alloy_from_block',
+        'create:crafting/materials/andesite_alloy_block'
     ])
 
 

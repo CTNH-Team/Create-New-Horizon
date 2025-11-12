@@ -1,44 +1,3 @@
-/*REIEvents.hide('item',event =>{
-    event.hide('twilightforest:uncrafting_table')
-    event.hide('create:andesite_alloy')
-    event.hide('enderio:vibrant_alloy_ingot')
-    event.hide('enderio:energetic_alloy_ingot')
-    event.hide('enderio:dark_steel_ingot')
-    event.hide('enderio:vibrant_alloy_nugget')
-    event.hide('enderio:vibrant_alloy_block')
-    event.hide('enderio:energetic_alloy_nugget')
-    event.hide('enderio:energetic_alloy_block')
-    event.hide('enderio:dark_steel_nugget')
-    event.hide('enderio:dark_steel_block')
-    event.hide('enderio:end_steel_ingot')
-    event.hide('enderio:end_steel_nugget')
-    event.hide('enderio:end_steel_block')
-    event.hide('enderio:pulsating_alloy_ingot')
-    event.hide('enderio:pulsating_alloy_nugget')
-    event.hide('enderio:pulsating_alloy_block')
-    event.hide('enderio:soularium_ingot')
-    event.hide('enderio:soularium_nugget')
-    event.hide('enderio:soularium_block')
-    event.hide('enderio:conductive_alloy_ingot')
-    event.hide('enderio:conductive_alloy_nugget')
-    event.hide('enderio:conductive_alloy_block')
-    event.hide('enderio:redstone_alloy_ingot')
-    event.hide('enderio:redstone_alloy_nugget')
-    event.hide('enderio:redstone_alloy_block')
-    event.hide('enderio:copper_alloy_ingot')
-    event.hide('enderio:copper_alloy_nugget')
-    event.hide('enderio:copper_alloy_block')
-    event.hide('tfmg:coke_oven')
-    event.hide('tfmg:fireproof_bricks')
-    event.hide('tfmg:blast_furnace_output')
-    event.hide('tfmg:fireproof_brick_reinforcement')
-    event.hide('tfmg:fireclay_ball')
-    event.hide('tfmg:fireproof_brick')
-    event.hide('create:crushed_raw_aluminum')
-    event.hide('minecraft:netherite_ingot')
-    event.hide('minecraft:netherite_block')
-})*/
-
 JEIEvents.hideItems(event => {
     event.hide('twilightforest:uncrafting_table')
     event.hide('create:andesite_alloy')
@@ -83,13 +42,6 @@ JEIEvents.hideItems(event => {
     event.hide('gtceu:mv_steam_turbine')
     event.hide('gtceu:hv_steam_turbine')
     event.hide('ae2:facade')
-})
-JEIEvents.hideFluids(event => {
-    for (let i = 0; i <= 19; i++) {
-    const eventName = 'ticex:rf_furnace_fuel_${i}';
-    event.hide(eventName);
-}
-    
 })
 
 JEIEvents.removeCategories(event => {
