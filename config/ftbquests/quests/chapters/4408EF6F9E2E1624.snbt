@@ -1810,6 +1810,19 @@
 			x: -1.0d
 			y: 7.5d
 		}
+		{
+			dependencies: ["60D8E1B5B8777322"]
+			description: ["                       真的"]
+			id: "5E467907883A5FD7"
+			subtitle: "它很好用"
+			tasks: [{
+				id: "6BE0DDC09F2CF469"
+				item: "create:crafting_blueprint"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
 	]
 	title: "{ftbquests.chapter.4408EF6F9E2E1624.title}"
 }

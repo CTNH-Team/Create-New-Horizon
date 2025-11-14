@@ -446,6 +446,12 @@
 		{
 			dependencies: ["0B92B29E066D2E88"]
 			id: "2A6527B0F4AC3E2E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E0A91E44DC3BA3F"
+				table_id: 7618519509353548779L
+				type: "random"
+			}]
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.iv.quest3054891563213405742.subtitle}"
 			tasks: [{

@@ -171,7 +171,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6931CCEEE2282117"]
 			description: ["{ftbquests.chapter.uhv.quest1566483953428500387.description1}"]
 			icon: "gtceu:nan_certificate"
 			id: "15BD44DB26748FA3"
@@ -190,8 +189,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.uhv.quest1566483953428500387.title}"
-			x: 1.0d
-			y: 4.0d
+			x: -12.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6D8963683034165D"]
@@ -366,11 +365,18 @@
 			description: ["{ftbquests.chapter.uhv.quest8283170895604053017.description1}"]
 			id: "72F3BC0B1E557419"
 			subtitle: "{ftbquests.chapter.uhv.quest8283170895604053017.subtitle}"
-			tasks: [{
-				id: "0BA949F8EA6C8EAD"
-				item: "gtceu:uhv_circuit_assembler"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0BA949F8EA6C8EAD"
+					item: "gtceu:uhv_circuit_assembler"
+					type: "item"
+				}
+				{
+					id: "30E74620691002AC"
+					item: "kubejs:circuit_resonatic_uev"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 4.0d
 		}
