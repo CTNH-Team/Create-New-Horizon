@@ -1,0 +1,12 @@
+{
+	id: "30782AA48D1B5AB4"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ count: 16, item: "create:copper_casing" }
+		{ count: 8, item: "ctpp:basic_mechanism", weight: 0.5f }
+		{ count: 8, item: "minecraft:golden_carrot" }
+		{ count: 16, item: "create:polished_rose_quartz" }
+	]
+	title: "CT奖励S2"
+}

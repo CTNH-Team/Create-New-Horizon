@@ -1,0 +1,14 @@
+{
+	id: "5C81B71BC642A2A7"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ count: 6, item: "gtceu:andesite_alloy_block" }
+		{ count: 16, item: "create:brass_casing" }
+		{ count: 4, item: "gtceu:bronze_drum" }
+		{ count: 2, item: "create:rotation_speed_controller", weight: 0.1f }
+		{ count: 6, item: "create:electron_tube" }
+		{ count: 4, item: "create:precision_mechanism", weight: 0.6f }
+	]
+	title: "CT奖励S3"
+}

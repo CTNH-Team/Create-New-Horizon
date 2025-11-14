@@ -1,0 +1,12 @@
+{
+	id: "13066FCEBCFE91CF"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ item: "ctpp:lv_kinetic_output_box" }
+		{ count: 4, item: "ctpp:lv_kinetic_input_box" }
+		{ count: 4, item: "ctpp:steel_mechanism" }
+		{ count: 6, item: "create:railway_casing" }
+	]
+	title: "钢铁奖励"
+}

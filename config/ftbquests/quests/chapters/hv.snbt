@@ -2313,7 +2313,7 @@
 			subtitle: "{ftbquests.chapter.hv.quest8699666792485211861.subtitle}"
 			tasks: [{
 				id: "26398F870CA3D0CE"
-				item: "mae2:eu_p2p_tunnel"
+				item: "eup2p:eu_p2p_tunnel"
 				type: "item"
 			}]
 			x: -14.5d

@@ -721,12 +721,20 @@
 		{
 			dependencies: ["2A6527B0F4AC3E2E"]
 			id: "17292FB8D4DD36BA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5E08C2F133CF954C"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "68ABC134EDA92642"
+					table_id: 7618519509353548779L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67BD6BD29F15BCED"
+					table_id: 846882859033216508L
+					type: "loot"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.iv.quest1668917607809234618.subtitle}"
@@ -1347,6 +1355,20 @@
 			dependencies: ["3B966B84827FDF0C"]
 			description: ["{ftbquests.chapter.iv.quest2350786810025663054.description1}"]
 			id: "209FAC261240DA4E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A10CB2F03E81BCD"
+					table_id: 7618519509353548779L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16FBA97069E9D14E"
+					table_id: 846882859033216508L
+					type: "loot"
+				}
+			]
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.iv.quest2350786810025663054.subtitle}"
 			tasks: [{

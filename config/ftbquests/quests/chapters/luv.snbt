@@ -136,6 +136,26 @@
 				"{ftbquests.chapter.luv.quest116848633681060577.description3}"
 			]
 			id: "019F2136970CA2E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1545F0A0A9E19D0B"
+					table_id: 846882859033216508L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64A27967952CFD46"
+					table_id: 846882859033216508L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7848248A9030E661"
+					table_id: 846882859033216508L
+					type: "loot"
+				}
+			]
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.luv.quest116848633681060577.subtitle}"
 			tasks: [{
@@ -152,6 +172,12 @@
 				"0DA6DBCC41828D80"
 			]
 			id: "14C08D2A44860C08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21FC7C1C63F81927"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.luv.quest1495350288964783112.subtitle}"
 			tasks: [{
@@ -165,6 +191,12 @@
 		{
 			dependencies: ["209FAC261240DA4E"]
 			id: "1543DE3AB9FD7598"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C8EF2AC4F0AF6C9"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "49AC49ABFC4B89BA"
 				item: "gtceu:superconducting_coil"
@@ -226,6 +258,12 @@
 				"0DA6DBCC41828D80"
 			]
 			id: "174B639A9AAA2B4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C137448EADE3C2B"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "64DF7150FCA7AA06"
 				item: "gtceu:luv_fusion_reactor"
@@ -256,6 +294,12 @@
 			]
 			description: ["{ftbquests.chapter.luv.quest7168921571391158578.description1}"]
 			id: "637D202FC567B932"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40AA67113F30DD9F"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.luv.quest7168921571391158578.subtitle}"
 			tasks: [{
@@ -297,11 +341,19 @@
 			dependencies: ["3FB06067540E1931"]
 			description: ["{ftbquests.chapter.luv.quest2451656527455700381.description1}"]
 			id: "2206089F4E43C59D"
-			rewards: [{
-				id: "57A22205F098B164"
-				item: "gtceu:hpca_heat_sink_component"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "57A22205F098B164"
+					item: "gtceu:hpca_heat_sink_component"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50E1F2CB4FB30EE5"
+					table_id: 846882859033216508L
+					type: "loot"
+				}
+			]
 			subtitle: "{ftbquests.chapter.luv.quest2451656527455700381.subtitle}"
 			tasks: [{
 				id: "07E839453D413D32"
@@ -365,6 +417,12 @@
 		{
 			dependencies: ["693BE7D773A7C37F"]
 			id: "02DD2E6EEDC15505"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5893D8ADFDBD9E49"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2FEF84CF7734F746"
 				item: "ctnhcore:neutron_activator"
@@ -438,9 +496,9 @@
 			id: "1E79D7B65D6DCECF"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5FA37A99F58AEFBA"
-				table_id: 7618519509353548779L
-				type: "random"
+				id: "2F279DFA6979B04E"
+				table_id: 846882859033216508L
+				type: "loot"
 			}]
 			shape: "pentagon"
 			size: 1.5d
@@ -521,9 +579,9 @@
 			id: "008A90953EEF0008"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5DFADD662EB69832"
-				table_id: 7618519509353548779L
-				type: "random"
+				id: "4FA4E4C66373DFCB"
+				table_id: 846882859033216508L
+				type: "loot"
 			}]
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.luv.quest39002517466447880.subtitle}"
@@ -539,6 +597,12 @@
 			dependencies: ["6CA56307669FD197"]
 			description: ["{ftbquests.chapter.luv.quest8445709865749858539.description1}"]
 			id: "75353060280848EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FE39F4ECE57D347"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.luv.quest8445709865749858539.subtitle}"
 			tasks: [{
@@ -658,9 +722,9 @@
 			id: "27EC2E4B61A056E0"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "6817D9D70B646753"
-				table_id: 7618519509353548779L
-				type: "random"
+				id: "2EEB7D77C56C8559"
+				table_id: 846882859033216508L
+				type: "loot"
 			}]
 			subtitle: "{ftbquests.chapter.luv.quest2876725163278227168.subtitle}"
 			tasks: [{
@@ -695,6 +759,12 @@
 				"1F24CDB4B265DAE8"
 			]
 			id: "7A22FC6D68A6C26E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26ECD4E3A5E9E868"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "684125328E3768FA"
 				item: "gtceu:trinium_ingot"
@@ -734,9 +804,9 @@
 			id: "6CA56307669FD197"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "25D228CF19177375"
-				table_id: 7618519509353548779L
-				type: "random"
+				id: "2FB335425666965F"
+				table_id: 846882859033216508L
+				type: "loot"
 			}]
 			shape: "rsquare"
 			size: 2.0d
@@ -753,6 +823,12 @@
 			dependencies: ["0DA6DBCC41828D80"]
 			description: ["{ftbquests.chapter.luv.quest7610122055621336518.description1}"]
 			id: "699C95B07EACDDC6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E7DEAD4F049AEAE"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
 			subtitle: "{ftbquests.chapter.luv.quest7610122055621336518.subtitle}"
 			tasks: [{
 				id: "163D3E56B2971B4F"

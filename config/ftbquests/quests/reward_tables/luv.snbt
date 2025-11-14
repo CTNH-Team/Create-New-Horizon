@@ -2,6 +2,15 @@
 	id: "0BC0BB792B0AC5FC"
 	loot_size: 1
 	order_index: 5
-	rewards: [ ]
+	rewards: [
+		{ item: "ctnhenergy:jiuzhang_quantum_computer", weight: 1.0E-5f }
+		{ item: "ctnhcore:void_miner", weight: 1.0E-5f }
+		{ count: 8, item: "gtceu:superconducting_coil", weight: 0.5f }
+		{ count: 6, item: "gtceu:quantum_processor_computer", weight: 0.5f }
+		{ count: 16, item: "gtceu:rhodium_plated_palladium_ingot", weight: 0.6f }
+		{ count: 64, item: "gtceu:indium_dust", weight: 0.5f }
+		{ count: 16, item: "gtceu:osmiridium_dust" }
+		{ count: 16, item: "gtceu:indium_tin_barium_titanium_cuprate_dust" }
+	]
 	title: "{ftbquests.loot_table.846882859033216508.title}"
 }
