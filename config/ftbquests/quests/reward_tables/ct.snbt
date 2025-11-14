@@ -10,5 +10,5 @@
 		{ count: 4, item: "create:basin" }
 		{ count: 4, item: "create:depot" }
 	]
-	title: "CT奖励S1"
+	title: "{ftbquests.loot_table.6833002641825410426.title}"
 }

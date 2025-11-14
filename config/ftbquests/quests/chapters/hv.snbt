@@ -2435,7 +2435,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "03B69B22A1106961"
-			subtitle: "任意一个方法都可以开启这个任务"
+			subtitle: "{ftbquests.chapter.hv.quest267571800908523873.subtitle}"
 			tasks: [{
 				id: "0640A540D2D18B1B"
 				item: "gtceu:tantalum_dust"

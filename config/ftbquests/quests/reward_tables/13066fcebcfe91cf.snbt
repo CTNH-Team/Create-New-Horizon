@@ -8,5 +8,5 @@
 		{ count: 4, item: "ctpp:steel_mechanism" }
 		{ count: 6, item: "create:railway_casing" }
 	]
-	title: "钢铁奖励"
+	title: "{ftbquests.loot_table.1370906070305640911.title}"
 }

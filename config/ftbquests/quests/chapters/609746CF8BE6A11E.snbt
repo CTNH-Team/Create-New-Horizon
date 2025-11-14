@@ -463,7 +463,6 @@
 		}
 		{
 			dependencies: ["4C73E3BA1AD3E0A5"]
-			description: [""]
 			id: "21D441CD4FF09657"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest2437645648379549271.subtitle}"
@@ -511,6 +510,7 @@
 		}
 		{
 			dependencies: ["62B9FB13D5EF2F2D"]
+			description: [""]
 			id: "19A600CF4DFAAABC"
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest1848165587448670908.subtitle}"
 			tasks: [{

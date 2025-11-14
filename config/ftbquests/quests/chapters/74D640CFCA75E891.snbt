@@ -206,7 +206,7 @@
 		}
 		{
 			id: "759E68D4C0890DE8"
-			subtitle: "在利维坦的宫殿内可以找到紫水晶祭坛"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest8475326811730415080.subtitle}"
 			tasks: [{
 				id: "4CEFF5E363879055"
 				item: "cataclysm:blessed_amethyst_crab_meat"
@@ -247,7 +247,7 @@
 		}
 		{
 			id: "5B6C583949955374"
-			subtitle: "听说杀牛牛有概率掉"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest6587737358007096180.subtitle}"
 			tasks: [{
 				id: "15C287C576DA44D8"
 				item: "artifacts:everlasting_beef"
@@ -288,7 +288,7 @@
 		}
 		{
 			id: "66850F5B7B71AA29"
-			subtitle: "将神秘蠕虫丢入虚空召唤"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest7387327649358653993.subtitle}"
 			tasks: [{
 				id: "7909477FA5EAAE87"
 				item: "alexsmobs:void_worm_eye"
@@ -300,7 +300,7 @@
 		{
 			id: "2D90EE7A86CCB03B"
 			size: 1.5d
-			subtitle: "哇 亮晶晶"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest3283386338368073787.subtitle}"
 			tasks: [{
 				id: "4AE7F25C5DEB04BB"
 				item: "ctnhcore:galaxy_meatball"
@@ -563,7 +563,7 @@
 			dependencies: ["4AE7F25C5DEB04BB"]
 			id: "7B6E27B31F57BBB7"
 			size: 1.5d
-			subtitle: "如此熟悉的味道"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest8894089964381780919.subtitle}"
 			tasks: [{
 				id: "3B901E00B6CF2E02"
 				item: {
@@ -617,7 +617,7 @@
 		}
 		{
 			id: "6C02269A4B2E78CB"
-			subtitle: "有概率在战利品箱内找到材料"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest7782825550177794251.subtitle}"
 			tasks: [{
 				id: "382860E192101204"
 				item: {
@@ -668,7 +668,7 @@
 		}
 		{
 			id: "13E1EB7AAD9DA1C4"
-			subtitle: "无伤击败烈阳巨灵"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest1432685068611854788.subtitle}"
 			tasks: [{
 				id: "7CA167EDB6566EE4"
 				item: "deep_aether:sun_core"
@@ -689,7 +689,7 @@
 		}
 		{
 			id: "53AC6840C4FC0B58"
-			subtitle: "无伤击败帝王云鲸"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest6029308628534299480.subtitle}"
 			tasks: [{
 				id: "0A33AF0B60EE1FD5"
 				item: "deep_aether:aerwhale_saddle"
@@ -786,7 +786,7 @@
 		}
 		{
 			id: "32B6C80C4C39F194"
-			subtitle: "无伤击败滑行魔石"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest3654328102801764756.subtitle}"
 			tasks: [{
 				id: "3896EF9250B10904"
 				item: {
@@ -813,7 +813,7 @@
 		}
 		{
 			id: "443D47EBFCF1CEDF"
-			subtitle: "无伤击败武神女王"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest4917165447045041887.subtitle}"
 			tasks: [{
 				id: "7D61DEB8D8157470"
 				item: "deep_aether:medal_of_honor"
@@ -834,7 +834,7 @@
 		}
 		{
 			id: "46216E259BD2447D"
-			subtitle: "在亚尔夫海姆的野外有概率找到"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest5053441364693501053.subtitle}"
 			tasks: [{
 				id: "3316F36843A6072A"
 				item: "botania:apothecary_taiga"
@@ -855,7 +855,7 @@
 		}
 		{
 			id: "1BE9637B0F353024"
-			subtitle: "有概率在月球的结构内找到"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest2011248088784908324.subtitle}"
 			tasks: [{
 				id: "45ABB768ACD17A20"
 				item: "ad_astra:moon_globe"
@@ -900,7 +900,7 @@
 			dependencies: ["0E712534F4486990"]
 			id: "477A647FF437B559"
 			size: 1.5d
-			subtitle: "&l&o&b瑰丽之作！"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest5150539624572499289.subtitle}"
 			tasks: [{
 				id: "28847D163FA29EF6"
 				item: "ctnhcore:crystal_catalyst"
@@ -910,19 +910,19 @@
 			y: 1.9d
 		}
 		{
-			description: ["      &l&n效果为可以跳过X条产线过程直接获得产物"]
+			description: ["{ftbquests.chapter.74D640CFCA75E891.quest3061831508240028255.description1}"]
 			icon: "avaritia:infinity_catalyst"
 			id: "2A7DCF88D2BED25F"
 			size: 2.0d
-			subtitle: "配方表如下"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest3061831508240028255.subtitle}"
 			tasks: [{
 				id: "1B54E4743F0FBB6E"
-				title: "欢迎来到真·催化剂章节"
+				title: "{ftbquests.chapter.74D640CFCA75E891.quest3061831508240028255.task.1969450124993084270.title}"
 				type: "checkmark"
 			}]
 			x: 52.0d
 			y: -10.0d
 		}
 	]
-	title: "P+催化剂_α=C→E"
+	title: "{ftbquests.chapter.74D640CFCA75E891.title}"
 }

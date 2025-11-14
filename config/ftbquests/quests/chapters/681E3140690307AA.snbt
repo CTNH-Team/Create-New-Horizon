@@ -125,7 +125,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "重要！！！（体温维持器可以在小市场购买）"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.subtitle}"
 			tasks: [{
 				id: "1769E6600040B278"
 				title: "{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.task.1687132835422450296.title}"
@@ -358,7 +358,7 @@
 			]
 			shape: "square"
 			size: 1.0d
-			subtitle: "别随便下矿洞（矿锤可以在小市场购买）"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest1968071326501858836.subtitle}"
 			tasks: [{
 				id: "02CB7B2250363B17"
 				title: "{ftbquests.chapter.681E3140690307AA.quest1968071326501858836.task.201389995652954903.title}"
@@ -549,7 +549,7 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "收集安山岩了吗~"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest9198886268426787312.subtitle}"
 			tasks: [{
 				id: "19245BF7A4D48BFB"
 				item: "gtceu:andesite_alloy_ingot"

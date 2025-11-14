@@ -135,7 +135,7 @@
 			y: 2.5d
 		}
 		{
-			description: ["&m0个人想玩谢谢（"]
+			description: ["{ftbquests.chapter.ev.quest5595066917140016616.description1}"]
 			id: "4DA5ABB79AABADE8"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.ev.quest5595066917140016616.subtitle}"

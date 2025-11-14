@@ -1123,7 +1123,7 @@
 		}
 		{
 			dependencies: ["24CB9175692BADFD"]
-			description: ["建议多做一点，很好用"]
+			description: ["{ftbquests.chapter.mv.quest8694243960160852677.description1}"]
 			id: "78A828D153F91AC5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1131,7 +1131,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "集成种植"
+			subtitle: "{ftbquests.chapter.mv.quest8694243960160852677.subtitle}"
 			tasks: [{
 				id: "010A88ADBD0BB387"
 				item: "ctnhcore:greenhouse"

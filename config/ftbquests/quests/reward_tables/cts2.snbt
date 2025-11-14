@@ -8,5 +8,5 @@
 		{ count: 8, item: "minecraft:golden_carrot" }
 		{ count: 16, item: "create:polished_rose_quartz" }
 	]
-	title: "CT奖励S2"
+	title: "{ftbquests.loot_table.3492588397256202932.title}"
 }

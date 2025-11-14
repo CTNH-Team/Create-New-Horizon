@@ -1516,7 +1516,7 @@
 		}
 		{
 			dependencies: ["2460426DE77EF0F4"]
-			description: ["点击右上角的🔗图标可以跳转"]
+			description: ["{ftbquests.chapter.62876F01654DC6E9.quest7314043898419377939.description1}"]
 			icon: "gtceu:causality_hazard_sign_block"
 			id: "6580B42C94E67713"
 			rewards: [{
@@ -1532,7 +1532,7 @@
 				title: "{ftbquests.chapter.62876F01654DC6E9.quest7314043898419377939.task.8986911384098340477.title}"
 				type: "checkmark"
 			}]
-			title: "GT全套工具"
+			title: "{ftbquests.chapter.62876F01654DC6E9.quest7314043898419377939.title}"
 			x: -2.5d
 			y: 7.0d
 		}
@@ -1579,7 +1579,7 @@
 			id: "354BCEEA324D9A1E"
 			tasks: [{
 				id: "36731532483C8C5C"
-				title: "电动工具"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest3840390612525095454.task.3923503006074309724.title}"
 				type: "checkmark"
 			}]
 			x: 9.0d
@@ -1590,7 +1590,7 @@
 			id: "3DA8CECF83D9749B"
 			tasks: [{
 				id: "734151BB2F087258"
-				title: "基础工具"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest4443028423066612891.task.8305009052237722200.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -1601,7 +1601,7 @@
 			id: "361E2687EA72F10B"
 			tasks: [{
 				id: "343095F532963225"
-				title: "神秘工具"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest3899596692545270027.task.3760670569202594341.title}"
 				type: "checkmark"
 			}]
 			x: 5.0d

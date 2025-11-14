@@ -10,5 +10,5 @@
 		{ count: 6, item: "create:electron_tube" }
 		{ count: 4, item: "create:precision_mechanism", weight: 0.6f }
 	]
-	title: "CT奖励S3"
+	title: "{ftbquests.loot_table.6665810253403300519.title}"
 }

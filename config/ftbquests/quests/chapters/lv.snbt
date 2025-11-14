@@ -1091,14 +1091,14 @@
 		{
 			dependencies: ["146AF407393668B4"]
 			description: [
-				"将两个仓室喷上&b相同颜色&f喷漆可以视为&b‘连通’&f状态；"
-				"而向两个仓室喷上&4不同颜色&f喷漆会被视为&4‘隔离’&f状态；"
-				"在同色仓室内的两个仓室内的物品会被视为可以&b一并执行配方&f，&4反之则不行"
-				"比如&b在蓝色的仓室内放入气态氯、在另一个蓝色的仓室内放入气态氢&f，那么他们&b可以反应成为氯化氢"
-				"如果&b在蓝色的仓室内放入气态氯、&a在另一个绿色的仓室内放入气态氢&f，那么他们&4不可以反应成为氯化氢"
+				"{ftbquests.chapter.lv.quest4122257418980714238.description1}"
+				"{ftbquests.chapter.lv.quest4122257418980714238.description2}"
+				"{ftbquests.chapter.lv.quest4122257418980714238.description3}"
+				"{ftbquests.chapter.lv.quest4122257418980714238.description4}"
+				"{ftbquests.chapter.lv.quest4122257418980714238.description5}"
 			]
 			id: "393533482B1066FE"
-			subtitle: "最喜欢的隔离"
+			subtitle: "{ftbquests.chapter.lv.quest4122257418980714238.subtitle}"
 			tasks: [
 				{
 					id: "0FE3D0697220425A"
@@ -1111,7 +1111,7 @@
 					type: "item"
 				}
 			]
-			title: "&d染色隔离"
+			title: "{ftbquests.chapter.lv.quest4122257418980714238.title}"
 			x: 9.5d
 			y: 2.0d
 		}

@@ -1806,15 +1806,15 @@
 				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
-			title: "换夜视护符咯"
+			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest3690650278645923604.title}"
 			x: -1.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["60D8E1B5B8777322"]
-			description: ["                       真的"]
+			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest6793250161192230871.description1}"]
 			id: "5E467907883A5FD7"
-			subtitle: "它很好用"
+			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest6793250161192230871.subtitle}"
 			tasks: [{
 				id: "6BE0DDC09F2CF469"
 				item: "create:crafting_blueprint"
