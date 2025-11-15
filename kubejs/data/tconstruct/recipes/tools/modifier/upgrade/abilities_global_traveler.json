@@ -1,0 +1,21 @@
+{
+	"type": "tconstruct:incremental_modifier",
+	"allow_crystal": false,
+	"amount_per_item": 1,
+	"input": {
+		"item": "ae2:quantum_entangled_singularity"
+	},
+	"level": {
+		"max": 1
+	},
+	"needed_per_level": 1,
+	"result": "kubejs:global_traveler",
+	"slots": {
+		"abilities": 1
+	},
+	"tools": [
+		{
+			"tag": "tconstruct:modifiable/harvest"
+		}
+	]
+}
