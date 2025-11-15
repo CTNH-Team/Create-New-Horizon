@@ -78,7 +78,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.mv.quest2.subtitle}"
+			subtitle: "{ftbquests.chapter.mv.quest7538490851765912695.subtitle}"
 			tasks: [
 				{
 					id: "16548D422CB417B8"
@@ -164,7 +164,7 @@
 		{
 			dependencies: ["577C0EA40EC89B14"]
 			id: "0C12A7FDA05C7439"
-			subtitle: "{ftbquests.chapter.mv.quest9.subtitle}"
+			subtitle: "{ftbquests.chapter.mv.quest869942385794905145.subtitle}"
 			tasks: [
 				{
 					id: "4F0D06BA40466127"
@@ -177,17 +177,23 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mv.quest9.title}"
+			title: "{ftbquests.chapter.mv.quest869942385794905145.title}"
 			x: 3.5d
 			y: 17.0d
 		}
 		{
 			dependencies: ["1FBD86C0CF681427"]
 			description: [
-				"木化是你为打造后期庞大的工业帝国的基础之一"
-				"你需要查阅JEI，使用多联热解炉去制作你的木化产线"
+				"{ftbquests.chapter.mv.quest1730859508366117970.description1}"
+				"{ftbquests.chapter.mv.quest1730859508366117970.description2}"
 			]
 			id: "18053F8D68450C52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19867F940295DACD"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "70B7E658DC504E19"
 				item: "gtceu:pyrolyse_oven"
@@ -218,7 +224,7 @@
 				"5F393B970A71BEF2"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.mv.quest13.description1}"]
+			description: ["{ftbquests.chapter.mv.quest6504896018072388118.description1}"]
 			id: "5A460876CA0EC216"
 			tasks: [{
 				id: "54DEEDC89FC0497E"
@@ -230,7 +236,7 @@
 		}
 		{
 			dependencies: ["6A93AEE55399519D"]
-			description: ["袜，聚乙烯！"]
+			description: ["{ftbquests.chapter.mv.quest4582876565811741222.description1}"]
 			id: "3F99A5F49AABC226"
 			tasks: [{
 				id: "35A6A68E98942425"
@@ -314,6 +320,12 @@
 		{
 			dependencies: ["5A460876CA0EC216"]
 			id: "6A93AEE55399519D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CE6F324012C1F37"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3FAAF27C803FB471"
 				item: "gtceu:polyethylene_bucket"
@@ -354,18 +366,18 @@
 				command: "/gamephase add @p end"
 				elevate_perms: true
 				id: "345886DE08824767"
-				title: "进入末地的权限"
+				title: "{ftbquests.chapter.mv.quest6509342559711130505.reward.3771912976106407783.title}"
 				type: "command"
 			}]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "只需要完成一个前置任务就可以做这个任务"
+			subtitle: "{ftbquests.chapter.mv.quest6509342559711130505.subtitle}"
 			tasks: [{
 				id: "7BAD7E832FEF40F0"
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			title: "末地权限"
+			title: "{ftbquests.chapter.mv.quest6509342559711130505.title}"
 			x: 17.5d
 			y: 6.0d
 		}
@@ -407,7 +419,7 @@
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "36924FA5E1528AB2"
-				title: "{ftbquests.chapter.mv.quest27.task_+3932292998516345522.title}"
+				title: "{ftbquests.chapter.mv.quest5605431561156656650.task.3932292998516345522.title}"
 				type: "dimension"
 			}]
 			x: 21.5d
@@ -420,6 +432,12 @@
 				"1DA7DEEECA317293"
 			]
 			id: "0B95FAC22EC46105"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C0A89D0B52DCF5D"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3F1AA7394457B3DF"
 				item: "gtceu:stainless_steel_dust"
@@ -431,15 +449,23 @@
 		{
 			dependencies: ["0B95FAC22EC46105"]
 			id: "36968F23015BC87A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "72FC4B69AF16AD64"
-				table_id: 5863108397808417557L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20F57A002B9D52B3"
+					table_id: 5863108397808417557L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45345D2AA508BD9E"
+					table_id: 723892772024061161L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.mv.quest29.subtitle}"
+			subtitle: "{ftbquests.chapter.mv.quest3933488705064126586.subtitle}"
 			tasks: [{
 				id: "19B8A8E266098D32"
 				item: "gtceu:stainless_steel_ingot"
@@ -450,8 +476,13 @@
 		}
 		{
 			dependencies: ["4C152AA55BCD6945"]
-			description: ["现在~利用你学到的双仓升压去做神奇的事吧！"]
+			description: ["{ftbquests.chapter.mv.quest4330828755250512002.description1}"]
 			id: "3C1A31CEA3C10082"
+			rewards: [{
+				id: "2ABC57832E0DBABA"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "61073088E3E1F703"
@@ -463,7 +494,7 @@
 		}
 		{
 			id: "61F3A1C4B771E811"
-			subtitle: "{ftbquests.chapter.mv.quest34.subtitle}"
+			subtitle: "{ftbquests.chapter.mv.quest7058162907283056657.subtitle}"
 			tasks: [{
 				id: "74B53DE6E60BEE3B"
 				item: "gtceu:sulfuric_acid_bucket"
@@ -475,6 +506,12 @@
 		{
 			dependencies: ["1FBD86C0CF681427"]
 			id: "64F3856504BEA9F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A9D7E8EA7EBAD39"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3D318027CEAAF7BA"
 				item: "ctnhcore:digestion_tank"
@@ -490,6 +527,12 @@
 			]
 			id: "36B9FCEC9579E090"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34FC43BEE4646450"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0B16B111E31DE41D"
 				item: "ctnhcore:fermenting_tank"
@@ -515,15 +558,23 @@
 				"1C203FA12C28D5D2"
 			]
 			dependency_requirement: "one_completed"
-			description: ["更好的铬处理"]
+			description: ["{ftbquests.chapter.mv.quest2962527325485617673.description1}"]
 			id: "291D02E808F55209"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5FFDFD18FCE09799"
-				table_id: 5863108397808417557L
-				type: "random"
-			}]
-			subtitle: "{ftbquests.chapter.mv.quest39.subtitle}"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5FFDFD18FCE09799"
+					table_id: 5863108397808417557L
+					type: "random"
+				}
+				{
+					count: 6
+					id: "4A0C53A29F9DA1A9"
+					item: "gtceu:chromium_dust"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mv.quest2962527325485617673.subtitle}"
 			tasks: [{
 				id: "439069F6CBE169E1"
 				item: "gtceu:chromium_dust"
@@ -555,7 +606,7 @@
 				command: "/gamephase add @p aether"
 				elevate_perms: true
 				id: "47B4C1C8E27B98A0"
-				title: "进入天境的权限"
+				title: "{ftbquests.chapter.mv.quest4709344613154210809.reward.5166967741038172320.title}"
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -565,7 +616,7 @@
 				item: "minecraft:dragon_breath"
 				type: "item"
 			}]
-			title: "天境权限"
+			title: "{ftbquests.chapter.mv.quest4709344613154210809.title}"
 			x: 21.5d
 			y: 5.0d
 		}
@@ -581,17 +632,17 @@
 			tasks: [{
 				dimension: "aether:the_aether"
 				id: "115FCE926E206B92"
-				title: "{ftbquests.chapter.mv.quest43.task_+1251946349740452754.title}"
+				title: "{ftbquests.chapter.mv.quest7608624489902366904.task.1251946349740452754.title}"
 				type: "dimension"
 			}]
-			title: "{ftbquests.chapter.mv.quest43.title}"
+			title: "{ftbquests.chapter.mv.quest7608624489902366904.title}"
 			x: 23.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
 			id: "47477F45269D6DB4"
-			subtitle: "{ftbquests.chapter.mv.quest46.subtitle}"
+			subtitle: "{ftbquests.chapter.mv.quest5136213835016662452.subtitle}"
 			tasks: [{
 				id: "26892DF7590726FB"
 				item: "create:shadow_steel"
@@ -618,7 +669,13 @@
 				"3C1A31CEA3C10082"
 			]
 			id: "707A41CB0EED30D3"
-			subtitle: "{ftbquests.chapter.mv.quest48.subtitle}"
+			rewards: [{
+				count: 2
+				id: "4C7683CC5B48E491"
+				item: "gtceu:kanthal_block"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.mv.quest8104862819791220947.subtitle}"
 			tasks: [{
 				id: "6F1536BDC8E4DB42"
 				item: "gtceu:kanthal_ingot"
@@ -631,6 +688,12 @@
 			dependencies: ["1FBD86C0CF681427"]
 			hide_dependency_lines: true
 			id: "05DE915B25451CF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33DB5602C7F28E85"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6C3C5441702781F5"
 				item: "gtceu:mv_chemical_bath"
@@ -668,6 +731,12 @@
 				"01377F6FDB479DC4"
 			]
 			id: "7142680A93861DB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AE56F99AE12D497"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "10A74E679FA94C6B"
@@ -719,6 +788,12 @@
 				"667964AF2027E5BD"
 			]
 			id: "6D2CFD7C56F6A2B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7470DD7C9E45CCB6"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "19B0A02601FB3654"
 				item: "gtceu:silicon_ingot"
@@ -734,6 +809,12 @@
 				"59B39491E1FAA6E0"
 			]
 			id: "5FCD87E61592F357"
+			rewards: [{
+				count: 9
+				id: "236A88D3A0172090"
+				item: "gtceu:vanadium_steel_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "42DFAF361A5675C7"
 				item: "gtceu:vanadium_steel_ingot"
@@ -756,7 +837,7 @@
 		{
 			dependencies: ["477E8A2397016E0B"]
 			id: "65C365115468BF4D"
-			subtitle: "{ftbquests.chapter.mv.quest60.subtitle}"
+			subtitle: "{ftbquests.chapter.mv.quest7332815743394299725.subtitle}"
 			tasks: [{
 				id: "5819C06388775C03"
 				item: "gtceu:vibrant_alloy_single_wire"
@@ -843,7 +924,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "你的第一（？）块HV电子电路"
+			subtitle: "{ftbquests.chapter.mv.quest4243944132156209673.subtitle}"
 			tasks: [{
 				id: "1D3AB4D312D5E848"
 				item: "gtceu:advanced_integrated_circuit"
@@ -859,8 +940,13 @@
 			]
 			description: [""]
 			id: "761AC9761D80AC19"
+			rewards: [{
+				id: "681C287F669124F3"
+				item: "kubejs:mana_integrated_circuit"
+				type: "item"
+			}]
 			size: 1.0d
-			subtitle: "我的天哪植魔大人"
+			subtitle: "{ftbquests.chapter.mv.quest8510335955008269337.subtitle}"
 			tasks: [{
 				id: "32FD501729B1C125"
 				item: "kubejs:mana_integrated_circuit"
@@ -874,7 +960,7 @@
 			id: "1C203FA12C28D5D2"
 			tasks: [{
 				id: "1C1BFFEBB2C0FC24"
-				title: "{ftbquests.chapter.mv.quest68.task_+2025493845214559268.title}"
+				title: "{ftbquests.chapter.mv.quest2026689793779881426.task.2025493845214559268.title}"
 				type: "checkmark"
 			}]
 			x: 18.5d
@@ -944,9 +1030,9 @@
 				"199C34FF316CDB5D"
 				"4B0A7C665D98CEDD"
 			]
-			description: ["    事实上，你还可以通过神化的刷怪笼或者新生魔艺的手段获取怪物掉落。但电动刷怪笼还可以用于HV阶段的屠宰场。"]
+			description: ["{ftbquests.chapter.mv.quest2733852228938501759.description1}"]
 			id: "25F0981E1E4A0E7F"
-			subtitle: "自动刷怪"
+			subtitle: "{ftbquests.chapter.mv.quest2733852228938501759.subtitle}"
 			tasks: [{
 				id: "716733C9922E17A0"
 				item: {
@@ -961,7 +1047,7 @@
 		}
 		{
 			id: "64B9355875C126ED"
-			subtitle: "gt屠刀可以快速获取头颅"
+			subtitle: "{ftbquests.chapter.mv.quest7257890928533251821.subtitle}"
 			tasks: [{
 				id: "56B2EE6B74321BB0"
 				item: "minecraft:zombie_head"
@@ -977,6 +1063,12 @@
 				"3231CBCCB4FFFA0B"
 			]
 			id: "4B0A7C665D98CEDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0045711005515BF9"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "484DFA560F39E5B2"
@@ -1019,7 +1111,7 @@
 		}
 		{
 			dependencies: ["4F752D5EC2FB511C"]
-			description: ["简易版铬粉"]
+			description: ["{ftbquests.chapter.mv.quest6463673244489262816.description1}"]
 			id: "59B39491E1FAA6E0"
 			tasks: [{
 				id: "45E72A768448ED19"
@@ -1031,7 +1123,15 @@
 		}
 		{
 			dependencies: ["24CB9175692BADFD"]
+			description: ["{ftbquests.chapter.mv.quest8694243960160852677.description1}"]
 			id: "78A828D153F91AC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "797913C264189474"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.mv.quest8694243960160852677.subtitle}"
 			tasks: [{
 				id: "010A88ADBD0BB387"
 				item: "ctnhcore:greenhouse"
@@ -1043,6 +1143,12 @@
 		{
 			dependencies: ["24CB9175692BADFD"]
 			id: "2418F847F2BC0F05"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02001B4B4BDD1558"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "67FA403BBBE0D61E"
 				item: "gtceu:mv_mixer"
@@ -1052,6 +1158,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["24CB9175692BADFD"]
 			id: "02F1CF840A21D33C"
 			tasks: [{
 				id: "373ACC015DF8DEE7"
@@ -1134,10 +1241,24 @@
 				"279ED2DAD4CC60CD"
 				"7446005F43FE2EFA"
 			]
-			description: ["恭喜你马上结束痛苦又漫长的手搓阶段"]
+			description: ["{ftbquests.chapter.mv.quest4016657970085263368.description1}"]
 			id: "37BE0924832C7808"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40E2717DF4E1E494"
+					table_id: 5863108397808417557L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2802B170748AF19B"
+					table_id: 723892772024061161L
+					type: "random"
+				}
+			]
 			size: 1.0d
-			subtitle: "这是一个阶段的结束，亦是另一个阶段的开始"
+			subtitle: "{ftbquests.chapter.mv.quest4016657970085263368.subtitle}"
 			tasks: [{
 				id: "55524595C686AC17"
 				item: "gtceu:micro_processor"
@@ -1152,6 +1273,12 @@
 				"2E117BBA1E035855"
 			]
 			id: "1DA7DEEECA317293"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A9E77294A8E0C45"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "681FCB9486BA2741"
 				item: "gtceu:mv_mixer"
@@ -1162,11 +1289,11 @@
 		}
 		{
 			dependencies: ["1162E347E7C00175"]
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest75.description1}"]
+			description: ["{ftbquests.chapter.mv.quest5626465117208301009.description1}"]
 			id: "4E153836BC53CDD1"
 			shape: "gear"
 			size: 3.0d
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest75.subtitle}"
+			subtitle: "{ftbquests.chapter.mv.quest5626465117208301009.subtitle}"
 			tasks: [{
 				id: "2C454A9B147379F9"
 				item: "ctnhcore:martial_morality_eye"

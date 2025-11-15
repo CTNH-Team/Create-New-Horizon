@@ -7,7 +7,7 @@
 	id: "5DEE038949883E18"
 	images: [{
 		height: 3.0d
-		hover: ["老东西"]
+		hover: ["ftbquests.chapter.5DEE038949883E18.image.hovertext1"]
 		image: "tconstruct:block/smeltery/controller/smeltery_unformed"
 		rotation: 0.0d
 		width: 3.0d
@@ -19,24 +19,24 @@
 	quests: [
 		{
 			description: [
-				"本书对第一次接触匠魂的玩家很有帮助，里面的内容对于匠魂的机制、机器、材料等描述的比较全面"
-				"想要更多？看看工匠大百科吧"
+				"{ftbquests.chapter.5DEE038949883E18.quest666048060166097129.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest666048060166097129.description2}"
 			]
 			id: "093E472E8D89C8E9"
 			size: 1.5d
-			subtitle: "你该不会开局就丢掉了吧"
+			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest666048060166097129.subtitle}"
 			tasks: [{
 				id: "3B2C0DF28D85EFCC"
 				item: "tconstruct:materials_and_you"
 				type: "item"
 			}]
-			title: "匠魂的指导书"
+			title: "{ftbquests.chapter.5DEE038949883E18.quest666048060166097129.title}"
 			x: -7.5d
 			y: -5.25d
 		}
 		{
 			dependencies: ["093E472E8D89C8E9"]
-			description: ["初见端倪"]
+			description: ["{ftbquests.chapter.5DEE038949883E18.quest8052629660131051896.description1}"]
 			icon: "tconstruct:grout"
 			id: "6FC0B002DFE2C978"
 			rewards: [{
@@ -46,7 +46,7 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "我是个渣渣"
+			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest8052629660131051896.subtitle}"
 			tasks: [
 				{
 					id: "1A9AB926DB2F2EB2"
@@ -72,13 +72,13 @@
 					type: "item"
 				}
 			]
-			title: "砖泥?"
+			title: "{ftbquests.chapter.5DEE038949883E18.quest8052629660131051896.title}"
 			x: -5.25d
 			y: -5.25d
 		}
 		{
 			dependencies: ["6FC0B002DFE2C978"]
-			description: ["💩"]
+			description: ["{ftbquests.chapter.5DEE038949883E18.quest3148133604383888982.description1}"]
 			id: "2BB06AD56AC59656"
 			rewards: [{
 				count: 64
@@ -87,7 +87,7 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "太烧了"
+			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest3148133604383888982.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "6F4120B3F5484C5E"
@@ -143,7 +143,7 @@
 					type: "item"
 				}
 			]
-			title: "老一辈"
+			title: "{ftbquests.chapter.5DEE038949883E18.quest1773027044910779485.title}"
 			x: -0.75d
 			y: -6.75d
 		}
@@ -153,16 +153,16 @@
 				"6CDD36A3C742B7F2"
 			]
 			description: [
-				"• 每个矿石熔化时多给予3粒量的熔融矿物 或1宝石量的熔融宝石"
-				"• 可把加热器换为燃料储罐以提升其熔炼温度"
-				"• 容纳最多9锭量流体"
-				"• 同时熔炼3个物品"
-				"• 很省燃料"
-				"• 熔炼猪灵掉落物（如金剑、金盔甲）的 理想设备"
+				"{ftbquests.chapter.5DEE038949883E18.quest4664281900701365253.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest4664281900701365253.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest4664281900701365253.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest4664281900701365253.description4}"
+				"{ftbquests.chapter.5DEE038949883E18.quest4664281900701365253.description5}"
+				"{ftbquests.chapter.5DEE038949883E18.quest4664281900701365253.description6}"
 			]
 			id: "40BADBAD1F96B405"
 			size: 1.5d
-			subtitle: "前期的熔炼方式"
+			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest4664281900701365253.subtitle}"
 			tasks: [
 				{
 					id: "33904B939E9BE09B"
@@ -175,16 +175,16 @@
 					type: "item"
 				}
 			]
-			title: "焦黑熔化炉"
+			title: "{ftbquests.chapter.5DEE038949883E18.quest4664281900701365253.title}"
 			x: 1.5d
 			y: -5.25d
 		}
 		{
 			dependencies: ["40BADBAD1F96B405"]
 			description: [
-				"mmyddd:锻铁"
-				"爱莉希雅:烧制铁粒获得锻铁粒❌"
-				"mmyddd:烧制铁粒获得液态锻铁✅"
+				"{ftbquests.chapter.5DEE038949883E18.quest5394514787808144887.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest5394514787808144887.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest5394514787808144887.description3}"
 			]
 			id: "4ADD2A9E3EE56DF7"
 			size: 1.5d
@@ -199,9 +199,9 @@
 		{
 			dependencies: ["40BADBAD1F96B405"]
 			description: [
-				"mmyddd:金锭"
-				"爱莉希雅:在本整合包中，金矿石无法在主世界生成，前期最简单的获取方法是烧制贵金属锭，详见任务：矿物处理页面。造出热力离心机后可以离心粉碎铜矿，1/3几率出金❌"
-				"mmyddd:烧制金锭获得液态金✅"
+				"{ftbquests.chapter.5DEE038949883E18.quest5308856507543644053.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest5308856507543644053.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest5308856507543644053.description3}"
 			]
 			id: "49ACD8DDB7A8E795"
 			size: 1.5d
@@ -220,17 +220,17 @@
 				"7D76859D3E40A235"
 			]
 			description: [
-				"• 能够批量熔炼"
-				"• 可容纳多种金属"
-				"• 储量可拓展"
-				"• 可以制作合金"
-				"• 燃料效率由大小决定"
-				"• 可以熔炼生物以获取珍稀材料"
-				"• 同时熔炼大量材料的理想设备"
+				"{ftbquests.chapter.5DEE038949883E18.quest4908043543694814049.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest4908043543694814049.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest4908043543694814049.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest4908043543694814049.description4}"
+				"{ftbquests.chapter.5DEE038949883E18.quest4908043543694814049.description5}"
+				"{ftbquests.chapter.5DEE038949883E18.quest4908043543694814049.description6}"
+				"{ftbquests.chapter.5DEE038949883E18.quest4908043543694814049.description7}"
 			]
 			id: "441CDF995C142B61"
 			size: 3.0d
-			subtitle: "你的第二个匠魂炉"
+			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest4908043543694814049.subtitle}"
 			tasks: [{
 				id: "4364A6B179916D88"
 				item: "tconstruct:smeltery_controller"
@@ -241,10 +241,10 @@
 		}
 		{
 			description: [
-				"每100mb"
-				"可燃烧10s"
-				"3倍加速"
-				"温度4000°C"
+				"{ftbquests.chapter.5DEE038949883E18.quest1636613754797541666.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest1636613754797541666.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest1636613754797541666.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest1636613754797541666.description4}"
 			]
 			id: "16B66B89F139C922"
 			tasks: [{
@@ -257,10 +257,10 @@
 		}
 		{
 			description: [
-				"每1mb"
-				"可燃烧10s"
-				"50倍加速"
-				"温度5700°C"
+				"{ftbquests.chapter.5DEE038949883E18.quest395645654708452844.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest395645654708452844.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest395645654708452844.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest395645654708452844.description4}"
 			]
 			id: "057D9DA071D2FDEC"
 			tasks: [{
@@ -273,10 +273,10 @@
 		}
 		{
 			description: [
-				"每25mb"
-				"可燃烧5s"
-				"12.5倍加速"
-				"温度3800°C"
+				"{ftbquests.chapter.5DEE038949883E18.quest3185641357797563905.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest3185641357797563905.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest3185641357797563905.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest3185641357797563905.description4}"
 			]
 			id: "2C35ABEFC9511E01"
 			tasks: [{
@@ -289,10 +289,10 @@
 		}
 		{
 			description: [
-				"每1mb"
-				"可燃烧10s"
-				"20倍加速"
-				"温度4700°C"
+				"{ftbquests.chapter.5DEE038949883E18.quest2087497791742541669.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest2087497791742541669.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest2087497791742541669.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest2087497791742541669.description4}"
 			]
 			id: "1CF8482E7A39FF65"
 			tasks: [{
@@ -305,10 +305,10 @@
 		}
 		{
 			description: [
-				"每5mb"
-				"可燃烧5s"
-				"5倍加速"
-				"温度3500°C"
+				"{ftbquests.chapter.5DEE038949883E18.quest8474513288412496988.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest8474513288412496988.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest8474513288412496988.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest8474513288412496988.description4}"
 			]
 			id: "759B84EF9827845C"
 			tasks: [{
@@ -321,10 +321,10 @@
 		}
 		{
 			description: [
-				"每1mb"
-				"可燃烧10s"
-				"7.5倍加速"
-				"温度5000°C"
+				"{ftbquests.chapter.5DEE038949883E18.quest566712167308580404.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest566712167308580404.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest566712167308580404.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest566712167308580404.description4}"
 			]
 			id: "07DD5DB6AE51D634"
 			tasks: [{
@@ -337,10 +337,10 @@
 		}
 		{
 			description: [
-				"每25mb"
-				"可燃烧5s"
-				"2.5倍加速"
-				"温度2300°C"
+				"{ftbquests.chapter.5DEE038949883E18.quest3649007129673020754.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest3649007129673020754.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest3649007129673020754.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest3649007129673020754.description4}"
 			]
 			id: "32A3E0A6B3073552"
 			tasks: [{
@@ -354,16 +354,16 @@
 		{
 			icon: "create:blaze_burner"
 			id: "5546D4AC598211ED"
-			title: "额外增加的匠魂炉燃料"
+			title: "{ftbquests.chapter.5DEE038949883E18.quest6144832578294780397.title}"
 			x: -15.0d
 			y: -5.5d
 		}
 		{
 			description: [
-				"每999mb"
-				"可燃烧114514s"
-				"191.9倍加速"
-				"温度8100°C"
+				"{ftbquests.chapter.5DEE038949883E18.quest8581218541347228525.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest8581218541347228525.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest8581218541347228525.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest8581218541347228525.description4}"
 			]
 			id: "77169CCC50FF4B6D"
 			tasks: [{
@@ -391,7 +391,7 @@
 			}]
 			shape: "hexagon"
 			size: 3.0d
-			subtitle: "不要用堆叠升级，至少在修复bug之前"
+			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest1969105844339977063.subtitle}"
 			tasks: [
 				{
 					id: "1D1D8E9C1A789C16"
@@ -404,32 +404,32 @@
 					type: "item"
 				}
 			]
-			title: "AE?"
+			title: "{ftbquests.chapter.5DEE038949883E18.quest1969105844339977063.title}"
 			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["40BADBAD1F96B405"]
 			description: [
-				"• 可容纳多种金属材料"
-				"• 储量可拓展"
-				"• 储量可比什么低级的冶炼炉大得多"
-				"• 可以熔炼有多种产出的方块"
-				"• 燃料效率取决于大小"
-				"• 对于纯下界生存以及大量多种流体的储存 十分有用"
+				"{ftbquests.chapter.5DEE038949883E18.quest933081267850343500.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest933081267850343500.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest933081267850343500.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest933081267850343500.description4}"
+				"{ftbquests.chapter.5DEE038949883E18.quest933081267850343500.description5}"
+				"{ftbquests.chapter.5DEE038949883E18.quest933081267850343500.description6}"
 			]
 			id: "0CF2F8782CCA744C"
 			size: 3.0d
-			subtitle: "熔铸炉无法进行合金——这是飞跃性的进步， 你不必担心不小心把材料混到一起了"
+			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest933081267850343500.subtitle}"
 			tasks: [{
 				id: "1587A3AF6312B3DA"
 				item: "tconstruct:foundry_controller"
 				type: "item"
 			}]
-			title: "熔铸炉"
+			title: "{ftbquests.chapter.5DEE038949883E18.quest933081267850343500.title}"
 			x: 4.5d
 			y: -3.75d
 		}
 	]
-	title: "匠魂"
+	title: "{ftbquests.chapter.5DEE038949883E18.title}"
 }

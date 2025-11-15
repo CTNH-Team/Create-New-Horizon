@@ -20,9 +20,9 @@
 			id: "799C99EA04D07344"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4E1063AD177E827C"
+				id: "7764BFD3ADAB156F"
 				table_id: 971429564947815603L
-				type: "random"
+				type: "loot"
 			}]
 			size: 1.5d
 			tasks: [{
@@ -36,6 +36,12 @@
 		{
 			dependencies: ["799C99EA04D07344"]
 			id: "375C2E3997D94721"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BEADC63BAC23FB5"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0E4B2E423B92D9B5"
 				item: "gtceu:ev_chemical_bath"
@@ -81,15 +87,23 @@
 				"42F6C23B961B60BD"
 			]
 			id: "1CECBF50A30F23B0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "259A2865BCF9669F"
-				table_id: 971429564947815603L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "545F20E93A2DBFB4"
+					table_id: 971429564947815603L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00BF18B28295158F"
+					table_id: 7618519509353548779L
+					type: "loot"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.ev.quest5.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest2084251080619664304.subtitle}"
 			tasks: [{
 				id: "4FF48202A50F0FF5"
 				item: "gtceu:tungsten_steel_ingot"
@@ -121,9 +135,10 @@
 			y: 2.5d
 		}
 		{
+			description: ["{ftbquests.chapter.ev.quest5595066917140016616.description1}"]
 			id: "4DA5ABB79AABADE8"
 			size: 2.0d
-			subtitle: "哇~谁想玩核电~"
+			subtitle: "{ftbquests.chapter.ev.quest5595066917140016616.subtitle}"
 			tasks: [{
 				id: "36F32AAAA96C37A1"
 				item: "ctnhcore:shielded_reactor_casing"
@@ -135,10 +150,10 @@
 		{
 			hide_dependency_lines: true
 			id: "0AEBC43C2EA4E190"
-			subtitle: "耗能*2.3 耗时400s"
+			subtitle: "{ftbquests.chapter.ev.quest786938322665922960.subtitle}"
 			tasks: [{
 				id: "4E17BDC99B8D09CB"
-				title: "{ftbquests.chapter.ev.quest12.task_+5627174933018511819.title}"
+				title: "{ftbquests.chapter.ev.quest786938322665922960.task.5627174933018511819.title}"
 				type: "checkmark"
 			}]
 			x: -13.5d
@@ -147,10 +162,10 @@
 		{
 			hide_dependency_lines: true
 			id: "4E9FB13BA754C376"
-			subtitle: "{ftbquests.chapter.ev.quest13.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest5665441726023910262.subtitle}"
 			tasks: [{
 				id: "5C0ADB9BDA74CA7E"
-				title: "{ftbquests.chapter.ev.quest13.task_+6632354863687977598.title}"
+				title: "{ftbquests.chapter.ev.quest5665441726023910262.task.6632354863687977598.title}"
 				type: "checkmark"
 			}]
 			x: -13.5d
@@ -159,10 +174,10 @@
 		{
 			hide_dependency_lines: true
 			id: "38B3EDAFED11EC22"
-			subtitle: "{ftbquests.chapter.ev.quest14.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest4085870626807606306.subtitle}"
 			tasks: [{
 				id: "07D3DF8E64BEA8BB"
-				title: "{ftbquests.chapter.ev.quest14.task_+564040181020010683.title}"
+				title: "{ftbquests.chapter.ev.quest4085870626807606306.task.564040181020010683.title}"
 				type: "checkmark"
 			}]
 			x: -13.5d
@@ -171,10 +186,10 @@
 		{
 			hide_dependency_lines: true
 			id: "6D99A9917E0D8636"
-			subtitle: "{ftbquests.chapter.ev.quest15.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest7897529863921042998.subtitle}"
 			tasks: [{
 				id: "0FF291B04510FC84"
-				title: "{ftbquests.chapter.ev.quest15.task_+1149141041191910532.title}"
+				title: "{ftbquests.chapter.ev.quest7897529863921042998.task.1149141041191910532.title}"
 				type: "checkmark"
 			}]
 			x: -13.5d
@@ -183,10 +198,10 @@
 		{
 			hide_dependency_lines: true
 			id: "1A4BF7BE5F6591F6"
-			subtitle: "{ftbquests.chapter.ev.quest16.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest1894880465255764470.subtitle}"
 			tasks: [{
 				id: "7F84E8F8FCE98B8F"
-				title: "{ftbquests.chapter.ev.quest16.task_+9188725295835351951.title}"
+				title: "{ftbquests.chapter.ev.quest1894880465255764470.task.9188725295835351951.title}"
 				type: "checkmark"
 			}]
 			x: -13.5d
@@ -225,7 +240,7 @@
 				item: "gtceu:uranium_hexafluoride_bucket"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -9.5d
 			y: 6.0d
 		}
 		{
@@ -236,7 +251,7 @@
 				item: "gtceu:uranium_dioxide_dust"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -8.5d
 			y: 6.0d
 		}
 		{
@@ -258,19 +273,19 @@
 				item: "gtceu:uranium_dust"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -9.5d
 			y: 10.0d
 		}
 		{
 			id: "5DE73169DED11A0D"
-			subtitle: "铀处的开始"
+			subtitle: "{ftbquests.chapter.ev.quest6766431295927032333.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "607F1D2AAD371EA0"
 				item: "gtceu:raw_uraninite"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -7.5d
 			y: 6.0d
 		}
 		{
@@ -280,14 +295,14 @@
 				"75CFD6720163E3ED"
 			]
 			description: [
-				"电路板线我在HV演示过一次了哦"
-				"只需要照葫芦画瓢就可以了~"
-				"加油~"
+				"{ftbquests.chapter.ev.quest4269115998407106374.description1}"
+				"{ftbquests.chapter.ev.quest4269115998407106374.description2}"
+				"{ftbquests.chapter.ev.quest4269115998407106374.description3}"
 			]
 			id: "3B3EF261BDFE1F46"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "是时候向科幻进发了"
+			subtitle: "{ftbquests.chapter.ev.quest4269115998407106374.subtitle}"
 			tasks: [{
 				id: "4A6E73A3618ACBAE"
 				item: "gtceu:nano_processor"
@@ -310,6 +325,12 @@
 		{
 			dependencies: ["799C99EA04D07344"]
 			id: "7951D4BC59BDAA1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "059EC86211BB3BCC"
+				table_id: 971429564947815603L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7BDAB4A27CD55384"
 				item: "gtceu:ev_circuit_assembler"
@@ -362,7 +383,7 @@
 				"3121647B8CB1E5BF"
 			]
 			id: "520063634DC19E7D"
-			subtitle: "最喜欢的塑料"
+			subtitle: "{ftbquests.chapter.ev.quest5908831989267537533.subtitle}"
 			tasks: [{
 				id: "6839D28AC04E0F57"
 				item: "gtceu:epoxy_bucket"
@@ -378,7 +399,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "1AEE2FEB6874EE82"
-			subtitle: "多种途径，任君挑选"
+			subtitle: "{ftbquests.chapter.ev.quest1940541177559576194.subtitle}"
 			tasks: [{
 				id: "3302819044573A82"
 				item: "gtceu:epichlorohydrin_bucket"
@@ -393,7 +414,7 @@
 				"21C9916BDE650D3A"
 			]
 			id: "3121647B8CB1E5BF"
-			subtitle: "来两酚A！"
+			subtitle: "{ftbquests.chapter.ev.quest3540221263894144447.subtitle}"
 			tasks: [{
 				id: "12F063B61038384E"
 				item: "gtceu:bisphenol_a_bucket"
@@ -444,7 +465,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "你会喜欢它的"
+			subtitle: "{ftbquests.chapter.ev.quest3513925212266431810.subtitle}"
 			tasks: [{
 				id: "156B357D156776E1"
 				item: "ctnhcore:blaze_blast_furnace"
@@ -467,6 +488,12 @@
 		{
 			dependencies: ["799C99EA04D07344"]
 			id: "2B4A57C7F61E03A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49DAD8774C796529"
+				table_id: 971429564947815603L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7B61C508405AE48C"
 				item: "gtceu:ev_assembler"
@@ -557,21 +584,21 @@
 				id: "3F9C90357F1D5B06"
 				type: "dimension"
 			}]
-			title: "{ftbquests.chapter.ev.quest51.title}"
+			title: "{ftbquests.chapter.ev.quest2846143193444523646.title}"
 			x: -6.5d
 			y: -5.5d
 		}
 		{
 			id: "659495FD6AB169E3"
 			optional: true
-			subtitle: "{ftbquests.chapter.ev.quest52.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest7319640210033175011.subtitle}"
 			tasks: [{
 				id: "1C8E2E06D5C1A5B1"
 				item: "alexscaves:uranium"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 7.0d
+			x: -8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["3F9F778AB07809D0"]
@@ -587,8 +614,8 @@
 		{
 			dependencies: ["5B1C049A7712479A"]
 			description: [
-				"你做的很好"
-				"那么现在到了真正需要思考的时候"
+				"{ftbquests.chapter.ev.quest6002614936724594531.description1}"
+				"{ftbquests.chapter.ev.quest6002614936724594531.description2}"
 			]
 			id: "534D927B52EC5F63"
 			rewards: [{
@@ -598,7 +625,7 @@
 				type: "random"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ev.quest54.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest6002614936724594531.subtitle}"
 			tasks: [{
 				id: "22E3934505BEF43B"
 				item: "gtceu:nano_processor_mainframe"
@@ -609,19 +636,19 @@
 		}
 		{
 			id: "3A48040562E6B4D0"
-			subtitle: "{ftbquests.chapter.ev.quest55.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest4199611073703621840.subtitle}"
 			tasks: [{
 				id: "35FE06601CF9902F"
 				item: "alexscaves:acid_bucket"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 7.0d
+			x: -10.5d
+			y: 9.0d
 		}
 		{
 			id: "3A7EF62D9745F2D6"
 			invisible: true
-			subtitle: "{ftbquests.chapter.ev.quest56.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest4215076976937267926.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "1992F6A776A09444"
@@ -656,6 +683,12 @@
 				"6525B3E4F6052069"
 			]
 			id: "734982C31DFC1821"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77BF485BC9D6E659"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5A228E48EE9B484E"
 				item: "gtceu:ev_laser_engraver"
@@ -673,7 +706,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.ev.quest59.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest6524280692107135422.subtitle}"
 			tasks: [
 				{
 					id: "3D9CB29FE3E85462"
@@ -686,7 +719,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ev.quest59.title}"
+			title: "{ftbquests.chapter.ev.quest6524280692107135422.title}"
 			x: -9.5d
 			y: 0.5d
 		}
@@ -699,7 +732,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.ev.quest60.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest1629327718983370811.subtitle}"
 			tasks: [
 				{
 					id: "750540F6596AC75E"
@@ -712,7 +745,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ev.quest60.title}"
+			title: "{ftbquests.chapter.ev.quest1629327718983370811.title}"
 			x: -10.5d
 			y: 1.5d
 		}
@@ -721,11 +754,11 @@
 			id: "332007D978CB3C6C"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "36276383B8435AFF"
+				id: "45AFF1244D377D36"
 				table_id: 971429564947815603L
-				type: "random"
+				type: "loot"
 			}]
-			subtitle: "{ftbquests.chapter.ev.quest61.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest3683953125804948588.subtitle}"
 			tasks: [{
 				id: "6586F61697BFF631"
 				item: "gtceu:ev_mixer"
@@ -753,9 +786,9 @@
 			id: "38941407A9F43B7E"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3EBA4434AF1FE59E"
+				id: "0D979A5FDFA6B3EF"
 				table_id: 971429564947815603L
-				type: "random"
+				type: "loot"
 			}]
 			shape: "pentagon"
 			size: 1.0d
@@ -956,10 +989,10 @@
 		}
 		{
 			id: "287D7ADB01D8D58F"
-			subtitle: "{ftbquests.chapter.ev.quest80.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest2917623214653363599.subtitle}"
 			tasks: [{
 				id: "0775F71F199C0333"
-				title: "{ftbquests.chapter.ev.quest80.task_+537607443486343987.title}"
+				title: "{ftbquests.chapter.ev.quest2917623214653363599.task.537607443486343987.title}"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -968,7 +1001,7 @@
 		{
 			id: "5D1450926BCF288B"
 			invisible: true
-			subtitle: "{ftbquests.chapter.ev.quest81.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest6707074334865696907.subtitle}"
 			tasks: [{
 				id: "2EFE7AC41D56E14C"
 				item: "gtceu:zirconium_dust"
@@ -991,7 +1024,7 @@
 				type: "random"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ev.quest83.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest1752913491054041289.subtitle}"
 			tasks: [{
 				id: "7308BC4380FE1F12"
 				item: "gtceu:power_substation"
@@ -1019,7 +1052,7 @@
 		{
 			dependencies: ["4D6F042D3D3DA8A2"]
 			id: "0AAAFAD6405A0E26"
-			subtitle: "EV大超导"
+			subtitle: "{ftbquests.chapter.ev.quest768702484529679910.subtitle}"
 			tasks: [{
 				id: "26BC91CA36F799F1"
 				item: "gtceu:uranium_triplatinum_dust"
@@ -1058,7 +1091,7 @@
 		}
 		{
 			id: "6B0754AD3F1AF0C2"
-			subtitle: "{ftbquests.chapter.ev.quest94.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest7712225989960069314.subtitle}"
 			tasks: [{
 				id: "4FA8E83E02A43D80"
 				item: "gtceu:graphite_dust"
@@ -1069,7 +1102,7 @@
 		}
 		{
 			dependencies: ["026EEA8EEAA6BFB1"]
-			description: ["还有个物理版本的XD"]
+			description: ["{ftbquests.chapter.ev.quest3551092486883402246.description1}"]
 			id: "314803CD653E6206"
 			size: 2.0d
 			tasks: [{
@@ -1115,7 +1148,7 @@
 			id: "33CDE1381B278481"
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "IV的重要材料"
+			subtitle: "{ftbquests.chapter.ev.quest3732887297250002049.subtitle}"
 			tasks: [{
 				id: "02A4BA814D8951A0"
 				item: "gtceu:graphene_dust"
@@ -1129,7 +1162,7 @@
 			id: "6F6CE9819AC46724"
 			shape: "heart"
 			size: 1.0d
-			subtitle: "用胶带粘出石墨烯"
+			subtitle: "{ftbquests.chapter.ev.quest8029048978551367460.subtitle}"
 			tasks: [{
 				id: "2DAF50E69DEC315D"
 				item: "gtceu:small_graphene_dust"
@@ -1140,24 +1173,24 @@
 		}
 		{
 			id: "646A046E3DBA0C52"
-			subtitle: "{ftbquests.chapter.ev.quest100.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest7235600622852639826.subtitle}"
 			tasks: [{
 				id: "7F0475C3113799A2"
 				item: "gtceu:methane_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ev.quest100.title}"
+			title: "{ftbquests.chapter.ev.quest7235600622852639826.title}"
 			x: 1.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4DA5ABB79AABADE8"]
 			id: "104511D23BA0B12A"
-			subtitle: "{ftbquests.chapter.ev.quest101.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest1172362872641073450.subtitle}"
 			tasks: [
 				{
 					id: "6348C18E6134F96F"
-					title: "{ftbquests.chapter.ev.quest101.task_+7154180825338411375.title}"
+					title: "{ftbquests.chapter.ev.quest1172362872641073450.task.7154180825338411375.title}"
 					type: "checkmark"
 				}
 				{
@@ -1181,10 +1214,15 @@
 		}
 		{
 			dependencies: ["001B1FD0183C089D"]
-			description: [""]
 			id: "3B3194C22AA50A4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34896FB98A9FD260"
+				table_id: 971429564947815603L
+				type: "choice"
+			}]
 			size: 2.0d
-			subtitle: "更大，更快，更无损！"
+			subtitle: "{ftbquests.chapter.ev.quest4265353883756595787.subtitle}"
 			tasks: [{
 				id: "5E9D94746BDECB62"
 				item: "ctnhcore:mega_lcr"
@@ -1215,7 +1253,7 @@
 				item: "gtceu:americium_dust"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.0d
 			y: 13.5d
 		}
 		{
@@ -1226,7 +1264,7 @@
 				item: "gtceu:americium_waste"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: 12.0d
 		}
 		{
@@ -1237,7 +1275,7 @@
 				item: "gtceu:plutonium_dust"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.5d
 			y: 13.5d
 		}
 		{
@@ -1248,7 +1286,7 @@
 				item: "gtceu:curium_dust"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: 13.5d
 		}
 		{
@@ -1259,19 +1297,19 @@
 				item: "gtceu:neptunium_dust"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -8.5d
 			y: 12.0d
 		}
 		{
 			dependencies: ["79A78865792A17DB"]
 			id: "0395B3CA160DA4A9"
-			subtitle: "随便用任何一种枯竭镎燃料都可以分离出来"
+			subtitle: "{ftbquests.chapter.ev.quest258310234178430121.subtitle}"
 			tasks: [{
 				id: "4D14D4492CC8BFDB"
 				item: "gtceu:neptunium_waste"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.5d
 			y: 12.0d
 		}
 		{
@@ -1282,7 +1320,7 @@
 				item: "gtceu:curium_waste"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.0d
 			y: 12.0d
 		}
 		{
@@ -1293,7 +1331,7 @@
 				item: "gtceu:berkelium_dust"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.0d
 			y: 13.5d
 		}
 		{
@@ -1304,7 +1342,7 @@
 				item: "gtceu:berkelium_waste"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 12.0d
 		}
 		{
@@ -1315,7 +1353,7 @@
 				item: "gtceu:californium_dust"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 13.5d
 		}
 		{
@@ -1326,7 +1364,7 @@
 				item: "gtceu:californium_waste"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 12.0d
 		}
 		{
@@ -1337,7 +1375,7 @@
 				item: "gtceu:einsteinium_dust"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 13.5d
 		}
 		{
@@ -1348,7 +1386,7 @@
 				item: "gtceu:einsteinium_waste"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: 12.0d
 		}
 		{
@@ -1359,7 +1397,7 @@
 				item: "gtceu:fermium_dust"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: 13.5d
 		}
 		{
@@ -1370,7 +1408,7 @@
 				item: "gtceu:fermium_waste"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: 12.0d
 		}
 		{
@@ -1381,7 +1419,7 @@
 				item: "gtceu:mendelevium_dust"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: 13.5d
 		}
 		{
@@ -1392,7 +1430,7 @@
 				item: "gtceu:mendelevium_waste"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: 12.0d
 		}
 		{
@@ -1403,12 +1441,18 @@
 				item: "gtceu:plutonium_raw_waste"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.0d
 			y: 12.0d
 		}
 		{
 			id: "500612E5FCC5C9E0"
-			subtitle: "你需要依靠这个来转化核能的力量"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02422AAF3CE9D6FA"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.ev.quest5766317151892130272.subtitle}"
 			tasks: [{
 				id: "65F55CB7ADF9E8AB"
 				item: "ctnhcore:hot_coolant_turbine"
@@ -1431,7 +1475,7 @@
 		{
 			dependencies: ["3EDE3B845F313147"]
 			id: "4C124453C9EE493B"
-			subtitle: "利用衰变罐"
+			subtitle: "{ftbquests.chapter.ev.quest5481518823124126011.subtitle}"
 			tasks: [{
 				id: "68B1B64724E8CF7C"
 				item: "gtceu:oxide_protactinium_233_fuel"
@@ -1446,7 +1490,7 @@
 				"064670FD1A53F477"
 			]
 			id: "106A5B189687F358"
-			subtitle: "有些核燃料是可以自己单独放进核反应堆的，请注意"
+			subtitle: "{ftbquests.chapter.ev.quest1182858013301011288.subtitle}"
 			tasks: [{
 				id: "48C46005344C96CE"
 				item: "gtceu:oxide_uranium_233_fuel"
@@ -1457,6 +1501,12 @@
 		}
 		{
 			id: "064670FD1A53F477"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C8400D787FF46D1"
+				table_id: 971429564947815603L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "120EE0CCCC649A40"
 				item: "ctnhcore:decay_pools_machine"
@@ -1472,12 +1522,18 @@
 				item: "gtceu:uranium_fuel"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -10.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["6F6CE9819AC46724"]
 			id: "026EEA8EEAA6BFB1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "380CD97A1D7AE916"
+				table_id: 971429564947815603L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "503AA7626F80065B"
 				item: "gtceu:molybdenum_disilicide_coil_block"
@@ -1489,6 +1545,12 @@
 		{
 			dependencies: ["799C99EA04D07344"]
 			id: "42F6C23B961B60BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2156FD48B719F862"
+				table_id: 971429564947815603L
+				type: "loot"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "7DC2605CF7ED41B8"
@@ -1512,7 +1574,7 @@
 					type: "item"
 				}
 			]
-			title: "钨钨钨"
+			title: "{ftbquests.chapter.ev.quest5214647553349091956.title}"
 			x: -4.5d
 			y: 2.5d
 		}
@@ -1522,6 +1584,12 @@
 				"001B1FD0183C089D"
 			]
 			id: "20450C09CB05AD11"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FC7F00BA37B8835"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6B8B74164EB58BD2"
 				item: "gtceu:ev_energy_input_hatch"
@@ -1533,7 +1601,7 @@
 		{
 			dependencies: ["734982C31DFC1821"]
 			id: "217BE53ACEB3C6E6"
-			subtitle: "EV能源大手子"
+			subtitle: "{ftbquests.chapter.ev.quest2412774066125784806.subtitle}"
 			tasks: [{
 				id: "339035F7CA1B6B01"
 				item: "gtceu:mpic_wafer"
@@ -1545,8 +1613,14 @@
 		{
 			dependencies: ["20450C09CB05AD11"]
 			id: "5AA96CC00DE1D3C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "123F647680BE01F0"
+				table_id: 971429564947815603L
+				type: "loot"
+			}]
 			size: 2.0d
-			subtitle: "酸液终于被甩彻底了"
+			subtitle: "{ftbquests.chapter.ev.quest6532872306600039366.subtitle}"
 			tasks: [{
 				id: "4261EFCF49ADFB51"
 				item: "ctnhcore:super_centrifuge"
@@ -1558,7 +1632,7 @@
 		{
 			description: [""]
 			id: "596D03E87665DBFB"
-			subtitle: "目前你只能离心铀238"
+			subtitle: "{ftbquests.chapter.ev.quest6443810938790730747.subtitle}"
 			tasks: [{
 				id: "43D4DC0B8CC08BE4"
 				item: "gtceu:uranium_dust"
@@ -1570,7 +1644,7 @@
 		{
 			dependencies: ["59673BBF643D0E29"]
 			id: "31308207EEED74CF"
-			subtitle: "在那之前 你需要这个让人厌恶的东西（"
+			subtitle: "{ftbquests.chapter.ev.quest3544475877325501647.subtitle}"
 			tasks: [{
 				id: "0C4565575D0D516B"
 				item: "gtceu:magnetic_neodymium_ingot"
@@ -1582,7 +1656,7 @@
 		{
 			dependencies: ["27EF0EE87260585F"]
 			id: "59673BBF643D0E29"
-			subtitle: "EV小超导"
+			subtitle: "{ftbquests.chapter.ev.quest6442183485183299113.subtitle}"
 			tasks: [{
 				id: "6D8EAA1C3A2C6968"
 				item: "gtceu:end_steel_ingot"
@@ -1594,7 +1668,7 @@
 		{
 			dependencies: ["6B42DDFCF2BCACF1"]
 			id: "655B36348B6E14FA"
-			subtitle: "准备铀处"
+			subtitle: "{ftbquests.chapter.ev.quest7303490820016837882.subtitle}"
 			tasks: [{
 				id: "241C611DE1657D6E"
 				item: "gtceu:piranha_solution_bucket"
@@ -1605,10 +1679,10 @@
 		}
 		{
 			dependencies: ["3B32397F6057B4DC"]
-			description: ["你需要用它去做多方块结构的外壳什么的~"]
+			description: ["{ftbquests.chapter.ev.quest1709070281811403482.description1}"]
 			id: "17B7D65DC38BA2DA"
 			size: 2.0d
-			subtitle: "没事的，到LUV就会好起来了"
+			subtitle: "{ftbquests.chapter.ev.quest1709070281811403482.subtitle}"
 			tasks: [{
 				id: "058A766E13244487"
 				item: "gtceu:alloy_blast_smelter"

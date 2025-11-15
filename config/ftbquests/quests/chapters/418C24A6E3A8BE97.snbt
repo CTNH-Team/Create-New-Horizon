@@ -3,19 +3,20 @@
 	default_quest_shape: ""
 	filename: "418C24A6E3A8BE97"
 	group: "4CD84F8DB1FF8B7E"
+	icon: "ctnhcore:space_photovoltai_cbase_station"
 	id: "418C24A6E3A8BE97"
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			id: "6C02EE976B37E747"
-			subtitle: "可曾看到浩瀚银宇？"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest7783045440155936583.subtitle}"
 			tasks: [{
 				id: "49DFD4B82B52AB9B"
 				item: "ctnhcore:astronomical_observatory"
 				type: "item"
 			}]
-			title: "夜观天象"
+			title: "{ftbquests.chapter.418C24A6E3A8BE97.quest7783045440155936583.title}"
 			x: -26.0d
 			y: -7.0d
 		}
@@ -28,7 +29,7 @@
 				item: "ad_astra:moon_stone"
 				type: "item"
 			}]
-			subtitle: "并没有月兔"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest8444055610362726007.subtitle}"
 			tasks: [{
 				id: "05C769BFF0B39581"
 				item: {
@@ -38,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "月球之旅"
+			title: "{ftbquests.chapter.418C24A6E3A8BE97.quest8444055610362726007.title}"
 			x: -24.0d
 			y: -7.0d
 		}
@@ -51,7 +52,7 @@
 				item: "ad_astra:mars_stone"
 				type: "item"
 			}]
-			subtitle: "对火星石的分析告诉我们火星上曾经确实有生命"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest2884830148333562032.subtitle}"
 			tasks: [{
 				id: "4F8E8E9CE9FCAD9A"
 				item: {
@@ -73,7 +74,7 @@
 				item: "ad_astra:venus_stone"
 				type: "item"
 			}]
-			subtitle: "压力过大"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest8133555216180603045.subtitle}"
 			tasks: [{
 				id: "0A38E039140C01C1"
 				item: {
@@ -95,7 +96,7 @@
 				item: "ad_astra:glacio_stone"
 				type: "item"
 			}]
-			subtitle: "所以说为什么霜源会有中子素矿藏？"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest6351963091514054282.subtitle}"
 			tasks: [{
 				id: "5C47000E93612AA9"
 				item: {
@@ -110,22 +111,22 @@
 		}
 		{
 			description: [
-				"这对你说绝对是一个全新的挑战，下一步的光伏线会需要巨量的阳光化合物，所以我建议你做出来其产线"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest2154206720698364104.description1}"
 				""
-				"你有很多方式可以获取它："
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest2154206720698364104.description2}"
 				""
-				"1.从某些生物质里面提取到阳光提取物，然后与萤石在高压釜中制作"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest2154206720698364104.description3}"
 				""
-				"2.使用UU物质和生物质直接制取，速度更快步骤更少（前提是UU物质这条线已经有人做了）"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest2154206720698364104.description4}"
 				""
-				"3.在LUV后，你可以直接聚变来获得阳光化合物，这个方法消耗的材料少且速度快"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest2154206720698364104.description5}"
 				""
-				"4.在你制造出光伏基站后，你可以使用其独有配方来跳过阳光提取物这一步来制取阳光化合物"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest2154206720698364104.description6}"
 				""
-				"5.如果你接受了BTNH，那么你可以通过魔法配方来制取阳光化合物，不过他所需的东西也并没有这么简单：XD"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest2154206720698364104.description7}"
 			]
 			id: "1DE5479957FC30C8"
-			subtitle: "凑了，以前光伏要这个玩意吗"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest2154206720698364104.subtitle}"
 			tasks: [{
 				id: "654F8255ADF745A3"
 				item: "gtceu:sunnarium_dust"
@@ -142,7 +143,7 @@
 				item: "gtceu:clgs_buffer_dust"
 				type: "item"
 			}]
-			subtitle: "你需要物理气相沉积"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest3290530193941729899.subtitle}"
 			tasks: [{
 				id: "380DC95794B3C44D"
 				item: "ctnhcore:combined_vapor_deposition_facility"
@@ -153,14 +154,14 @@
 		}
 		{
 			description: [
-				"你可能注意到分选的配方时间极长，但是电压要求普遍低，以测定电池组为例，他需要长达3000秒的配方时间和只有MV的配方电压，在反复超频到ZPM电压后其实际时间为93.75s。但是时间仍然非常之长"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest719038903429441451.description1}"
 				""
-				"你的注意力非常惊人，已经注意到了这台机器的特殊机制：如果你能获得整数倍的算力的话，那么它的一次有损超频将转化为无损（即速度*2），假设我们拥有48算力（这是HPCA的最大算力值），那么我们就可以获得三次无损超频，时间减少到了11.71875，如果你使用16+1的能源仓，那么只需要6s就可以完成这个配方（并且你还额外拥有27的并行！）"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest719038903429441451.description2}"
 				""
-				"这对你的算力会是个巨大的挑战，多造HPCA吧，你未来会需要成批这个东西的。同时你一定要输入整数倍，不然你将面对一个375秒且没有并行的逆天配方"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest719038903429441451.description3}"
 			]
 			id: "09FA8A12B29927AB"
-			subtitle: "小心算力机器"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest719038903429441451.subtitle}"
 			tasks: [{
 				id: "67B24005580A3D5C"
 				item: "ctnhcore:lasersorder"
@@ -173,13 +174,13 @@
 			dependencies: ["2DAA4FC70498126B"]
 			description: [""]
 			id: "7D650ADE6C75CD06"
-			subtitle: "好长的线"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest9035640177807445254.subtitle}"
 			tasks: [{
 				id: "125B1FC29EC800D1"
 				item: "kubejs:clgs"
 				type: "item"
 			}]
-			title: "CLGS线"
+			title: "{ftbquests.chapter.418C24A6E3A8BE97.quest9035640177807445254.title}"
 			x: -24.0d
 			y: -14.0d
 		}
@@ -203,7 +204,7 @@
 				"7D650ADE6C75CD06"
 			]
 			id: "73409F231880358F"
-			subtitle: "4级光伏板材！"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest8304812685954921871.subtitle}"
 			tasks: [{
 				id: "1EF2653C1ABFCD36"
 				item: "ctnhcore:photon_press_cond_block"
@@ -230,7 +231,7 @@
 		{
 			dependencies: ["637A10CE158A936B"]
 			id: "02E2FF97E48241B5"
-			subtitle: "用光伏绑定终端绑定"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest208009560651350453.subtitle}"
 			tasks: [
 				{
 					id: "1C63F49C89862944"
@@ -253,7 +254,7 @@
 		{
 			dependencies: ["02E2FF97E48241B5"]
 			id: "014167EAE9AA3DC3"
-			subtitle: "太弱了，并不能用"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest90467726164377027.subtitle}"
 			tasks: [{
 				id: "6C65DB4440B3E238"
 				item: {
@@ -342,5 +343,5 @@
 			y: -10.0d
 		}
 	]
-	title: "星际工程"
+	title: "{ftbquests.chapter.418C24A6E3A8BE97.title}"
 }

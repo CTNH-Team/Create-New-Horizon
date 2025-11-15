@@ -94,7 +94,7 @@
 			id: "4D2FAC9783965D60"
 			tasks: [{
 				id: "7CCB2A5C53D2CDFE"
-				title: "{ftbquests.chapter.hv.quest5.task_+8992327657007009278.title}"
+				title: "{ftbquests.chapter.hv.quest5561853831573560672.task.8992327657007009278.title}"
 				type: "checkmark"
 			}]
 			x: -11.5d
@@ -112,7 +112,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.hv.quest6.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest7006439256189873416.subtitle}"
 			tasks: [{
 				id: "6FD9026EFF3CC78B"
 				item: "gtceu:large_chemical_reactor"
@@ -183,7 +183,7 @@
 				type: "random"
 			}]
 			size: 1.5d
-			subtitle: "似乎需要来自天域的天文数据"
+			subtitle: "{ftbquests.chapter.hv.quest1382874430046520860.subtitle}"
 			tasks: [{
 				id: "1DAA2AAE86D784F1"
 				item: "ctnhcore:t1_chip"
@@ -193,10 +193,16 @@
 			y: 32.5d
 		}
 		{
-			description: ["{ftbquests.chapter.hv.quest15.description1}"]
+			description: ["{ftbquests.chapter.hv.quest2835238456938481708.description1}"]
 			hide_dependency_lines: true
 			id: "2758CA5AD758482C"
-			subtitle: "{ftbquests.chapter.hv.quest15.subtitle}"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64AE7CCF2826B6CE"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.hv.quest2835238456938481708.subtitle}"
 			tasks: [{
 				id: "7B231156184BDCBE"
 				item: "gtceu:hv_emitter"
@@ -208,16 +214,16 @@
 		{
 			dependencies: ["11F898C7B0C925D5"]
 			description: [
-				"恭喜你即将踏入未知的深空"
-				"那之后有什么呢"
-				"是无尽的资源"
-				"亦或者是空洞的虚无"
-				"待你启程航天"
-				"答案亦会揭晓"
+				"{ftbquests.chapter.hv.quest2171284066226251757.description1}"
+				"{ftbquests.chapter.hv.quest2171284066226251757.description2}"
+				"{ftbquests.chapter.hv.quest2171284066226251757.description3}"
+				"{ftbquests.chapter.hv.quest2171284066226251757.description4}"
+				"{ftbquests.chapter.hv.quest2171284066226251757.description5}"
+				"{ftbquests.chapter.hv.quest2171284066226251757.description6}"
 			]
 			id: "1E21F35AB1E1A7ED"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.hv.quest16.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest2171284066226251757.subtitle}"
 			tasks: [
 				{
 					id: "5228260E088B98CA"
@@ -235,7 +241,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hv.quest16.title}"
+			title: "{ftbquests.chapter.hv.quest2171284066226251757.title}"
 			x: -28.5d
 			y: 35.0d
 		}
@@ -266,7 +272,7 @@
 				type: "random"
 			}]
 			size: 1.0d
-			subtitle: "这一刻你是否会回忆起儿时的梦想"
+			subtitle: "{ftbquests.chapter.hv.quest7414215225590457302.subtitle}"
 			tasks: [
 				{
 					id: "263B08C2AA57FB8C"
@@ -283,7 +289,7 @@
 					type: "item"
 				}
 			]
-			title: "起飞准备"
+			title: "{ftbquests.chapter.hv.quest7414215225590457302.title}"
 			x: -11.5d
 			y: 35.0d
 		}
@@ -293,11 +299,11 @@
 			id: "3123CD3DCE3598C8"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.hv.quest19.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest3540899397379659976.subtitle}"
 			tasks: [{
 				dimension: "ad_astra:moon"
 				id: "74AC1AB43328B3C5"
-				title: "{ftbquests.chapter.hv.quest19.task_+8407123965648614341.title}"
+				title: "{ftbquests.chapter.hv.quest3540899397379659976.task.8407123965648614341.title}"
 				type: "dimension"
 			}]
 			x: -7.5d
@@ -307,12 +313,12 @@
 			dependencies: ["609BE0CAB05D3EA6"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.hv.quest20.description1}"
-				"{ftbquests.chapter.hv.quest20.description2}"
+				"{ftbquests.chapter.hv.quest1249509328091588226.description1}"
+				"{ftbquests.chapter.hv.quest1249509328091588226.description2}"
 			]
 			id: "1157261D1C6FA682"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.hv.quest20.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest1249509328091588226.subtitle}"
 			tasks: [{
 				id: "1609294E625640DE"
 				item: "gtceu:rocket_fuel_bucket"
@@ -361,7 +367,7 @@
 		{
 			dependencies: ["17F0388258A83E1F"]
 			id: "29C2D8D206649CE5"
-			subtitle: "{ftbquests.chapter.hv.quest25.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest3009205897598901477.subtitle}"
 			tasks: [{
 				id: "4357D0B40FF23BAF"
 				item: "gtceu:liquid_air_bucket"
@@ -384,7 +390,7 @@
 				type: "random"
 			}]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.hv.quest26.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest1595466605935054218.subtitle}"
 			tasks: [
 				{
 					id: "1535BCEA15D7660A"
@@ -493,17 +499,25 @@
 				"4ACA21BD665C39DF"
 			]
 			dependency_requirement: "one_completed"
-			description: ["‘钛’好啦，你进入了最舒服的自动化阶段"]
+			description: ["{ftbquests.chapter.hv.quest2877535078427154527.description1}"]
 			id: "27EF0EE87260585F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "43A653474391B0E1"
-				table_id: 723892772024061161L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A097E1EB62009B0"
+					table_id: 723892772024061161L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00B3AD8944E7ED8B"
+					table_id: 971429564947815603L
+					type: "loot"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.hv.quest29.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest2877535078427154527.subtitle}"
 			tasks: [{
 				id: "45D0761160D1DB1D"
 				item: "gtceu:titanium_ingot"
@@ -520,7 +534,7 @@
 				item: "gtceu:rutile_dust"
 				type: "item"
 			}]
-			subtitle: "你需要搞钛了，所以该去挖铝土或者钛铁了！"
+			subtitle: "{ftbquests.chapter.hv.quest382179638837222165.subtitle}"
 			tasks: [
 				{
 					id: "3FDF09458955286B"
@@ -544,11 +558,11 @@
 		{
 			dependencies: ["773CB6E376B56EA4"]
 			description: [
-				"{ftbquests.chapter.hv.quest32.description1}"
+				"{ftbquests.chapter.hv.quest1943338830725396279.description1}"
 				""
-				"{ftbquests.chapter.hv.quest32.description2}"
-				"{ftbquests.chapter.hv.quest32.description3}"
-				"（注：本整合包内超净间的高度不能大于它的宽度或长度）"
+				"{ftbquests.chapter.hv.quest1943338830725396279.description2}"
+				"{ftbquests.chapter.hv.quest1943338830725396279.description3}"
+				"{ftbquests.chapter.hv.quest1943338830725396279.description4}"
 			]
 			id: "1AF8205ECB9C3737"
 			rewards: [{
@@ -572,8 +586,14 @@
 				"36B5DCFEE8A73F25"
 			]
 			id: "607209201C6B08C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56C52B2DF4EDD74C"
+				table_id: 723892772024061161L
+				type: "choice"
+			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.hv.quest34.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest6949627208506476739.subtitle}"
 			tasks: [{
 				id: "528033D7775227C1"
 				item: "gtceu:micro_processor_computer"
@@ -605,12 +625,12 @@
 				"03B69B22A1106961"
 			]
 			description: [
-				"{ftbquests.chapter.hv.quest51.description1}"
-				"下次的高级贴片靠你咯~"
+				"{ftbquests.chapter.hv.quest1518159725688458178.description1}"
+				"{ftbquests.chapter.hv.quest1518159725688458178.description2}"
 			]
 			id: "1511963A19F70BC2"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.hv.quest51.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest1518159725688458178.subtitle}"
 			tasks: [
 				{
 					id: "510E93BFBA890CF9"
@@ -638,7 +658,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hv.quest51.title}"
+			title: "{ftbquests.chapter.hv.quest1518159725688458178.title}"
 			x: -19.5d
 			y: 29.0d
 		}
@@ -648,7 +668,13 @@
 				"071A728A18E21B3C"
 			]
 			id: "23822AE831A41F5D"
-			subtitle: "{ftbquests.chapter.hv.quest53.subtitle}"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39B87BB4B8872225"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.hv.quest2558654715053481821.subtitle}"
 			tasks: [{
 				id: "2053627AA2187C74"
 				item: "gtceu:ender_fluid_link_cover"
@@ -659,7 +685,7 @@
 		}
 		{
 			dependencies: ["36968F23015BC87A"]
-			description: ["    独属于你的虚空世界"]
+			description: ["{ftbquests.chapter.hv.quest2727746306205307095.description1}"]
 			id: "25DAE6D032C050D7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -669,7 +695,7 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.hv.quest58.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest2727746306205307095.subtitle}"
 			tasks: [{
 				id: "20A0E9B6A5B2D2F0"
 				item: "javd:portal_block"
@@ -681,70 +707,70 @@
 		{
 			id: "3A0D1B6A8BB681C8"
 			invisible: true
-			subtitle: "{ftbquests.chapter.hv.quest59.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest4183029773321535944.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "4E2EAEAFAAF5306A"
 				item: "gtceu:platinum_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hv.quest59.title}"
+			title: "{ftbquests.chapter.hv.quest4183029773321535944.title}"
 			x: -6.0d
 			y: 17.0d
 		}
 		{
 			id: "2D0E2C949FAD45B3"
 			invisible: true
-			subtitle: "{ftbquests.chapter.hv.quest60.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest3246581398226421171.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "5F3870CF15D508F8"
 				item: "gtceu:palladium_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hv.quest60.title}"
+			title: "{ftbquests.chapter.hv.quest3246581398226421171.title}"
 			x: -6.0d
 			y: 15.0d
 		}
 		{
 			id: "2CF0374F90D4B470"
 			invisible: true
-			subtitle: "{ftbquests.chapter.hv.quest61.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest3238148946951189616.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "660223EB3F113A6E"
 				item: "gtceu:ruthenium_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hv.quest61.title}"
+			title: "{ftbquests.chapter.hv.quest3238148946951189616.title}"
 			x: -6.0d
 			y: 9.0d
 		}
 		{
 			id: "06D3380949C950AB"
 			invisible: true
-			subtitle: "{ftbquests.chapter.hv.quest70.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest491798396857307307.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "45CC34EA60CF9DB9"
 				item: "gtceu:rhodium_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hv.quest70.title}"
+			title: "{ftbquests.chapter.hv.quest491798396857307307.title}"
 			x: -6.0d
 			y: 7.0d
 		}
 		{
 			id: "68D549689E87C106"
 			invisible: true
-			subtitle: "{ftbquests.chapter.hv.quest75.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest7554024663668998406.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "59AB4F7BD08AC5CA"
 				item: "gtceu:iridium_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hv.quest75.title}"
+			title: "{ftbquests.chapter.hv.quest7554024663668998406.title}"
 			x: -6.0d
 			y: 13.0d
 		}
@@ -781,14 +807,22 @@
 				"607209201C6B08C3"
 			]
 			id: "216D57DF2B38AB9D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1994EEE16F3D4320"
-				table_id: 971429564947815603L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74176BC8ACC9EDA2"
+					table_id: 971429564947815603L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4225276A56C15E64"
+					table_id: 7618519509353548779L
+					type: "loot"
+				}
+			]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.hv.quest78.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest2408677991727541149.subtitle}"
 			tasks: [{
 				id: "18213736BD2BD5B2"
 				item: "gtceu:micro_processor_mainframe"
@@ -800,7 +834,7 @@
 		{
 			dependencies: ["5CF841D44D3A2035"]
 			id: "2BDF8762C9C51323"
-			subtitle: "看 如此巨量的安培"
+			subtitle: "{ftbquests.chapter.hv.quest3161394321799058211.subtitle}"
 			tasks: [{
 				id: "02689251EA9A927F"
 				item: "gtceu:mercury_barium_calcium_cuprate_ingot"
@@ -823,14 +857,14 @@
 		{
 			id: "7CD360494125BA99"
 			invisible: true
-			subtitle: "{ftbquests.chapter.hv.quest81.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest8994638748530883225.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "48299A65BAD100EC"
 				item: "gtceu:osmium_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hv.quest81.title}"
+			title: "{ftbquests.chapter.hv.quest8994638748530883225.title}"
 			x: -6.0d
 			y: 11.0d
 		}
@@ -848,7 +882,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "极好的布料！"
+			subtitle: "{ftbquests.chapter.hv.quest4929933262687364843.subtitle}"
 			tasks: [{
 				id: "3E81E8A2C38E6E7E"
 				item: "kubejs:space_fabric"
@@ -1026,7 +1060,7 @@
 		}
 		{
 			id: "6A2ECBA15C3DCCCF"
-			subtitle: "{ftbquests.chapter.hv.quest99.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest7651276710846778575.subtitle}"
 			tasks: [{
 				id: "7EE96913B6D55662"
 				item: "gtceu:co_mn_br_catalyst_bucket"
@@ -1057,7 +1091,7 @@
 		}
 		{
 			dependencies: ["43DCA5278B555E39"]
-			description: ["{ftbquests.chapter.hv.quest102.description1}"]
+			description: ["{ftbquests.chapter.hv.quest373902703993852597.description1}"]
 			id: "05305E873C1C92B5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1067,7 +1101,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.hv.quest102.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest373902703993852597.subtitle}"
 			tasks: [{
 				id: "559B2DB8804016D0"
 				item: "ctnhcore:fuel_refining_factory"
@@ -1078,10 +1112,10 @@
 		}
 		{
 			id: "43DCA5278B555E39"
-			subtitle: "{ftbquests.chapter.hv.quest103.subtitle}"
+			subtitle: "{ftbquests.chapter.hv.quest4889964884677451321.subtitle}"
 			tasks: [{
 				id: "123036F8278EBAE3"
-				title: "{ftbquests.chapter.hv.quest103.task_+1310607931008269027.title}"
+				title: "{ftbquests.chapter.hv.quest4889964884677451321.task.1310607931008269027.title}"
 				type: "checkmark"
 			}]
 			x: -9.5d
@@ -1123,6 +1157,12 @@
 		{
 			dependencies: ["773CB6E376B56EA4"]
 			id: "5F9A3ADA66BADAAB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17C0AD6C42477556"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7305CCE440010B2E"
 				item: "gtceu:hv_laser_engraver"
@@ -1160,6 +1200,12 @@
 				"1AF8205ECB9C3737"
 			]
 			id: "43FD6E0F20509E3B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60CD01F4AFDB1BC2"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "3F691723233B4718"
@@ -1243,10 +1289,10 @@
 		}
 		{
 			id: "1AEEB36389F68A28"
-			subtitle: "    如果你发展了血魔法，还可以通过制作凋零电动刷怪笼来生产下界之星"
+			subtitle: "{ftbquests.chapter.hv.quest1940685729541032488.subtitle}"
 			tasks: [{
 				id: "58460F9F5142F7EC"
-				title: "{ftbquests.chapter.hv.quest122.task_+6360788700644964332.title}"
+				title: "{ftbquests.chapter.hv.quest1940685729541032488.task.6360788700644964332.title}"
 				type: "checkmark"
 			}]
 			x: -17.5d
@@ -1283,7 +1329,13 @@
 			]
 			description: [""]
 			id: "0F8A1D38DCB6CCE1"
-			subtitle: "{ftbquests.chapter.hv.quest125.subtitle}"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "271DCAE7EB2D4775"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.hv.quest1119739587413331169.subtitle}"
 			tasks: [{
 				id: "619A4F44D2B82E20"
 				item: "minecraft:nether_star"
@@ -1295,11 +1347,17 @@
 		{
 			dependencies: ["773CB6E376B56EA4"]
 			description: [
-				"可配置维护仓可以让机器加工速度变快，代价是更容易出现维护问题 。                                                                          "
-				"自动维护仓可以让机器拜托维护问题，代价是它更贵！"
+				"{ftbquests.chapter.hv.quest5898372019125751491.description1}"
+				"{ftbquests.chapter.hv.quest5898372019125751491.description2}"
 			]
 			id: "51DB3A19B9180EC3"
-			subtitle: "两种的功能不同"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FD321D044023722"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.hv.quest5898372019125751491.subtitle}"
 			tasks: [
 				{
 					id: "3DEF3C9186CD79F0"
@@ -1312,14 +1370,14 @@
 					type: "item"
 				}
 			]
-			title: "新的维护仓"
+			title: "{ftbquests.chapter.hv.quest5898372019125751491.title}"
 			x: -23.5d
 			y: 26.0d
 		}
 		{
 			dependencies: ["0D100F330A65593F"]
 			id: "55762E03BC9AEA4F"
-			subtitle: "刺眼的烈日在天境中始终无法落下，一定是有什么神秘的力量阻止了我们科技的发展"
+			subtitle: "{ftbquests.chapter.hv.quest6158160134059780687.subtitle}"
 			tasks: [{
 				id: "03EF8290A83EE485"
 				item: "ctnhcore:astronomical_observatory"
@@ -1330,7 +1388,7 @@
 		}
 		{
 			id: "2200E459E683E83E"
-			subtitle: "放入天文台中可以逐渐收集数据"
+			subtitle: "{ftbquests.chapter.hv.quest2450209272060176446.subtitle}"
 			tasks: [{
 				id: "1C758EF3CA161F4C"
 				item: "ctnhcore:astronomy_circuit_1"
@@ -1360,9 +1418,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"你有两种方式制作火箭控制代码："
-				"1.通过冒险获取火箭核心代码"
-				"2.通过缸中之脑提供算力"
+				"{ftbquests.chapter.hv.quest1994961352311096947.description1}"
+				"{ftbquests.chapter.hv.quest1994961352311096947.description2}"
+				"{ftbquests.chapter.hv.quest1994961352311096947.description3}"
 			]
 			id: "1BAF86C7B922C673"
 			tasks: [{
@@ -1375,10 +1433,10 @@
 		}
 		{
 			id: "44ADCE097529FCFD"
-			subtitle: "如果你掌握了究极的附魔力量，你就可以制作一本名为“真空密封”的附魔书，跳过整个航空服线"
+			subtitle: "{ftbquests.chapter.hv.quest4948838105565756669.subtitle}"
 			tasks: [{
 				id: "3E7FA5354FDFB830"
-				title: "悄悄告诉你"
+				title: "{ftbquests.chapter.hv.quest4948838105565756669.task.4503499800785696816.title}"
 				type: "checkmark"
 			}]
 			x: -28.5d
@@ -1389,7 +1447,7 @@
 				"5398DAABBAC5DD00"
 				"6FD9026EFF3CC78B"
 			]
-			description: ["多准备点大型化学反应釜"]
+			description: ["{ftbquests.chapter.hv.quest8527291303109706096.description1}"]
 			id: "76570642BA21C170"
 			rewards: [{
 				count: 256
@@ -1397,7 +1455,7 @@
 				item: "gtceu:platinum_group_sludge_dust"
 				type: "item"
 			}]
-			subtitle: "铂处理的开端"
+			subtitle: "{ftbquests.chapter.hv.quest8527291303109706096.subtitle}"
 			tasks: [{
 				id: "31C4A84D6DE8B3BA"
 				item: "gtceu:platinum_group_sludge_dust"
@@ -1424,7 +1482,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "剩余的残渣，但里面有你需要处理的部分"
+			subtitle: "{ftbquests.chapter.hv.quest7407352432258061873.subtitle}"
 			tasks: [{
 				id: "56004CDC3887FB01"
 				item: "gtceu:platinum_group_residue_dust"
@@ -1451,7 +1509,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "传统的王水溶金的步骤"
+			subtitle: "{ftbquests.chapter.hv.quest7037798796693625767.subtitle}"
 			tasks: [{
 				id: "502BB82E49DF0DAD"
 				item: "gtceu:gold_platinum_palladium_acid_solution_bucket"
@@ -1478,7 +1536,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "这一步需要循环，为了防止其溶液中剩余的NOCL2氧化之后的试剂"
+			subtitle: "{ftbquests.chapter.hv.quest5708591997822092543.subtitle}"
 			tasks: [{
 				id: "254E23B777713E1D"
 				item: "gtceu:denitrated_gold_platinum_palladium_solution_bucket"
@@ -1489,7 +1547,7 @@
 		}
 		{
 			id: "4809C1FDDB82B183"
-			subtitle: "很好的还原剂"
+			subtitle: "{ftbquests.chapter.hv.quest5190893341574869379.subtitle}"
 			tasks: [{
 				id: "42025321D11444FF"
 				item: "gtceu:ferrous_sulfate_bucket"
@@ -1510,7 +1568,7 @@
 				item: "gtceu:gold_dust"
 				type: "item"
 			}]
-			subtitle: "除金"
+			subtitle: "{ftbquests.chapter.hv.quest4347161213984185654.subtitle}"
 			tasks: [
 				{
 					id: "6A41554A9B0AF807"
@@ -1535,7 +1593,7 @@
 				item: "gtceu:ammonium_chloroplatinate_dust"
 				type: "item"
 			}]
-			subtitle: "要提炼出来了！"
+			subtitle: "{ftbquests.chapter.hv.quest7634438553484541906.subtitle}"
 			tasks: [{
 				id: "58CF000060D9ADCF"
 				item: "gtceu:ammonium_chloroplatinate_dust"
@@ -1562,7 +1620,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "要有钯了"
+			subtitle: "{ftbquests.chapter.hv.quest4167938103926040911.subtitle}"
 			tasks: [{
 				id: "7A6476B18D1F0CC1"
 				item: "gtceu:chloropalladic_acid_mixture_bucket"
@@ -1580,7 +1638,7 @@
 				item: "gtceu:diamminedichloropalladium_dust"
 				type: "item"
 			}]
-			subtitle: "钯沉积"
+			subtitle: "{ftbquests.chapter.hv.quest2139314161511716919.subtitle}"
 			tasks: [{
 				id: "658D74135D1A840D"
 				item: "gtceu:diamminedichloropalladium_dust"
@@ -1598,7 +1656,7 @@
 				item: "gtceu:sponge_platinum_dust"
 				type: "item"
 			}]
-			subtitle: "需要再进一步加工"
+			subtitle: "{ftbquests.chapter.hv.quest6466704701466715814.subtitle}"
 			tasks: [{
 				id: "39E971C115B99168"
 				item: "gtceu:sponge_platinum_dust"
@@ -1616,7 +1674,7 @@
 				item: "gtceu:sponge_palladium_dust"
 				type: "item"
 			}]
-			subtitle: "和海绵铂一样，需要进一步加工"
+			subtitle: "{ftbquests.chapter.hv.quest7072990478264355326.subtitle}"
 			tasks: [{
 				id: "0C7A56C92A1785ED"
 				item: "gtceu:sponge_palladium_dust"
@@ -1647,7 +1705,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "你的铂线结束了....吗？"
+			subtitle: "{ftbquests.chapter.hv.quest9461123752443192.subtitle}"
 			tasks: [{
 				id: "04D8146E9D4BC21A"
 				item: "gtceu:platinum_ingot"
@@ -1669,7 +1727,7 @@
 				type: "item"
 			}]
 			size: 2.0d
-			subtitle: "你的钯线结束了！"
+			subtitle: "{ftbquests.chapter.hv.quest5500571927137538558.subtitle}"
 			tasks: [{
 				id: "3EE3EC9387ED5DAB"
 				item: "gtceu:palladium_ingot"
@@ -1680,7 +1738,7 @@
 		}
 		{
 			id: "7EE2773773CDBF98"
-			subtitle: "能除去杂质"
+			subtitle: "{ftbquests.chapter.hv.quest9143001273565298584.subtitle}"
 			tasks: [{
 				id: "3BD92A5673751F86"
 				item: "gtceu:litharge_dust"
@@ -1710,7 +1768,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "一种对于贵金属的提炼有着富集作用的合金"
+			subtitle: "{ftbquests.chapter.hv.quest4864626960325507503.subtitle}"
 			tasks: [{
 				id: "5A6E00727BC1E58D"
 				item: "gtceu:noble_lead_dust"
@@ -1728,7 +1786,7 @@
 				item: "gtceu:litharge_dust"
 				type: "item"
 			}]
-			subtitle: "你富集了钌铑铱锇！现在可以开始着手处理它们了！"
+			subtitle: "{ftbquests.chapter.hv.quest8397997938185037671.subtitle}"
 			tasks: [{
 				id: "7E1740FFE762DE13"
 				item: "gtceu:enriched_inert_mixture_dust"
@@ -1740,7 +1798,7 @@
 		{
 			dependencies: ["4382A0724EFD79AF"]
 			id: "72730E01390EAA6D"
-			subtitle: "记得回收硝酸和铅"
+			subtitle: "{ftbquests.chapter.hv.quest8246950741060528749.subtitle}"
 			tasks: [{
 				id: "2ED7D558EE332406"
 				item: "gtceu:nitric_leach_solution_bucket"
@@ -1771,7 +1829,7 @@
 				item: "gtceu:rhodium_sulfate_dust"
 				type: "item"
 			}]
-			subtitle: "铑线要开始了"
+			subtitle: "{ftbquests.chapter.hv.quest2041466762111285299.subtitle}"
 			tasks: [{
 				id: "1C96015FE28E14F7"
 				item: "gtceu:rhodium_sulfate_bucket"
@@ -1789,7 +1847,7 @@
 				item: "gtceu:sodium_hydroxide_dust"
 				type: "item"
 			}]
-			subtitle: "起码铑滤饼没了"
+			subtitle: "{ftbquests.chapter.hv.quest2337450610337529754.subtitle}"
 			tasks: [{
 				id: "57F725066172032B"
 				item: "gtceu:rhodium_sulfate_solution_bucket"
@@ -1806,7 +1864,7 @@
 				item: "gtceu:mv_electrolyzer"
 				type: "item"
 			}]
-			subtitle: "知道为什么上一步送你氢氧化钠了吗？"
+			subtitle: "{ftbquests.chapter.hv.quest6963880905793199937.subtitle}"
 			tasks: [{
 				id: "1884D16E239210BC"
 				item: "gtceu:rhodium_hydroxide_dust"
@@ -1833,7 +1891,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "好多氯"
+			subtitle: "{ftbquests.chapter.hv.quest4469390407748039431.subtitle}"
 			tasks: [{
 				id: "38DA02077C9E10E8"
 				item: "gtceu:chlororhodic_acid_bucket"
@@ -1860,7 +1918,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "怎么又是氯*酸铵！？"
+			subtitle: "{ftbquests.chapter.hv.quest9185092746838888890.subtitle}"
 			tasks: [{
 				id: "37C63259D03FF101"
 				item: "gtceu:ammonium_chlororhodate_solution_bucket"
@@ -1877,7 +1935,7 @@
 				item: "gtceu:distillation_tower"
 				type: "item"
 			}]
-			subtitle: "要蒸馏塔来把多余的水分蒸干"
+			subtitle: "{ftbquests.chapter.hv.quest3799936881952146616.subtitle}"
 			tasks: [{
 				id: "0A488CBDFDF31755"
 				item: "gtceu:concentrated_ammonium_chlororhodate_bucket"
@@ -1894,7 +1952,7 @@
 				item: "gtceu:hv_autoclave"
 				type: "item"
 			}]
-			subtitle: "要结晶，还要重结晶"
+			subtitle: "{ftbquests.chapter.hv.quest1764630307602510505.subtitle}"
 			tasks: [{
 				id: "6C6687F2E66B4F0C"
 				item: "gtceu:ammonium_chlororhodate_dust"
@@ -1941,7 +1999,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "铑线结束了！"
+			subtitle: "{ftbquests.chapter.hv.quest4393617010303430435.subtitle}"
 			tasks: [{
 				id: "70DDC077BCBF78DB"
 				item: "gtceu:rhodium_ingot"
@@ -1953,7 +2011,7 @@
 		{
 			dependencies: ["748BAEA159FB6767"]
 			id: "598CA6429BCD474D"
-			subtitle: "还剩钌铱锇！"
+			subtitle: "{ftbquests.chapter.hv.quest6452715171127052109.subtitle}"
 			tasks: [{
 				id: "526357A6518A7337"
 				item: "gtceu:precious_metal_mixture_dust"
@@ -1965,7 +2023,7 @@
 		{
 			dependencies: ["598CA6429BCD474D"]
 			id: "318377EE1909A9F1"
-			subtitle: "一步出....二氧化铱！"
+			subtitle: "{ftbquests.chapter.hv.quest3567827194313550321.subtitle}"
 			tasks: [{
 				id: "6E46FAEE64C6C006"
 				item: "gtceu:iridium_dioxide_dust"
@@ -1988,7 +2046,7 @@
 				type: "item"
 			}]
 			size: 2.0d
-			subtitle: "被碳还原"
+			subtitle: "{ftbquests.chapter.hv.quest7102218176378798378.subtitle}"
 			tasks: [{
 				id: "1B200A2A3EAD3500"
 				item: "gtceu:iridium_dust"
@@ -1999,14 +2057,14 @@
 		}
 		{
 			dependencies: ["598CA6429BCD474D"]
-			description: ["先送你台高炉"]
+			description: ["{ftbquests.chapter.hv.quest5428595377707255822.description1}"]
 			id: "4B563EBBED91880E"
 			rewards: [{
 				id: "0A3B2DF7B05F7E0A"
 				item: "gtceu:electric_blast_furnace"
 				type: "item"
 			}]
-			subtitle: "锇和钌一个级别？"
+			subtitle: "{ftbquests.chapter.hv.quest5428595377707255822.subtitle}"
 			tasks: [{
 				id: "5C959C0D0099CB52"
 				item: "gtceu:sodium_osmate_ruthenate_solution_bucket"
@@ -2017,13 +2075,13 @@
 		}
 		{
 			dependencies: ["649A69B8F47729B6"]
-			description: ["但是你能获取的利益也是极高的"]
+			description: ["{ftbquests.chapter.hv.quest6023804932715830528.description1}"]
 			id: "5398DAABBAC5DD00"
 			size: 2.0d
-			subtitle: "这一条被动产线是必须做的"
+			subtitle: "{ftbquests.chapter.hv.quest6023804932715830528.subtitle}"
 			tasks: [{
 				id: "23759F31EE683616"
-				title: "铂线须知"
+				title: "{ftbquests.chapter.hv.quest6023804932715830528.task.2555123400404645398.title}"
 				type: "checkmark"
 			}]
 			x: -28.5d
@@ -2047,7 +2105,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "氯化，说明....."
+			subtitle: "{ftbquests.chapter.hv.quest5066653625739691616.subtitle}"
 			tasks: [{
 				id: "4C01BC384F1CBFBA"
 				item: "gtceu:sodium_osmate_ruthenate_chloride_solution_bucket"
@@ -2064,7 +2122,7 @@
 				item: "gtceu:hv_distillery"
 				type: "item"
 			}]
-			subtitle: "要提纯了"
+			subtitle: "{ftbquests.chapter.hv.quest881153507595019325.subtitle}"
 			tasks: [{
 				id: "57871A1F142EE8BD"
 				item: "gtceu:ruthenium_tetroxide_bucket"
@@ -2081,7 +2139,7 @@
 				item: "gtceu:hv_distillery"
 				type: "item"
 			}]
-			subtitle: "已经变成氧化物了,说明离提纯不远了"
+			subtitle: "{ftbquests.chapter.hv.quest8586496650239253102.subtitle}"
 			tasks: [{
 				id: "6BBEE40EA5DC0544"
 				item: "gtceu:osmium_tetroxide_bucket"
@@ -2108,7 +2166,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "终究还是氯化物"
+			subtitle: "{ftbquests.chapter.hv.quest5743477061973426440.subtitle}"
 			tasks: [{
 				id: "63CC2A3AC9009A0C"
 				item: "gtceu:chlororuthenic_acid_gas_bucket"
@@ -2135,7 +2193,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "氯化物还是来了"
+			subtitle: "{ftbquests.chapter.hv.quest3729229928570059747.subtitle}"
 			tasks: [{
 				id: "568E255B28D677AF"
 				item: "gtceu:chlorosmic_acid_gas_bucket"
@@ -2153,7 +2211,7 @@
 				item: "gtceu:ammonium_chloride_dust"
 				type: "item"
 			}]
-			subtitle: "氯酸，还是氯酸"
+			subtitle: "{ftbquests.chapter.hv.quest8388012431505539863.subtitle}"
 			tasks: [{
 				id: "487AA4F97BB847ED"
 				item: "gtceu:ammonium_chlorosmate_dust"
@@ -2171,7 +2229,7 @@
 				item: "gtceu:ammonium_chloride_dust"
 				type: "item"
 			}]
-			subtitle: "是的，又是氯酸"
+			subtitle: "{ftbquests.chapter.hv.quest1307686016545021529.subtitle}"
 			tasks: [{
 				id: "344BA7163DE37CD8"
 				item: "gtceu:ammonium_chlororuthenate_dust"
@@ -2194,7 +2252,7 @@
 				type: "item"
 			}]
 			size: 2.0d
-			subtitle: "你的铂线一定还差铱！"
+			subtitle: "{ftbquests.chapter.hv.quest2350736875268282137.subtitle}"
 			tasks: [{
 				id: "77D0D0A336F12061"
 				item: "gtceu:ruthenium_dust"
@@ -2224,7 +2282,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "你现在的铂线结束了，记得有EV能源仓的时候给铱也安排上"
+			subtitle: "{ftbquests.chapter.hv.quest7479044279758460648.subtitle}"
 			tasks: [{
 				id: "22C1F0436669D850"
 				item: "gtceu:osmium_dust"
@@ -2235,10 +2293,10 @@
 		}
 		{
 			id: "018B70964B9E17DD"
-			subtitle: "你可以只造任意一条线，另一条就可以通入原料来达到自动化了"
+			subtitle: "{ftbquests.chapter.hv.quest111306406616766429.subtitle}"
 			tasks: [{
 				id: "1C0EE0060D081C4A"
-				title: "这两条线的处理方式相同，说明了什么？"
+				title: "{ftbquests.chapter.hv.quest111306406616766429.task.2021799599328992330.title}"
 				type: "checkmark"
 			}]
 			x: -17.5d
@@ -2250,12 +2308,12 @@
 				"607209201C6B08C3"
 				"6375A1591C9E11A5"
 			]
-			description: ["合成时不会消耗电路板"]
+			description: ["{ftbquests.chapter.hv.quest8699666792485211861.description1}"]
 			id: "78BB6CDADE57CED5"
-			subtitle: "也许比拉线方便"
+			subtitle: "{ftbquests.chapter.hv.quest8699666792485211861.subtitle}"
 			tasks: [{
 				id: "26398F870CA3D0CE"
-				item: "mae2:eu_p2p_tunnel"
+				item: "eup2p:eu_p2p_tunnel"
 				type: "item"
 			}]
 			x: -14.5d
@@ -2267,7 +2325,7 @@
 				"6E5008163C7BFED8"
 			]
 			id: "07BB6832A71B2804"
-			subtitle: "我搬家辣"
+			subtitle: "{ftbquests.chapter.hv.quest557153545671616516.subtitle}"
 			tasks: [{
 				id: "3C59B9CA1FFC283C"
 				item: "ctnhcore:exxonmobil_chemical_plant"
@@ -2282,6 +2340,12 @@
 				"3A1D7A26A80646CB"
 			]
 			id: "4ACA21BD665C39DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A5B6B10F396CA47"
+				table_id: 723892772024061161L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0C79140C6DE45F49"
 				item: "gtceu:hv_energy_input_hatch"
@@ -2323,7 +2387,7 @@
 		{
 			dependencies: ["2BDF8762C9C51323"]
 			id: "303AABFDA3318BAE"
-			subtitle: "做一个嘛"
+			subtitle: "{ftbquests.chapter.hv.quest3475279168322767790.subtitle}"
 			tasks: [{
 				id: "1CFF9FE2A0036C2C"
 				item: "gtceu:mercury_barium_calcium_cuprate_hex_wire"
@@ -2345,9 +2409,9 @@
 		}
 		{
 			dependency_requirement: "one_completed"
-			description: ["其实还有别的方式哦"]
+			description: ["{ftbquests.chapter.hv.quest7444805779099628845.description1}"]
 			id: "675143696D02352D"
-			subtitle: "猜猜怎么变成镁粉的"
+			subtitle: "{ftbquests.chapter.hv.quest7444805779099628845.subtitle}"
 			tasks: [
 				{
 					id: "3B113A129E909C68"
@@ -2360,7 +2424,7 @@
 					type: "item"
 				}
 			]
-			title: "Mg原料"
+			title: "{ftbquests.chapter.hv.quest7444805779099628845.title}"
 			x: -8.0d
 			y: 29.0d
 		}
@@ -2371,6 +2435,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "03B69B22A1106961"
+			subtitle: "{ftbquests.chapter.hv.quest267571800908523873.subtitle}"
 			tasks: [{
 				id: "0640A540D2D18B1B"
 				item: "gtceu:tantalum_dust"
@@ -2382,7 +2447,21 @@
 		{
 			dependencies: ["071A728A18E21B3C"]
 			id: "6680806967633AD8"
-			subtitle: "这玩意竟然要HV组装机？"
+			rewards: [
+				{
+					count: 2
+					id: "15967A40B9EC7A4C"
+					item: "ae2:fluid_cell_housing"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "115638E2918B45AF"
+					item: "ae2:item_cell_housing"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.hv.quest7386044579082091224.subtitle}"
 			tasks: [
 				{
 					id: "6470A9A418E7F697"
@@ -2395,7 +2474,7 @@
 					type: "item"
 				}
 			]
-			x: -18.5d
+			x: -20.5d
 			y: 27.0d
 		}
 		{
@@ -2435,7 +2514,7 @@
 			id: "6E5008163C7BFED8"
 			tasks: [{
 				id: "488F3C92D7BEDBB4"
-				title: "纯化工，也许会看到一些熟悉的身影？"
+				title: "{ftbquests.chapter.hv.quest7948862233905987288.task.5228464293782936500.title}"
 				type: "checkmark"
 			}]
 			x: -13.5d
@@ -2443,7 +2522,7 @@
 		}
 		{
 			dependencies: ["071A728A18E21B3C"]
-			description: ["你需要很多很多很多很多这个东西"]
+			description: ["{ftbquests.chapter.hv.quest1479884344023399578.description1}"]
 			id: "14899AF85A2D3C9A"
 			rewards: [{
 				count: 16
@@ -2451,18 +2530,18 @@
 				item: "ae2:blank_pattern"
 				type: "item"
 			}]
-			subtitle: "这玩意也要"
+			subtitle: "{ftbquests.chapter.hv.quest1479884344023399578.subtitle}"
 			tasks: [{
 				id: "1AC3981B62D370A6"
 				item: "ae2:blank_pattern"
 				type: "item"
 			}]
-			x: -21.0d
+			x: -18.5d
 			y: 27.0d
 		}
 		{
 			id: "3EA2340599949EE7"
-			subtitle: "或者直接电解这个"
+			subtitle: "{ftbquests.chapter.hv.quest4513226975234793191.subtitle}"
 			tasks: [{
 				id: "76A9D1D311422127"
 				item: "gtceu:raw_tantalite"

@@ -1,0 +1,928 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "74D640CFCA75E891"
+	group: "045BDEA2D2692FE0"
+	icon: {
+		Count: 1
+		id: "ctnhcore:crystal_catalyst"
+		tag: { }
+	}
+	id: "74D640CFCA75E891"
+	images: [
+		{
+			height: 25.0d
+			image: "avaritia:textures/gui/jei/tables/nether_jei.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: 43.6d
+			y: 8.6d
+		}
+		{
+			height: 25.0d
+			image: "avaritia:textures/gui/jei/tables/nether_jei.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: 57.1d
+			y: 8.6d
+		}
+		{
+			height: 25.0d
+			image: "avaritia:textures/gui/jei/tables/nether_jei.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: 70.6d
+			y: 8.6d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "005F6CCD7C03A0E9"
+			tasks: [{
+				id: "05A9A7910555E36E"
+				item: "apotheosis:warden_tendril"
+				type: "item"
+			}]
+			x: 37.0d
+			y: 3.5d
+		}
+		{
+			id: "6F44C45BB22E0DF2"
+			tasks: [{
+				id: "1027CFB51949ABE1"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			x: 35.5d
+			y: -1.0d
+		}
+		{
+			id: "7F5CBDCB2149A9E8"
+			tasks: [{
+				id: "1A9C3648C13A7542"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			x: 34.0d
+			y: -1.0d
+		}
+		{
+			id: "6DE4633AAD389CF5"
+			tasks: [{
+				id: "362FD8D02EF775E9"
+				item: "minecraft:rabbit"
+				type: "item"
+			}]
+			x: 38.5d
+			y: -1.0d
+		}
+		{
+			id: "3550D568ADCEFA8C"
+			tasks: [{
+				id: "72E79B5D7871F33E"
+				item: "minecraft:chicken"
+				type: "item"
+			}]
+			x: 40.0d
+			y: -1.0d
+		}
+		{
+			id: "33A149A4A73BCCB7"
+			tasks: [{
+				id: "278F74395449EF40"
+				item: "mynethersdelight:hoglin_loin"
+				type: "item"
+			}]
+			x: 34.0d
+			y: 2.0d
+		}
+		{
+			id: "593A804C9B3E6FDC"
+			tasks: [{
+				id: "1C562357994A3D6F"
+				item: "mynethersdelight:strider_slice"
+				type: "item"
+			}]
+			x: 34.0d
+			y: 0.5d
+		}
+		{
+			id: "7E034E01C05E29FE"
+			tasks: [{
+				id: "7F17CF6AB66F9413"
+				item: {
+					Count: 1
+					id: "ecologics:crab_claw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 38.5d
+			y: 5.0d
+		}
+		{
+			id: "6124B84B608EA2B5"
+			tasks: [{
+				id: "731ED46494E7E505"
+				item: "deep_aether:raw_quail"
+				type: "item"
+			}]
+			x: 40.0d
+			y: 2.0d
+		}
+		{
+			id: "2711272E77A7FB25"
+			tasks: [{
+				id: "28AAE025B1593D81"
+				item: "alexsmobs:moose_ribs"
+				type: "item"
+			}]
+			x: 40.0d
+			y: 0.5d
+		}
+		{
+			id: "17401701C09891CA"
+			tasks: [{
+				id: "34640A6BE9B17AAA"
+				item: "alexsmobs:kangaroo_meat"
+				type: "item"
+			}]
+			x: 34.0d
+			y: 3.5d
+		}
+		{
+			id: "4966D46F77B92305"
+			tasks: [{
+				id: "1D8AA8EB5B054C21"
+				item: "twilightforest:raw_venison"
+				type: "item"
+			}]
+			x: 37.0d
+			y: 5.0d
+		}
+		{
+			id: "43103D1ECDC93769"
+			tasks: [{
+				id: "09CC2DB02F466B44"
+				item: "twilightforest:raw_meef"
+				type: "item"
+			}]
+			x: 35.5d
+			y: 0.5d
+		}
+		{
+			id: "5B1E61A8EE59374E"
+			tasks: [{
+				id: "4C9C8D82CC15A279"
+				item: "twilightforest:hydra_chop"
+				type: "item"
+			}]
+			x: 37.0d
+			y: 0.5d
+		}
+		{
+			id: "4EA4902BD99B7898"
+			tasks: [{
+				id: "3415CED3AE538E50"
+				item: "ends_delight:raw_dragon_meat"
+				type: "item"
+			}]
+			x: 38.5d
+			y: 0.5d
+		}
+		{
+			id: "1CA4725761DED4E7"
+			tasks: [{
+				id: "1312B779563A6F88"
+				item: "ends_delight:raw_ender_mite_meat"
+				type: "item"
+			}]
+			x: 37.0d
+			y: -1.0d
+		}
+		{
+			id: "759E68D4C0890DE8"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest8475326811730415080.subtitle}"
+			tasks: [{
+				id: "4CEFF5E363879055"
+				item: "cataclysm:blessed_amethyst_crab_meat"
+				type: "item"
+			}]
+			x: 35.5d
+			y: 3.5d
+		}
+		{
+			id: "4AC0F9C2070CD872"
+			tasks: [{
+				id: "062D8A9AA03BC93D"
+				item: "twilightdelight:raw_insect"
+				type: "item"
+			}]
+			x: 35.5d
+			y: 5.0d
+		}
+		{
+			id: "137D401A21166E9A"
+			tasks: [{
+				id: "496F5AC28446CF09"
+				item: "biomancy:flesh_bits"
+				type: "item"
+			}]
+			x: 34.0d
+			y: 5.0d
+		}
+		{
+			id: "6C0407B5C3F8D13B"
+			tasks: [{
+				id: "7307297D0EAC16FD"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			x: 38.5d
+			y: 3.5d
+		}
+		{
+			id: "5B6C583949955374"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest6587737358007096180.subtitle}"
+			tasks: [{
+				id: "15C287C576DA44D8"
+				item: "artifacts:everlasting_beef"
+				type: "item"
+			}]
+			x: 38.5d
+			y: 2.0d
+		}
+		{
+			id: "21DA443C0AFB0352"
+			tasks: [{
+				id: "1A64F60B0872B3DF"
+				item: "alexscaves:dinosaur_chop"
+				type: "item"
+			}]
+			x: 35.5d
+			y: 2.0d
+		}
+		{
+			id: "12189C03A4FDE63F"
+			tasks: [{
+				id: "5550B949C93D5D5A"
+				item: "minecraft:mutton"
+				type: "item"
+			}]
+			x: 40.0d
+			y: 5.0d
+		}
+		{
+			id: "27F70E48CFCD8854"
+			tasks: [{
+				id: "3C7B999FDE72F275"
+				item: "minecraft:beef"
+				type: "item"
+			}]
+			x: 40.0d
+			y: 3.5d
+		}
+		{
+			id: "66850F5B7B71AA29"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest7387327649358653993.subtitle}"
+			tasks: [{
+				id: "7909477FA5EAAE87"
+				item: "alexsmobs:void_worm_eye"
+				type: "item"
+			}]
+			x: 37.0d
+			y: 2.0d
+		}
+		{
+			id: "2D90EE7A86CCB03B"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest3283386338368073787.subtitle}"
+			tasks: [{
+				id: "4AE7F25C5DEB04BB"
+				item: "ctnhcore:galaxy_meatball"
+				type: "item"
+			}]
+			x: 44.675d
+			y: 1.9d
+		}
+		{
+			id: "0AC2060435B3FE72"
+			tasks: [{
+				id: "7CF0371783D8DA88"
+				item: "mynethersdelight:plate_of_cold_striderloaf"
+				type: "item"
+			}]
+			x: 47.5d
+			y: -1.0d
+		}
+		{
+			id: "0ACCED90BB3C2545"
+			tasks: [{
+				id: "30CC61338DC866DA"
+				item: "mynethersdelight:plate_of_ghasta_with_cream"
+				type: "item"
+			}]
+			x: 49.0d
+			y: -1.0d
+		}
+		{
+			id: "0229BC2433FA0CF2"
+			tasks: [{
+				id: "0CEDC5C7D114623D"
+				item: "mynethersdelight:hot_wings_bucket"
+				type: "item"
+			}]
+			x: 50.5d
+			y: -1.0d
+		}
+		{
+			id: "4205C01CE63D84BB"
+			tasks: [{
+				id: "704D91286F5CA421"
+				item: "mynethersdelight:magma_cake_slice"
+				type: "item"
+			}]
+			x: 52.0d
+			y: -1.0d
+		}
+		{
+			id: "64677EC99C5A0892"
+			tasks: [{
+				id: "05ACF937992EB848"
+				item: "mynethersdelight:hot_cream_cone"
+				type: "item"
+			}]
+			x: 53.5d
+			y: -1.0d
+		}
+		{
+			id: "78F61534691F421F"
+			tasks: [{
+				id: "3B65A3D5AA05267C"
+				item: "culturaldelights:eggplant_burger"
+				type: "item"
+			}]
+			x: 47.5d
+			y: 0.5d
+		}
+		{
+			id: "4E0B64639773BBCE"
+			tasks: [{
+				id: "225A70A98FE17F40"
+				item: "alexsmobs:mosquito_repellent_stew"
+				type: "item"
+			}]
+			x: 49.0d
+			y: 0.5d
+		}
+		{
+			id: "520EAB04DF21A39F"
+			tasks: [{
+				id: "6E72814F620B665C"
+				item: "createcafe:oreo"
+				type: "item"
+			}]
+			x: 50.5d
+			y: 0.5d
+		}
+		{
+			id: "32536AB814D398C6"
+			tasks: [{
+				id: "1F7BCCCE585AC6B1"
+				item: "createcafe:blood_orange_milk_tea"
+				type: "item"
+			}]
+			x: 52.0d
+			y: 0.5d
+		}
+		{
+			id: "46A5E70729DB7D46"
+			tasks: [{
+				id: "35BE112184920944"
+				item: "createcafe:iced_coffee"
+				type: "item"
+			}]
+			x: 53.5d
+			y: 0.5d
+		}
+		{
+			id: "4523DBD2BB681006"
+			tasks: [{
+				id: "6C492EDDCBE219EB"
+				item: "farmersdelight:honey_glazed_ham"
+				type: "item"
+			}]
+			x: 47.5d
+			y: 2.0d
+		}
+		{
+			id: "542A24AC1680830D"
+			tasks: [{
+				id: "3A217A8DD63CCAA3"
+				item: "farmersdelight:shepherds_pie"
+				type: "item"
+			}]
+			x: 49.0d
+			y: 2.0d
+		}
+		{
+			id: "0A6A76AECB695E48"
+			tasks: [{
+				id: "65BB2F6EF66526F2"
+				item: "ctnhcore:galaxy_meatball"
+				type: "item"
+			}]
+			x: 50.5d
+			y: 2.0d
+		}
+		{
+			id: "7D2048D6BBB9EF25"
+			tasks: [{
+				id: "48B056A2F128AAA5"
+				item: "culturaldelights:exotic_roll_medley"
+				type: "item"
+			}]
+			x: 52.0d
+			y: 2.0d
+		}
+		{
+			id: "61C13DCDCA84ABF1"
+			tasks: [{
+				id: "399F179A30A58681"
+				item: "ends_delight:dragon_leg_with_sauce"
+				type: "item"
+			}]
+			x: 53.5d
+			y: 2.0d
+		}
+		{
+			id: "24A33895CE4261FB"
+			tasks: [{
+				id: "403EDAE28C84259F"
+				item: "ends_delight:steamed_dragon_egg"
+				type: "item"
+			}]
+			x: 47.5d
+			y: 3.5d
+		}
+		{
+			id: "6153FE6F528BE2D8"
+			tasks: [{
+				id: "444666D93EF2BB86"
+				item: "ends_delight:grilled_shulker"
+				type: "item"
+			}]
+			x: 49.0d
+			y: 3.5d
+		}
+		{
+			id: "7D5F071B627B06CC"
+			tasks: [{
+				id: "6B59B33AD071EE02"
+				item: "legendarysurvivaloverhaul:glistering_melon_juice"
+				type: "item"
+			}]
+			x: 50.5d
+			y: 3.5d
+		}
+		{
+			id: "5C6929D9BC818B72"
+			tasks: [{
+				id: "06B70D643ED7827A"
+				item: "twilightdelight:plate_of_lily_chicken"
+				type: "item"
+			}]
+			x: 52.0d
+			y: 3.5d
+		}
+		{
+			id: "73E33FE7B1E48161"
+			tasks: [{
+				id: "54615B0BC15B3041"
+				item: "twilightdelight:plate_of_fiery_snakes"
+				type: "item"
+			}]
+			x: 53.5d
+			y: 3.5d
+		}
+		{
+			id: "054239C6242594B7"
+			tasks: [{
+				id: "6B39CD0878B42530"
+				item: "twilightdelight:plate_of_meef_wellington"
+				type: "item"
+			}]
+			x: 47.5d
+			y: 5.0d
+		}
+		{
+			id: "05C94561B2EF41B9"
+			tasks: [{
+				id: "12C6EF8360FB0AA3"
+				item: "twilightdelight:tear_drink"
+				type: "item"
+			}]
+			x: 49.0d
+			y: 5.0d
+		}
+		{
+			id: "713A58E07F676C86"
+			tasks: [{
+				id: "6195A285F54A2014"
+				item: "biomancy:nutrient_bar"
+				type: "item"
+			}]
+			x: 50.5d
+			y: 5.0d
+		}
+		{
+			id: "41327FB05EF45ED5"
+			tasks: [{
+				id: "438409C7A792C5AA"
+				item: "tconstruct:meat_soup"
+				type: "item"
+			}]
+			x: 52.0d
+			y: 5.0d
+		}
+		{
+			id: "3E75C9FF5CB640CA"
+			tasks: [{
+				id: "77E16DD509BB6555"
+				item: "mynethersdelight:plate_of_stuffed_hoglin"
+				type: "item"
+			}]
+			x: 53.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4AE7F25C5DEB04BB"]
+			id: "7B6E27B31F57BBB7"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest8894089964381780919.subtitle}"
+			tasks: [{
+				id: "3B901E00B6CF2E02"
+				item: {
+					Count: 1
+					id: "ctnhcore:primary_stew"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 58.2d
+			y: 1.9d
+		}
+		{
+			id: "6C96354CC9FCFDBC"
+			tasks: [{
+				id: "4AB489040E347647"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:core/warlord"
+					}
+				}
+				type: "item"
+			}]
+			x: 61.0d
+			y: -1.0d
+		}
+		{
+			id: "5E33C41E68B10492"
+			tasks: [{
+				id: "6D3540EEE2669834"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			x: 62.5d
+			y: -1.0d
+		}
+		{
+			id: "68C66C0BE14C3883"
+			tasks: [{
+				id: "4F0802A77D9E5F66"
+				item: "biomancy:bio_lantern_blue"
+				type: "item"
+			}]
+			x: 64.0d
+			y: -1.0d
+		}
+		{
+			id: "6C02269A4B2E78CB"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest7782825550177794251.subtitle}"
+			tasks: [{
+				id: "382860E192101204"
+				item: {
+					Count: 1
+					id: "gtceu:damascus_steel_wrench"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							Mode: 2b
+						}
+						GT.Tool: {
+							DefaultEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 3s
+							}]
+							HarvestLevel: 3
+							MaxDamage: 1023
+							ToolSpeed: 10.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 65.5d
+			y: -1.0d
+		}
+		{
+			id: "4473F01CAF95E0B1"
+			tasks: [{
+				id: "1F8A02A6C97D50D1"
+				item: "bloodmagic:minekey"
+				type: "item"
+			}]
+			x: 67.0d
+			y: -1.0d
+		}
+		{
+			id: "0AFDB3DF3F357978"
+			tasks: [{
+				id: "7FE9FC0775CAA291"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			x: 61.0d
+			y: 0.5d
+		}
+		{
+			id: "13E1EB7AAD9DA1C4"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest1432685068611854788.subtitle}"
+			tasks: [{
+				id: "7CA167EDB6566EE4"
+				item: "deep_aether:sun_core"
+				type: "item"
+			}]
+			x: 62.5d
+			y: 0.5d
+		}
+		{
+			id: "4D4A21D67969346F"
+			tasks: [{
+				id: "76ABDAE9FE042416"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			x: 64.0d
+			y: 0.5d
+		}
+		{
+			id: "53AC6840C4FC0B58"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest6029308628534299480.subtitle}"
+			tasks: [{
+				id: "0A33AF0B60EE1FD5"
+				item: "deep_aether:aerwhale_saddle"
+				type: "item"
+			}]
+			x: 65.5d
+			y: 0.5d
+		}
+		{
+			id: "08293EB6C7A5D780"
+			tasks: [{
+				id: "2281339F2E085322"
+				item: {
+					Count: 1
+					id: "tconstruct:large_plate"
+					tag: {
+						Material: "tconstruct:manyullyn"
+					}
+				}
+				type: "item"
+			}]
+			x: 67.0d
+			y: 0.5d
+		}
+		{
+			id: "0CB3EA639DEE1ECD"
+			tasks: [{
+				id: "75D69DD387DCD4A9"
+				item: {
+					Count: 1
+					id: "cataclysm:cursed_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 61.0d
+			y: 2.0d
+		}
+		{
+			id: "47C1262593CDC2D0"
+			tasks: [{
+				id: "62B50C3B95BE07DA"
+				item: "kubejs:platinum_metal_catalyst_shard1"
+				type: "item"
+			}]
+			x: 62.5d
+			y: 2.0d
+		}
+		{
+			id: "6221B46119AB6FA6"
+			tasks: [{
+				id: "0E712534F4486990"
+				item: "ctnhcore:primary_stew"
+				type: "item"
+			}]
+			x: 64.0d
+			y: 2.0d
+		}
+		{
+			id: "3BFB17FFDE79AAAB"
+			tasks: [{
+				id: "70DE849157E1F76D"
+				item: "kubejs:platinum_metal_catalyst_shard2"
+				type: "item"
+			}]
+			x: 65.5d
+			y: 2.0d
+		}
+		{
+			id: "4AE2A97C418ECA30"
+			tasks: [{
+				id: "2885F8EC7C22445A"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			x: 67.0d
+			y: 2.0d
+		}
+		{
+			id: "3FCD0D737A5CA2A5"
+			tasks: [{
+				id: "15742E544037366B"
+				item: {
+					Count: 1
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 61.0d
+			y: 3.5d
+		}
+		{
+			id: "32B6C80C4C39F194"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest3654328102801764756.subtitle}"
+			tasks: [{
+				id: "3896EF9250B10904"
+				item: {
+					Count: 1
+					id: "deep_aether:slider_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 62.5d
+			y: 3.5d
+		}
+		{
+			id: "339266258B541A02"
+			tasks: [{
+				id: "1C012953B63E5E1A"
+				item: "apotheosis:infused_breath"
+				type: "item"
+			}]
+			x: 64.0d
+			y: 3.5d
+		}
+		{
+			id: "443D47EBFCF1CEDF"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest4917165447045041887.subtitle}"
+			tasks: [{
+				id: "7D61DEB8D8157470"
+				item: "deep_aether:medal_of_honor"
+				type: "item"
+			}]
+			x: 65.5d
+			y: 3.5d
+		}
+		{
+			id: "2DB2F7B580298D43"
+			tasks: [{
+				id: "3F66626FF607BDB0"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			x: 67.0d
+			y: 3.5d
+		}
+		{
+			id: "46216E259BD2447D"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest5053441364693501053.subtitle}"
+			tasks: [{
+				id: "3316F36843A6072A"
+				item: "botania:apothecary_taiga"
+				type: "item"
+			}]
+			x: 61.0d
+			y: 5.0d
+		}
+		{
+			id: "5776BBE4F103D22C"
+			tasks: [{
+				id: "3117E82058D15696"
+				item: "alexsmobs:transmutation_table"
+				type: "item"
+			}]
+			x: 62.5d
+			y: 5.0d
+		}
+		{
+			id: "1BE9637B0F353024"
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest2011248088784908324.subtitle}"
+			tasks: [{
+				id: "45ABB768ACD17A20"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			x: 64.0d
+			y: 5.0d
+		}
+		{
+			id: "2E6C4521324F891D"
+			tasks: [{
+				id: "73F525FF97C4A3D7"
+				item: {
+					Count: 1
+					id: "aether:valkyrie_lance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 65.5d
+			y: 5.0d
+		}
+		{
+			id: "2B48139A87D193E2"
+			tasks: [{
+				id: "3C836EA792A73D94"
+				item: {
+					Count: 1
+					id: "extrabotany:pandoras_box"
+					tag: {
+						soulbindUUID: "96727011-ff7e-4c87-997d-2b3b678bfb6a"
+					}
+				}
+				type: "item"
+			}]
+			x: 67.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E712534F4486990"]
+			id: "477A647FF437B559"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest5150539624572499289.subtitle}"
+			tasks: [{
+				id: "28847D163FA29EF6"
+				item: "ctnhcore:crystal_catalyst"
+				type: "item"
+			}]
+			x: 71.68d
+			y: 1.9d
+		}
+		{
+			description: ["{ftbquests.chapter.74D640CFCA75E891.quest3061831508240028255.description1}"]
+			icon: "avaritia:infinity_catalyst"
+			id: "2A7DCF88D2BED25F"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest3061831508240028255.subtitle}"
+			tasks: [{
+				id: "1B54E4743F0FBB6E"
+				title: "{ftbquests.chapter.74D640CFCA75E891.quest3061831508240028255.task.1969450124993084270.title}"
+				type: "checkmark"
+			}]
+			x: 52.0d
+			y: -10.0d
+		}
+	]
+	title: "{ftbquests.chapter.74D640CFCA75E891.title}"
+}
