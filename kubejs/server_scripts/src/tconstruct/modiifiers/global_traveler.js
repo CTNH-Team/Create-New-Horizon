@@ -23,7 +23,12 @@ BlockEvents.broken(event => {
         let container = global.bound_container[playerUUID]
         console.log(`${x},${y},${z}`);
         if (!container) { 
-            container= world.getBlock(x, y, z);
+            player.tell(`§c绑定的方块不是容器，无法传送掉落物`);
+            player.persistentData.remove('bound_container_x')
+            player.persistentData.remove('bound_container_y')
+            player.persistentData.remove('bound_container_z')
+            player.persistentData.remove('bound_container_dim')
+            return;
         }
         console.log(`broken_event:${container}`);
         let pworld = player.level;
