@@ -73,5 +73,5 @@ function getNBT(player) {
     if (mainHandItem.hasTag('tconstruct:modifiable')) {
         return mainHandItem.getNbt().getAsString(); // 获取工具的NBT
     }
-    return ""
+    return
 }

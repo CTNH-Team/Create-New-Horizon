@@ -6,6 +6,8 @@
     "material.gtceu.snow_steel.flavor": "愿Snow_city护佑你。",
     "modifier.kubejs.fortification": "§e巫妖护盾",
     "modifier.kubejs.fortification.flavor": "§e你是巫妖王，那我是谁？",
-    "modifier.kubejs.fortification.description": "§e到攻击根据等级生成护盾，效果与护盾权杖无异(每一级增加一层护盾并减少少许冷却)"
-    
+    "modifier.kubejs.fortification.description": "§e到攻击根据等级生成护盾，效果与护盾权杖无异(每一级增加一层护盾并减少少许冷却)",
+    "modifier.kubejs.global_traveler": "§2环球旅行者",
+    "modifier.kubejs.global_traveler.flavor": "§e全世界……折返",
+    "modifier.kubejs.global_traveler.description": "潜行右击一个方块，如果该方块是一个容器，则破坏的方块与会被传送到其中。"
 }
