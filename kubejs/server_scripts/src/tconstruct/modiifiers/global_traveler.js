@@ -1,54 +1,8 @@
 // 环球旅行者
-function saveGlobalData() {
-    try {
-        JsonIO.write('kubejs/data/global_traveler_data.json', {
-            bound_container_x: global.bound_container_x,
-            bound_container_y: global.bound_container_y,
-            bound_container_z: global.bound_container_z
-        });
-    } catch (e) {
-        console.error('保存环球旅行者数据时出错: ' + e);
-    }
-}
-
-function loadGlobalData() {
-    try {
-        let data = JsonIO.read('kubejs/data/global_traveler_data.json');
-        if (data) {
-            global.bound_container_x = data.bound_container_x || {};
-            global.bound_container_y = data.bound_container_y || {};
-            global.bound_container_z = data.bound_container_z || {};
-        }
-    } catch (e) {
-        global.bound_container_x = {};
-        global.bound_container_y = {};
-        global.bound_container_z = {};
-    }
-}
-
-loadGlobalData();
+if (!global.bound_container_x) global.bound_container_x = {};
+if (!global.bound_container_y) global.bound_container_y = {};
+if (!global.bound_container_z) global.bound_container_z = {};
 if (!global.bound_container) global.bound_container = {};
-
-ServerEvents.loaded(event => {
-    event.server.scheduleInTicks(100, () => {
-        for (let playerUUID in global.bound_container_x) {
-            let x = global.bound_container_x[playerUUID];
-            let y = global.bound_container_y[playerUUID];
-            let z = global.bound_container_z[playerUUID];
-            let block = event.level.getBlock(x, y, z);
-            if (block && block.entityData) {
-                global.bound_container[playerUUID] = block;
-            } else {
-                delete global.bound_container_x[playerUUID];
-                delete global.bound_container_y[playerUUID];
-                delete global.bound_container_z[playerUUID];
-                delete global.bound_container[playerUUID];
-                saveGlobalData();
-            }
-        }
-    });
-});
-
 BlockEvents.broken(event => {
     let player = event.player;
     let playerUUID = player.uuid
@@ -60,10 +14,13 @@ BlockEvents.broken(event => {
         let y = global.bound_container_y[playerUUID]
         let z = global.bound_container_z[playerUUID]
         let container = global.bound_container[playerUUID]
+        //let world = event.level;
+        //let block = world.getBlock(x, y, z);
         let pworld = player.level;
         let drops = event.block.getDrops();
         console.log(`broken_event:${event.level.getBlock(x, y, z)}`);
         console.log(`container:${container}`);
+        //if (player.level.dimension.toString() != dim) return null;
         if (!container) return null;
         let containerInventory = container.getInventory();
         if (!containerInventory) {
@@ -71,7 +28,6 @@ BlockEvents.broken(event => {
             delete global.bound_container_y[playerUUID];
             delete global.bound_container_z[playerUUID];
             delete global.bound_container[playerUUID];
-            saveGlobalData();
             return;
         }
         let slotCount = containerInventory.getSlots();
@@ -145,23 +101,8 @@ BlockEvents.rightClicked(event => {
             global.bound_container_y[playerUUID] = pos.y
             global.bound_container_z[playerUUID] = pos.z
             global.bound_container[playerUUID] = container
-            saveGlobalData();
             event.cancel();
             return;
         }
-    }
-});
-
-ServerEvents.loaded(event => {
-    event.server.scheduleInTicks(1, () => {
-        global.saveOnShutdown = () => {
-            saveGlobalData();
-        };
-    });
-});
-
-ServerEvents.tick(event => {
-    if (event.server.tickCount % 12000 === 0) {
-        saveGlobalData();
     }
 });
