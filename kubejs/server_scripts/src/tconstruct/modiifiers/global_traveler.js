@@ -30,7 +30,6 @@ BlockEvents.broken(event => {
             delete global.bound_container[playerUUID];
             return;
         }
-        let slotCount = containerInventory.getSlots();
         for (let item of drops) {
             let remaining = item.copy();
             let slotCount = containerInventory.getSlots();
@@ -61,7 +60,7 @@ BlockEvents.broken(event => {
                 }
             }
             if (remaining.getCount() > 0) {
-                pworld.runCommandSilent(`/summon minecraft:item ${x} ${y} ${z} {Item:{id:"${remaining.getId()}",Count:1b}}`);
+                pworld.runCommandSilent(`/summon minecraft:item ${event.block.pos.x} ${event.block.pos.y} ${event.block.pos.z} {Item:{id:"${remaining.getId()}",Count:1b}}`);
                 player.tell(`§c容器空间不足，${drops} 剩余 ${remaining.getCount()} 个未传送。`);
             }
             event.block.set('minecraft:air')
