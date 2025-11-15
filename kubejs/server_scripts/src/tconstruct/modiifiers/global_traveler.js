@@ -23,12 +23,7 @@ BlockEvents.broken(event => {
         let container = global.bound_container[playerUUID]
         console.log(`${x},${y},${z}`);
         if (!container) { 
-            player.tell(`§c绑定的方块不是容器，无法传送掉落物`);
-            player.persistentData.remove('bound_container_x')
-            player.persistentData.remove('bound_container_y')
-            player.persistentData.remove('bound_container_z')
-            player.persistentData.remove('bound_container_dim')
-            return;
+            container= world.getBlock(x, y, z);
         }
         console.log(`broken_event:${container}`);
         let pworld = player.level;
@@ -36,7 +31,12 @@ BlockEvents.broken(event => {
         console.log(`broken_event:${event.level.getBlock(x, y, z)}`);
         let containerInventory = container.getInventory();
         if (!containerInventory) {
-            container= world.getBlock(x, y, z)
+            player.tell(`§c绑定的方块不是容器，无法传送掉落物`);
+            player.persistentData.remove('bound_container_x')
+            player.persistentData.remove('bound_container_y')
+            player.persistentData.remove('bound_container_z')
+            player.persistentData.remove('bound_container_dim')
+            return;
         }
         for (let item of drops) {
             let remaining = item.copy();
