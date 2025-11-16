@@ -27,6 +27,7 @@ BlockEvents.broken(event => {
             player.persistentData.remove('bound_container_y')
             player.persistentData.remove('bound_container_z')
             player.persistentData.remove('bound_container_dim')
+            global.bound_container[playerUUID] = null;
             return;
         }
         for (let item of drops) {
