@@ -36,6 +36,20 @@ ServerEvents.recipes(event => {
     .duration(600)
     .circuit(1)
 
+    event.recipes.gtceu.mana_seperator('crystal_catalyst2')
+        .itemInputs('30x gtceu:platinum_group_sludge_dust')
+        .inputFluids(Fluid.of("gtceu:aqua_regia", 500))
+        .notConsumable('ctnhcore:crystal_catalyst')
+        .itemOutputs('10x gtceu:palladium_dust')
+        .itemOutputs('12x gtceu:platinum_dust')
+        .itemOutputs('9x gtceu:ruthenium_dust')
+        .itemOutputs('3x gtceu:rhodium_dust')
+        .itemOutputs('4x gtceu:osmium_dust')
+        .itemOutputs('3x gtceu:iridium_dust')
+        .EUt(7680)
+        .duration(600)
+        .circuit(2);
+
     event.recipes.gtceu.mana_seperator('platinum_catalyst')
     .itemInputs('20x gtceu:platinum_group_sludge_dust')
     .notConsumable('kubejs:platinum_metal_catalyst')
@@ -57,4 +71,5 @@ ServerEvents.recipes(event => {
     .EUt(8388608)
     .duration(600)
     .circuit(1)
+    
 })

@@ -1062,7 +1062,7 @@ hash = "2dbea31627c614c6577539dc6a2b00331177518e54f888c4dfab682c20a8e052"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/74D640CFCA75E891.snbt"
-hash = "59f033667c3d3e6632b35b338c69169dc9f9828fa6b397b3f95f99ac83e9db39"
+hash = "32f1f7e879c53d7cc8aeb9e363d95879e83ac9f2c7f1417c9fadd116e003cdad"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
@@ -1163,6 +1163,10 @@ hash = "78613a05c6e9501d5770732d4a7f92399a6c9e2ef995ff54b11277295b1d5bcd"
 [[files]]
 file = "config/gtceu.yaml"
 hash = "ffdfb161b252fcfc0715b8b3c47660966c0fcd9aaf1afd145f29e98342bd83a7"
+
+[[files]]
+file = "config/inventoryhud-client.toml"
+hash = "ba14990d486240f8ad4b2e314938e67ee0ad750b85c30d28a96062000c0148be"
 
 [[files]]
 file = "config/jackseconomy_prices.json"
@@ -13730,7 +13734,7 @@ hash = "de86b5ca382d86d379bf3fd30336ceab6f2f83faa76302e49c17ff87697c685c"
 
 [[files]]
 file = "kubejs/data/tconstruct/recipes/tools/modifier/upgrade/abilities_global_traveler.json"
-hash = "6c4e78eb142f515c1a0d5225e0dcea2639d2d1794f6dff11a7295eecc7fc8c43"
+hash = "9ac54a6cdaa1a6cd504d7333583c77b1cb6e5147279a17f5c099cca02b816bc1"
 
 [[files]]
 file = "kubejs/data/tconstruct/recipes/tools/modifier/upgrade/upgrades_fortification.json"
@@ -14774,7 +14778,7 @@ hash = "72300efe9fc9a906eb8de7dd8f449a720eeac33ea7d08ba2ddb483585dcd7caa"
 
 [[files]]
 file = "kubejs/server_scripts/src/avaritia.js"
-hash = "0f673327ce9bab6d08ded1e7f5d87fe7849ffac3cd103c92e9bb3e93b0947211"
+hash = "3f8f4710bf56719ba7fffc6b21735aec42ef5b3512d5945de8cc1b6794a4d76a"
 
 [[files]]
 file = "kubejs/server_scripts/src/bio.js"
@@ -14914,7 +14918,7 @@ hash = "9e41b6faf04df20b84ccee29a2a9d83aaf2c0adee85b2c308a2f7751466bb45f"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/PlatinumChain.js"
-hash = "2e15c67bad07cafac3983d6b36bd9f990c448be5ab588106c8ab60ecb86c8d7e"
+hash = "2d2c0d4fdcee5ab132663abe70c1990916e30cdd1e0959a786526ffc6dfdf6d5"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/RareearthChain.js"
@@ -15202,7 +15206,7 @@ hash = "97bb7d67dd8f7cea00220344d98a13da84a4f9acdb39af4fc694bf9fee9b1369"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item_register.js"
-hash = "3b7c7ccf81674f71b0c3828844de54682b8e04fca2e6d581157a143c203ba556"
+hash = "82a3eefc220e1b73543bff9b284b5193a89035cd509b9fb92dd9e3fb36450c5b"
 
 [[files]]
 file = "kubejs/startup_scripts/src/tconstruct_modifiers_register.js"
@@ -16389,7 +16393,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "9a9588551b0727a913843c62733f17dc761a0a0ac9b7d5f15f95da917cb562aa"
+hash = "4aab777d772a0ccc9c451997ee57df8ea4044f686f6c9f449937ad6b6282627d"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"

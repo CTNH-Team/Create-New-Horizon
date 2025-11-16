@@ -3,7 +3,7 @@
 	"allow_crystal": false,
 	"amount_per_item": 1,
 	"input": {
-		"item": "ars_nouveau:scryer_scroll"
+		"item": "ars_nouveau:stable_warp_scroll"
 	},
 	"level": {
 		"max": 1

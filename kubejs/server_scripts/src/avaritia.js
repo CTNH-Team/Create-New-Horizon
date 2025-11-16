@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
         'avaritia:extreme_crafting_table'
     ])
     event.recipes.avaritia.shaped_table(2,
-        Item.of('ctnhcore:galaxy_meatball', 1), [
+        Item.of('ctnhcore:galaxy_meatball', 4), [
             "ABCDE",
             "FGHIJ",
             "KLMNO",
@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
             Y: 'minecraft:mutton'
         })
     event.recipes.avaritia.shaped_table(2,
-        Item.of('ctnhcore:primary_stew', 1), [
+        Item.of('ctnhcore:primary_stew', 2), [
             "ABCDE",
             "FGHIJ",
             "KLMNO",
@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
             "PQRST",
             "UVWXY"
         ], {
-            A: Item.of('apotheosis:gem', '{affix_data:{rarity:"apotheosis:ancient"},gem:"apotheosis:core/warlord"}'),
+            A: Item.of('apotheosis:gem', '{affix_data:{rarity:"apotheosis:ancient"},gem:"apotheosis:core/warlord"}').weakNBT(),
             B: 'minecraft:totem_of_undying',
             C: 'biomancy:bio_lantern_blue',
             D: Item.of('gtceu:damascus_steel_wrench', '{Damage:0,DisallowContainerItem:0b,GT.Behaviours:{Mode:2b},GT.Tool:{AttackDamage:5.0f,AttackSpeed:-2.5f,DefaultEnchantments:[{id:"minecraft:fortune",lvl:3s}],HarvestLevel:3,MaxDamage:1023,ToolSpeed:10.0f},HideFlags:2}'),
@@ -97,7 +97,7 @@ ServerEvents.recipes(event => {
             G: 'deep_aether:sun_core',
             H: 'minecraft:heart_of_the_sea',
             I: 'deep_aether:aerwhale_saddle',
-            J: 'tconstruct:manyullyn_block',
+            J: Item.of('tconstruct:large_plate', '{Material:"tconstruct:manyullyn"}').weakNBT(),
             K: 'cataclysm:cursed_bow',
             L: 'kubejs:platinum_metal_catalyst_shard1',
             M: 'ctnhcore:primary_stew',

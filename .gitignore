@@ -129,3 +129,4 @@ config/*
 !config/sophisticatedcore-common.toml
 !config/alexsmobs.toml
 !config/tconstruct-common.toml
+!config/inventoryhud-client.toml

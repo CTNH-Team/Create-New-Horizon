@@ -702,7 +702,13 @@
 			id: "08293EB6C7A5D780"
 			tasks: [{
 				id: "2281339F2E085322"
-				item: "tconstruct:manyullyn_block"
+				item: {
+					Count: 1
+					id: "tconstruct:large_plate"
+					tag: {
+						Material: "tconstruct:manyullyn"
+					}
+				}
 				type: "item"
 			}]
 			x: 67.0d
