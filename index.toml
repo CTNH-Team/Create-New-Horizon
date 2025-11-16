@@ -1062,11 +1062,11 @@ hash = "2dbea31627c614c6577539dc6a2b00331177518e54f888c4dfab682c20a8e052"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/74D640CFCA75E891.snbt"
-hash = "32f1f7e879c53d7cc8aeb9e363d95879e83ac9f2c7f1417c9fadd116e003cdad"
+hash = "59f033667c3d3e6632b35b338c69169dc9f9828fa6b397b3f95f99ac83e9db39"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "c222ad155f0676a38f4ecc848839126c3a4428b24646117d990c86e140f84c93"
+hash = "fb410e8c981bc362b2650c20a9beaace680fd3645653858c421d69efae2d40a0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
@@ -13730,7 +13730,7 @@ hash = "de86b5ca382d86d379bf3fd30336ceab6f2f83faa76302e49c17ff87697c685c"
 
 [[files]]
 file = "kubejs/data/tconstruct/recipes/tools/modifier/upgrade/abilities_global_traveler.json"
-hash = "490b98e3664e6d25d1dc7726b414cf8b770847d7a0c7b932e418bb5c21311cd6"
+hash = "6c4e78eb142f515c1a0d5225e0dcea2639d2d1794f6dff11a7295eecc7fc8c43"
 
 [[files]]
 file = "kubejs/data/tconstruct/recipes/tools/modifier/upgrade/upgrades_fortification.json"
@@ -14774,7 +14774,7 @@ hash = "72300efe9fc9a906eb8de7dd8f449a720eeac33ea7d08ba2ddb483585dcd7caa"
 
 [[files]]
 file = "kubejs/server_scripts/src/avaritia.js"
-hash = "6c8a6aab4147dc0fb20c1f733a99a84a9fec46769a36d3a4c1e99eac17698f97"
+hash = "0f673327ce9bab6d08ded1e7f5d87fe7849ffac3cd103c92e9bb3e93b0947211"
 
 [[files]]
 file = "kubejs/server_scripts/src/bio.js"
@@ -15118,7 +15118,7 @@ hash = "b7fcc452c03922fcdc1f084c8fea72e545aa001d1fa599f86b4cc97a0562f373"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/modiifiers/global_traveler.js"
-hash = "51049d28395b21d3d2b727df3bd6f45cd24e5d5dab046c5c62f8747876e6368e"
+hash = "c6134472d0d00eae605f81b6716f6161c4b13156aa786c383fded6337f7790f4"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/modiifiers/snowcity.js"
@@ -15206,7 +15206,7 @@ hash = "3b7c7ccf81674f71b0c3828844de54682b8e04fca2e6d581157a143c203ba556"
 
 [[files]]
 file = "kubejs/startup_scripts/src/tconstruct_modifiers_register.js"
-hash = "78d7b9ffc1255af83b8a15a3736f7f71e2851da78cb8dd58b9027bda97d84061"
+hash = "25bff30f2a479baebbd9eec5300166e5e6c8f21ef1a7aabe1aaac97f2824909d"
 
 [[files]]
 file = "kubejs/startup_scripts/src/test.js"
