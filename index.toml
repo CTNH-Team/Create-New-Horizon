@@ -1165,6 +1165,10 @@ file = "config/gtceu.yaml"
 hash = "ffdfb161b252fcfc0715b8b3c47660966c0fcd9aaf1afd145f29e98342bd83a7"
 
 [[files]]
+file = "config/inventoryhud-client.toml"
+hash = "ba14990d486240f8ad4b2e314938e67ee0ad750b85c30d28a96062000c0148be"
+
+[[files]]
 file = "config/jackseconomy_prices.json"
 hash = "7dcf19795048ffef9f6bd6b8c8bb8aa1c164ab6871cec3888bb0de0a0060f0b1"
 
@@ -14774,7 +14778,7 @@ hash = "72300efe9fc9a906eb8de7dd8f449a720eeac33ea7d08ba2ddb483585dcd7caa"
 
 [[files]]
 file = "kubejs/server_scripts/src/avaritia.js"
-hash = "b3467f5bac52a50bfaeee86fff0c51bf395a7a5deb248e2a75a47bc5b8e812af"
+hash = "3f8f4710bf56719ba7fffc6b21735aec42ef5b3512d5945de8cc1b6794a4d76a"
 
 [[files]]
 file = "kubejs/server_scripts/src/bio.js"
@@ -15202,7 +15206,7 @@ hash = "97bb7d67dd8f7cea00220344d98a13da84a4f9acdb39af4fc694bf9fee9b1369"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item_register.js"
-hash = "3b7c7ccf81674f71b0c3828844de54682b8e04fca2e6d581157a143c203ba556"
+hash = "82a3eefc220e1b73543bff9b284b5193a89035cd509b9fb92dd9e3fb36450c5b"
 
 [[files]]
 file = "kubejs/startup_scripts/src/tconstruct_modifiers_register.js"
@@ -16389,7 +16393,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "9a9588551b0727a913843c62733f17dc761a0a0ac9b7d5f15f95da917cb562aa"
+hash = "4aab777d772a0ccc9c451997ee57df8ea4044f686f6c9f449937ad6b6282627d"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"

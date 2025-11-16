@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
         'avaritia:extreme_crafting_table'
     ])
     event.recipes.avaritia.shaped_table(2,
-        Item.of('ctnhcore:galaxy_meatball', 1), [
+        Item.of('ctnhcore:galaxy_meatball', 4), [
             "ABCDE",
             "FGHIJ",
             "KLMNO",
@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
             Y: 'minecraft:mutton'
         })
     event.recipes.avaritia.shaped_table(2,
-        Item.of('ctnhcore:primary_stew', 1), [
+        Item.of('ctnhcore:primary_stew', 2), [
             "ABCDE",
             "FGHIJ",
             "KLMNO",

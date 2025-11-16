@@ -268,6 +268,22 @@ ItemEvents.modification(event => {
             })
         })
     })
+    event.modify('ctnhcore:primary_stew', item => {
+        item.setFoodProperties(food => {
+            food.eaten(( /**@type {Internal.FoodEatenEventJS}*/ eat) => {
+                eat.player.addEffect(new Internal.MobEffectInstance('minecraft:regeneration', 600, 1), true)
+                return true
+            })
+        })
+    })
+    event.modify('ctnhcore:galaxy_meatball', item => {
+        item.setFoodProperties(food => {
+            food.eaten(( /**@type {$FoodEatenEventJS}*/ eat) => {
+                eat.player.addEffect(new Internal.MobEffectInstance('minecraft:regeneration', 600, 1), true)
+                return true
+            })
+        })
+    })
     event.modify('tomeofblood:living_mage_hood', item => {
         item.setArmorProtection(4)
         item.setArmorToughness(3)
