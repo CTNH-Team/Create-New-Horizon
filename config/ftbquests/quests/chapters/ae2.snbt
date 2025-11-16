@@ -1906,6 +1906,19 @@
 			x: 21.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["7A25DAE6AFF4FF80"]
+			description: ["将其接入AE网络即可检测或提交库存中的物品/流体来完成FTB任务。检测器与放置其的玩家所在的FTB队伍绑定，检测器会自动检测库存物品来完成不消耗的任务。队伍成员在任务界面主动提交时，会优先消耗ME库存中的物品/流体。 "]
+			id: "15ECB84AB1215CF2"
+			subtitle: "接入AE网络后可以自动检测任务物品"
+			tasks: [{
+				id: "20726F83C293BEFF"
+				item: "ae2_ftbquest_detector:me_quests_detector"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
 	]
 	title: "{ftbquests.chapter.ae2.title}"
 }

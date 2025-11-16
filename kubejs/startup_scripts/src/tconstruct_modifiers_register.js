@@ -42,6 +42,6 @@ TConJSEvents.modifierRegistry((event) => {
 })
 
 StartupEvents.postInit(event => {
-    modifiers_upgrade(event, "global_traveler", 1, 1, 'ae2:quantum_entangled_singularity', 1, 'harvest', 'abilities', 1);
+    modifiers_upgrade(event, "global_traveler", 1, 1, 'ars_nouveau:stable_warp_scroll', 1, 'harvest', 'abilities', 1);
     modifiers_upgrade(event, "fortification", 1, 1, 'twilightforest:fortification_scepter', 5, 'armor', "upgrades", 1);
 });

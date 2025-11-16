@@ -66,6 +66,9 @@ jobs:
           echo "Modpack Full Version: ${{ steps.generate_modpack_version.outputs.VERSION }}"
           echo "Minecraft Version: ${{ steps.read-minecraft.outputs.value }}"
           echo "Forge Version: ${{ steps.read-forge.outputs.value }}"
+      - name: 删除CTNH-Core.jar以避免冲突
+        run: |
+          rm -f mods/CTNH Core*.jar
 
   # 客户端相关任务（并行执行）
   client-tasks:
