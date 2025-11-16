@@ -18,7 +18,7 @@
 	quests: [
 		{
 			id: "65F13C0C2212FC05"
-			subtitle: "它不发电，只输出应力"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest7345718490026933253.subtitle}"
 			tasks: [{
 				id: "1055D7FCC33FEE5A"
 				item: "ctpp:kinetic_steam_turbine"
@@ -29,16 +29,16 @@
 		}
 		{
 			description: [
-				"符文分级："
-				"1级：火水地风"
-				"2级：四季"
-				"3级：七宗罪"
-				"4级：神话植物学符文"
-				"5级：CTNH符文（视域，扭曲，增殖，星光）"
-				"类星体符文单分一级"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2449581205973388892.description1}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2449581205973388892.description2}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2449581205973388892.description3}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2449581205973388892.description4}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2449581205973388892.description5}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2449581205973388892.description6}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2449581205973388892.description7}"
 			]
 			id: "21FEA920DE844E5C"
-			subtitle: "注意要同时消耗燃料和液态魔力，否则效率将除以5"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest2449581205973388892.subtitle}"
 			tasks: [{
 				id: "4878830137B81FDD"
 				item: "ctnhcore:mana_generator_turbine_tier1"
@@ -49,16 +49,16 @@
 		}
 		{
 			description: [
-				"符文分级："
-				"1级：火水地风"
-				"2级：四季"
-				"3级：七宗罪"
-				"4级：神话植物学符文"
-				"5级：CTNH符文（视域，扭曲，增殖，星光）"
-				"类星体符文单分一级"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest4684683121750874950.description1}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest4684683121750874950.description2}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest4684683121750874950.description3}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest4684683121750874950.description4}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest4684683121750874950.description5}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest4684683121750874950.description6}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest4684683121750874950.description7}"
 			]
 			id: "4103567A8D3A9B46"
-			subtitle: "注意要同时消耗燃料和液态魔力，否则效率将除以5"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4684683121750874950.subtitle}"
 			tasks: [{
 				id: "565AD9B1D06DA31D"
 				item: "ctnhcore:mana_generator_turbine_tier2"
@@ -69,16 +69,16 @@
 		}
 		{
 			description: [
-				"符文分级："
-				"1级：火水地风"
-				"2级：四季"
-				"3级：七宗罪"
-				"4级：神话植物学符文"
-				"5级：CTNH符文（视域，扭曲，增殖，星光）"
-				"类星体符文单分一级"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest193134195751128271.description1}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest193134195751128271.description2}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest193134195751128271.description3}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest193134195751128271.description4}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest193134195751128271.description5}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest193134195751128271.description6}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest193134195751128271.description7}"
 			]
 			id: "02AE26871BBA0CCF"
-			subtitle: "注意要同时消耗燃料和液态魔力，否则效率将除以5"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest193134195751128271.subtitle}"
 			tasks: [{
 				id: "4398844790CB30FB"
 				item: "ctnhcore:mana_generator_turbine_tier3"
@@ -89,16 +89,16 @@
 		}
 		{
 			description: [
-				"符文分级："
-				"1级：火水地风"
-				"2级：四季"
-				"3级：七宗罪"
-				"4级：神话植物学符文"
-				"5级：CTNH符文（视域，扭曲，增殖，星光）"
-				"类星体符文单分一级"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2320125474815176252.description1}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2320125474815176252.description2}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2320125474815176252.description3}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2320125474815176252.description4}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2320125474815176252.description5}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2320125474815176252.description6}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2320125474815176252.description7}"
 			]
 			id: "2032BDD3A8B16E3C"
-			subtitle: "注意要同时消耗燃料和液态魔力，否则效率将除以5"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest2320125474815176252.subtitle}"
 			tasks: [{
 				id: "068BD67372FB34AA"
 				item: "ctnhcore:mana_generator_turbine_tier4"
@@ -111,7 +111,7 @@
 			id: "3C15632B9697C37D"
 			tasks: [{
 				id: "64A12577E02E56F8"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest6.task_+7251118071835678456.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4329475655647871869.task.7251118071835678456.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -129,7 +129,7 @@
 		}
 		{
 			id: "3F133879B1E396A7"
-			subtitle: "经典发电"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4545038544273643175.subtitle}"
 			tasks: [{
 				id: "4CF994857BAF8A84"
 				item: "gtceu:lv_combustion"
@@ -150,7 +150,7 @@
 		}
 		{
 			id: "06B866E1C6CD3EA6"
-			subtitle: "经典发电2号"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest484250079831342758.subtitle}"
 			tasks: [{
 				id: "670FDB885917F891"
 				item: "gtceu:lv_gas_turbine"
@@ -211,7 +211,7 @@
 		}
 		{
 			id: "21742989261776EF"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest16.subtitle}"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest2410597369576388335.subtitle}"
 			tasks: [{
 				id: "4A866FC012AACA73"
 				item: "ctnhcore:water_power_station"
@@ -252,7 +252,7 @@
 		}
 		{
 			id: "335E38A11EE1269B"
-			subtitle: "这是什么神经病玩意x2"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest3701458208404088475.subtitle}"
 			tasks: [{
 				id: "6559C6AF806AF26E"
 				item: "ctnhcore:iv_naquadah_reactor"
@@ -263,7 +263,7 @@
 		}
 		{
 			id: "566474383668316E"
-			subtitle: "推荐使用富集硅岩发电"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest6225228369712656750.subtitle}"
 			tasks: [{
 				id: "253CF47EA78058F3"
 				item: "ctnhcore:luv_naquadah_reactor"
@@ -274,7 +274,7 @@
 		}
 		{
 			id: "276895EC6427C435"
-			subtitle: "这一步富集硅岩开始不太行了，试试超能"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest2839684407582245941.subtitle}"
 			tasks: [{
 				id: "7DE01BAF8C645A63"
 				item: "ctnhcore:zpm_naquadah_reactor"
@@ -307,7 +307,7 @@
 			id: "3D882DE9ACFD43EA"
 			tasks: [{
 				id: "536B45B8404BE1CB"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest26.task_+6010974785311072715.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4433844314799162346.task.6010974785311072715.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -317,7 +317,7 @@
 			id: "772551A724F97069"
 			tasks: [{
 				id: "6A0A6B2BC679BEB1"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest27.task_+7641037553545100977.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest8585358042973433961.task.7641037553545100977.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -327,7 +327,7 @@
 			id: "5275FB66FC08D1A1"
 			tasks: [{
 				id: "48139C25B960D001"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest28.task_+5193666481126166529.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest5941931703118909857.task.5193666481126166529.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -337,7 +337,7 @@
 			id: "6AAC4D8C7C7147AB"
 			tasks: [{
 				id: "34068A0143E04F57"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest29.task_+3748835477870890839.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest7686603929793152939.task.3748835477870890839.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -348,7 +348,7 @@
 			id: "187E4ADFF4648D64"
 			tasks: [{
 				id: "32EE4FBEE51C583A"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest30.task_+3669958427659753530.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest1764930429714206052.task.3669958427659753530.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -358,7 +358,7 @@
 			id: "3363C23E39C4AD1C"
 			tasks: [{
 				id: "2A8B911352BA8C2F"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest31.task_+3065703483534117935.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest3703016891141631260.task.3065703483534117935.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -368,7 +368,7 @@
 			id: "65EBA2AFB63D9C39"
 			tasks: [{
 				id: "2D85FD0B8C9499FE"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest32.task_+3280306129654290942.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest7344142492918193209.task.3280306129654290942.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -378,7 +378,7 @@
 			id: "037FDD26FC9E9788"
 			tasks: [{
 				id: "304D93636CA5DA20"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest33.task_+3480600142261115424.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest252163263672784776.task.3480600142261115424.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -386,16 +386,16 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest34.description1}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest34.description2}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest34.description3}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest34.description4}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest34.description5}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest34.description6}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest34.description7}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest6817421608917857325.description1}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest6817421608917857325.description2}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest6817421608917857325.description3}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest6817421608917857325.description4}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest6817421608917857325.description5}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest6817421608917857325.description6}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest6817421608917857325.description7}"
 			]
 			id: "5E9C58D5439EF42D"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest34.subtitle}"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest6817421608917857325.subtitle}"
 			tasks: [{
 				id: "53158C408FB3D0E5"
 				item: "ctnhcore:photovoltaic_power_station_energetic"
@@ -426,7 +426,7 @@
 		}
 		{
 			id: "676107235021E96F"
-			subtitle: "这是什么神经病玩意"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest7449243106897160559.subtitle}"
 			tasks: [{
 				id: "5285D731555F76E0"
 				item: "ctnhcore:ev_naquadah_reactor"
@@ -437,7 +437,7 @@
 		}
 		{
 			id: "73409534B2EB6BAD"
-			subtitle: "叠叠乐"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest8304801766443805613.subtitle}"
 			tasks: [{
 				id: "206922990FD52766"
 				item: "ctnhcore:wind_power_array"
@@ -480,7 +480,7 @@
 			id: "6E4976ECA4949FBE"
 			tasks: [{
 				id: "60457371B764CB97"
-				title: "UHV阶段"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest7947013776217513918.task.6937077733279452055.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -490,7 +490,7 @@
 			id: "4848EA3DE28F3D13"
 			tasks: [{
 				id: "1542A3D5578F5ABC"
-				title: "UEV阶段"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest5208670520568921363.task.1531966959951764156.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -500,7 +500,7 @@
 			id: "3812F83A4C26995D"
 			tasks: [{
 				id: "3EDE241FEA38FACD"
-				title: "UIV阶段"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4040564744974145885.task.4530097994673486541.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -510,7 +510,7 @@
 			id: "58873769DE7E102C"
 			tasks: [{
 				id: "7D1A0417E6B4D745"
-				title: "UXV阶段"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest6379128325037494316.task.9014522104836839237.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -520,7 +520,7 @@
 			id: "57D31D5EA3E386DB"
 			tasks: [{
 				id: "4F4127290C163972"
-				title: "OPV阶段"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest6328434193699407579.task.5710888859732425074.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -530,7 +530,7 @@
 			id: "5C1B81DCC8CE6672"
 			tasks: [{
 				id: "3712558EA5114743"
-				title: "MAX阶段"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest6637041261122315890.task.3968328292809918275.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -560,7 +560,7 @@
 			id: "6FD7568D36079CBE"
 			tasks: [{
 				id: "3C32D2D569D91C40"
-				title: "关于魔力发电相关细节，建议去看魔力多方块"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest8059005222699637950.task.4337761205156912192.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -568,7 +568,7 @@
 		}
 		{
 			id: "4F8CBD1FE34B4A4D"
-			subtitle: "烧石头发电"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest5732164370390796877.subtitle}"
 			tasks: [{
 				id: "16F7CEDB76D72832"
 				item: "ctnhcore:nanogenetor"
@@ -579,7 +579,7 @@
 		}
 		{
 			id: "74427C7A3AFB782C"
-			subtitle: "消耗电力来发电，这很河里"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest8377395121279957036.subtitle}"
 			tasks: [
 				{
 					id: "1C3C514998AD5FED"
@@ -597,7 +597,7 @@
 		}
 		{
 			id: "6AD203106343C632"
-			subtitle: "终极魔力发电"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest7697218082049345074.subtitle}"
 			tasks: [{
 				id: "3FFB6B7882F4D42D"
 				item: "ctnhcore:eye_of_quasar"
@@ -671,16 +671,16 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.luv.quest36.subtitle}"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4650484246474051722.subtitle}"
 			tasks: [{
 				id: "1D67A2915C631403"
 				item: "gtceu:plasma_large_turbine"
 				type: "item"
 			}]
-			title: "用以太就能发100W电并省400W电("
+			title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4650484246474051722.title}"
 			x: 12.0d
 			y: 7.0d
 		}
 	]
-	title: "如何产应力/发电"
+	title: "{ftbquests.chapter.15B8D9F4A2A19BFA.title}"
 }

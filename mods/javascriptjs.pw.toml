@@ -1,12 +1,13 @@
 name = "JavaScriptJS"
-filename = "JavaScriptJS-2001-1.0.3"
+filename = "JavaScriptJS-2001-1.0.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
 hash = "ea6930c226929c0f65c0d5a3f74b63ea4e0958bd"
-url = "https://edge.forgecdn.net/files/6837/807/JavaScriptJS-2001-1.0.3.jar"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
 file-id = 6837807
 project-id = 1238318

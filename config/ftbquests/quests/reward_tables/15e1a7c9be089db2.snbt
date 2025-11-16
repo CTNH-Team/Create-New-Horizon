@@ -15,5 +15,5 @@
 		{ item: "farmersdelight:cod_roll" }
 		{ count: 2, item: "ends_delight:chorus_fruit_pie" }
 	]
-	title: "食物"
+	title: "{ftbquests.loot_table.1576725829474885042.title}"
 }

@@ -37,14 +37,14 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest1.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest1.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest2498357656835315084.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest2498357656835315084.description2}"
 			]
 			id: "22ABF30D518BD58C"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest1.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest2498357656835315084.subtitle}"
 			tasks: [{
 				id: "6A77E25CAB924BFF"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest1.task_+7671849377892289535.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest2498357656835315084.task.7671849377892289535.title}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -52,14 +52,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest2.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest2.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest675134602371654864.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest675134602371654864.description2}"
 			]
 			id: "095E8F5805EFE4D0"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest2.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest675134602371654864.subtitle}"
 			tasks: [{
 				id: "2389CFC195589D70"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest2.task_+2560806293478088048.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest675134602371654864.task.2560806293478088048.title}"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -67,14 +67,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest3.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest3.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest5153549345015092020.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest5153549345015092020.description2}"
 			]
 			id: "478515D31A125334"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest3.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest5153549345015092020.subtitle}"
 			tasks: [{
 				id: "3F5150BE598336CB"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest3.task_+4562516675978802891.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest5153549345015092020.task.4562516675978802891.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -82,26 +82,26 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest4.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest5794442366988047125.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest5794442366988047125.description2}"
 			]
 			id: "5069FEA1EBCBD315"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest4.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest5794442366988047125.subtitle}"
 			tasks: [{
 				id: "4BC5FA5A8A142EF1"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest4.task_+5460045390027173617.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest5794442366988047125.task.5460045390027173617.title}"
 				type: "checkmark"
 			}]
 			x: -0.5d
 			y: -4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.596370001FE6E99B.quest5.description1}"]
+			description: ["{ftbquests.chapter.596370001FE6E99B.quest4223876164748055831.description1}"]
 			id: "3A9E38FE270C1517"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest5.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest4223876164748055831.subtitle}"
 			tasks: [{
 				id: "207C44B7DD790F74"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest5.task_+2340821462811217780.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest4223876164748055831.task.2340821462811217780.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -109,16 +109,16 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest6.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest6.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest6.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest2423009108166031517.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest2423009108166031517.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest2423009108166031517.description3}"
 				""
 			]
 			id: "21A041F23BC5B89D"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest6.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest2423009108166031517.subtitle}"
 			tasks: [{
 				id: "266D66828F20DE07"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest6.task_+2768982056835800583.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest2423009108166031517.task.2768982056835800583.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -126,18 +126,18 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest7.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7.description5}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7.description6}"
+				"{ftbquests.chapter.596370001FE6E99B.quest314194686858561249.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest314194686858561249.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest314194686858561249.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest314194686858561249.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest314194686858561249.description5}"
+				"{ftbquests.chapter.596370001FE6E99B.quest314194686858561249.description6}"
 			]
 			id: "045C3E672C8506E1"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest314194686858561249.subtitle}"
 			tasks: [{
 				id: "08A20B7A74665A88"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest7.task_+622072319097330312.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest314194686858561249.task.622072319097330312.title}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -145,26 +145,26 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest8.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest8.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7344291059559268913.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7344291059559268913.description2}"
 			]
 			id: "65EC29CE941B8231"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest8.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7344291059559268913.subtitle}"
 			tasks: [{
 				id: "3FD99E175CCA6832"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest8.task_+4600882317513877554.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest7344291059559268913.task.4600882317513877554.title}"
 				type: "checkmark"
 			}]
 			x: -4.5d
 			y: -2.5d
 		}
 		{
-			description: ["{ftbquests.chapter.596370001FE6E99B.quest9.description1}"]
+			description: ["{ftbquests.chapter.596370001FE6E99B.quest2181636229111653474.description1}"]
 			id: "1E46BA977152A462"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest9.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest2181636229111653474.subtitle}"
 			tasks: [{
 				id: "5908E87A0588E354"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest9.task_+6415633279965782868.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest2181636229111653474.task.6415633279965782868.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -172,17 +172,17 @@
 		}
 		{
 			description: [
-				"    当机器的电压等级高于配方所需的电压等级时，将会触发&e超频&r机制，消耗额外的电力来加快配方运行。每高出一级，触发一次超频。"
-				"    常见的超频是&b有损超频&r，机器每tick消耗的EU提高4倍，但允许时间只缩短一半。以&bMV&r机器运行耗时10秒的&7LV&r配方为例，当触发有损超频时，机器的耗电从1A&7LV&r提高至1A&bMV&r，是配方所需的4倍，配方时间缩短至5秒，相当于速度变为原本的2倍。在这种情况下，执行该配方消耗的总EU变为了原本的两倍，所以是“有损”。"
-				"    某些情况下可以触发&a无损超频&r，耗电提高4倍且运行时间变为原本的1/4，此时执行配方的总EU消耗不会增加，所以是“无损”。具有无损超频特性的机器会在自身描述中标注。"
-				"    触发多次超频时，累乘计算。假设使用&5EV&r机器运行&7L&rV配方，触发三次有损超频，则每tick耗电变为原本的4x4x4=64倍，配方时间缩短至原本的1/(2x2x2)=1/8。"
-				"    &b特别说明&r：电压等级为&8ULV&r的配方，计算超频时固定减少一次。"
+				"{ftbquests.chapter.596370001FE6E99B.quest252409897254743896.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest252409897254743896.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest252409897254743896.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest252409897254743896.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest252409897254743896.description5}"
 			]
 			id: "0380BD76D7A96F58"
-			subtitle: "使劲超"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest252409897254743896.subtitle}"
 			tasks: [{
 				id: "254299460AE15C49"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest11.task_+2684876853975538761.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest252409897254743896.task.2684876853975538761.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -190,14 +190,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest12.description1}"
-				"    只有HV以上的机器执行研磨配方才有副产物，粉碎工厂无副产物"
+				"{ftbquests.chapter.596370001FE6E99B.quest8656289896125765131.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest8656289896125765131.description2}"
 			]
 			id: "782151CC2B61160B"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest12.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest8656289896125765131.subtitle}"
 			tasks: [{
 				id: "677C0A38D1E70213"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest12.task_+7456846322174722579.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest8656289896125765131.task.7456846322174722579.title}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -205,14 +205,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest13.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest13.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest1251750556740328569.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest1251750556740328569.description2}"
 			]
 			id: "115F1C7FD1E79C79"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest13.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest1251750556740328569.subtitle}"
 			tasks: [{
 				id: "260B52B84D28856C"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest13.task_+2741375749707040108.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest1251750556740328569.task.2741375749707040108.title}"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -220,15 +220,15 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest14.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest14.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest14.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest3774704941794535327.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest3774704941794535327.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest3774704941794535327.description3}"
 			]
 			id: "346272253393279F"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest14.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest3774704941794535327.subtitle}"
 			tasks: [{
 				id: "053633B1AAC908ED"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest14.task_+375544457099544813.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest3774704941794535327.task.375544457099544813.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -236,19 +236,19 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest15.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest15.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest15.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest15.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest15.description5}"
-				"{ftbquests.chapter.596370001FE6E99B.quest15.description6}"
-				"{ftbquests.chapter.596370001FE6E99B.quest15.description7}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7743383775822552033.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7743383775822552033.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7743383775822552033.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7743383775822552033.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7743383775822552033.description5}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7743383775822552033.description6}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7743383775822552033.description7}"
 			]
 			id: "6B760684956D1BE1"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest15.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7743383775822552033.subtitle}"
 			tasks: [{
 				id: "06169705E3B3B6EC"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest15.task_+438704065266038508.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest7743383775822552033.task.438704065266038508.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -256,31 +256,31 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest16.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest16.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest16.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest16.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest16.description5}"
-				"{ftbquests.chapter.596370001FE6E99B.quest16.description6}"
-				"{ftbquests.chapter.596370001FE6E99B.quest16.description7}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7588076738544766732.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7588076738544766732.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7588076738544766732.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7588076738544766732.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7588076738544766732.description5}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7588076738544766732.description6}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7588076738544766732.description7}"
 			]
 			id: "694E4397215D8F0C"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest16.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7588076738544766732.subtitle}"
 			tasks: [{
 				id: "23D5A764F9AC759B"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest16.task_+2582154013494244763.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest7588076738544766732.task.2582154013494244763.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
 			y: 1.5d
 		}
 		{
-			description: ["{ftbquests.chapter.596370001FE6E99B.quest17.description1}"]
+			description: ["{ftbquests.chapter.596370001FE6E99B.quest7639889608121675619.description1}"]
 			id: "6A06571EE74A6F63"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest17.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7639889608121675619.subtitle}"
 			tasks: [{
 				id: "73AEFABF6318C55A"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest17.task_+8335875660217632090.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest7639889608121675619.task.8335875660217632090.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -288,15 +288,15 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest18.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest18.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest18.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest6014801748727178965.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest6014801748727178965.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest6014801748727178965.description3}"
 			]
 			id: "5378DE529B4826D5"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest18.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest6014801748727178965.subtitle}"
 			tasks: [{
 				id: "37492B461318B5BE"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest18.task_+3983762925354005950.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest6014801748727178965.task.3983762925354005950.title}"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -304,25 +304,25 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest19.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest19.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest19.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest19.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest1546448614721738758.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest1546448614721738758.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest1546448614721738758.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest1546448614721738758.description4}"
 			]
 			id: "157616D257E25806"
-			subtitle: "当心终端乱放仓室"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest1546448614721738758.subtitle}"
 			tasks: [{
 				id: "6BBC98D7EA0A55A3"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest19.task_+7763247910791828899.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest1546448614721738758.task.7763247910791828899.title}"
 				type: "checkmark"
 			}]
 			x: -4.5d
 			y: 1.5d
 		}
 		{
-			description: ["{ftbquests.chapter.596370001FE6E99B.quest20.description1}"]
+			description: ["{ftbquests.chapter.596370001FE6E99B.quest9207313940996619147.description1}"]
 			id: "7FC6F33F349AFB8B"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest20.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest9207313940996619147.subtitle}"
 			tasks: [{
 				id: "5FFB5BE2547D43DA"
 				item: {
@@ -347,22 +347,22 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.596370001FE6E99B.quest20.title}"
+			title: "{ftbquests.chapter.596370001FE6E99B.quest9207313940996619147.title}"
 			x: 3.5d
 			y: 1.5d
 		}
 		{
 			description: [
-				"    与使用&2FE&r作为能源的大部分科技模组不同，格雷机器使用的能源是GTEU，简称&eEU&r。"
-				"    与现实类似，EU在传输过程中存在电压与电流的概念，单位分别是伏特（简称&eV&r）与安培（简称&eA&r），1V 1A的电流在1tick内传输的电能为1EU（tick是我的世界基本时间单位，一般情况下1秒为20tick，简称t）。"
-				"    EU可以自行转换为FE，故可以直接向FE机器提供EU来使其工作。"
-				"    FE需要通过转换器转换成EU才能供GT机器使用，&4本整合包已禁用LV等级以上的转化器&r。   "
+				"{ftbquests.chapter.596370001FE6E99B.quest8993475002783561993.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest8993475002783561993.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest8993475002783561993.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest8993475002783561993.description4}"
 			]
 			id: "7CCF3DDD9544F909"
-			subtitle: "这是什么，就不能让我们用正常的电吗"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest8993475002783561993.subtitle}"
 			tasks: [{
 				id: "71C7653A29E1B239"
-				title: "GTEU"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest8993475002783561993.task.8198632947136442937.title}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -370,41 +370,41 @@
 		}
 		{
 			description: [
-				"    格雷科技依据电压大小将电压划分为若干个等级，每一级电压大小是上一级的4倍，依次为："
-				"    &8ULV&r: 8V"
-				"    &7LV&r:  32V"
-				"    &bMV&r： 128V"
-				"    &6HV&r： 512V"
-				"    &dEV&r： 2,048V"
-				"    &9IV&r:   8,192V"
-				"    &dLuV&r: 32,768V"
-				"    &cZPM&r: 131,072V"
-				"    &2UV&r:   524,288V"
-				"    &4UHV&r: 2,097,152V"
-				"    ......"
-				"    电力机器都有对应的电压等级，向机器通入大于对应等级的电压会让机器爆炸。"
+				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description5}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description6}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description7}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description8}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description9}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description10}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description11}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description12}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description13}"
 			]
 			id: "39CF9637DAECD9E2"
-			subtitle: "boom！"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.subtitle}"
 			tasks: [{
 				id: "164C27B8057B10BC"
 				type: "checkmark"
 			}]
-			title: "GT电压"
+			title: "{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.title}"
 			x: -4.5d
 			y: -0.5d
 		}
 		{
 			description: [
-				"    需求电力的格雷科技配方都有对应的&e电压等级&r，可通过jei配方页面右下角的电压或边框颜色来分辨。一般情况下，当机器的电压等级低于配方所需电压时，机器&4无法&r运行对应配方，即使机器有足够的EU。"
-				"    对于单方块机器（后文简称&b小机器&r），其等级就是描述中的输入电压等级。"
-				"    对于多方块机器（后文简称&b大机器&r），其等级由组成多方块结构的能源仓的等级决定。有多个不同等级能源仓时，以最高的为准。"
+				"{ftbquests.chapter.596370001FE6E99B.quest8514042269129714865.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest8514042269129714865.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest8514042269129714865.description3}"
 			]
 			id: "7627F4559E232CB1"
-			subtitle: "等级森严"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest8514042269129714865.subtitle}"
 			tasks: [{
 				id: "67F316843881B466"
-				title: "配方电压"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest8514042269129714865.task.7490355362386785382.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -412,16 +412,16 @@
 		}
 		{
 			description: [
-				"    一般情况下，单方块机器无法升压，只能通过更换更高电压等级的单方块机器来执行更高电压等级的配方。（本整合包中的生物机器可以升压，相关机制详见“血肉重铸”章节）"
-				"    &e重要&r：多方块机器具有&b双仓升压&r机制。如果多方块机器的结构允许&b两个&r能源仓，当多方块结构成型时，如果其结构中有两个相同等级的能源仓，那么该多方块的能够执行的配方电压等级将会提高一级。"
-				"    以电力高炉为例：当电力高炉结构中有两个&7LV&r能源仓时，电力高炉的配方等级将会被提高到&bMV&r，允许执行&bMV&r电压的配方。"
-				"   结构中只允许&b一个&r能源仓的多方块机器&d无法升压&r。"
+				"{ftbquests.chapter.596370001FE6E99B.quest4708001751819924210.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4708001751819924210.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4708001751819924210.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4708001751819924210.description4}"
 			]
 			id: "41562EA63324B2F2"
-			subtitle: "打破电压的桎梏"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest4708001751819924210.subtitle}"
 			tasks: [{
 				id: "3EAA6D92BEB4359E"
-				title: "升压"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest4708001751819924210.task.4515542053424477598.title}"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -429,17 +429,17 @@
 		}
 		{
 			description: [
-				" &e   配方电压&r：机器可执行配方的电压等级"
-				" &e   超频电压&r：机器计算配方超频次数的电压等级"
-				"    对于小机器来说，以上两者完全等同。"
-				"    对于大机器来说，如果使用了超过1A的能源仓，则&b情况会发生变化&r。配方电压由能源仓等级和双仓升压机制决定，超频电压由能源仓能够输入的EU/t决定。"
-				"    假设为一台大机器安装了一台16A&5EV&r能源仓，此时由于没有触发双仓升压，机器的配方电压依然是&5EV&r，无法运行更高电压等级的配方。但是机器能够输入的最大EU/t是16A&5EV&r，相当于1A&dLuV&r，故此时机器会按照&dLuV&r来计算配方超频次数，也就是说可以消耗16倍电将&5EV&r配方运行时间缩短到1/4。"
+				"{ftbquests.chapter.596370001FE6E99B.quest1963367102792904619.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest1963367102792904619.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest1963367102792904619.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest1963367102792904619.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest1963367102792904619.description5}"
 			]
 			id: "1B3F47FA45A8AFAB"
-			subtitle: "啊？这不是一个东西吗"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest1963367102792904619.subtitle}"
 			tasks: [{
 				id: "671B9B9945AA150A"
-				title: "配方电压与超频电压"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest1963367102792904619.task.7429703092878841098.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -447,18 +447,18 @@
 		}
 		{
 			description: [
-				"    &e配方(Recipe)&r是MC中极为重要的概念，也是MC的核心玩法。一般来说，一个配方包含以下几个关键要素："
-				" &b   输入（或原料）&r：配方所需的材料，例如合成钻石块所需的钻石，烧制牛排所需的生牛肉；"
-				" &b   输出（或产物）&r：配方运行之后的产出。"
-				" &b   处理时间&r：合成配方不需要时间来处理，熔炉和大多数GT机器需要时间来将输入转化为输出，&m所以GT机器本质都是熔炉。&r"
-				" &b   配方条件&r：配方运行所需的条件，例如有的CT搅拌配方需要烈焰人加热作为前提条件。从某种角度上来说条件也算是一种配方输入，但配方运行时不直接对其进行消耗。"
-				"    在发展科技的过程中，你将不断遇到新的原料、产物、配方条件和处理时间（？），接下来的任务将对其中的重点进行介绍。如果现在还看不懂，不妨之后遇到了再来看看。"
+				"{ftbquests.chapter.596370001FE6E99B.quest9153356474868873516.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest9153356474868873516.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest9153356474868873516.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest9153356474868873516.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest9153356474868873516.description5}"
+				"{ftbquests.chapter.596370001FE6E99B.quest9153356474868873516.description6}"
 			]
 			id: "7F074137A314B92C"
-			subtitle: "不是食谱"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest9153356474868873516.subtitle}"
 			tasks: [{
 				id: "6998ABB6A149E4B6"
-				title: "配方"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest9153356474868873516.task.7609020371320825014.title}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -466,14 +466,14 @@
 		}
 		{
 			description: [
-				" &e   物品（Item）&r是最常见的配方输入/输出，也是MC原版的唯一一种。你可以使用史蒂夫（或艾利克斯）的手来移动物品（即使是剧毒化学品、中子素），或者使用CT动力臂、GT物品管道、EIO物品管道等物流手段来自动化物品的物流。"
-				"    对于&b多方块机器&r，你需要通过&b输入总线&r输入物品，输出总线&b输出物品&r。"
+				"{ftbquests.chapter.596370001FE6E99B.quest2045702669297025016.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest2045702669297025016.description2}"
 			]
 			id: "1C63CBBD37847FF8"
-			subtitle: "塞满了"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest2045702669297025016.subtitle}"
 			tasks: [{
 				id: "7D27BB8E7D933A38"
-				title: "物品"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest2045702669297025016.task.9018382999499258424.title}"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -481,16 +481,16 @@
 		}
 		{
 			description: [
-				" &e   流体（Fluid）&r是模组中常见的配方输入/输出，流体的最小单位是mB（毫桶），1000mB=1B（桶）你需要通过容器来移动流体，例如桶、GT单元、超级缸等。使用CT/GT/EIO流体管道可以自动化输送流体。"
-				"    使用容器点击机器中的流体槽可以装入/倒出流体，&7超级缸也可以&r。自动化向机器输入流体时，当GT机器的一个流体槽装满某种流体后，就会拒绝继续输入这种流体，即使其他流体槽是空的。"
-				"    你需要通过输入仓/输出仓来为&b大机器&r输入/输出流体。"
-				"    当前版本AE系统原生支持流体，可以直接通过终端放入/取出或通过各种总线进行流体IO。&7&m（不需要流体总线，没有液滴，也不需要离散器）&r&r"
+				"{ftbquests.chapter.596370001FE6E99B.quest4473653554784609860.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4473653554784609860.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4473653554784609860.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4473653554784609860.description4}"
 			]
 			id: "3E159C34A519A644"
-			subtitle: "怎么倒不出来"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest4473653554784609860.subtitle}"
 			tasks: [{
 				id: "27827CFEEE743A47"
-				title: "流体"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest4473653554784609860.task.2846975348815706695.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -498,15 +498,15 @@
 		}
 		{
 			description: [
-				" &e   电力（GTEU）&r也是一种配方输入/输出，大部分机器配方消耗EU，发电机通过配方产生EU，你可以通过导线等手段输送EU。和之前的物品/流体不同，机器消耗EU不是在配方开始时一次性消耗，而是每tick进行一次消耗。"
-				"    如果你试图用然任何手段加速机器，那么机器消耗EU的速度也将加倍。而小机器由于存在输入电流限制（至多2A），加速太多会导致供电不足（一般来说超过两倍就会跳电）。将电池放在小机器的电池槽可以直接向机器提供电力，这种方式供电无速率限制，你可以尽情加速。"
-				"    你可以通过能源仓为&b大机器&r供电，动力仓输出发电机产生的电。"
+				"{ftbquests.chapter.596370001FE6E99B.quest8165520849618431891.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest8165520849618431891.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest8165520849618431891.description3}"
 			]
 			id: "7151C1F32F8D6F93"
-			subtitle: "这也是原料？"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest8165520849618431891.subtitle}"
 			tasks: [{
 				id: "0BC1499AE6F45E5D"
-				title: "电力"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest8165520849618431891.task.847039134570929757.title}"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -514,27 +514,27 @@
 		}
 		{
 			description: [
-				" &e   算力&r是一种较为特殊的配方输入，你最早可能在&eHV&r遇到需要算力的配方。算力以数字为单位。你可以将其当成另一种与电力类似的资源，但这种资源无法存储，必须实时请求，实时消耗。"
-				"    需求算力的配方会有&b最小算力需求&r，即每tick必须提供对应数量的算力才能使配方运行。"
-				"    可以通过光缆输送算力，如果是&b小机器&r，可以通过直接将产生算力和消耗算力的机器紧贴放置来传输算力。如果&b大机器&r，则需要使用算力数据源仓/靶仓来输出/输入算力，而且&4源仓和靶仓之间必须通过光缆链接&r，直接紧贴无法传输算力。"
+				"{ftbquests.chapter.596370001FE6E99B.quest5561472727473795565.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest5561472727473795565.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest5561472727473795565.description3}"
 			]
 			id: "4D2E51FACD1931ED"
-			subtitle: "抽象起来了"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest5561472727473795565.subtitle}"
 			tasks: [{
 				id: "517CBF14529B7D0A"
-				title: "算力"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest5561472727473795565.task.5871778108190457098.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
 			y: 3.5d
 		}
 		{
-			description: ["    以上四种是格雷科技原版的原料，本整合包还添加了多种自定义原料，包括营养、实体、应力等，在任务推进到相关机器时会有讲解。"]
+			description: ["{ftbquests.chapter.596370001FE6E99B.quest6664099028278230888.description1}"]
 			id: "5C7BA2C2208CBF68"
-			subtitle: "还多着呢"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest6664099028278230888.subtitle}"
 			tasks: [{
 				id: "79317F10BA1DF441"
-				title: "还有？"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest6664099028278230888.task.8732900862266831937.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d

@@ -39,13 +39,13 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "钢铁时代的证明"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest9040560212393632309.subtitle}"
 			tasks: [{
 				id: "1D632714EC01F7A6"
 				item: "ctpp:steel_mechanism"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.08AF6857D150C353.quest1.title}"
+			title: "{ftbquests.chapter.08AF6857D150C353.quest9040560212393632309.title}"
 			x: -2.0d
 			y: 0.0d
 		}
@@ -62,7 +62,7 @@
 		{
 			dependencies: ["2D138FB6F66ED4D5"]
 			id: "4A20A744ACDB0ABF"
-			subtitle: "很多种子都能变成种子油"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest5341453071461059263.subtitle}"
 			tasks: [{
 				id: "27A801A962148FFC"
 				item: "gtceu:seed_oil_bucket"
@@ -76,9 +76,15 @@
 				"7D76859D3E40A235"
 				"64694E06DCC27AE1"
 			]
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest50.description1}"]
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest7498187027826820853.description1}"]
 			id: "680EE95FED0F46F5"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest50.subtitle}"
+			rewards: [{
+				count: 3
+				id: "5B9F1C78CCD1554B"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest7498187027826820853.subtitle}"
 			tasks: [{
 				id: "0FE3911E3029D145"
 				item: "create:steam_engine"
@@ -104,14 +110,14 @@
 				"1385760305EE11D6"
 			]
 			id: "62BAC5BC588E4CAA"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest53.subtitle}"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest7114215974115364010.subtitle}"
 			tasks: [{
 				id: "3CD9D89EFFFDDA64"
 				item: "gtceu:magnetic_iron_ingot"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -120,9 +126,14 @@
 				"1407C9F660BC9038"
 			]
 			dependency_requirement: "one_completed"
-			description: [""]
 			id: "2D9F762371DEDF70"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest55.subtitle}"
+			rewards: [{
+				count: 6
+				id: "078D44B3D237F794"
+				item: "create_new_age:electrical_connector"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest3287476147610115952.subtitle}"
 			tasks: [
 				{
 					id: "18762930299222CA"
@@ -140,9 +151,14 @@
 		}
 		{
 			dependencies: ["41E48BCAEAD9D47E"]
-			description: ["1ALV和4ALV是唯二可以使用的两种转换器"]
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest6098072423107733063.description1}"]
 			id: "54A0B48F51F12647"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest56.subtitle}"
+			rewards: [{
+				id: "139E616ADE2C0E97"
+				item: "gtceu:lv_4a_energy_converter"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest6098072423107733063.subtitle}"
 			tasks: [{
 				id: "3F5BE8B5242E5FC9"
 				item: "gtceu:lv_1a_energy_converter"
@@ -205,16 +221,24 @@
 				"7441815510F49119"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest68.description1}"]
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest4748073610795144318.description1}"]
 			id: "41E48BCAEAD9D47E"
-			rewards: [{
-				count: 16
-				id: "52CA0458C327CBF5"
-				item: "kubejs:general_circuit_lv"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "52CA0458C327CBF5"
+					item: "kubejs:general_circuit_lv"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BCCC29AEF92CFD7"
+					table_id: 1370906070305640911L
+					type: "choice"
+				}
+			]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest68.subtitle}"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest4748073610795144318.subtitle}"
 			tasks: [{
 				id: "4642660A4797E594"
 				item: "gtceu:basic_electronic_circuit"
@@ -262,19 +286,27 @@
 		{
 			dependencies: ["3EFC30D1B3494B77"]
 			description: [
-				"{ftbquests.chapter.08AF6857D150C353.quest77.description1}"
-				"{ftbquests.chapter.08AF6857D150C353.quest77.description2}"
-				"{ftbquests.chapter.08AF6857D150C353.quest77.description3}"
+				"{ftbquests.chapter.08AF6857D150C353.quest1282354277855841005.description1}"
+				"{ftbquests.chapter.08AF6857D150C353.quest1282354277855841005.description2}"
+				"{ftbquests.chapter.08AF6857D150C353.quest1282354277855841005.description3}"
 			]
 			icon: "ctpp:kinetic_steam_turbine"
 			id: "11CBD66BE7CCCAED"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "162551D8AEA3417B"
-				table_id: 601634794626000726L
-				type: "random"
-			}]
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest77.subtitle}"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "162551D8AEA3417B"
+					table_id: 601634794626000726L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DA74EE043E2B34B"
+					table_id: 1370906070305640911L
+					type: "loot"
+				}
+			]
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest1282354277855841005.subtitle}"
 			tasks: [
 				{
 					id: "4C40156588431040"
@@ -323,7 +355,13 @@
 		{
 			dependencies: ["3EFC30D1B3494B77"]
 			id: "4ADE322F099F1C88"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest78.subtitle}"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C9536F231C5546D"
+				table_id: 1370906070305640911L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest5394804581242707080.subtitle}"
 			tasks: [{
 				id: "7ED1ABAE538B0BC5"
 				item: "ctnhcore:advanced_coke_oven"
@@ -335,7 +373,7 @@
 		{
 			dependencies: ["62BAC5BC588E4CAA"]
 			id: "13388DB5A507AB34"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest55.description1}"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest1385012696713767732.subtitle}"
 			tasks: [{
 				count: 12L
 				id: "5D54A22BD467C77B"
@@ -369,6 +407,12 @@
 		{
 			dependencies: ["3EFC30D1B3494B77"]
 			id: "20F1A65CC925BA92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25D106B6966707FD"
+				table_id: 1370906070305640911L
+				type: "random"
+			}]
 			tasks: [{
 				id: "43D7723E8AA739B8"
 				item: "ctnhcore:mechanical_mixer"
@@ -380,6 +424,12 @@
 		{
 			dependencies: ["3EFC30D1B3494B77"]
 			id: "2F56493CC7A0B409"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "613FF53AF56C6305"
+				table_id: 1370906070305640911L
+				type: "random"
+			}]
 			tasks: [{
 				id: "70E2952C1068F302"
 				item: "ctnhcore:mechanical_pressor"
@@ -391,6 +441,12 @@
 		{
 			dependencies: ["3EFC30D1B3494B77"]
 			id: "2667FDA7BF75AD5B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C7507EB5EA64CF3"
+				table_id: 1370906070305640911L
+				type: "random"
+			}]
 			tasks: [{
 				id: "707374B426943A86"
 				item: "ctnhcore:mechanical_lathe"
@@ -402,6 +458,12 @@
 		{
 			dependencies: ["3EFC30D1B3494B77"]
 			id: "6EBBF119E9F36BEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4157A527A13E226A"
+				table_id: 1370906070305640911L
+				type: "random"
+			}]
 			tasks: [{
 				id: "34AC2E8B87F4AFC2"
 				item: "ctnhcore:mechanical_centrifuge"
@@ -417,22 +479,30 @@
 				"13388DB5A507AB34"
 			]
 			description: [
-				"&4注意，这是一台产生FE电量的发电装置"
-				"需要将转换器将FE转换为EU以供格雷机器使用"
-				"如果你之后需要使用FE机器，可以直接接入任意电压的EU，EU能够自动转换为FE。"
+				"{ftbquests.chapter.08AF6857D150C353.quest6099158473157622276.description1}"
+				"{ftbquests.chapter.08AF6857D150C353.quest6099158473157622276.description2}"
+				"{ftbquests.chapter.08AF6857D150C353.quest6099158473157622276.description3}"
 			]
 			id: "54A490510D5FBA04"
-			rewards: [{
-				count: 32
-				id: "5E5DD8CED10318A7"
-				item: "gtceu:conductive_alloy_double_wire"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "5E5DD8CED10318A7"
+					item: "gtceu:conductive_alloy_double_wire"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FF209ACF214F7AB"
+					table_id: 601634794626000726L
+					type: "random"
+				}
+			]
 			size: 2.0d
-			subtitle: "这是一台通过磁力产生电力的机器"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest6099158473157622276.subtitle}"
 			tasks: [{
 				id: "29E3903D7F9732A1"
-				title: "第一台发电设备"
+				title: "{ftbquests.chapter.08AF6857D150C353.quest6099158473157622276.task.3018414769076384417.title}"
 				type: "checkmark"
 			}]
 			x: 7.0d
@@ -441,19 +511,19 @@
 		{
 			dependencies: ["7D76859D3E40A235"]
 			description: [
-				"    格雷科技多方块结构由3部分组成：主方块，仓室和结构方块。"
-				" &6   主方块&r（又称为多方块控制器）是多方块结构的核心，一般具有ui，可以查看多方块机器的工作状态；"
-				" &6   仓室&r是为多方块机器进行输入输出或执行其他功能的方块;"
-				" &6   结构方块&r是不具有其他功能，只为了形成多方块结构而存在的方块。"
-				"    通过主方块的jei页面可以看到多方块结构的指导，其中可以查看哪些位置的结构方块可以被替换成仓室。"
+				"{ftbquests.chapter.08AF6857D150C353.quest7699320380454641961.description1}"
+				"{ftbquests.chapter.08AF6857D150C353.quest7699320380454641961.description2}"
+				"{ftbquests.chapter.08AF6857D150C353.quest7699320380454641961.description3}"
+				"{ftbquests.chapter.08AF6857D150C353.quest7699320380454641961.description4}"
+				"{ftbquests.chapter.08AF6857D150C353.quest7699320380454641961.description5}"
 			]
 			id: "6AD97B17E0ECA129"
 			shape: "square"
 			size: 1.0d
-			subtitle: "很重要！"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest7699320380454641961.subtitle}"
 			tasks: [{
 				id: "1DFBF4F07F173929"
-				title: "多方块结构"
+				title: "{ftbquests.chapter.08AF6857D150C353.quest7699320380454641961.task.2160589760015841577.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -462,6 +532,12 @@
 		{
 			dependencies: ["3EFC30D1B3494B77"]
 			id: "4A7E0535E96D1CD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "215FF35F5048525B"
+				table_id: 1370906070305640911L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6624B34D59B2B174"
 				item: "ctnhcore:mechanical_sifter"
@@ -472,10 +548,16 @@
 		}
 		{
 			dependencies: ["3EFC30D1B3494B77"]
-			description: ["记得多放几个仓室哦~"]
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest7377297128064375563.description1}"]
 			id: "66616CA6C0C95B0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45382EFE76C49A6F"
+				table_id: 1370906070305640911L
+				type: "random"
+			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest96.subtitle}"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest7377297128064375563.subtitle}"
 			tasks: [{
 				id: "767215D7A25C05EF"
 				item: "ctnhcore:meadow"
@@ -487,19 +569,19 @@
 		{
 			dependencies: ["1DFBF4F07F173929"]
 			description: [
-				"在做出第一个多方块结构前，Yuriko需要告诉你一些关于‘仓室’的事情~"
-				"输入总线：向多方块结构输入物品，可以调整电路"
-				"输入仓：向多方块结构输入流体，可以调整电路"
-				"输出总线：从多方块结构输出物品"
-				"输出仓：从多方块结构输出流体"
-				"&7应力输入箱：向多方块结构输入应力"
-				"&7机械升级仓：CT大机器的核心仓室，没有他就运行不了配方"
-				"以上就是这这些仓室的介绍啦~这里没有提及到的会在LV任务提及到哦~"
+				"{ftbquests.chapter.08AF6857D150C353.quest4538556201696840567.description1}"
+				"{ftbquests.chapter.08AF6857D150C353.quest4538556201696840567.description2}"
+				"{ftbquests.chapter.08AF6857D150C353.quest4538556201696840567.description3}"
+				"{ftbquests.chapter.08AF6857D150C353.quest4538556201696840567.description4}"
+				"{ftbquests.chapter.08AF6857D150C353.quest4538556201696840567.description5}"
+				"{ftbquests.chapter.08AF6857D150C353.quest4538556201696840567.description6}"
+				"{ftbquests.chapter.08AF6857D150C353.quest4538556201696840567.description7}"
+				"{ftbquests.chapter.08AF6857D150C353.quest4538556201696840567.description8}"
 			]
 			id: "3EFC30D1B3494B77"
 			tasks: [{
 				id: "26C852833C644D77"
-				title: "仓室介绍"
+				title: "{ftbquests.chapter.08AF6857D150C353.quest4538556201696840567.task.2794574292390792567.title}"
 				type: "checkmark"
 			}]
 			x: 0.5d
