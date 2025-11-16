@@ -15213,10 +15213,6 @@ file = "kubejs/startup_scripts/src/test.js"
 hash = "93f58588561fb112e887dfe8490da98afd1f599c3e16a183b1f269b31a8b25bb"
 
 [[files]]
-file = "mods/JavaScriptJS-2001-1.0.3"
-hash = "bea433cf4a0f15a583863e4eba33ddbff974d703992fb3511c82931ef20587eb"
-
-[[files]]
 file = "mods/achievements-optimizer.pw.toml"
 hash = "821a8482e972a296f6e242d254631ffd7fe948652d041511a25d0fed3aec5272"
 metafile = true
