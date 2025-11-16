@@ -10,7 +10,7 @@
 		image: "botania:item/cosmetic_thinking_hand"
 		rotation: 0.0d
 		width: 10.0d
-		x: -7.5d
+		x: -8.0d
 		y: 2.0d
 	}]
 	order_index: 0
@@ -18,13 +18,13 @@
 	quests: [
 		{
 			id: "7310599945A8C3F8"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest1.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest8291225428822639608.subtitle}"
 			tasks: [{
 				id: "5C86A90F9A053934"
 				item: "create:brown_toolbox"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -65,7 +65,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest2.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest1535852446059520243.subtitle}"
 			tasks: [{
 				id: "0B7E013844217853"
 				item: {
@@ -75,7 +75,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -1.0d
 		}
 		{
@@ -85,7 +85,7 @@
 				item: "angelblockrenewed:angel_block"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
@@ -106,7 +106,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest4.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest3436220998271158616.subtitle}"
 			tasks: [{
 				id: "61EC645BB32B1B3C"
 				item: {
@@ -116,10 +116,10 @@
 						value: "functionalstorage:drawer"
 					}
 				}
-				title: "Any #functionalstorage:drawer"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest3436220998271158616.task.7056125061193472828.title}"
 				type: "item"
 			}]
-			title: "抽屉"
+			title: "{ftbquests.chapter.62876F01654DC6E9.quest3436220998271158616.title}"
 			x: 24.5d
 			y: 1.5d
 		}
@@ -135,7 +135,7 @@
 		}
 		{
 			id: "4D1AEA264246FA2B"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest6.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest5556010540356532779.subtitle}"
 			tasks: [{
 				id: "2EC5D75B93A25C5C"
 				item: "functionalstorage:fluid_1"
@@ -145,53 +145,54 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["354BCEEA324D9A1E"]
 			id: "02266C52DC0FAF30"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest7.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest154930340325994288.subtitle}"
 			tasks: [{
 				id: "6179386C5B4BFD71"
 				item: "gtceu:prospector.hv"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: 7.0d
 		}
 		{
 			id: "3B338C89D309368D"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest8.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest4265907795628996237.subtitle}"
 			tasks: [{
 				id: "1FC1D6CFB981C46C"
 				item: "botania:flower_bag"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: -3.0d
 		}
 		{
 			id: "67E66A346ABEC31F"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest9.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest7486788203911758623.subtitle}"
 			tasks: [{
 				id: "1560CEE45107FEE1"
 				item: "crafting_on_a_stick:crafting_table"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -3.0d
 		}
 		{
 			id: "504BA82ADEF39214"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest10.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest5785903048370131476.subtitle}"
 			tasks: [{
 				id: "44CBB437F443384B"
 				item: "botania:magnet_ring"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -2.0d
 		}
 		{
 			id: "48D15253D73D7DF9"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest11.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest5247065560910233081.subtitle}"
 			tasks: [{
 				id: "143C4136E7627814"
 				item: "functionalstorage:framed_1"
@@ -202,7 +203,7 @@
 		}
 		{
 			id: "010893752981D290"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest12.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest74471525268443792.subtitle}"
 			tasks: [{
 				id: "6778C5AF001D6E14"
 				item: {
@@ -217,23 +218,23 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: -3.0d
 		}
 		{
 			id: "1D6900B1EF6B2D74"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest13.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest2119225863880519028.subtitle}"
 			tasks: [{
 				id: "5A0650214CD831DE"
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -3.0d
 		}
 		{
 			id: "3A2655C3FED42A7F"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest14.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest4190130803597126271.subtitle}"
 			tasks: [{
 				id: "665237487F74FCEF"
 				item: {
@@ -248,96 +249,96 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: -1.0d
 		}
 		{
 			id: "52F49800A4AC4497"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest15.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest5977569733957665943.subtitle}"
 			tasks: [{
 				id: "6C6E2BB3058E8CF8"
-				title: "{ftbquests.chapter.62876F01654DC6E9.quest15.task_+7813230451426757880.title}"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest5977569733957665943.task.7813230451426757880.title}"
 				type: "checkmark"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["52F49800A4AC4497"]
 			id: "0CF1BA78424ABB95"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest16.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest932731623513439125.subtitle}"
 			tasks: [{
 				id: "1168E28614CD1CFD"
 				item: "artifacts:eternal_steak"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["52F49800A4AC4497"]
 			id: "1D90541157679351"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest17.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest2130295057203827537.subtitle}"
 			tasks: [{
 				id: "300082A534DE1410"
 				item: "artifacts:digging_claws"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["52F49800A4AC4497"]
 			id: "5A47F68ACCA13512"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest18.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest6505439262759007506.subtitle}"
 			tasks: [{
 				id: "44A31FCD91F90EE0"
 				item: "artifacts:cloud_in_a_bottle"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["52F49800A4AC4497"]
 			id: "2D26AF9CD120CC20"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest19.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest3253480868880108576.subtitle}"
 			tasks: [{
 				id: "6D62C8FC30E194F1"
 				item: "artifacts:kitty_slippers"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["52F49800A4AC4497"]
 			id: "0A8799058C0D5787"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest20.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest758743311338788743.subtitle}"
 			tasks: [{
 				id: "262C40F1D8F49568"
 				item: "artifacts:running_shoes"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["52F49800A4AC4497"]
 			id: "31A28C5AB0C2641D"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest21.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest3576575375226070045.subtitle}"
 			tasks: [{
 				id: "7F26943F8D8DED74"
 				item: "artifacts:anglers_hat"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["52F49800A4AC4497"]
 			id: "521C7F3709BC1A92"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest22.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest5916743884821240466.subtitle}"
 			tasks: [
 				{
 					id: "63A260C7CFCB57AC"
@@ -350,13 +351,14 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
+			x: 11.0d
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.62876F01654DC6E9.quest26.description1}"]
+			dependencies: ["3DA8CECF83D9749B"]
+			description: ["{ftbquests.chapter.62876F01654DC6E9.quest5640896050278613748.description1}"]
 			id: "4E487D122BC2C2F4"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest26.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest5640896050278613748.subtitle}"
 			tasks: [
 				{
 					id: "2D087D484E9C50E3"
@@ -395,19 +397,20 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 1.0d
 			y: 6.0d
 		}
 		{
+			dependencies: ["3DA8CECF83D9749B"]
 			description: [
-				"{ftbquests.chapter.62876F01654DC6E9.quest27.description1}"
-				"{ftbquests.chapter.62876F01654DC6E9.quest27.description2}"
-				"{ftbquests.chapter.62876F01654DC6E9.quest27.description3}"
-				"{ftbquests.chapter.62876F01654DC6E9.quest27.description4}"
-				"{ftbquests.chapter.62876F01654DC6E9.quest27.description5}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest5450399848499605073.description1}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest5450399848499605073.description2}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest5450399848499605073.description3}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest5450399848499605073.description4}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest5450399848499605073.description5}"
 			]
 			id: "4BA3B5C8E5A96E51"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest27.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest5450399848499605073.subtitle}"
 			tasks: [
 				{
 					id: "42D8F532F8F1A4AD"
@@ -503,17 +506,20 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 1.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["337BC9186C014A06"]
+			dependencies: [
+				"337BC9186C014A06"
+				"361E2687EA72F10B"
+			]
 			description: [
-				"{ftbquests.chapter.62876F01654DC6E9.quest28.description1}"
-				"{ftbquests.chapter.62876F01654DC6E9.quest28.description2}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest8637758993624558004.description1}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest8637758993624558004.description2}"
 			]
 			id: "77DF7C0A366D69B4"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest28.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest8637758993624558004.subtitle}"
 			tasks: [{
 				id: "40FEFBAD0C7D0514"
 				item: {
@@ -531,12 +537,13 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 6.0d
 		}
 		{
+			dependencies: ["361E2687EA72F10B"]
 			id: "079E580DEBE59896"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest29.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest548973021401290902.subtitle}"
 			tasks: [{
 				id: "5FCACE65A799400B"
 				item: {
@@ -563,12 +570,13 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: 6.0d
+			x: 5.0d
+			y: 8.0d
 		}
 		{
+			dependencies: ["354BCEEA324D9A1E"]
 			id: "01FF1DC87906AE75"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest30.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest143866459960290933.subtitle}"
 			tasks: [{
 				id: "302453A94A2C608E"
 				item: {
@@ -597,12 +605,13 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: 8.0d
 		}
 		{
+			dependencies: ["354BCEEA324D9A1E"]
 			id: "0A86E1B3B2AF9DEA"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest31.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest758541749171756522.subtitle}"
 			tasks: [{
 				id: "5033C8A80BEFDE1F"
 				item: {
@@ -626,23 +635,23 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 8.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			id: "74578688D5974E8A"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest32.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest8383317153630604938.subtitle}"
 			tasks: [{
 				id: "3ABBFEF5ACC587F5"
 				item: "create:goggles"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -2.0d
 		}
 		{
 			id: "01345F4AD0D11E47"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest33.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest86799067762466375.subtitle}"
 			tasks: [{
 				id: "6E8FFEA558CE97F6"
 				item: {
@@ -654,12 +663,12 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: -1.0d
 		}
 		{
 			id: "087D0FA645D19AC2"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest35.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest611662331202607810.subtitle}"
 			tasks: [{
 				id: "3AEE005942EA6B63"
 				item: {
@@ -669,16 +678,16 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["70EFD24480B0A725"]
-			description: ["{ftbquests.chapter.62876F01654DC6E9.quest36.description1}"]
+			description: ["{ftbquests.chapter.62876F01654DC6E9.quest2853626623814095682.description1}"]
 			id: "279A1E4B92095342"
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest36.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest2853626623814095682.subtitle}"
 			tasks: [{
 				id: "5AC43C704F438EDB"
 				item: "sophisticatedbackpacks:backpack"
@@ -689,9 +698,9 @@
 		}
 		{
 			dependencies: ["279A1E4B92095342"]
-			description: ["{ftbquests.chapter.62876F01654DC6E9.quest37.description1}"]
+			description: ["{ftbquests.chapter.62876F01654DC6E9.quest6093471391633392264.description1}"]
 			id: "54905BF233504288"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest37.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest6093471391633392264.subtitle}"
 			tasks: [{
 				id: "263F6EEA59B30231"
 				item: "sophisticatedbackpacks:iron_backpack"
@@ -701,14 +710,14 @@
 			y: 2.5d
 		}
 		{
-			description: ["{ftbquests.chapter.62876F01654DC6E9.quest38.description1}"]
+			description: ["{ftbquests.chapter.62876F01654DC6E9.quest540803832424828527.description1}"]
 			id: "0781523864DA0E6F"
 			rewards: [{
 				id: "74D0D0F825D7E269"
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest38.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest540803832424828527.subtitle}"
 			tasks: [{
 				id: "1BC427876BADB717"
 				item: "sophisticatedbackpacks:upgrade_base"
@@ -722,7 +731,7 @@
 			id: "3735FCA33E41C02D"
 			tasks: [{
 				id: "19DD7B9333240B22"
-				title: "{ftbquests.chapter.62876F01654DC6E9.quest39.task_+1863781692949662498.title}"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest3978363623906066477.task.1863781692949662498.title}"
 				type: "checkmark"
 			}]
 			x: 23.5d
@@ -915,7 +924,7 @@
 			id: "33C54DD646437EEE"
 			tasks: [{
 				id: "61D5802D4311F02B"
-				title: "{ftbquests.chapter.62876F01654DC6E9.quest55.task_+7049681723605512235.title}"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest3730473449043492590.task.7049681723605512235.title}"
 				type: "checkmark"
 			}]
 			x: 23.5d
@@ -1111,9 +1120,9 @@
 		{
 			dependencies: ["1A3BB6F4D606EF15"]
 			description: [
-				"{ftbquests.chapter.62876F01654DC6E9.quest73.description1}"
-				"{ftbquests.chapter.62876F01654DC6E9.quest73.description2}"
-				"{ftbquests.chapter.62876F01654DC6E9.quest73.description3}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest84990254944427107.description1}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest84990254944427107.description2}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest84990254944427107.description3}"
 			]
 			id: "012DF22FC3551C63"
 			rewards: [{
@@ -1124,7 +1133,7 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest73.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest84990254944427107.subtitle}"
 			tasks: [{
 				id: "024B3F6216FF2B74"
 				item: "sophisticatedbackpacks:netherite_backpack"
@@ -1135,9 +1144,9 @@
 		}
 		{
 			dependencies: ["5B16C247EC0CDF9C"]
-			description: ["{ftbquests.chapter.62876F01654DC6E9.quest74.description1}"]
+			description: ["{ftbquests.chapter.62876F01654DC6E9.quest1890305631291109141.description1}"]
 			id: "1A3BB6F4D606EF15"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest74.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest1890305631291109141.subtitle}"
 			tasks: [{
 				id: "5B38A8592D0882AC"
 				item: "sophisticatedbackpacks:diamond_backpack"
@@ -1148,9 +1157,9 @@
 		}
 		{
 			dependencies: ["54905BF233504288"]
-			description: ["{ftbquests.chapter.62876F01654DC6E9.quest75.description1}"]
+			description: ["{ftbquests.chapter.62876F01654DC6E9.quest6563647121097809820.description1}"]
 			id: "5B16C247EC0CDF9C"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest75.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest6563647121097809820.subtitle}"
 			tasks: [{
 				id: "2AB607858ABB8C4A"
 				item: "sophisticatedbackpacks:gold_backpack"
@@ -1161,13 +1170,13 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.62876F01654DC6E9.quest76.description1}"
-				"{ftbquests.chapter.62876F01654DC6E9.quest76.description2}"
-				"{ftbquests.chapter.62876F01654DC6E9.quest76.description3}"
-				"{ftbquests.chapter.62876F01654DC6E9.quest76.description4}"
-				"{ftbquests.chapter.62876F01654DC6E9.quest76.description5}"
-				"{ftbquests.chapter.62876F01654DC6E9.quest76.description6}"
-				"{ftbquests.chapter.62876F01654DC6E9.quest76.description7}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest8968048107038518080.description1}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest8968048107038518080.description2}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest8968048107038518080.description3}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest8968048107038518080.description4}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest8968048107038518080.description5}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest8968048107038518080.description6}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest8968048107038518080.description7}"
 			]
 			id: "7C74E83D14A52B40"
 			rewards: [{
@@ -1175,7 +1184,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest76.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest8968048107038518080.subtitle}"
 			tasks: [
 				{
 					id: "559BFF84C52D8921"
@@ -1203,8 +1212,8 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.62876F01654DC6E9.quest76.title}"
-			x: 2.5d
+			title: "{ftbquests.chapter.62876F01654DC6E9.quest8968048107038518080.title}"
+			x: 3.0d
 			y: 2.5d
 		}
 		{
@@ -1220,7 +1229,7 @@
 				item: "immersive_aircraft:airship"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 1.0d
 		}
 		{
@@ -1236,7 +1245,7 @@
 				item: "immersive_aircraft:biplane"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -1252,7 +1261,7 @@
 				item: "immersive_aircraft:gyrodyne"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 2.5d
 		}
 		{
@@ -1268,7 +1277,7 @@
 				item: "immersive_aircraft:cargo_airship"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 4.0d
 		}
 		{
@@ -1284,37 +1293,37 @@
 				item: "immersive_aircraft:quadrocopter"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["06FAB7A7B470A946"]
-			description: ["{ftbquests.chapter.62876F01654DC6E9.quest82.description1}"]
+			description: ["{ftbquests.chapter.62876F01654DC6E9.quest6194409250581321353.description1}"]
 			id: "55F6F664DE4B1689"
 			rewards: [{
 				id: "51256E170F866A0B"
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest82.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest6194409250581321353.subtitle}"
 			tasks: [{
 				id: "3ED539F4E191F910"
 				item: "immersive_aircraft:heavy_crossbow"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["7C74E83D14A52B40"]
 			id: "06FAB7A7B470A946"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest83.subtitle}"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest502916239319935302.subtitle}"
 			tasks: [{
 				id: "6DCCEE8C8B46D79D"
-				title: "{ftbquests.chapter.62876F01654DC6E9.quest83.task_+7911960932782626717.title}"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest502916239319935302.task.7911960932782626717.title}"
 				type: "checkmark"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: 2.5d
 		}
 		{
@@ -1330,7 +1339,7 @@
 				item: "immersive_aircraft:eco_engine"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.5d
 			y: 1.0d
 		}
 		{
@@ -1346,14 +1355,14 @@
 				item: "immersive_aircraft:nether_engine"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["06FAB7A7B470A946"]
 			description: [
-				"{ftbquests.chapter.62876F01654DC6E9.quest86.description1}"
-				"{ftbquests.chapter.62876F01654DC6E9.quest86.description2}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest4191440291741874702.description1}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest4191440291741874702.description2}"
 			]
 			id: "3A2AFCBCF688BA0E"
 			rewards: [{
@@ -1366,7 +1375,7 @@
 				item: "immersive_aircraft:enhanced_propeller"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 13.5d
 			y: 4.0d
 		}
 		{
@@ -1382,7 +1391,7 @@
 				item: "immersive_aircraft:steel_boiler"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 14.5d
 			y: 4.0d
 		}
 		{
@@ -1398,7 +1407,7 @@
 				item: "immersive_aircraft:industrial_gears"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: 2.0d
 		}
 		{
@@ -1414,7 +1423,7 @@
 				item: "immersive_aircraft:sturdy_pipes"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 14.5d
 			y: 1.0d
 		}
 		{
@@ -1430,7 +1439,7 @@
 				item: "immersive_aircraft:gyroscope"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 4.0d
 		}
 		{
@@ -1446,7 +1455,7 @@
 				item: "immersive_aircraft:hull_reinforcement"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 13.5d
 			y: 1.0d
 		}
 		{
@@ -1457,12 +1466,12 @@
 				item: "immersive_aircraft:improved_landing_gear"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: 3.0d
 		}
 		{
 			id: "2B36B79F750C8E56"
-			subtitle: "好玩，爱玩，喜欢玩"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest3113878087864716886.subtitle}"
 			tasks: [
 				{
 					id: "3D59C1B4F7ABCCC7"
@@ -1485,12 +1494,12 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
 			id: "36F4AAB866B59908"
-			subtitle: "快乐甲，你一定会喜欢的"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest3959977681339390216.subtitle}"
 			tasks: [{
 				id: "1D924C0D9D3CC4EA"
 				item: {
@@ -1502,19 +1511,28 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: -3.0d
 		}
 		{
+			dependencies: ["2460426DE77EF0F4"]
+			description: ["{ftbquests.chapter.62876F01654DC6E9.quest7314043898419377939.description1}"]
 			icon: "gtceu:causality_hazard_sign_block"
 			id: "6580B42C94E67713"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D731708D168E605"
+				table_id: 1576725829474885042L
+				type: "random"
+			}]
 			size: 2.0d
-			subtitle: "确实很神秘"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest7314043898419377939.subtitle}"
 			tasks: [{
 				id: "7CB7EC4A05187E7D"
-				title: "GT神秘工具"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest7314043898419377939.task.8986911384098340477.title}"
 				type: "checkmark"
 			}]
+			title: "{ftbquests.chapter.62876F01654DC6E9.quest7314043898419377939.title}"
 			x: -2.5d
 			y: 7.0d
 		}
@@ -1522,13 +1540,13 @@
 			icon: "create:wrench"
 			id: "2A8E433A4DD37A3E"
 			size: 2.0d
-			subtitle: "工具、物品、饰品"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest3066462313978755646.subtitle}"
 			tasks: [{
 				id: "058041D5D0510190"
-				title: "工具类"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest3066462313978755646.task.396389153787412880.title}"
 				type: "checkmark"
 			}]
-			title: "实用小玩意"
+			title: "{ftbquests.chapter.62876F01654DC6E9.quest3066462313978755646.title}"
 			x: -2.5d
 			y: -2.0d
 		}
@@ -1538,10 +1556,10 @@
 			size: 2.0d
 			tasks: [{
 				id: "5C619722D400FFFD"
-				title: "飞天类"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest2206938282700365318.task.6656767900071821309.title}"
 				type: "checkmark"
 			}]
-			title: "xx我让你飞起来"
+			title: "{ftbquests.chapter.62876F01654DC6E9.quest2206938282700365318.title}"
 			x: -2.5d
 			y: 2.5d
 		}
@@ -1550,11 +1568,44 @@
 			size: 2.0d
 			tasks: [{
 				id: "217BC21394C71D66"
-				title: "存储类"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest8137954243340445477.task.2412735414743276902.title}"
 				type: "checkmark"
 			}]
 			x: 17.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["361E2687EA72F10B"]
+			id: "354BCEEA324D9A1E"
+			tasks: [{
+				id: "36731532483C8C5C"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest3840390612525095454.task.3923503006074309724.title}"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6580B42C94E67713"]
+			id: "3DA8CECF83D9749B"
+			tasks: [{
+				id: "734151BB2F087258"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest4443028423066612891.task.8305009052237722200.title}"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3DA8CECF83D9749B"]
+			id: "361E2687EA72F10B"
+			tasks: [{
+				id: "343095F532963225"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest3899596692545270027.task.3760670569202594341.title}"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 7.0d
 		}
 	]
 	title: "{ftbquests.chapter.62876F01654DC6E9.title}"

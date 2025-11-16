@@ -1,0 +1,13 @@
+name = "AE2-Ftbquest-Detector"
+filename = "ae2_ftbquest_detector-1.1-SNAPSHOT.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e966d7f38f4891aa29f58afac777dd0e22f6c2cf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7180759
+project-id = 1377642

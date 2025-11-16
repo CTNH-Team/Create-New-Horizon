@@ -52,13 +52,13 @@
 		{
 			dependencies: ["17292FB8D4DD36BA"]
 			description: [
-				"恭喜你经过漫长的旅途来到了一个充满科幻的阶段"
-				"尽情体验吧"
+				"{ftbquests.chapter.luv.quest983715238945918336.description1}"
+				"{ftbquests.chapter.luv.quest983715238945918336.description2}"
 			]
 			id: "0DA6DBCC41828D80"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.luv.quest1.subtitle}"
+			subtitle: "{ftbquests.chapter.luv.quest983715238945918336.subtitle}"
 			tasks: [{
 				id: "2AB09D6B46C98218"
 				item: "gtceu:luv_machine_hull"
@@ -131,13 +131,33 @@
 		{
 			dependencies: ["34820874A85286FC"]
 			description: [
-				"                    &c&l&o&n如此超越！"
-				"                    &c&l&o&n如此瑰丽！"
-				"                    &c&l&o&n如此精湛！"
+				"{ftbquests.chapter.luv.quest116848633681060577.description1}"
+				"{ftbquests.chapter.luv.quest116848633681060577.description2}"
+				"{ftbquests.chapter.luv.quest116848633681060577.description3}"
 			]
 			id: "019F2136970CA2E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1545F0A0A9E19D0B"
+					table_id: 846882859033216508L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64A27967952CFD46"
+					table_id: 846882859033216508L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7848248A9030E661"
+					table_id: 846882859033216508L
+					type: "loot"
+				}
+			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.luv.quest15.subtitle}"
+			subtitle: "{ftbquests.chapter.luv.quest116848633681060577.subtitle}"
 			tasks: [{
 				id: "4DBEF1F18227075A"
 				item: "gtceu:crystal_processor_mainframe"
@@ -152,8 +172,14 @@
 				"0DA6DBCC41828D80"
 			]
 			id: "14C08D2A44860C08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21FC7C1C63F81927"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.luv.quest16.subtitle}"
+			subtitle: "{ftbquests.chapter.luv.quest1495350288964783112.subtitle}"
 			tasks: [{
 				id: "2E07CD045DAB8CC0"
 				item: "gtceu:luv_energy_input_hatch"
@@ -165,6 +191,12 @@
 		{
 			dependencies: ["209FAC261240DA4E"]
 			id: "1543DE3AB9FD7598"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C8EF2AC4F0AF6C9"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "49AC49ABFC4B89BA"
 				item: "gtceu:superconducting_coil"
@@ -197,7 +229,7 @@
 				item: "gtceu:indium_dust"
 				type: "item"
 			}]
-			subtitle: "玻璃比机械方块便宜，所以多用玻璃"
+			subtitle: "{ftbquests.chapter.luv.quest5477394690783189972.subtitle}"
 			tasks: [
 				{
 					id: "2ABD7A3CA362878D"
@@ -216,7 +248,7 @@
 					type: "item"
 				}
 			]
-			title: "要开始聚变咯"
+			title: "{ftbquests.chapter.luv.quest5477394690783189972.title}"
 			x: -27.0d
 			y: 0.5d
 		}
@@ -226,12 +258,18 @@
 				"0DA6DBCC41828D80"
 			]
 			id: "174B639A9AAA2B4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C137448EADE3C2B"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "64DF7150FCA7AA06"
 				item: "gtceu:luv_fusion_reactor"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.luv.quest21.title}"
+			title: "{ftbquests.chapter.luv.quest1678544801796598604.title}"
 			x: -26.0d
 			y: 0.5d
 		}
@@ -254,10 +292,16 @@
 				"16A81169336BBB10"
 				"59D486695F2A9671"
 			]
-			description: ["根据需要的算力值和冷却值来选择结构中的九个组件；同时，计算这些组件的总能耗来决定合适的能源仓。"]
+			description: ["{ftbquests.chapter.luv.quest7168921571391158578.description1}"]
 			id: "637D202FC567B932"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40AA67113F30DD9F"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
 			size: 1.0d
-			subtitle: "计算机"
+			subtitle: "{ftbquests.chapter.luv.quest7168921571391158578.subtitle}"
 			tasks: [{
 				id: "3C7C6EF260BFFAEE"
 				item: "gtceu:high_performance_computation_array"
@@ -284,7 +328,7 @@
 			]
 			description: [""]
 			id: "3FB06067540E1931"
-			subtitle: "低级散热组件"
+			subtitle: "{ftbquests.chapter.luv.quest4589274017198643505.subtitle}"
 			tasks: [{
 				id: "379A3E43FE501AFC"
 				item: "gtceu:hpca_heat_sink_component"
@@ -295,14 +339,22 @@
 		}
 		{
 			dependencies: ["3FB06067540E1931"]
-			description: ["要消耗冷却液，别忘了"]
+			description: ["{ftbquests.chapter.luv.quest2451656527455700381.description1}"]
 			id: "2206089F4E43C59D"
-			rewards: [{
-				id: "57A22205F098B164"
-				item: "gtceu:hpca_heat_sink_component"
-				type: "item"
-			}]
-			subtitle: "高级散热组件，当你发现你的算力不够时就要把散热组件换成这个"
+			rewards: [
+				{
+					id: "57A22205F098B164"
+					item: "gtceu:hpca_heat_sink_component"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50E1F2CB4FB30EE5"
+					table_id: 846882859033216508L
+					type: "loot"
+				}
+			]
+			subtitle: "{ftbquests.chapter.luv.quest2451656527455700381.subtitle}"
 			tasks: [{
 				id: "07E839453D413D32"
 				item: "gtceu:hpca_active_cooler_component"
@@ -317,7 +369,7 @@
 				"637D202FC567B932"
 			]
 			id: "2FD33C4009211037"
-			subtitle: "记得配上散热组件，不然会被烧坏"
+			subtitle: "{ftbquests.chapter.luv.quest3446164385597296695.subtitle}"
 			tasks: [{
 				id: "227AEACC2CFC6AC0"
 				item: "gtceu:hpca_computation_component"
@@ -333,7 +385,7 @@
 				item: "gtceu:hpca_empty_component"
 				type: "item"
 			}]
-			subtitle: "可以用来占位置"
+			subtitle: "{ftbquests.chapter.luv.quest2674626779725788834.subtitle}"
 			tasks: [{
 				id: "4A60EAF3EF2718E5"
 				item: "gtceu:hpca_empty_component"
@@ -353,7 +405,7 @@
 				item: "ctnhcore:neutron_source"
 				type: "item"
 			}]
-			subtitle: "送你一个中子源，希望你喜欢"
+			subtitle: "{ftbquests.chapter.luv.quest7582909310152721279.subtitle}"
 			tasks: [{
 				id: "59FAAB8A64E3688E"
 				item: "ctnhcore:quark_core"
@@ -365,6 +417,12 @@
 		{
 			dependencies: ["693BE7D773A7C37F"]
 			id: "02DD2E6EEDC15505"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5893D8ADFDBD9E49"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2FEF84CF7734F746"
 				item: "ctnhcore:neutron_activator"
@@ -376,18 +434,18 @@
 		{
 			dependencies: ["02DD2E6EEDC15505"]
 			description: [
-				"中子加速器：通电给中子活化器加速中子，相当于特殊能源仓"
+				"{ftbquests.chapter.luv.quest3479586209034076594.description1}"
 				""
-				"中子传感器：可以设置中子速度范围，注意它单位是K中子加速器是M，当进入范围后发出红石信号"
+				"{ftbquests.chapter.luv.quest3479586209034076594.description2}"
 				""
-				"机器控制覆盖版：接受红石信号后暂停机器工作"
+				"{ftbquests.chapter.luv.quest3479586209034076594.description3}"
 				""
-				"使用方法：给中子加速器贴上覆盖版，然后用红石连接上传感器，设置范围，当加速到指定范围就会停止加速，稳定中子速度"
+				"{ftbquests.chapter.luv.quest3479586209034076594.description4}"
 				""
-				"结构只允许在最上方放置输入，最下方放置输出.可以叠加到64高度"
+				"{ftbquests.chapter.luv.quest3479586209034076594.description5}"
 			]
 			id: "3049F938B2D301B2"
-			subtitle: "也可以通过中子活化器的思索查看"
+			subtitle: "{ftbquests.chapter.luv.quest3479586209034076594.subtitle}"
 			tasks: [
 				{
 					id: "2F549A3160DFFE55"
@@ -405,14 +463,14 @@
 					type: "item"
 				}
 			]
-			title: "中子活化器使用方法（文字版）"
+			title: "{ftbquests.chapter.luv.quest3479586209034076594.title}"
 			x: -19.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["02DD2E6EEDC15505"]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.iv.quest51.description1}"]
+			description: ["{ftbquests.chapter.luv.quest5039319822162811038.description1}"]
 			id: "45EF42ADC599589E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -420,7 +478,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.iv.quest51.subtitle}"
+			subtitle: "{ftbquests.chapter.luv.quest5039319822162811038.subtitle}"
 			tasks: [{
 				id: "6137B1F57C126749"
 				item: "gtceu:naquadah_dust"
@@ -438,9 +496,9 @@
 			id: "1E79D7B65D6DCECF"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5FA37A99F58AEFBA"
-				table_id: 7618519509353548779L
-				type: "random"
+				id: "2F279DFA6979B04E"
+				table_id: 846882859033216508L
+				type: "loot"
 			}]
 			shape: "pentagon"
 			size: 1.5d
@@ -456,7 +514,7 @@
 		{
 			dependencies: ["45EF42ADC599589E"]
 			id: "7350B8C1243D44CD"
-			subtitle: "{ftbquests.chapter.iv.quest115.subtitle}"
+			subtitle: "{ftbquests.chapter.luv.quest8309344452174759117.subtitle}"
 			tasks: [{
 				id: "075C311D1AD43284"
 				item: "gtceu:advanced_soc_wafer"
@@ -479,7 +537,7 @@
 				item: "gtceu:nano_processor"
 				type: "item"
 			}]
-			title: "便宜HV电路"
+			title: "{ftbquests.chapter.luv.quest8664780647997483384.title}"
 			x: -17.0d
 			y: 2.5d
 		}
@@ -503,13 +561,13 @@
 				item: "gtceu:long_enriched_naquadah_rod"
 				type: "item"
 			}]
-			subtitle: "建议使用富集硅岩"
+			subtitle: "{ftbquests.chapter.luv.quest4730974235898725635.subtitle}"
 			tasks: [{
 				id: "6A3C9CBDF6140DB7"
 				item: "ctnhcore:luv_naquadah_reactor"
 				type: "item"
 			}]
-			title: "来试试硅岩发电吧"
+			title: "{ftbquests.chapter.luv.quest4730974235898725635.title}"
 			x: -18.5d
 			y: -4.0d
 		}
@@ -521,12 +579,12 @@
 			id: "008A90953EEF0008"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5DFADD662EB69832"
-				table_id: 7618519509353548779L
-				type: "random"
+				id: "4FA4E4C66373DFCB"
+				table_id: 846882859033216508L
+				type: "loot"
 			}]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.iv.quest54.subtitle}"
+			subtitle: "{ftbquests.chapter.luv.quest39002517466447880.subtitle}"
 			tasks: [{
 				id: "5CC8DC9DDD4A857B"
 				item: "gtceu:uranium_rhodium_dinaquadide_dust"
@@ -537,10 +595,16 @@
 		}
 		{
 			dependencies: ["6CA56307669FD197"]
-			description: ["我们（）人的化工厂太厉害辣！"]
+			description: ["{ftbquests.chapter.luv.quest8445709865749858539.description1}"]
 			id: "75353060280848EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FE39F4ECE57D347"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
 			size: 2.0d
-			subtitle: "超级化工厂"
+			subtitle: "{ftbquests.chapter.luv.quest8445709865749858539.subtitle}"
 			tasks: [{
 				id: "2491F333995C7BE8"
 				item: "ctnhcore:sinope_chemical"
@@ -557,14 +621,14 @@
 				item: "gtceu:advanced_soc_wafer"
 				type: "item"
 			}]
-			subtitle: "需要ZPM电压"
+			subtitle: "{ftbquests.chapter.luv.quest4733459560187904053.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "7E0B8015F7E9A6A5"
 				item: "gtceu:quantum_processor"
 				type: "item"
 			}]
-			title: "便宜EV电路"
+			title: "{ftbquests.chapter.luv.quest4733459560187904053.title}"
 			x: -18.0d
 			y: 2.5d
 		}
@@ -587,7 +651,7 @@
 					type: "item"
 				}
 			]
-			title: "前往霜原星"
+			title: "{ftbquests.chapter.luv.quest5612784451297434908.title}"
 			x: -21.5d
 			y: -3.0d
 		}
@@ -616,7 +680,7 @@
 		{
 			dependencies: ["0DA6DBCC41828D80"]
 			id: "2F76701066E1552E"
-			subtitle: "你以为你能逃掉？"
+			subtitle: "{ftbquests.chapter.luv.quest3420044182782301486.subtitle}"
 			tasks: [{
 				id: "5F4AAA5C38937B45"
 				item: "gtceu:luv_assembler"
@@ -637,16 +701,16 @@
 		}
 		{
 			description: [
-				"你也许在hv时就接触过“算力”这一概念，这是一种比电力更加重要的资源，而且无法被存储，只能即时产生并被消耗。"
-				"部分机器或配方需要算力才能运行（例如大型组装厂的精密组装配方，以及下一个阶段的研究站）"
-				"HPCA通过算力数据源仓输出算力，机器通过算力数据靶仓接受算力。"
-				"注意：源仓和靶仓之间必须通过光缆连接（传输算力或数据时，光缆可以拐弯，但不能分叉），源仓直接怼靶仓无法传输算力。"
+				"{ftbquests.chapter.luv.quest6472946351564559985.description1}"
+				"{ftbquests.chapter.luv.quest6472946351564559985.description2}"
+				"{ftbquests.chapter.luv.quest6472946351564559985.description3}"
+				"{ftbquests.chapter.luv.quest6472946351564559985.description4}"
 			]
 			id: "59D486695F2A9671"
-			subtitle: "有没有云计算..."
+			subtitle: "{ftbquests.chapter.luv.quest6472946351564559985.subtitle}"
 			tasks: [{
 				id: "16A81169336BBB10"
-				title: "算力"
+				title: "{ftbquests.chapter.luv.quest6472946351564559985.task.1632574008453741328.title}"
 				type: "checkmark"
 			}]
 			x: -23.5d
@@ -654,15 +718,15 @@
 		}
 		{
 			dependencies: ["364B921AAE54EF9C"]
-			description: ["{ftbquests.chapter.iv.quest70.description1}"]
+			description: ["{ftbquests.chapter.luv.quest2876725163278227168.description1}"]
 			id: "27EC2E4B61A056E0"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "6817D9D70B646753"
-				table_id: 7618519509353548779L
-				type: "random"
+				id: "2EEB7D77C56C8559"
+				table_id: 846882859033216508L
+				type: "loot"
 			}]
-			subtitle: "为多个装配线提供数据"
+			subtitle: "{ftbquests.chapter.luv.quest2876725163278227168.subtitle}"
 			tasks: [{
 				id: "367D336517F7EFB2"
 				item: "gtceu:data_bank"
@@ -685,7 +749,7 @@
 					type: "item"
 				}
 			]
-			title: "算力数据仓"
+			title: "{ftbquests.chapter.luv.quest7033925708661109525.title}"
 			x: -20.5d
 			y: -0.5d
 		}
@@ -695,6 +759,12 @@
 				"1F24CDB4B265DAE8"
 			]
 			id: "7A22FC6D68A6C26E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26ECD4E3A5E9E868"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "684125328E3768FA"
 				item: "gtceu:trinium_ingot"
@@ -707,7 +777,7 @@
 			dependencies: ["2F76701066E1552E"]
 			description: [""]
 			id: "364B921AAE54EF9C"
-			subtitle: "光缆可以拐弯，但不能分叉"
+			subtitle: "{ftbquests.chapter.luv.quest3912381344593014684.subtitle}"
 			tasks: [
 				{
 					id: "5C6F7ED326438A39"
@@ -725,7 +795,7 @@
 					type: "item"
 				}
 			]
-			title: "研究三件套"
+			title: "{ftbquests.chapter.luv.quest3912381344593014684.title}"
 			x: -25.0d
 			y: -4.0d
 		}
@@ -734,13 +804,13 @@
 			id: "6CA56307669FD197"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "25D228CF19177375"
-				table_id: 7618519509353548779L
-				type: "random"
+				id: "2FB335425666965F"
+				table_id: 846882859033216508L
+				type: "loot"
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.iv.quest65.subtitle}"
+			subtitle: "{ftbquests.chapter.luv.quest7828772410691146135.subtitle}"
 			tasks: [{
 				id: "1EB0BDD610BF9EB0"
 				item: "gtceu:naquadah_alloy_ingot"
@@ -751,9 +821,15 @@
 		}
 		{
 			dependencies: ["0DA6DBCC41828D80"]
-			description: ["    多线程合金冶炼炉"]
+			description: ["{ftbquests.chapter.luv.quest7610122055621336518.description1}"]
 			id: "699C95B07EACDDC6"
-			subtitle: "一起炖！"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E7DEAD4F049AEAE"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
+			subtitle: "{ftbquests.chapter.luv.quest7610122055621336518.subtitle}"
 			tasks: [{
 				id: "163D3E56B2971B4F"
 				item: "ctnhcore:cnc_alloy_smelter"
@@ -765,14 +841,14 @@
 		{
 			dependencies: ["019F2136970CA2E1"]
 			description: [
-				"    可配置多线程机器每个线程的超频等级"
-				"    可查询线程执行的上一个配方"
-				"    可设置“&b配方锁定&r”：使该线程只会执行上一个配方"
-				"    可设置“&b线程保护&r”：使该线程不会执行其他线程正在执行或已经锁定的配方。"
+				"{ftbquests.chapter.luv.quest7375043924843205658.description1}"
+				"{ftbquests.chapter.luv.quest7375043924843205658.description2}"
+				"{ftbquests.chapter.luv.quest7375043924843205658.description3}"
+				"{ftbquests.chapter.luv.quest7375043924843205658.description4}"
 			]
 			id: "66596B5FFF2E941A"
 			size: 1.5d
-			subtitle: "遥遥领先！"
+			subtitle: "{ftbquests.chapter.luv.quest7375043924843205658.subtitle}"
 			tasks: [{
 				id: "0283D5E1E42F99B0"
 				item: "ctnhcore:luv_async_thread_hatch"

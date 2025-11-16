@@ -14,6 +14,7 @@
 		{ count: 2, item: "farmersdelight:cooked_mutton_chops", weight: 10.0f }
 		{ count: 2, item: "farmersdelight:cooked_bacon", weight: 10.0f }
 		{ item: "culturaldelights:hearty_salad", weight: 5.0f }
+		{ count: 2, item: "gtceu:steel_drum", weight: 5.0f }
 	]
-	title: "{ftbquests.loot_table_601634794626000726.title}"
+	title: "{ftbquests.loot_table.601634794626000726.title}"
 }

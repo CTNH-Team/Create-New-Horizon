@@ -86,11 +86,6 @@ ItemEvents.tooltip(event => {
     event.add('kubejs:echo_processor_mainframe', Text.translate('ctnh.circuit_echo_uev').darkAqua())
     event.add('kubejs:uhv_voltage_coil', Text.translate('ctnh.uhv_voltage_coil').white())
 
-    event.add(/ae2additions:(.*)/, Text.translate('ctnh.ae2additions.disabled').red())
-    event.add(/mae2:(.*)/, Text.translate('ctnh.mae2.disabled').red())
-    event.add(/bigger_ae2:(.*)/, Text.translate('ctnh.ae2additions.disabled').red())
-    event.add(/ae2things:(.*)/, Text.translate('ctnh.ae2additions.disabled').red())
-
     event.add('gtceu:nan_certificate',Text.yellow('1.2.1版本毕业证明'))
 
     event.add('hostilenetworks:deep_learner',Text.translate('ctnh.hostilenetworks.deep_learner').yellow())
