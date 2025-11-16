@@ -1,34 +1,25 @@
 // 环球旅行者
 if (!global.bound_container) global.bound_container = {};
 PlayerEvents.loggedIn(event => {
-    let world = event.level;
     let player = event.player;
     let playerUUID = player.uuid
     let x = player.persistentData.getInt("bound_container_x");
     let y = player.persistentData.getInt("bound_container_y");
     let z = player.persistentData.getInt("bound_container_z");
+    let dim = player.persistentData.getString("bound_container_dim");
+    let world = event.server.getLevel(dim);
     global.bound_container[playerUUID] = world.getBlock(x, y, z);
 })
 BlockEvents.broken(event => {
     let player = event.player;
     let playerUUID = player.uuid
     let mainHandItem = player.getMainHandItem();
-    let world = event.level;
     if (!mainHandItem || mainHandItem.isEmpty() || !mainHandItem.hasTag('tconstruct:modifiable')) return;
     let modifiers = mainHandItem.getNbt().getAsString();
     if (matchModifiers(modifiers, "global_traveler")) {
-        let x = player.persistentData.getInt("bound_container_x");
-        let y = player.persistentData.getInt("bound_container_y");
-        let z = player.persistentData.getInt("bound_container_z");
         let container = global.bound_container[playerUUID]
-        console.log(`${x},${y},${z}`);
-        if (!container) { 
-            container= world.getBlock(x, y, z);
-        }
-        console.log(`broken_event:${container}`);
         let pworld = player.level;
         let drops = event.block.getDrops();
-        console.log(`broken_event:${event.level.getBlock(x, y, z)}`);
         let containerInventory = container.getInventory();
         if (!containerInventory) {
             player.tell(`§c绑定的方块不是容器，无法传送掉落物`);
@@ -103,10 +94,11 @@ BlockEvents.rightClicked(event => {
                 event.cancel();
                 return;
             }
-            player.tell(`§a	[环球旅行者] 容器绑定成功: (${pos.x},${pos.y},${pos.z})，离线时若不在绑定维度，跨维度传送仅本次登录有效！`);
+            player.tell(`§a	[环球旅行者] 容器绑定成功: (${pos.x},${pos.y},${pos.z})`);
             player.persistentData.putInt("bound_container_x", pos.x);
             player.persistentData.putInt("bound_container_y", pos.y);
             player.persistentData.putInt("bound_container_z", pos.z);
+            player.persistentData.putString("bound_container_dim", player.level.dimension);
             global.bound_container[playerUUID] = container
             event.cancel();
             return;

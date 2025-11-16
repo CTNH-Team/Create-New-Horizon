@@ -3,7 +3,7 @@
 	"allow_crystal": false,
 	"amount_per_item": 1,
 	"input": {
-		"item": "ae2:quantum_entangled_singularity"
+		"item": "explorerscompass:explorerscompass"
 	},
 	"level": {
 		"max": 1
