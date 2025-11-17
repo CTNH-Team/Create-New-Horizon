@@ -1,5 +1,5 @@
 ServerEvents.tags('item',event =>{
-    event.remove('twilightforest:portal/activator','#forge:gems/diamonds')
+    //event.remove('twilightforest:portal/activator','#forge:gems/diamonds')
     Ingredient.of("#forge:exquisite_gems").itemIds.forEach((id) =>{
         event.add('alexscaves:deep_one_barters',id)
     })
@@ -36,6 +36,8 @@ ServerEvents.tags('item',event =>{
 })
 ServerEvents.tags('item', event => {
     event.add('curios:curio', 'tiab:time_in_a_bottle')
+    event.add('farmersdelight:straw_harvesters',/gtceu:(?!.*butchery_).*_knife/)
+    event.add('farmersdelight:tools/knives',/gtceu:(?!.*butchery_).*_knife/)
 })
 ServerEvents.tags('block_entity_type', event => {
     event.add('tconstruct:side_inventories', 'sophisticatedstorage:controller')

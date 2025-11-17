@@ -265,7 +265,9 @@ ServerEvents.recipes(event => {
         'gtceu:tiny_high_temp_wrought_precursor_dust',
         /mae2:(.*)x_crafting_accelerator/,
         //木屑
-        'createdieselgenerators:wood_chip'
+        'createdieselgenerators:wood_chip',
+        //乐事刀
+        /(.*)delight:(.*)_knife/,
     ])
     remove_recipes_input(event, [
         "thermal:constantan_ingot"
