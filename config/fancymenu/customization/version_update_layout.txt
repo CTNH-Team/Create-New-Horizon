@@ -1,0 +1,154 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = version_update
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1763656919969
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:57e4a440-49cf-4aae-a245-3a50bc2598b2-1763656911256] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  button_element_executable_block_identifier = 41325b08-e495-405e-a191-245c6be84309-1763649518670
+  [executable_action_instance:25b9079d-2c28-4550-a25f-eecea184ea6a-1763653613020][action_type:mimicbutton] = title_screen:mc_titlescreen_singleplayer_button
+  [executable_action_instance:3aa22f7a-a298-4f2a-9926-b2f0ff1c7802-1763655429991][action_type:set_variable] = version_checker:disabled
+  [executable_block:41325b08-e495-405e-a191-245c6be84309-1763649518670][type:generic] = [executables:25b9079d-2c28-4550-a25f-eecea184ea6a-1763653613020;3aa22f7a-a298-4f2a-9926-b2f0ff1c7802-1763655429991;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = 我已确定我在旧版本中完成了世界备份，且彻底对新版本更新内容进行了了解
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 9e337160-326b-41e5-ab20-dbffe636a859-1763649518670
+  [loading_requirement_container_meta:9e337160-326b-41e5-ab20-dbffe636a859-1763649518670] = [groups:][instances:]
+  element_type = custom_button
+  instance_identifier = bb12a052-a2ef-43f3-b625-fd4283ba01c1-1763649518670
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1336
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -155
+  y = 107
+  width = 310
+  height = 18
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = aee5a0e7-af6d-46e3-9e1d-fb3150daaf14-1763649518670
+  [loading_requirement_container_meta:aee5a0e7-af6d-46e3-9e1d-fb3150daaf14-1763649518670] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 3b78cd8e-0f0f-4791-80db-1df7ab1ee228-1763649720719
+  [executable_action_instance:d39bcb72-e236-4c63-a640-2a342f39659f-1763656914172][action_type:mimicbutton] = title_screen:mc_titlescreen_quit_button
+  [executable_block:3b78cd8e-0f0f-4791-80db-1df7ab1ee228-1763649720719][type:generic] = [executables:d39bcb72-e236-4c63-a640-2a342f39659f-1763656914172;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = 退出游戏
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 3ff6dc84-1a9e-4de8-a536-e11003771596-1763649720719
+  [loading_requirement_container_meta:3ff6dc84-1a9e-4de8-a536-e11003771596-1763649720719] = [groups:][instances:]
+  element_type = custom_button
+  instance_identifier = 07a6811e-9e6e-40ec-8231-e2d94f293ed7-1763649720719
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1336
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -50
+  y = 133
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 6cd27141-a949-4a99-a11c-d4738fbf9974-1763649720719
+  [loading_requirement_container_meta:6cd27141-a949-4a99-a11c-d4738fbf9974-1763649720719] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = # 更新日志%n%%n%## 当前版本%n%{"placeholder":"getvariable","values":{"name":"modpack_version"}}%n%%n%> 本次更新可能会影响存档，请谨慎操作。%n%%n%## 更新内容%n%- 1%n%- 2%n%- 3%n%
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 3f8d6c55-f6fe-454d-8275-5e7fef0dc06a-1763650079113
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1336
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -165
+  y = -139
+  width = 331
+  height = 215
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = e7ec3ba7-84c3-4d40-850d-728a1b9c8bcc-1763650079113
+  [loading_requirement_container_meta:e7ec3ba7-84c3-4d40-850d-728a1b9c8bcc-1763650079113] = [groups:][instances:]
+}
+
