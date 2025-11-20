@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material_melting",
-	"input": "sakuratinker:echo_slimesteel",
-	"temperature": 1650,
-	"result": {
-		"fluid": "sakuratinker:molten_echo_slimesteel",
-		"amount": 144
-	}
-}

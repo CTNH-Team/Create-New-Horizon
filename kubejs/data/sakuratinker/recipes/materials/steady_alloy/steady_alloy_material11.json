@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material",
-	"ingredient": {
-		"item": "sakuratinker:steady_alloy"
-	},
-	"material": "sakuratinker:steady_alloy",
-	"needed": 1,
-	"value": 1
-}

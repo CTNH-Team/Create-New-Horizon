@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material_melting",
-	"input": "sakuratinker:orichalcum",
-	"temperature": 1000,
-	"result": {
-		"fluid": "sakuratinker:molten_orichalcum",
-		"amount": 144
-	}
-}

@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material",
-	"ingredient": {
-		"item": "sakuratinker:goozma"
-	},
-	"value": 1,
-	"needed": 2,
-	"material": "sakuratinker:goozma"
-}

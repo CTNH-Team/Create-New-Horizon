@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material_melting",
-	"input": "sakuratinker:gluttonous",
-	"result": {
-		"amount": 144,
-		"fluid": "sakuratinker:molten_gluttonous"
-	},
-	"temperature": 2500
-}

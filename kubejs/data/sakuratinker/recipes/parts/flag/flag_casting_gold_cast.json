@@ -1,8 +1,0 @@
-{
-	"type": "tconstruct:table_casting_material",
-	"cast": {
-		"tag": "tconstruct:casts/multi_use/flag"
-	},
-	"item_cost": 6,
-	"result": "sakuratinker:flag"
-}

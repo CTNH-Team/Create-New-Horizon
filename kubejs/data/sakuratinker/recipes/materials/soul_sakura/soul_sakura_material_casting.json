@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material_fluid",
-	"fluid": {
-		"name": "sakuratinker:molten_soul_sakura",
-		"amount": 144
-	},
-	"temperature": 1200,
-	"output": "sakuratinker:soul_sakura"
-}

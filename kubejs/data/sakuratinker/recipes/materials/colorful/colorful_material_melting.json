@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material_melting",
-	"input": "sakuratinker:colorful",
-	"temperature": 1400,
-	"result": {
-		"fluid": "sakuratinker:molten_colorful",
-		"amount": 144
-	}
-}

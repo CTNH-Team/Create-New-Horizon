@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material",
-	"ingredient": {
-		"item": "sakuratinker:dragon_sinew"
-	},
-	"material": "sakuratinker:dragon_sinew",
-	"needed": 1,
-	"value": 1
-}
