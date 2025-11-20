@@ -216,7 +216,9 @@ ServerEvents.recipes(event => {
         'gtceu:electric_blast_furnace/naq_ingot',
         //安山合金块
         'create:crafting/materials/andesite_alloy_from_block',
-        'create:crafting/materials/andesite_alloy_block'
+        'create:crafting/materials/andesite_alloy_block',
+        //可编程电路卡
+        'pccard:item/card_programmed_circuit'
     ])
 
 

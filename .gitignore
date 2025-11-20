@@ -130,3 +130,4 @@ config/*
 !config/alexsmobs.toml
 !config/tconstruct-common.toml
 !config/inventoryhud-client.toml
+!config/merequester-common.toml
