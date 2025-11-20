@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:table_casting_material",
-	"cast": {
-		"tag": "tconstruct:casts/single_use/blade"
-	},
-	"cast_consumed": true,
-	"item_cost": 4,
-	"result": "sakuratinker:blade"
-}

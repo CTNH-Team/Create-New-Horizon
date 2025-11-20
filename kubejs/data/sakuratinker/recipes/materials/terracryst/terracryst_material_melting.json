@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material_melting",
-	"input": "sakuratinker:terracryst",
-	"temperature": 2000,
-	"result": {
-		"fluid": "sakuratinker:molten_terracryst",
-		"amount": 144
-	}
-}

@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material",
-	"ingredient": {
-		"item": "enigmaticlegacy:evil_ingot"
-	},
-	"material": "sakuratinker:nefarious",
-	"needed": 1,
-	"value": 1
-}

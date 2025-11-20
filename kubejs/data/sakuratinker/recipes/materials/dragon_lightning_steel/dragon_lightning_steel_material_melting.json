@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material_melting",
-	"input": "sakuratinker:dragon_lightning_steel",
-	"temperature": 1400,
-	"result": {
-		"fluid": "sakuratinker:molten_dragon_lightning_steel",
-		"amount": 144
-	}
-}

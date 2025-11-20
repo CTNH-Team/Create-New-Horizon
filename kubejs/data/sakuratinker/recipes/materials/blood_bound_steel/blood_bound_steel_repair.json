@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material",
-	"ingredient": {
-		"item": "sakuratinker:blood_bound_steel"
-	},
-	"value": 1,
-	"needed": 1,
-	"material": "sakuratinker:blood_bound_steel"
-}

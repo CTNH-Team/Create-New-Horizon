@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material_melting",
-	"input": "sakuratinker:crystal_matrix",
-	"temperature": 1500,
-	"result": {
-		"fluid": "sakuratinker:molten_crystal_matrix",
-		"amount": 144
-	}
-}

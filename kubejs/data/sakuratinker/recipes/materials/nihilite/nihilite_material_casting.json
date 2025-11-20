@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material_fluid",
-	"fluid": {
-		"name": "sakuratinker:molten_nihilite",
-		"amount": 144
-	},
-	"temperature": 1400,
-	"output": "sakuratinker:nihilite"
-}

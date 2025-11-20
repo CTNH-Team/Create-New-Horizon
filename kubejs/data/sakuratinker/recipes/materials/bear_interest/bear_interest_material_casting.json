@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material_fluid",
-	"fluid": {
-		"name": "sakuratinker:molten_bear_interest",
-		"amount": 144
-	},
-	"temperature": 1000,
-	"output": "sakuratinker:bear_interest"
-}

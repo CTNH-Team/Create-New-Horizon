@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material_melting",
-	"input": "sakuratinker:south_star",
-	"temperature": 1400,
-	"result": {
-		"fluid": "sakuratinker:molten_south_star",
-		"amount": 144
-	}
-}

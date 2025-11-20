@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:table_casting_material",
-	"cast": {
-		"item": "sakuratinker:terracryst"
-	},
-	"cast_consumed": true,
-	"item_cost": 6,
-	"result": "sakuratinker:blade_box"
-}

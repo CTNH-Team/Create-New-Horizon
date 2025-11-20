@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material_melting",
-	"input": "sakuratinker:prometheum",
-	"temperature": 1000,
-	"result": {
-		"fluid": "sakuratinker:molten_prometheum",
-		"amount": 144
-	}
-}

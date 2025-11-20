@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material_fluid",
-	"fluid": {
-		"amount": 144,
-		"fluid": "sakuratinker:molten_chimera_gamma"
-	},
-	"output": "sakuratinker:chimera_gamma",
-	"temperature": 2000
-}

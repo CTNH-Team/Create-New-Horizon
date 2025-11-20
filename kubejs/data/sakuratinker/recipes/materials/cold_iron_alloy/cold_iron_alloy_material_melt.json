@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material_melting",
-	"input": "sakuratinker:cold_iron_alloy",
-	"result": {
-		"amount": 144,
-		"fluid": "sakuratinker:molten_cold_iron_alloy"
-	},
-	"temperature": 2000
-}
