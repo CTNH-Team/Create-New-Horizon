@@ -1066,7 +1066,7 @@ hash = "32f1f7e879c53d7cc8aeb9e363d95879e83ac9f2c7f1417c9fadd116e003cdad"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "fb410e8c981bc362b2650c20a9beaace680fd3645653858c421d69efae2d40a0"
+hash = "eb52203fbc90a7239232051ade0efab01d32528433a50b9a9b49a90cab1c1a9d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
@@ -1351,6 +1351,14 @@ hash = "6178352353c9ab2993c64faf853603d8d676f9dca6ed5d1a068299f44994e493"
 [[files]]
 file = "kubejs/assets/ad_astra_rocketed/lang/zh_cn.json"
 hash = "41e091c2ba79e787e750cf6160e06f266abcfbab99c6e6d8aedb45b09d702bd1"
+
+[[files]]
+file = "kubejs/assets/ae2/lang/zh_cn.json"
+hash = "5855d483c1c4aaf1269c1c3d88ead82ad48e6bb4ace26c0bf6fb703034911bdf"
+
+[[files]]
+file = "kubejs/assets/ae2/screens/terminals/encoding/processing.json"
+hash = "5a96cf20b378980a8b0ba8ece2aff2d87adc624072cd5e0e7fb7ddc274b5c169"
 
 [[files]]
 file = "kubejs/assets/ae2additions/lang/zh_cn.json"
@@ -3211,6 +3219,14 @@ hash = "734957f268f07e0bcb8993c7ab653fe5e9bb7abcf8a436f6d4a3c772e9080eb4"
 [[files]]
 file = "kubejs/assets/gtceu/lang/zh_cn.json"
 hash = "69ec2d298b5acc5804f0a2f03bb79dcfbc615d662baed1e504db2b47dd23379b"
+
+[[files]]
+file = "kubejs/assets/gtceu/models/block/machine/me_stocking_input_bus.json"
+hash = "a377e5ac4f995691f65831a07f1811efa2cf824baf5589d19477f4e424919f59"
+
+[[files]]
+file = "kubejs/assets/gtceu/models/block/machine/me_stocking_input_hatch.json"
+hash = "83ec3080a5bb4fa99489d04d7ab2948fdc068c9f89600888c75089b2e196bf66"
 
 [[files]]
 file = "kubejs/assets/gtceu/textures/block/casings/voltage/opv/bottom.png"
@@ -14770,7 +14786,7 @@ hash = "99999009e4e5de739a5f0c93dedab303327619db67c0cc2afc076a364894bb85"
 
 [[files]]
 file = "kubejs/server_scripts/src/ae2.js"
-hash = "f60743980a081e2402753a43f503731c447082edd0a4d8056da711dd1633367b"
+hash = "f43b5e81cceb3333b36e33c15112ba52be9275cb75ad3c0b5c38b08fdfaa5168"
 
 [[files]]
 file = "kubejs/server_scripts/src/apothesis/spawner.js"
@@ -15094,7 +15110,7 @@ hash = "71462d20e8676fbc4504fd1e207ece54016c312d8a83d8fceb412f4b083c7163"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "681cd2be821781ea6650cca19a704461f4258e8bd5b3bdd2f19cba33410a8db6"
+hash = "97b622d8de393e236dfa42c5fadaa3ef6862bc3b4507c858cf49711b9e49e4be"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedbackpacks.js"
@@ -15102,7 +15118,7 @@ hash = "4aa06e7bfc04e552e8d6e18726177d4b0b52d1682f260cc8f847f364f3bbdad8"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedstorage.js"
-hash = "ba18c7d43e2c23bb75c176c95819961246088a4ad21a11c0c627395bd898cb29"
+hash = "36ae07d48f03a53d08f5bc174a4bae4b27975a51c5728198257e3790aa80482c"
 
 [[files]]
 file = "kubejs/server_scripts/src/sun.js"
@@ -15110,7 +15126,7 @@ hash = "e136e3a38f44a378f795103bbb2fd6283d1361607a2d9ee487ba604289b537b0"
 
 [[files]]
 file = "kubejs/server_scripts/src/tag.js"
-hash = "f9c751ff8b8cfb548f04f40823be44e34eafd716bc54b6503f2e248bf9a0b580"
+hash = "e2a4ee465573368ee503020371b77b3b952dd80e73a9870706c6b2780704c0da"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/modiifiers/example.js"
@@ -15122,7 +15138,7 @@ hash = "b7fcc452c03922fcdc1f084c8fea72e545aa001d1fa599f86b4cc97a0562f373"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/modiifiers/global_traveler.js"
-hash = "c6134472d0d00eae605f81b6716f6161c4b13156aa786c383fded6337f7790f4"
+hash = "97f545f2cf3991b7cd296f0b9dfb71c11869f5860997e6c119d85fa7a89829e2"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/modiifiers/snowcity.js"
@@ -15369,6 +15385,11 @@ metafile = true
 [[files]]
 file = "mods/better-mods-button.pw.toml"
 hash = "1aa536647863b0cd194eaed5896bee9703484b6f8ea9ae309491bb426ff55de8"
+metafile = true
+
+[[files]]
+file = "mods/betterp2p.pw.toml"
+hash = "a158256854c35f7655d531929258a29f1a410214e613af5ba232c4ba49b85f22"
 metafile = true
 
 [[files]]
@@ -16124,6 +16145,11 @@ metafile = true
 [[files]]
 file = "mods/probejs.pw.toml"
 hash = "d2cdb0557de98b1b2566958bba4676afc783cb02eed61ea65f39cd9acdd361b9"
+metafile = true
+
+[[files]]
+file = "mods/programmed-circuit-card.pw.toml"
+hash = "7fc1653e0b9df75f9b0162206bed756db5048e1f6c4f6587baafb99dc656f12d"
 metafile = true
 
 [[files]]
