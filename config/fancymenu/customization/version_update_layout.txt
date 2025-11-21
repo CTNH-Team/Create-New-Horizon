@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = version_update
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1763656919969
+  last_edited_time = 1763709718474
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:57e4a440-49cf-4aae-a245-3a50bc2598b2-1763656911256] = [groups:][instances:]
+  [loading_requirement_container_meta:eccb76b5-79cf-4ffc-a655-0ffe7cfbf71a-1763709717974] = [groups:][instances:]
 }
 
 customization {
@@ -105,7 +105,7 @@ element {
 
 element {
   interactable = true
-  source = # 更新日志%n%%n%## 当前版本%n%{"placeholder":"getvariable","values":{"name":"modpack_version"}}%n%%n%> 本次更新可能会影响存档，请谨慎操作。%n%%n%## 更新内容%n%- 1%n%- 2%n%- 3%n%
+  source = # 更新日志%n%%n%## 当前版本%n%{"placeholder":"getvariable","values":{"name":"modpack_version"}}%n%%n%> 本次更新可能会影响存档，请谨慎操作。%n%%n%## 更新内容%n%%n%{"placeholder":"json","values":{"json_path":"$.changelog[0]","source":"modpack_version.json"}}%n%{"placeholder":"json","values":{"json_path":"$.changelog[1]","source":"modpack_version.json"}}%n%{"placeholder":"json","values":{"json_path":"$.changelog[2]","source":"modpack_version.json"}}%n%{"placeholder":"json","values":{"json_path":"$.changelog[3]","source":"modpack_version.json"}}%n%{"placeholder":"json","values":{"json_path":"$.changelog[4]","source":"modpack_version.json"}}%n%{"placeholder":"json","values":{"json_path":"$.changelog[5]","source":"modpack_version.json"}}%n%{"placeholder":"json","values":{"json_path":"$.changelog[6]","source":"modpack_version.json"}}%n%{"placeholder":"json","values":{"json_path":"$.changelog[7]","source":"modpack_version.json"}}%n%{"placeholder":"json","values":{"json_path":"$.changelog[8]","source":"modpack_version.json"}}%n%{"placeholder":"json","values":{"json_path":"$.changelog[9]","source":"modpack_version.json"}}%n%{"placeholder":"json","values":{"json_path":"$.changelog[10]","source":"modpack_version.json"}}%n%{"placeholder":"json","values":{"json_path":"$.changelog[11]","source":"modpack_version.json"}}%n%{"placeholder":"json","values":{"json_path":"$.changelog[12]","source":"modpack_version.json"}}%n%{"placeholder":"json","values":{"json_path":"$.changelog[13]","source":"modpack_version.json"}}%n%{"placeholder":"json","values":{"json_path":"$.changelog[14]","source":"modpack_version.json"}}
   source_mode = direct
   shadow = true
   scale = 1.0
