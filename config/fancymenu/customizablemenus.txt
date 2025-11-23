@@ -3,6 +3,9 @@ type = customizablemenus
 net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
 }
 
+net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
+}
+
 net.minecraft.client.gui.screens.TitleScreen {
 }
 
