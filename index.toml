@@ -790,7 +790,7 @@ hash = "978214f42431cd238adc4e732695e23beaf46a07b5d50f66ea92de38f3e38458"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "9df4fbd7af6d2a09e80a182d53a84ca20ce7122b70710092143a75d21649241d"
+hash = "56ff9aab2cbf9686f2c4b19d00897e78ea1b5357cff3340cf61ace2c3a2cdf09"
 
 [[files]]
 file = "config/biomesoplenty/biome_toggles.json"
@@ -13618,7 +13618,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkers-construct.pw.toml"
-hash = "0a7bd871c664ff602b661b82906b18e7c6826de9d3af95c1f7139e8a943139c7"
+hash = "dcaddea336e6a2a262ff962f70b97d778ebc46414db048a79704a3999b2620bb"
 metafile = true
 
 [[files]]
