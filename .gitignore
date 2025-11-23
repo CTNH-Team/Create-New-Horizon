@@ -34,6 +34,7 @@ natives-*/
 /*.jar
 !packwiz*.jar
 /*.json
+!modpack_version.json
 /${quickPlayPath}
 *.log
 /log4j2.xml
