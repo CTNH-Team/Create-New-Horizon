@@ -62,17 +62,6 @@
 			y: 0.0d
 		}
 		{
-			id: "63A4FC58057C9E7D"
-			subtitle: "{ftbquests.chapter.uhv.quest7180141160914787965.subtitle}"
-			tasks: [{
-				id: "1228D5231465172A"
-				title: "{ftbquests.chapter.uhv.quest7180141160914787965.task.1308530038393870122.title}"
-				type: "checkmark"
-			}]
-			x: -1.0d
-			y: -15.0d
-		}
-		{
 			dependencies: ["6931CCEEE2282117"]
 			id: "75D522A6289E42CF"
 			tasks: [{
