@@ -689,6 +689,10 @@ ServerEvents.recipes(event => {
     Greenhouse('brown_mushroom', 'minecraft:brown_mushroom', 1000, '12x minecraft:brown_mushroom', false)
     Greenhouse('brown_mushroom_boosted', 'minecraft:brown_mushroom', 1000, '24x minecraft:brown_mushroom', true)
 
+    //coco
+    Greenhouse('cocoa_beans', 'minecraft:cocoa_beans', 1000, '4x minecraft:cocoa_beans', false)
+    Greenhouse('cocoa_beans_boosted', 'minecraft:cocoa_beans', 1000, '24x minecraft:cocoa_beans', true)
+
     event.recipes.gtceu.greenhouse('rhizobium')
         .circuit(3)
         .duration(640)
