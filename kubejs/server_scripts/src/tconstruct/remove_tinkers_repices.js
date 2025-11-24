@@ -71,7 +71,11 @@ ServerEvents.recipes(event => {
         'tconstruct:smeltery/melting/seared/seared_casting_tank',
         'tconstruct:tools/materials/melting/glass',
         //末影之眼
-        'tconstruct:smeltery/casting/ender/eye'
+        'tconstruct:smeltery/casting/ender/eye',
+        //冶炼铝
+        'tconstruct:smeltery/melting/metal/aluminium/ore_singular',
+        'tconstruct:smeltery/melting/metal/aluminium/raw',
+        'tconstruct:smeltery/melting/metal/aluminium/raw_block'
     ])
 })
 //熔铸炉矿物配方
