@@ -71,7 +71,6 @@ StartupEvents.registry("item", event => {
     event.create('metallurgical_catalyst')
     event.create('platinum_metal_catalyst_shard1')
     event.create('platinum_metal_catalyst_shard2')
-    event.create('platinum_metal_catalyst')
     event.create('stone_process_catalyst')
     event.create('bauxite_process_catalyst')
     event.create('tallow').burnTime('1600')

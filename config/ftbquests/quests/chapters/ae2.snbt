@@ -1378,6 +1378,8 @@
 			description: [
 				"{ftbquests.chapter.ae2.quest1643874341002512645.description1}"
 				""
+				"整合包内置高版本风格AE材质包，可自行在资源包界面启用。"
+				""
 				"&4注意&r：本整合包对AE进行了深度魔改，自行添加额外的AE附属mod很可能造成不兼容、崩溃或其他bug。"
 			]
 			id: "16D03700E6D58905"

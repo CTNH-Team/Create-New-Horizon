@@ -49,27 +49,5 @@ ServerEvents.recipes(event => {
         .EUt(7680)
         .duration(600)
         .circuit(2);
-
-    event.recipes.gtceu.mana_seperator('platinum_catalyst')
-    .itemInputs('20x gtceu:platinum_group_sludge_dust')
-    .notConsumable('kubejs:platinum_metal_catalyst')
-    .itemOutputs('10x gtceu:palladium_dust')
-    .itemOutputs('24x gtceu:platinum_dust')
-    .itemOutputs('9x gtceu:ruthenium_dust')
-    .itemOutputs('45x gtceu:reprecipitated_rhodium_dust')
-    .EUt(8388608)
-    .duration(600)
-    .circuit(0)
-
-    event.recipes.gtceu.mana_seperator('platinum_catalyst1')
-    .itemInputs('20x gtceu:platinum_group_sludge_dust')
-    .notConsumable('kubejs:platinum_metal_catalyst')
-    .itemOutputs('10x gtceu:palladium_dust')
-    .itemOutputs('24x gtceu:platinum_dust')
-    .itemOutputs('9x gtceu:ruthenium_dust')
-    .itemOutputs('3x gtceu:rhodium_dust')
-    .EUt(8388608)
-    .duration(600)
-    .circuit(1)
     
 })
