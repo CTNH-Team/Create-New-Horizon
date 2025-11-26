@@ -9,8 +9,8 @@ GTCEuStartupEvents.registry("gtceu:element", event => {
         .symbol('Ma?lp+')
     event.create('mana_mixed')
         .symbol('Ma???')
-    event.create('mana_ultra')
-        .symbol('**Ma**')
+    //event.create('mana_ultra')
+    //    .symbol('**Ma**')
 })
 GTCEuStartupEvents.registry("gtceu:material", event => {
     GTMaterials.get("darmstadtium").addFlags(GTMaterialFlags.GENERATE_GEAR)
