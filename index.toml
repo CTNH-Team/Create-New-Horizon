@@ -15245,6 +15245,10 @@ file = "kubejs/startup_scripts/src/test.js"
 hash = "93f58588561fb112e887dfe8490da98afd1f599c3e16a183b1f269b31a8b25bb"
 
 [[files]]
+file = "modpack_version.json"
+hash = "e0ec6820ae73b4124d567327b9e84f21614a494e667ab7f2554e390274c8f10b"
+
+[[files]]
 file = "mods/achievements-optimizer.pw.toml"
 hash = "821a8482e972a296f6e242d254631ffd7fe948652d041511a25d0fed3aec5272"
 metafile = true
@@ -16436,3 +16440,11 @@ hash = "8ea2ebcecc3abd00f46f6131f425f2e944973680bde1816cedc3e937d12de98f"
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"
 hash = "1b0e56cbb6c6c613060aaf6c086e0bfac5b868a6a0f549179cab6aa968b9064b"
+
+[[files]]
+file = "resourcepacks/AE2LightMode-1.20.1-ctnh.zip"
+hash = "56ef3564c5e800c5c77c9cd91613507d711cbcc7bcba8da4fe0188ad58390ebe"
+
+[[files]]
+file = "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip"
+hash = "34890722d3bd5a9f23277a77b5c7b9dfa5f025b4884b9ec376a663fc6ec5eba8"
