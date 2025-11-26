@@ -35,6 +35,7 @@ natives-*/
 /mods/*.jar
 /*.jar
 /*.json
+!modpack_version.json
 /*.sh
 /icon.png
 /pack.mcmeta
@@ -98,4 +99,5 @@ config/*
 !config/alexsmobs.toml
 !config/inventoryhud-client.toml
 !config/jei/jei-client.ini
+
 !kubejs/config/*
