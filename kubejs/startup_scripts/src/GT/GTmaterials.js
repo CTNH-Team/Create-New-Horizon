@@ -11,6 +11,8 @@ GTCEuStartupEvents.registry("gtceu:element", event => {
         .symbol('Ma???')
     event.create('mana_ultra')
         .symbol('**Ma**')
+        .protons(777)
+        .neutrons(777)
 })
 GTCEuStartupEvents.registry("gtceu:material", event => {
     GTMaterials.get("darmstadtium").addFlags(GTMaterialFlags.GENERATE_GEAR)
