@@ -14822,7 +14822,7 @@ hash = "cb8ec9109a6ca3bdc4c3f25730b183dca8e05868c58613c5c9b5a1d7ad79a549"
 
 [[files]]
 file = "kubejs/server_scripts/src/crafttable.js"
-hash = "7fdc5c8432fff6a7064f4142063f0c7e5682d59571576ab167d3690e21b2c0ea"
+hash = "9493e96b136c565799fd6a948b8887cff93592da29f82cc4d2cf66df6322d6a5"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/Vintage_Improvements.js"

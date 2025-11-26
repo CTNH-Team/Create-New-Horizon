@@ -1556,18 +1556,6 @@ ServerEvents.recipes(event => {
             D: 'create:belt_connector'
         })
     event.shaped(
-        Item.of('ctnhcore:mechanical_laser', 1), [
-            "AAA",
-            "BCB",
-            "DED"
-        ], {
-            A: 'ctpp:steel_mechanism',
-            B: 'create:railway_casing',
-            C: 'vintageimprovements:laser',
-            D: 'gtceu:red_alloy_quadruple_wire',
-            E: 'create:depot'
-        })
-    event.shaped(
         Item.of('bloodmagic:dungeon_brick_slab', 6), [
             "AAA"
         ], {

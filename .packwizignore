@@ -35,7 +35,6 @@ natives-*/
 /mods/*.jar
 /*.jar
 /*.json
-!modpack_version.json
 /*.sh
 /icon.png
 /pack.mcmeta
