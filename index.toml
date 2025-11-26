@@ -1197,14 +1197,6 @@ file = "config/jade/sort-order.json"
 hash = "35b793a6c7769c753c3b39201fca76d8288eabbce0f6d2c556a0b47c40abb242"
 
 [[files]]
-file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "ef02408c0b662cccb4ab7672d0bb66323b5c3229b4d9760150475d8063d6b82c"
-
-[[files]]
-file = "config/jei/jei-client.ini"
-hash = "c38b13bbc39feb8f89cb6242b0e512286064035457068516bb6f2506a567a259"
-
-[[files]]
 file = "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-client.toml"
 hash = "552b08fe4627a38173aa2f7317c93561d31fc0b0ad96c6949ed8d7d2ec038e49"
 

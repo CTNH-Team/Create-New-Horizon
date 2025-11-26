@@ -97,5 +97,5 @@ config/*
 !config/sophisticatedcore-common.toml
 !config/alexsmobs.toml
 !config/inventoryhud-client.toml
-!config/jei
+!config/jei/jei-client.ini
 !kubejs/config/*
