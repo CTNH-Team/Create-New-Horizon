@@ -974,7 +974,7 @@ hash = "2dfd6e00e1cdcbf42375e701864facd3ef4d07b00e7a6cc19f99c39915ec55ce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08AF6857D150C353.snbt"
-hash = "573e9548b9d944d56b55b0fd2fa75a3b3da70ed4301342b84fd4c3c195ec4291"
+hash = "4d86a9c932e6aefc76361d7f703d65ecae8dc8f975f6c7b2aae8d6ee3295a105"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09F33579334F2607.snbt"
@@ -1022,7 +1022,7 @@ hash = "c5a450bb30efc2a388ede27d38d3139289a1201a756fd807aec4e1c2cbfa954e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4408EF6F9E2E1624.snbt"
-hash = "bf5ab4ec1ae30c828655dd3a5cf3441b6a092e1393c5749f8794c56e90ed27f4"
+hash = "01367505b5624d9f314b8f10d1cae0ff1e38fe87dc28ec888d34edfb10ed8bc4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/449FB885B9E16D50.snbt"
@@ -1062,11 +1062,11 @@ hash = "2dbea31627c614c6577539dc6a2b00331177518e54f888c4dfab682c20a8e052"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/74D640CFCA75E891.snbt"
-hash = "32f1f7e879c53d7cc8aeb9e363d95879e83ac9f2c7f1417c9fadd116e003cdad"
+hash = "ce84414efc16e7c3c2d7b9a87685e75a1ad121381cd56e0107af167e0b2c8c81"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "eb52203fbc90a7239232051ade0efab01d32528433a50b9a9b49a90cab1c1a9d"
+hash = "014919420479f58c8922f4ba892b6ebbe6f3545dd960ad48ab608e1d9bf09211"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
@@ -1074,7 +1074,7 @@ hash = "3bf41bd22133305668e108de68a30e65e1b22cc53a5de3ab045c2aba0e6b745c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "a5ef530a96df9fa660b500cb765bb41edc668f027a14e54d96ee85be99c2c019"
+hash = "def47110071aa29a42a9335fcce2e5c2596e68e89557152e1f0c8d5a0aa780d8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv.snbt"
@@ -1090,7 +1090,7 @@ hash = "242e42711e0425600a0583772d4caeab587c2a1eab29c7d3a230070edf5d6070"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv.snbt"
-hash = "3b29fe4a2441bd0a0cc2b3edac46fe17bb1a92238baac24613962dbe03bdeedb"
+hash = "ae2f6f40b3e66a9b6b6ea3c5289c9646c831499abad5296366c2db8355cc728e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/too_many_items.snbt"
@@ -1098,7 +1098,7 @@ hash = "44b00b33aff55fdc266f337c552dc09f3a8a3642416905ecb68054f4c49ab5b7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uhv.snbt"
-hash = "a40d46a1c5ad7f68f8bb651d057d4503730ce2538cc3bc355acfd42f834a2326"
+hash = "b1353805d2b65994b6edd5b7b779208a180734afde64affe3829818f6f471d43"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv.snbt"
@@ -1186,11 +1186,51 @@ hash = "6e80120f62c78a05f652c446411facacac7552fa1cb99c70fb53747679fee811"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "8434fe24094034e6f0add1d2ec12d744582cc14c07f30517dcaf6409e2c0b758"
+hash = "7aca167e0c5946e24f96518e89c2725c5ffb50cb7efa5c76d4fa05ead0a1534d"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "01dc3566649a64f296a519ba5019ec562f77bddd0a3d30eade8338c102e572ae"
+hash = "35b793a6c7769c753c3b39201fca76d8288eabbce0f6d2c556a0b47c40abb242"
+
+[[files]]
+file = "config/jei/blacklist.cfg"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/jei/ingredient-list-mod-sort-order.ini"
+hash = "ef02408c0b662cccb4ab7672d0bb66323b5c3229b4d9760150475d8063d6b82c"
+
+[[files]]
+file = "config/jei/ingredient-list-type-sort-order.ini"
+hash = "d3e9c7ce6b477be5b76daabf6a86983c3f58c1271b20f6611fb17d5b3ea94361"
+
+[[files]]
+file = "config/jei/jei-client.ini"
+hash = "c38b13bbc39feb8f89cb6242b0e512286064035457068516bb6f2506a567a259"
+
+[[files]]
+file = "config/jei/jei-colors.ini"
+hash = "5f37aacd70460fdc2631ff45e98e8a2ce4e52d3e9a50917edf40eeed1236952e"
+
+[[files]]
+file = "config/jei/jei-debug.ini"
+hash = "ee9bb0f0f8465629951fe9a532f3ebe3327671a12d4cc6395860d7f7494b970b"
+
+[[files]]
+file = "config/jei/jei-mod-id-format.ini"
+hash = "5df8315ff74aeb2d201c2167128502d2cde6346dd859d37f4d7be56a647c624f"
+
+[[files]]
+file = "config/jei/recipe-category-sort-order.ini"
+hash = "91b09062519854a24ebd4f1e14fa8c009988e8c4a584617460903bfa5b5037c2"
+
+[[files]]
+file = "config/jei/world/local/6_0/bookmarks.ini"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/jei/world/local/6_0/lookupHistory.ini"
+hash = "6c31b647c8949e7cdca0c940e5f4f61614899255be3902da5d4cef857de0163a"
 
 [[files]]
 file = "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-client.toml"
@@ -7730,7 +7770,7 @@ hash = "b5fbe710f982820d39f3a0a0f3eb470078c73b40e5605f209ff13c44006e459a"
 
 [[files]]
 file = "kubejs/client_scripts/src/ban.js"
-hash = "7e5abdaffca7bf6ac1a26b82a4dd5451ab54781a04d14c4a3ed9913a9117e57d"
+hash = "c8688d385aa7e51dc079624835b30d7cca4f3b762128deeeda995a77c128f471"
 
 [[files]]
 file = "kubejs/client_scripts/src/example.js"
@@ -7774,7 +7814,7 @@ hash = "07568bfb3abc932b3f40a26fc05932f288a04568aab4e04ca36dbc1b6d18caf5"
 
 [[files]]
 file = "kubejs/client_scripts/src/tooltip.js"
-hash = "b8e92153d5e15d21c0edfac289ac76e5c05c02433dda8fa0a1937df4011820a3"
+hash = "5a6376373187be002f5d88221980f58482428384356b217bc8793962d0025ddd"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -14762,7 +14802,7 @@ hash = "1f6dc6355f33a8892f67beb78a5257a1af31ffaac4e459a49b34e07e939915cc"
 
 [[files]]
 file = "kubejs/server_scripts/src/80extend.js"
-hash = "5460e0956b75c6b77fd0ed1b3629578aadd7b7e55a615a6aa60c8eaabd11eb28"
+hash = "3304ab0c20f9f66ad7aca801beb0b2d565ed6b7b70a4c972fa78f40e2ec8644d"
 
 [[files]]
 file = "kubejs/server_scripts/src/Adjust_material.js"
@@ -14794,7 +14834,7 @@ hash = "72300efe9fc9a906eb8de7dd8f449a720eeac33ea7d08ba2ddb483585dcd7caa"
 
 [[files]]
 file = "kubejs/server_scripts/src/avaritia.js"
-hash = "3f8f4710bf56719ba7fffc6b21735aec42ef5b3512d5945de8cc1b6794a4d76a"
+hash = "a70903a85170e4ec4dba31d48180ea0f42c2ebb095778da07669a5c2bde0e82a"
 
 [[files]]
 file = "kubejs/server_scripts/src/bio.js"
@@ -14818,7 +14858,7 @@ hash = "cb8ec9109a6ca3bdc4c3f25730b183dca8e05868c58613c5c9b5a1d7ad79a549"
 
 [[files]]
 file = "kubejs/server_scripts/src/crafttable.js"
-hash = "21e1685bf23402f2339e0f1324fe3009ec71088097877be423624c226af3a649"
+hash = "7fdc5c8432fff6a7064f4142063f0c7e5682d59571576ab167d3690e21b2c0ea"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/Vintage_Improvements.js"
@@ -14842,7 +14882,7 @@ hash = "ec3b23d7ef25bfcc5fbd937f4258234297e8382061ecb3c16df7ce3a459b2a7b"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/metallurgy.js"
-hash = "70fec10da8b1bc1af098c61221926c63541de13278deb9ad29d1e93ed6f5fac3"
+hash = "fc91bb971f9d631e5f0a0164c15ba308d4fe2bcd64738553c630be63c6bf9e17"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/oreexcavation.js"
@@ -14859,6 +14899,10 @@ hash = "bbcddd8bb43340fb482c62f6242e9b890d73a3f2cf52e92b6789ca3f42e3c6ab"
 [[files]]
 file = "kubejs/server_scripts/src/enderio/enderio.js"
 hash = "eab3967b7da9cf9c858ca6717a59ca89a4cab3c348d00d9ef6123405d0b0e019"
+
+[[files]]
+file = "kubejs/server_scripts/src/entityEvent.js"
+hash = "17eb222ea54336c50a82c09f822d64ac6c37b81090f87f49376081c041aa31b6"
 
 [[files]]
 file = "kubejs/server_scripts/src/event.js"
@@ -14894,11 +14938,11 @@ hash = "b9e464318f222c13db7d81606663d3cc0d77c75eb3f84abb154588933332928b"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/AluminumChain.js"
-hash = "d77a6c3c6b2a342ef27c55fdca0c79937d7d57a7bcf1bbadb59c884f7fcb63e1"
+hash = "027c154d44d07b576ed59270dfa5a5d12e8babd1a2f04bc76f4e81a06dcfc94d"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/ChromiteChain.js"
-hash = "32a424c26da27b8a3331629028eb0fe9974d2f30ed76c0de50fe5dcb4dbc2612"
+hash = "ee0b00498bf5ded8d92437e6e101874b19325505ed2c294015b75252303480e4"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/ColorfulsocChain.js"
@@ -14934,7 +14978,7 @@ hash = "9e41b6faf04df20b84ccee29a2a9d83aaf2c0adee85b2c308a2f7751466bb45f"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/PlatinumChain.js"
-hash = "2d2c0d4fdcee5ab132663abe70c1990916e30cdd1e0959a786526ffc6dfdf6d5"
+hash = "16df36552d4358d7a2ece409c7f15be59de4b6f337270209a5d11e9d4c21a614"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/RareearthChain.js"
@@ -14982,7 +15026,7 @@ hash = "69ae8838e16f3ddeb81766dd40eb6cbeaf05772f9f0d46c6414b6f2a0abe2f68"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "a24eb13b6f488ea20a6d36390e5fdab672bc79bbddc05cc9a7a1124f15d7e58c"
+hash = "b3f3be67eab66983a0680c77a955c101c16ad179f74ef73fe19479dc581ffe66"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtmthings.js"
@@ -15098,7 +15142,7 @@ hash = "0d86f896fd1ccf3d27796ef178c29d1165b833be28de7c2f327a194e252c8bb7"
 
 [[files]]
 file = "kubejs/server_scripts/src/magic/uper_mana2.js"
-hash = "f104fe9af92db62ececce380598c2562667b7865416a0559095b690d2ffbd502"
+hash = "f51ddfb57b47bb3f1763c061c16f710cbe59be4d89598c598df884cd4015faba"
 
 [[files]]
 file = "kubejs/server_scripts/src/nano.js"
@@ -15110,7 +15154,7 @@ hash = "71462d20e8676fbc4504fd1e207ece54016c312d8a83d8fceb412f4b083c7163"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "97b622d8de393e236dfa42c5fadaa3ef6862bc3b4507c858cf49711b9e49e4be"
+hash = "88b936e6e64fe1e803f217c7515c94c3a436f8d72ab92a7d5f99eb63b20f48ad"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedbackpacks.js"
@@ -15146,7 +15190,7 @@ hash = "95c67a9757f2df886b0d555f53b3d12e232899ed0e9f1d495501abb02b20707e"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/remove_tinkers_repices.js"
-hash = "cf7dc092f34491a9eaf8f5266143773e4a24f7829bdb31c9734b4aea4dd41094"
+hash = "30b48ffca3fcf2bcc35fb30a7704006a98bc42bd744722b3427caf6e011f2f63"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/tinkers.js"
@@ -15158,7 +15202,7 @@ hash = "650e3887e7c22192395e256a9be20e71eb0fbf969ac7db72c5248832f0185532"
 
 [[files]]
 file = "kubejs/server_scripts/src/util/recipes.js"
-hash = "625c73c7ad688a743d099a857505748902ed0d3138d6bf6e0739dd9314f8442f"
+hash = "a43dbdf9f3e10cd27316faa5cee36c4ff0a605211a780f9f1d8a05d5a86b53aa"
 
 [[files]]
 file = "kubejs/server_scripts/src/util/tconstruct/TConMaterialGenerator.js"
@@ -15190,7 +15234,7 @@ hash = "c3e96da62129a29ab52a2fadc4ecf1699c5a05d360cc0493d8a95a9c071372bb"
 
 [[files]]
 file = "kubejs/startup_scripts/src/Worldgen/worldgen.js"
-hash = "d71d1b628b7c59ed90c3a33d35a29d73764f14d3db91175ecdee67da59f8c800"
+hash = "55ebe26f911eff15f5006c2a7c248174797701c7efbd8f3688d730424a33c67c"
 
 [[files]]
 file = "kubejs/startup_scripts/src/attribute/attribute_registry.js"
@@ -15222,7 +15266,7 @@ hash = "97bb7d67dd8f7cea00220344d98a13da84a4f9acdb39af4fc694bf9fee9b1369"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item_register.js"
-hash = "82a3eefc220e1b73543bff9b284b5193a89035cd509b9fb92dd9e3fb36450c5b"
+hash = "ae61a9c8c7b6cdb75680a1e1835379eb57c194f8b78b79edc458f1edd8a39c95"
 
 [[files]]
 file = "kubejs/startup_scripts/src/tconstruct_modifiers_register.js"
@@ -15829,7 +15873,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "e73d5ea2900a0584c4ffef759d7e13452e8bee88ff08a5bc02ab4b4ab5ecdd7c"
+hash = "84bd7e01a080d9089b5a99ffc0314f9b5a64f4e4ff38d9904bc65564270d54a2"
 metafile = true
 
 [[files]]
@@ -15879,7 +15923,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "f83c325baff8ca64e5901060c3734dac88939f8f6bf4a384805c674058416201"
+hash = "3a9af1fae141ca05ad9a7d3e7b3b32b627408efed8b40b16a21f2c887b619be0"
 metafile = true
 
 [[files]]
@@ -16419,12 +16463,8 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "4aab777d772a0ccc9c451997ee57df8ea4044f686f6c9f449937ad6b6282627d"
+hash = "8ea2ebcecc3abd00f46f6131f425f2e944973680bde1816cedc3e937d12de98f"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"
 hash = "1b0e56cbb6c6c613060aaf6c086e0bfac5b868a6a0f549179cab6aa968b9064b"
-
-[[files]]
-file = "resourcepacks/AE2LightMode-1.20.1.zip"
-hash = "0d6ab87530c4cbab002cc66875432c61d43177b944ff998c66ddb7afb3d1bed0"

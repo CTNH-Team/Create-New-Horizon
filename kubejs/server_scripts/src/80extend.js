@@ -30,7 +30,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:assembler/mar_casing" })
         //移除超净配方
     event.remove({ id: "gtceu:arc_furnace/arc_cleaning_maintenance_hatch" })
-    event.remove({ id: "gtceu:macerator/macerate_cleaning_maintenance_hatch" })
     event.remove({ id: "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_cleaning_maintenance_hatch" })
         //提高了中子素配方的产率
     event.remove({ id: "gtceu:fusion_reactor/americium_and_naquadria_to_neutronium_plasma" })

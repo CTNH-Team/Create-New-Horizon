@@ -131,3 +131,4 @@ config/*
 !config/tconstruct-common.toml
 !config/inventoryhud-client.toml
 !config/merequester-common.toml
+!config/jei

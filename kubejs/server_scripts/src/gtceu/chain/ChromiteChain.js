@@ -1,5 +1,4 @@
 ServerEvents.recipes(event => {
-    event.remove({ id: 'gtceu:centrifuge/ruby_slurry_centrifuging' })
     event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_chromite' })
     event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_ruby' })
     event.replaceOutput({id: 'gtceu:macerator/macerate_ruby_refined_ore_to_dust'},'gtceu:chromium_dust','gtceu:chromite_dust')
