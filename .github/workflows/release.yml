@@ -84,7 +84,7 @@ jobs:
     if: >
       startsWith(github.ref_name, 'release') || 
       startsWith(github.ref_name, 'test-release') ||
-      startsWith(github.ref_name, 'test-server')
+      startsWith(github.ref_name, 'test-action')
     steps:
       - name: 测试环境变量
         run: |
