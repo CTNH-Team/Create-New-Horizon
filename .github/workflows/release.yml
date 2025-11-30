@@ -103,8 +103,7 @@ jobs:
           chmod +x ./packwiz
       - name: 【版本】根据pack.toml的整合包和forge版本替换 游戏标题名称 & 更好地兼容检测配置文件 & 反馈配置 & 启动脚本
         run: |
-          dos2unix kubejs/config/client.properties
-          sed -i "s/^title=\(.*\)/title=\1 | v$MODPACK_VERSION/" kubejs/config/client.properties
+          sed -i "s/^title=\(.*\)\n/title=\1 | v$MODPACK_VERSION/" kubejs/config/client.properties
 
           grep 'title' kubejs/config/client.properties
         # jq --arg v "$MODPACK_VERSION" '.placeholder = "\n§l§4§n(勿删本行) 版本: " + $v' config/GeneralFeedback/default.json > default.json.tmp
