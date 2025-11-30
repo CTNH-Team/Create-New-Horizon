@@ -11,7 +11,7 @@
 		{
 			id: "6B3CBC1E3FED2CA6"
 			linked_quest: "6680806967633AD8"
-			x: 9.0d
+			x: 8.5d
 			y: 1.0d
 		}
 		{
@@ -23,61 +23,61 @@
 		{
 			id: "4A9BFB6EB6F26385"
 			linked_quest: "534D927B52EC5F63"
-			x: 24.5d
+			x: 24.0d
 			y: -1.0d
 		}
 		{
 			id: "570BFF0CA15CBB12"
 			linked_quest: "0D88A5F86881FB3B"
-			x: 25.5d
+			x: 25.0d
 			y: -1.0d
 		}
 		{
 			id: "78DBE5089929C135"
 			linked_quest: "019F2136970CA2E1"
-			x: 26.5d
+			x: 26.0d
 			y: -1.0d
 		}
 		{
 			id: "687BF30B7299EFEA"
 			linked_quest: "03F6BCDB99059FD4"
-			x: 27.5d
+			x: 27.0d
 			y: -1.0d
 		}
 		{
 			id: "66EDF12C623A65CD"
 			linked_quest: "2D662EFDE7A39BB8"
-			x: 17.5d
+			x: 17.0d
 			y: -1.0d
 		}
 		{
 			id: "5D8C3B54CBA14A9E"
 			linked_quest: "3AE584B3EBC63A09"
-			x: 18.5d
+			x: 18.0d
 			y: -1.0d
 		}
 		{
 			id: "3F5D758137719935"
 			linked_quest: "607209201C6B08C3"
-			x: 19.5d
+			x: 19.0d
 			y: -1.0d
 		}
 		{
 			id: "223DA598BCA25751"
 			linked_quest: "216D57DF2B38AB9D"
-			x: 20.5d
+			x: 20.0d
 			y: -1.0d
 		}
 		{
 			id: "54ABCE520AD5AC1A"
 			linked_quest: "41E48BCAEAD9D47E"
-			x: 16.5d
+			x: 16.0d
 			y: -1.0d
 		}
 		{
 			id: "1954FD2988E28F98"
 			linked_quest: "3AFD46E811ED67AD"
-			x: 15.5d
+			x: 15.0d
 			y: -1.0d
 		}
 	]
@@ -538,18 +538,11 @@
 				"{ftbquests.chapter.ae2.quest5517602831897897233.description2}"
 			]
 			id: "4C92768AC6F6A911"
-			tasks: [
-				{
-					id: "2EFA9D620FA99D4D"
-					item: "expatternprovider:ex_pattern_provider"
-					type: "item"
-				}
-				{
-					id: "126962A5934F5D78"
-					item: "expatternprovider:ex_molecular_assembler"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "126962A5934F5D78"
+				item: "expatternprovider:ex_molecular_assembler"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.ae2.quest5517602831897897233.title}"
 			x: 6.5d
 			y: -6.0d
@@ -557,18 +550,11 @@
 		{
 			dependencies: ["14899AF85A2D3C9A"]
 			id: "387610CFB183C3B0"
-			tasks: [
-				{
-					id: "1E3BE87CF042143E"
-					item: "ae2:pattern_provider"
-					type: "item"
-				}
-				{
-					id: "6232FB4B1CA10936"
-					item: "ae2:molecular_assembler"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6232FB4B1CA10936"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.ae2.quest4068457797598299056.title}"
 			x: 6.5d
 			y: -3.0d
@@ -581,7 +567,7 @@
 				item: "ae2:advanced_card"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 11.0d
 			y: -4.5d
 		}
 		{
@@ -592,7 +578,7 @@
 				item: "ae2:speed_card"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: -3.0d
 		}
 		{
@@ -638,7 +624,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.ae2.quest6293424928209026059.title}"
-			x: 9.0d
+			x: 8.5d
 			y: -6.0d
 		}
 		{
@@ -673,7 +659,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.ae2.quest8351612552652165572.title}"
-			x: 9.0d
+			x: 8.5d
 			y: -3.0d
 		}
 		{
@@ -702,25 +688,17 @@
 				item: "ae2:crafting_unit"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["071285C288ECD6B8"]
-			description: ["{ftbquests.chapter.ae2.quest909328989673492597.description1}"]
 			id: "0C9E95E5F5741075"
-			tasks: [
-				{
-					id: "041DC2574ADE9CB5"
-					item: "ae2:crafting_terminal"
-					type: "item"
-				}
-				{
-					id: "6089792E96C01C44"
-					item: "ae2:pattern_encoding_terminal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "041DC2574ADE9CB5"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
 			x: 1.5d
 			y: -4.0d
 		}
@@ -728,6 +706,7 @@
 			dependencies: ["1E42AB2B08C2D2FC"]
 			description: ["{ftbquests.chapter.ae2.quest2407258047972625819.description1}"]
 			id: "21684C70C01BCD9B"
+			subtitle: "变聪明了！"
 			tasks: [
 				{
 					id: "740A5B30F0635E41"
@@ -875,7 +854,7 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.ae2.quest8056625128487196608.description1}"
+				"制作奇点和物质球"
 				"{ftbquests.chapter.ae2.quest8056625128487196608.description2}"
 			]
 			id: "6FCEE1DE57F717C0"
@@ -920,7 +899,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.ae2.quest5058329067511728345.title}"
-			x: 9.0d
+			x: 8.5d
 			y: -2.0d
 		}
 		{
@@ -943,7 +922,7 @@
 				item: "ae2:crafting_accelerator"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 11.0d
 			y: -2.0d
 		}
 		{
@@ -1034,7 +1013,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.ae2.quest7045962431365343044.title}"
-			x: 9.0d
+			x: 8.5d
 			y: 4.0d
 		}
 		{
@@ -1094,7 +1073,7 @@
 				item: "ae2:basic_card"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 11.0d
 			y: 2.5d
 		}
 		{
@@ -1268,7 +1247,7 @@
 				item: "ae2:fuzzy_card"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: -6.0d
 		}
 		{
@@ -1279,7 +1258,7 @@
 				item: "ae2:inverter_card"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.5d
 			y: -6.0d
 		}
 		{
@@ -1290,7 +1269,7 @@
 				item: "ae2wtlib:magnet_card"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.5d
 			y: -3.0d
 		}
 		{
@@ -1301,7 +1280,7 @@
 				item: "ae2:energy_card"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 10.0d
 			y: -4.5d
 		}
 		{
@@ -1312,7 +1291,7 @@
 				item: "ae2:redstone_card"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 11.0d
 			y: 4.0d
 		}
 		{
@@ -1323,7 +1302,7 @@
 				item: "ae2:capacity_card"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 10.0d
 			y: 2.5d
 		}
 		{
@@ -1334,7 +1313,7 @@
 				item: "ae2:void_card"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 10.5d
 			y: 1.0d
 		}
 		{
@@ -1345,7 +1324,7 @@
 				item: "ae2:crafting_card"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 12.0d
 			y: 2.5d
 		}
 		{
@@ -1396,7 +1375,13 @@
 			y: 1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.ae2.quest1643874341002512645.description1}"]
+			description: [
+				"{ftbquests.chapter.ae2.quest1643874341002512645.description1}"
+				""
+				"整合包内置高版本风格AE材质包，可自行在资源包界面启用。"
+				""
+				"&4注意&r：本整合包对AE进行了深度魔改，自行添加额外的AE附属mod很可能造成不兼容、崩溃或其他bug。"
+			]
 			id: "16D03700E6D58905"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.ae2.quest1643874341002512645.subtitle}"
@@ -1442,7 +1427,7 @@
 				item: "ae2omnicells:omni_cell_component_1k"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 15.0d
 			y: 0.5d
 		}
 		{
@@ -1456,7 +1441,7 @@
 				item: "ae2omnicells:omni_cell_component_4k"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 16.0d
 			y: 0.5d
 		}
 		{
@@ -1470,7 +1455,7 @@
 				item: "ae2omnicells:omni_cell_component_16k"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 17.0d
 			y: 0.5d
 		}
 		{
@@ -1484,7 +1469,7 @@
 				item: "ae2omnicells:omni_cell_component_64k"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 18.0d
 			y: 0.5d
 		}
 		{
@@ -1498,7 +1483,7 @@
 				item: "ae2omnicells:omni_cell_component_256k"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 19.0d
 			y: 0.5d
 		}
 		{
@@ -1512,7 +1497,7 @@
 				item: "ae2omnicells:omni_cell_component_1m"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 20.0d
 			y: 0.5d
 		}
 		{
@@ -1526,7 +1511,7 @@
 				item: "ae2omnicells:complex_omni_cell_component_4m"
 				type: "item"
 			}]
-			x: 24.5d
+			x: 24.0d
 			y: 0.5d
 		}
 		{
@@ -1540,7 +1525,7 @@
 				item: "ae2omnicells:complex_omni_cell_component_16m"
 				type: "item"
 			}]
-			x: 25.5d
+			x: 25.0d
 			y: 0.5d
 		}
 		{
@@ -1554,7 +1539,7 @@
 				item: "ae2omnicells:complex_omni_cell_component_64m"
 				type: "item"
 			}]
-			x: 26.5d
+			x: 26.0d
 			y: 0.5d
 		}
 		{
@@ -1568,7 +1553,7 @@
 				item: "ae2omnicells:complex_omni_cell_component_256m"
 				type: "item"
 			}]
-			x: 27.5d
+			x: 27.0d
 			y: 0.5d
 		}
 		{
@@ -1585,7 +1570,7 @@
 				item: "ae2omnicells:omni_link_processor"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 13.5d
 			y: -1.0d
 		}
 		{
@@ -1600,10 +1585,14 @@
 				item: "ae2omnicells:complex_link_processor"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 22.5d
 			y: -1.0d
 		}
 		{
+			description: [
+				"    包含OMNI 合成单元的CPU在执行合成任务时，会自动对处理样板进行翻倍发配（如果样板供应器为不阻挡或智能阻挡），默认最大倍数为64，可通过设置修改。"
+				"    &4注意：容器或机器容量太小可能导致无法发配进而卡住合成&r"
+			]
 			id: "1B4E505F5E359FAF"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.ae2.quest1967598457740173231.subtitle}"
@@ -1612,7 +1601,7 @@
 				item: "ae2omnicells:omni_crafting_unit_block"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 15.0d
 			y: -4.5d
 		}
 		{
@@ -1627,7 +1616,7 @@
 				item: "ae2omnicells:omni_crafting_storage_1k_block"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 15.0d
 			y: -2.5d
 		}
 		{
@@ -1641,7 +1630,7 @@
 				item: "ae2omnicells:omni_crafting_storage_4k_block"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 16.0d
 			y: -2.5d
 		}
 		{
@@ -1655,7 +1644,7 @@
 				item: "ae2omnicells:omni_crafting_storage_16k_block"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 17.0d
 			y: -2.5d
 		}
 		{
@@ -1669,7 +1658,7 @@
 				item: "ae2omnicells:omni_crafting_storage_64k_block"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 18.0d
 			y: -2.5d
 		}
 		{
@@ -1683,7 +1672,7 @@
 				item: "ae2omnicells:omni_crafting_storage_256k_block"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 19.0d
 			y: -2.5d
 		}
 		{
@@ -1697,7 +1686,7 @@
 				item: "ae2omnicells:omni_crafting_storage_1m_block"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 20.0d
 			y: -2.5d
 		}
 		{
@@ -1710,7 +1699,7 @@
 				item: "ae2omnicells:complex_crafting_unit_block"
 				type: "item"
 			}]
-			x: 24.5d
+			x: 24.0d
 			y: -4.5d
 		}
 		{
@@ -1725,7 +1714,7 @@
 				item: "ae2omnicells:complex_crafting_storage_4m_block"
 				type: "item"
 			}]
-			x: 24.5d
+			x: 24.0d
 			y: -2.5d
 		}
 		{
@@ -1739,7 +1728,7 @@
 				item: "ae2omnicells:complex_crafting_storage_16m_block"
 				type: "item"
 			}]
-			x: 25.5d
+			x: 25.0d
 			y: -2.5d
 		}
 		{
@@ -1753,7 +1742,7 @@
 				item: "ae2omnicells:complex_crafting_storage_64m_block"
 				type: "item"
 			}]
-			x: 26.5d
+			x: 26.0d
 			y: -2.5d
 		}
 		{
@@ -1767,7 +1756,7 @@
 				item: "ae2omnicells:complex_crafting_storage_256m_block"
 				type: "item"
 			}]
-			x: 27.5d
+			x: 27.0d
 			y: -2.5d
 		}
 		{
@@ -1848,7 +1837,7 @@
 				title: "{ftbquests.chapter.ae2.quest5287912950617358297.task.1276088759691046856.title}"
 				type: "checkmark"
 			}]
-			x: 30.0d
+			x: 29.5d
 			y: -1.0d
 		}
 		{
@@ -1871,7 +1860,7 @@
 				item: "ae2omnicells:type_fuzzy_card"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 12.0d
 			y: -4.5d
 		}
 		{
@@ -1882,7 +1871,7 @@
 				item: "ae2omnicells:ender_ingot"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 11.0d
 			y: 0.0d
 		}
 		{
@@ -1903,7 +1892,7 @@
 				title: "{ftbquests.chapter.ae2.quest6023780771038355785.task.6334175325101784540.title}"
 				type: "checkmark"
 			}]
-			x: 21.5d
+			x: 21.0d
 			y: -1.0d
 		}
 		{
@@ -1917,6 +1906,270 @@
 				type: "item"
 			}]
 			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["42F3929CE1A04D16"]
+			description: [
+				"    本整合包为样板供应器（及扩展样板供应器）添加了阻挡类型设置，其中较为实用的是“&e智能阻挡&r”，即不阻挡同一处理样板的发配。"
+				"    另外，当紧贴GT机器或仓室放置时，在样板管理终端中该供应器的名称会自动显示成&b机器&r或&b仓室所属的多方块&r名称，同时会附带&b虚拟电路编号&r（如果设置了）和&b多方块的配方类型&r。"
+			]
+			id: "5E445FBCF85AF5F1"
+			subtitle: "智能阻挡"
+			tasks: [{
+				id: "7A24C4F3B455092A"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"071A728A18E21B3C"
+				"445EB3640522A172"
+			]
+			description: ["    可安装在样板供应器中，此时样板供应器执行&b带有编程电路的样板&r时，&e不会&r向网络请求编程电路物品，而是将发配目标机器的&b虚拟电路&r设置为对应编号，这一功能可以对&b子网&r生效。"]
+			id: "57D1710E05DBF5D4"
+			subtitle: "不想堆机器？"
+			tasks: [{
+				id: "0561A9088D0064BD"
+				item: "pccard:card_programmed_circuit"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			description: ["    ME仓室直接从网络提取原料，将产物存入网络，且具有无限缓存。"]
+			id: "77B0C03023DF3CAC"
+			subtitle: "无限容量！"
+			tasks: [
+				{
+					id: "6999D8649C390AFC"
+					item: "gtceu:me_input_bus"
+					type: "item"
+				}
+				{
+					id: "3C9289342DB03C2B"
+					item: "gtceu:me_output_bus"
+					type: "item"
+				}
+				{
+					id: "239FFA55DC0438BF"
+					item: "gtceu:me_input_hatch"
+					type: "item"
+				}
+				{
+					id: "23D04052A671FE06"
+					item: "gtceu:me_output_hatch"
+					type: "item"
+				}
+				{
+					id: "265EF2230D2398E1"
+					item: "ctnhenergy:me_dual_output_hatch"
+					type: "item"
+				}
+			]
+			title: "ME仓室"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"    样板总成的每个样板槽位有单独且&e互相隔离&r的原料缓存，从根本上杜绝串配方。"
+				"    样板总成镜像只需通过闪存与样板总成绑定，自身无需接入ME网络。"
+			]
+			id: "72F4ADF5432A6F35"
+			subtitle: "不只是样板供应器贴输入总成"
+			tasks: [
+				{
+					id: "2B4E862932DEEDC5"
+					item: "gtceu:me_pattern_buffer"
+					type: "item"
+				}
+				{
+					id: "18A88785C29BEFF5"
+					item: "gtceu:me_pattern_buffer_proxy"
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 2.5d
+		}
+		{
+			description: ["   支持带有编程电路的样板，同时具备输出功能（可以理解为内置了一个ME输出总成）。"]
+			id: "6D8874393C5A8DC7"
+			subtitle: "这甚至还不是最终形态"
+			tasks: [
+				{
+					id: "2C7EF9D94716547B"
+					item: "ctnhenergy:advanced_me_pattern_buffer"
+					type: "item"
+				}
+				{
+					id: "29E5EFA12E1A8A03"
+					item: "ctnhenergy:advanced_me_pattern_buffer_proxy"
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5EF66EA626586D4A"
+				"53389BA89020EE79"
+			]
+			description: ["    研究所需的“神秘方块”可以通过精准采集获取。"]
+			id: "5CAFDC6022A78C40"
+			size: 2.0d
+			subtitle: "策定乾坤算因果"
+			tasks: [{
+				id: "4603AC110275C6B7"
+				item: "ctnhenergy:jiuzhang_quantum_computer"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0C9E95E5F5741075"]
+			description: [
+				"    样板编码终端的处理样板模式增加了一个按键，可以设置编码样板时&b是否加入配方中的编程电路&r（如果有），这一功能可配合&e可编程电路卡&r使用（详见相关AE教程或任务）。"
+				""
+				"    &b以下是给老格雷员工的提醒："
+				"    &b在本整合包中，中期开始可以使用的OMNI CPU和量子超算在发配处理样板时均有&e自动翻倍&b功能，故编写样板时无需倍乘产物和原料。"
+			]
+			id: "7200C4597B67A8F1"
+			subtitle: "怎么没有翻倍按钮"
+			tasks: [{
+				id: "41AB3D6DEF3410B7"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"    可以方便地对线缆进行染色，建议使用染色球以节约染料。"
+				"    本整合包将其与GT进行了兼容，可以为仓室染色，可以shift+右键以染色所有相邻目标。"
+			]
+			id: "14CBF9DA688E3046"
+			subtitle: "喷漆罐上位"
+			tasks: [{
+				id: "126339367CB45A2B"
+				item: {
+					Count: 1
+					id: "ae2:color_applicator"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "染色器"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42F3929CE1A04D16"]
+			id: "259D7E44B625939A"
+			tasks: [
+				{
+					id: "37FCA4BEA31D873A"
+					item: "expatternprovider:wireless_connect"
+					type: "item"
+				}
+				{
+					id: "58135BD4DE3288CF"
+					item: "expatternprovider:wireless_tool"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			description: ["    将ME设备整个打包，保留配置以及其中的物品"]
+			id: "69DC92C4C5D437D1"
+			subtitle: "别再把样板弄得到处都是了~"
+			tasks: [{
+				id: "1BA2F447CA8EE6DF"
+				item: {
+					Count: 1
+					id: "expatternprovider:me_packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E445FBCF85AF5F1"]
+			id: "6F9C768514497266"
+			subtitle: "不算很有用"
+			tasks: [{
+				id: "1FEDDF8392071740"
+				item: "expatternprovider:pattern_modifier"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "608ED8FA01C6E204"
+			tasks: [{
+				id: "66E05D62A4F50AAB"
+				item: {
+					Count: 1
+					id: "ae2:memory_card"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			description: ["    右键p2p通道打开UI，可方便地绑定和管理网络中的p2p（包括EUP2P）。&b进行任何改动之后，都需要点击左侧的刷新按钮以同步改动。&r"]
+			id: "5D65755F840439BF"
+			subtitle: "p2p神器"
+			tasks: [{
+				id: "31A6D2E48D11D136"
+				item: {
+					Count: 1
+					id: "betterp2p:advanced_memory_card"
+					tag: {
+						gui: 3b
+						selectedIndex: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			description: ["    可以自动拉取网络中的物品/流体，不必手动标记"]
+			id: "70E6618E83518A65"
+			subtitle: "自动拉取"
+			tasks: [
+				{
+					id: "5BC89AFC0547925F"
+					item: "gtceu:me_stocking_input_bus"
+					type: "item"
+				}
+				{
+					id: "7FEFFA25E13DAEFC"
+					item: "gtceu:me_stocking_input_hatch"
+					type: "item"
+				}
+			]
+			x: 20.0d
 			y: 2.5d
 		}
 	]

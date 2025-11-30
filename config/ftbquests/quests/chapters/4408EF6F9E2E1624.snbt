@@ -1620,21 +1620,13 @@
 			]
 			icon: "minecraft:netherrack"
 			id: "1E11A492F4576DBA"
-			rewards: [
-				{
-					command: "/gamephase add @p nether"
-					elevate_perms: true
-					id: "73102DDDEA76B9E4"
-					title: "{ftbquests.chapter.4408EF6F9E2E1624.quest2166693846813470138.reward.8291177345133754852.title}"
-					type: "command"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1A07F52834B0F819"
-					table_id: 6665810253403300519L
-					type: "random"
-				}
-			]
+			rewards: [{
+				command: "/gamephase add @p nether"
+				elevate_perms: true
+				id: "73102DDDEA76B9E4"
+				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest2166693846813470138.reward.8291177345133754852.title}"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest2166693846813470138.subtitle}"

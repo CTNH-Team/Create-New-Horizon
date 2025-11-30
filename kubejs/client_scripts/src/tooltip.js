@@ -91,6 +91,8 @@ ItemEvents.tooltip(event => {
     event.add('hostilenetworks:deep_learner',Text.translate('ctnh.hostilenetworks.deep_learner').yellow())
     event.add('hostilenetworks:sim_chamber',Text.translate('ctnh.hostilenetworks.sim_chamber').yellow())
 
+    event.add(/gtmthings:(.*)huge(.*)/, Text.red('注意：该仓室无法隔离，且用于进阶装配线时可能导致不识别'))
+    
     //Snow_city's cautions:
     //event.add('gtceu:ender_fluid_link_cover', '§4暂未实装')
     event.add(['gtceu:item_tag_filter', 'gtceu:fluid_tag_filter'], Text.red("非语句 [!] 不可用"))

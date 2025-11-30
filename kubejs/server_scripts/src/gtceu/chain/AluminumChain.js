@@ -24,82 +24,82 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_alunite' })
     event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_almandine' })
         //所有副产为铝粉的配方改为副产氧化铝粉
-    event.replaceOutput({
-        output: 'gtceu:aluminium_dust',
-        type: 'gtceu:centrifuge',
-        not: {
-            or: [
-                { id: 'gtceu:centrifuge/decomposition_centrifuging__cobalt_brass' },
-                { id: 'gtceu:centrifuge/decomposition_centrifuging__kanthal' },
-                { id: 'gtceu:centrifuge/sapphire_slurry_centrifuging' },
-                { id: 'gtceu:centrifuge/ruby_slurry_centrifuging' },
-                { id: 'gtceu:centrifuge/centrifuge_aluminium_pure_dust_to_dust' },
-                { id: 'gtceu:centrifuge/green_sapphire_slurry_centrifuging' },
-                { id: 'gtceu:centrifuge/decomposition_centrifuging__incoloy_ma_956' },
-                { id: 'gtceu:centrifuge/decomposition_centrifuging__maraging_steel_300' }
-            ]
-        }
-    }, 'gtceu:aluminium_dust', 'gtceu:alumina_dust')
+    // event.replaceOutput({
+    //     output: 'gtceu:aluminium_dust',
+    //     type: 'gtceu:centrifuge',
+    //     not: {
+    //         or: [
+    //             { id: 'gtceu:centrifuge/decomposition_centrifuging__cobalt_brass' },
+    //             { id: 'gtceu:centrifuge/decomposition_centrifuging__kanthal' },
+    //             { id: 'gtceu:centrifuge/sapphire_slurry_centrifuging' },
+    //             { id: 'gtceu:centrifuge/ruby_slurry_centrifuging' },
+    //             { id: 'gtceu:centrifuge/centrifuge_aluminium_pure_dust_to_dust' },
+    //             { id: 'gtceu:centrifuge/green_sapphire_slurry_centrifuging' },
+    //             { id: 'gtceu:centrifuge/decomposition_centrifuging__incoloy_ma_956' },
+    //             { id: 'gtceu:centrifuge/decomposition_centrifuging__maraging_steel_300' }
+    //         ]
+    //     }
+    // }, 'gtceu:aluminium_dust', 'gtceu:alumina_dust')
 
-    event.replaceOutput({
-        output: 'gtceu:aluminium_dust',
-        type: 'gtceu:ore_washer',
-        not: {
-            or: [
-                { id: 'gtceu:ore_washer/wash_aluminium_dirty_dust_to_dust' },
-                { id: 'gtceu:ore_washer/wash_aluminium_pure_dust_to_dust' }
-            ]
-        }
-    }, 'gtceu:aluminium_dust', 'gtceu:alumina_dust')
-    event.replaceOutput({ output: 'gtceu:aluminium_dust', type: 'gtceu:thermal_centrifuge' }, 'gtceu:aluminium_dust', 'gtceu:alumina_dust')
-    event.replaceOutput({
-            output: 'gtceu:aluminium_dust',
-            type: 'gtceu:macerator',
-            or: [
-                { id: 'gtceu:macerator/macerate_zeolite_refined_ore_to_dust' },
-                { id: 'gtceu:macerator/macerate_fullers_earth_crushed_ore_to_impure_dust' },
-                { id: 'gtceu:macerator/macerate_deepslate_sapphire_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_netherrack_fullers_earth_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_raw_bentonite_ore_to_crushed_ore' },
-                { id: 'gtceu:macerator/macerate_endstone_fullers_earth_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_raw_fullers_earth_ore_to_crushed_ore' },
-                { id: 'gtceu:macerator/macerate_emerald_crushed_ore_to_dust' },
-                { id: 'gtceu:macerator/macerate_glauconite_sand_crushed_ore_to_dust' },
-                { id: 'gtceu:macerator/macerate_sapphire_crushed_ore_to_impure_dust' },
-                { id: 'gtceu:macerator/macerate_deepslate_green_sapphire_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_raw_spodumene_ore_to_crushed_ore' },
-                { id: 'gtceu:macerator/macerate_green_sapphire_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_netherrack_spodumene_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_bentonite_crushed_ore_to_impure_dust' },
-                { id: 'gtceu:macerator/macerate_mica_refined_ore_to_dust' },
-                { id: 'gtceu:macerator/macerate_deepslate_fullers_earth_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_endstone_sapphire_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_endstone_spodumene_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_netherrack_bentonite_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_bentonite_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_almandine_crushed_ore_to_dust' },
-                { id: 'gtceu:macerator/macerate_raw_green_sapphire_ore_to_crushed_ore' },
-                { id: 'gtceu:macerator/macerate_pollucite_crushed_ore_to_dust' },
-                { id: 'gtceu:macerator/macerate_deepslate_spodumene_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_deepslate_bentonite_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_deepslate_bentonite_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_netherrack_sapphire_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_emerald_refined_ore_to_dust' },
-                { id: 'gtceu:macerator/macerate_fullers_earth_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_raw_sapphire_ore_to_crushed_ore' },
-                { id: 'gtceu:macerator/macerate_aluminium_refined_ore_to_dust' },
-                { id: 'gtceu:macerator/macerate_spodumene_crushed_ore_to_impure_dust' },
-                { id: 'gtceu:macerator/macerate_mica_crushed_ore_to_dust' },
-                { id: 'gtceu:macerator/macerate_kyanite_crushed_ore_to_dust' },
-                { id: 'gtceu:macerator/macerate_green_sapphire_crushed_ore_to_impure_dust' },
-                { id: 'gtceu:macerator/macerate_spodumene_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_sapphire_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_endstone_green_sapphire_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_endstone_bentonite_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_netherrack_green_sapphire_ore_to_raw_ore' },
-                { id: 'gtceu:macerator/macerate_almandine_refined_ore_to_dust' }
-            ]
-        }, 'gtceu:aluminium_dust', 'gtceu:alumina_dust')
+    // event.replaceOutput({
+    //     output: 'gtceu:aluminium_dust',
+    //     type: 'gtceu:ore_washer',
+    //     not: {
+    //         or: [
+    //             { id: 'gtceu:ore_washer/wash_aluminium_dirty_dust_to_dust' },
+    //             { id: 'gtceu:ore_washer/wash_aluminium_pure_dust_to_dust' }
+    //         ]
+    //     }
+    // }, 'gtceu:aluminium_dust', 'gtceu:alumina_dust')
+    // event.replaceOutput({ output: 'gtceu:aluminium_dust', type: 'gtceu:thermal_centrifuge' }, 'gtceu:aluminium_dust', 'gtceu:alumina_dust')
+    // event.replaceOutput({
+    //         output: 'gtceu:aluminium_dust',
+    //         type: 'gtceu:macerator',
+    //         or: [
+    //             { id: 'gtceu:macerator/macerate_zeolite_refined_ore_to_dust' },
+    //             { id: 'gtceu:macerator/macerate_fullers_earth_crushed_ore_to_impure_dust' },
+    //             { id: 'gtceu:macerator/macerate_deepslate_sapphire_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_netherrack_fullers_earth_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_raw_bentonite_ore_to_crushed_ore' },
+    //             { id: 'gtceu:macerator/macerate_endstone_fullers_earth_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_raw_fullers_earth_ore_to_crushed_ore' },
+    //             { id: 'gtceu:macerator/macerate_emerald_crushed_ore_to_dust' },
+    //             { id: 'gtceu:macerator/macerate_glauconite_sand_crushed_ore_to_dust' },
+    //             { id: 'gtceu:macerator/macerate_sapphire_crushed_ore_to_impure_dust' },
+    //             { id: 'gtceu:macerator/macerate_deepslate_green_sapphire_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_raw_spodumene_ore_to_crushed_ore' },
+    //             { id: 'gtceu:macerator/macerate_green_sapphire_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_netherrack_spodumene_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_bentonite_crushed_ore_to_impure_dust' },
+    //             { id: 'gtceu:macerator/macerate_mica_refined_ore_to_dust' },
+    //             { id: 'gtceu:macerator/macerate_deepslate_fullers_earth_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_endstone_sapphire_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_endstone_spodumene_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_netherrack_bentonite_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_bentonite_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_almandine_crushed_ore_to_dust' },
+    //             { id: 'gtceu:macerator/macerate_raw_green_sapphire_ore_to_crushed_ore' },
+    //             { id: 'gtceu:macerator/macerate_pollucite_crushed_ore_to_dust' },
+    //             { id: 'gtceu:macerator/macerate_deepslate_spodumene_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_deepslate_bentonite_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_deepslate_bentonite_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_netherrack_sapphire_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_emerald_refined_ore_to_dust' },
+    //             { id: 'gtceu:macerator/macerate_fullers_earth_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_raw_sapphire_ore_to_crushed_ore' },
+    //             { id: 'gtceu:macerator/macerate_aluminium_refined_ore_to_dust' },
+    //             { id: 'gtceu:macerator/macerate_spodumene_crushed_ore_to_impure_dust' },
+    //             { id: 'gtceu:macerator/macerate_mica_crushed_ore_to_dust' },
+    //             { id: 'gtceu:macerator/macerate_kyanite_crushed_ore_to_dust' },
+    //             { id: 'gtceu:macerator/macerate_green_sapphire_crushed_ore_to_impure_dust' },
+    //             { id: 'gtceu:macerator/macerate_spodumene_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_sapphire_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_endstone_green_sapphire_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_endstone_bentonite_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_netherrack_green_sapphire_ore_to_raw_ore' },
+    //             { id: 'gtceu:macerator/macerate_almandine_refined_ore_to_dust' }
+    //         ]
+    //     }, 'gtceu:aluminium_dust', 'gtceu:alumina_dust')
         //宝石粉处理
     event.recipes.gtceu.centrifuge('electrolyzing_green_sapphire') //绿色蓝宝石
         .EUt(480)

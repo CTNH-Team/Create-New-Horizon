@@ -1556,18 +1556,6 @@ ServerEvents.recipes(event => {
             D: 'create:belt_connector'
         })
     event.shaped(
-        Item.of('ctnhcore:mechanical_laser', 1), [
-            "AAA",
-            "BCB",
-            "DED"
-        ], {
-            A: 'ctpp:steel_mechanism',
-            B: 'create:railway_casing',
-            C: 'vintageimprovements:laser',
-            D: 'gtceu:red_alloy_quadruple_wire',
-            E: 'create:depot'
-        })
-    event.shaped(
         Item.of('bloodmagic:dungeon_brick_slab', 6), [
             "AAA"
         ], {
@@ -1609,7 +1597,6 @@ ServerEvents.recipes(event => {
     event.shapeless("ad_astra:space_pants", "ad_astra:space_pants")
     event.shapeless("ad_astra:space_boots", "ad_astra:space_boots")
     event.shapeless("bloodmagic:dungeon_brick1", "bloodmagic:dungeon_brick_assorted")
-    event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT())

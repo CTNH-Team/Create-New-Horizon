@@ -362,8 +362,8 @@
 		{
 			id: "78F61534691F421F"
 			tasks: [{
-				id: "3B65A3D5AA05267C"
-				item: "culturaldelights:eggplant_burger"
+				id: "1BC10A1497CC84A7"
+				item: "twilightdelight:ghast_brain_salad"
 				type: "item"
 			}]
 			x: 47.5d
@@ -598,8 +598,8 @@
 		{
 			id: "5E33C41E68B10492"
 			tasks: [{
-				id: "6D3540EEE2669834"
-				item: "minecraft:totem_of_undying"
+				id: "1DB337A1AED34FBA"
+				item: "kubejs:elf_catalyst"
 				type: "item"
 			}]
 			x: 62.5d
@@ -867,14 +867,8 @@
 		{
 			id: "2E6C4521324F891D"
 			tasks: [{
-				id: "73F525FF97C4A3D7"
-				item: {
-					Count: 1
-					id: "aether:valkyrie_lance"
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "738A505ABCBCDBB6"
+				item: "kubejs:stone_process_catalyst"
 				type: "item"
 			}]
 			x: 65.5d

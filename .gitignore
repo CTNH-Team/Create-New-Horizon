@@ -89,7 +89,7 @@ versions/dev/PCL/Setup.ini
 
 resourcepacks/*
 !resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip
-!resourcepacks/AE2LightMode-1.20.1.zip
+!resourcepacks/AE2LightMode-1.20.1-ctnh.zip
 !resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
 
 ldlib/
@@ -131,3 +131,5 @@ config/*
 !config/alexsmobs.toml
 !config/tconstruct-common.toml
 !config/inventoryhud-client.toml
+!config/merequester-common.toml
+!config/jei/jei-client.ini

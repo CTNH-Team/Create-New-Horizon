@@ -56,10 +56,6 @@
     "crafting_table": true,
     "compressor": true
   },
-  "crockpot": {
-    "birdcage": true,
-    "crock_pot": true
-  },
   "gtceu": {
     "primitive_pump": true,
     "auto_output_info": true,
@@ -81,9 +77,6 @@
     "hazard_cleaner_provider": true,
     "cable_info": true,
     "parallel_info": true
-  },
-  "maid_storage_manager": {
-    "virtual_frame": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -124,21 +117,6 @@
   "gtmthings": {
     "wireless_energy_hatch_provider": true
   },
-  "extendedcrafting": {
-    "elite_auto_table": true,
-    "ender_crafter": true,
-    "basic_auto_table": true,
-    "flux_crafter": true,
-    "advanced_table": true,
-    "auto_ender_crafter": true,
-    "ultimate_table": true,
-    "ultimate_auto_table": true,
-    "elite_table": true,
-    "basic_table": true,
-    "crafting_core": true,
-    "advanced_auto_table": true,
-    "compressor": true
-  },
   "eclipticseasons": {
     "crop": true,
     "snowy_status": true,
@@ -167,6 +145,10 @@
     "crafting_blueprint": true,
     "goggles.detailed": false,
     "placard": true
+  },
+  "ctnhenergy": {
+    "ad_me_pattern_buffer": true,
+    "ad_me_pattern_buffer_proxy": true
   },
   "waystones": {
     "waystone": true
