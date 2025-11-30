@@ -958,7 +958,7 @@ hash = "6954379d658fdf496f162792a3244f0f08635858ed4b0553a718a7ef63b8a620"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
-hash = "6ca59ae6ed404a61c5fd2036f23cd3128f50d2911b811670565fdb306febefc4"
+hash = "395874fba4711bc93029b1e3eaea1b2cb298001c1d1594c1e010e8ba23e953c5"
 
 [[files]]
 file = "config/forge-client.toml"
@@ -12475,7 +12475,6 @@ hash = "e136e3a38f44a378f795103bbb2fd6283d1361607a2d9ee487ba604289b537b0"
 [[files]]
 file = "kubejs/server_scripts/src/tag.js"
 hash = "e2a4ee465573368ee503020371b77b3b952dd80e73a9870706c6b2780704c0da"
-hash = "e2a4ee465573368ee503020371b77b3b952dd80e73a9870706c6b2780704c0da"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/modiifiers/example.js"
@@ -12487,7 +12486,6 @@ hash = "b7fcc452c03922fcdc1f084c8fea72e545aa001d1fa599f86b4cc97a0562f373"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/modiifiers/global_traveler.js"
-hash = "97f545f2cf3991b7cd296f0b9dfb71c11869f5860997e6c119d85fa7a89829e2"
 hash = "97f545f2cf3991b7cd296f0b9dfb71c11869f5860997e6c119d85fa7a89829e2"
 
 [[files]]
@@ -12588,7 +12586,7 @@ hash = "93f58588561fb112e887dfe8490da98afd1f599c3e16a183b1f269b31a8b25bb"
 
 [[files]]
 file = "modpack_version.json"
-hash = "e0ec6820ae73b4124d567327b9e84f21614a494e667ab7f2554e390274c8f10b"
+hash = "b136e102febf961a4c3a8e7d4566bd13a75850b1b3e70c66ac5fb35437fe7ca8"
 
 [[files]]
 file = "mods/achievements-optimizer.pw.toml"
