@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material",
-	"ingredient": {
-		"item": "sakuratinker:soul_sakura"
-	},
-	"value": 1,
-	"needed": 1,
-	"material": "sakuratinker:soul_sakura"
-}

@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material_melting",
-	"input": "sakuratinker:eezo",
-	"temperature": 1400,
-	"result": {
-		"fluid": "sakuratinker:molten_eezo",
-		"amount": 144
-	}
-}

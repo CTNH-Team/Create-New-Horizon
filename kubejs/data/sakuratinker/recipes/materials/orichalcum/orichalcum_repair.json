@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material",
-	"ingredient": {
-		"item": "sakuratinker:orichalcum_ingot"
-	},
-	"value": 1,
-	"needed": 2,
-	"material": "sakuratinker:orichalcum"
-}

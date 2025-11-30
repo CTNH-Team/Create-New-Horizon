@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material",
-	"ingredient": {
-		"item": "sakuratinker:frost_slimesteel"
-	},
-	"value": 1,
-	"needed": 2,
-	"material": "sakuratinker:frost_slimesteel"
-}

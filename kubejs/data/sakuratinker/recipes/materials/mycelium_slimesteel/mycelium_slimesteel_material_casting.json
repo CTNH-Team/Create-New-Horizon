@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material_fluid",
-	"fluid": {
-		"name": "sakuratinker:molten_mycelium_slimesteel",
-		"amount": 144
-	},
-	"temperature": 1000,
-	"output": "sakuratinker:mycelium_slimesteel"
-}

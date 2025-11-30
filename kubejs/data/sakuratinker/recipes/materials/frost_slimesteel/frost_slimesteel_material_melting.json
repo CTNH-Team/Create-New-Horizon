@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material_melting",
-	"input": "sakuratinker:frost_slimesteel",
-	"temperature": 1400,
-	"result": {
-		"fluid": "sakuratinker:molten_frost_slimesteel",
-		"amount": 144
-	}
-}
