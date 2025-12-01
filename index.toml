@@ -958,7 +958,7 @@ hash = "6954379d658fdf496f162792a3244f0f08635858ed4b0553a718a7ef63b8a620"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
-hash = "6ca59ae6ed404a61c5fd2036f23cd3128f50d2911b811670565fdb306febefc4"
+hash = "8659cd27cdf60ac3ecb006450f4e2e9220eabc58807a55830495be8fca2e849a"
 
 [[files]]
 file = "config/forge-client.toml"
