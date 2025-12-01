@@ -1,0 +1,9 @@
+{
+	"type": "tconstruct:material_melting",
+	"input": "sakuratinker:infinity",
+	"temperature": 800,
+	"result": {
+		"fluid": "sakuratinker:molten_infinity",
+		"amount": 144
+	}
+}

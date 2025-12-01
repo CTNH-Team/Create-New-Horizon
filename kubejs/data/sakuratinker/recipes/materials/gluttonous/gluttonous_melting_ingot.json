@@ -1,0 +1,12 @@
+{
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"item": "sakuratinker:gluttonous"
+	},
+	"result": {
+		"amount": 144,
+		"fluid": "sakuratinker:molten_gluttonous"
+	},
+	"temperature": 2500,
+	"time": 104
+}

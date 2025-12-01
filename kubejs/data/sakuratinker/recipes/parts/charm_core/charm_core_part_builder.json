@@ -1,0 +1,16 @@
+{
+	"type": "tconstruct:part_builder",
+	"pattern": "sakuratinker:charm_core",
+	"pattern_item": [
+		{
+			"tag": "tconstruct:patterns/default"
+		},
+		{
+			"item": "sakuratinker:charm_core_cast"
+		}
+	],
+	"cost": 4,
+	"result": {
+		"item": "sakuratinker:charm_core"
+	}
+}

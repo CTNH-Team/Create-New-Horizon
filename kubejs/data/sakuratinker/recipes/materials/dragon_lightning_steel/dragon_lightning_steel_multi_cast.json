@@ -1,0 +1,19 @@
+{
+	"type": "tconstruct:casting_table",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "iceandfire"
+		}
+	],
+	"cast": {
+		"tag": "tconstruct:casts/multi_use/ingot"
+	},
+	"cast_consumed": false,
+	"fluid": {
+		"name": "sakuratinker:molten_dragon_lightning_steel",
+		"amount": 144
+	},
+	"result": "iceandfire:dragonsteel_lightning_ingot",
+	"cooling_time": 400
+}

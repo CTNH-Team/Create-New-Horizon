@@ -55,7 +55,14 @@ WorldgenEvents.remove(event => {
   ])
   event.removeFeatureById("underground_decoration", [
     "tconstruct:cobalt_ore_large",
-    "tconstruct:cobalt_ore_small"
+    "tconstruct:cobalt_ore_small",
+    "sakuratinker:eezo_ore",
+	  "sakuratinker:terracryst_ore",
+	  "sakuratinker:terracryst_ore_deepslate",
+	  "sakuratinker:prometheum_ore",
+	  "sakuratinker:prometheum_ore_deepslate",
+	  "sakuratinker:orichalcum_ore",
+	  "sakuratinker:orichalcum_ore_deepslate"
   ])
 })
 

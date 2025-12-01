@@ -1,0 +1,16 @@
+{
+	"type": "tconstruct:part_builder",
+	"pattern": "sakuratinker:flag",
+	"pattern_item": [
+		{
+			"tag": "tconstruct:patterns/default"
+		},
+		{
+			"item": "sakuratinker:flag_cast"
+		}
+	],
+	"cost": 6,
+	"result": {
+		"item": "sakuratinker:flag"
+	}
+}

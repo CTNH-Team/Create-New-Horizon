@@ -1,0 +1,9 @@
+{
+	"type": "tconstruct:material",
+	"ingredient": {
+		"item": "sakuratinker:delusion"
+	},
+	"material": "sakuratinker:delusion",
+	"needed": 1,
+	"value": 1
+}

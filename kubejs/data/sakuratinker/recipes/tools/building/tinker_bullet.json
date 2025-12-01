@@ -1,0 +1,11 @@
+{
+	"condition": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "blacklist_recipe"
+		}
+	],
+	"type": "tconstruct:tool_building",
+	"result": "sakuratinker:tinker_bullet",
+	"result_count": 1
+}

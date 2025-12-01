@@ -1,0 +1,15 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "extrabotany"
+		}
+	],
+	"type": "tconstruct:table_casting_material",
+	"cast": {
+		"item": "extrabotany:hero_medal"
+	},
+	"cast_consumed": true,
+	"item_cost": 6,
+	"result": "sakuratinker:phantom_core"
+}

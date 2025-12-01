@@ -1,0 +1,13 @@
+{
+	"type": "tconstruct:casting_table",
+	"cast": {
+		"tag": "tconstruct:casts/single_use/ingot"
+	},
+	"cast_consumed": true,
+	"fluid": {
+		"name": "sakuratinker:molten_orichalcum",
+		"amount": 144
+	},
+	"result": "sakuratinker:orichalcum_ingot",
+	"cooling_time": 270
+}

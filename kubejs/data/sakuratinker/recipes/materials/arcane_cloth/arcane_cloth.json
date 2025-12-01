@@ -1,0 +1,15 @@
+{
+	"type": "tconstruct:material",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "irons_spellbooks"
+		}
+	],
+	"ingredient": {
+		"item": "irons_spellbooks:magic_cloth"
+	},
+	"value": 1,
+	"needed": 1,
+	"material": "sakuratinker:arcane_cloth"
+}

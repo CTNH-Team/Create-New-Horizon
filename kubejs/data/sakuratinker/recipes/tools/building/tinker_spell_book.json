@@ -1,0 +1,11 @@
+{
+	"condition": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "irons_spellbooks"
+		}
+	],
+	"type": "tconstruct:tool_building",
+	"result": "sakuratinker:tinker_spell_book",
+	"result_count": 1
+}

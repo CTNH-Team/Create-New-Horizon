@@ -1,0 +1,8 @@
+{
+	"type": "tconstruct:table_casting_material",
+	"cast": {
+		"tag": "tconstruct:casts/multi_use/swift_blade"
+	},
+	"item_cost": 6,
+	"result": "sakuratinker:swift_blade"
+}

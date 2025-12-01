@@ -1,0 +1,9 @@
+{
+	"type": "tconstruct:material_melting",
+	"input": "sakuratinker:etherium",
+	"temperature": 800,
+	"result": {
+		"fluid": "sakuratinker:molten_etherium",
+		"amount": 144
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"type": "tconstruct:alloy",
+	"inputs": [
+		{
+			"name": "gtceu:steel",
+			"amount": 144
+		},
+		{
+			"name": "sakuratinker:molten_blood",
+			"amount": 400
+		},
+		{
+			"name": "tconstruct:molten_clay",
+			"amount": 400
+		}
+	],
+	"result": {
+		"fluid": "sakuratinker:molten_blood_bound_steel",
+		"amount": 144
+	},
+	"temperature": 1000
+}

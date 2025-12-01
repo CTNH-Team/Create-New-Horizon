@@ -1,0 +1,15 @@
+{
+	"type": "tconstruct:material_fluid",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "twilightforest"
+		}
+	],
+	"fluid": {
+		"name": "sakuratinker:molten_fiery_crystal",
+		"amount": 144
+	},
+	"temperature": 1200,
+	"output": "sakuratinker:fiery_crystal"
+}

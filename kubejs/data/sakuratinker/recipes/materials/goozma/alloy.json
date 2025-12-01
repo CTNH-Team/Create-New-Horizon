@@ -1,0 +1,34 @@
+{
+	"type": "tconstruct:alloy",
+	"inputs": [
+		{
+			"name": "tconstruct:molten_slimesteel",
+			"amount": 288
+		},
+		{
+			"name": "tconstruct:molten_cinderslime",
+			"amount": 288
+		},
+		{
+			"name": "sakuratinker:molten_mycelium_slimesteel",
+			"amount": 288
+		},
+		{
+			"name": "sakuratinker:molten_frost_slimesteel",
+			"amount": 288
+		},
+		{
+			"name": "sakuratinker:molten_echo_slimesteel",
+			"amount": 288
+		},
+		{
+			"name": "sakuratinker:molten_infinity_catalyst",
+			"amount": 144
+		}
+	],
+	"result": {
+		"fluid": "sakuratinker:molten_goozma",
+		"amount": 144
+	},
+	"temperature": 4000
+}

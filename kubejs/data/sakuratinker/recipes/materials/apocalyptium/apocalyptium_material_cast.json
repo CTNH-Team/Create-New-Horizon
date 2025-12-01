@@ -1,0 +1,24 @@
+{
+	"type": "tconstruct:material_fluid",
+	"conditions": [
+		{
+			"type": "forge:or",
+			"values": [
+				{
+					"type": "tconstruct:config",
+					"prop": "force_integration_materials"
+				},
+				{
+					"type": "forge:mod_loaded",
+					"modid": "goety_revelation"
+				}
+			]
+		}
+	],
+	"fluid": {
+		"amount": 144,
+		"fluid": "sakuratinker:molten_apocalyptium"
+	},
+	"output": "sakuratinker:apocalyptium",
+	"temperature": 4000
+}

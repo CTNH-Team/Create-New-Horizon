@@ -1,0 +1,12 @@
+{
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"item": "sakuratinker:blood_bound_steel"
+	},
+	"result": {
+		"fluid": "sakuratinker:molten_blood_bound_steel",
+		"amount": 144
+	},
+	"temperature": 1200,
+	"time": 200
+}

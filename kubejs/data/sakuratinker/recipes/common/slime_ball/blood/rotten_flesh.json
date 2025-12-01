@@ -1,0 +1,12 @@
+{
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"item": "minecraft:rotten_flesh"
+	},
+	"result": {
+		"amount": 40,
+		"fluid": "sakuratinker:molten_blood"
+	},
+	"temperature": 450,
+	"time": 24
+}

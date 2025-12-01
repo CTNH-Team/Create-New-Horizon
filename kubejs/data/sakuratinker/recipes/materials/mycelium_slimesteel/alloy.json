@@ -1,0 +1,18 @@
+{
+	"type": "tconstruct:alloy",
+	"inputs": [
+		{
+			"name": "tconstruct:molten_slimesteel",
+			"amount": 144
+		},
+		{
+			"name": "sakuratinker:slime_mycelium",
+			"amount": 400
+		}
+	],
+	"result": {
+		"fluid": "sakuratinker:molten_mycelium_slimesteel",
+		"amount": 144
+	},
+	"temperature": 1000
+}

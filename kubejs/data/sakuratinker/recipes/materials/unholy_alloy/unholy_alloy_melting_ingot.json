@@ -1,0 +1,27 @@
+{
+	"type": "tconstruct:melting",
+	"conditions": [
+		{
+			"type": "forge:or",
+			"values": [
+				{
+					"type": "tconstruct:config",
+					"prop": "force_integration_materials"
+				},
+				{
+					"type": "forge:mod_loaded",
+					"modid": "goety"
+				}
+			]
+		}
+	],
+	"ingredient": {
+		"item": "sakuratinker:unholy_alloy"
+	},
+	"result": {
+		"amount": 144,
+		"fluid": "sakuratinker:molten_unholy_alloy"
+	},
+	"temperature": 1500,
+	"time": 80
+}

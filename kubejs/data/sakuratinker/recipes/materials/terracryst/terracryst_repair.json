@@ -1,0 +1,9 @@
+{
+	"type": "tconstruct:material",
+	"ingredient": {
+		"item": "sakuratinker:terracryst"
+	},
+	"value": 1,
+	"needed": 2,
+	"material": "sakuratinker:terracryst"
+}

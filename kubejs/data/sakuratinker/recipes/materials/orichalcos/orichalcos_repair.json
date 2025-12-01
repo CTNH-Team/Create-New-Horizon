@@ -1,0 +1,15 @@
+{
+	"type": "tconstruct:material",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "extrabotany"
+		}
+	],
+	"ingredient": {
+		"item": "extrabotany:orichalcos_ingot"
+	},
+	"value": 1,
+	"needed": 1,
+	"material": "sakuratinker:orichalcos"
+}

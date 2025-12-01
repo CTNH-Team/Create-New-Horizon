@@ -1,0 +1,12 @@
+{
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"item": "enigmaticlegacy:evil_ingot"
+	},
+	"result": {
+		"amount": 144,
+		"fluid": "sakuratinker:molten_nefarious"
+	},
+	"temperature": 2000,
+	"time": 93
+}

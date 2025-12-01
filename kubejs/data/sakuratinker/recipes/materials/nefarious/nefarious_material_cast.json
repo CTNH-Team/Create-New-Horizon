@@ -1,0 +1,9 @@
+{
+	"type": "tconstruct:material_fluid",
+	"fluid": {
+		"amount": 144,
+		"fluid": "sakuratinker:molten_nefarious"
+	},
+	"output": "sakuratinker:nefarious",
+	"temperature": 2000
+}

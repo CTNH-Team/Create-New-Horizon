@@ -1,0 +1,27 @@
+{
+	"type": "tconstruct:melting",
+	"conditions": [
+		{
+			"type": "forge:or",
+			"values": [
+				{
+					"type": "tconstruct:config",
+					"prop": "force_integration_materials"
+				},
+				{
+					"type": "forge:mod_loaded",
+					"modid": "dreadsteel"
+				}
+			]
+		}
+	],
+	"ingredient": {
+		"item": "dreadsteel:dreadsteel_ingot"
+	},
+	"result": {
+		"amount": 144,
+		"fluid": "sakuratinker:molten_dread_steel"
+	},
+	"temperature": 1500,
+	"time": 80
+}

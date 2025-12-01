@@ -1,0 +1,9 @@
+{
+	"type": "tconstruct:casting_table",
+	"cooling_time": 40,
+	"fluid": {
+		"amount": 400,
+		"fluid": "sakuratinker:molten_blood"
+	},
+	"result": "sakuratinker:blood_ball"
+}

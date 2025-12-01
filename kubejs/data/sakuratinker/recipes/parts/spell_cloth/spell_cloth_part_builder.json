@@ -1,0 +1,22 @@
+{
+	"condition": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "irons_spellbooks"
+		}
+	],
+	"type": "tconstruct:part_builder",
+	"pattern": "sakuratinker:spell_cloth",
+	"pattern_item": [
+		{
+			"tag": "tconstruct:patterns/default"
+		},
+		{
+			"item": "sakuratinker:spell_cloth_cast"
+		}
+	],
+	"cost": 3,
+	"result": {
+		"item": "sakuratinker:spell_cloth"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"type": "tconstruct:casting_table",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "extrabotany"
+		}
+	],
+	"cast": {
+		"tag": "tconstruct:casts/multi_use/ingot"
+	},
+	"cast_consumed": false,
+	"fluid": {
+		"name": "sakuratinker:molten_orichalcos",
+		"amount": 144
+	},
+	"result": "extrabotany:orichalcos_ingot",
+	"cooling_time": 40
+}

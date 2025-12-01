@@ -1,0 +1,28 @@
+{
+	"type": "tconstruct:casting_table",
+	"cast": {
+		"tag": "tconstruct:casts/single_use/ingot"
+	},
+	"cast_consumed": true,
+	"conditions": [
+		{
+			"type": "forge:or",
+			"values": [
+				{
+					"type": "tconstruct:config",
+					"prop": "force_integration_materials"
+				},
+				{
+					"type": "forge:mod_loaded",
+					"modid": "botania"
+				}
+			]
+		}
+	],
+	"cooling_time": 66,
+	"fluid": {
+		"amount": 144,
+		"fluid": "sakuratinker:molten_mana_steel"
+	},
+	"result": "botania:manasteel_ingot"
+}

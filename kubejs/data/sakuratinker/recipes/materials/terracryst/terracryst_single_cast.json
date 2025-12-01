@@ -1,0 +1,13 @@
+{
+	"type": "tconstruct:casting_table",
+	"cast": {
+		"tag": "tconstruct:casts/single_use/ingot"
+	},
+	"cast_consumed": true,
+	"fluid": {
+		"name": "sakuratinker:molten_terracryst",
+		"amount": 144
+	},
+	"result": "sakuratinker:terracryst",
+	"cooling_time": 540
+}

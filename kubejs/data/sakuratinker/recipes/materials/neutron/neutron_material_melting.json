@@ -1,0 +1,9 @@
+{
+	"type": "tconstruct:material_melting",
+	"input": "sakuratinker:neutron",
+	"temperature": 800,
+	"result": {
+		"fluid": "sakuratinker:molten_neutron",
+		"amount": 144
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "cloudertinker"
+		}
+	],
+	"type": "tconstruct:alloy",
+	"inputs": [
+		{
+			"name": "sakuratinker:molten_bear_interest",
+			"amount": 144
+		},
+		{
+			"name": "cloudertinker:molten_fiery",
+			"amount": 288
+		}
+	],
+	"result": {
+		"fluid": "sakuratinker:molten_pyrothium",
+		"amount": 144
+	},
+	"temperature": 2000
+}

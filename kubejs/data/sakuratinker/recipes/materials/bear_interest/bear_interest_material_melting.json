@@ -1,0 +1,9 @@
+{
+	"type": "tconstruct:material_melting",
+	"input": "sakuratinker:bear_interest",
+	"temperature": 1000,
+	"result": {
+		"fluid": "sakuratinker:molten_bear_interest",
+		"amount": 144
+	}
+}

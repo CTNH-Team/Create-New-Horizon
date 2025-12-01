@@ -1,0 +1,12 @@
+{
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"item": "sakuratinker:chimera_gamma"
+	},
+	"result": {
+		"amount": 144,
+		"fluid": "sakuratinker:molten_chimera_gamma"
+	},
+	"temperature": 2000,
+	"time": 93
+}

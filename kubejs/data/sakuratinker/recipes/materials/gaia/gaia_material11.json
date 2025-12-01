@@ -1,0 +1,24 @@
+{
+	"type": "tconstruct:material",
+	"conditions": [
+		{
+			"type": "forge:or",
+			"values": [
+				{
+					"type": "tconstruct:config",
+					"prop": "force_integration_materials"
+				},
+				{
+					"type": "forge:mod_loaded",
+					"modid": "botania"
+				}
+			]
+		}
+	],
+	"ingredient": {
+		"item": "botania:gaia_ingot"
+	},
+	"material": "sakuratinker:gaia",
+	"needed": 1,
+	"value": 1
+}

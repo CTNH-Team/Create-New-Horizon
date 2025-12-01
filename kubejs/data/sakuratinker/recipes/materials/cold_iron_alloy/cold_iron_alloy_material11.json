@@ -1,0 +1,9 @@
+{
+	"type": "tconstruct:material",
+	"ingredient": {
+		"item": "sakuratinker:cold_iron_alloy"
+	},
+	"material": "sakuratinker:cold_iron_alloy",
+	"needed": 1,
+	"value": 1
+}
