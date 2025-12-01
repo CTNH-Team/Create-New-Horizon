@@ -1,0 +1,9 @@
+{
+	"type": "tconstruct:material_fluid",
+	"fluid": {
+		"name": "sakuratinker:molten_goozma",
+		"amount": 144
+	},
+	"temperature": 4000,
+	"output": "sakuratinker:goozma"
+}

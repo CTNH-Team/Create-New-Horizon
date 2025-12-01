@@ -1,0 +1,12 @@
+{
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"item": "sakuratinker:eezo_nugget"
+	},
+	"result": {
+		"fluid": "sakuratinker:molten_eezo",
+		"amount": 16
+	},
+	"temperature": 1400,
+	"time": 100
+}

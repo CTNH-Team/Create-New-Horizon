@@ -1,0 +1,22 @@
+{
+	"condition": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "irons_spellbooks"
+		}
+	],
+	"type": "tconstruct:part_builder",
+	"pattern": "sakuratinker:book_cover",
+	"pattern_item": [
+		{
+			"tag": "tconstruct:patterns/default"
+		},
+		{
+			"item": "sakuratinker:book_cover_cast"
+		}
+	],
+	"cost": 8,
+	"result": {
+		"item": "sakuratinker:book_cover"
+	}
+}

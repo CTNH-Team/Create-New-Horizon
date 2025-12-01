@@ -1,0 +1,9 @@
+{
+	"type": "tconstruct:material_melting",
+	"input": "sakuratinker:aurumos",
+	"temperature": 1500,
+	"result": {
+		"fluid": "sakuratinker:molten_aurumos",
+		"amount": 144
+	}
+}

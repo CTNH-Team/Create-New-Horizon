@@ -1,0 +1,16 @@
+{
+	"type": "tconstruct:part_builder",
+	"pattern": "sakuratinker:great_blade",
+	"pattern_item": [
+		{
+			"tag": "tconstruct:patterns/default"
+		},
+		{
+			"item": "sakuratinker:great_blade_cast"
+		}
+	],
+	"cost": 6,
+	"result": {
+		"item": "sakuratinker:great_blade"
+	}
+}

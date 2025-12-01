@@ -1,0 +1,18 @@
+{
+	"type": "tconstruct:alloy",
+	"inputs": [
+		{
+			"name": "sakuratinker:molten_aurumos",
+			"amount": 144
+		},
+		{
+			"name": "sakuratinker:molten_blood",
+			"amount": 800
+		}
+	],
+	"result": {
+		"fluid": "sakuratinker:molten_bear_interest",
+		"amount": 288
+	},
+	"temperature": 1500
+}

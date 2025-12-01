@@ -1,0 +1,9 @@
+{
+	"type": "tconstruct:material_fluid",
+	"fluid": {
+		"name": "sakuratinker:molten_south_star",
+		"amount": 144
+	},
+	"temperature": 1400,
+	"output": "sakuratinker:south_star"
+}

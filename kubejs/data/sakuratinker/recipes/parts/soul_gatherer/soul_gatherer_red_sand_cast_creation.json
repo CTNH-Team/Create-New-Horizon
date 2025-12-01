@@ -1,0 +1,11 @@
+{
+	"type": "tconstruct:molding_table",
+	"material": {
+		"item": "tconstruct:blank_red_sand_cast"
+	},
+	"pattern": {
+		"type": "tconstruct:material",
+		"item": "sakuratinker:soul_gatherer"
+	},
+	"result": "sakuratinker:soul_gatherer_red_sand_cast"
+}

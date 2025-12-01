@@ -1,0 +1,19 @@
+{
+	"type": "tconstruct:modifier",
+	"allow_crystal": true,
+	"inputs": [
+		{
+			"item": "sakuratinker:wither_heart"
+		}
+	],
+	"level": 1,
+	"result": "sakuratinker:wither_symbiosis",
+	"slots": {
+		"abilities": 1
+	},
+	"tools": [
+		{
+			"tag": "tconstruct:modifiable/melee/weapon"
+		}
+	]
+}

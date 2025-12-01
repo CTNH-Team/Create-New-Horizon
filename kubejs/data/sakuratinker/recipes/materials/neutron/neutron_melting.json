@@ -1,0 +1,18 @@
+{
+	"type": "tconstruct:melting",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "avaritia"
+		}
+	],
+	"ingredient": {
+		"item": "avaritia:neutron_ingot"
+	},
+	"result": {
+		"fluid": "sakuratinker:molten_neutron",
+		"amount": 144
+	},
+	"temperature": 750,
+	"time": 20
+}

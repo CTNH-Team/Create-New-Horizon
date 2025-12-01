@@ -1,0 +1,15 @@
+{
+	"type": "tconstruct:casting_table",
+	"cast": {
+		"type": "tconstruct:material",
+		"item": "sakuratinker:scythe_blade"
+	},
+	"cast_consumed": true,
+	"switch_slots": true,
+	"fluid": {
+		"tag": "forge:gold",
+		"amount": 144
+	},
+	"result": "sakuratinker:scythe_blade_cast",
+	"cooling_time": 90
+}

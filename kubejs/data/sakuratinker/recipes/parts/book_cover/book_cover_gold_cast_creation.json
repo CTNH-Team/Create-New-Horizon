@@ -1,0 +1,21 @@
+{
+	"condition": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "irons_spellbooks"
+		}
+	],
+	"type": "tconstruct:casting_table",
+	"cast": {
+		"type": "tconstruct:material",
+		"item": "sakuratinker:book_cover"
+	},
+	"cast_consumed": true,
+	"switch_slots": true,
+	"fluid": {
+		"tag": "forge:gold",
+		"amount": 144
+	},
+	"result": "sakuratinker:book_cover_cast",
+	"cooling_time": 90
+}

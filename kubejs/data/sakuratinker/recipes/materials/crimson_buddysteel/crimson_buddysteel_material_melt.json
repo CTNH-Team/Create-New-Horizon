@@ -1,0 +1,24 @@
+{
+	"type": "tconstruct:material_melting",
+	"conditions": [
+		{
+			"type": "forge:or",
+			"values": [
+				{
+					"type": "tconstruct:config",
+					"prop": "force_integration_materials"
+				},
+				{
+					"type": "forge:mod_loaded",
+					"modid": "buddycards"
+				}
+			]
+		}
+	],
+	"input": "sakuratinker:crimson_buddysteel",
+	"result": {
+		"amount": 144,
+		"fluid": "sakuratinker:molten_crimson_buddysteel"
+	},
+	"temperature": 1500
+}

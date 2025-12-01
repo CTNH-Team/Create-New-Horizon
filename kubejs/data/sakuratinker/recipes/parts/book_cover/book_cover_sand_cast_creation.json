@@ -1,0 +1,17 @@
+{
+	"condition": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "irons_spellbooks"
+		}
+	],
+	"type": "tconstruct:molding_table",
+	"material": {
+		"item": "tconstruct:blank_sand_cast"
+	},
+	"pattern": {
+		"type": "tconstruct:material",
+		"item": "sakuratinker:book_cover"
+	},
+	"result": "sakuratinker:book_cover_sand_cast"
+}

@@ -1,0 +1,19 @@
+{
+	"type": "tconstruct:casting_table",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "avaritia"
+		}
+	],
+	"cast": {
+		"tag": "tconstruct:casts/multi_use/ingot"
+	},
+	"cast_consumed": false,
+	"fluid": {
+		"name": "sakuratinker:molten_neutron",
+		"amount": 144
+	},
+	"result": "avaritia:neutron_ingot",
+	"cooling_time": 40
+}

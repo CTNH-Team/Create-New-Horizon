@@ -1,0 +1,9 @@
+{
+	"type": "tconstruct:casting_table",
+	"cooling_time": 60,
+	"fluid": {
+		"amount": 400,
+		"fluid": "sakuratinker:slime_frost"
+	},
+	"result": "sakuratinker:slime_ball_frost"
+}

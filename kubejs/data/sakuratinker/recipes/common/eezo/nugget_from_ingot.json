@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "tconstruct:cobalt_ingot",
+	"ingredients": [
+		{
+			"item": "sakuratinker:eezo_ingot"
+		}
+	],
+	"result": {
+		"item": "sakuratinker:eezo_nugget",
+		"count": 9
+	}
+}

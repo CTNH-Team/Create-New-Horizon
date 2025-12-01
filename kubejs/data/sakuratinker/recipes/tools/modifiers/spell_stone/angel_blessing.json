@@ -1,0 +1,28 @@
+{
+	"type": "tconstruct:modifier",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "enigmaticlegacy"
+		}
+	],
+	"allow_crystal": true,
+	"inputs": [
+		{
+			"item": "enigmaticlegacy:angel_blessing"
+		}
+	],
+	"level": 1,
+	"result": "sakuratinker:angel_blessing",
+	"slots": {
+		"spell_stone": 1
+	},
+	"tools": [
+		{
+			"tag": "tconstruct:modifiable/armor"
+		},
+		{
+			"tag": "tconstruct:modifiable/ranged"
+		}
+	]
+}

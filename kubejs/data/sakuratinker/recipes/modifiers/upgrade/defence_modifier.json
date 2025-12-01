@@ -1,0 +1,17 @@
+{
+	"type": "tconstruct:incremental_modifier",
+	"input": {
+		"item": "sakuratinker:prometheum_ingot"
+	},
+	"amount_per_item": 2,
+	"needed_per_level": 18,
+	"tools": {
+		"tag": "tconstruct:modifiable"
+	},
+	"slots": {
+		"upgrades": 1
+	},
+	"allow_crystal": false,
+	"result": "sakuratinker:defence_modifier",
+	"max_level": 5
+}

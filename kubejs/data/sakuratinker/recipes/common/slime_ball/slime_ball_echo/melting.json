@@ -1,0 +1,12 @@
+{
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"item": "sakuratinker:slime_ball_echo"
+	},
+	"result": {
+		"fluid": "sakuratinker:slime_echo",
+		"amount": 400
+	},
+	"temperature": 1500,
+	"time": 60
+}

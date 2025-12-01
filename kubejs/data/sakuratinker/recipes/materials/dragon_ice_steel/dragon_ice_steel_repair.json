@@ -1,0 +1,15 @@
+{
+	"type": "tconstruct:material",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "iceandfire"
+		}
+	],
+	"ingredient": {
+		"item": "iceandfire:dragonsteel_ice_ingot"
+	},
+	"value": 1,
+	"needed": 2,
+	"material": "sakuratinker:dragon_ice_steel"
+}

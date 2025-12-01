@@ -1,0 +1,31 @@
+{
+	"type": "tconstruct:modifier",
+	"allow_crystal": true,
+	"inputs": [
+		{
+			"item": "minecraft:netherite_ingot"
+		},
+		{
+			"item": "sakuratinker:soul_sakura"
+		},
+		{
+			"item": "sakuratinker:steady_alloy"
+		},
+		{
+			"item": "sakuratinker:terracryst"
+		},
+		{
+			"item": "sakuratinker:nihilite_ingot"
+		}
+	],
+	"level": 1,
+	"result": "sakuratinker:terra_prisma_summon",
+	"slots": {
+		"abilities": 1
+	},
+	"tools": [
+		{
+			"tag": "tconstruct:modifiable"
+		}
+	]
+}

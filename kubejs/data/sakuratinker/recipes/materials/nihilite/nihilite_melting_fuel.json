@@ -1,0 +1,10 @@
+{
+	"type": "tconstruct:melting_fuel",
+	"duration": 400,
+	"fluid": {
+		"amount": 80,
+		"fluid": "sakuratinker:molten_nihilite"
+	},
+	"rate": 38.0,
+	"temperature": 4000
+}

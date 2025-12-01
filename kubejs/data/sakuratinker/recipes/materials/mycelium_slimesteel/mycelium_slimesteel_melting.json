@@ -1,0 +1,12 @@
+{
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"item": "sakuratinker:mycelium_slimesteel"
+	},
+	"result": {
+		"fluid": "sakuratinker:molten_mycelium_slimesteel",
+		"amount": 144
+	},
+	"temperature": 1000,
+	"time": 270
+}

@@ -1,0 +1,16 @@
+{
+	"type": "tconstruct:part_builder",
+	"pattern": "sakuratinker:soul_gatherer",
+	"pattern_item": [
+		{
+			"tag": "tconstruct:patterns/default"
+		},
+		{
+			"item": "sakuratinker:soul_gatherer_cast"
+		}
+	],
+	"cost": 6,
+	"result": {
+		"item": "sakuratinker:soul_gatherer"
+	}
+}

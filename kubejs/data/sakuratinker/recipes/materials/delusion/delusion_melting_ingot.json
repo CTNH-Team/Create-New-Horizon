@@ -1,0 +1,12 @@
+{
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"item": "sakuratinker:delusion"
+	},
+	"result": {
+		"amount": 144,
+		"fluid": "sakuratinker:molten_delusion"
+	},
+	"temperature": 4000,
+	"time": 134
+}

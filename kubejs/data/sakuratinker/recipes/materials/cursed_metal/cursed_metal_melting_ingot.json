@@ -1,0 +1,27 @@
+{
+	"type": "tconstruct:melting",
+	"conditions": [
+		{
+			"type": "forge:or",
+			"values": [
+				{
+					"type": "tconstruct:config",
+					"prop": "force_integration_materials"
+				},
+				{
+					"type": "forge:mod_loaded",
+					"modid": "goety"
+				}
+			]
+		}
+	],
+	"ingredient": {
+		"item": "goety:cursed_ingot"
+	},
+	"result": {
+		"amount": 144,
+		"fluid": "sakuratinker:molten_cursed_metal"
+	},
+	"temperature": 1000,
+	"time": 66
+}

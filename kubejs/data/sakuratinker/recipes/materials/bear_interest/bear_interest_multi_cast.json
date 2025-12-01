@@ -1,0 +1,13 @@
+{
+	"type": "tconstruct:casting_table",
+	"cast": {
+		"tag": "tconstruct:casts/multi_use/ingot"
+	},
+	"cast_consumed": false,
+	"fluid": {
+		"name": "sakuratinker:molten_bear_interest",
+		"amount": 144
+	},
+	"result": "sakuratinker:bear_interest_ingot",
+	"cooling_time": 270
+}

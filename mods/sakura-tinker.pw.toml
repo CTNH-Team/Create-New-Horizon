@@ -1,0 +1,12 @@
+name = "sakuratinker"
+filename = "sakuratinker-1.3.8.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8d3b9282d3aa5c443ed23ea5db66dd88f74f0918"
+url = "https://edge.forgecdn.net/files/6944/933/sakuratinker-1.3.8.1.jar"
+
+[update.curseforge]
+file-id = 6944933
+project-id = 1217345

@@ -1,0 +1,8 @@
+{
+	"type": "tconstruct:table_casting_material",
+	"cast": {
+		"tag": "tconstruct:casts/multi_use/energy_unit"
+	},
+	"item_cost": 6,
+	"result": "sakuratinker:energy_unit"
+}

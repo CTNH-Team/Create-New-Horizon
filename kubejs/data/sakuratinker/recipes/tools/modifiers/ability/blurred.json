@@ -1,0 +1,25 @@
+{
+	"type": "tconstruct:modifier",
+	"allow_crystal": true,
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "youkaishomecoming"
+		}
+	],
+	"inputs": [
+		{
+			"item": "youkaishomecoming:koishi_hat"
+		}
+	],
+	"level": 1,
+	"result": "sakuratinker:blurred",
+	"slots": {
+		"abilities": 1
+	},
+	"tools": [
+		{
+			"tag": "tconstruct:modifiable/armor/helmets"
+		}
+	]
+}

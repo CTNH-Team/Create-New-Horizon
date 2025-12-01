@@ -1,0 +1,13 @@
+{
+	"type": "tconstruct:casting_table",
+	"cast": {
+		"item": "minecraft:snow_block"
+	},
+	"cast_consumed": true,
+	"cooling_time": 60,
+	"fluid": {
+		"amount": 400,
+		"fluid": "tconstruct:earth_slime"
+	},
+	"result": "sakuratinker:slime_ball_frost"
+}
