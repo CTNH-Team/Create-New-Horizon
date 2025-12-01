@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = version_update
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1763709718474
+  last_edited_time = 1764174478958
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:eccb76b5-79cf-4ffc-a655-0ffe7cfbf71a-1763709717974] = [groups:][instances:]
+  [loading_requirement_container_meta:1cdb52af-2473-4149-a578-61ca4bba7789-1764174477892] = [groups:][instances:]
 }
 
 customization {
@@ -138,12 +138,12 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 2560
-  auto_sizing_base_screen_height = 1336
+  auto_sizing_base_screen_height = 1408
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -165
+  x = -229
   y = -139
-  width = 331
+  width = 459
   height = 215
   stretch_x = false
   stretch_y = false

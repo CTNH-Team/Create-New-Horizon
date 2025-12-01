@@ -21,6 +21,14 @@
 			x: 0.5d
 			y: -2.0d
 		}
+		{
+			id: "4B8EEA8A36E367B6"
+			linked_quest: "2301C8A867356B99"
+			shape: "rsquare"
+			size: 2.0d
+			x: 9.5d
+			y: 0.0d
+		}
 	]
 	quests: [
 		{

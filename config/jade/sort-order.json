@@ -30,6 +30,8 @@
   "crockpot:crock_pot": null,
   "ctnhcore:recipe_logic_provider": null,
   "ctnhcore:thread_status_provider": null,
+  "ctnhenergy:ad_me_pattern_buffer": null,
+  "ctnhenergy:ad_me_pattern_buffer_proxy": null,
   "eclipticseasons:crop": null,
   "expatternprovider:jade_chamber": null,
   "expatternprovider:jade_wireless": null,

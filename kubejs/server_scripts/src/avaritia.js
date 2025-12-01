@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
             C: 'mynethersdelight:hot_wings_bucket',
             D: 'mynethersdelight:magma_cake_slice',
             E: 'mynethersdelight:hot_cream_cone',
-            F: 'culturaldelights:eggplant_burger',
+            F: 'twilightdelight:ghast_brain_salad',
             G: 'alexsmobs:mosquito_repellent_stew',
             H: 'createcafe:oreo',
             I: 'createcafe:blood_orange_milk_tea',
@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
             "UVWXY"
         ], {
             A: Item.of('apotheosis:gem', '{affix_data:{rarity:"apotheosis:ancient"},gem:"apotheosis:core/warlord"}').weakNBT(),
-            B: 'minecraft:totem_of_undying',
+            B: 'kubejs:elf_catalyst',
             C: 'biomancy:bio_lantern_blue',
             D: Item.of('gtceu:damascus_steel_wrench', '{Damage:0,DisallowContainerItem:0b,GT.Behaviours:{Mode:2b},GT.Tool:{AttackDamage:5.0f,AttackSpeed:-2.5f,DefaultEnchantments:[{id:"minecraft:fortune",lvl:3s}],HarvestLevel:3,MaxDamage:1023,ToolSpeed:10.0f},HideFlags:2}'),
             E: 'bloodmagic:minekey',
@@ -111,7 +111,7 @@ ServerEvents.recipes(event => {
             U: 'botania:apothecary_taiga',
             V: 'alexsmobs:transmutation_table',
             W: 'ad_astra:moon_globe',
-            X: Item.of('aether:valkyrie_lance', '{Damage:0}'),
+            X: 'kubejs:stone_process_catalyst',
             Y: 'extrabotany:pandoras_box'
         })
 })

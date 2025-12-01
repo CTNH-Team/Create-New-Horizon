@@ -51,6 +51,12 @@
 			x: -24.5d
 			y: 29.0d
 		}
+		{
+			id: "6CD641FA5BDBF048"
+			linked_quest: "57D1710E05DBF5D4"
+			x: -20.5d
+			y: 26.0d
+		}
 	]
 	quests: [
 		{
@@ -611,6 +617,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "1A0C4B23A4D6B05C"
 				item: "gtceu:hv_assembler"
@@ -680,7 +687,7 @@
 				item: "gtceu:ender_fluid_link_cover"
 				type: "item"
 			}]
-			x: -19.5d
+			x: -18.5d
 			y: 26.0d
 		}
 		{
@@ -2475,7 +2482,7 @@
 				}
 			]
 			x: -20.5d
-			y: 27.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["30A047CA07E56044"]
@@ -2537,7 +2544,7 @@
 				type: "item"
 			}]
 			x: -18.5d
-			y: 27.0d
+			y: 28.0d
 		}
 		{
 			id: "3EA2340599949EE7"

@@ -3,8 +3,7 @@ ServerEvents.recipes(event => {
     Object.entries ({ // 三种铸模
         "createmetallurgy:graphite_ingot_mold" : ["B","A"],
         "createmetallurgy:graphite_plate_mold" : ["A","B"],
-        "createmetallurgy:graphite_nugget_mold": ["B A"],
-        "kubejs:graphite_block_mold": ["A B"]
+        //"createmetallurgy:graphite_nugget_mold": ["B A"],
     }).forEach(([result, recipe]) => {
         event.shaped(Item.of(result, 1), recipe, {
             A: "#forge:tools/hammers",
@@ -248,8 +247,17 @@ ServerEvents.recipes(event => {
 
     //熔铸
 
-    let gtceu_metal = ['andesite_alloy', 'brass', 'steel', 'precious_alloy','silver' , 'nickel', 'lead', 'beryllium', 'molybdenum','tin','zinc']
-    gtceu_metal.forEach(metal => {
+    let plate_metal = ['andesite_alloy', 'brass', 'steel', 
+        'silver' ,'nickel', 'lead',
+        'tin','zinc', 'bronze']
+    plate_metal.forEach(metal => {
+        event.recipes.createmetallurgy.casting_in_table(`gtceu:${metal}_ingot`,[Fluid.of(`gtceu:${metal}`, 144), 'createmetallurgy:graphite_ingot_mold'],20)
+        event.recipes.createmetallurgy.casting_in_table(`gtceu:${metal}_plate`,[Fluid.of(`gtceu:${metal}`, 216), 'createmetallurgy:graphite_plate_mold'],20)
+        event.recipes.createmetallurgy.casting_in_basin(`gtceu:${metal}_block`, Fluid.of(`gtceu:${metal}`, 1296), 90)
+    })
+
+    let non_plate_metal = ['precious_alloy']
+    non_plate_metal.forEach(metal => {
         event.recipes.createmetallurgy.casting_in_table(`gtceu:${metal}_ingot`,[Fluid.of(`gtceu:${metal}`, 144), 'createmetallurgy:graphite_ingot_mold'],20)
         event.recipes.createmetallurgy.casting_in_basin(`gtceu:${metal}_block`, Fluid.of(`gtceu:${metal}`, 1296), 90)
     })
@@ -257,6 +265,7 @@ ServerEvents.recipes(event => {
     let vanilla_metal = ['iron', 'copper', 'gold']
     vanilla_metal.forEach(metal => {
         event.recipes.createmetallurgy.casting_in_table(`minecraft:${metal}_ingot`,[Fluid.of(`gtceu:${metal}`, 144), 'createmetallurgy:graphite_ingot_mold'],20)
+        event.recipes.createmetallurgy.casting_in_table(`gtceu:${metal}_plate`,[Fluid.of(`gtceu:${metal}`, 216), 'createmetallurgy:graphite_plate_mold'],20)
         event.recipes.createmetallurgy.casting_in_basin(`minecraft:${metal}_block`, Fluid.of(`gtceu:${metal}`, 1296), 90)
     })
 

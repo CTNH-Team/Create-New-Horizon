@@ -141,20 +141,6 @@ ServerEvents.recipes(event => {
         .EUt(120)
 
 
-    event.recipes.gtceu.mana_seperator('platinum_catalyst2')
-        .itemInputs('30x gtceu:platinum_metal_dust')
-        .inputFluids(Fluid.of("gtceu:sulfuric_acid", 500))
-        .notConsumable('kubejs:terria_catalyst')
-        .itemOutputs('10x gtceu:palladium_dust')
-        .itemOutputs('12x gtceu:platinum_dust')
-        .itemOutputs('9x gtceu:ruthenium_dust')
-        .itemOutputs('3x gtceu:rhodium_dust')
-        .itemOutputs('4x gtceu:osmium_dust')
-        .itemOutputs('3x gtceu:iridium_dust')
-        .EUt(8388603)
-        .duration(1000)
-        .circuit(2);
-
     event.recipes.gtceu.hellforge("stable")
         .itemInputs('8x ctnhcore:force_field_casing')
         .itemInputs('8x gtceu:tungsten_steel_gear')
