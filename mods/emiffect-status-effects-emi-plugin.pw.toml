@@ -1,0 +1,13 @@
+name = "EMIffect (Status Effects EMI Plugin)"
+filename = "emiffect-forge-1.1.2+mc1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cb87cd6b12e3a9cc5bbb979406d310fe50cd92a6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4901311
+project-id = 735528

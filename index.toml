@@ -902,7 +902,7 @@ hash = "346890d9949e2a4e9ff350ce99138a0dd462c70fda067d0bbf3c78335ac5fea7"
 
 [[files]]
 file = "config/fancymenu/customization/version_update_layout.txt"
-hash = "689950f3717d9e5090c6ea377c4df4b82e90922c9b84c24a7af730b51f5bec36"
+hash = "e4df43c70c3319c7904cded162e2b9ba1cf1d5b70defc19e819fd337b3a82d6c"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -7782,7 +7782,7 @@ hash = "5a6376373187be002f5d88221980f58482428384356b217bc8793962d0025ddd"
 
 [[files]]
 file = "kubejs/config/client.properties"
-hash = "7f494ceaec382269ddc390bbbe8fee98e6489d03a5b8e74141d2d1ad50bf0cd3"
+hash = "36038f6780523295595d8bc7856556589be0e6f304499e54acc0885cd59b7856"
 
 [[files]]
 file = "kubejs/config/common.properties"
@@ -15202,7 +15202,7 @@ hash = "c3e96da62129a29ab52a2fadc4ecf1699c5a05d360cc0493d8a95a9c071372bb"
 
 [[files]]
 file = "kubejs/startup_scripts/src/Worldgen/worldgen.js"
-hash = "d71d1b628b7c59ed90c3a33d35a29d73764f14d3db91175ecdee67da59f8c800"
+hash = "bb893603472e1dbc4568477d7b54319ad8b3c429ebb73ffdd015f824a8e7a11e"
 
 [[files]]
 file = "kubejs/startup_scripts/src/attribute/attribute_registry.js"
@@ -15619,6 +15619,16 @@ hash = "82bf44d2fbc928ec9188e1ac12ca8807d3f31056bfa88acec79547f726a3c6e7"
 metafile = true
 
 [[files]]
+file = "mods/emi.pw.toml"
+hash = "d48a1ea93de8cd5febb95ba52989d8d9ab4e998cfbdf9c1076a9f2e571d2fcbe"
+metafile = true
+
+[[files]]
+file = "mods/emiffect-status-effects-emi-plugin.pw.toml"
+hash = "cf53ff3d2ea7e7aed6a8045414b2c9b80405ce1e26d1c2d43bd75a9ddaf715c9"
+metafile = true
+
+[[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "eacea18ac8c3dfab822fbaf16fa0388de8b44cff5f6f0a12ba5820e9158d6190"
 metafile = true
@@ -15820,7 +15830,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "405441ee4b2caa3503f94720d00f9d86d804ab5cba09fb65f13cee4be11c3e39"
+hash = "095d95ed8aa22628bf45e18aa2782cb7a0064d2f815261edb00dc8bc559bea38"
 metafile = true
 
 [[files]]
@@ -15894,11 +15904,6 @@ hash = "81b2f71326e455b3353b6109236d8a7fce24127836a118f93713fcc1a315681c"
 metafile = true
 
 [[files]]
-file = "mods/jei.pw.toml"
-hash = "3a9af1fae141ca05ad9a7d3e7b3b32b627408efed8b40b16a21f2c887b619be0"
-metafile = true
-
-[[files]]
 file = "mods/json-things.pw.toml"
 hash = "4d4939f4066056aef3083eba14d5de0355667243415b40da67d2792fadbce614"
 metafile = true
@@ -15911,11 +15916,6 @@ metafile = true
 [[files]]
 file = "mods/just-enough-characters.pw.toml"
 hash = "74d97ed7a678699fea62b4010c699f1d3514363f96e807a14c368edf20c3f9ac"
-metafile = true
-
-[[files]]
-file = "mods/just-enough-resources-jer.pw.toml"
-hash = "7568687ed4af79a0d8cc0eda8598997fc12ca3bb3ed5d6a6f4c7d9f8943923c9"
 metafile = true
 
 [[files]]
@@ -16341,6 +16341,11 @@ metafile = true
 [[files]]
 file = "mods/titanium.pw.toml"
 hash = "a9a33aa86a9263b15a41574cc1df6c360d26008c11c55e66a353ee9944b7e358"
+metafile = true
+
+[[files]]
+file = "mods/tmrv.pw.toml"
+hash = "ac7bedc18b70e2d1ab73926c9abdf052d1396ed2eb37a3e0fce54f45ca7b9b40"
 metafile = true
 
 [[files]]
