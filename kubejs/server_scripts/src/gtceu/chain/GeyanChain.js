@@ -370,7 +370,7 @@ ServerEvents.recipes(event => {
         .duration(120)
         .EUt(122340)
     ctnh.distillation_tower("refined_gold_fractionation")
-        .inputFluids("refined_gold_aq_low 1000")
+        .inputFluids("gtceu:refined_gold_aq_low 1000")
         .outputFluids('gtceu:helium 500', 'gtceu:neon 250', 'gtceu:snow_steel 250')
         .EUt(120)
         .duration(3000)

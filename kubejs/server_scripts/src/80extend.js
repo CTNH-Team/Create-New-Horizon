@@ -246,7 +246,6 @@ ServerEvents.recipes(event => {
         .duration(20)
         .EUt(10)
     ctnh.cultivation_room("gtceu:living_metal_pre")
-        .itemOutputs('gtceu:living_metal_pre')
         .inputFluids('gtceu:soldering_alloy 40000')
         .inputFluids('gtceu:quantum_alloy 288')
         .itemInputs('4x gtceu:ruthenium_trinium_americium_neutronate_quadruple_wire')

@@ -174,7 +174,7 @@ ServerEvents.recipes(event => {
         .itemInputs('144x gtceu:nether_star_block')
         .inputFluids(Fluid.of('bloodmagic:life_essence_fluid', 384000))
         .itemOutputs('1024x minecraft:ancient_debris')
-        .itemOutputs('2048x gtceu:nether_gold_ore')
+        .itemOutputs('2048x gtceu:netherrack_gold_ore')
         .addData('radius', 9)
         .addData('rock', 'minecraft:netherrack')
         .EUt(12222)

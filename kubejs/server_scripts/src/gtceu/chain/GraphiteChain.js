@@ -53,11 +53,11 @@ ServerEvents.recipes(event => {
         ]).transitionalItem(transitional)
         .loops(1)
 
-    ctnh.centrifuge("metal_slag")
-        .itemInputs('gtceu:metal_sludge_dust')
-        .itemOutputs('gtceu:nickel_dust', 'gtceu:copper_dust')
-        .duration(80)
-        .EUt(480)
+    // ctnh.centrifuge("metal_slag")
+    //     .itemInputs('gtceu:metal_sludge_dust')
+    //     .itemOutputs('gtceu:nickel_dust', 'gtceu:copper_dust')
+    //     .duration(80)
+    //     .EUt(480)
     ctnh.electric_blast_furnace("graphite_gas_production_method_1")
         .itemInputs('24x gtceu:fluid_cell')
         .inputFluids("gtceu:methane 6000")//6C 3000

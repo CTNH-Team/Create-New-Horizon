@@ -72,7 +72,7 @@ ServerEvents.recipes(event => {
             '4x gtceu:dense_rhodium_plated_palladium_plate',
         )
         .inputFluids('gtceu:polybenzimidazole 576')
-        .itemOutputs('ctnhcore:ender_fluid_link_cover')
+        .itemOutputs('gtceu:ender_fluid_link_cover')
         .EUt(30720)
         .duration(200)
 })
