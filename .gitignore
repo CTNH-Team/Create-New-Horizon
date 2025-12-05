@@ -132,4 +132,5 @@ config/*
 !config/tconstruct-common.toml
 !config/inventoryhud-client.toml
 !config/merequester-common.toml
-!config/jei/jei-client.ini
+!config/emi.css
+!config/ali/ali_common.json

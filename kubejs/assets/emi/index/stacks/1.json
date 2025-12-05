@@ -1,0 +1,7 @@
+{
+  "removed": [
+    "fluid:ad_astra:hydrogen",
+    "fluid:ad_astra:oxygen"
+  ],
+  "disable": true
+}
