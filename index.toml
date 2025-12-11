@@ -3069,6 +3069,10 @@ file = "kubejs/assets/ctnh/textures/readme_image/windmill_control.jpg"
 hash = "c5d94094154b91fee605e769bbc8a4924616ba51dfe7a05f0cfcc21043a48df9"
 
 [[files]]
+file = "kubejs/assets/emi/index/stacks/1.json"
+hash = "563636faa994cacc2b0c3235bd10af5096f39b5dcf0ee4f13c6bf0edfab501f5"
+
+[[files]]
 file = "kubejs/assets/enderio/lang/zh_cn.json"
 hash = "77e5bff410c7f7075de72fbe9ab3fea17db4608d03badf39db4cafdcf7ec893c"
 
@@ -14766,11 +14770,7 @@ hash = "1f6dc6355f33a8892f67beb78a5257a1af31ffaac4e459a49b34e07e939915cc"
 
 [[files]]
 file = "kubejs/server_scripts/src/80extend.js"
-hash = "19d5068ca8abeb1bc899837da16ebe70bcb83c2950fe8a22cf56dcf7f31ff802"
-
-[[files]]
-file = "kubejs/server_scripts/src/Adjust_material.js"
-hash = "6c194166618077579852c594a46d7186e1bca5292538b80a9ed77c33f5869ec2"
+hash = "94145613328390c2b0b94a72807884b1c62dddb2ac4bab0a2ac66387779e6bdc"
 
 [[files]]
 file = "kubejs/server_scripts/src/Debug/Debug.js"
@@ -14782,7 +14782,7 @@ hash = "77535c27036ab4db7b1a4aec6addb38fb60895c845315eba150bfeab4137e56f"
 
 [[files]]
 file = "kubejs/server_scripts/src/accelerator.js"
-hash = "e76ccb2e5e055ec0a55f70db82c0539193274a444749eaf8746f2317eefdbd7b"
+hash = "9fb8543c8109ef27330c2441f44b55cec25ef5c0ab46753371a306d89306d385"
 
 [[files]]
 file = "kubejs/server_scripts/src/ad astra/ad astra.js"
@@ -14922,7 +14922,7 @@ hash = "55465032ab43f986353e5ebfc96a77540955d5768b946260a89aa9d4b28f9ca0"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/GeyanChain.js"
-hash = "bcf207117373693725c9355e6cce0f1c1a23b9d184e047011a293b03bbb0e460"
+hash = "38ea0730cbe7b168710831b28f8c1d6141e9fb23fd90a6f0ad2a006883b93a95"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/GoldChain.js"
@@ -14930,11 +14930,11 @@ hash = "00b7a6fb37e4189489c3f5ade68120ca134c28998a449bcb074744d30c9cefa7"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/GraphiteChain.js"
-hash = "8e4cfd2bc4a2ce0a22732fb3ca214c5f6fa4195d7f23ef1ecaab087a527e2b58"
+hash = "2042c7f67a181d084196697aa41a323eae0404f4c6bfe5b10845543f64e4ab11"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/HNIWChain.js"
-hash = "33407bb4f5f6769bc5b61d84267abb701681e7d4748888262ae4d1409312ea17"
+hash = "51081f07ff1f0ad8006905abaa59e7e197705275ea3dd68758b654230c4e41ac"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/IodineChain.js"
@@ -14942,7 +14942,7 @@ hash = "9e41b6faf04df20b84ccee29a2a9d83aaf2c0adee85b2c308a2f7751466bb45f"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/PlatinumChain.js"
-hash = "16df36552d4358d7a2ece409c7f15be59de4b6f337270209a5d11e9d4c21a614"
+hash = "fd1643cec56ef8b8e6d4cfc1736598b194a64fad9dc0e34171a935211af8b463"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/RareearthChain.js"
@@ -14958,7 +14958,7 @@ hash = "904b3a966500c6ff381c8bea708c904ad0f556396f5fa4ef8cc4024cb163902a"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/SnowAdjust.js"
-hash = "a7dbcb005c3dd91cc13983dff71ac01d9d173f4cb9562d43c9d8cce839ce14e9"
+hash = "13452830e4cb396ed6129be266e5b380cd8fecd3775ccd9cc9818dda78a7e73d"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/SpaceFabric.js"
@@ -14978,7 +14978,7 @@ hash = "7c1bf4b7ebf044a2ac7a7433a66c8643b2ad408f8dc2c1aa9081a21d8a6db653"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/UraniumChain.js"
-hash = "68278ec0b5df27787571857a63db80f3695c3377885d8c96fdb5d980fb636b52"
+hash = "2cd59cec03f17cd53219911a5de538b58cdc55ce3a2cd55f33b9446c1e215ad5"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/WChain.js"
@@ -14990,7 +14990,7 @@ hash = "69ae8838e16f3ddeb81766dd40eb6cbeaf05772f9f0d46c6414b6f2a0abe2f68"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "07ea0cdb32f1fbb5d350f5e7dd53f88767cf717797593a657d6bdb82cfc844a6"
+hash = "ea3e32b9da4d5d4bfdf0ef8913e67836fa68181b11cb3956aa1d53eca232ea8e"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtmthings.js"
@@ -15030,7 +15030,7 @@ hash = "20305a7e2b7fc7be24ec6c765d3e5c100689c3508110536508a1fce0d8f8ed6b"
 
 [[files]]
 file = "kubejs/server_scripts/src/magic/Mana_Beam.js"
-hash = "9e59b3fde36479ea932f0e8456f6ae61a1b3425322ace429cfcaa4e589750df1"
+hash = "ef06516f646dd148e0b4328f51e4f9faf6dacb92bf11a31d4d979c89ee3044c9"
 
 [[files]]
 file = "kubejs/server_scripts/src/magic/Mana_CPU.js"
@@ -15054,7 +15054,7 @@ hash = "d11a945622a3995b84185bc30c438ea986a15d35a989d974c6584c38ab88eea0"
 
 [[files]]
 file = "kubejs/server_scripts/src/magic/Metor_Capturer.js"
-hash = "c4dba7db7fb5b873e78a3b78cbb736ad4b9299f373e2727c15c6a01eb10d080d"
+hash = "c6c1fc2d529d6276e8db16e4933b9361f3e51378499511c5b6af14bb2c804f2c"
 
 [[files]]
 file = "kubejs/server_scripts/src/magic/Quasar_Eye.js"
@@ -15094,7 +15094,7 @@ hash = "472bcde6b7f47aebae1e17611b13c3afb86f65c5bc161ae0aac0ec3f85610c7c"
 
 [[files]]
 file = "kubejs/server_scripts/src/magic/botania/botania.js"
-hash = "f350840e024d3f0d7378c185dd70d63b935c3945de41326f3fdc22668e13a5f2"
+hash = "e9dc0da94414841f837987c80412776d389157b9925cf5fbb97377396cce19a6"
 
 [[files]]
 file = "kubejs/server_scripts/src/magic/botania/extraBotany.js"
@@ -15110,7 +15110,7 @@ hash = "f51ddfb57b47bb3f1763c061c16f710cbe59be4d89598c598df884cd4015faba"
 
 [[files]]
 file = "kubejs/server_scripts/src/nano.js"
-hash = "8b0c80a7e98f63e414d77bd217922656439efa262f00b5e0f8c38223fe03993f"
+hash = "5adbab24198c2737f5907bfabfbb69ed2036cc2ffd1de7db059b57d86bf3cb22"
 
 [[files]]
 file = "kubejs/server_scripts/src/orereplace.js"
@@ -15130,7 +15130,7 @@ hash = "36ae07d48f03a53d08f5bc174a4bae4b27975a51c5728198257e3790aa80482c"
 
 [[files]]
 file = "kubejs/server_scripts/src/sun.js"
-hash = "e136e3a38f44a378f795103bbb2fd6283d1361607a2d9ee487ba604289b537b0"
+hash = "850a2c91ab79584e028f0d3e50ce68e8554aa0f877681d295ef0d6df3465321e"
 
 [[files]]
 file = "kubejs/server_scripts/src/tag.js"
