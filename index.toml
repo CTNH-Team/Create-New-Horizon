@@ -15249,6 +15249,10 @@ file = "modpack_version.json"
 hash = "b136e102febf961a4c3a8e7d4566bd13a75850b1b3e70c66ac5fb35437fe7ca8"
 
 [[files]]
+file = "mods/CTNH Core-1.0.22.jar"
+hash = "8984a4f73e7b1b4d6b1e724d1abc7c0795fb2b27c8fc0b656ed9f975cb0e9e10"
+
+[[files]]
 file = "mods/achievements-optimizer.pw.toml"
 hash = "821a8482e972a296f6e242d254631ffd7fe948652d041511a25d0fed3aec5272"
 metafile = true

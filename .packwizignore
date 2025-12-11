@@ -101,3 +101,5 @@ config/*
 !config/jei/jei-client.ini
 
 !kubejs/config/*
+
+!mods/CTNH Core*
