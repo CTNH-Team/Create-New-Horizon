@@ -938,7 +938,7 @@
 				item: "sophisticatedbackpacks:pickup_upgrade"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 25.0d
 			y: -4.0d
 		}
 		{
@@ -949,7 +949,7 @@
 				item: "sophisticatedbackpacks:filter_upgrade"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 23.5d
 			y: -4.0d
 		}
 		{
@@ -960,7 +960,7 @@
 				item: "sophisticatedbackpacks:feeding_upgrade"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 26.0d
 			y: -4.0d
 		}
 		{
@@ -1049,18 +1049,7 @@
 				type: "item"
 			}]
 			x: 26.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["33C54DD646437EEE"]
-			id: "04CEA7F790D97C11"
-			tasks: [{
-				id: "001C60A4FD6F29FF"
-				item: "sophisticatedbackpacks:tank_upgrade"
-				type: "item"
-			}]
-			x: 26.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1071,7 +1060,7 @@
 				type: "item"
 			}]
 			x: 26.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1606,6 +1595,16 @@
 			}]
 			x: 5.0d
 			y: 7.0d
+		}
+		{
+			id: "69BA4718E4CCCAF2"
+			tasks: [{
+				id: "36D9AF7A5FEA2F24"
+				item: "gtceu:machine_memory_card"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.0d
 		}
 	]
 	title: "{ftbquests.chapter.62876F01654DC6E9.title}"

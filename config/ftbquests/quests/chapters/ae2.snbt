@@ -1794,12 +1794,6 @@
 					type: "item"
 				}
 				{
-					count: 32
-					id: "6CE567B73C6E1E27"
-					item: "gtceu:tritanium_coil_block"
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "072554193E9E2833"
 					table_id: 1576725829474885042L

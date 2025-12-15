@@ -209,10 +209,6 @@
 			y: 14.0d
 		}
 		{
-			dependencies: [
-				"64F3856504BEA9F2"
-				"36B9FCEC9579E090"
-			]
 			dependency_requirement: "one_completed"
 			id: "552458CB71BFFED9"
 			tasks: [{

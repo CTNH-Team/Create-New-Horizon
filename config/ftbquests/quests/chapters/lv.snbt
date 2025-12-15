@@ -517,7 +517,6 @@
 			y: -1.0d
 		}
 		{
-			description: [""]
 			id: "471F881828CFF6A6"
 			subtitle: "{ftbquests.chapter.lv.quest5124964538316224166.subtitle}"
 			tasks: [{
@@ -1114,6 +1113,17 @@
 			title: "{ftbquests.chapter.lv.quest4122257418980714238.title}"
 			x: 9.5d
 			y: 2.0d
+		}
+		{
+			id: "0F720CA254D38B4C"
+			subtitle: "你可以用它将4安下级电压转换成1安上级电压"
+			tasks: [{
+				id: "73BB5D9082BB6528"
+				item: "gtceu:lv_transformer_1a"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.0d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.lv.subtitle0}"]
