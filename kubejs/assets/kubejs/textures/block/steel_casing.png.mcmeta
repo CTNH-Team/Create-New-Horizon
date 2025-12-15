@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/steel_casing_connected"
+    }
+}

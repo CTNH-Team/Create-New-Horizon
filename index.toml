@@ -790,7 +790,7 @@ hash = "978214f42431cd238adc4e732695e23beaf46a07b5d50f66ea92de38f3e38458"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "56ff9aab2cbf9686f2c4b19d00897e78ea1b5357cff3340cf61ace2c3a2cdf09"
+hash = "9df4fbd7af6d2a09e80a182d53a84ca20ce7122b70710092143a75d21649241d"
 
 [[files]]
 file = "config/biomesoplenty/biome_toggles.json"
@@ -958,7 +958,7 @@ hash = "6954379d658fdf496f162792a3244f0f08635858ed4b0553a718a7ef63b8a620"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
-hash = "8659cd27cdf60ac3ecb006450f4e2e9220eabc58807a55830495be8fca2e849a"
+hash = "f9f401c4b71c7c251151f8d982bf6e987c40e8b51badca8c2d87840194435a73"
 
 [[files]]
 file = "config/forge-client.toml"
@@ -1166,7 +1166,7 @@ hash = "78613a05c6e9501d5770732d4a7f92399a6c9e2ef995ff54b11277295b1d5bcd"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "ffdfb161b252fcfc0715b8b3c47660966c0fcd9aaf1afd145f29e98342bd83a7"
+hash = "ba631328806e0451b7d64f0d4930e0c0e46410b535c2cb33f8fb2cf949559abd"
 
 [[files]]
 file = "config/inventoryhud-client.toml"
@@ -1190,11 +1190,11 @@ hash = "6e80120f62c78a05f652c446411facacac7552fa1cb99c70fb53747679fee811"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "7aca167e0c5946e24f96518e89c2725c5ffb50cb7efa5c76d4fa05ead0a1534d"
+hash = "c4892f5db35ba1a75b8c472dc9daf9b68a97d61847cb47646ef9d793083c6259"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "35b793a6c7769c753c3b39201fca76d8288eabbce0f6d2c556a0b47c40abb242"
+hash = "87529eb05476ab1189b02956419465dd861b2fee47c0d57bc1309d4452e8c63f"
 
 [[files]]
 file = "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-client.toml"
@@ -3438,7 +3438,15 @@ hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/heavy_machinery_casing.png"
-hash = "3533cb5174ab5200621abd916d94f7072948e9ff80b23c817413930ca5fecc75"
+hash = "5d0b96835a0f2160c7e9ddce98b8d42491f6928aa9241505c285a55493b5552d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/heavy_machinery_casing.png.mcmeta"
+hash = "6bb0a042627dc37440cbacce5debc36759b35308c341e379d2192a719d2e9028"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/heavy_machinery_casing_connected.png"
+hash = "17f597ed4300ceb03580b3d8674046ab0cf9075d655b36e1b9ca18453a2ecb73"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/iridium_casing.png"
@@ -3595,6 +3603,14 @@ hash = "46a1ffb48bef008b5e95dcff62ba4c7baa4846b93b166a6f952ca27e53d34d93"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/steel_casing.png"
 hash = "79eac978f0a60d23815a3deb7b9e7b79bb07c2cb1faad6033f0f6eca6b6a8ce2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/steel_casing.png.mcmeta"
+hash = "f8b4de3d438081d94e3a8f8e9fc13fa625cbef4560190f1009d71237cb814b9c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/steel_casing_connected.png"
+hash = "8f6453ad2c5b66fb5d2d6c8a959475e517dc502df73f625023be62cbd4fd16be"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/advanced_mana_capacitor.png"

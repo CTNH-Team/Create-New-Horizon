@@ -1,14 +1,20 @@
 type = user_variables
 
 variable {
+  name = version_checker
+  value = enabled
+  reset_on_launch = false
+}
+
+variable {
   name = modpack_version
-  value = 1.3.2
+  value = 1.3.3
   reset_on_launch = true
 }
 
 variable {
   name = last_login_version
-  value = 1.3.1
+  value = 1.3.3
   reset_on_launch = true
 }
 

@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/heavy_machinery_casing_connected"
+    }
+}

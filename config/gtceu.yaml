@@ -118,10 +118,6 @@ worldgen:
   # Default: 0.5
   rubberTreeSpawnChance: 0.5
 
-  # Should all Stone Types drop unique Ore Item Blocks?
-  # Default: false (meaning only Stone, Netherrack, and Endstone)
-  allUniqueStoneTypes: false
-
   # Should Sand-like ores fall?
   # This includes gravel, sand, and red sand ores.
   # Default: false (no falling ores)
@@ -222,6 +218,10 @@ machines:
   # This does nothing if enableCleanroom is false.
   # Default: false
   cleanMultiblocks: false
+
+  # Whether the miner should attempt to replace the block mined with a cobbled version of the ore
+  # Default: true
+  replaceWithCobbleVersion: true
 
   # Block to replace mined ores with in the miner and multiblock miner.
   # Default: minecraft:cobblestone
@@ -509,7 +509,7 @@ tools:
   voltageTierQuarkTech: 5
 
   # Advanced QuarkTech Suit Chestplate Voltage Tier.
-  # Default: 5 (LuV)
+  # Default: 6 (LuV)
   voltageTierAdvQuarkTech: 6
 
   # Electric Impeller Jetpack Voltage Tier.
@@ -656,6 +656,10 @@ compat:
   # Whether dimension markers should show the dimension tier value.
   # Default: false
   showDimensionTier: false
+
+  # Whether Create compatibility will be available.
+  # Default: true
+  createCompat: true
 
 dev:
   # Debug general events? (will print recipe conficts etc. to server's debug.log)
