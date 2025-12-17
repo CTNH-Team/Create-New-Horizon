@@ -16215,7 +16215,7 @@ metafile = true
 
 [[files]]
 file = "mods/sakura-tinker.pw.toml"
-hash = "f3ca471e0185cb56ee648bb86c1e1cafd87f90ff0b9732e00de7c6faab7679ad"
+hash = "8405cc88a9d45ec76cff2176baa04ceaefd7427b60de673118d1bfb9a0df7e4a"
 metafile = true
 
 [[files]]
@@ -16325,7 +16325,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkers-construct.pw.toml"
-hash = "5e49eb56dd6ec7c761ee5e93f3c653fbf36fc11714ae29f2f8db4ddeb0447cd6"
+hash = "4ff29bd1c1a72d673c2ee003fdd6b5936afeee099d52a56fd69a2c19a04ce219"
 metafile = true
 
 [[files]]
