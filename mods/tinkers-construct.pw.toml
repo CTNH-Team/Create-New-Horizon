@@ -1,13 +1,13 @@
-name = "Tinkers Construct-Modern"
-filename = "GregTech-Construct-3.10.3.2.jar"
+name = "GregTech-Construct"
+filename = "GregTech-Construct-3.11.0.148.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "651c70459d0c97f6bdb41c045546af03f58707ae"
-url = "https://edge.forgecdn.net/files/7311/771/GregTech-Construct-3.10.3.2.jar"
+hash = "bcc322dff3409ebec35029535faaac093dc93564"
+url = "https://mediafilez.forgecdn.net/files/7373/908/GregTech-Construct-3.11.0.148.jar"
 
 [update.curseforge]
-file-id = 7311771
+file-id = 7373908
 project-id = 1313873
 
