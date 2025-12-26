@@ -56,25 +56,25 @@ ServerEvents.recipes(event => {
 
 })
 //合金
-ServerEvents.recipes(event => {
-	event.recipes.tconstruct.alloy(
-		Fluid.of('gtceu:brass', 576), 
-		[
-			Fluid.of('gtceu:zinc', 432),
-			Fluid.of('gtceu:copper', 144)
-		],
-		605
-	)
-
-	event.recipes.tconstruct.alloy(
-		Fluid.of('gtceu:bronze', 576), 
-		[
-			Fluid.of('gtceu:tin', 432),
-			Fluid.of('gtceu:copper', 144)
-		],
-		605
-	)
-})
+//ServerEvents.recipes(event => {
+//	event.recipes.tconstruct.alloy(
+//		Fluid.of('gtceu:brass', 576), 
+//		[
+//			Fluid.of('gtceu:zinc', 432),
+//			Fluid.of('gtceu:copper', 144)
+//		],
+//		605
+//	)
+//
+//	event.recipes.tconstruct.alloy(
+//		Fluid.of('gtceu:bronze', 576), 
+//		[
+//			Fluid.of('gtceu:tin', 432),
+//			Fluid.of('gtceu:copper', 144)
+//		],
+//		605
+//	)
+//})
 //融化
 ServerEvents.recipes(event => {
 	//熔融粘土

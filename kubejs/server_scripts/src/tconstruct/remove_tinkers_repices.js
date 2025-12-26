@@ -1,17 +1,5 @@
 ServerEvents.recipes(event => {
     remove_recipes_id(event, [
-        //删除TiC青铜配方
-        //"tconstruct:tools/materials/melting/bronze",
-        "tconstruct:smeltery/alloys/bronze",
-        ///tconstruct:smeltery\/melting\/metal\/bronze\/(.*)/,
-        //删除TiC黄铜配方
-        //"tconstruct:tools/materials/melting/plated_slimewood",
-        "tconstruct:smeltery/alloys/brass",
-        ///tconstruct:smeltery\/melting\/metal\/brass\/(.*)/,
-        //删除齿轮,杆，板铸模配方
-        /tconstruct:smeltery\/casts\/(.*)\/gear/,
-        /tconstruct:smeltery\/casts\/(.*)\/rod/,
-        /tconstruct:smeltery\/casts\/(.*)\/plate/,
         //删除TiC安山合金配方
         /tconstruct:compat\/create\/andesite_alloy_(.*)/,
         //删除TiC熔融粘土配方
@@ -36,18 +24,6 @@ ServerEvents.recipes(event => {
         "tconstruct:smeltery/casting/filling/seared_fuel_tank",
         "tconstruct:smeltery/casting/filling/seared_lantern_full",
         "tconstruct:smeltery/casting/filling/seared_lantern_pixel",
-        //钨
-        "tconstruct:smeltery/alloys/tungsten",
-        /tconstruct:smeltery\/melting\/metal\/tungsten\/(.*)/,
-        //饿
-        "tconstruct:smeltery/alloys/osmium",
-        /tconstruct:smeltery\/melting\/metal\/osmium\/(.*)/,
-        //琥珀金合金配方
-        "tconstruct:smeltery/alloys/electrum",
-        //玫瑰金合金配方
-        "tconstruct:smeltery/alloys/rose_gold",
-        //殷钢合金配方
-        "tconstruct:smeltery/alloys/invar",
         //铁粒
         "tconstruct:smeltery/melting/metal/iron/nugget",
         //玻璃
@@ -71,11 +47,7 @@ ServerEvents.recipes(event => {
         'tconstruct:smeltery/melting/seared/seared_casting_tank',
         'tconstruct:tools/materials/melting/glass',
         //末影之眼
-        'tconstruct:smeltery/casting/ender/eye',
-        //冶炼铝
-        'tconstruct:smeltery/melting/metal/aluminium/ore_singular',
-        'tconstruct:smeltery/melting/metal/aluminium/raw',
-        'tconstruct:smeltery/melting/metal/aluminium/raw_block'
+        'tconstruct:smeltery/casting/ender/eye'
     ])
 })
 //熔铸炉矿物配方
