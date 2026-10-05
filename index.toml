@@ -9472,6 +9472,11 @@ hash = "39e65bf3c47517cdb2f9b4b49c6632dd56db797744faaf8b1a3726b1b95aacb4"
 metafile = true
 
 [[files]]
+file = "mods/ftbxaerocompat.pw.toml"
+hash = "9b5dc02e76cda6169aa572d4e4bd67c34512508fa5c2fa5842deaee6379b7de6"
+metafile = true
+
+[[files]]
 file = "mods/functional-storage.pw.toml"
 hash = "ea05f8426dda347174d1690299c4517a489c6c17370a98fd812e9d06ce1dbcfd"
 metafile = true
