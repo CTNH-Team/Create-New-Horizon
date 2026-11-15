@@ -9887,6 +9887,11 @@ hash = "4a4db10bdf63f6db2d954869f6841ee076d1ad7b4ed33066354d4a5998ff3172"
 metafile = true
 
 [[files]]
+file = "mods/structure-layout-optimizer.pw.toml"
+hash = "2e3c8fbad795d650191aeb4cc1ebcd69ff5679531849c36a7e520e92930defbf"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "3df842ab5dfbb1a1813b974107d2c1c9174ca57d51760f436c30519824a52443"
 metafile = true
