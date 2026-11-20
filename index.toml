@@ -9485,7 +9485,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftbxaerocompat.pw.toml"
-hash = "9b5dc02e76cda6169aa572d4e4bd67c34512508fa5c2fa5842deaee6379b7de6"
+hash = "0313e69f8f13ddd9fbbc3f6b8ccdef53c0e986475be511bc39bd30842b316457"
 metafile = true
 
 [[files]]
@@ -9899,6 +9899,11 @@ hash = "4a4db10bdf63f6db2d954869f6841ee076d1ad7b4ed33066354d4a5998ff3172"
 metafile = true
 
 [[files]]
+file = "mods/structure-layout-optimizer.pw.toml"
+hash = "2e3c8fbad795d650191aeb4cc1ebcd69ff5679531849c36a7e520e92930defbf"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "3df842ab5dfbb1a1813b974107d2c1c9174ca57d51760f436c30519824a52443"
 metafile = true
@@ -10000,12 +10005,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "eb48e8709268d9d4daeaba8d8844fa47e4e42fe2c6767ab39eca10e7852abf1e"
+hash = "5897f458285d512c3c6d2ca4d82747fc6e2828a562b209312ccbb74d5cc15125"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "8c1d85564af53d61caf23b502b60c494d33450a670093fdd3e2f412368682ecc"
+hash = "bdea6efdca7bd778a06437a865559c8019f200b798cae419cc37818d6d4f989c"
 metafile = true
 
 [[files]]
