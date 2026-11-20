@@ -100,3 +100,19 @@ kinetic:
   # Default: 512
   laserStressRequirement: 512.0
 
+# Random Teleport (/rtp)
+rtp:
+  # How many candidate chunks a single /rtp search keeps generating at the same time
+  # Higher shortens the wait but piles more chunk generation into the same server tick
+  # Default: 2
+  rtpWindowSize: 2
+
+  # Global cap on concurrent chunk requests across every player using /rtp
+  # Raise it only if the server can absorb that much chunk generation
+  # Default: 4
+  rtpMaxGlobalInFlight: 4
+
+  # How many fallback neighbour chunks the 3x3 scan generates at once
+  # Default: 2
+  rtpFallbackConcurrency: 2
+

@@ -67,32 +67,9 @@
     "compressor": true
   },
   "gtceu": {
-    "primitive_pump": true,
-    "auto_output_info": true,
-    "bloodaltar_status_provider": true,
-    "workable_provider": true,
-    "transformer": true,
-    "energy_converter_provider": true,
-    "multiblock_structure": true,
-    "recipe_logic_provider": true,
-    "manamachine_mana_status_provider": true,
-    "living_machine_status_provider": true,
-    "maintenance_info": true,
-    "eternal_wos_status_provider": true,
-    "machine_mode": true,
-    "steam_boiler_info": true,
-    "recipe_output_info": true,
+    "machine": true,
     "stained_color": true,
-    "cable_info": true,
-    "parallel_info": true,
-    "gem_sublimator_status_provider": true,
-    "manamachine_status_provider": true,
-    "manahatch_status_provider": true,
-    "controllable_provider": true,
-    "exhaust_vent_info": true,
-    "electric_container_provider": true,
-    "hazard_cleaner_provider": true,
-    "data_bank": true
+    "cable_info": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -164,6 +141,6 @@
     "jade/ender_emitter": true
   },
   "ctpp": {
-    "kinetic_output_machine_provider": true
+    "placeable_emitter": true
   }
 }

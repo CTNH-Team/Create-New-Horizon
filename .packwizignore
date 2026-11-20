@@ -112,5 +112,6 @@ config/*
 !config/openloader
 !config/krypton_hybrid-common.toml
 !config/krypton_hybrid.zdict
+!config/asynclogger.toml
 
 /kubejs

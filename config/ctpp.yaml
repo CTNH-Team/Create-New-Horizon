@@ -79,3 +79,8 @@ clientConfig:
   # Whether toolbox opening and closing sounds are enabled
   toolboxSounds: true
 
+# Voltage terminal configuration
+terminalConfig:
+  # Maximum distance between two voltage terminals (16..2147483647)
+  terminalMaxConnectionRange: 32
+
